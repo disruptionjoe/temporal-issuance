@@ -77,14 +77,14 @@ Tasks:
 
 ## Phase 2: Formal Object Pressure
 
-Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, and decomposed by RUN-0021.
+Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, decomposed by RUN-0021, and steelmanned by RUN-0022.
 
 Tasks:
 
 - run W002 against `IssuanceSystem`: complete in `agent-runs/RUN-0012-w002-component-pressure-pass.md`
 - define components without circular time assumptions: active, now split across `C`, `<=_S`, and `Ext_S`
 - identify collapse risks: active, with time-as-finality readout absorption recorded in `RUN-0019`
-- produce revised object or kill the object: pending ontology and survivor competition discriminator
+- produce revised object or kill the object: pending fixture-based ontology and survivor competition discriminator
 
 ## Phase 3: Testable Claims
 
@@ -135,5 +135,7 @@ Tasks:
 - record absorption if the survivor collapses: partial; observer-readout components absorbed by time-as-finality-style machinery
 - run TaF persona divergent assessment against `SourceRealization`: complete in `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`
 - add post-RUN-0019 ontology-resolution correction: complete in `agent-runs/RUN-0021-post-0019-ontology-resolution-recommendations.md`
-- run ontology and survivor competition before accepting the source-order residue: next
+- run 62-persona steelman and Hegelian pass: complete in `agent-runs/RUN-0022-taf-persona-steelman-hegelian-pass.md`
+- create steelman and ontology fixture research improvements: complete in `HYPOTHESIS-STEELMAN.md`, `explorations/E004-research-improvements-from-steelman-pass.md`, and `explorations/E005-ontology-competition-fixture-suite.md`
+- run fixture-based ontology and survivor competition before accepting the source-order residue: next
 - run source-order absorption discriminator against `<=_S` and `Ext_S` if source order remains leading after ontology competition

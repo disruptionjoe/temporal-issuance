@@ -518,3 +518,20 @@ What was promoted: None.
 New blockers: Need ontology competition before narrow source-order absorption.
 Recommended next run: W000 -> ontology and survivor competition discriminator.
 Files changed: `agent-runs/RUN-0021-post-0019-ontology-resolution-recommendations.md`, `explorations/E003-source-residue-ontology-competition-brief.md`, `FORMAL-OBJECT.md`, `CLAIM-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/future-run-queue.md`, `memory/daily-review/2026-06-22-divergent-persona-assessment.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0022
+
+Timestamp: 2026-06-21 22:26:21 -05:00
+Trigger: manual_request
+Workflow: taf_persona_steelman_hegelian_pass
+Agent / subagents used: Repo Steward using all 62 numbered Time as Finality expert personas.
+Current strongest version: Temporal Issuance is strongest as an admissible source-extension hypothesis: source-side constraints become admissibly extended, and observer histories are lossy projections of that extension.
+Current strongest objection: Steelmanning does not promote the claim; the steelmanned version must beat `NULL-SURVIVOR` using shared fixtures.
+What collapsed: Treating `<=_S` as automatically primary. RUN-0022 suggests it may be a derived shadow of `Ext_S`.
+What survived: Source/readout split, component decomposition, `Ext_S` as the likely load-bearing component, and the need for ontology competition.
+What was absorbed: The 62-persona pass was converted into `HYPOTHESIS-STEELMAN.md`, a research-improvements file, and an ontology fixture suite.
+What was clarified: The next run should steelman first, then attack with fixtures.
+What was promoted: None.
+New blockers: Need fixture-based ontology competition.
+Recommended next run: W000 -> fixture-based ontology and survivor competition discriminator.
+Files changed: `agent-runs/RUN-0022-taf-persona-steelman-hegelian-pass.md`, `HYPOTHESIS-STEELMAN.md`, `explorations/E004-research-improvements-from-steelman-pass.md`, `explorations/E005-ontology-competition-fixture-suite.md`, `CLAIM-LEDGER.md`, `FORMAL-OBJECT.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/daily-review/2026-06-22-divergent-persona-assessment.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

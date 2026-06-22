@@ -80,6 +80,17 @@ Ext_S
 
 Each component needs its own absorber threats, kill criteria, resurrection criteria, and status. The next research run should use `explorations/E003-source-residue-ontology-competition-brief.md` to compare source-side ontology competitors, including `NULL-SURVIVOR`.
 
+RUN-0022 steelman correction:
+
+The strongest constructive reading treats `Ext_S` as the likely load-bearing component:
+
+```text
+source-side constraints become admissibly extended,
+and observer histories are lossy projections of that extension.
+```
+
+Use `HYPOTHESIS-STEELMAN.md` as the strongest target and `explorations/E005-ontology-competition-fixture-suite.md` as the shared test surface for ontology competition.
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?
