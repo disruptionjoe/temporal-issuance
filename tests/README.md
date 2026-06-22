@@ -1,0 +1,19 @@
+---
+artifact_type: test_index
+status: active
+governance_role: test_registry
+constitutional: false
+---
+
+# Tests
+
+Tests may be mathematical, conceptual, computational, adversarial, or governance-oriented.
+
+Launch tests:
+
+1. Full absorption test.
+2. Circularity test.
+3. Formal-work test.
+4. Category-error test.
+5. Local-minimum risk test.
+
