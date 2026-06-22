@@ -711,8 +711,7 @@ notes: >
   Followed the current W008/W009 bridge tree through BMS, holonomy, TQFT/conformal/quantum
   variants, and divergent-persona checks. Verdict: current Temporal Issuance does not derive
   physics; successful physics-facing realizations import or identify with known physical
-  structure. Next trigger: formal residue documentation, unless explicit source-generated
-  dynamics specification is requested.
+  structure. RUN-0034 later qualified this with a conditional CelExt bridge.
 ```
 
 ```yaml
@@ -728,8 +727,33 @@ run_id: RUN-0032_appendix
     independent of bulk Hamiltonian. Category G is NOT killed; status is CONDITIONAL LIVE ROUTE.
     BL-001' (profunctor formulation) identified as weaker alternative to BL-001.
   date: 2026-06-22
-  superseded_by: RUN-0033
-  current_status: retained_as_appendix_not_current_next_trigger
+  superseded_by: RUN-0034
+  current_status: retained_as_appendix_that_opened_the_CelExt_route
+```
+
+```yaml
+run_id: RUN-0034
+workflow_used: W000 -> W008_Category_G_celestial_boundary_bridge
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C013_updated, TI-C015_qualified, TI-C016_added_formalizing]
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [RUN-0034, E013-celestial-boundary-physics-bridge]
+daily_review_items_added: false
+estimated_token_intensity: high
+parallel_lanes_used: five_reviewer_synthesis
+notes: >
+  Tested the celestial-boundary route surfaced by the Category G anti-local-minimum pass.
+  Verdict: conditional physics bridge possible through independently specified CelExt, but
+  current TI primitives do not derive physics. Next trigger: CelExt fixture suite unless
+  formal residue documentation is chosen.
 ```
 
 ## Use Rules

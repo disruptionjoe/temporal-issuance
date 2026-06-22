@@ -50,6 +50,18 @@ formal_residue_survives: yes
 best_next_research_program: formal_extension_category_theory_plus_optional_source_generated_dynamics_only_if_new_axioms_are_added
 ```
 
+Post-RUN-0034 qualification:
+
+```yaml
+conditional_physics_bridge_found_after_RUN_0033: yes
+bridge: CelExt -> BMS soft charge / memory structure
+status: conditional_new_hypothesis
+effect_on_RUN_0033_verdict: >
+  RUN-0033 remains correct for current TI primitives. RUN-0034 adds that a physics bridge is
+  possible if ExtCat is upgraded or identified with an independently specified celestial
+  boundary category.
+```
+
 Temporal Issuance currently derives no physical observable, equation of motion, symmetry group,
 metric, action, charge, or mass-energy relation from its source-side primitives.
 

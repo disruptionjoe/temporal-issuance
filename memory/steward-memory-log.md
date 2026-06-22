@@ -756,7 +756,7 @@ What was promoted: TI-C013 moved from speculative to formalizing (conditional ho
 New blockers: (1) Does the celestial boundary CFT satisfy the ExtCat admissibility structure? (2) Is the boundary BMS action source-side in the TI sense, or does holographic duality collapse source/target? (3) Does boundary Q_f require the bulk to define the boundary Noether charge?
 Recommended next run: W008 Category G holographic sub-route — formalize the celestial boundary CFT as a category; verify admissibility structure; show BMS acts on boundary independently of bulk Hamiltonian; define Q_f as boundary Noether charge; apply ICO' trichotomy to boundary Q_f.
 Supersession: RUN-0034 ran this appendix's local next-run recommendation. Current next trigger is the `CelExt` fixture suite, or formal residue documentation if Joe pauses the physics bridge.
-Files changed: `agent-runs/RUN-0032-w008-category-g-bms-soft-charges.md`, `memory/path-kills.md` (two new entries), `agent-governance/STEWARD-METRICS.md` (signal appended), `memory/steward-memory-log.md` (this entry), `ROADMAP.md` (Phase 1E log updated).
+Files changed: `agent-runs/RUN-0035-w008-category-g-bms-formal-pass.md`, `memory/path-kills.md` (two new entries), `agent-governance/STEWARD-METRICS.md` (signal appended), `memory/steward-memory-log.md` (this entry), `ROADMAP.md` (Phase 1E log updated).
 
 ## RUN-0034
 

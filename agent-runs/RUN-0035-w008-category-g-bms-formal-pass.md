@@ -1037,7 +1037,7 @@ Both require formalizing the additional structure identified in Phase 4.
 
 ## Files Changed
 
-- `agent-runs/RUN-0034-w008-category-g-bms-formal-pass.md` (this file)
+- `agent-runs/RUN-0035-w008-category-g-bms-formal-pass.md` (this file)
 - `CLAIM-LEDGER.md` (TI-C013 updated: speculative -> formalizing, conditioned on holographic route)
 - `memory/path-kills.md` (new entry: pull-back construction killed; celestial relabeling killed)
 - `agent-governance/NEXT-TRIGGER-PLAN.md` (replaced with updated version)

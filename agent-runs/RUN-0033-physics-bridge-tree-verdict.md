@@ -54,6 +54,15 @@ formal_residue_survives: yes
 independent_bridge_found: no
 ```
 
+Postscript after RUN-0034:
+
+```yaml
+conditional_bridge_found_after_this_run: yes
+bridge: CelExt -> BMS soft charge / memory structure
+status: conditional_new_hypothesis
+does_not_change: current_TI_primitives_do_not_derive_physics
+```
+
 Temporal Issuance currently does not derive a physical observable, equation of motion, symmetry
 group, metric, action, charge, mass, or `E = mc^2`.
 
@@ -127,8 +136,8 @@ daily_review_updated_if_needed: not_applicable
 governance_changes_logged_if_any: not_applicable
 metrics_updated: true
 vsm_map_checked: true
-checks_run_or_skipped_with_reason: pending
-commit_pushed: pending
+checks_run_or_skipped_with_reason: git diff --check passed
+commit_pushed: true
 ```
 
 ## Files Changed

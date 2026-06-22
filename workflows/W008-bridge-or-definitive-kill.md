@@ -408,7 +408,35 @@ Stop and present to Joe before proceeding.
 
 ---
 
-## Current Escape-Route Status (as of RUN-0033)
+## Current Escape-Route Status (as of RUN-0034)
+
+```yaml
+Category_G_CelExt_boundary_bridge:
+  status: conditional_live_new_hypothesis
+  evidence: [RUN-0034, E013]
+  result: >
+    If ExtCat is upgraded or identified with an independently specified celestial boundary
+    category, then BMS acts on boundary morphisms and Q_f is a boundary Noether charge.
+  not_earned: derivation_from_current_TI_primitives
+  next_test: CelExt_fixture_suite
+  fixtures:
+    - object_fixture
+    - morphism_fixture
+    - composition_fixture
+    - BMS_functoriality_fixture
+    - source_side_Q_f_fixture
+    - absorber_fixture
+
+Category_G_absorbed_ExtCat_BMS:
+  status: killed_as_independent_bridge
+  evidence: [RUN-0032, E011]
+
+current_next_trigger:
+  primary: CelExt_fixture_suite
+  alternate: formal_residue_documentation_if_Joe_prefers
+```
+
+## Historical Escape-Route Status (as of RUN-0033)
 
 ### Track A - Physics escape routes
 
@@ -422,7 +450,7 @@ Category_G_BMS_soft_charges:
   status: absorbed_realization_not_independent_bridge
   evidence: [RUN-0032, E011]
   result: ExtCat_BMS can be constructed only by identifying ExtCat with asymptotic radiative phase space
-  detailed_appendix: RUN-0035-w008-category-g-bms-formal-pass opened conditional celestial-holography/profunctor routes, superseded by RUN-0033
+  detailed_appendix: RUN-0035-w008-category-g-bms-formal-pass opened conditional celestial-holography/profunctor routes; RUN-0034 tested the celestial route
   BL_001: passes_only_for_absorbed_ExtCat_BMS
   BL_002: passes_only_under_BMS_radiative_object_policy
   BL_007: fails_independent_source_side_test

@@ -148,8 +148,8 @@ daily_review_updated_if_needed: not_applicable
 governance_changes_logged_if_any: not_applicable
 metrics_updated: true
 vsm_map_checked: true
-checks_run_or_skipped_with_reason: pending
-commit_pushed: pending
+checks_run_or_skipped_with_reason: git diff --check passed
+commit_pushed: true
 ```
 
 ## References Checked
