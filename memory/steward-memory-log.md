@@ -705,3 +705,72 @@ What was promoted: No claims promoted. TI-C012 and TI-C013 added as speculative.
 New blockers: BL-001 (BMS action on ExtCat definition) is the blocking step for the BMS mechanism.
 Recommended next run: W000 -> W008 Category G (BMS soft charges / asymptotic symmetry) — attempt to define BMS action on ExtCat.
 Files changed: `agent-runs/RUN-0031-w009-heterodox-bridge-incubator.md`, `explorations/E010-heterodox-bridge-incubator-synthesis.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0032
+
+Timestamp: 2026-06-22 00:48:22 -05:00
+Trigger: manual_request_physics_bridge_goal
+Workflow: W000 -> W008 Category G
+Agent / subagents used: Repo Steward; Category Theorist, Relativity/BMS Specialist, Mathematical Physicist, Philosophy of Science Reviewer, Adversarial Skeptic.
+Current strongest version: If `ExtCat` is defined as the BMS radiative history category at null infinity, BMS supertranslation charges are morphism-level invariants of admissible extensions.
+Current strongest objection: This is bridge by identification. `Q_f` is source-side only because the source category has been defined as BMS radiative phase space.
+What collapsed: The independent route `generic Ext_S -> BMS action -> source-side Q_f -> physics bridge`.
+What survived: An absorbed BMS realization theorem, BMS soft charges as morphism-level observables in standard asymptotic physics, and the holonomy route as the strongest next non-absorbed candidate.
+What was absorbed: The BMS action and charge definition are absorbed by asymptotic-symmetry / covariant-phase-space physics.
+What was clarified: BL-001 and BL-002 pass only for absorbed `ExtCat_BMS`; BL-007 fails as an independent Temporal Issuance bridge.
+What was promoted: No existing claim was promoted. TI-C014 was added as formalizing absorbed realization.
+New blockers: No pre-BMS source-side action was found.
+Recommended next run: W000 -> holonomy route.
+Files changed: `agent-runs/RUN-0032-w008-category-g-bms-action.md`, `explorations/E011-bms-action-physics-bridge-attempt.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0033
+
+Timestamp: 2026-06-22 00:48:22 -05:00
+Trigger: updated_goal_follow_tree_until_physics_or_not
+Workflow: W000 -> W008/W009 tree closure
+Agent / subagents used: Repo Steward; divergent personas: Heterodox Defender, Category Theorist, Relativity/BMS Specialist, Gauge/Topology Specialist, Adversarial Skeptic.
+Current strongest version: Formal extension-category residue survives; conditional holonomy survives as formal residue; BMS/gauge/TQFT realizations are compatibility checks.
+Current strongest objection: Current Temporal Issuance derives no physical observable, action, symmetry, metric, charge, or mass-energy relation. Every successful physics-facing realization imports or identifies with known physical structure.
+What collapsed: Independent BMS soft-charge bridge, holonomy as independent physics bridge, and the current bridge tree as a route to deriving physics from Temporal Issuance.
+What survived: Formal extension-category residue and the possibility of a future source-generated dynamics program with new explicit axioms.
+What was absorbed: BMS, gauge/holonomy, TQFT, conformal, and quantum target realizations absorb the physics when chosen as targets.
+What was clarified: The next work should be formal residue documentation, unless Joe explicitly requests a source-generated dynamics specification with action/measure/symmetry/metric/observable axioms.
+What was promoted: No claim was promoted. TI-C015 was added as archived verdict claim.
+New blockers: A physics program now requires new source-generated dynamics axioms, not another known-target bridge.
+Recommended next run: W000 -> formal residue documentation, or source-generated dynamics specification only on explicit request.
+Files changed: `agent-runs/RUN-0033-physics-bridge-tree-verdict.md`, `explorations/E012-physics-bridge-tree-verdict.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0032 Appendix (W008 Category G detailed formal pass)
+
+Timestamp: 2026-06-22
+Trigger: W008 Category G dispatch (full four-phase formal analysis per W008 spec)
+Workflow: W008 Category G — BMS soft charges / asymptotic symmetry
+Agent / subagents used: Repo Steward; 4 adversarial skeptics (BMS expert, Category theorist, Physicist skeptic of kill, Holographic physicist).
+Current strongest version: Category G is CONDITIONALLY LIVE via the celestial holography route. If `ExtCat` is identified with the celestial boundary CFT (the independent holographic dual of flat spacetime), BMS acts on `ExtCat` as the boundary conformal symmetry group, Q_f is the boundary Noether charge, and this action is kinematically independent of the bulk Hamiltonian. BL-001 and BL-007 would both be satisfied in this setting.
+Current strongest objection: The celestial holographic identification makes `ExtCat = boundary-CFT` physically equivalent to `LorHist_BMS = bulk` by holographic duality. The source/target distinction is preserved in formalism but collapsed in physics. The boundary Q_f may require knowing the bulk to define the boundary stress tensor Noether charge. The independence question is unresolved.
+What collapsed: Attempt 3.1 (pull-back, killed — ICO'-1). Attempt 3.3 (celestial relabeling, killed — ICO'-1 and source/target collapse). Two path kills recorded in path-kills.md.
+What survived: Attempt 3.2 (intrinsic parametrization, conditional live — requires S^2-indexed source data independently motivated). Attempt 3.4 (independent BMS representation, conditional live — same condition). Skeptic 4 celestial holography route (live — provides the S^2 motivation via boundary-CFT identification). Skeptic 1 symplectic/w_{1+inf} route (conditional). Skeptic 2 profunctor BL-001' route (conditional). Skeptic 3 UnivCat Pi_S equivalence route (conditional).
+What was absorbed: None new. The prior RUN-0032 BMS action is absorbed; this run finds the holographic route is NOT absorbed in the same way.
+What was clarified: Category G was not killed at this appendix stage. The anti-local-minimum gate prevented premature closure and identified celestial holography plus BL-001' as conditional routes. RUN-0034 later ran the celestial route directly.
+What was promoted: TI-C013 moved from speculative to formalizing (conditional holographic route).
+New blockers: (1) Does the celestial boundary CFT satisfy the ExtCat admissibility structure? (2) Is the boundary BMS action source-side in the TI sense, or does holographic duality collapse source/target? (3) Does boundary Q_f require the bulk to define the boundary Noether charge?
+Recommended next run: W008 Category G holographic sub-route — formalize the celestial boundary CFT as a category; verify admissibility structure; show BMS acts on boundary independently of bulk Hamiltonian; define Q_f as boundary Noether charge; apply ICO' trichotomy to boundary Q_f.
+Supersession: RUN-0034 ran this appendix's local next-run recommendation. Current next trigger is the `CelExt` fixture suite, or formal residue documentation if Joe pauses the physics bridge.
+Files changed: `agent-runs/RUN-0032-w008-category-g-bms-soft-charges.md`, `memory/path-kills.md` (two new entries), `agent-governance/STEWARD-METRICS.md` (signal appended), `memory/steward-memory-log.md` (this entry), `ROADMAP.md` (Phase 1E log updated).
+
+## RUN-0034
+
+Timestamp: 2026-06-22 01:01:00 -05:00
+Trigger: active_goal_follow_tree_until_physics_or_not
+Workflow: W000 -> W008 Category G holographic sub-route
+Agent / subagents used: Repo Steward; Category Theorist, Lorentzian/Celestial Geometer, Relativity Physicist, GU Specialist/Skeptic, Philosophy of Science Reviewer.
+Current strongest version: Temporal Issuance has a conditional physics bridge if `ExtCat` is upgraded or identified with an independently specified celestial boundary category `CelExt`; BMS can act on boundary morphisms and `Q_f` can be a boundary Noether charge.
+Current strongest objection: This is not derived from current TI primitives. The boundary state/operator algebra, current/action or symplectic structure, BMS representation, and admissibility predicate are imported from celestial holography unless a future fixture suite reconstructs them from source admissibility.
+What collapsed: The stronger claim that current Temporal Issuance derives physics. The route also collapses if `CelExt` is only celestial S-matrix relabeling.
+What survived: A legitimate conditional bridge to known physics: `CelExt -> BMS soft-charge/memory structure`.
+What was absorbed: The route is absorbed if every `CelExt` morphism or `Q_f` definition requires prior bulk S-matrix or radiative phase-space data.
+What was clarified: The next level is not another broad bridge search; it is a `CelExt` fixture suite testing boundary objects, morphisms, composition, BMS functoriality, source-side `Q_f`, and absorber status.
+What was promoted: No claim was promoted. TI-C016 was added as formalizing conditional bridge claim.
+New blockers: Need a finished enough `CelExt` admissibility model; celestial holography is not yet a completed rigorous boundary CFT for all flat-space gravity.
+Recommended next run: W000 -> `CelExt` fixture suite, unless Joe explicitly asks for formal residue documentation first.
+Files changed: `agent-runs/RUN-0034-celestial-boundary-physics-bridge.md`, `explorations/E013-celestial-boundary-physics-bridge.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

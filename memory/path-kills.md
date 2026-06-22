@@ -179,3 +179,101 @@ claim_refs:
   - TI-C009
   - TI-C010
 ```
+
+## RUN-0032
+
+```yaml
+path: BMS soft charges as an independent source-side Temporal Issuance physics bridge
+reason_killed: RUN-0032 constructed a BMS-covariant category only by defining ExtCat_BMS as the category of asymptotic radiative intervals at null infinity. In that category BMS acts functorially and Q_f is a morphism-level invariant, but both the action and the charge definition come from standard BMS/covariant-phase-space physics. Q_f is source-side only because the source category has been identified with target physics.
+evidence: `explorations/E011-bms-action-physics-bridge-attempt.md` and `agent-runs/RUN-0032-w008-category-g-bms-action.md`.
+local_minimum_risk: Low-medium. BMS soft charges remain a real morphism-level physical observable, but the independent bridge fails unless a pre-BMS ExtCat carries a BMS action before radiative null-infinity data is imported.
+possible_future_resurrection_trigger: A definition of typed source constraints and admissible source extensions that admits a BMS group action and produces Q_f as a Noether charge before identifying the source category with asymptotic radiative phase space.
+run_ref: RUN-0032
+claim_refs:
+  - TI-C013
+  - TI-C014
+  - TI-C015
+```
+
+## RUN-0033
+
+```yaml
+path: Holonomy of Ext_S connection as an independent physics bridge
+reason_killed: RUN-0033 constructs a conditional formal holonomy invariant for loop-bearing ExtCat with a non-flat connection, but it becomes physical only after importing a known physical connection or target: gauge theory, Berry phase, GR connection variables, or TQFT. Without that imported target, holonomy is formal category/gauge data with no physical observable.
+evidence: `explorations/E012-physics-bridge-tree-verdict.md` and `agent-runs/RUN-0033-physics-bridge-tree-verdict.md`.
+local_minimum_risk: Medium. Holonomy remains the strongest formal residue and could become physical in a new source-generated dynamics program, but no such dynamics is currently specified.
+possible_future_resurrection_trigger: A source-generated connection on ExtCat, with curvature/holonomy derived from admissibility rules and an independently defined empirical observable not equivalent to Wilson loops, Berry phases, GR holonomies, or TQFT partition data by definition.
+run_ref: RUN-0033
+claim_refs:
+  - TI-C012
+  - TI-C015
+```
+
+```yaml
+path: Deriving physics from current Temporal Issuance primitives under the explored W008/W009 bridge tree
+reason_killed: RUN-0033 followed the current tree through Poincare mass-energy, BMS soft charges, holonomy, TQFT/conformal/quantum variants, and divergent-persona local-minimum checks. Every successful physics-facing realization imports or identifies with known physical structure. Every independent source-side structure remains formal and lacks a physical observable, action, measure, metric, or symmetry derivation.
+evidence: `explorations/E012-physics-bridge-tree-verdict.md`, `agent-runs/RUN-0033-physics-bridge-tree-verdict.md`, RUN-0025, RUN-0028 BDO, RUN-0029 ICO, RUN-0031 W009, and RUN-0032 BMS action attempt.
+local_minimum_risk: Medium. This is not a theorem against all imaginable future theories; it is a kill of the current bridge tree and target-selection strategy.
+possible_future_resurrection_trigger: A new source-generated dynamics program with explicit ExtCat-native action or measure, symmetry group, metric/causal reconstruction, physical observable, and absorber comparison; or a `CelExt` fixture suite showing that an independently specified celestial boundary category satisfies TI admissibility and defines `Q_f` internally without prior bulk S-matrix/radiative phase-space data. Merely choosing a known physical target and calling it ExtCat is not sufficient.
+run_ref: RUN-0033
+claim_refs:
+  - TI-C007
+  - TI-C012
+  - TI-C013
+  - TI-C014
+  - TI-C015
+```
+
+## RUN-0032 (W008 Category G detailed pass)
+
+```yaml
+path: BMS group action on ExtCat morphisms via pull-back construction (Attempt 3.1)
+reason_killed: >
+  The pull-back construction g · e := F^{-1}(g · F(e)) requires F: ExtCat -> LorHist_BMS to
+  be invertible. F is generically non-injective (multiple source extensions can map to the same
+  Lorentzian history) and non-surjective (LorHist_BMS contains histories with no source-side
+  preimage). Even when F is an equivalence, the action is target-defined: it applies g in
+  LorHist_BMS and pulls back, importing target-side BMS structure. Falls to ICO'-1 (target
+  physics import). No independent source-side BMS action is produced.
+evidence: >
+  Phase 3, Attempt 3.1 in `agent-runs/RUN-0035-w008-category-g-bms-formal-pass.md`.
+local_minimum_risk: >
+  Low for the pull-back construction specifically. The failure is structural: the pull-back
+  requires F to be invertible and produces a target-derived action regardless. No modification
+  of the pull-back template escapes ICO'-1 unless F is redefined as a source-to-boundary
+  equivalence (which is the holographic route addressed separately).
+possible_future_resurrection_trigger: >
+  An independent demonstration that F: ExtCat -> LorHist_BMS is an equivalence of categories
+  (meaning source constraints uniquely determine the Lorentzian history), combined with a
+  source-side motivation for the BMS action that does not rely on the pull-back. Under
+  equivalence, the pull-back would give a valid BMS action, but the equivalence itself is
+  the strong substantive claim requiring independent proof.
+run_ref: RUN-0032 (W008 Category G detailed pass)
+claim_refs:
+  - TI-C013
+```
+
+```yaml
+path: Celestial amplitude reinterpretation of ExtCat morphisms (Attempt 3.3)
+reason_killed: >
+  Identifying ExtCat morphisms with celestial amplitudes (S-matrix elements in celestial
+  coordinates) makes ExtCat a relabeling of LorHist_BMS in celestial coordinates, not an
+  independent source-side category. The w_{1+infinity} action on celestial amplitudes is the
+  standard action on the target S-matrix. The source/target distinction — which is the core
+  claim Category G needs to establish — is collapsed by the identification. The construction
+  falls to ICO'-1 and additionally fails to preserve source/target independence.
+evidence: >
+  Phase 3, Attempt 3.3 in `agent-runs/RUN-0035-w008-category-g-bms-formal-pass.md`.
+local_minimum_risk: >
+  Low for the direct reinterpretation. The celestial holographic route (Skeptic 4) is a
+  different, conditional-live version that preserves the source/target distinction by treating
+  the boundary CFT as an independent physical theory. That route is NOT killed here.
+possible_future_resurrection_trigger: >
+  A formulation in which celestial amplitudes are re-derived from source constraint data,
+  rather than being identified as source data from the start. This would require showing that
+  the Mellin transform of source extension data reproduces celestial amplitude structure without
+  presupposing the S-matrix.
+run_ref: RUN-0032 (W008 Category G detailed pass)
+claim_refs:
+  - TI-C013
+```

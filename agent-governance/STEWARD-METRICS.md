@@ -661,6 +661,77 @@ notes: >
   kills from Phase 6. Next: W008 Category G (BMS soft charges).
 ```
 
+```yaml
+run_id: RUN-0032
+workflow_used: W000 -> W008_Category_G_BMS_action_attempt
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C013_weakened, TI-C014_added_formalizing]
+path_killed: true
+  path: BMS_soft_charges_as_independent_source_side_TI_physics_bridge
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [RUN-0032, E011-bms-action-physics-bridge-attempt]
+daily_review_items_added: false
+estimated_token_intensity: high
+parallel_lanes_used: simulated_five_reviewer_synthesis
+notes: >
+  Constructed ExtCat_BMS as an absorbed BMS/asymptotic-radiative history category. BL-001
+  and BL-002 pass only in the absorbed setting; BL-007 fails as an independent Temporal
+  Issuance bridge. Next route moved to holonomy.
+```
+
+```yaml
+run_id: RUN-0033
+workflow_used: W000 -> W008_W009_physics_bridge_tree_verdict
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C012_formalizing, TI-C015_added_archived]
+path_killed: true
+  paths:
+    - holonomy_as_independent_physics_bridge
+    - deriving_physics_from_current_TI_under_explored_tree
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [RUN-0033, E012-physics-bridge-tree-verdict]
+daily_review_items_added: false
+estimated_token_intensity: high
+parallel_lanes_used: divergent_persona_local_minimum_check
+notes: >
+  Followed the current W008/W009 bridge tree through BMS, holonomy, TQFT/conformal/quantum
+  variants, and divergent-persona checks. Verdict: current Temporal Issuance does not derive
+  physics; successful physics-facing realizations import or identify with known physical
+  structure. Next trigger: formal residue documentation, unless explicit source-generated
+  dynamics specification is requested.
+```
+
+```yaml
+run_id: RUN-0032_appendix
+  signal: >
+    W008 Category G (BMS soft charges): Detailed four-phase analysis with anti-local-minimum
+    gate. Attempts 3.1 (pull-back) and 3.3 (celestial relabeling) killed with precise
+    obstructions (ICO'-1). Attempts 3.2 (intrinsic parametrization) and 3.4 (independent BMS
+    representation) survive conditionally, requiring S^2-indexed source constraint data
+    independently motivated. Anti-local-minimum gate (4 skeptics) confirms local minimum is
+    NOT confirmed: Skeptic 4 (celestial holography) opens a genuine live route — ExtCat as
+    celestial boundary CFT with BMS acting as boundary symmetry, Q_f as boundary Noether charge,
+    independent of bulk Hamiltonian. Category G is NOT killed; status is CONDITIONAL LIVE ROUTE.
+    BL-001' (profunctor formulation) identified as weaker alternative to BL-001.
+  date: 2026-06-22
+  superseded_by: RUN-0033
+  current_status: retained_as_appendix_not_current_next_trigger
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

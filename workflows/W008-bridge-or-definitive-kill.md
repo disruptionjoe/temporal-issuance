@@ -408,7 +408,92 @@ Stop and present to Joe before proceeding.
 
 ---
 
-## Current Escape-Route Status (as of RUN-0029)
+## Current Escape-Route Status (as of RUN-0033)
+
+### Track A - Physics escape routes
+
+```yaml
+Poincare_mass_energy:
+  status: killed
+  evidence: [RUN-0025, RUN-0028_BDO, RUN-0029_ICO]
+  summary: generic Ext_S invariants do not derive Lorentzian/Poincare/Noether machinery
+
+Category_G_BMS_soft_charges:
+  status: absorbed_realization_not_independent_bridge
+  evidence: [RUN-0032, E011]
+  result: ExtCat_BMS can be constructed only by identifying ExtCat with asymptotic radiative phase space
+  detailed_appendix: RUN-0035-w008-category-g-bms-formal-pass opened conditional celestial-holography/profunctor routes, superseded by RUN-0033
+  BL_001: passes_only_for_absorbed_ExtCat_BMS
+  BL_002: passes_only_under_BMS_radiative_object_policy
+  BL_007: fails_independent_source_side_test
+  path_kill_recorded: true
+
+Holonomy_Category_F_H:
+  status: formal_residue_not_independent_physics_bridge
+  evidence: [RUN-0033, E012]
+  result: nontrivial holonomy is conditional on loops and non-flat connection, but physics requires importing a known physical connection/target
+  path_kill_recorded: true
+
+TQFT_conformal_quantum_known_target_variants:
+  status: screened_as_target_imports
+  evidence: [RUN-0033, E012]
+  result: no derivation without source-native action, measure, symmetry, metric, or observable
+
+source_generated_metric_or_dynamics:
+  status: not_constructed
+  route_status: possible_new_program_not_current_bridge_tree
+  minimum_required_axioms:
+    - source_action_or_measure
+    - source_symmetry
+    - metric_or_causal_reconstruction
+    - physical_observable
+    - absorber_comparison
+    - kill_condition
+```
+
+### Track B - Nonstandard realization lenses
+
+```yaml
+tree_level_status_after_RUN_0033:
+  status: not_a_current_physics_derivation
+  evidence: [RUN-0033, E012]
+  summary: nonstandard lenses remain possible formal/computational analogues, but do not derive physics without target-specific observables
+
+B1_sheaf_gluing:
+  status: formal_lens_available
+  physics_bridge_status: requires physical sheaf/observable not supplied
+
+B2_rigidity_constraint:
+  status: formal_lens_available
+  physics_bridge_status: requires empirical rigidity target not supplied
+
+B3_cellular_automata_coarse_graining:
+  status: formal_lens_available
+  physics_bridge_status: requires source-derived dynamics/action or measure
+
+B4_database_indexing_retrieval:
+  status: formal_lens_available
+  physics_bridge_status: nonphysics analogy unless empirical target supplied
+
+B5_zk_proof_carrying_computation:
+  status: formal_lens_available
+  physics_bridge_status: proof complexity observable is not physical without extra bridge
+
+B6_consensus_avalanche_finality:
+  status: formal_lens_available
+  physics_bridge_status: finality analogy does not derive physical structure
+```
+
+### Priority recommendation for next W008 invocations
+
+Do not run another physics bridge attempt that starts by choosing a known physical target and
+renaming it `ExtCat`. The next W000 cycle should route to formal residue documentation.
+
+Only run a new W008-style physics pass if Joe explicitly requests a source-generated dynamics
+program with ExtCat-native action/measure, symmetry, metric or causal reconstruction, physical
+observable, absorber comparison, and a kill condition.
+
+## Historical Escape-Route Status (as of RUN-0029, superseded by RUN-0032/RUN-0033)
 
 ### Track A — Physics escape routes
 
