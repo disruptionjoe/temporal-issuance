@@ -22,3 +22,5 @@ Absorption is not automatically a stop signal. Each absorber file should ask:
 See `absorbers/gap-map.md` for the current minimum absorber gaps that matter before W002.
 
 See `absorbers/primary-source-readiness.md` for source anchors and source gaps before claim upgrades or component kills.
+
+See `agent-governance/CROSS-REPO-CONTEXT-PROTOCOL.md` for how to use time-as-finality and GU formalization as prior-thinking context without merging claims.

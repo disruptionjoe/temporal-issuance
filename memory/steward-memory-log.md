@@ -399,3 +399,20 @@ What was promoted: None.
 New blockers: Need assessment before further formal work.
 Recommended next run: W004 assessment over RUN-0010 through RUN-0014.
 Files changed: `agent-runs/RUN-0014-two-observer-patch-test.md`, `explorations/E001-two-observer-patch-test.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0015
+
+Timestamp: 2026-06-22
+Trigger: manual_request
+Workflow: cross_repo_context_protocol
+Agent / subagents used: Repo Steward.
+Current strongest version: Temporal Issuance should use time-as-finality and GU formalization as prior-thinking context and local-minimum escape surfaces without merging ledgers or importing claims.
+Current strongest objection: Cross-repo context could blur project boundaries if treated as evidence rather than context.
+What collapsed: The assumption that Temporal Issuance should only consult its own repo when stuck.
+What survived: Separate claim ledgers, separate project identity, and no automatic claim promotion from adjacent repos.
+What was absorbed: Joe's guidance was converted into a cross-repo context protocol.
+What was clarified: W004 should assess whether context boundaries are tight enough.
+What was promoted: None.
+New blockers: None.
+Recommended next run: W004 assessment over RUN-0010 through RUN-0015.
+Files changed: `agent-runs/RUN-0015-cross-repo-context-protocol.md`, `agent-governance/CROSS-REPO-CONTEXT-PROTOCOL.md`, `absorbers/time-as-finality.md`, `absorbers/gu-formalization.md`, `absorbers/README.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `workflows/W000-repo-steward-cycle.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/future-run-queue.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.

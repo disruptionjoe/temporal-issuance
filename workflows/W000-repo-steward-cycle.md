@@ -36,6 +36,7 @@ Maximize the probability of reaching the correct verdict on the Temporal Issuanc
 11. `agent-governance/STEWARD-METRICS.md`
 12. `agent-governance/VSM-MAP.md`
 13. `agent-governance/RUN-NOMENCLATURE.md`
+14. `agent-governance/CROSS-REPO-CONTEXT-PROTOCOL.md`
 
 ## Decision Frame
 
@@ -55,6 +56,7 @@ The answer may be:
 - update the export queue
 - produce the daily learning brief or daily review artifact
 - pause for uncertainty-driven human review
+- consult cross-repo context when stuck or at local-minimum risk
 
 ## Hourly Operating Sequence
 

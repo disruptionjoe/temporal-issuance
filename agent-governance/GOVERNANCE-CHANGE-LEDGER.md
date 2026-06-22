@@ -94,3 +94,21 @@ risk: Future readers may still misread historical `SIM-RUN-*` filenames without 
 review_needed: false
 rollback_or_revisit_trigger: If historical run names continue to confuse readers, add frontmatter clarification to old run records without renaming files.
 ```
+
+```yaml
+change_id: GCH-0007
+timestamp: 2026-06-22
+run_id: RUN-0015
+changed_surface:
+  - agent-governance/CROSS-REPO-CONTEXT-PROTOCOL.md
+  - absorbers/time-as-finality.md
+  - absorbers/gu-formalization.md
+  - absorbers/README.md
+  - workflows/W000-repo-steward-cycle.md
+change_type: cross_repo_context_protocol
+reason: Joe clarified that Temporal Issuance should be aware of time-as-finality and GU formalization as prior-thinking context and local-minimum escape surfaces.
+expected_learning_value: Help the steward escape local minima without merging ledgers or importing adjacent claims as authority.
+risk: Cross-repo context could blur project boundaries if treated as evidence rather than context.
+review_needed: false
+rollback_or_revisit_trigger: If cross-repo context starts promoting claims or importing assumptions, narrow this protocol to explicit stuck-state use only.
+```
