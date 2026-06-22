@@ -20,11 +20,16 @@ layer. The immediate research objective is to make issuance precise. See `HYPOTH
 
 ## Phase 2B: Issuance Precision
 
-Status: active, first pass complete in RUN-0039.
+Status: active, categorical pass complete in RUN-0040.
 
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
-remains speculative.
+remained speculative after that pass.
+
+RUN-0040 completed the first categorical formalization pass. The unqualified categorical
+witness failed: broad closed-system categories can encode completed issuance histories in a
+fixed meta-schema. TI-C019 is weakened until the repo supplies a principled no-hidden-schema /
+no-anticipation constraint. A narrower online, prefix-faithful obstruction survives.
 
 Completed tasks:
 
@@ -36,20 +41,25 @@ Completed tasks:
 - five-way toy model: complete in `explorations/E016-issuance-precision-pass.md`
 - layer separation validated: observer temporal reconstruction is downstream of all four
   source-side cases, confirming the HYPOTHESIS.md vNext structure
+- categorical D4 pass: complete in `explorations/E017-d4-categorical-formalization.md`
+  and `agent-runs/RUN-0040-d4-categorical-formalization.md`
+- killed unqualified "no fully faithful functor `IssSys -> CloSys`" route
+- identified hidden ambient schema absorption as the categorical form of PP-1
 
 Open tasks:
 
-- categorical formalization of D4 (primary): define IssSys and CloSys categories; prove
-  no fully faithful functor from IssSys to CloSys; move TI-C019 toward formalizing
 - address meta-distribution regress (PP-1): build formal self-reference test for D4
-- Čech/sheaf fixture cross-linked to D4 (secondary): test whether typed admissibility
-  generates type-novel cocycle classes
-- only after categorical D4 formalization: test how issuance could connect to energy,
+  using `MetaCloSys` and `MetaIssSys`
+- state and test whether the no-hidden-schema / no-anticipation constraint is principled
+  rather than a protective stipulation
+- Cech/sheaf fixture cross-linked to D4 (secondary): test whether typed admissibility
+  generates type-novel cocycle classes under explicit no-hidden-schema constraints
+- only after PP-1 is resolved or narrowed: test how issuance could connect to energy,
   expansion, and structure formation without being absorbed
 
-Kill/absorb condition (still active): if categorical formalization of D4 fails — no functor
-proof exists separating IssSys from CloSys — or if PP-1 shows D4 is fully absorbed by
-meta-stochastic update, weaken TI-C019 accordingly.
+Kill/absorb condition (active): if PP-1 shows D4 is fully absorbed by meta-stochastic update
+or hidden ambient schema bookkeeping at every level, weaken TI-C019 further or archive D4 as a
+useful discriminator but not a primitive.
 
 ## Phase 0: Launch Coherence
 

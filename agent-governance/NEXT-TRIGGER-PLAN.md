@@ -3,10 +3,60 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0038
+updated_by_run: RUN-0040
 ---
 
 # Next Trigger Plan
+
+## PP-1 Meta-Distribution Self-Reference Test (RUN-0041 target)
+
+RUN-0040 completed the categorical D4 pass. Result: the unqualified witness
+
+```text
+no fully faithful functor IssSys -> CloSys exists
+```
+
+is killed. A broad enough closed-system target can encode completed issuance histories in a
+fixed meta-schema. This is the categorical version of PP-1: object-level type novelty becomes
+closed update at a broader meta-level.
+
+What survives is narrower:
+
+```text
+No online, prefix-faithful, admissibility-reflecting closed representation of D4 issuance
+exists without hidden future schema, meta-level rule import, or loss of the distinction between
+not-yet-admissible and merely unobserved.
+```
+
+Primary next trigger:
+
+```text
+W000 -> PP1_meta_distribution_self_reference_test
+```
+
+Required test:
+
+1. Define `MetaCloSys`: fixed meta-schema systems that generate object-level schemas.
+2. Define `MetaIssSys`: systems where the meta-schema itself can issue type-novel generators.
+3. Ask whether D4 is always absorbed by a sufficiently broad closed meta-schema.
+4. If an infinite regress appears, ask whether the no-hidden-schema / no-anticipation constraint
+   is principled or only stipulated.
+
+Success condition: a principled self-reference or no-hidden-schema constraint survives, giving
+D4 a non-bookkeeping formal role.
+
+Failure condition: D4 is fully absorbed as closed update at a sufficiently broad meta-level;
+weaken or archive the D4 primitive claim accordingly.
+
+Secondary next trigger:
+
+```text
+W000 -> cech_sheaf_fixture (cross-linked to D4, after PP-1 constraint)
+```
+
+Do not run the Cech/sheaf fixture as a free-standing novelty claim until the hidden-schema
+problem is explicit. Otherwise any new cocycle class can be treated as already present in a
+larger fixed sheaf schema.
 
 ## Issuance Precision Pass (RUN-0039)
 

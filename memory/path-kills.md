@@ -253,6 +253,32 @@ claim_refs:
   - TI-C013
 ```
 
+## RUN-0040
+
+```yaml
+path: Unqualified categorical no-go theorem that no fully faithful functor IssSys -> CloSys exists
+reason_killed: >
+  RUN-0040 found that the claim is false or at least unearned for broad definitions of
+  CloSys. A closed-system target with a fixed meta-schema can encode the completed issuing
+  history, including stage tags, future types, and D4 witness tags. Object-level type novelty
+  is then represented as internal data of a closed higher-level system. The categorical
+  separation only works after adding online, prefix-faithful, admissibility-reflecting, and
+  no-hidden-schema constraints.
+evidence: `explorations/E017-d4-categorical-formalization.md` and `agent-runs/RUN-0040-d4-categorical-formalization.md`.
+local_minimum_risk: >
+  Medium-high. Killing the unqualified theorem must not kill D4 as a working discriminator or
+  the narrower online obstruction. The risk is that the repo either protects D4 by stipulating
+  no-hidden-schema constraints without justification, or prematurely absorbs D4 by allowing
+  arbitrary hidden global schemas.
+possible_future_resurrection_trigger: >
+  A principled no-hidden-schema / no-anticipation constraint, or a self-reference theorem
+  showing that every attempted meta-level closed encoding reintroduces D4 at a deeper level
+  rather than absorbing it.
+run_ref: RUN-0040
+claim_refs:
+  - TI-C019
+```
+
 ## RUN-0037
 
 ```yaml

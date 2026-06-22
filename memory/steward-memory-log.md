@@ -843,3 +843,20 @@ What was promoted: None.
 New blockers: D4 needs categorical formalization; PP-1 (meta-distribution regress) is live; physics connection is unearned.
 Recommended next run: Categorical formalization of D4 — define IssSys and CloSys categories, prove no fully faithful functor from IssSys to CloSys. Secondary: Čech/sheaf fixture cross-linked to D4.
 Files changed: `explorations/E016-issuance-precision-pass.md`, `agent-runs/RUN-0039-issuance-precision-pass.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `agent-governance/STEWARD-METRICS.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`.
+
+## RUN-0040
+
+Timestamp: 2026-06-22 08:48:48 -05:00
+Trigger: scheduled_hourly_trigger
+Workflow: W000 -> categorical_formalization_of_D4
+Agent / subagents used: Repo Steward.
+Current strongest version: D4 can be represented as a prefix-indexed issuing system. Under online, prefix-faithful, admissibility-reflecting targets with no hidden future schema, a D4 issuance event cannot be represented as a closed transition over the prior schema.
+Current strongest objection: Broad closed-system targets can encode completed issuing histories in a fixed meta-schema with stage tags, future types, and D4 witness tags. Object-level type novelty then becomes closed update at the meta-level.
+What collapsed: The unqualified categorical no-go theorem that no fully faithful functor `IssSys -> CloSys` exists.
+What survived: D4 as a working discriminator against the four RUN-0039 competitors; a narrower online/prefix-faithful obstruction; the need for a principled no-hidden-schema constraint.
+What was absorbed: Categorical irreducibility of D4 was absorbed by completed-history / hidden-global-schema encoding.
+What was clarified: PP-1 and the categorical hidden-schema problem are the same pressure point in different notation.
+What was promoted: None. TI-C019 was weakened, not killed.
+New blockers: Need a PP-1 self-reference test to decide whether no-hidden-schema is principled or protective stipulation.
+Recommended next run: W000 -> PP1_meta_distribution_self_reference_test.
+Files changed: `explorations/E017-d4-categorical-formalization.md`, `agent-runs/RUN-0040-d4-categorical-formalization.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

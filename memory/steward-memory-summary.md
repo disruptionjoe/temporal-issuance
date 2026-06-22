@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0039
+last_summarized_run: RUN-0040
 ---
 
 # Steward Memory Summary
@@ -27,9 +27,9 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: transport_enriched_holonomy_formal_only
+strongest_current_fixture_result: D4_discriminator_survives_but_categorical_irreducibility_failed
 bare_Ext_S_derives_connection: no
-next_required_test: cech_sheaf_fixture
+next_required_test: PP1_meta_distribution_self_reference
 ```
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
@@ -115,15 +115,36 @@ Two open pressure points:
   object level but is SU at meta-level. D4 does not yet block this.
 - PP-2 (quantum CSG): deferred pending a specific quantum-gravity model.
 
+## D4 Categorical Formalization Result (RUN-0040)
+
+RUN-0040 tested the proposed categorical witness:
+
+```text
+no fully faithful functor IssSys -> CloSys exists
+```
+
+Verdict: the unqualified theorem is killed. A broad enough closed-system category can encode
+the completed issuing history inside a fixed meta-schema, including stage tags, future types,
+and D4 witness tags. This makes object-level type novelty into internal data of a closed
+higher-level system.
+
+What survives is narrower: if the target is online, prefix-faithful, admissibility-reflecting,
+and forbids hidden future schema, then a D4 issuance event cannot be represented as a closed
+transition over the prior schema. But that obstruction depends on the no-hidden-schema
+constraint, which is now the load-bearing claim.
+
+TI-C019 is weakened, not killed. D4 still distinguishes issuance from the four RUN-0039
+competitors, but categorical irreducibility is unearned.
+
 ## Next Run
 
-Primary: categorical formalization of D4. Define `IssSys` (issuance-capable systems) and
-`CloSys` (closed systems) categories. Prove no fully faithful functor from `IssSys` to
-`CloSys`. Success moves TI-C019 toward formalizing; failure weakens it.
+Primary: PP-1 meta-distribution self-reference test. Define `MetaCloSys` (fixed meta-schema
+systems that generate object-level schemas) and `MetaIssSys` (systems where the meta-schema
+itself can issue type-novel generators). Test whether D4 is always absorbed by a sufficiently
+broad closed meta-schema or whether an infinite regress forces a base-level issuance primitive.
 
-Secondary: Čech/sheaf fixture cross-linked to D4. Test whether `C`-typed admissibility
-generates type-novel cocycle classes — a first concrete instance of D4 at the reconstruction
-layer. If it does, this connects Phase 2B to TI-C017.
+Secondary: Cech/sheaf fixture cross-linked to D4, but only after the hidden-schema constraint
+is explicit. Otherwise a new cocycle class can always be reclassified as already present in a
+larger fixed sheaf schema.
 
-Tertiary: meta-distribution self-reference test. Build formal toy model to test whether D4
-at the object level requires D4 at the meta-level (which would make it a genuine primitive).
+Tertiary: physics connection remains deferred until D4 survives PP-1 pressure.

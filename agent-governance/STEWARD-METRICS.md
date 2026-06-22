@@ -862,6 +862,32 @@ notes: >
   formalization of D4 (IssSys vs CloSys functor proof).
 ```
 
+```yaml
+run_id: RUN-0040
+workflow_used: W000 -> categorical_formalization_of_D4
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C019_weakened]
+path_killed: true
+  path: unqualified_no_fully_faithful_functor_IssSys_to_CloSys
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E017-d4-categorical-formalization, RUN-0040-d4-categorical-formalization]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Categorical D4 pass completed. The unqualified no-go theorem failed because broad closed
+  targets can encode completed issuance histories in a fixed meta-schema. A narrower online,
+  prefix-faithful obstruction survives, but the no-hidden-schema constraint is now load-bearing.
+  Next trigger: PP-1 meta-distribution self-reference test.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.
