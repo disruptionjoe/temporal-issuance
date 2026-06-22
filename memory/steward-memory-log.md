@@ -484,3 +484,20 @@ What was promoted: None.
 New blockers: The remaining source-order residue is not independently typed.
 Recommended next run: W000 -> source-order absorption discriminator.
 Files changed: `explorations/E002-issuance-to-finality-bridge-toy-model.md`, `agent-runs/RUN-0019-issuance-to-finality-bridge-toy-model.md`, `FORMAL-OBJECT.md`, `FORMAL-DEFINITION-REPAIR.md`, `CLAIM-LEDGER.md`, `absorbers/time-as-finality.md`, `memory/path-kills.md`, `memory/future-run-queue.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0020
+
+Timestamp: 2026-06-21 22:09:48 -05:00
+Trigger: manual_request
+Workflow: taf_persona_divergent_assessment
+Agent / subagents used: Repo Steward using all 62 numbered Time as Finality expert personas as independent lenses, plus Time as Finality lens-registry coverage checks.
+Current strongest version: `SourceRealization = (C, <=_S, Ext_S)` remains the leading baseline, but it has not earned sole-survivor status.
+Current strongest objection: The source-order residue may be a local minimum; alternative survivor framings include constraint extension, projection kernel, constructor/resource transformability, obstruction class, witness/certification, and null absorption.
+What collapsed: The narrow next-trigger assumption that source-order absorption should run before divergent survivor comparison.
+What survived: Source/readout split, the RUN-0019 path kills, and SourceRealization as a leading but contested baseline.
+What was absorbed: The TaF persona panel was absorbed as a convergence-check method, not as claim authority.
+What was clarified: The strongest neglected possibility is nonfaithful projection kernel plus witnessability.
+What was promoted: None.
+New blockers: The repo needs a divergent-survivor discriminator before further convergence.
+Recommended next run: W000 -> divergent-survivor discriminator.
+Files changed: `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`, `agent-runs/RUN-0020-taf-persona-divergent-assessment-codeblock.md`, `CLAIM-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/future-run-queue.md`, `memory/daily-review/2026-06-22-divergent-persona-assessment.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

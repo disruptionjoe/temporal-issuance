@@ -77,14 +77,14 @@ Tasks:
 
 ## Phase 2: Formal Object Pressure
 
-Status: active, narrowed by RUN-0019.
+Status: active, narrowed by RUN-0019 and convergence-checked by RUN-0020.
 
 Tasks:
 
 - run W002 against `IssuanceSystem`: complete in `agent-runs/RUN-0012-w002-component-pressure-pass.md`
 - define components without circular time assumptions: active, now focused on `<=_S` and `Ext_S`
 - identify collapse risks: active, with time-as-finality readout absorption recorded in `RUN-0019`
-- produce revised object or kill the object: pending source-order absorption discriminator
+- produce revised object or kill the object: pending divergent-survivor discriminator
 
 ## Phase 3: Testable Claims
 
@@ -133,4 +133,6 @@ Tasks:
 - build `issuance_to_finality` bridge toy model: complete in `agent-runs/RUN-0019-issuance-to-finality-bridge-toy-model.md`
 - test whether `G_ij`, `Omega_ij`, and `kappa_i` are source-side Temporal Issuance structure or time-as-finality readout/gluing: complete; source-side reading killed in `memory/path-kills.md`
 - record absorption if the survivor collapses: partial; observer-readout components absorbed by time-as-finality-style machinery
-- run source-order absorption discriminator against `<=_S` and `Ext_S`: next
+- run TaF persona divergent assessment against `SourceRealization`: complete in `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`
+- run divergent-survivor discriminator before accepting the source-order residue: next
+- run source-order absorption discriminator against `<=_S` and `Ext_S` if SourceRealization remains leading after divergent comparison
