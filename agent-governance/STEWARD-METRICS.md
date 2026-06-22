@@ -122,6 +122,23 @@ daily_review_items_added: false
 estimated_token_intensity: low
 ```
 
+```yaml
+run_id: SIM-VSM-RUN-002
+workflow_used: W000 -> W003_absorber_gap_scan
+research_vs_governance: research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: medium
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

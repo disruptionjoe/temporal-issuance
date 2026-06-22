@@ -212,3 +212,20 @@ What was promoted: None.
 New blockers: None.
 Recommended next run: SIM-VSM-RUN-002 lightweight W003 absorber gap scan.
 Files changed: `agent-runs/SIM-VSM-RUN-001-system-2-coordination-check.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## SIM-VSM-RUN-002
+
+Timestamp: 2026-06-22
+Trigger: simulated_thin_trigger
+Workflow: W000 -> W003_absorber_gap_scan
+Agent / subagents used: Repo Steward, Research Prioritization Steward, Category Error Auditor.
+Current strongest version: The current absorber map is good enough to guide W002, but not good enough to promote any Temporal Issuance claim.
+Current strongest objection: Without a component pressure matrix, W002 could remain prose-level and fail to kill or preserve specific parts of `IssuanceSystem`.
+What collapsed: The need for a full literature review before any W002 pressure.
+What survived: The need for primary-source review before claim upgrades.
+What was absorbed: SIM-RUN-005 absorber pressure was converted into a focused gap map.
+What was clarified: Component crosswalk is the minimum hard object needed next.
+What was promoted: None.
+New blockers: Component pressure matrix is missing.
+Recommended next run: SIM-VSM-RUN-003 component pressure matrix.
+Files changed: `agent-runs/SIM-VSM-RUN-002-absorber-gap-scan.md`, `absorbers/gap-map.md`, `absorbers/README.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.

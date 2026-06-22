@@ -17,3 +17,6 @@ Absorption is not automatically a stop signal. Each absorber file should ask:
 - whether anything remains
 - what would resurrect the path
 
+## Current Gap Map
+
+See `absorbers/gap-map.md` for the current minimum absorber gaps that matter before W002.

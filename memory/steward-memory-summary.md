@@ -2,7 +2,7 @@
 artifact_type: memory_summary
 status: active
 governance_role: steward_memory_summary
-last_summarized_run: SIM-VSM-RUN-001
+last_summarized_run: SIM-VSM-RUN-002
 constitutional: false
 ---
 
@@ -26,7 +26,7 @@ The naive global-frontier reading conflicts with relativity. The remaining hypot
 
 ## Current Strategy
 
-Continue the VSM-aware five-cycle stress simulation through W000. SIM-VSM-RUN-001 confirmed System 2 coordination surfaces are aligned. SIM-VSM-RUN-002 should produce a research-facing hard output, preferably a lightweight W003 absorber gap scan.
+Continue the VSM-aware five-cycle stress simulation through W000. SIM-VSM-RUN-001 confirmed System 2 coordination surfaces are aligned. SIM-VSM-RUN-002 created `absorbers/gap-map.md` and clarified that W002 needs a component pressure matrix before claim strengthening.
 
 ## Governance Notes
 
@@ -34,7 +34,7 @@ Governance mechanisms are hypotheses. The steward should be aggressive by defaul
 
 RUN-0004 found the launch architecture strong but under-instrumented. Immediate needs are a governance-change ledger, observation-only steward metrics, contributor intake stub, drift audit workflow, and memory summarizer protocol.
 
-RUN-0005 converted the prior one-time stewardship assessment into reusable W004. SIM-RUN-001 created the governance-change ledger. SIM-RUN-002 created observation-only steward metrics. SIM-RUN-003 created contributor intake W005. SIM-RUN-004 created the memory summarizer protocol. SIM-RUN-005 returned to research with W003 focused absorber mapping. RUN-0006 found the five-cycle simulation coherent, but warned against more governance expansion before W002. RUN-0007 tightened readiness instrumentation with a run closeout checklist, VSM map, per-run metrics schema, and VSM-aware W004 questions. SIM-VSM-RUN-001 checked System 2 coordination and found the main risk is run-ID confusion, not conflicting repo state.
+RUN-0005 converted the prior one-time stewardship assessment into reusable W004. SIM-RUN-001 created the governance-change ledger. SIM-RUN-002 created observation-only steward metrics. SIM-RUN-003 created contributor intake W005. SIM-RUN-004 created the memory summarizer protocol. SIM-RUN-005 returned to research with W003 focused absorber mapping. RUN-0006 found the five-cycle simulation coherent, but warned against more governance expansion before W002. RUN-0007 tightened readiness instrumentation with a run closeout checklist, VSM map, per-run metrics schema, and VSM-aware W004 questions. SIM-VSM-RUN-001 checked System 2 coordination. SIM-VSM-RUN-002 added absorber gap mapping as System 4 intelligence.
 
 ## Killed Paths
 
