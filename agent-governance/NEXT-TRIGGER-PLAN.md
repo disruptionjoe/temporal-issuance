@@ -3,38 +3,34 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0003
+updated_by_run: RUN-0004
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run W003: Absorber Map.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run a minimal governance instrumentation pass before W003.
 
 ## Why
 
-RUN-0003 completed the initial W001 kill pass. It weakened TI-C001 and killed the naive global-frontier reading, but did not kill the whole hypothesis. The highest expected learning value is now a focused absorber map before further formal strengthening.
+RUN-0004 completed the initial stewardship assessment. It found the repo architecture promising but under-instrumented. The highest expected learning value is to add a small set of governance guardrails that prevent automation drift without turning the repo into a bureaucracy, then return to W003 focused absorber mapping.
 
 ## Proposed Subagents
 
-- Relativity Hardliner
-- Block Universe Defender
-- Thermodynamics Expert
-- Information Theorist
-- Causal Set Theorist
-- Time as Finality Boundary Keeper
-- Category Error Auditor
+- Systems Engineer
+- AI Alignment / Agent Governance Researcher
+- Open Source Governance Architect
+- Founder / Startup Operator
 
 ## Expected Outputs
 
-- absorber-by-absorber mapping
-- what each absorber explains
-- what each absorber does not explain
-- category-error and layer-error risks
-- whether anything remains non-absorbed
-- claim-ledger and path-kill updates
-- next workflow recommendation, likely W002 after W003
+- `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`
+- `agent-governance/STEWARD-METRICS.md`
+- `workflows/W004-stewardship-assessment-and-drift-audit.md`
+- `workflows/W005-contributor-intake-and-evaluation.md`
+- memory summarizer protocol
+- next-trigger plan returning to W003
 
 ## Automation Target
 

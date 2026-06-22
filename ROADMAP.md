@@ -27,13 +27,30 @@ Tasks:
 
 Status: active.
 
+Precondition:
+
+- Complete a minimal governance instrumentation pass from `agent-runs/RUN-0004-initial-stewardship-assessment.md` before substantial additional research automation.
+
 Tasks:
 
 - run W001 against the core hypothesis: complete in `agent-runs/RUN-0003-w001-kill-core-hypothesis.md`
-- run W003 absorber mapping: next
+- run W003 absorber mapping: next research workflow after minimal instrumentation
 - identify full absorption candidates
 - record killed paths and resurrection triggers
 - update claim ledger
+
+## Phase 1A: Minimal Governance Instrumentation
+
+Status: next.
+
+Tasks:
+
+- create a governance-change ledger
+- create observation-only steward metrics
+- create a recurring drift/stewardship assessment workflow
+- create a contributor-intake workflow stub
+- add a memory summarizer protocol
+- then return to W003
 
 ## Phase 2: Formal Object Pressure
 

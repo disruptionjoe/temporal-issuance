@@ -2,7 +2,7 @@
 artifact_type: memory_summary
 status: active
 governance_role: steward_memory_summary
-last_summarized_run: RUN-0003
+last_summarized_run: RUN-0004
 constitutional: false
 ---
 
@@ -10,7 +10,7 @@ constitutional: false
 
 ## Current State
 
-Temporal Issuance launched as a public research-governance repository. The first manual W000 cycle ran W001 and completed the initial kill pass.
+Temporal Issuance launched as a public research-governance repository. The first manual W000 cycle ran W001 and completed the initial kill pass. RUN-0004 completed the initial stewardship assessment before substantial research acceleration.
 
 The repo exists to reach the correct verdict on the core hypothesis, not to protect it.
 
@@ -26,11 +26,13 @@ The naive global-frontier reading conflicts with relativity. The remaining hypot
 
 ## Current Strategy
 
-Run W003 next as a focused absorber map. Do not run W002 until W003 clarifies which existing frameworks threaten full absorption and which comparisons risk category or layer error.
+Run a minimal governance instrumentation pass next, then W003 as a focused absorber map. Do not let governance work expand beyond the minimal guardrails identified in RUN-0004.
 
 ## Governance Notes
 
 Governance mechanisms are hypotheses. The steward should be aggressive by default and use uncertainty-driven review rather than approval-driven review.
+
+RUN-0004 found the launch architecture strong but under-instrumented. Immediate needs are a governance-change ledger, observation-only steward metrics, contributor intake stub, drift audit workflow, and memory summarizer protocol.
 
 ## Killed Paths
 
