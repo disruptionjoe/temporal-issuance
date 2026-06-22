@@ -48,3 +48,9 @@ Export candidates:
 - W004 VSM assessment as a light assessment mode.
 - Stale daily-review context as an audit target.
 - "VSM as lens, not operating manual" as a reusable guardrail.
+
+## RUN-0016 Governance Export Candidates
+
+- Parallelize separable research lanes while centralizing shared-state edits.
+- Cross-repo context as local-minimum escape, not claim authority.
+- Definition repair should quickly become toy tests.

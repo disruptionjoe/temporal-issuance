@@ -416,3 +416,37 @@ What was promoted: None.
 New blockers: None.
 Recommended next run: W004 assessment over RUN-0010 through RUN-0015.
 Files changed: `agent-runs/RUN-0015-cross-repo-context-protocol.md`, `agent-governance/CROSS-REPO-CONTEXT-PROTOCOL.md`, `absorbers/time-as-finality.md`, `absorbers/gu-formalization.md`, `absorbers/README.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `workflows/W000-repo-steward-cycle.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/future-run-queue.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0016
+
+Timestamp: 2026-06-22
+Trigger: post_accelerated_sequence_assessment
+Workflow: W004
+Agent / subagents used: Repo Steward, W004 light assessment.
+Current strongest version: The repo is working better after RUN-0010 through RUN-0014; strongest survivor is reconciliation obstruction plus weak ordinal cadence.
+Current strongest objection: The survivor may be absorbed by time-as-finality gluing and record readout.
+What collapsed: Need for more governance before next research.
+What survived: Parallel lanes, source readiness, W002 pressure, definition repair, toy testing, and bounded cross-repo context.
+What was absorbed: RUN-0010 through RUN-0015 were assessed into a sequence verdict.
+What was clarified: Next research should test the issuance-to-finality bridge.
+What was promoted: None.
+New blockers: Need bridge test before deciding whether survivor belongs to Temporal Issuance.
+Recommended next run: Bridge toy model.
+Files changed: `agent-runs/RUN-0016-w004-accelerated-sequence-assessment.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/export-queue.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0017
+
+Timestamp: 2026-06-22
+Trigger: manual_request
+Workflow: repo_working_assessment
+Agent / subagents used: Repo Steward.
+Current strongest version: Temporal Issuance is now a real research-governance repo with a narrowed testable survivor: local realization patches plus reconciliation obstruction.
+Current strongest objection: The survivor may be absorbed by time-as-finality.
+What collapsed: The repo as mere scaffold.
+What survived: Steward architecture, memory, claim pressure, path kills, and research progression.
+What was absorbed: Overall repo behavior so far was drafted into an assessment.
+What was clarified: Best next work is an `issuance_to_finality` bridge toy model.
+What was promoted: None.
+New blockers: Joe may want to steer whether time-as-finality extraction happens before or during the bridge model.
+Recommended next run: W000 -> bridge toy model.
+Files changed: `agent-runs/RUN-0017-repo-working-assessment.md`, `memory/daily-review/2026-06-22-repo-working-assessment.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.

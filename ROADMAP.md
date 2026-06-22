@@ -120,6 +120,16 @@ Tasks:
 - RUN-0013 definition repair: complete
 - RUN-0014 two-observer patch test: complete
 - RUN-0015 cross-repo context protocol: complete
-- run W004 assessment over those five cycles
+- run W004 assessment over those five cycles: complete in `agent-runs/RUN-0016-w004-accelerated-sequence-assessment.md`
 - apply urgent fixes found by assessment
-- draft an overall assessment of how the repo is working so far
+- draft an overall assessment of how the repo is working so far: complete in `agent-runs/RUN-0017-repo-working-assessment.md`
+
+## Phase 1E: Bridge Or Absorption Test
+
+Status: next.
+
+Tasks:
+
+- build `issuance_to_finality` bridge toy model
+- test whether `G_ij`, `Omega_ij`, and `kappa_i` are source-side Temporal Issuance structure or time-as-finality readout/gluing
+- record absorption if the survivor collapses
