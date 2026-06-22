@@ -585,6 +585,32 @@ parallel_lanes_used: simulated_specialist_review
 notes: BDO proved in chat environment; applied via Claude Code automation. TI-C009 weakened (energy-momentum route killed). Next trigger replaced with inverted-construction target.
 ```
 
+```yaml
+run_id: RUN-0029
+workflow_used: W000 -> inverted_construction_momentum_selection (ICO proof)
+research_vs_governance: research
+claim_status_changed: true
+path_killed: true
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: high
+parallel_lanes_used: simulated_six_subagent_sections
+notes: >
+  ICO proved in chat environment; applied via Claude Code automation. The inverted construction
+  (last remaining door after BDO) is sealed. LorHist' with momentum-underdetermining objects
+  passes covariance (PASS) but fails the mechanism/hidden-variable check (ICO). BDO + ICO
+  together seal the Poincare-invariant Lorentzian energy-momentum route. Physical mass-energy
+  bridge interpretation archived to NULL-SURVIVOR. TI-C007 weakened, TI-C009 archived,
+  TI-C010 archived. TI-C008 formal claim intact (non-order morphism invariants survive as
+  formal residue). Next trigger: formal residue documentation or program scope revision.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

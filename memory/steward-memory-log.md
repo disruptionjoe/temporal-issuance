@@ -654,3 +654,20 @@ What was promoted: No claim promoted. TI-C009 weakened. TI-C010 antecedent-obstr
 New blockers: Inverted construction requires a covariant momentum-underdetermining LorHist' definition plus a non-bookkeeping Ext_S selection invariant.
 Recommended next run: W000 -> inverted construction (see NEXT-TRIGGER-PLAN.md).
 Files changed: `agent-runs/RUN-0028-construct-or-refute-minimal-nontrivial-realization-functor.md`, `CLAIM-LEDGER.md`, `memory/path-kills.md`, `explorations/E008-conditional-lorentzian-realization-theorem.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0029
+
+Timestamp: 2026-06-22 (chat-executed; committed via Claude Code automation)
+Trigger: NEXT-TRIGGER-PLAN (set by RUN-0028 BDO pass) — inverted construction
+Workflow: W000 -> inverted_construction_momentum_selection
+Agent / subagents used: Lorentzian geometer, Category Error Auditor, Constructor / hidden-variable skeptic, Relativity physicist, NULL-SURVIVOR advocate, Mathematical Minimalist (all simulated in chat).
+Current strongest version: The Inverted Construction Obstruction (ICO) closes the last remaining door. With momentum-underdetermining LorHist' objects, `p^mu` is morphism-level, but morphism-level variation is indexed by target-side dynamical physics (coupling constants, interaction Hamiltonian, angular distributions of radiation), not source-side `Ext_S` invariants. Any selection mechanism either imports target physics (ICO-1, absorbed), is insufficient to determine `p^mu` (ICO-2), or trivially re-encodes the chosen completion (ICO-3, bookkeeping). Covariance guardrail: PASS. Hidden-variable / mechanism guardrail: FAIL. BDO and ICO together seal the Poincare-invariant Lorentzian energy-momentum route from both directions.
+Current strongest objection: ICO is not a control-case restriction like BDO. It is a structural argument about any selection mechanism over completion spaces in standard Lorentzian dynamics. The only escape requires a non-standard theory in which scattering completion data is parametrized by source-extension rules — not implied by the current program.
+What collapsed: The inverted construction (last remaining door after BDO). Physical interpretation of Temporal Issuance as a mass-energy bridge. TI-C009 archived; TI-C010 archived.
+What survived: Formal history-class residue: (1) history-class nontriviality of F (absorbed but coherent); (2) preorder-from-extension (RUN-0025); (3) BDO lemma (RUN-0028); (4) ICO theorem (RUN-0029); (5) E008 conditional theorem (formally valid, vacuously satisfied).
+What was absorbed: The energy-momentum bridge interpretation. Physical Temporal Issuance interpretation archived to NULL-SURVIVOR.
+What was clarified: BDO and ICO are complementary: BDO seals the over-determined (full-boundary-data) case; ICO seals the under-determined (partial/asymptotic-data) case. The functoriality constraint is NOT what kills the inverted construction — a non-constant functor can map parallel pairs to p^mu-distinct histories. The kill is the mechanism: no source-side content can select among p^mu-distinct completions without importing target-side dynamics.
+What was promoted: None. TI-C007 weakened, TI-C008 clarified (formal claim intact, physical bridge implication removed), TI-C009 archived, TI-C010 archived.
+New blockers: None for the energy-momentum route (sealed). Program direction is now Joe's call: formal residue documentation, scope revision, or new physical theory search.
+Recommended next run: W000 -> Option A (formal residue documentation) or Option B (program scope revision). See NEXT-TRIGGER-PLAN.md.
+Files changed: `agent-runs/RUN-0029-inverted-construction-momentum-selection.md`, `CLAIM-LEDGER.md`, `memory/path-kills.md`, `explorations/E008-conditional-lorentzian-realization-theorem.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`, `agent-governance/STEWARD-METRICS.md`.

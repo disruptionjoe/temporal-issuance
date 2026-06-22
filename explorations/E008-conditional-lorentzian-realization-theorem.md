@@ -233,10 +233,37 @@ case. The antecedent of this theorem's consequential use is therefore unsatisfia
 energy-momentum rung. The theorem remains formally valid; it is vacuously satisfied when no
 nontrivial-at-mass-energy F exists.
 
-**Remaining open door.** BDO used LorHist objects encoding full Cauchy/boundary data. If
-objects under-determine total `p^mu` (partial or asymptotic data only), BDO weakens. The
-one live target is an `Ext_S` invariant that selects Lorentzian momentum data the boundary
-leaves open — the inverted-construction pass. See `agent-governance/NEXT-TRIGGER-PLAN.md`.
+**Remaining open door (as of RUN-0028).** BDO used LorHist objects encoding full Cauchy/boundary
+data. If objects under-determine total `p^mu` (partial or asymptotic data only), BDO weakens.
+The one live target was an `Ext_S` invariant that selects Lorentzian momentum data the boundary
+leaves open — the inverted-construction pass (RUN-0029).
+
+### ICO + Disposition (RUN-0029)
+
+**Theorem (Inverted Construction Obstruction, ICO).** With momentum-underdetermining LorHist'
+objects, `p^mu` is morphism-level rather than object-level. But the morphism-level variation
+of `p^mu` is parametrized by target-side dynamical physics (coupling constants, interaction
+Hamiltonian, scattering amplitudes, angular distributions), NOT by source-side `Ext_S`
+invariants. Any `Ext_S` invariant `I(e)` that selects `p^mu` among completions must:
+
+- (ICO-1) encode target-side dynamical data — absorbed; OR
+- (ICO-2) be independently source-defined but insufficient to select `p^mu` — bridge fails; OR
+- (ICO-3) trivially re-encode the chosen completion — bookkeeping.
+
+No fourth option was identified. The inverted construction passes covariance (LorHist' objects
+with asymptotic quantum-number data are covariantly definable under BMS/Poincare). The
+inverted construction fails the hidden-variable / mechanism check (ICO).
+
+**BDO + ICO together seal the Poincare-invariant Lorentzian energy-momentum route:**
+
+- BDO seals the over-determined case: objects encode full `p^mu`; morphisms cannot move it.
+- ICO seals the under-determined case: morphisms vary in `p^mu`, but variation is indexed by
+  target physics, not source `Ext_S` content.
+
+**Disposition (RUN-0029):** The physical mass-energy bridge interpretation of Temporal Issuance
+is archived to NULL-SURVIVOR. The formal residue (history-class nontriviality, preorder-from-
+extension, E008 conditional theorem as a correct mathematical result, ExtCat non-order
+invariants) is kept. See `agent-runs/RUN-0029-inverted-construction-momentum-selection.md`.
 
 ## Next-Level Research Target
 
