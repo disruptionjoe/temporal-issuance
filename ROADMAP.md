@@ -29,19 +29,19 @@ Status: active.
 
 Precondition:
 
-- Complete a minimal governance instrumentation pass from `agent-runs/RUN-0004-initial-stewardship-assessment.md` before substantial additional research automation.
+- Complete a minimal governance instrumentation pass from `agent-runs/RUN-0004-initial-stewardship-assessment.md` before substantial additional research automation: complete through SIM-RUN-004.
 
 Tasks:
 
 - run W001 against the core hypothesis: complete in `agent-runs/RUN-0003-w001-kill-core-hypothesis.md`
-- run W003 absorber mapping: next research workflow after minimal instrumentation
+- run W003 absorber mapping: initial focused pass complete in `agent-runs/SIM-RUN-005-w003-absorber-map.md`
 - identify full absorption candidates
 - record killed paths and resurrection triggers
 - update claim ledger
 
 ## Phase 1A: Minimal Governance Instrumentation
 
-Status: next.
+Status: complete.
 
 Tasks:
 
@@ -50,7 +50,18 @@ Tasks:
 - create a recurring drift/stewardship assessment workflow: complete as `workflows/W004-stewardship-assessment-and-drift-audit.md`
 - create a contributor-intake workflow stub: complete as `workflows/W005-contributor-intake-and-evaluation.md`
 - add a memory summarizer protocol: complete as `agent-governance/MEMORY-SUMMARIZER-PROTOCOL.md`
-- then return to W003: next
+- then return to W003: complete in `agent-runs/SIM-RUN-005-w003-absorber-map.md`
+
+## Phase 1B: Simulated Trigger Assessment
+
+Status: next.
+
+Tasks:
+
+- run W004 against SIM-RUN-001 through SIM-RUN-005
+- determine whether W000 behaved adaptively or as a static checklist
+- identify immediate changes before the next real hourly trigger
+- route the next real hourly trigger, likely to W002 unless W004 finds a blocker
 
 ## Phase 2: Formal Object Pressure
 

@@ -2,7 +2,7 @@
 artifact_type: memory_summary
 status: active
 governance_role: steward_memory_summary
-last_summarized_run: SIM-RUN-004
+last_summarized_run: SIM-RUN-005
 constitutional: false
 ---
 
@@ -18,15 +18,15 @@ The Repo Steward is an anchored agent with durable memory. Workflows are mutable
 
 ## Current Strongest Version
 
-The strongest surviving version is local and observer-indexed: constraints become fixed relative to access, record cadence, and reconciliation rules, with global structure reconstructed by gluing rather than assumed as a universal moving frontier.
+The strongest surviving version is local and observer-indexed: constraints become fixed relative to access, record cadence, and reconciliation rules, with global structure reconstructed by gluing rather than assumed as a universal moving frontier. After SIM-RUN-005, this version must prove that local fixedness, cadence, access, and gluing are not fully reducible to causal order, entropy or information growth, block-universe perspective, or time-as-finality record reconstruction.
 
 ## Current Strongest Objection
 
-The naive global-frontier reading conflicts with relativity. The remaining hypothesis may still be absorbed by causal set theory, block-universe views, thermodynamic arrow accounts, information theory, or time-as-finality. It may also be circular if observer cadence or realization frontier requires ordinary time.
+The naive global-frontier reading conflicts with relativity. The remaining hypothesis has high absorber risk from causal set theory, block-universe views, thermodynamic arrow accounts, information theory, and time-as-finality. It may also be circular if observer cadence or realization frontier requires ordinary time.
 
 ## Current Strategy
 
-Run a minimal governance instrumentation pass next, then W003 as a focused absorber map. Do not let governance work expand beyond the minimal guardrails identified in RUN-0004.
+Run W004 over SIM-RUN-001 through SIM-RUN-005 to assess whether W000 behaved coherently across sequential thin-trigger simulations. If W004 finds no blocker, route the next real hourly trigger to W002 formal-object pressure.
 
 ## Governance Notes
 
@@ -34,7 +34,7 @@ Governance mechanisms are hypotheses. The steward should be aggressive by defaul
 
 RUN-0004 found the launch architecture strong but under-instrumented. Immediate needs are a governance-change ledger, observation-only steward metrics, contributor intake stub, drift audit workflow, and memory summarizer protocol.
 
-RUN-0005 converted the prior one-time stewardship assessment into reusable W004. SIM-RUN-001 created the governance-change ledger. SIM-RUN-002 created observation-only steward metrics. SIM-RUN-003 created contributor intake W005. SIM-RUN-004 created the memory summarizer protocol. Minimal launch instrumentation is complete; return to W003.
+RUN-0005 converted the prior one-time stewardship assessment into reusable W004. SIM-RUN-001 created the governance-change ledger. SIM-RUN-002 created observation-only steward metrics. SIM-RUN-003 created contributor intake W005. SIM-RUN-004 created the memory summarizer protocol. SIM-RUN-005 returned to research with W003 focused absorber mapping. The next step is the planned W004 assessment of the five simulated thin-trigger cycles.
 
 ## Killed Paths
 

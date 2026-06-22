@@ -1,6 +1,6 @@
 ---
 artifact_type: absorber
-status: stub
+status: active
 absorber: time_as_finality
 constitutional: false
 external_project: true
@@ -22,3 +22,13 @@ Key test:
 
 Does Temporal Issuance add anything beyond observer-indexed records, local-to-global restrictions, local persistence, reconciliation lag, and gluing constraints?
 
+## SIM-RUN-005 Initial Mapping
+
+Time as Finality is the closest internal absorber. It already covers observer-indexed records, local-to-global restrictions, local persistence, reconciliation lag, and gluing constraints.
+
+What it does not claim:
+
+- temporal issuance as primitive substrate
+- a growing measured realization order as the base object
+
+Current verdict: keep claim ledgers separate. Temporal Issuance must prove it has work beyond making Time as Finality more metaphysical.

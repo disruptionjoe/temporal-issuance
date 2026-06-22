@@ -144,3 +144,20 @@ What was promoted: None.
 New blockers: Absorber mapping still has not run.
 Recommended next run: SIM-RUN-005 W003 absorber map.
 Files changed: `agent-governance/MEMORY-SUMMARIZER-PROTOCOL.md`, `agent-runs/SIM-RUN-004-memory-summarizer-protocol.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## SIM-RUN-005
+
+Timestamp: 2026-06-22
+Trigger: simulated_thin_trigger
+Workflow: W000 -> W003
+Agent / subagents used: Repo Steward simulated absorber perspectives: Relativity Hardliner, Causal Set Theorist, Block Universe Defender, Thermodynamics Expert, Information Theorist, Time as Finality Boundary Keeper, Category Error Auditor.
+Current strongest version: Local fixedness, observer cadence, access, and gluing may survive only if distinguished from causal order, entropy or information growth, block-universe perspective, and time-as-finality record reconstruction.
+Current strongest objection: Every major component may be absorbed: `R` and `<` by causal set theory, global `dR` by relativity failure, `mu` by entropy or information, and `kappa_i` plus `A_i` by record-access theories.
+What collapsed: Any claim that monotonicity alone distinguishes issuance, any global frontier reading, and any primitive-substrate language without a discriminator.
+What survived: A narrower W002-ready question about whether local fixedness and reconciliation rules can be formalized without reduction to existing absorbers.
+What was absorbed: No full absorption recorded yet. Absorber risk is now concrete enough to guide component-level pressure testing.
+What was clarified: W002 should pressure each component of `IssuanceSystem` against named absorbers rather than strengthening the object first.
+What was promoted: None.
+New blockers: SIM-RUN-005 did not include a fresh external literature review; primary-source absorber review is still needed before any claim upgrade.
+Recommended next run: W004 assessment over SIM-RUN-001 through SIM-RUN-005.
+Files changed: `agent-runs/SIM-RUN-005-w003-absorber-map.md`, `absorbers/relativity.md`, `absorbers/causal-set-theory.md`, `absorbers/block-universe.md`, `absorbers/thermodynamic-arrow.md`, `absorbers/information-theory.md`, `absorbers/time-as-finality.md`, `CLAIM-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
