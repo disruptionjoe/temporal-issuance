@@ -368,6 +368,24 @@ estimated_token_intensity: medium
 parallel_lanes_used: false
 ```
 
+```yaml
+run_id: RUN-0018
+workflow_used: stale_pointer_closeout
+research_vs_governance: maintenance
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: low
+parallel_lanes_used: false
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

@@ -450,3 +450,20 @@ What was promoted: None.
 New blockers: Joe may want to steer whether time-as-finality extraction happens before or during the bridge model.
 Recommended next run: W000 -> bridge toy model.
 Files changed: `agent-runs/RUN-0017-repo-working-assessment.md`, `memory/daily-review/2026-06-22-repo-working-assessment.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0018
+
+Timestamp: 2026-06-22
+Trigger: manual_closeout
+Workflow: stale_pointer_closeout
+Agent / subagents used: Repo Steward.
+Current strongest version: Temporal Issuance has a narrowed survivor: local realization patches plus reconciliation obstruction, tested next through an `issuance_to_finality` bridge toy model.
+Current strongest objection: The survivor may be absorbed by time-as-finality.
+What collapsed: Stale routing language that still pointed to completed definition repair, W002, or W004 work.
+What survived: The RUN-0017 next-trigger recommendation.
+What was absorbed: RUN-0016 and RUN-0017 conclusions were reflected into claim-ledger next actions and future-run queue state.
+What was clarified: Phase 1D is complete; Phase 1E is the active next research phase.
+What was promoted: None.
+New blockers: None.
+Recommended next run: W000 -> `issuance_to_finality` bridge toy model.
+Files changed: `agent-runs/RUN-0018-stale-pointer-closeout.md`, `CLAIM-LEDGER.md`, `memory/future-run-queue.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

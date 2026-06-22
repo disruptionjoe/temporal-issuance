@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0017
+updated_by_run: RUN-0018
 ---
 
 # Next Trigger Plan
@@ -14,7 +14,7 @@ Invoke W000: Repo Steward Cycle. Current W000 recommendation is to build an `iss
 
 ## Why
 
-RUN-0016 assessed RUN-0010 through RUN-0015 and RUN-0017 assessed how the repo is working so far. The strongest survivor is reconciliation obstruction across local patches. The next highest-learning move is to test whether that survivor belongs to Temporal Issuance or is absorbed by time-as-finality.
+RUN-0016 assessed RUN-0010 through RUN-0015, RUN-0017 assessed how the repo is working so far, and RUN-0018 cleared stale routing pointers. The strongest survivor is reconciliation obstruction across local patches. The next highest-learning move is to test whether that survivor belongs to Temporal Issuance or is absorbed by time-as-finality.
 
 ## Proposed Subagents
 

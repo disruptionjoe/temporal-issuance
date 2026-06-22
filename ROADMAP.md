@@ -108,12 +108,12 @@ See `agent-governance/NEXT-TRIGGER-PLAN.md`.
 
 ## Phase 1D: Accelerated Real Run Sequence
 
-Status: next.
+Status: complete.
 
 Tasks:
 
 - clarify run nomenclature so future manual accelerated runs use ordinary `RUN-####` IDs: complete in `RUN-0009`
-- run five real manual accelerated W000 cycles: next
+- run five real manual accelerated W000 cycles: complete
 - RUN-0010 parallel W003 absorber gap pass: complete
 - RUN-0011 primary-source readiness: complete
 - RUN-0012 W002 component pressure pass: complete
@@ -121,7 +121,7 @@ Tasks:
 - RUN-0014 two-observer patch test: complete
 - RUN-0015 cross-repo context protocol: complete
 - run W004 assessment over those five cycles: complete in `agent-runs/RUN-0016-w004-accelerated-sequence-assessment.md`
-- apply urgent fixes found by assessment
+- apply urgent fixes found by assessment: complete in `RUN-0018`
 - draft an overall assessment of how the repo is working so far: complete in `agent-runs/RUN-0017-repo-working-assessment.md`
 
 ## Phase 1E: Bridge Or Absorption Test
