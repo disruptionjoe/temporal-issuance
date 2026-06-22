@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0024
+updated_by_run: RUN-0025
 ---
 
 # Next Trigger Plan
@@ -30,6 +30,8 @@ does_best_survivor_beat_NULL_SURVIVOR: not_yet
 
 The next run should not run the narrow source-order absorption discriminator. Bare source order no longer leads. It can only be resurrected as a derived invariant if `Ext_S` succeeds.
 
+RUN-0025 adds a cross-program guardrail: if the next `Ext_S` pass invokes Geometric Unity, conserved quantities, energy-momentum, or `E = mc^2`, it must treat those as a Lorentzian control case requiring explicit assumptions. Generic extension invariants do not derive mass-energy. The direct generic-invariant-to-`E = mc^2` path is killed in `memory/path-kills.md`.
+
 ## Proposed Subagents
 
 - Repo Steward
@@ -51,6 +53,7 @@ The next run should not run the narrow source-order absorption discriminator. Ba
 - witness or invariant
 - transformation consequence
 - absorber comparison against transition systems, proof theory, computation, constructor/resource theory, thermodynamics, information theory, and time-as-finality
+- if invoking GU or mass-energy, six-axis specification plus Lorentzian/Poincare/Noether control case
 - explicit answer to whether `Ext_S` beats `NULL-SURVIVOR`
 - decision on whether to archive remaining source-side residue
 - claim-ledger update for TI-C005, TI-C006, and TI-C007

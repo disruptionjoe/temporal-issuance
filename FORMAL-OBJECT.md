@@ -103,6 +103,23 @@ The fixture-based competition in `explorations/E006-ontology-survivor-competitio
 
 The next formal pass should not defend source order first. It should attempt a minimal `Ext_S` specification and no-go. If that cannot beat transition-system, proof, computation, constructor/resource, thermodynamic, information-theoretic, and time-as-finality absorption, the remaining source-side formal object should route to `NULL-SURVIVOR`.
 
+RUN-0025 category-first correction:
+
+`Ext_S` should be modeled first as a category or category-like structure:
+
+```text
+objects: typed source states or constraint states C
+morphisms: admissible extensions e: S -> S'
+```
+
+The relation `<=_S` is then the thin reflection:
+
+```text
+S <=_S S' iff Hom_Ext(S, S') is nonempty
+```
+
+If identities and composition are present, this relation is a preorder. It becomes a partial order only after quotienting mutual reachability or imposing antisymmetry conditions. RUN-0025 proves that morphism-level extension invariants can differ while the induced order is identical, so future formal work should not replace `Ext_S` with `<=_S`.
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?

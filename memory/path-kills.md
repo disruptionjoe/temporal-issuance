@@ -77,3 +77,19 @@ claim_refs:
   - TI-C003
   - TI-C006
 ```
+
+## RUN-0025
+
+```yaml
+path: Direct derivation of E = mc^2 from generic admissible extension invariants
+reason_killed: RUN-0025 found that generic extension invariants do not determine Lorentzian geometry, Poincare symmetry, stress-energy, mass shells, rest frames, or the constant c. The standard mass-energy relation follows only after Lorentzian four-momentum structure is already present.
+evidence: `explorations/E007-ti-gu-mass-energy-steelman.md` and `agent-runs/RUN-0025-ti-gu-mass-energy-steelman.md`.
+local_minimum_risk: Killing the direct bridge must not kill a conditional control-case route where an independently specified Ext_S model projects to Lorentzian field theory and then ordinary relativity supplies E = mc^2.
+possible_future_resurrection_trigger: A concrete Ext_S model with typed source states, projection to Lorentzian geometry, Poincare or diffeomorphism symmetry, Noether or stress-energy map, and a derived mass-shell/rest-frame relation rather than imported mass-energy language.
+run_ref: RUN-0025
+claim_refs:
+  - TI-C001
+  - TI-C003
+  - TI-C007
+  - TI-C009
+```

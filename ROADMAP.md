@@ -77,14 +77,14 @@ Tasks:
 
 ## Phase 2: Formal Object Pressure
 
-Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, decomposed by RUN-0021, steelmanned by RUN-0022, and reduced by RUN-0024 to a minimal `Ext_S` specification/no-go target.
+Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, decomposed by RUN-0021, steelmanned by RUN-0022, reduced by RUN-0024 to a minimal `Ext_S` specification/no-go target, and sharpened by RUN-0025 with category-level extension/invariant theorems plus a GU/mass-energy guardrail.
 
 Tasks:
 
 - run W002 against `IssuanceSystem`: complete in `agent-runs/RUN-0012-w002-component-pressure-pass.md`
 - define components without circular time assumptions: active, now split across `C`, killed independent `<=_S`, and live-but-unproven `Ext_S`
 - identify collapse risks: active, with time-as-finality readout absorption recorded in `RUN-0019`
-- produce revised object or kill the object: pending minimal `Ext_S` specification/no-go after RUN-0024 killed bare source order as an independent primitive
+- produce revised object or kill the object: pending minimal `Ext_S` specification/no-go after RUN-0024 killed bare source order as an independent primitive and RUN-0025 killed direct generic-invariant-to-`E = mc^2` derivation
 
 ## Phase 3: Testable Claims
 
@@ -93,6 +93,7 @@ Tasks:
 - convert surviving claims into tests or no-go criteria
 - build small models where useful
 - compare with time-as-finality without merging ledgers
+- if GU or mass-energy is invoked, require the E007 six-axis/Lorentzian-control guardrail before treating the bridge as more than speculative
 
 ## Phase 4: Governance Export
 
@@ -142,3 +143,14 @@ Tasks:
 - kill bare `<=_S` as an independent source-side primitive: complete in `RUN-0024`
 - run source-order absorption discriminator against `<=_S` and `Ext_S` if source order remains leading after ontology competition: superseded; source order is not leading unless a future `Ext_S` model resurrects it as a derived invariant
 - run minimal `Ext_S` specification and no-go pass against `NULL-SURVIVOR`: next
+
+## Phase 1F: Cross-Program Bridge Guardrails
+
+Status: active, one bounded pass complete.
+
+Tasks:
+
+- run Temporal Issuance / GU / mass-energy steelman: complete in `agent-runs/RUN-0025-ti-gu-mass-energy-steelman.md` and `explorations/E007-ti-gu-mass-energy-steelman.md`
+- prove or refute order-from-extension and extension-invariant claims: partial formal result complete in RUN-0025
+- kill direct bridge from generic extension invariants to `E = mc^2`: complete in `memory/path-kills.md`
+- if the bridge is revisited, require explicit Lorentzian/Poincare/Noether premises rather than invariant-language transfer

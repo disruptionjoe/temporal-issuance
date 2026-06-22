@@ -569,3 +569,20 @@ What was promoted: No claims were promoted. Component-specific claim rows were a
 New blockers: `Ext_S` lacks a typed minimal model with projection, quotient, witness or invariant, transformation consequence, and absorber comparison.
 Recommended next run: W000 -> minimal `Ext_S` specification and no-go pass.
 Files changed: `explorations/E006-ontology-survivor-competition-results.md`, `agent-runs/RUN-0024-ontology-survivor-competition.md`, `HYPOTHESIS-STEELMAN.md`, `CLAIM-LEDGER.md`, `FORMAL-OBJECT.md`, `memory/path-kills.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/future-run-queue.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0025
+
+Timestamp: 2026-06-21 22:58:00 -05:00
+Trigger: manual_research_request
+Workflow: temporal_issuance_gu_mass_energy_steelman
+Agent / subagents used: Repo Steward; five simulated specialist reviewers: Mathematical Physicist, Category Theorist, Relativity / Geometry Specialist, Philosophy of Science Reviewer, Adversarial Skeptic.
+Current strongest version: `Ext_S` is best modeled as an extension category whose induced order is only a thin shadow, while morphism-level invariants may carry the real formal content.
+Current strongest objection: The GU/mass-energy bridge remains speculative because generic extension invariants do not determine Lorentzian geometry, Poincare symmetry, Noether stress-energy, mass shells, rest frames, or the constant c.
+What collapsed: Direct derivation of `E = mc^2` from generic admissible extension invariants.
+What survived: Order-from-extension as a preorder theorem; extension categories carrying invariants not recoverable from order; GU as specification discipline and Lorentzian-control context.
+What was absorbed: The energy-momentum part of the bridge is absorbed by ordinary relativity unless a future `Ext_S` model derives or explicitly supplies the Lorentzian/Poincare/Noether premises.
+What was clarified: The next `Ext_S` no-go should use a category-first model and treat any GU or mass-energy invocation as requiring a six-axis specification plus Lorentzian control case.
+What was promoted: No claims were promoted. TI-C008 and TI-C009 were added with formalizing/speculative status.
+New blockers: No physical bridge exists until a concrete `Ext_S` model supplies Lorentzian projection, Poincare or diffeomorphism symmetry, Noether or stress-energy map, and mass-shell/rest-frame definitions.
+Recommended next run: W000 -> minimal `Ext_S` specification/no-go pass with E007 guardrail.
+Files changed: `explorations/E007-ti-gu-mass-energy-steelman.md`, `agent-runs/RUN-0025-ti-gu-mass-energy-steelman.md`, `CLAIM-LEDGER.md`, `FORMAL-OBJECT.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/future-run-queue.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
