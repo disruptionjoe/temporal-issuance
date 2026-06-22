@@ -42,3 +42,9 @@ Export candidates:
 - System 3* audit pass before final simulation handoff.
 - Explicit distinction between prior simulation IDs and corrective stress-test IDs.
 - Component pressure matrix as a bridge from governance readiness to research pressure.
+
+## RUN-0008 Governance Export Candidates
+
+- W004 VSM assessment as a light assessment mode.
+- Stale daily-review context as an audit target.
+- "VSM as lens, not operating manual" as a reusable guardrail.

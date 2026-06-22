@@ -3,18 +3,18 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: SIM-VSM-RUN-005
+updated_by_run: RUN-0008
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run W004: Stewardship Assessment And Drift Audit over SIM-VSM-RUN-001 through SIM-VSM-RUN-005.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run W003: Absorber Map.
 
 ## Why
 
-SIM-VSM-RUN-005 completed the VSM-aware five-run stress sequence and routed the repo into W004. The assessment should determine whether W000 behaved like a steward, whether VSM viability improved or degraded, and whether the next default should return to W003 absorber mapping.
+RUN-0008 found no serious viability issue in the VSM-aware five-run stress sequence. The next highest-learning move is to return to W003 absorber mapping, focused by `absorbers/gap-map.md`.
 
 ## Proposed Subagents
 
@@ -25,14 +25,13 @@ SIM-VSM-RUN-005 completed the VSM-aware five-run stress sequence and routed the 
 
 ## Expected Outputs
 
-- W004 assessment report over `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005`
-- answers to the VSM readiness assessment questions
-- evaluation of W000 as steward versus checklist
-- review of memory, metrics, governance changes, claim ledger, roadmap, next-trigger plan, created artifacts, path kills, and daily-review artifacts
+- W003 run record
+- updates to remaining absorber gaps, especially cosmological expansion and process philosophy if relevant
+- primary-source readiness notes for any absorber that could drive claim upgrade or component kill
 - closeout checklist status
 - metrics update
 - memory and next-trigger updates
-- post-assessment default route, likely W003 unless W004 finds a serious viability issue
+- recommendation on whether W002 should run next using `FORMAL-OBJECT-PRESSURE-MATRIX.md`
 
 ## Automation Target
 

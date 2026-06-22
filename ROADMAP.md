@@ -65,19 +65,19 @@ Tasks:
 
 ## Phase 1C: VSM-Aware Stress Test
 
-Status: next.
+Status: complete.
 
 Tasks:
 
 - add minimal VSM readiness instrumentation: complete in `agent-runs/RUN-0007-vsm-readiness-pass.md`
 - run `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005` through W000: complete
 - update metrics and closeout state on each simulated run
-- invoke W004 after the five runs: next
-- return to W003 absorber mapping unless the simulation reveals a serious viability issue
+- invoke W004 after the five runs: complete in `agent-runs/RUN-0008-w004-vsm-stress-assessment.md`
+- return to W003 absorber mapping unless the simulation reveals a serious viability issue: next
 
 ## Phase 2: Formal Object Pressure
 
-Status: delayed until VSM-aware stress test completes.
+Status: delayed until focused W003 absorber gap pass completes.
 
 Tasks:
 

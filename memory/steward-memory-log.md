@@ -280,3 +280,20 @@ What was promoted: None.
 New blockers: None.
 Recommended next run: W004 VSM-aware stewardship assessment.
 Files changed: `agent-runs/SIM-VSM-RUN-005-system-4-strategy-handoff.md`, `memory/export-queue.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0008
+
+Timestamp: 2026-06-22
+Trigger: post_vsm_stress_simulation
+Workflow: W004
+Agent / subagents used: Repo Steward, VSM Auditor, W004 light assessment mode.
+Current strongest version: The steward is viable enough to continue research if VSM remains a lightweight lens and the next trigger returns to W003.
+Current strongest objection: Readiness instrumentation can become ceremony if repeated before research runs.
+What collapsed: The need for further governance setup before W003.
+What survived: Thin trigger, W000 adaptive routing, VSM map, closeout checklist, metrics, memory summary, component pressure matrix, and absorber gap map.
+What was absorbed: SIM-VSM-RUN-001 through SIM-VSM-RUN-005 were assessed into a VSM viability verdict.
+What was clarified: The next real trigger should route to W003 absorber mapping, then likely W002 using the component pressure matrix.
+What was promoted: None.
+New blockers: None.
+Recommended next run: W000 -> W003 absorber mapping focused by `absorbers/gap-map.md`.
+Files changed: `agent-runs/RUN-0008-w004-vsm-stress-assessment.md`, `agent-runs/RUN-0008-w004-vsm-stress-assessment-codeblock.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/export-queue.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.

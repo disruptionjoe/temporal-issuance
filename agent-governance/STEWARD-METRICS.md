@@ -190,6 +190,23 @@ daily_review_items_added: false
 estimated_token_intensity: low
 ```
 
+```yaml
+run_id: RUN-0008
+workflow_used: W004
+research_vs_governance: assessment
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: medium
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.
