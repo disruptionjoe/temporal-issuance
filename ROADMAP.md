@@ -72,24 +72,46 @@ RUN-0042 completed the OnlineSchemaSys / no-anticipation formalization pass. Key
 TI-C019 returns to speculative (from weakened) with a concrete formalizing-candidate
 trajectory. Not promoted — hostile review required.
 
-Open tasks:
+RUN-0043 completed the expanded 75-persona steelman and Hegelian pass (62 standard W007
+personas + 13 new personas P63–P75 from adjacent research fields). Joe's instruction:
+"Don't pare the core hypothesis. This should generate a report with specific suggestions."
+Primary artifact: `explorations/E020-expanded-steelman-hegelian-75-persona.md`.
 
-- hostile review of M2 formalization (derive NAA from constructive type theory, not merely
-  motivate it) and precise categorical proof of morphism-level non-embedding
-- if hostile review passes: promote TI-C019 to formalizing
-- AC-8 formal model: build concrete `OnlineSchemaSys` object with two observers in interactive
-  schema negotiation
-- TI-C020 pressure: test against quantum no-cloning / causality, causal set growth dynamics,
-  cosmological horizon structure
-  rather than a protective stipulation
-- Cech/sheaf fixture cross-linked to D4 (secondary): test whether typed admissibility
-  generates type-novel cocycle classes under explicit no-hidden-schema constraints
-- only after no-anticipation survives or fails explicitly: test how issuance could connect to energy,
-  expansion, and structure formation without being absorbed
+Key RUN-0043 findings:
+- Presheaf / Grothendieck fibration absorber identified as critical path threat (B1): if
+  `OnlineSchemaSys` is a standard Grothendieck fibration over `N`, NAA may be a standard
+  fibredness condition. Must be resolved before TI-C019 can advance to formalizing.
+- Assembly Theory operationalization identified (B2): D4 corresponds to undefined assembly
+  index relative to prior schema. First concrete empirical bridge if formalized precisely.
+- HoTT NAA derivation identified (B3): if NAA is derivable from univalence / identity types,
+  M2 advances from motivation to genuine derivation.
+- Five surviving core items confirmed; four genuine advances identified; five illusions removed.
+- Six priority-ranked next research directions (P1 = presheaf absorber test through P6 =
+  Kauffman adjacent-possible formalization).
+- TI-C019 formalizing-candidate status confirmed by 75-persona consensus.
+- TI-C020 new pressure targets: holographic boundary theories, quantum no-cloning, causal
+  set growth dynamics.
 
-Kill/absorb condition (active): if the no-anticipation constraint cannot be stated without
-circularity or protective stipulation, archive D4 as a useful object-level discriminator but
-not a primitive.
+Open tasks (updated after RUN-0043):
+
+- B1 presheaf absorber test (critical path): determine whether `OnlineSchemaSys` is a
+  standard Grothendieck fibration over `N`; if yes, identify what TI contributes beyond
+  naming the fibration. This subsumes the prior hostile-review goal.
+- B2 Assembly Theory D4 operationalization: define assembly-complexity-undefined-relative-to-
+  prior-schema precisely; connect to empirical assembly index measurements.
+- B3 HoTT NAA derivation: test whether NAA is derivable from univalence / identity types
+  in HoTT rather than merely motivated by constructive type formation.
+- AC-8 formal model: build concrete `OnlineSchemaSys` object with two observers in
+  interactive schema negotiation; verify D4 co-extension and NAA compliance.
+- TI-C020 pressure: test against quantum no-cloning / causality, causal set growth
+  dynamics, holographic boundary theories.
+- Cech/sheaf fixture cross-linked to D4 (deferred): only after B1/B2/B3 resolve.
+
+Kill/absorb condition (active): if `OnlineSchemaSys` is a standard Grothendieck fibration
+and TI cannot identify a novel contribution beyond naming it, archive TI-C019 and route to
+formal-residue documentation. If the no-anticipation constraint cannot be stated without
+circularity or protective stipulation, archive D4 as a useful object-level discriminator
+but not a primitive.
 
 ## Phase 0: Launch Coherence
 

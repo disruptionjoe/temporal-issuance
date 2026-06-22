@@ -3,60 +3,83 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0041
+updated_by_run: RUN-0043
 ---
 
 # Next Trigger Plan
 
-## OnlineSchemaSys / No-Anticipation Complete (RUN-0042) — Next: Hostile Review + AC-8
+## Expanded 75-Persona Steelman Complete (RUN-0043) — Next: Presheaf Absorber + Assembly Theory
 
-RUN-0042 completed the `OnlineSchemaSys` formalization and no-anticipation axiom test. NAA is
-principled by M2 (constructive type formation) and M3 (record formation structure). D4 is
-co-extensive with schema-extension events by the NAA structural theorem. The morphism-level
-non-embedding of `OnlineSchemaSys` into `MetaCloSys` is a concrete categorical fact. AC-8
-survives all adversarial pressure. TI-C020 added as speculative. TI-C019 returns to speculative
-with a formalizing-candidate trajectory.
+RUN-0043 ran the expanded 75-persona steelman and Hegelian pass (62 standard + 13 new personas).
+Three research bottlenecks surfaced from the 75-persona synthesis:
+
+- **B1 (critical path)**: Presheaf / Grothendieck fibration absorber — `OnlineSchemaSys` may be
+  a standard Grothendieck fibration over `N`, making NAA a standard fibredness condition. This
+  is the sharpest live threat to TI-C019. Must be resolved before promotion can proceed.
+- **B2 (operationalization)**: Assembly Theory D4 operationalization — D4 corresponds to
+  undefined assembly index relative to prior schema. First concrete empirical bridge if precise.
+- **B3 (formalization depth)**: HoTT NAA derivation — if NAA is derivable from univalence /
+  identity types, M2 advances from motivation to genuine derivation.
 
 Primary next trigger:
 
 ```text
-W000 -> hostile_review_TI_C019
+W000 -> presheaf_absorber_test
 ```
 
-Required: adversarial hostile review of two specific claims:
+Required: test whether `OnlineSchemaSys` is a standard Grothendieck fibration over `N`.
 
-1. The M2 formalization claim: that NAA can be *derived* from constructive type formation, not
-   merely *motivated* by it. The review should test: does CTT actually entail NAA for the
-   issuance setting, or does TI add extra assumptions?
-2. The morphism-level non-embedding proof: that no fully faithful functor from `OnlineSchemaSys`
-   to `MetaCloSys` exists because availability structure is preserved by `OnlineSchemaSys`
-   morphisms but not by `MetaCloSys` morphisms. The review should test: is this a genuine
-   categorical obstruction or a definition-level artifact?
+1. Formally define the candidate fibration: objects are pairs `(n, S_n)`, morphisms are
+   prefix-indexed inclusions, cartesian lifts correspond to schema-growth transitions.
+2. Ask: does the NAA structural theorem reduce to the standard theorem that base-change along
+   a fibration commutes with limits, or does it add genuinely new content?
+3. Ask: is the morphism-level non-embedding of `OnlineSchemaSys` into `MetaCloSys` a theorem
+   about fibrations, or does it depend on specifically TI-theoretic structure?
+4. If `OnlineSchemaSys` IS a standard fibration: identify what TI contributes beyond naming
+   the fibration. If nothing: archive TI-C019 and route to formal-residue documentation.
+5. If `OnlineSchemaSys` is NOT a standard fibration: identify precisely what axiom or structure
+   prevents the fibration; this is TI's novel formal contribution.
 
-Success condition: both claims survive hostile review with precise proofs, not proof sketches.
-Promote TI-C019 to formalizing.
+Success condition: presheaf/fibration absorber is either (a) killed with precise proof that
+`OnlineSchemaSys` is not a standard fibration, or (b) absorbed with identification of what TI
+contributes beyond the fibration. TI-C019 may then advance to hostile review.
 
-Failure condition: one or both claims fail under hostile review. Remain speculative with more
-precise scope on what remains.
+Failure condition: absorber cannot be resolved; `OnlineSchemaSys` collapses to existing
+fibration/presheaf theory without identifiable novel content. Archive TI-C019.
 
 Secondary next trigger:
+
+```text
+W000 -> assembly_theory_D4_operationalization
+```
+
+Formalize the Assembly Theory connection identified in RUN-0043: D4 events are events where
+assembly complexity (as defined in Cronin/Walker Assembly Theory) is undefined relative to
+the prior schema. Requirements: (a) define a schema-relative assembly index, (b) show D4
+events have undefined/infinite assembly index within the prior schema, (c) formulate a
+testable prediction (what would empirically distinguish an issuance event from a large-but-
+finite assembly index event?). Success: D4 has a first empirical operationalization.
+
+Tertiary next trigger:
+
+```text
+W000 -> hott_naa_derivation
+```
+
+Test whether NAA can be derived from Homotopy Type Theory (univalence axiom, identity types,
+universe polymorphism). Requirements: (a) encode `OnlineSchemaSys` in HoTT as a type family
+indexed by `N`, (b) ask whether NAA is a consequence of definitional equality / universe
+stratification, (c) determine whether the morphism-level non-embedding follows from HoTT's
+type-theoretic structure. Success: M2 advances from motivation to derivation.
+
+Quaternary next trigger (if B1/B2/B3 advance):
 
 ```text
 W000 -> AC8_formal_model
 ```
 
 Build a concrete `OnlineSchemaSys` object with two observers in interactive schema negotiation.
-Verify D4 co-extension at the schema level and NAA compliance at the individual level. This is
-the first concrete multi-observer TI model.
-
-Tertiary next trigger:
-
-```text
-W000 -> TI_C020_pressure_pass
-```
-
-Test TI-C020 against quantum no-cloning / causality of measurement and causal set growth
-dynamics. Do not import ordinary time as a primitive. Approach from architecture side.
+Verify D4 co-extension at the schema level and NAA compliance at the individual level.
 
 ## No-Anticipation Constraint Formalization (RUN-0042 target — completed)
 

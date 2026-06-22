@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0041
+last_summarized_run: RUN-0043
 ---
 
 # Steward Memory Summary
@@ -168,14 +168,45 @@ hypothesis describes. TI-C020 added as speculative (physical universe as `Online
 
 TI-C019 returns to speculative (from weakened) with a formalizing-candidate trajectory.
 
+## Expanded 75-Persona Steelman Result (RUN-0043)
+
+RUN-0043 ran 62 standard W007 personas (thematic clusters A–H) plus 13 new personas (P63–P75)
+from adjacent research fields including Assembly Theory, Constructor Theory, HoTT, information
+geometry, and adaptive systems theory. Joe's instruction: "Don't pare the core hypothesis."
+
+Three research bottlenecks surfaced from the Hegelian synthesis:
+
+- **B1 (critical path)**: Presheaf / Grothendieck fibration absorber. `OnlineSchemaSys` may be
+  a standard Grothendieck fibration over `N`, making NAA a standard fibredness condition. This
+  is the sharpest live threat before TI-C019 can advance. Must be resolved first.
+- **B2 (operationalization)**: Assembly Theory D4 operationalization. D4 events = undefined
+  assembly index relative to the prior schema. First concrete empirical bridge if formalized.
+- **B3 (formalization depth)**: HoTT NAA derivation. If NAA is derivable from univalence /
+  identity types, M2 advances from motivation to genuine derivation.
+
+Four genuine advances identified: (1) Assembly Theory D4 correspondence, (2) Kauffman
+adjacent-possible correspondence, (3) presheaf absorber test as critical path, (4) information
+geometry bridge via manifold dimension expansion.
+
+Five surviving core items confirmed by 75-persona consensus: well-formed `OnlineSchemaSys`,
+principled NAA (M2+M3), D4 discrimination of issuance from four competitors inside
+`OnlineSchemaSys`, AC-8 as cleanest genuine issuance case, concrete formalization trajectory.
+
+TI-C019 formalizing-candidate status confirmed. TI-C020 new pressure targets: holographic
+boundary theories (holography absorber is sharp — boundary encodes bulk as MetaCloSys encoding).
+
 ## Next Run
 
-Primary: hostile review of TI-C019. Test whether NAA is derived (not just motivated) from
-constructive type theory, and whether the morphism-level non-embedding proof holds under
-adversarial categorical scrutiny. Success → promote TI-C019 to formalizing.
+Primary: presheaf absorber test (B1). Determine whether `OnlineSchemaSys` is a standard
+Grothendieck fibration over `N`. If yes: identify what TI contributes beyond naming the
+fibration. If no: identify the precise axiom that prevents fibrancy — that is TI's novel
+formal contribution. This subsumes the prior hostile-review-TI-C019 goal.
 
-Secondary: AC-8 formal model — concrete `OnlineSchemaSys` with two observers in interactive
+Secondary: Assembly Theory D4 operationalization (B2). Define schema-relative assembly index;
+show D4 events have undefined/infinite assembly index within the prior schema.
+
+Tertiary: HoTT NAA derivation (B3). Encode `OnlineSchemaSys` in HoTT as a type family over
+`N`; test whether NAA follows from definitional equality / universe stratification.
+
+Quaternary: AC-8 formal model — concrete `OnlineSchemaSys` with two observers in interactive
 schema negotiation.
-
-Tertiary: TI-C020 pressure pass — quantum no-cloning / measurement causality and causal set
-growth dynamics, without importing ordinary time.

@@ -943,6 +943,35 @@ notes: >
   is principled or protective.
 ```
 
+```yaml
+run_id: RUN-0043
+workflow_used: W007-expanded (75-persona steelman and Hegelian pass)
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C019_evidence_refs_updated, TI-C020_evidence_refs_updated]
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E020-expanded-steelman-hegelian-75-persona, RUN-0043-expanded-steelman-hegelian-75-persona]
+daily_review_items_added: true
+  items: [B1_presheaf_absorber_test, B2_assembly_theory_operationalization, B3_hott_naa_derivation]
+estimated_token_intensity: very_high
+parallel_lanes_used: all_75_personas_thematic_clusters
+notes: >
+  Expanded 75-persona steelman + Hegelian pass (62 standard + 13 new personas). Joe: "Don't
+  pare the core hypothesis." Full synthesis produced 5 surviving core items, 4 genuine
+  advances, 5 illusions removed, 3 research bottlenecks (B1/B2/B3), 6 priority directions.
+  Critical new threat: presheaf/Grothendieck fibration absorber (B1). New empirical bridge:
+  Assembly Theory D4 operationalization (B2). New formalization route: HoTT NAA derivation
+  (B3). TI-C019 formalizing-candidate status confirmed; primary next trigger updated to
+  presheaf absorber test.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.
