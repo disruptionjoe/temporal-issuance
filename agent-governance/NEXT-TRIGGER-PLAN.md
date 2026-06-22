@@ -50,19 +50,27 @@ NOT yet mean the bridge is definitively killed — BDO and ICO both carry local-
 under assumptions that can be relaxed (Poincare symmetry, fixed background, classical
 completion, full or partial Cauchy data).
 
-**Option W008 — Bridge-or-definitive-kill with local-minimum escape checking (recommended):**
-Invoke `W008-bridge-or-definitive-kill.md`. This workflow enumerates all escape routes from
-the current obstructions, attempts each construction, verifies each kill against the
-anti-local-minimum gate (N ≥ 3 adversarial skeptics), and only archives the physical
-interpretation after all escape routes are exhausted and all kills are confirmed global.
+**Option W008 — Bridge-or-definitive-kill with two-track local-minimum escape checking (recommended):**
+Invoke `W008-bridge-or-definitive-kill.md`. W008 now has two independent tracks:
 
-Current escape routes not yet tried (starting point for next W008 invocation):
-- Category G: soft theorem / asymptotic symmetry charges (BMS, w_{1+inf}) — highest leverage
-  because boundary data does not fix soft charges; this is exactly the gap BDO + ICO exploited
-- Category B: quantum path-integral / superposition of completions
-- Category A: non-Poincare / curved spacetime / LQG / spin foams
-- Category D: holographic / AdS-CFT / asymptotic data
-- Others: see W008 escape-route taxonomy
+**Track A** (physics escape routes): relax assumptions within the Lorentzian target category.
+Not yet tried: Categories A (LQG/curved spacetime), B (quantum path-integral), D (holographic/BMS),
+E (source-generated metric), F (lax functors), G (soft charges), H (2-categorical Ext_S).
+
+**Track B** (nonstandard realization lenses): change the target category entirely.
+BDO and ICO assume the target is Lorentzian field theory with Noether charges. They do not apply
+if the target is a sheaf/gluing category (B1), rigidity/constraint category (B2), cellular
+automata coarse-graining (B3), database/indexing category (B4), proof-carrying computation (B5),
+or consensus/finality protocol (B6). In these settings "state becomes real through admissible
+extension" is already native language and the shadow observable is not energy-momentum.
+
+**Critical**: A "global kill" requires exhausting BOTH tracks with local-minimum checks per kill.
+BDO + ICO only close Track A in the Poincare-invariant Minkowski control case. Track B is entirely
+open. No Track B lens has been attempted.
+
+Recommended starting points:
+- Track A: Category G (soft/BMS charges) — boundary data does not fix these
+- Track B: B1 (sheaf/gluing) and B6 (consensus/finality) in parallel — BDO/ICO do not apply
 
 **Option A — Formal residue documentation:**
 Document surviving formal results (BDO, ICO, preorder-from-extension, E008) as a publishable
