@@ -54,20 +54,22 @@ Tasks:
 
 ## Phase 1B: Simulated Trigger Assessment
 
+Status: complete.
+
+Tasks:
+
+- run W004 against SIM-RUN-001 through SIM-RUN-005: complete in `agent-runs/RUN-0006-w004-five-simulated-trigger-assessment.md`
+- determine whether W000 behaved adaptively or as a static checklist: complete
+- identify immediate changes before the next real hourly trigger: complete
+- route the next real hourly trigger to W002 unless new evidence changes the plan
+
+## Phase 2: Formal Object Pressure
+
 Status: next.
 
 Tasks:
 
-- run W004 against SIM-RUN-001 through SIM-RUN-005
-- determine whether W000 behaved adaptively or as a static checklist
-- identify immediate changes before the next real hourly trigger
-- route the next real hourly trigger, likely to W002 unless W004 finds a blocker
-
-## Phase 2: Formal Object Pressure
-
-Tasks:
-
-- run W002 against `IssuanceSystem`
+- run W002 against `IssuanceSystem`: next
 - define components without circular time assumptions
 - identify collapse risks
 - produce revised object or kill the object

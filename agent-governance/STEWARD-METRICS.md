@@ -15,7 +15,7 @@ These metrics are observation-only at launch. They should inform steward judgmen
 | --- | --- | --- | --- |
 | verdict_movement | Measures whether work changes claim state, kill state, absorber state, or formal precision. | Count runs that update `CLAIM-LEDGER.md`, `memory/path-kills.md`, tests, or formal objects. | W001 weakened TI-C001 and killed one path. |
 | workflow_churn | Detects process expansion replacing research progress. | Count workflows created, retired, or revised per 10 runs. | W004 created after assessment; W005 still planned. |
-| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks SIM-RUN-005 after this run. |
+| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks RUN-0006 after this run. |
 | governance_research_balance | Detects governance drift or research neglect. | Classify each run as research, governance, mixed, or maintenance. | Recent runs are governance-heavy by design. |
 | next_trigger_volatility | Detects unstable priorities. | Track how often `NEXT-TRIGGER-PLAN.md` changes route. | Volatile during launch instrumentation. |
 | path_kill_quality | Detects false closure and weak kill records. | Check killed paths for evidence, local-minimum risk, and resurrection trigger. | One path kill recorded cleanly. |
@@ -47,6 +47,19 @@ governance_research_balance: recovered_to_research_after_minimal_instrumentation
 next_trigger_volatility: adaptive_not_static
 path_kill_quality: unchanged_one_sample
 automation_health: simulated_clean
+contributor_signal: workflow_ready_untested
+```
+
+```yaml
+snapshot_id: MET-0003
+run_ref: RUN-0006
+verdict_movement: moderate_governance_assessment_no_new_research_verdict
+workflow_churn: high_but_now_should_pause
+memory_staleness: current
+governance_research_balance: acceptable_if_next_run_is_w002
+next_trigger_volatility: adaptive_route_to_w002
+path_kill_quality: unchanged_one_sample
+automation_health: simulated_clean_actual_hourly_untested_after_changes
 contributor_signal: workflow_ready_untested
 ```
 

@@ -26,3 +26,11 @@ Export candidates:
 - Memory Pack as durable steward substrate.
 - Uncertainty-driven human review.
 - Explicit "do not constitutionalize yet" discipline.
+
+## RUN-0006 Governance Export Candidates
+
+- Sequential thin-trigger simulations with per-cycle commits as an autonomy test.
+- Bounded launch instrumentation followed by an explicit return to research.
+- Observation-only steward metrics for launch drift detection.
+- W004 as an invoked stewardship assessment, not a fixed ritual cadence.
+- Next-trigger plans as inspectable priority memory.
