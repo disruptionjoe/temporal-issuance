@@ -3,12 +3,57 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0040
+updated_by_run: RUN-0041
 ---
 
 # Next Trigger Plan
 
-## PP-1 Meta-Distribution Self-Reference Test (RUN-0041 target)
+## No-Anticipation Constraint Formalization (RUN-0042 target)
+
+RUN-0041 completed the PP-1 meta-distribution self-reference test. Result: object-level D4 is
+absorbed by completed-domain or universal-grammar `MetaCloSys` encodings, and the PP-1
+infinite-regress argument does not prove that base-level issuance is forced.
+
+What survives is class-relative:
+
+```text
+D4 is non-bookkeeping only for online, prefix-presented systems that forbid hidden future
+schema, completed-history encodings, and meta-level rule import.
+```
+
+Primary next trigger:
+
+```text
+W000 -> no_anticipation_constraint_formalization
+```
+
+Required test:
+
+1. Define `OnlineSchemaSys`: prefix-presented schema systems whose transitions may use only
+   currently constructible schema descriptions, generator kinds, and admissibility tests.
+2. State the no-hidden-schema / no-anticipation constraint without using ordinary future time
+   as a primitive.
+3. List exactly which completed-history, hidden-global-schema, and universal-grammar encodings
+   the class excludes.
+4. Decide whether the exclusion is principled for the Temporal Issuance research question
+   (present source capacity), or merely protective of D4.
+
+Success condition: a principled, non-circular no-anticipation axiom survives. D4 remains a
+formal class-relative discriminator and the Cech/sheaf fixture may run inside that class.
+
+Failure condition: the axiom is circular, arbitrary, or only protective. Archive D4 as a useful
+object-level discriminator but not a primitive; keep TI-C019 weakened or narrow it again.
+
+Secondary next trigger:
+
+```text
+W000 -> cech_sheaf_fixture_under_no_anticipation
+```
+
+Do not run the Cech/sheaf fixture as a free-standing novelty claim. It must inherit the
+explicit no-anticipation class from the primary run.
+
+## PP-1 Meta-Distribution Self-Reference Test (RUN-0041 complete)
 
 RUN-0040 completed the categorical D4 pass. Result: the unqualified witness
 
@@ -213,6 +258,7 @@ Codex hourly automation should point to:
 
 - `workflows/W000-repo-steward-cycle.md`
 
-As of RUN-0038, W000 should route to the **issuance-precision pass** (Phase 2B) as the primary
-target. The Cech/sheaf fixture, formal residue documentation, direct CelExt fixture suite, and a
-pause in physics-bridge pursuit remain available secondary routes if Joe redirects.
+As of RUN-0041, W000 should route to **no-anticipation constraint formalization** as the
+primary Phase 2B target. The Cech/sheaf fixture should run only after that constraint is
+explicit. Formal residue documentation, direct CelExt fixture suite, and a pause in
+physics-bridge pursuit remain available secondary routes if Joe redirects.

@@ -306,6 +306,30 @@ claim_refs:
   - TI-C018
 ```
 
+## RUN-0041
+
+```yaml
+path: PP-1 infinite regress as proof that D4 forces a base-level issuance primitive
+reason_killed: >
+  RUN-0041 found that the regress from object schema to meta-schema does not force issuance
+  at the base. A completed-domain or universal-grammar MetaCloSys can include all future
+  object schemas, generator kinds, and completed histories as instances of a fixed meta-schema.
+  This stops the regress without contradiction. The move may be operationally unilluminating,
+  but it blocks the proof strategy.
+evidence: `explorations/E018-pp1-meta-distribution-self-reference.md` and `agent-runs/RUN-0041-pp1-meta-distribution-self-reference.md`.
+local_minimum_risk: >
+  Medium-high. Killing the infinite-regress proof must not kill D4 as an online, class-relative
+  discriminator. The surviving route is to formalize a principled no-hidden-schema /
+  no-anticipation constraint and test it directly.
+possible_future_resurrection_trigger: >
+  A theorem showing that every attempted completed-domain or universal-grammar meta-schema
+  either fails to preserve prefix admissibility or must itself perform a D4-style schema
+  extension under a non-protective, independently motivated information boundary.
+run_ref: RUN-0041
+claim_refs:
+  - TI-C019
+```
+
 ```yaml
 path: Celestial amplitude reinterpretation of ExtCat morphisms (Attempt 3.3)
 reason_killed: >

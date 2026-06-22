@@ -20,7 +20,7 @@ layer. The immediate research objective is to make issuance precise. See `HYPOTH
 
 ## Phase 2B: Issuance Precision
 
-Status: active, categorical pass complete in RUN-0040.
+Status: active, PP-1 pass complete in RUN-0041.
 
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
@@ -30,6 +30,11 @@ RUN-0040 completed the first categorical formalization pass. The unqualified cat
 witness failed: broad closed-system categories can encode completed issuance histories in a
 fixed meta-schema. TI-C019 is weakened until the repo supplies a principled no-hidden-schema /
 no-anticipation constraint. A narrower online, prefix-faithful obstruction survives.
+
+RUN-0041 completed the PP-1 meta-distribution self-reference test. Result: a completed-domain
+or universal-grammar `MetaCloSys` can absorb object-level D4, and the infinite-regress
+argument does not prove base-level issuance. D4 survives only as a class-relative
+discriminator for online, prefix-presented systems that forbid hidden future schema.
 
 Completed tasks:
 
@@ -45,21 +50,23 @@ Completed tasks:
   and `agent-runs/RUN-0040-d4-categorical-formalization.md`
 - killed unqualified "no fully faithful functor `IssSys -> CloSys`" route
 - identified hidden ambient schema absorption as the categorical form of PP-1
+- PP-1 self-reference pass: complete in
+  `explorations/E018-pp1-meta-distribution-self-reference.md` and
+  `agent-runs/RUN-0041-pp1-meta-distribution-self-reference.md`
+- killed PP-1 infinite regress as proof that D4 forces a base-level issuance primitive
 
 Open tasks:
 
-- address meta-distribution regress (PP-1): build formal self-reference test for D4
-  using `MetaCloSys` and `MetaIssSys`
 - state and test whether the no-hidden-schema / no-anticipation constraint is principled
   rather than a protective stipulation
 - Cech/sheaf fixture cross-linked to D4 (secondary): test whether typed admissibility
   generates type-novel cocycle classes under explicit no-hidden-schema constraints
-- only after PP-1 is resolved or narrowed: test how issuance could connect to energy,
+- only after no-anticipation survives or fails explicitly: test how issuance could connect to energy,
   expansion, and structure formation without being absorbed
 
-Kill/absorb condition (active): if PP-1 shows D4 is fully absorbed by meta-stochastic update
-or hidden ambient schema bookkeeping at every level, weaken TI-C019 further or archive D4 as a
-useful discriminator but not a primitive.
+Kill/absorb condition (active): if the no-anticipation constraint cannot be stated without
+circularity or protective stipulation, archive D4 as a useful object-level discriminator but
+not a primitive.
 
 ## Phase 0: Launch Coherence
 

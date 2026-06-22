@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0040
+last_summarized_run: RUN-0041
 ---
 
 # Steward Memory Summary
@@ -27,9 +27,9 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: D4_discriminator_survives_but_categorical_irreducibility_failed
+strongest_current_fixture_result: D4_survives_only_as_online_non_anticipatory_class_relative_discriminator
 bare_Ext_S_derives_connection: no
-next_required_test: PP1_meta_distribution_self_reference
+next_required_test: no_anticipation_constraint_formalization
 ```
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
@@ -136,15 +136,36 @@ constraint, which is now the load-bearing claim.
 TI-C019 is weakened, not killed. D4 still distinguishes issuance from the four RUN-0039
 competitors, but categorical irreducibility is unearned.
 
+## PP-1 Self-Reference Result (RUN-0041)
+
+RUN-0041 defined `MetaCloSys` as fixed meta-schema systems that generate object-level schemas
+and `MetaIssSys` as systems where the meta-schema itself can issue type-novel generators.
+
+Verdict: PP-1 does not force a base-level issuance primitive. A completed-domain or
+universal-grammar `MetaCloSys` can absorb finite object-level D4 traces by treating all future
+schemas and generator kinds as instances of a fixed meta-schema. The infinite-regress proof
+strategy is killed.
+
+What survives is narrower:
+
+```text
+D4 is non-bookkeeping only relative to online, prefix-presented systems that forbid hidden
+future schema, completed-history encodings, and meta-level rule import.
+```
+
+TI-C019 remains weakened. The central burden is now to state the no-hidden-schema /
+no-anticipation constraint as a principled class-relative axiom rather than as protective
+stipulation.
+
 ## Next Run
 
-Primary: PP-1 meta-distribution self-reference test. Define `MetaCloSys` (fixed meta-schema
-systems that generate object-level schemas) and `MetaIssSys` (systems where the meta-schema
-itself can issue type-novel generators). Test whether D4 is always absorbed by a sufficiently
-broad closed meta-schema or whether an infinite regress forces a base-level issuance primitive.
+Primary: no-anticipation constraint formalization. Define `OnlineSchemaSys` as prefix-presented
+schema systems whose transitions may use only currently constructible schema descriptions,
+generator kinds, and admissibility tests. Decide whether this excludes hidden future schemas
+for a principled reason or only protects D4.
 
-Secondary: Cech/sheaf fixture cross-linked to D4, but only after the hidden-schema constraint
-is explicit. Otherwise a new cocycle class can always be reclassified as already present in a
-larger fixed sheaf schema.
+Secondary: Cech/sheaf fixture cross-linked to D4, but only inside the explicit no-anticipation
+class. Otherwise a new cocycle class can always be reclassified as already present in a larger
+fixed sheaf schema.
 
-Tertiary: physics connection remains deferred until D4 survives PP-1 pressure.
+Tertiary: physics connection remains deferred until D4 survives the no-anticipation pressure.

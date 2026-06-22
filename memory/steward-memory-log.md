@@ -860,3 +860,20 @@ What was promoted: None. TI-C019 was weakened, not killed.
 New blockers: Need a PP-1 self-reference test to decide whether no-hidden-schema is principled or protective stipulation.
 Recommended next run: W000 -> PP1_meta_distribution_self_reference_test.
 Files changed: `explorations/E017-d4-categorical-formalization.md`, `agent-runs/RUN-0040-d4-categorical-formalization.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0041
+
+Timestamp: 2026-06-22 09:48:08 -05:00
+Trigger: scheduled_hourly_trigger
+Workflow: W000 -> PP1_meta_distribution_self_reference_test
+Agent / subagents used: Repo Steward.
+Current strongest version: D4 survives only as a class-relative discriminator for online, prefix-presented schema systems whose transitions may use only currently constructible schema descriptions, generator kinds, and admissibility tests.
+Current strongest objection: Completed-domain or universal-grammar `MetaCloSys` encodings absorb finite object-level D4 traces by treating all future schemas and generator kinds as instances of a fixed meta-schema. The PP-1 regress can stop without contradiction.
+What collapsed: PP-1 infinite regress as proof that D4 forces a base-level issuance primitive.
+What survived: Online non-anticipatory D4 as a possible operational discriminator; the no-hidden-schema obligation; the narrower categorical obstruction from RUN-0040.
+What was absorbed: Object-level type novelty by fixed meta-schema update whenever hidden future schema, completed histories, or universal meta-grammars are allowed.
+What was clarified: D4 now depends on comparison-class discipline. If completed-domain schemas are allowed, D4 is not primitive; if they are forbidden, the no-anticipation constraint must be independently motivated.
+What was promoted: None. TI-C019 remains weakened.
+New blockers: The no-hidden-schema / no-anticipation constraint has not yet been stated as a non-circular, non-protective class-relative axiom.
+Recommended next run: W000 -> no_anticipation_constraint_formalization.
+Files changed: `explorations/E018-pp1-meta-distribution-self-reference.md`, `agent-runs/RUN-0041-pp1-meta-distribution-self-reference.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
