@@ -239,6 +239,33 @@ New absorbers file `absorbers/distributed-systems.md` created. Lamport logical c
 near-complete absorber for TI-C001 (temporal reconstruction layer); D4 and TI-C019 survive
 because they concern schema expansion, not just order-from-records.
 
+## QM Bridge Steelman Pass + Bounded Accessibility Intake (post-RUN-0044, non-run)
+
+Two explorations added from Joe-directed work (2026-06-22):
+
+**E026 (Bounded Accessibility vs Source-Side Issuance):** Two external notes synthesized.
+Core question: is D4 detecting source-side novelty, or observer-projection-relative novelty?
+PP-3 added to TI-C019: D4 does not currently distinguish genuine type creation from schema
+disclosure to a bounded observer. Three formal tests proposed: (1) can D4 events occur in
+a bounded projection without the source expanding? (2) does NAA follow from projection
+limits alone? (3) is the morphism non-embedding a fact about the source or the observer's
+access to the source? GU/14D shadow-projection angle explicitly NOT integrated as formal
+claim — retained as grounding thought experiment only. TI-C019 and OnlineSchemaSys survive
+PP-3 as an open pressure question, not a kill.
+
+**E025 (QM Bridge — Fixture Requirement):** 13-persona steelman Hegelian pass (7 steelman,
+6 hostile review) on the idea that quantum superposition = schema-predictive underdetermination
+of D4 events. Verdict: needs_fixture_before_verdict. Survives: 0 outright, 10 weakened,
+2 absorbed, 1 killed. What survives in narrow form: (1) H_fixed vs H_growing distinction is
+real and not captured by any existing QM interpretation — all assume a fixed observable
+algebra; (2) static vs growing context-category distinction (Topos QM is static, OnlineSchemaSys
+is growing); (3) Assembly Theory provides an independent D4 operationalization candidate.
+What is killed: direct superposition = schema-underdetermination (different categorical levels);
+VDF-strong claim (determinism asymmetry); QM bridge without TI-C020. What is absorbed:
+epistemic underdetermination layer (QBism/RQM), contextuality layer (AB), VDF intuition
+(B3/E023). Fixture required: exhibit one physical measurement event where the observable
+algebra demonstrably expands in a D4-traceable way. Conditional on TI-C020.
+
 ## Crypto-Econ Security Intake (post-RUN-0043, non-run)
 
 Three external agent notes from a crypto-economic security researcher persona were

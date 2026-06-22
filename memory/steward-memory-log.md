@@ -987,3 +987,27 @@ What was promoted: None. TI-C019 advanced to formalizing, not promoted.
 New blockers: No formal derivation of NAA / online constructibility from HoTT or constructive type formation yet.
 Recommended next run: W000 -> HoTT / constructive type derivation of online constructibility, augmented with the VDF sequential-computation question.
 Files changed: `explorations/E024-presheaf-ab-absorber-test.md`, `agent-runs/RUN-0044-presheaf-ab-absorber-test.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## BOUNDED-ACCESSIBILITY-INTAKE
+
+Timestamp: 2026-06-22
+Trigger: joe_request_external_synthesis (two versions of same note, bounded accessibility question)
+Workflow: non-run external persona synthesis
+Agent / subagents used: Repo Steward (synthesis pass, no steward cycle).
+Core question: Is D4 detecting source-side novelty or observer-projection-relative novelty? Surviving D4 effects after RUN-0040/0041 may be entirely explained by bounded observer accessibility to a richer (MetaCloSys) source, without requiring source-side issuance.
+New exploration: E026-bounded-accessibility-vs-issuance.md. PP-3 added to TI-C019. Novelty decomposition table (five types: observer discovery, community synchronization, schema disclosure, information acquisition, genuine type creation). Two-layer formal test proposed (source layer + projection layer). GU/14D shadow-projection angle noted as framing only, not integrated. No claim status changes.
+Files changed: `explorations/E026-bounded-accessibility-vs-issuance.md`, `CLAIM-LEDGER.md` (PP-3 on TI-C019), `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## QM-BRIDGE-STEELMAN-PASS
+
+Timestamp: 2026-06-22
+Trigger: joe_request_steelman_hegelian_workflow (idea: superposition = schema-predictive underdetermination of D4 events)
+Workflow: 13-persona steelman Hegelian workflow pass (7 steelman, 6 hostile review)
+Agent / subagents used: Workflow tool, 14 agents total.
+Verdict: needs_fixture_before_verdict. 0 survive outright, 10 weakened, 2 absorbed, 1 killed.
+What is killed: direct superposition = schema-underdetermination (categorical level mismatch — eigenvalue-underdetermination vs type-underdetermination); VDF-strong QM claim (determinism asymmetry); QM bridge without TI-C020.
+What is absorbed: epistemic underdetermination layer (QBism/RQM), contextuality layer (AB sheaf), VDF intuition at physical level (already in B3/E023).
+What survives narrow: H_fixed vs H_growing distinction (not captured by any QM interpretation); static vs growing context-category distinction (Topos QM static, OnlineSchemaSys growing); AT D4 operationalization candidate.
+Fixture required: exhibit one physical measurement event where the observable algebra demonstrably expands in a D4-traceable way. Conditional on TI-C020 establishment.
+New exploration: E025-qm-bridge-fixture-requirement.md. TI-C020 updated with QM bridge fixture path.
+Files changed: `explorations/E025-qm-bridge-fixture-requirement.md`, `explorations/E026-bounded-accessibility-vs-issuance.md`, `CLAIM-LEDGER.md` (TI-C019 PP-3 + refs, TI-C020 E025 ref), `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
