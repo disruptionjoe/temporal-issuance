@@ -2,7 +2,7 @@
 artifact_type: memory_summary
 status: active
 governance_role: steward_memory_summary
-last_summarized_run: RUN-0012
+last_summarized_run: RUN-0013
 constitutional: false
 ---
 
@@ -18,7 +18,7 @@ The Repo Steward is an anchored agent with durable memory. Workflows are mutable
 
 ## Current Strongest Version
 
-The strongest surviving version is local and observer-indexed: constraints become fixed relative to access, record cadence, and reconciliation rules, with global structure reconstructed by gluing rather than assumed as a universal moving frontier. RUN-0012 weakened the launch object into `LocalIssuancePatch_i = (R_i, <=_i, A_i, kappa_i, G_ij)` and killed generic `mu`.
+The strongest surviving version is local and observer-indexed: constraints become fixed relative to access, record cadence, and reconciliation rules, with global structure reconstructed by gluing rather than assumed as a universal moving frontier. RUN-0012 weakened the launch object and killed generic `mu`. RUN-0013 repaired the working sketch into local patches plus reconciliation: `LocalIssuancePatch_i = (R_i, <=_i, A_i, kappa_i, lambda_i)` and `ReconciliationSystem = ({LocalIssuancePatch_i}, G_ij, Omega_ij)`.
 
 ## Current Strongest Objection
 
@@ -26,7 +26,7 @@ The naive global-frontier reading conflicts with relativity. Generic `mu` is kil
 
 ## Current Strategy
 
-The VSM-aware five-cycle stress sequence and W004 assessment are complete. RUN-0008 found no serious viability issue and recommended returning to W003 absorber mapping focused by `absorbers/gap-map.md`. RUN-0009 clarified that prior `SIM-*` names referred to manually accelerated timing, not fake runs. RUN-0010 ran W003 with parallel absorber lanes. RUN-0011 created source readiness. RUN-0012 ran W002, weakened `IssuanceSystem`, and killed generic `mu`.
+The VSM-aware five-cycle stress sequence and W004 assessment are complete. RUN-0008 found no serious viability issue and recommended returning to W003 absorber mapping focused by `absorbers/gap-map.md`. RUN-0009 clarified that prior `SIM-*` names referred to manually accelerated timing, not fake runs. RUN-0010 ran W003 with parallel absorber lanes. RUN-0011 created source readiness. RUN-0012 ran W002, weakened `IssuanceSystem`, and killed generic `mu`. RUN-0013 generated definition repair candidates. RUN-0014 should create a toy-patch test before W004 assessment.
 
 ## Governance Notes
 
@@ -34,7 +34,7 @@ Governance mechanisms are hypotheses. The steward should be aggressive by defaul
 
 RUN-0004 found the launch architecture strong but under-instrumented. Immediate needs are a governance-change ledger, observation-only steward metrics, contributor intake stub, drift audit workflow, and memory summarizer protocol.
 
-RUN-0005 converted the prior one-time stewardship assessment into reusable W004. SIM-RUN-001 created the governance-change ledger. SIM-RUN-002 created observation-only steward metrics. SIM-RUN-003 created contributor intake W005. SIM-RUN-004 created the memory summarizer protocol. SIM-RUN-005 returned to research with W003 focused absorber mapping. RUN-0006 found the five-cycle sequence coherent, but warned against more governance expansion before W002. RUN-0007 tightened readiness instrumentation with a run closeout checklist, VSM map, per-run metrics schema, and VSM-aware W004 questions. SIM-VSM-RUN-001 checked System 2 coordination. SIM-VSM-RUN-002 added absorber gap mapping as System 4 intelligence. SIM-VSM-RUN-003 added a component pressure matrix as System 3 control for W002. SIM-VSM-RUN-004 audited state consistency and created a daily-review artifact for Joe. SIM-VSM-RUN-005 completed the strategy handoff into W004 assessment. RUN-0008 assessed the sequence and routed next work to W003. RUN-0009 fixed run terminology going forward. RUN-0010 increased throughput by using parallel absorber lanes. RUN-0011 created primary-source readiness without upgrading claims. RUN-0012 produced the first real W002 component pressure result.
+RUN-0005 converted the prior one-time stewardship assessment into reusable W004. SIM-RUN-001 created the governance-change ledger. SIM-RUN-002 created observation-only steward metrics. SIM-RUN-003 created contributor intake W005. SIM-RUN-004 created the memory summarizer protocol. SIM-RUN-005 returned to research with W003 focused absorber mapping. RUN-0006 found the five-cycle sequence coherent, but warned against more governance expansion before W002. RUN-0007 tightened readiness instrumentation with a run closeout checklist, VSM map, per-run metrics schema, and VSM-aware W004 questions. SIM-VSM-RUN-001 checked System 2 coordination. SIM-VSM-RUN-002 added absorber gap mapping as System 4 intelligence. SIM-VSM-RUN-003 added a component pressure matrix as System 3 control for W002. SIM-VSM-RUN-004 audited state consistency and created a daily-review artifact for Joe. SIM-VSM-RUN-005 completed the strategy handoff into W004 assessment. RUN-0008 assessed the sequence and routed next work to W003. RUN-0009 fixed run terminology going forward. RUN-0010 increased throughput by using parallel absorber lanes. RUN-0011 created primary-source readiness without upgrading claims. RUN-0012 produced the first real W002 component pressure result. RUN-0013 generated definition repair candidates.
 
 ## Killed Paths
 

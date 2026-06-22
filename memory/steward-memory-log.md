@@ -365,3 +365,20 @@ What was promoted: None.
 New blockers: Measure, cadence, and gluing definitions remain unresolved.
 Recommended next run: RUN-0013 definition repair for `mu`, `kappa_i`, and `G_ij`.
 Files changed: `agent-runs/RUN-0012-w002-component-pressure-pass.md`, `FORMAL-OBJECT-PRESSURE-RESULTS.md`, `FORMAL-OBJECT.md`, `memory/path-kills.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0013
+
+Timestamp: 2026-06-22
+Trigger: manual_accelerated_thin_trigger
+Workflow: W000 -> definition_repair
+Agent / subagents used: Repo Steward, Mathematician, Category Error Auditor.
+Current strongest version: Local patches plus reconciliation: `LocalIssuancePatch_i = (R_i, <=_i, A_i, kappa_i, lambda_i)` and `ReconciliationSystem = ({LocalIssuancePatch_i}, G_ij, Omega_ij)`.
+Current strongest objection: Repair candidates may still collapse into existing measure, update, or gluing machinery.
+What collapsed: More prose-only definition work as the next step.
+What survived: `lambda_i`, `kappa_i`, `G_ij`, and `Omega_ij` as test candidates.
+What was absorbed: RUN-0012 formal blockers were converted into repair candidates.
+What was clarified: RUN-0014 should create a toy two-observer patch test.
+What was promoted: None.
+New blockers: Toy model not yet built.
+Recommended next run: RUN-0014 toy-patch test candidates.
+Files changed: `agent-runs/RUN-0013-definition-repair.md`, `FORMAL-DEFINITION-REPAIR.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.

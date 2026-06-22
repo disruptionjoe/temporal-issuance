@@ -3,18 +3,18 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0012
+updated_by_run: RUN-0013
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run RUN-0013 as a definition repair pass.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run RUN-0014 as a toy-patch test candidate pass.
 
 ## Why
 
-RUN-0012 ran W002 and weakened the launch `IssuanceSystem`. It killed generic `mu` and narrowed the surviving object to local/access-relative patches. The next highest-learning move is definition repair focused on `mu`, `kappa_i`, and `G_ij`.
+RUN-0013 generated repair candidates for `lambda_i`, `kappa_i`, `G_ij`, and `Omega_ij`. The next highest-learning move is not more definition prose; it is a minimal toy-patch test that can pressure those candidates.
 
 ## Proposed Subagents
 
@@ -25,13 +25,13 @@ RUN-0012 ran W002 and weakened the launch `IssuanceSystem`. It killed generic `m
 
 ## Expected Outputs
 
-- RUN-0013 run record
-- definition repair notes for `mu`, `kappa_i`, and `G_ij`
-- decision whether repaired definitions are worth a second W002 pass or should be queued
+- RUN-0014 run record
+- minimal two-observer toy-patch test candidates
+- decision whether repaired definitions survive enough to justify another W002 pass
 - closeout checklist status
 - metrics update
 - memory and next-trigger updates
-- next route for RUN-0014 before W004 assessment
+- route to W004 assessment over RUN-0010 through RUN-0014
 
 ## Automation Target
 
