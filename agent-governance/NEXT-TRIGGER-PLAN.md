@@ -3,31 +3,40 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: SIM-RUN-003
+updated_by_run: SIM-RUN-004
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to add a memory summarizer protocol.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run W003: Absorber Map.
 
 ## Why
 
-SIM-RUN-003 created W005 for contributor intake. The last missing launch instrumentation item is a memory summarizer protocol so append-only memory does not drift from compact load surfaces or silently become policy.
+SIM-RUN-004 completed the minimal launch instrumentation by adding a memory summarizer protocol. The highest expected learning value now shifts back to research: W003 focused absorber mapping before W002 formal-object pressure.
 
 ## Proposed Subagents
 
-- Systems Engineer
-- AI Alignment / Agent Governance Researcher
-- Product Manager
+- Relativity Hardliner
+- Block Universe Defender
+- Thermodynamics Expert
+- Information Theorist
+- Causal Set Theorist
+- Time as Finality Boundary Keeper
+- Category Error Auditor
 
 ## Expected Outputs
 
-- memory summarizer protocol
-- a SIM-RUN-004 run record
+- absorber-by-absorber mapping
+- what each absorber explains
+- what each absorber does not explain
+- category-error and layer-error risks
+- whether anything remains non-absorbed
+- claim-ledger and path-kill updates if warranted
+- a SIM-RUN-005 run record
 - memory update
-- next-trigger plan returning to W003 absorber mapping
+- next-trigger plan, likely W004 assessment over the five simulated runs
 
 ## Automation Target
 

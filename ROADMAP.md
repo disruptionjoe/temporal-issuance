@@ -49,8 +49,8 @@ Tasks:
 - create observation-only steward metrics: complete as `agent-governance/STEWARD-METRICS.md`
 - create a recurring drift/stewardship assessment workflow: complete as `workflows/W004-stewardship-assessment-and-drift-audit.md`
 - create a contributor-intake workflow stub: complete as `workflows/W005-contributor-intake-and-evaluation.md`
-- add a memory summarizer protocol
-- then return to W003
+- add a memory summarizer protocol: complete as `agent-governance/MEMORY-SUMMARIZER-PROTOCOL.md`
+- then return to W003: next
 
 ## Phase 2: Formal Object Pressure
 

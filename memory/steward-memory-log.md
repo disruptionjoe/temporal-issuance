@@ -127,3 +127,20 @@ What was promoted: None.
 New blockers: Memory summarizer protocol still absent.
 Recommended next run: SIM-RUN-004 memory summarizer protocol.
 Files changed: `workflows/W005-contributor-intake-and-evaluation.md`, `workflows/README.md`, `agent-runs/SIM-RUN-003-contributor-intake.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## SIM-RUN-004
+
+Timestamp: 2026-06-22
+Trigger: simulated_thin_trigger
+Workflow: W000 -> memory_summarizer_protocol_creation
+Agent / subagents used: Repo Steward.
+Current strongest version: Compact steward memory needs explicit summarizer rules before additional automated runs.
+Current strongest objection: Summary protocol can become too heavy if every small run triggers extensive memory work.
+What collapsed: The repo no longer lacks a memory summarizer protocol.
+What survived: Append-only memory log remains history; compact summary remains load surface; authority surfaces remain separate.
+What was absorbed: RUN-0004's memory-drift concern was implemented as a protocol.
+What was clarified: Minimal launch instrumentation is complete; W000 should return to research with W003.
+What was promoted: None.
+New blockers: Absorber mapping still has not run.
+Recommended next run: SIM-RUN-005 W003 absorber map.
+Files changed: `agent-governance/MEMORY-SUMMARIZER-PROTOCOL.md`, `agent-runs/SIM-RUN-004-memory-summarizer-protocol.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
