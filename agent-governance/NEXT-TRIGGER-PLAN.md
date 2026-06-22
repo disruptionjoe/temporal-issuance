@@ -3,33 +3,31 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: SIM-RUN-002
+updated_by_run: SIM-RUN-003
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to create a contributor-intake and evaluation workflow stub.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to add a memory summarizer protocol.
 
 ## Why
 
-SIM-RUN-002 created observation-only steward metrics. The next smallest missing guardrail is a public contribution intake workflow so outside issues, pull requests, and comments can become evidence without becoming operative instructions.
+SIM-RUN-003 created W005 for contributor intake. The last missing launch instrumentation item is a memory summarizer protocol so append-only memory does not drift from compact load surfaces or silently become policy.
 
 ## Proposed Subagents
 
-- Open Source Governance Architect
-- Institutional Economist
+- Systems Engineer
 - AI Alignment / Agent Governance Researcher
 - Product Manager
 
 ## Expected Outputs
 
-- `workflows/W005-contributor-intake-and-evaluation.md`
-- workflow registry update
-- a SIM-RUN-003 run record
+- memory summarizer protocol
+- a SIM-RUN-004 run record
 - memory update
-- next-trigger plan moving to memory summarizer protocol
+- next-trigger plan returning to W003 absorber mapping
 
 ## Automation Target
 

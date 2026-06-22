@@ -48,7 +48,7 @@ Tasks:
 - create a governance-change ledger: complete as `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`
 - create observation-only steward metrics: complete as `agent-governance/STEWARD-METRICS.md`
 - create a recurring drift/stewardship assessment workflow: complete as `workflows/W004-stewardship-assessment-and-drift-audit.md`
-- create a contributor-intake workflow stub
+- create a contributor-intake workflow stub: complete as `workflows/W005-contributor-intake-and-evaluation.md`
 - add a memory summarizer protocol
 - then return to W003
 

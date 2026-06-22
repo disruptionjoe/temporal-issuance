@@ -18,6 +18,7 @@ Initial workflows:
 - `W002-formal-object-pressure-test.md`
 - `W003-absorber-map.md`
 - `W004-stewardship-assessment-and-drift-audit.md`
+- `W005-contributor-intake-and-evaluation.md`
 - `DYNAMIC-WORKFLOW-PROTOCOL.md`
 
 `W000-repo-steward-cycle.md` is the automation target. Hourly triggers should invoke W000 and let the Repo Steward decide what workflow or workflow set should run next.
