@@ -136,6 +136,7 @@ Tasks:
 - run TaF persona divergent assessment against `SourceRealization`: complete in `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`
 - add post-RUN-0019 ontology-resolution correction: complete in `agent-runs/RUN-0021-post-0019-ontology-resolution-recommendations.md`
 - run 62-persona steelman and Hegelian pass: complete in `agent-runs/RUN-0022-taf-persona-steelman-hegelian-pass.md`
+- save the two full persona-analysis patterns as reusable workflows: complete in `agent-runs/RUN-0023-save-persona-analyses-as-workflows.md`
 - create steelman and ontology fixture research improvements: complete in `HYPOTHESIS-STEELMAN.md`, `explorations/E004-research-improvements-from-steelman-pass.md`, and `explorations/E005-ontology-competition-fixture-suite.md`
 - run fixture-based ontology and survivor competition before accepting the source-order residue: next
 - run source-order absorption discriminator against `<=_S` and `Ext_S` if source order remains leading after ontology competition

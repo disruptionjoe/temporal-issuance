@@ -112,3 +112,19 @@ risk: Cross-repo context could blur project boundaries if treated as evidence ra
 review_needed: false
 rollback_or_revisit_trigger: If cross-repo context starts promoting claims or importing assumptions, narrow this protocol to explicit stuck-state use only.
 ```
+
+```yaml
+change_id: GCH-0008
+timestamp: 2026-06-21T22:36:05-05:00
+run_id: RUN-0023
+changed_surface:
+  - workflows/W006-divergent-persona-convergence-check.md
+  - workflows/W007-steelman-and-hegelian-persona-pass.md
+  - workflows/README.md
+change_type: durable_workflow_creation
+reason: Joe asked to save both full persona-analysis versions as workflows after RUN-0020 and RUN-0022 proved useful.
+expected_learning_value: Let W000 reuse full divergent persona generation and full steelman/Hegelian persona passes when future convergence or weak-target risks appear.
+risk: The workflows could become heavyweight ceremony if invoked too often or could protect the hypothesis if steelman output is mistaken for evidence.
+review_needed: false
+rollback_or_revisit_trigger: If W006 or W007 repeatedly fails to change research decisions, produces no new alternatives, or slows fixture-based testing, narrow, split, or retire the workflow.
+```
