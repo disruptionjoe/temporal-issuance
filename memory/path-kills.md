@@ -34,3 +34,17 @@ possible_future_resurrection_trigger:
 run_ref:
 claim_refs:
 ```
+
+## RUN-0012
+
+```yaml
+path: mu as generic monotone issuance amount
+reason_killed: Without invariant definition or separation from entropy, information, action, probability, volume, or expansion, `mu` is only a renamed monotone quantity.
+evidence: W002 component pressure pass in `agent-runs/RUN-0012-w002-component-pressure-pass.md` and `FORMAL-OBJECT-PRESSURE-RESULTS.md`.
+local_minimum_risk: A rigorously defined constraint-extension measure may still survive, so killing generic `mu` must not kill every possible measure candidate.
+possible_future_resurrection_trigger: A mathematically precise `mu` with invariance, update rules, and explicit separation from entropy, information, action, probability, volume, and cosmological scale.
+run_ref: RUN-0012
+claim_refs:
+  - TI-C001
+  - TI-C003
+```

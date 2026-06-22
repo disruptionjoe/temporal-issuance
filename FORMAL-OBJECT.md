@@ -24,6 +24,26 @@ IssuanceSystem = (
 )
 ```
 
+## Current Pressure Result
+
+RUN-0012 weakened this object. The current working target is no longer the launch object as written.
+
+See `FORMAL-OBJECT-PRESSURE-RESULTS.md`.
+
+Current working sketch:
+
+```text
+LocalIssuancePatch_i = (
+  R_i,
+  <=_i,
+  A_i,
+  kappa_i,
+  G_ij
+)
+```
+
+`mu` is demoted to an unresolved measure candidate. Global `dR` remains killed.
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?
@@ -50,4 +70,3 @@ The object must survive these questions before being strengthened:
 2. Does the object reduce to a known framework under clear conditions?
 3. Does anything remain after known frameworks absorb it?
 4. Can the object generate a theorem, no-go result, model, or discriminator?
-

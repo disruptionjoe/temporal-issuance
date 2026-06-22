@@ -116,6 +116,7 @@ Tasks:
 - run five real manual accelerated W000 cycles: next
 - RUN-0010 parallel W003 absorber gap pass: complete
 - RUN-0011 primary-source readiness: complete
+- RUN-0012 W002 component pressure pass: complete
 - run W004 assessment over those five cycles
 - apply urgent fixes found by assessment
 - draft an overall assessment of how the repo is working so far

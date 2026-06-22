@@ -348,3 +348,20 @@ What was promoted: None.
 New blockers: Source authority remains incomplete for final decisions.
 Recommended next run: RUN-0012 W002 component pressure pass.
 Files changed: `agent-runs/RUN-0011-primary-source-readiness.md`, `absorbers/primary-source-readiness.md`, `absorbers/README.md`, `memory/future-run-queue.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0012
+
+Timestamp: 2026-06-22
+Trigger: manual_accelerated_thin_trigger
+Workflow: W000 -> W002_component_pressure_pass
+Agent / subagents used: Repo Steward, Mathematician, Category Error Auditor, Research Prioritization Steward.
+Current strongest version: `IssuanceSystem` is weakened into local/access-relative patches: `LocalIssuancePatch_i = (R_i, <=_i, A_i, kappa_i, G_ij)`.
+Current strongest objection: The remaining components may still collapse into causal order, information/access updates, or existing gluing machinery.
+What collapsed: Generic `mu` as monotone issuance amount.
+What survived: Local/access-relative patch structure as a pressure target.
+What was absorbed: Launch object pressure matrix was converted into component results.
+What was clarified: `mu`, `kappa_i`, and `G_ij` need definition repair before another strengthening pass.
+What was promoted: None.
+New blockers: Measure, cadence, and gluing definitions remain unresolved.
+Recommended next run: RUN-0013 definition repair for `mu`, `kappa_i`, and `G_ij`.
+Files changed: `agent-runs/RUN-0012-w002-component-pressure-pass.md`, `FORMAL-OBJECT-PRESSURE-RESULTS.md`, `FORMAL-OBJECT.md`, `memory/path-kills.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
