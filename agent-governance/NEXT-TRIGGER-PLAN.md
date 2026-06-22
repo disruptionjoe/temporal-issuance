@@ -3,12 +3,36 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0037
+updated_by_run: RUN-0038
 ---
 
 # Next Trigger Plan
 
-## Current State
+## North Star Reframing (RUN-0038)
+
+Joe approved a constitutional vNext of the core hypothesis (`HYPOTHESIS.md`, `NORTH-STAR.md`).
+The center of gravity is now "Why does reality remain capable of producing genuinely new
+structure?" The deepest claim is shared participation plus ongoing issuance (`TI-C019`); the
+realization-order framing (`TI-C001`) is the downstream reconstruction layer.
+
+This changes the primary next trigger. The new primary route is the **issuance-precision pass**
+(Roadmap Phase 2B): define issuance minimally and produce at least one discriminator separating
+it from stochastic update, information flow, causal/event growth, and thermodynamic entropy,
+then build the five-way toy model from the `NORTH-STAR.md` research burden.
+
+```text
+W000 -> issuance_precision_pass
+```
+
+Success condition: a minimal definition plus a surviving discriminator vs known physics.
+Failure condition: no discriminator, in which case issuance is treated as a relabeling
+candidate and `TI-C019` is weakened.
+
+The Cech/sheaf fixture below is demoted to **secondary**: it pressures the observer-side
+reconstruction layer (`TI-C001`/`Ext_S`) and remains valuable, but it is no longer the deepest
+target. The prior RUN-0037 state is preserved below for continuity.
+
+## Current State (preserved from RUN-0037)
 
 RUN-0037 completed the holonomy fixture recommended by RUN-0036.
 
@@ -106,8 +130,6 @@ Codex hourly automation should point to:
 
 - `workflows/W000-repo-steward-cycle.md`
 
-W000 should route to the Cech/sheaf fixture unless Joe explicitly chooses:
-
-- formal residue documentation,
-- direct CelExt fixture suite, or
-- a pause in physics-bridge/boundary-witness pursuit.
+As of RUN-0038, W000 should route to the **issuance-precision pass** (Phase 2B) as the primary
+target. The Cech/sheaf fixture, formal residue documentation, direct CelExt fixture suite, and a
+pause in physics-bridge pursuit remain available secondary routes if Joe redirects.

@@ -11,6 +11,36 @@ constitutional: false
 
 Reach the fastest correct verdict on the Temporal Issuance hypothesis.
 
+RUN-0038 clarified the North Star (Joe-approved constitutional vNext). The organizing question
+is now "Why does reality remain capable of producing genuinely new structure?" rather than "Why
+does time flow?" The deepest claim is shared participation plus ongoing issuance (`TI-C019`);
+the prior realization-order framing (`TI-C001`) is the downstream observer-side reconstruction
+layer. The immediate research objective is to make issuance precise. See `HYPOTHESIS.md` and
+`NORTH-STAR.md`.
+
+## Phase 2B: Issuance Precision
+
+Status: active, opened by RUN-0038.
+
+This phase is the new primary research target. It precedes further direct physics-bridge work.
+
+Tasks:
+
+- give a minimal definition of issuance
+- state what a closed observer-update system fails to explain
+- produce discriminators separating issuance from: ordinary stochastic update; information
+  flow; causal/event growth; thermodynamic entropy
+- state what would count as evidence that issuance is not merely a relabeling of known physics
+- build the five-way toy model (closed observer update; stochastic update; external input;
+  genuine issuance; observer-side temporal reconstruction) from the `NORTH-STAR.md` research
+  burden
+- only after a surviving discriminator exists, test how issuance could connect to energy,
+  expansion, and structure formation without being absorbed
+
+Kill/absorb condition: if no discriminator separates issuance from stochastic update,
+information flow, causal/event growth, or thermodynamic entropy, treat issuance as a relabeling
+candidate and weaken `TI-C019` accordingly.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.

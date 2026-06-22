@@ -3,10 +3,24 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0037
+last_summarized_run: RUN-0038
 ---
 
 # Steward Memory Summary
+
+## North Star (RUN-0038, constitutional vNext, Joe-approved)
+
+The deepest claim is now shared participation plus ongoing issuance (`TI-C019`), not monotone
+realization of constraint. Organizing question: "Why does reality remain capable of producing
+genuinely new structure?" not "Why does time flow?" Issuance is the source-side opening of
+possibility that keeps the shared process from collapsing into a closed observer-update
+computation. Temporal order/finality are downstream observer-side reconstructions from records
+(`TI-C001`, the reconstruction layer). The issuance-energy-cosmology bridge is the central
+research target, not earned. Immediate work: make issuance precise (Roadmap Phase 2B). See
+`HYPOTHESIS.md` and `NORTH-STAR.md`.
+
+The physics-bridge findings below remain valid for the reconstruction layer and stand as the
+record of why direct arrow-of-time/physics derivation was deprioritized.
 
 ## Current Verdict
 
@@ -84,9 +98,12 @@ The next fixture should test the simpler version of the same independence proble
 
 ## Next Run
 
-Run W000 and route to the Cech/sheaf fixture unless Joe explicitly chooses formal residue
-documentation first.
+Run W000 and route to the **issuance-precision pass** (Roadmap Phase 2B): give a minimal
+definition of issuance and at least one discriminator separating it from stochastic update,
+information flow, causal/event growth, and thermodynamic entropy, then build the five-way toy
+model from `NORTH-STAR.md`. If no discriminator survives, treat issuance as a relabeling
+candidate and weaken `TI-C019`.
 
-The Cech/sheaf fixture should specify a section-compatibility predicate for `C`-typed extensions
-on a two-patch cover of `S^1` and ask whether admissibility independently determines which
-cocycles are allowed.
+Secondary (reconstruction layer): the Cech/sheaf fixture — specify a section-compatibility
+predicate for `C`-typed extensions on a two-patch cover of `S^1` and ask whether admissibility
+independently determines which cocycles are allowed.

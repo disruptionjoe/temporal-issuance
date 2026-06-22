@@ -808,6 +808,34 @@ notes: >
   moves to the Cech/sheaf fixture.
 ```
 
+```yaml
+run_id: RUN-0038
+workflow_used: W000 -> north_star_reframing
+research_vs_governance: governance
+claim_status_changed: true
+  changed_claims: [TI-C019_added, TI-C001_reframed_as_reconstruction_layer]
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: true
+  change_id: GCH-0009
+  constitutional_object_changed: HYPOTHESIS.md
+hard_output_created: true
+  artifacts: [NORTH-STAR, RUN-0038-north-star-reframing]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Joe-approved constitutional vNext. Deepest claim moved to shared participation + ongoing
+  issuance (TI-C019); realization-order framing demoted to reconstruction layer (TI-C001).
+  Center of gravity moved from arrow-of-time derivation to open-ended structure formation.
+  Issuance-energy-cosmology named as central research target, not earned. New primary next
+  trigger: issuance-precision pass (Roadmap Phase 2B). Local commit only; not pushed.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

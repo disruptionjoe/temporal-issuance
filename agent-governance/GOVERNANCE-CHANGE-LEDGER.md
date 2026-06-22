@@ -128,3 +128,35 @@ risk: The workflows could become heavyweight ceremony if invoked too often or co
 review_needed: false
 rollback_or_revisit_trigger: If W006 or W007 repeatedly fails to change research decisions, produces no new alternatives, or slows fixture-based testing, narrow, split, or retire the workflow.
 ```
+
+```yaml
+change_id: GCH-0009
+timestamp: 2026-06-22T08:19:35-05:00
+run_id: RUN-0038
+changed_surface:
+  - HYPOTHESIS.md
+  - NORTH-STAR.md
+  - CLAIM-LEDGER.md
+  - README.md
+  - ROADMAP.md
+  - agent-governance/NEXT-TRIGGER-PLAN.md
+change_type: constitutional_object_change
+reason: >
+  Joe explicitly approved, in the trusted control channel, a vNext of the constitutional core
+  hypothesis. The deepest claim moves from temporal issuance as monotone realization of
+  constraint to a shared, observer-participatory process kept open-ended by ongoing issuance.
+  Temporal order/finality become the downstream observer-side reconstruction layer. The
+  issuance-energy-cosmology bridge is named as the central research target, not an earned result.
+expected_learning_value: >
+  Redirects the program away from arrow-of-time derivation (too easily absorbed) toward making
+  issuance precise and testing whether it is more than a relabeling of known physics.
+risk: >
+  A constitutional change can lock in a framing prematurely. Mitigated by keeping TI-C019
+  speculative, preserving the prior framing as TI-C001, and requiring a discriminator before any
+  physics-bridge claim.
+review_needed: false
+rollback_or_revisit_trigger: >
+  If the issuance-precision pass finds no discriminator separating issuance from stochastic
+  update, information flow, causal/event growth, or thermodynamic entropy, weaken TI-C019 and
+  reopen the constitutional framing with Joe.
+```

@@ -808,3 +808,21 @@ What was promoted: None.
 New blockers: No `C`-typed admissibility predicate currently forces nontrivial transition data.
 Recommended next run: W000 -> Cech/sheaf fixture, unless Joe chooses formal residue documentation first.
 Files changed: `explorations/E015-holonomy-fixture.md`, `agent-runs/RUN-0037-holonomy-fixture.md`, `CLAIM-LEDGER.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0038
+
+Timestamp: 2026-06-22 08:19:35 -05:00
+Trigger: manual_trigger_joe_control_channel
+Workflow: W000 -> north_star_reframing
+Agent / subagents used: Repo Steward.
+Constitutional change: Yes. `HYPOTHESIS.md` rewritten to vNext under explicit Joe approval in the trusted control channel; recorded as GCH-0009. Prior framing preserved in-file and in history.
+Current strongest version: Reality remains a coherent, open-ended observer-participatory process because ongoing issuance introduces new possibility into a shared process; without issuance a universe of observers updating existing state risks becoming a closed computation. Temporal order/finality are downstream observer-side reconstructions from records.
+Current strongest objection: Issuance is not yet defined precisely and may be a relabeling of stochastic update, information flow, causal/event growth, or thermodynamic entropy. The issuance-energy-cosmology bridge is asserted as a target, not earned.
+What collapsed: Nothing tested this run. The "arrow-of-time from records/finality" framing was deprioritized as the deepest claim because absorber pressure showed it is too easily absorbed.
+What survived: Layered framing (shared participation -> issuance -> physics -> observers -> records -> temporal reconstruction). Realization-order framing demoted to reconstruction layer (TI-C001) but retained.
+What was absorbed: None this run.
+What was clarified: The deepest claim is shared process + issuance (TI-C019). The missing intermediate layer is source-side issuance. The immediate target is to make issuance precise.
+What was promoted: None.
+New blockers: No minimal definition of issuance yet; no discriminator separating it from known physics.
+Recommended next run: W000 -> issuance_precision_pass (Roadmap Phase 2B). Cech/sheaf fixture demoted to secondary.
+Files changed: `HYPOTHESIS.md`, `NORTH-STAR.md`, `CLAIM-LEDGER.md`, `README.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`, `agent-runs/RUN-0038-north-star-reframing.md`.
