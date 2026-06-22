@@ -877,3 +877,17 @@ What was promoted: None. TI-C019 remains weakened.
 New blockers: The no-hidden-schema / no-anticipation constraint has not yet been stated as a non-circular, non-protective class-relative axiom.
 Recommended next run: W000 -> no_anticipation_constraint_formalization.
 Files changed: `explorations/E018-pp1-meta-distribution-self-reference.md`, `agent-runs/RUN-0041-pp1-meta-distribution-self-reference.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0042
+
+Timestamp: 2026-06-22
+Trigger: joe_request_ambitious_run
+Workflow: W000 -> OnlineSchemaSys_no_anticipation_formalization (Phase 2B)
+Agent / subagents used: Repo Steward.
+Current strongest version: NAA is principled by constructive type formation (M2) and record formation structure (M3). D4 is co-extensive with schema-extension events inside `OnlineSchemaSys` by the NAA structural theorem. Morphism-level non-embedding of `OnlineSchemaSys` into `MetaCloSys` is a concrete categorical fact. AC-8 (multi-observer interactive schema negotiation) survives all adversarial pressure. TI-C019 has a concrete formalizing-candidate trajectory.
+Current strongest objection: M2 commits TI to a constructive reading of types (unearned); M3 depends on embedded-observer reading of H_n; morphism non-embedding is categorical but not a proof about physical reality; TI-C020 is entirely unearned.
+What collapsed: NAA-as-merely-protective (defeated by M2 and M3); D4-as-definitional inside `OnlineSchemaSys` (defeated by NAA structural theorem).
+What survived: `OnlineSchemaSys` as principled class; D4 as structural discriminator inside it; morphism-level non-embedding; AC-8; TI-C019 speculative with formalizing trajectory.
+New claims: TI-C020 (physical universe as `OnlineSchemaSys`), speculative.
+Recommended next run: hostile_review_TI_C019 (M2 formalization + morphism non-embedding proof), then AC-8 formal model, then TI-C020 pressure pass.
+Files changed: `explorations/E019-online-schema-sys-no-anticipation.md`, `agent-runs/RUN-0042-online-schema-sys-no-anticipation.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

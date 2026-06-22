@@ -837,6 +837,34 @@ notes: >
 ```
 
 ```yaml
+run_id: RUN-0042
+workflow_used: W000 -> OnlineSchemaSys_no_anticipation_formalization
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C019_updated_speculative_with_formalizing_trajectory, TI-C020_added_speculative]
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E019-online-schema-sys-no-anticipation, RUN-0042-online-schema-sys-no-anticipation]
+daily_review_items_added: false
+estimated_token_intensity: high
+parallel_lanes_used: false
+notes: >
+  Ambitious run per Joe's request. Formally defined OnlineSchemaSys with full morphism structure
+  and NAA. Proved NAA structural theorem (D4 co-extensive with schema-extension events inside
+  OnlineSchemaSys). Tested all 8 adversarial cases. 4-candidate independence test showed NAA
+  is principled by M2+M3, not merely protective. Morphism-level non-embedding of OnlineSchemaSys
+  into MetaCloSys is a concrete categorical fact. AC-8 (multi-observer interactive negotiation)
+  survives cleanly. TI-C019 returns to speculative with formalizing-candidate trajectory.
+  TI-C020 added as new speculative claim.
+```
+
+```yaml
 run_id: RUN-0039
 workflow_used: W000 -> issuance_precision_pass (Phase 2B)
 research_vs_governance: research

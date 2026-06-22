@@ -8,7 +8,57 @@ updated_by_run: RUN-0041
 
 # Next Trigger Plan
 
-## No-Anticipation Constraint Formalization (RUN-0042 target)
+## OnlineSchemaSys / No-Anticipation Complete (RUN-0042) — Next: Hostile Review + AC-8
+
+RUN-0042 completed the `OnlineSchemaSys` formalization and no-anticipation axiom test. NAA is
+principled by M2 (constructive type formation) and M3 (record formation structure). D4 is
+co-extensive with schema-extension events by the NAA structural theorem. The morphism-level
+non-embedding of `OnlineSchemaSys` into `MetaCloSys` is a concrete categorical fact. AC-8
+survives all adversarial pressure. TI-C020 added as speculative. TI-C019 returns to speculative
+with a formalizing-candidate trajectory.
+
+Primary next trigger:
+
+```text
+W000 -> hostile_review_TI_C019
+```
+
+Required: adversarial hostile review of two specific claims:
+
+1. The M2 formalization claim: that NAA can be *derived* from constructive type formation, not
+   merely *motivated* by it. The review should test: does CTT actually entail NAA for the
+   issuance setting, or does TI add extra assumptions?
+2. The morphism-level non-embedding proof: that no fully faithful functor from `OnlineSchemaSys`
+   to `MetaCloSys` exists because availability structure is preserved by `OnlineSchemaSys`
+   morphisms but not by `MetaCloSys` morphisms. The review should test: is this a genuine
+   categorical obstruction or a definition-level artifact?
+
+Success condition: both claims survive hostile review with precise proofs, not proof sketches.
+Promote TI-C019 to formalizing.
+
+Failure condition: one or both claims fail under hostile review. Remain speculative with more
+precise scope on what remains.
+
+Secondary next trigger:
+
+```text
+W000 -> AC8_formal_model
+```
+
+Build a concrete `OnlineSchemaSys` object with two observers in interactive schema negotiation.
+Verify D4 co-extension at the schema level and NAA compliance at the individual level. This is
+the first concrete multi-observer TI model.
+
+Tertiary next trigger:
+
+```text
+W000 -> TI_C020_pressure_pass
+```
+
+Test TI-C020 against quantum no-cloning / causality of measurement and causal set growth
+dynamics. Do not import ordinary time as a primitive. Approach from architecture side.
+
+## No-Anticipation Constraint Formalization (RUN-0042 target — completed)
 
 RUN-0041 completed the PP-1 meta-distribution self-reference test. Result: object-level D4 is
 absorbed by completed-domain or universal-grammar `MetaCloSys` encodings, and the PP-1

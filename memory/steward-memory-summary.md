@@ -157,15 +157,25 @@ TI-C019 remains weakened. The central burden is now to state the no-hidden-schem
 no-anticipation constraint as a principled class-relative axiom rather than as protective
 stipulation.
 
+## OnlineSchemaSys Result (RUN-0042)
+
+NAA is principled by M2 (constructive type formation) and M3 (record formation structure) —
+not merely protective. D4 is co-extensive with schema-extension events inside `OnlineSchemaSys`
+by the NAA structural theorem. Morphism-level non-embedding of `OnlineSchemaSys` into
+`MetaCloSys` is a concrete categorical fact. AC-8 (multi-observer interactive schema
+negotiation) survives all eight adversarial cases and is what TI's shared-participation
+hypothesis describes. TI-C020 added as speculative (physical universe as `OnlineSchemaSys`).
+
+TI-C019 returns to speculative (from weakened) with a formalizing-candidate trajectory.
+
 ## Next Run
 
-Primary: no-anticipation constraint formalization. Define `OnlineSchemaSys` as prefix-presented
-schema systems whose transitions may use only currently constructible schema descriptions,
-generator kinds, and admissibility tests. Decide whether this excludes hidden future schemas
-for a principled reason or only protects D4.
+Primary: hostile review of TI-C019. Test whether NAA is derived (not just motivated) from
+constructive type theory, and whether the morphism-level non-embedding proof holds under
+adversarial categorical scrutiny. Success → promote TI-C019 to formalizing.
 
-Secondary: Cech/sheaf fixture cross-linked to D4, but only inside the explicit no-anticipation
-class. Otherwise a new cocycle class can always be reclassified as already present in a larger
-fixed sheaf schema.
+Secondary: AC-8 formal model — concrete `OnlineSchemaSys` with two observers in interactive
+schema negotiation.
 
-Tertiary: physics connection remains deferred until D4 survives the no-anticipation pressure.
+Tertiary: TI-C020 pressure pass — quantum no-cloning / measurement causality and causal set
+growth dynamics, without importing ordinary time.

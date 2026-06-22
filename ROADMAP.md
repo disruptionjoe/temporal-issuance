@@ -20,7 +20,7 @@ layer. The immediate research objective is to make issuance precise. See `HYPOTH
 
 ## Phase 2B: Issuance Precision
 
-Status: active, PP-1 pass complete in RUN-0041.
+Status: active, OnlineSchemaSys pass complete in RUN-0042.
 
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
@@ -55,9 +55,32 @@ Completed tasks:
   `agent-runs/RUN-0041-pp1-meta-distribution-self-reference.md`
 - killed PP-1 infinite regress as proof that D4 forces a base-level issuance primitive
 
+RUN-0042 completed the OnlineSchemaSys / no-anticipation formalization pass. Key results:
+- `OnlineSchemaSys` formally defined with full morphism structure and NAA as an information-
+  boundary constraint.
+- NAA structural theorem proved: D4 is co-extensive with schema-extension events inside
+  `OnlineSchemaSys`.
+- All eight adversarial cases tested. AC-8 (multi-observer interactive schema negotiation)
+  survives cleanly and is precisely what TI's shared-participation hypothesis describes.
+- Four-candidate independence test: NAA is principled by M2 (constructive type formation) and
+  M3 (record formation structure). Not merely protective.
+- Morphism-level non-embedding: no fully faithful functor from `OnlineSchemaSys` to
+  `MetaCloSys` exists because morphisms in `OnlineSchemaSys` preserve prefix-indexed schema
+  availability, which `MetaCloSys` has no structure to preserve.
+- TI-C020 added: physical universe as `OnlineSchemaSys` instance (speculative).
+
+TI-C019 returns to speculative (from weakened) with a concrete formalizing-candidate
+trajectory. Not promoted — hostile review required.
+
 Open tasks:
 
-- state and test whether the no-hidden-schema / no-anticipation constraint is principled
+- hostile review of M2 formalization (derive NAA from constructive type theory, not merely
+  motivate it) and precise categorical proof of morphism-level non-embedding
+- if hostile review passes: promote TI-C019 to formalizing
+- AC-8 formal model: build concrete `OnlineSchemaSys` object with two observers in interactive
+  schema negotiation
+- TI-C020 pressure: test against quantum no-cloning / causality, causal set growth dynamics,
+  cosmological horizon structure
   rather than a protective stipulation
 - Cech/sheaf fixture cross-linked to D4 (secondary): test whether typed admissibility
   generates type-novel cocycle classes under explicit no-hidden-schema constraints
