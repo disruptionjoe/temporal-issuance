@@ -4,9 +4,27 @@ status: active
 governance_role: next_trigger_state
 constitutional: false
 updated_by_run: RUN-0045
+intake_pending: 2026-06-22-external-three-lens-steelman-intake.md
 ---
 
 # Next Trigger Plan
+
+## Intake Pending — Read Before Next Run
+
+External three-lens steelman (Shapley/Ostrom + DNN/math-stats) logged in
+`memory/daily-review/2026-06-22-external-three-lens-steelman-intake.md`.
+
+Headline: all six lenses (three external, three internal) collapse onto PP-3. No claim movement
+earned. Three governance-clearing actions can run without hostile review:
+- C3: decide rivalrousness fork (non-rival vs CPR) before using commons language
+- C5: correct the soft DNN read — grokking is PP-3 Hypothesis-B evidence, not issuance confirmation; log as absorber
+- C6: add IBP/CRP to absorber map
+
+After these: C1 (sheaf/holonomy identity check with B1 presheaf), C5 grokking-vs-self-play fixture (E030 candidate), C2 growing-game credit functional.
+
+Discipline flags from intake carry forward to all runs — see intake file.
+
+---
 
 ## HoTT / VDF Pass Complete (RUN-0045) - Next: Source vs Projection
 
