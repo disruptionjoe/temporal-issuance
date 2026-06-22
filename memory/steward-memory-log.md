@@ -229,3 +229,20 @@ What was promoted: None.
 New blockers: Component pressure matrix is missing.
 Recommended next run: SIM-VSM-RUN-003 component pressure matrix.
 Files changed: `agent-runs/SIM-VSM-RUN-002-absorber-gap-scan.md`, `absorbers/gap-map.md`, `absorbers/README.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## SIM-VSM-RUN-003
+
+Timestamp: 2026-06-22
+Trigger: simulated_thin_trigger
+Workflow: W000 -> component_pressure_matrix
+Agent / subagents used: Repo Steward, VSM Auditor, Category Error Auditor.
+Current strongest version: `IssuanceSystem` can be pressure-tested only component by component, with `mu`, `dR`, and `kappa_i` treated as highest collapse risks.
+Current strongest objection: The proposed object may still be a renamed mixture of causal set, entropy or information measure, record access, and gluing machinery.
+What collapsed: The idea that W002 can proceed usefully without component-level controls.
+What survived: TI-C003 remains speculative and testable by pressure, not promotion.
+What was absorbed: SIM-VSM-RUN-002 gap mapping was converted into a formal-object pressure matrix.
+What was clarified: W002 should use the matrix and report component status after pressure.
+What was promoted: None.
+New blockers: None for simulation. W002 still has not run.
+Recommended next run: SIM-VSM-RUN-004 System 3* audit spot check.
+Files changed: `agent-runs/SIM-VSM-RUN-003-component-pressure-matrix.md`, `FORMAL-OBJECT-PRESSURE-MATRIX.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.

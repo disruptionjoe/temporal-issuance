@@ -3,18 +3,18 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: SIM-VSM-RUN-002
+updated_by_run: SIM-VSM-RUN-003
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run SIM-VSM-RUN-003 as a System 3 control test for W002 readiness.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run SIM-VSM-RUN-004 as a System 3* audit spot check.
 
 ## Why
 
-SIM-VSM-RUN-002 created an absorber gap map and found that W002 needs a component pressure matrix more than another broad absorber pass. The next run should test whether System 3 control can produce the minimum W002-ready matrix without changing claim status prematurely.
+SIM-VSM-RUN-003 created the component pressure matrix needed for W002. Before the final simulation run, W000 should test whether the new metrics, memory, roadmap, closeout, and claim surfaces remain consistent.
 
 ## Proposed Subagents
 
@@ -25,9 +25,9 @@ SIM-VSM-RUN-002 created an absorber gap map and found that W002 needs a componen
 
 ## Expected Outputs
 
-- SIM-VSM-RUN-003 run record
-- component pressure matrix for `IssuanceSystem`
-- no claim-status promotion
+- SIM-VSM-RUN-004 run record
+- System 3* audit spot check
+- inconsistency list, even if empty
 - closeout checklist status
 - metrics update
 - memory and next-trigger updates
