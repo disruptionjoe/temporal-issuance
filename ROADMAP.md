@@ -156,5 +156,6 @@ Tasks:
 - formalize conditional Lorentzian realization theorem: complete in `agent-runs/RUN-0026-conditional-lorentzian-realization-theorem.md` and `explorations/E008-conditional-lorentzian-realization-theorem.md`
 - tighten next realization-functor goal around minimal nontriviality, earned-structure ladder, external metric assumption, failure-as-success, and GU discipline: complete in `agent-runs/RUN-0027-tighten-realization-functor-goal.md`
 - construct/refute minimal nontrivial realization functor: bounded constructive result complete in `agent-runs/RUN-0028-minimal-nontrivial-lorentzian-realization.md` and `explorations/E009-minimal-nontrivial-lorentzian-realization.md`
+- BDO pass: Boundary-Determination Obstruction proved in `agent-runs/RUN-0028-construct-or-refute-minimal-nontrivial-realization-functor.md` and recorded in `explorations/E008-conditional-lorentzian-realization-theorem.md`; energy-momentum route path-killed; TI-C009 weakened
 - if the bridge is revisited, require explicit Lorentzian/Poincare/Noether premises rather than invariant-language transfer
-- next bridge test: audit whether the source weight `Q` required by `F` can be defined before choosing LorHist; if not, archive the GU/mass-energy bridge as a speculative Lorentzian control case
+- next bridge test (inverted construction): define `LorHist'` with momentum-underdetermining objects; ask whether `Ext_S` invariant can select `p^mu` data the boundary leaves open; covariance + hidden-variable guardrails required

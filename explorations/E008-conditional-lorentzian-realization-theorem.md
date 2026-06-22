@@ -203,6 +203,41 @@ only_imported_physics: F merely labels ordinary relativity without source-side d
 
 The last condition is the most important for Temporal Issuance. A bridge that only says "if ordinary relativity, then ordinary relativity" is mathematically true but does no Temporal Issuance work.
 
+### BDO + Split Verdict (RUN-0028 BDO pass)
+
+The RUN-0028 BDO pass proved a precise model-level form of `only_imported_physics`:
+
+**Lemma (Boundary-Determination Obstruction, BDO).** In `LorHist(M, eta, A)` with `A`
+Poincare-invariant and Noether-regular, total conserved four-momentum `p^mu` of any
+on-shell morphism `h: B0 -> B1` is determined by the boundary objects `(B0, B1)` and the
+fixed `(M, eta, A)` alone. Conservation keeps `p^mu` constant along `h`, so it equals the
+boundary-slice value `p^mu[B]`. For any functor F and any parallel pair `e1, e2 : S => S'`,
+
+```
+p^mu(F(e1)) = p^mu[F(S')] = p^mu(F(e2))
+```
+
+Therefore `p^mu . F` factors through the thin reflection `Preord(<=_S)`. The mass-energy
+observable is blind to every `Ext_S` morphism distinction the nontriviality gate is about.
+
+**Verdict split.** This produces a sharp epistemic split:
+
+- `only_imported_physics` is triggered at the **energy-momentum** level: no nontrivial F
+  in the Poincare-invariant Minkowski control case.
+- `only_imported_physics` does NOT apply at the **admissible-history-class** level: parallel
+  extensions can map to distinct on-shell sectors (different charge/topological sectors)
+  sharing the same boundary data. Nontrivial F exists there.
+
+Net: nontriviality and energy-momentum-relevance are **mutually exclusive** in this control
+case. The antecedent of this theorem's consequential use is therefore unsatisfiable at the
+energy-momentum rung. The theorem remains formally valid; it is vacuously satisfied when no
+nontrivial-at-mass-energy F exists.
+
+**Remaining open door.** BDO used LorHist objects encoding full Cauchy/boundary data. If
+objects under-determine total `p^mu` (partial or asymptotic data only), BDO weakens. The
+one live target is an `Ext_S` invariant that selects Lorentzian momentum data the boundary
+leaves open — the inverted-construction pass. See `agent-governance/NEXT-TRIGGER-PLAN.md`.
+
 ## Next-Level Research Target
 
 The next legitimate research target is not proving `E = mc^2`. That is already standard once the Lorentzian/Poincare premises are present.

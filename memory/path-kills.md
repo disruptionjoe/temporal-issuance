@@ -94,7 +94,7 @@ claim_refs:
   - TI-C009
 ```
 
-## RUN-0028
+## RUN-0028 (automated pass)
 
 ```yaml
 path: Existence of a nontrivial Lorentzian realization functor as sufficient evidence for a physical GU or mass-energy bridge
@@ -102,10 +102,26 @@ reason_killed: RUN-0028 constructs a minimal nontrivial functor only by adding a
 evidence: `explorations/E009-minimal-nontrivial-lorentzian-realization.md` and `agent-runs/RUN-0028-minimal-nontrivial-lorentzian-realization.md`.
 local_minimum_risk: A future Ext_S model could still define Q independently of proper time, action, cost, entropy, information, proof length, or resource accounting, and then use a Lorentzian realization as a legitimate control case.
 possible_future_resurrection_trigger: A source-side derivation of Q plus a functor to Lorentzian histories that preserves Q under quotient, supplies or derives an action principle, and satisfies Poincare/Noether hypotheses without merely relabeling ordinary relativity.
-run_ref: RUN-0028
+run_ref: RUN-0028 (automated)
 claim_refs:
   - TI-C007
   - TI-C009
   - TI-C010
   - TI-C011
+```
+
+## RUN-0028 (BDO pass)
+
+```yaml
+path: nontrivial realization functor carrying Ext_S structure into Lorentzian energy-momentum (mass-energy bridge)
+reason_killed: Boundary-Determination Obstruction (BDO). In LorHist(M, eta, A) with A Poincare-invariant and Noether-regular, total conserved p^mu is an object-level invariant of boundary data (B0, B1) — not of which on-shell history realizes that boundary pair. For any parallel pair e1, e2 : S => S', p^mu(F(e1)) = p^mu[F(S')] = p^mu(F(e2)). Therefore p^mu . F factors through the thin reflection Preord(<=_S): the mass-energy observable is blind to every source distinction the nontriviality gate is about. Nontriviality and energy-momentum-relevance are mutually exclusive in the Poincare-invariant control case. Realizes E008 only_imported_physics failure and kill_test.
+evidence: BDO lemma in `agent-runs/RUN-0028-construct-or-refute-minimal-nontrivial-realization-functor.md`; E008 kill_test in `explorations/E008-conditional-lorentzian-realization-theorem.md`; RUN-0025 parallel-invariant result.
+local_minimum_risk: medium. Control case used Minkowski spacetime with objects encoding full boundary/Cauchy data. BDO weakens if objects under-determine total momentum (e.g., partial or asymptotic boundary data only).
+possible_future_resurrection_trigger: A LorHist' formulation whose objects under-determine total p^mu PLUS an Ext_S invariant that fixes the momentum data the boundary leaves open, consistently, covariantly, and without hidden-variable bookkeeping or a preferred foliation.
+run_ref: RUN-0028 (BDO pass)
+claim_refs:
+  - TI-C007
+  - TI-C008
+  - TI-C009
+  - TI-C010
 ```

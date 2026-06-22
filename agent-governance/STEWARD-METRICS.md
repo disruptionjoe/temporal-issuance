@@ -549,7 +549,7 @@ parallel_lanes_used: false
 ```
 
 ```yaml
-run_id: RUN-0028
+run_id: RUN-0028 (automated)
 workflow_used: W000 -> minimal_nontrivial_realization_functor
 research_vs_governance: research
 claim_status_changed: true
@@ -564,6 +564,25 @@ hard_output_created: true
 daily_review_items_added: false
 estimated_token_intensity: high
 parallel_lanes_used: simulated_specialist_review
+```
+
+```yaml
+run_id: RUN-0028 (BDO pass)
+workflow_used: W000 -> construct_or_refute_realization_functor (BDO proof)
+research_vs_governance: research
+claim_status_changed: true
+path_killed: true
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: high
+parallel_lanes_used: simulated_specialist_review
+notes: BDO proved in chat environment; applied via Claude Code automation. TI-C009 weakened (energy-momentum route killed). Next trigger replaced with inverted-construction target.
 ```
 
 ## Use Rules

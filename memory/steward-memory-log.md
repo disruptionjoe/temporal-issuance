@@ -621,7 +621,7 @@ New blockers: None; this was a goal-tightening pass.
 Recommended next run: W000 -> construct or refute minimal nontrivial `F: ExtCat -> LorHist`.
 Files changed: `agent-runs/RUN-0027-tighten-realization-functor-goal.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `explorations/E008-conditional-lorentzian-realization-theorem.md`, `ROADMAP.md`, `CLAIM-LEDGER.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
 
-## RUN-0028
+## RUN-0028 (automated pass)
 
 Timestamp: 2026-06-21 23:24:04 -05:00
 Trigger: manual_request
@@ -637,3 +637,20 @@ What was promoted: No substrate claim was promoted. TI-C011 was added as a forma
 New blockers: Need a source-side definition of `Q` before choosing LorHist.
 Recommended next run: W000 -> source-invariant audit for `Q`; archive the GU/mass-energy bridge as speculative if `Q` is absorbed.
 Files changed: `explorations/E009-minimal-nontrivial-lorentzian-realization.md`, `agent-runs/RUN-0028-minimal-nontrivial-lorentzian-realization.md`, `CLAIM-LEDGER.md`, `FORMAL-OBJECT.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `explorations/E008-conditional-lorentzian-realization-theorem.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0028 (BDO pass)
+
+Timestamp: 2026-06-21 (chat-executed; committed via Claude Code automation)
+Trigger: next_trigger_plan_RUN-0027 (same trigger as automated pass; complementary analysis)
+Workflow: W000 -> construct_or_refute_realization_functor (direct BDO proof)
+Agent / subagents used: Category Error Auditor, Mathematical Minimalist, Lorentzian geometer, Relativity physicist, GU skeptic, NULL-SURVIVOR advocate, Time-as-Finality boundary keeper (simulated in chat).
+Current strongest version: BDO proves that in the Poincare-invariant Minkowski control case, `p^mu` is boundary-object-determined. A parallel-pair `Ext_S` distinction cannot reach energy-momentum. Nontriviality at the admissible-history-class level is confirmed (parallel extensions can map to distinct on-shell sectors), but this is absorbed by gauge/topological-sector bookkeeping.
+Current strongest objection: BDO used full Cauchy/boundary data objects. If LorHist objects under-determine `p^mu`, BDO weakens and the inverted construction may succeed.
+What collapsed: The energy-momentum route for the mass-energy bridge (TI-C009 weakened). The Q-source-audit next target (superseded by the sharper inverted-construction goal).
+What survived: History-class nontriviality of `F` (confirmed but absorbed). The formal content of TI-C008 (parallel-pair invariant formally supported). The E008 conditional theorem (still valid; antecedent now shown unsatisfiable in Minkowski control case).
+What was absorbed: Q-source-audit target absorbed by the BDO finding — the Q question is downstream of BDO resolution.
+What was clarified: Exactly one open door: inverted construction with momentum-underdetermining LorHist' objects.
+What was promoted: No claim promoted. TI-C009 weakened. TI-C010 antecedent-obstruction noted. TI-C007 narrowed to history-class level. TI-C008 formal support recorded.
+New blockers: Inverted construction requires a covariant momentum-underdetermining LorHist' definition plus a non-bookkeeping Ext_S selection invariant.
+Recommended next run: W000 -> inverted construction (see NEXT-TRIGGER-PLAN.md).
+Files changed: `agent-runs/RUN-0028-construct-or-refute-minimal-nontrivial-realization-functor.md`, `CLAIM-LEDGER.md`, `memory/path-kills.md`, `explorations/E008-conditional-lorentzian-realization-theorem.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`, `agent-governance/STEWARD-METRICS.md`.
