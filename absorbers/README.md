@@ -20,3 +20,5 @@ Absorption is not automatically a stop signal. Each absorber file should ask:
 ## Current Gap Map
 
 See `absorbers/gap-map.md` for the current minimum absorber gaps that matter before W002.
+
+See `absorbers/primary-source-readiness.md` for source anchors and source gaps before claim upgrades or component kills.

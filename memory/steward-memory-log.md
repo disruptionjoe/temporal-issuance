@@ -331,3 +331,20 @@ What was promoted: None.
 New blockers: Primary-source readiness is still missing for claim upgrade or component kill decisions.
 Recommended next run: RUN-0011 primary-source readiness for narrowed absorber set.
 Files changed: `agent-runs/RUN-0010-parallel-absorber-gap-pass.md`, `absorbers/cosmological-expansion.md`, `absorbers/process-philosophy.md`, `absorbers/category-layer-map.md`, `absorbers/gap-map.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0011
+
+Timestamp: 2026-06-22
+Trigger: manual_accelerated_thin_trigger
+Workflow: W000 -> primary_source_readiness
+Agent / subagents used: Repo Steward, Research Prioritization Steward.
+Current strongest version: W002 can run a first component pressure pass using source readiness as a map, not authority.
+Current strongest objection: Thermodynamic arrow, process philosophy, and time-as-finality source anchors remain incomplete.
+What collapsed: The need for a full literature review before any W002 pressure.
+What survived: The need for full source review before claim promotion, strong absorption, or component kill decisions that rely on source authority.
+What was absorbed: RUN-0010 absorber gaps were converted into a primary-source readiness map.
+What was clarified: RUN-0012 should run W002 first component pressure pass.
+What was promoted: None.
+New blockers: Source authority remains incomplete for final decisions.
+Recommended next run: RUN-0012 W002 component pressure pass.
+Files changed: `agent-runs/RUN-0011-primary-source-readiness.md`, `absorbers/primary-source-readiness.md`, `absorbers/README.md`, `memory/future-run-queue.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.

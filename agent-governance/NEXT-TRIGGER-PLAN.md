@@ -3,18 +3,18 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0010
+updated_by_run: RUN-0011
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run RUN-0011 as primary-source readiness for the narrowed absorber set.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run RUN-0012 as W002 first component pressure pass.
 
 ## Why
 
-RUN-0010 ran W003 with parallel absorber lanes and closed the two obvious stub gaps: cosmological expansion and process philosophy. It also added category-layer controls. The remaining blocker before W002 is not more general mapping; it is source readiness for the narrowed absorber set.
+RUN-0011 created source readiness without turning the run into a full literature review. W002 can now run a first pressure pass if it treats source readiness as a map rather than authority and avoids claim upgrades without full review.
 
 ## Proposed Subagents
 
@@ -25,13 +25,14 @@ RUN-0010 ran W003 with parallel absorber lanes and closed the two obvious stub g
 
 ## Expected Outputs
 
-- RUN-0011 run record
-- primary-source readiness map for absorbers likely to matter in W002
-- source list or source classes for component pressure, without overbuilding a full literature workflow
+- RUN-0012 run record
+- W002 component pressure table using `FORMAL-OBJECT-PRESSURE-MATRIX.md`
+- component-level statuses after pressure
+- no claim promotion unless supported by source review
 - closeout checklist status
 - metrics update
 - memory and next-trigger updates
-- recommendation on whether W002 should run next using `FORMAL-OBJECT-PRESSURE-MATRIX.md`
+- recommendation on whether a second W002 pass or source review should follow
 
 ## Automation Target
 
