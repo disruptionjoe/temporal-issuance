@@ -758,6 +758,23 @@ Recommended next run: W008 Category G holographic sub-route — formalize the ce
 Supersession: RUN-0034 ran this appendix's local next-run recommendation. Current next trigger is the `CelExt` fixture suite, or formal residue documentation if Joe pauses the physics bridge.
 Files changed: `agent-runs/RUN-0035-w008-category-g-bms-formal-pass.md`, `memory/path-kills.md` (two new entries), `agent-governance/STEWARD-METRICS.md` (signal appended), `memory/steward-memory-log.md` (this entry), `ROADMAP.md` (Phase 1E log updated).
 
+## RUN-0036
+
+Timestamp: 2026-06-22
+Trigger: research_note_pass_cetext_witness_obligations
+Workflow: research_note (12-lens heterodox survey)
+Agent / subagents used: Repo Steward; 12 lens passes (B1 through B12) with unified witness-obligation formalism.
+Current strongest version: A witness-obligation route to CelExt is conditionally live via B9 (Holonomy/Gauge). The holonomy parallel pair (trivial vs. non-trivial connection, same loop order, different Wilson loop) is the strongest near-nontrivial result in the 12-lens survey. The test is concretely executable and cleanly evades both BDO and ICO. The result is conditional on independently deriving the connection from `Ext_S`.
+Current strongest objection: No lens achieved a `live` verdict. All `conditional-live` results require an independent source-side specification of the key structure (connection, section-compatibility, boundary CFT, holographic dictionary) that is not yet derived from `Ext_S`. The holonomy is formal residue unless the connection can be derived from source-side extension rules without importing target physics.
+What collapsed: No path kills from RUN-0036. Six lenses (B2/B3/B4/B7/B10/B11) are bookkeeping — their boundary observables are absorbed by standard theories (matroid theory, automata theory, relational database theory, multi-agent planning, deep learning, thermodynamics). B6 is absorbed (consensus/finality falls to vote distribution, which is target-side). No new structural collapse beyond what was already established by BDO and ICO.
+What survived: Five conditional-live lenses (B1/B5/B8/B9/B12). Two new speculative claims (TI-C017 Čech/sheaf witness, TI-C018 holonomy witness). The holonomy parallel pair as the most concretely executable near-nontrivial test.
+What was absorbed: B6 (Consensus/Finality) is absorbed: fork-choice outcome depends on vote distribution (target-side dynamics), the exact analogue of ICO for the consensus setting.
+What was clarified: The 12-lens survey shows that the witness-obligation reframing does not immediately yield a `live` result — the obstacle is formal (no independent source-side specification exists yet), not conceptual. The survey precisely identifies which lenses are worth formalizing (B9 primary, B1 and B5 secondary) and which are not (B2/B3/B4/B6/B7/B10/B11).
+What was promoted: No claims promoted. TI-C017 and TI-C018 added as speculative.
+New blockers: The holonomy fixture requires specifying a typed constraint system with a closed extension loop and asking whether the extension composition rule independently determines a non-trivial `G`-valued holonomy. This has not yet been run.
+Recommended next run: Holonomy fixture — specify `(C_min, <=_S^min, Ext_S^min)` with a closed loop; derive the induced connection; verify non-triviality without importing target gauge theory.
+Files changed: `explorations/E014-cetext-witness-obligations-lens-survey.md`, `agent-runs/RUN-0036-cetext-witness-obligations.md`, `CLAIM-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `agent-governance/STEWARD-METRICS.md`, `memory/steward-memory-log.md`, `ROADMAP.md`.
+
 ## RUN-0034
 
 Timestamp: 2026-06-22 01:01:00 -05:00

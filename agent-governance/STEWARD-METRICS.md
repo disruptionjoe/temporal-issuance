@@ -756,6 +756,32 @@ notes: >
   formal residue documentation is chosen.
 ```
 
+```yaml
+run_id: RUN-0036
+workflow_used: research_note_cetext_witness_obligations
+research_vs_governance: research
+claim_status_changed: true
+  new_claims: [TI-C017_speculative, TI-C018_speculative]
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E014-cetext-witness-obligations-lens-survey, RUN-0036-cetext-witness-obligations]
+daily_review_items_added: false
+estimated_token_intensity: very_high
+parallel_lanes_used: twelve_lens_survey
+notes: >
+  12-lens witness-obligation survey of candidate CelExt structures. Verdicts: 5 conditional-live
+  (B1/B5/B8/B9/B12), 6 bookkeeping (B2/B3/B4/B7/B10/B11), 1 absorbed (B6), 0 live, 0 blocked.
+  Strongest near-nontrivial result: B9 (Holonomy/Gauge). Holonomy parallel pair concretely
+  executable and cleanly evades BDO and ICO. Two speculative claims added. Next trigger: holonomy
+  fixture — specify (C_min, <=_S^min, Ext_S^min) with closed loop and derive induced connection.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.
