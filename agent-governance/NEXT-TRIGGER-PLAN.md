@@ -3,41 +3,35 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0006
+updated_by_run: RUN-0007
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run W002: Formal Object Pressure Test.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run a VSM-aware five-cycle thin-trigger stress simulation.
 
 ## Why
 
-RUN-0006 assessed SIM-RUN-001 through SIM-RUN-005 and found W000 behaved adaptively enough to continue. The highest expected learning move is now research: pressure-test `IssuanceSystem` component by component against the absorber risks identified in SIM-RUN-005.
+RUN-0007 added the minimum readiness instrumentation requested by the combined stewardship and VSM pass. Because the original `SIM-RUN-001` through `SIM-RUN-005` already exist, preserve them and run the next stress test as `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005`.
 
 ## Proposed Subagents
 
-- Mathematician
-- Relativity Hardliner
-- Causal Set Theorist
-- Block Universe Defender
-- Thermodynamics Expert
-- Information Theorist
-- Time as Finality Boundary Keeper
+- Repo Steward
+- VSM Auditor
 - Category Error Auditor
+- Research Prioritization Steward
 
 ## Expected Outputs
 
-- W002 run record
-- component pressure table for `R`, `<`, `mu`, `dR`, `O_i`, `kappa_i`, `A_i`, and `G`
-- revised object, killed components, or formal blockers
-- explicit absorber comparison against relativity, causal set theory, block universe, thermodynamics, information theory, and time-as-finality
-- claim-ledger updates at component resolution if warranted
-- path-kill updates for any killed component
-- roadmap, memory, and next-trigger updates
-- memory update
-- recommendation on whether a primary-source literature absorber workflow is needed before claim upgrade
+- five sequential simulated W000 run records named `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005`
+- closeout checklist status in each run record
+- metrics update for each run
+- governance-change ledger updates when governance changes
+- memory and next-trigger updates after each run
+- W004 assessment over the five VSM-aware runs
+- next route, defaulting to W003 absorber mapping unless the simulation reveals a serious viability issue
 
 ## Automation Target
 

@@ -2,7 +2,7 @@
 artifact_type: memory_summary
 status: active
 governance_role: steward_memory_summary
-last_summarized_run: RUN-0006
+last_summarized_run: RUN-0007
 constitutional: false
 ---
 
@@ -10,7 +10,7 @@ constitutional: false
 
 ## Current State
 
-Temporal Issuance launched as a public research-governance repository. The first manual W000 cycle ran W001 and completed the initial kill pass. RUN-0004 completed the initial stewardship assessment before substantial research acceleration. RUN-0006 assessed five simulated thin-trigger cycles and found W000 adaptive enough to proceed to W002.
+Temporal Issuance launched as a public research-governance repository. The first manual W000 cycle ran W001 and completed the initial kill pass. RUN-0004 completed the initial stewardship assessment before substantial research acceleration. RUN-0006 assessed five simulated thin-trigger cycles and found W000 adaptive enough to proceed to W002. RUN-0007 added a minimal VSM readiness layer before a second VSM-aware stress simulation.
 
 The repo exists to reach the correct verdict on the core hypothesis, not to protect it.
 
@@ -26,7 +26,7 @@ The naive global-frontier reading conflicts with relativity. The remaining hypot
 
 ## Current Strategy
 
-Run W002 through W000 next. W002 should pressure-test `IssuanceSystem` component by component against the absorbers mapped in SIM-RUN-005, record any killed components, and avoid strengthening the hypothesis before collapse tests.
+Run a VSM-aware five-cycle stress simulation through W000 next, using `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005` to preserve the already-committed `SIM-RUN-001` through `SIM-RUN-005` history. After that, invoke W004 and return to W003 unless a serious viability issue appears.
 
 ## Governance Notes
 
@@ -34,7 +34,7 @@ Governance mechanisms are hypotheses. The steward should be aggressive by defaul
 
 RUN-0004 found the launch architecture strong but under-instrumented. Immediate needs are a governance-change ledger, observation-only steward metrics, contributor intake stub, drift audit workflow, and memory summarizer protocol.
 
-RUN-0005 converted the prior one-time stewardship assessment into reusable W004. SIM-RUN-001 created the governance-change ledger. SIM-RUN-002 created observation-only steward metrics. SIM-RUN-003 created contributor intake W005. SIM-RUN-004 created the memory summarizer protocol. SIM-RUN-005 returned to research with W003 focused absorber mapping. RUN-0006 found the five-cycle simulation coherent, but warned against more governance expansion before W002.
+RUN-0005 converted the prior one-time stewardship assessment into reusable W004. SIM-RUN-001 created the governance-change ledger. SIM-RUN-002 created observation-only steward metrics. SIM-RUN-003 created contributor intake W005. SIM-RUN-004 created the memory summarizer protocol. SIM-RUN-005 returned to research with W003 focused absorber mapping. RUN-0006 found the five-cycle simulation coherent, but warned against more governance expansion before W002. RUN-0007 tightened readiness instrumentation with a run closeout checklist, VSM map, per-run metrics schema, and VSM-aware W004 questions.
 
 ## Killed Paths
 

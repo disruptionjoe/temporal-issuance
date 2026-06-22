@@ -15,6 +15,17 @@ Assess whether the repository architecture, stewardship model, memory structures
 
 This workflow is reusable. It is not tied to a fixed cadence. The Repo Steward invokes it when the current state suggests that governance, memory, workflow behavior, or steward alignment may be affecting verdict quality.
 
+W004 supports:
+
+- deep assessment
+- light assessment
+- drift audit
+- multi-run lookback
+- VSM-style viability check when relevant
+- changeable persona set
+- changeable questions
+- reusable synthesis format
+
 ## Trigger Conditions
 
 Possible triggers include:
@@ -59,6 +70,8 @@ Optional when relevant:
 - `memory/daily-briefs/`
 - `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`
 - `agent-governance/STEWARD-METRICS.md`
+- `agent-governance/VSM-MAP.md`
+- `agent-governance/RUN-CLOSEOUT-CHECKLIST.md`
 - `personas/`
 - `governance-package/`
 - open issues, pull requests, or contributor inputs, when available
@@ -118,6 +131,29 @@ For launch or after major changes, the steward may widen the window to include a
 
 The chosen lookback window must be named in the assessment output.
 
+## VSM Readiness Questions
+
+When W004 is invoked after a multi-run simulation or viability concern, answer:
+
+1. Did W000 behave like a steward or a checklist?
+2. Did System 5 identity remain stable?
+3. Did System 1 operations produce hard outputs?
+4. Did System 2 coordination prevent conflicting state?
+5. Did System 3 control catch inconsistency?
+6. Did System 3* audit reveal anything the steward missed?
+7. Did System 4 intelligence improve future options?
+8. Did memory preserve learning without becoming policy?
+9. Did governance instrumentation help or become ceremony?
+10. Did the steward move research forward?
+11. Did the steward get too cautious?
+12. Did the steward over-focus on governance?
+13. Did the steward under-focus on governance?
+14. What should change immediately?
+15. What should explicitly not change yet?
+16. What should go to Joe for human review?
+17. What should the next real hourly trigger do?
+18. What should the steward watch over the next 24 hours?
+
 ## Output Format
 
 Every W004 run produces two artifacts:
@@ -170,6 +206,7 @@ After W004, update as applicable:
 - `memory/daily-review/` if uncertainty or Joe guidance is needed
 - `agent-governance/GOVERNANCE-CHANGE-LEDGER.md` if assessment design changes
 - `agent-governance/STEWARD-METRICS.md` if metrics are added or revised
+- `agent-governance/VSM-MAP.md` if viability surfaces change
 
 ## Daily Review Routing
 
@@ -190,4 +227,3 @@ W004 itself is a governance hypothesis:
 > Stewardship assessment improves mission alignment when invoked by need, using diverse personas and explicit synthesis, without becoming a recurring ceremony.
 
 Future W004 runs should test this hypothesis. If W004 becomes too heavy, split it into lighter and deeper versions. If it becomes too vague, add sharper questions. If it becomes too ceremonial, retire or narrow it.
-

@@ -63,9 +63,21 @@ Tasks:
 - identify immediate changes before the next real hourly trigger: complete
 - route the next real hourly trigger to W002 unless new evidence changes the plan
 
-## Phase 2: Formal Object Pressure
+## Phase 1C: VSM-Aware Stress Test
 
 Status: next.
+
+Tasks:
+
+- add minimal VSM readiness instrumentation: complete in `agent-runs/RUN-0007-vsm-readiness-pass.md`
+- run `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005` through W000
+- update metrics and closeout state on each simulated run
+- invoke W004 after the five runs
+- return to W003 absorber mapping unless the simulation reveals a serious viability issue
+
+## Phase 2: Formal Object Pressure
+
+Status: delayed until VSM-aware stress test completes.
 
 Tasks:
 

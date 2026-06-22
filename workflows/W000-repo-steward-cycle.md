@@ -32,6 +32,9 @@ Maximize the probability of reaching the correct verdict on the Temporal Issuanc
 7. `ROADMAP.md`
 8. `agent-governance/NEXT-TRIGGER-PLAN.md`
 9. `workflows/DYNAMIC-WORKFLOW-PROTOCOL.md`
+10. `agent-governance/RUN-CLOSEOUT-CHECKLIST.md`
+11. `agent-governance/STEWARD-METRICS.md`
+12. `agent-governance/VSM-MAP.md`
 
 ## Decision Frame
 
@@ -63,8 +66,10 @@ The answer may be:
 7. Update `CLAIM-LEDGER.md`, `ROADMAP.md`, and memory as needed.
 8. Update `agent-governance/NEXT-TRIGGER-PLAN.md`.
 9. Write a run record under `agent-runs/`.
-10. Run relevant checks.
-11. Commit and push coherent changes.
+10. Update steward metrics.
+11. Apply the run closeout checklist.
+12. Run relevant checks.
+13. Commit and push coherent changes.
 
 ## Parallelization Rule
 
@@ -97,6 +102,7 @@ Every W000 cycle should leave:
 - a run record
 - an updated next-trigger plan
 - memory update
+- metrics update
 - claim, roadmap, kill, or export updates when touched
+- closeout checklist status in the run record
 - clean git status, unless a blocker is explicitly recorded
-

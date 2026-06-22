@@ -50,6 +50,16 @@ The summary should preserve:
 - governance assumptions under test
 - next recommended workflow
 
+## Required Rules
+
+- Memory summaries must cite run IDs when they describe important state changes.
+- Memory summaries must not silently become policy.
+- Killed paths must remain recoverable through `memory/path-kills.md`.
+- Reversals must be preserved rather than smoothed away.
+- Uncertainty must not be compressed away.
+- Summaries should flag stale-state risk when the latest run is not reflected.
+- If memory summary and memory log disagree, the log wins until reconciled.
+
 ## What Not To Do
 
 Do not:
@@ -77,4 +87,3 @@ If the summarizer changes a governance rule or summary format, also update:
 The memory summary should be a compact load surface, not a second governance authority.
 
 If future runs show that summary updates are becoming policy or losing important failures, revise this protocol.
-

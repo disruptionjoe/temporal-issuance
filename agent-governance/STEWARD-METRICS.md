@@ -9,6 +9,29 @@ constitutional: false
 
 These metrics are observation-only at launch. They should inform steward judgment but must not become an automatic scoring system without a recorded governance change.
 
+Warning: do not optimize for these metrics directly. Use them to detect drift, not to define success.
+
+## Per-Run Signal Schema
+
+Each W000 cycle should add or update a compact signal record.
+
+```yaml
+run_id:
+workflow_used:
+research_vs_governance:
+claim_status_changed:
+path_killed:
+path_resurrected:
+workflow_created:
+workflow_retired:
+memory_updated:
+next_trigger_updated:
+governance_change_made:
+hard_output_created:
+daily_review_items_added:
+estimated_token_intensity:
+```
+
 ## Signal Categories
 
 | Signal | Why It Matters | How To Observe | Current Baseline |
@@ -61,6 +84,25 @@ next_trigger_volatility: adaptive_route_to_w002
 path_kill_quality: unchanged_one_sample
 automation_health: simulated_clean_actual_hourly_untested_after_changes
 contributor_signal: workflow_ready_untested
+```
+
+## Per-Run Signal Records
+
+```yaml
+run_id: RUN-0007
+workflow_used: readiness_pass
+research_vs_governance: governance_readiness
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: true
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: medium
 ```
 
 ## Use Rules

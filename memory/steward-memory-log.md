@@ -178,3 +178,20 @@ What was promoted: None.
 New blockers: W002 has not yet produced formal collapse criteria or component-level claim state.
 Recommended next run: W000 -> W002 formal-object pressure.
 Files changed: `agent-runs/RUN-0006-w004-five-simulated-trigger-assessment.md`, `agent-runs/RUN-0006-w004-five-simulated-trigger-assessment-codeblock.md`, `memory/daily-review/2026-06-22-simulated-trigger-review.md`, `CLAIM-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `memory/export-queue.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0007
+
+Timestamp: 2026-06-22
+Trigger: manual_request
+Workflow: combined_stewardship_and_vsm_readiness_pass
+Agent / subagents used: Repo Steward, VSM Auditor.
+Current strongest version: The steward is ready for a second, VSM-aware five-run stress simulation if the simulation uses distinct run IDs and records metrics, closeout, governance changes, and VSM observations per run.
+Current strongest objection: The first five-run simulation already occurred before the VSM readiness pass, so the next stress test must preserve provenance rather than rewrite `SIM-RUN-001` through `SIM-RUN-005`.
+What collapsed: The assumption that the existing metrics and ledger shape were sufficient for VSM-aware observation.
+What survived: Thin trigger, W000, W004, W005, memory summarizer, and minimal governance instrumentation.
+What was absorbed: RUN-0004 recommendations and VSM readiness needs were combined into a small readiness layer.
+What was clarified: The next five-run sequence should be named `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005`.
+What was promoted: None.
+New blockers: None, if the second simulation uses distinct run IDs.
+Recommended next run: SIM-VSM-RUN-001 through W000.
+Files changed: `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/RUN-CLOSEOUT-CHECKLIST.md`, `agent-governance/MEMORY-SUMMARIZER-PROTOCOL.md`, `workflows/W004-stewardship-assessment-and-drift-audit.md`, `agent-governance/VSM-MAP.md`, `workflows/W005-contributor-intake-and-evaluation.md`, `workflows/W000-repo-steward-cycle.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-runs/RUN-0007-vsm-readiness-pass.md`.
