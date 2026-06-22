@@ -29,5 +29,5 @@ Routine run records and normal claim-ledger updates do not need entries here unl
 
 | Change ID | Run | Change | Rationale | Risk | Follow-up |
 | --- | --- | --- | --- | --- | --- |
+| GCH-0002 | SIM-RUN-002 | Created observation-only steward metrics. | RUN-0004 identified that the steward needed signals for drift, churn, stale memory, automation health, and research/governance balance before more autonomous runs. | Metrics can become targets and create local minima. | Keep metrics observation-only until a later recorded change proves a control use is needed. |
 | GCH-0001 | SIM-RUN-001 | Created governance-change ledger. | RUN-0004 and RUN-0005 showed the repo needs a place to record changes to workflow/persona/assessment design before automation evolves further. | The ledger could become ceremony if every minor edit is logged. | Use for material governance design changes only. |
-

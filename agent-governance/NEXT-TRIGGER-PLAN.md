@@ -3,31 +3,33 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: SIM-RUN-001
+updated_by_run: SIM-RUN-002
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to create observation-only steward metrics.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to create a contributor-intake and evaluation workflow stub.
 
 ## Why
 
-SIM-RUN-001 created the governance-change ledger. The next smallest missing guardrail is an observation-only metrics surface that lets the steward notice drift, churn, stale memory, automation failures, and research/governance imbalance without locking a scoring system too early.
+SIM-RUN-002 created observation-only steward metrics. The next smallest missing guardrail is a public contribution intake workflow so outside issues, pull requests, and comments can become evidence without becoming operative instructions.
 
 ## Proposed Subagents
 
-- Systems Engineer
+- Open Source Governance Architect
+- Institutional Economist
 - AI Alignment / Agent Governance Researcher
 - Product Manager
 
 ## Expected Outputs
 
-- `agent-governance/STEWARD-METRICS.md`
-- a SIM-RUN-002 run record
+- `workflows/W005-contributor-intake-and-evaluation.md`
+- workflow registry update
+- a SIM-RUN-003 run record
 - memory update
-- next-trigger plan moving to contributor intake
+- next-trigger plan moving to memory summarizer protocol
 
 ## Automation Target
 

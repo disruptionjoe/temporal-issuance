@@ -93,3 +93,20 @@ What was promoted: None.
 New blockers: Steward metrics still absent.
 Recommended next run: SIM-RUN-002 steward metrics.
 Files changed: `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-runs/SIM-RUN-001-governance-change-ledger.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## SIM-RUN-002
+
+Timestamp: 2026-06-22
+Trigger: simulated_thin_trigger
+Workflow: W000 -> steward_metrics_creation
+Agent / subagents used: Repo Steward.
+Current strongest version: Observation-only metrics can detect steward drift without becoming premature control logic.
+Current strongest objection: Metrics can become targets and create new local minima.
+What collapsed: The repo no longer lacks any drift/churn/memory/automation signal surface.
+What survived: Metrics must observe rather than command.
+What was absorbed: RUN-0004's recommendation for steward metrics was implemented.
+What was clarified: Governance/research balance is currently governance-heavy by intended launch instrumentation.
+What was promoted: None.
+New blockers: Contributor intake still absent.
+Recommended next run: SIM-RUN-003 contributor intake.
+Files changed: `agent-governance/STEWARD-METRICS.md`, `agent-runs/SIM-RUN-002-steward-metrics.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
