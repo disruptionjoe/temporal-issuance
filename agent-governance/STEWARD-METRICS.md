@@ -998,6 +998,33 @@ notes: >
   trigger moves to HoTT/constructive derivation of online constructibility, with VDF pressure.
 ```
 
+```yaml
+run_id: RUN-0045
+workflow_used: W000 -> hott_constructive_derivation_of_online_constructibility
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C019_narrowed_source_projection, TI-C020_pressured]
+path_killed: true
+  paths:
+    - HoTT_univalence_derives_NAA
+    - NAA_requires_VDF_style_sequential_computation
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E027-hott-constructive-vdf-online-constructibility, RUN-0045-hott-constructive-vdf-online-constructibility]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  B3 resolved as partial absorption. Constructive type formation derives context-level
+  no-reference; HoTT/univalence does not derive NAA; VDFs are sufficient but not necessary.
+  Next trigger moves to bounded-accessibility source/projection model.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

@@ -3,10 +3,74 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0044
+updated_by_run: RUN-0045
 ---
 
 # Next Trigger Plan
+
+## HoTT / VDF Pass Complete (RUN-0045) - Next: Source vs Projection
+
+RUN-0045 completed the B3 HoTT / constructive type theory / VDF pass.
+
+Verdict:
+
+- Constructive type theory derives NAA at the context/process level: an operation in
+  `Gamma_n` cannot use a type that is not formed in `Gamma_n` or supplied by an available
+  formation rule.
+- HoTT-specific structure does not derive NAA. Identity types and univalence govern already
+  formed types; they do not determine online type formation.
+- Universe stratification helps distinguish future types from present codes, but it does not
+  forbid a present universe plus an oracle that decodes future schema.
+- VDF-style sequential computation is a sufficient no-anticipation mechanism, not a necessary
+  condition for NAA.
+- The remaining live issue is PP-3: whether D4/OnlineSchemaSys detects source-side issuance
+  or bounded-access schema disclosure from a richer source.
+
+Primary next trigger:
+
+```text
+W000 -> bounded_accessibility_source_vs_projection_model
+```
+
+Required:
+
+1. Define a two-layer model with source layer `S_infty` (completed/richer `MetaCloSys` or
+   source schema) and projection layer `S_n` (bounded observer-accessible `OnlineSchemaSys`).
+2. Construct or refute a case where D4 events occur in the projection while `S_infty` does not
+   expand.
+3. Test whether NAA follows from projection limits alone.
+4. Decide whether the OnlineSchemaSys-to-MetaCloSys non-embedding is a source fact or an
+   observer-access fact.
+5. State what would count as a positive witness for source-side issuance rather than schema
+   disclosure.
+
+Success condition: the run produces a discriminator between genuine source-side type creation
+and bounded-access schema disclosure.
+
+Failure condition: every surviving D4 event can be modeled as projection-relative novelty
+from a non-expanding richer source. If so, narrow TI-C019 to observer/process constructibility
+unless a new source-side witness is found.
+
+Secondary next trigger:
+
+```text
+W000 -> assembly_theory_D4_operationalization_with_source_projection_split
+```
+
+Run B2 only with the RUN-0045 split explicit. Define schema-relative assembly index separately
+for source layer and projection layer; otherwise Assembly Theory may operationalize observer
+novelty while leaving source-side issuance untouched.
+
+Tertiary next trigger:
+
+```text
+W000 -> AC8_formal_model
+```
+
+Build the two-observer schema-negotiation object with incompatible schema proposals,
+fork-choice analog, and authority/legitimacy condition from the DS and crypto-econ intakes.
+
+## Preserved Prior Route
 
 ## Presheaf Absorber Resolved (RUN-0044) — Next: Derive Online Constructibility
 

@@ -104,13 +104,23 @@ oracles. TI-C019 moves to formalizing in this narrowed sense. Generic Cech/no-gl
 witnesses for TI-C017 are absorbed by AB unless C-typed admissibility independently supplies
 the sheaf or compatibility predicate.
 
-Open tasks (updated after RUN-0044):
+RUN-0045 completed the B3 HoTT / constructive type theory / VDF pass. Result: partial
+absorption with a sharper survivor. Constructive type theory derives the context-relative
+no-reference rule: operations in `Gamma_n` cannot use types not formed in `Gamma_n` or supplied
+by available formation rules. HoTT-specific univalence does not derive NAA. Universe
+stratification helps separate future types from present codes, but does not forbid a present
+future-schema oracle. VDF-style sequential computation is sufficient for no-anticipation, not
+necessary. The remaining hard question is PP-3: whether D4/OnlineSchemaSys detects source-side
+issuance or bounded-access schema disclosure from a richer non-expanding source.
 
-- B3 HoTT / constructive type derivation (new critical path): derive NAA / online
-  constructibility from constructive type formation, HoTT universe discipline, or an exact
-  equivalent. Include the VDF sequential-computation question from crypto-econ intake.
+Open tasks (updated after RUN-0045):
+
+- PP-3 bounded accessibility source/projection model (new critical path): define source layer
+  `S_infty` and projection layer `S_n`; test whether projection-layer D4 can occur without
+  source expansion; state a positive witness for source-side issuance.
 - B2 Assembly Theory D4 operationalization: define assembly-complexity-undefined-relative-to-
-  prior-schema precisely; connect to empirical assembly index measurements.
+  prior-schema precisely, separately for source layer and projection layer; connect to
+  empirical assembly index measurements only after the layer split is explicit.
 - AC-8 formal model: build concrete `OnlineSchemaSys` object with two observers in
   interactive schema negotiation; verify D4 co-extension and NAA compliance; include
   authority/legitimacy condition from DS intake.
@@ -121,10 +131,11 @@ Open tasks (updated after RUN-0044):
 
 Kill/absorb condition (active): if `OnlineSchemaSys` is a standard Grothendieck fibration
 with no online constructibility surplus, archive TI-C019 and route to formal-residue
-documentation. RUN-0044 found a surplus, so the next kill condition is narrower: if online
-constructibility is only a relabeling of ordinary HoTT/constructive type discipline or VDF-
-style sequential computation with no TI-specific contribution, absorb the formal result and
-preserve only the interpretation layer.
+documentation. RUN-0044 found a surplus and RUN-0045 partially absorbed that surplus into
+ordinary constructive context discipline. The next kill condition is narrower: if all D4
+events can be modeled as projection-relative novelty from a non-expanding richer source,
+narrow TI-C019 to observer/process constructibility and stop treating D4 as evidence for
+source-side issuance.
 
 ## Phase 0: Launch Coherence
 

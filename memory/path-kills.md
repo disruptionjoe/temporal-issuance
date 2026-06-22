@@ -253,6 +253,51 @@ claim_refs:
   - TI-C013
 ```
 
+## RUN-0045
+
+```yaml
+path: HoTT / univalence as a derivation of NAA
+reason_killed: >
+  RUN-0045 found that HoTT-specific structure does not derive the no-anticipation boundary.
+  Identity types and univalence govern equality, equivalence, and transport among already
+  formed types. They do not determine when a new type may enter context or prevent a future
+  schema oracle from being encoded as present data. The load-bearing rule is ordinary
+  contextual type formation, not univalence.
+evidence: `explorations/E027-hott-constructive-vdf-online-constructibility.md` and `agent-runs/RUN-0045-hott-constructive-vdf-online-constructibility.md`.
+local_minimum_risk: >
+  Low for univalence specifically, medium for constructive type theory generally. CTT still
+  provides a real context-relative no-reference rule, but that rule may model bounded observer
+  accessibility rather than source-side issuance.
+possible_future_resurrection_trigger: >
+  A precise HoTT construction in which universe discipline or univalence forces online context
+  extension without adding a future-schema oracle and without collapsing into ordinary staged
+  contextual type formation.
+run_ref: RUN-0045
+claim_refs:
+  - TI-C019
+```
+
+```yaml
+path: NAA requires VDF-style sequential computation
+reason_killed: >
+  RUN-0045 found that VDF-style sequential computation is a sufficient no-anticipation
+  mechanism, not a necessary condition. A staged deterministic context can satisfy NAA without
+  any cryptographic delay, so long as current operations construct new schema from current
+  data rather than reading a future oracle. Conversely, a VDF can compute values inside a
+  fixed schema without producing D4 type-novelty.
+evidence: `explorations/E027-hott-constructive-vdf-online-constructibility.md` and `agent-runs/RUN-0045-hott-constructive-vdf-online-constructibility.md`.
+local_minimum_risk: >
+  Medium. Killing necessity must not discard VDFs as useful concrete models of no-front-running
+  or no-anticipation in adversarial computational settings.
+possible_future_resurrection_trigger: >
+  A proof that every physically relevant source-side schema-extension process requires a
+  sequential lower bound stronger than ordinary staged type formation, with VDF-like structure
+  as the minimal model.
+run_ref: RUN-0045
+claim_refs:
+  - TI-C019
+```
+
 ## RUN-0040
 
 ```yaml

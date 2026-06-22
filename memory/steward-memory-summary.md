@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0044
+last_summarized_run: RUN-0045
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: D4_survives_only_as_online_non_anticipatory_class_relative_discriminator
 bare_Ext_S_derives_connection: no
-next_required_test: hott_constructive_derivation_of_online_constructibility
+next_required_test: bounded_accessibility_source_vs_projection_model
 ```
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
@@ -219,6 +219,38 @@ Claim effect: TI-C019 moves to formalizing in this narrowed sense. No promotion.
 absorber is B3: HoTT / constructive type derivation of online constructibility, augmented by
 the VDF sequential-computation question.
 
+## HoTT / Constructive Type Theory + VDF Result (RUN-0045)
+
+RUN-0045 resolved B3 as partial absorption with a sharper survivor.
+
+Absorbed:
+- Constructive type theory / contextual type formation supplies the no-reference rule:
+  operations in `Gamma_n` cannot use types not formed in `Gamma_n` or supplied by available
+  formation rules.
+- Online context extension is not novel over ordinary staged constructive type discipline.
+- VDF-style sequential computation absorbs the strong claim that NAA must be grounded in
+  computational delay when a concrete no-front-running mechanism is required.
+
+Survived:
+- NAA remains a principled context-relative construction boundary.
+- VDF is a sufficient no-anticipation model, not necessary.
+- TI-C019 remains formalizing, but its surplus is narrowed to the source-side interpretation:
+  the shared process may genuinely extend source context rather than merely reveal inaccessible
+  source structure to bounded observers.
+
+Killed:
+- HoTT/univalence as the derivation of NAA. The load-bearing rule is contextual type
+  formation, not univalence.
+- NAA requires VDF-style sequential computation.
+
+Current strongest objection: all working formalism may model bounded observer accessibility,
+not source-side issuance. CTT/HoTT explains why a process cannot use unformed types in its
+current context; it does not prove that those types are absent from a richer source layer.
+
+Next required test: PP-3 bounded accessibility source/projection model. Define a source layer
+`S_infty` and projection layer `S_n`; test whether D4 events can occur in the projection
+without source expansion.
+
 ## DS-Architect Intake (post-RUN-0043, non-run)
 
 Three external agent notes from a distributed-systems architect / MMO persona were
@@ -297,18 +329,18 @@ Bekenstein). No claim statuses changed.
 
 ## Next Run
 
-Current RUN-0044 route:
+Current RUN-0045 route:
 
-Primary: HoTT / constructive type derivation of online constructibility (B3, sharpened by
-RUN-0044). Encode `OnlineSchemaSys` as a type family, fibration, or displayed category over
-`N`; test whether constructive type formation, universe stratification, identity types, or
-univalence derives NAA rather than merely motivating it. Include the VDF question: is
-sequential computation necessary, sufficient, or only an analogy for NAA?
+Primary: bounded accessibility source/projection model. Define source layer `S_infty` and
+projection layer `S_n`; test whether D4 events can occur in projection without source
+expansion, whether NAA follows from projection limits alone, and whether the
+OnlineSchemaSys-to-MetaCloSys non-embedding is a source fact or observer-access fact.
 
-Secondary: Assembly Theory D4 operationalization (B2). Define schema-relative assembly index;
-show D4 events have undefined/infinite assembly index within the prior schema.
+Secondary: Assembly Theory D4 operationalization (B2), but with the source/projection split
+explicit. Define schema-relative assembly index separately for source layer and projection
+layer.
 
-Tertiary: AC-8 formal model — concrete `OnlineSchemaSys` with two observers in interactive
+Tertiary: AC-8 formal model - concrete `OnlineSchemaSys` with two observers in interactive
 schema negotiation, including incompatible schema proposals, fork-choice analog, and
 authority/legitimacy condition.
 
