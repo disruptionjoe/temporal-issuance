@@ -45,26 +45,35 @@ interpretation:
 
 ## Current Recommendation
 
-The energy-momentum bridge program is concluded. Proposed next triggers:
+The Poincare-invariant Lorentzian energy-momentum route is closed (BDO + ICO). This does
+NOT yet mean the bridge is definitively killed — BDO and ICO both carry local-minimum risk
+under assumptions that can be relaxed (Poincare symmetry, fixed background, classical
+completion, full or partial Cauchy data).
 
-**Option A — Formal residue documentation pass (recommended):**
-Document the surviving formal results (BDO, ICO, preorder-from-extension, history-class
-nontriviality, E008 conditional theorem) as a coherent publishable research note or paper
-outline. These results are correct and independent of the physical interpretation.
+**Option W008 — Bridge-or-definitive-kill with local-minimum escape checking (recommended):**
+Invoke `W008-bridge-or-definitive-kill.md`. This workflow enumerates all escape routes from
+the current obstructions, attempts each construction, verifies each kill against the
+anti-local-minimum gate (N ≥ 3 adversarial skeptics), and only archives the physical
+interpretation after all escape routes are exhausted and all kills are confirmed global.
+
+Current escape routes not yet tried (starting point for next W008 invocation):
+- Category G: soft theorem / asymptotic symmetry charges (BMS, w_{1+inf}) — highest leverage
+  because boundary data does not fix soft charges; this is exactly the gap BDO + ICO exploited
+- Category B: quantum path-integral / superposition of completions
+- Category A: non-Poincare / curved spacetime / LQG / spin foams
+- Category D: holographic / AdS-CFT / asymptotic data
+- Others: see W008 escape-route taxonomy
+
+**Option A — Formal residue documentation:**
+Document surviving formal results (BDO, ICO, preorder-from-extension, E008) as a publishable
+research note. Run this in parallel with W008, not instead of it.
 
 **Option B — Program scope revision:**
-Revise the program scope to narrow to the formal history-class residue and articulate what
-a non-mass-energy version of Temporal Issuance claims. This may be a legitimate narrower
-program worth continuing.
+Revise the program scope to a non-mass-energy version of Temporal Issuance if W008
+exhausts all energy-momentum routes.
 
-**Option C — New physical mechanism search:**
-Identify whether any alternative physical theory (beyond the fixed `(M, eta)` control case
-and standard Poincare-invariant dynamics) could evade both BDO and ICO. This requires a
-fundamentally new theory in which scattering completion data is parametrized by source-
-extension rules rather than a target-side Hamiltonian. Not motivated by current results.
-
-**Default: Option A** (formal residue documentation), then Option B depending on Joe's
-direction for the program.
+**Default: invoke W008 next.** The program should not archive the physical interpretation
+solely on the basis of BDO + ICO until the W008 anti-local-minimum gate has been run.
 
 ## Disposition Rule (Applied)
 

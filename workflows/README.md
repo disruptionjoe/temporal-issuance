@@ -21,6 +21,7 @@ Initial workflows:
 - `W005-contributor-intake-and-evaluation.md`
 - `W006-divergent-persona-convergence-check.md`
 - `W007-steelman-and-hegelian-persona-pass.md`
+- `W008-bridge-or-definitive-kill.md`
 - `DYNAMIC-WORKFLOW-PROTOCOL.md`
 
 `W000-repo-steward-cycle.md` is the automation target. Hourly triggers should invoke W000 and let the Repo Steward decide what workflow or workflow set should run next.
