@@ -3,29 +3,24 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0029 (ICO — inverted construction obstruction)
+updated_by_run: RUN-0031 (W009 heterodox bridge incubator)
 ---
 
 # Next Trigger Plan
 
 ## Current State
 
-The physical mass-energy bridge interpretation of Temporal Issuance has been archived to
-NULL-SURVIVOR following RUN-0029. Two independent obstructions seal the Poincare-invariant
-Lorentzian energy-momentum route:
+RUN-0030 (W007) and RUN-0031 (W009) complete. The repo has completed a full steelman and
+heterodox bridge incubation pass against the post-BDO/ICO state.
 
-- **BDO (RUN-0028):** With full-boundary-data LorHist objects, `p^mu` is object-level;
-  parallel-pair `Ext_S` distinctions cannot reach it. Nontriviality and energy-momentum-
-  relevance are mutually exclusive in the Poincare-invariant Minkowski control case.
-- **ICO (RUN-0029):** With momentum-underdetermining LorHist' objects, `p^mu` is
-  morphism-level, but morphism-level variation is indexed by target-side dynamical physics
-  (coupling constants, interaction Hamiltonian, scattering amplitudes, angular distributions),
-  not source-side `Ext_S` invariants. Any selection mechanism either imports target physics
-  (ICO-1, absorbed), is insufficient to determine `p^mu` (ICO-2, bridge fails), or trivially
-  re-encodes the completion choice (ICO-3, bookkeeping). Covariance: PASS. Mechanism: FAIL.
-
-BDO and ICO together cover the full logical space of LorHist object specifications under
-the fixed `(M, eta)` guardrail. The inverted construction collapses; no third door exists.
+Key findings from RUN-0030/RUN-0031:
+- 62 personas identified 5 constructive routes not yet tried
+- W009 incubation produced 9 bridge lemmas (BL-001 through BL-009)
+- BL-003 SURVIVES (soft charges != p^mu: established physics)
+- BL-007 is the critical open bridge lemma (requires BMS action on ExtCat)
+- BL-004 (holonomy) is the mechanism that most cleanly evades BDO/ICO
+- Two new speculative claims added: TI-C012 (holonomy), TI-C013 (BMS soft charge)
+- No new path kills (no lemma killed with a precise obstruction in Phase 6)
 
 ## Formal Residue (Surviving)
 
@@ -45,78 +40,81 @@ interpretation:
 
 ## Current Recommendation
 
-The Poincare-invariant Lorentzian energy-momentum route is closed (BDO + ICO). This does
-NOT yet mean the bridge is definitively killed — BDO and ICO both carry local-minimum risk
-under assumptions that can be relaxed (Poincare symmetry, fixed background, classical
-completion, full or partial Cauchy data).
+**Primary: W000 -> W008 Category G (BMS Soft Charges / Asymptotic Symmetry)**
 
-**Option W008 — Bridge-or-definitive-kill with two-track local-minimum escape checking (recommended):**
-Invoke `W008-bridge-or-definitive-kill.md`. W008 now has two independent tracks:
+This is the highest expected-value next move because:
+- BL-003 is already established (Q_f != p^mu is settled physics)
+- BL-001 (BMS action on ExtCat) is the only blocking definition needed
+- A definition attempt is a concrete, bounded task
+- Resolution directly determines whether Category G survives or closes definitively
 
-**Track A** (physics escape routes): relax assumptions within the Lorentzian target category.
-Not yet tried: Categories A (LQG/curved spacetime), B (quantum path-integral), D (holographic/BMS),
-E (source-generated metric), F (lax functors), G (soft charges), H (2-categorical Ext_S).
+Specific task: Attempt to define a BMS group action on `ExtCat` morphisms. Check whether
+the action is compatible with the admissibility rule (BMS transformations map admissible
+extensions to admissible extensions). If yes, proceed to BL-007. If no, record as new BMS-
+level obstruction and close Category G.
 
-**Track B** (nonstandard realization lenses): change the target category entirely.
-BDO and ICO assume the target is Lorentzian field theory with Noether charges. They do not apply
-if the target is a sheaf/gluing category (B1), rigidity/constraint category (B2), cellular
-automata coarse-graining (B3), database/indexing category (B4), proof-carrying computation (B5),
-or consensus/finality protocol (B6). In these settings "state becomes real through admissible
-extension" is already native language and the shadow observable is not energy-momentum.
+**Secondary: Formal residue documentation (Option A)**
 
-**Critical**: A "global kill" requires exhausting BOTH tracks with local-minimum checks per kill.
-BDO + ICO only close Track A in the Poincare-invariant Minkowski control case. Track B is entirely
-open. No Track B lens has been attempted.
+Publish BDO lemma, ICO theorem, preorder-from-extension, and E008 conditional theorem as
+a standalone mathematics paper. This is independent of bridge questions and is a publishable
+result as it stands. Run in parallel with W008 Category G, not instead of it.
 
-Recommended starting points:
-- Track A: Category G (soft/BMS charges) — boundary data does not fix these
-- Track B: B1 (sheaf/gluing) and B6 (consensus/finality) in parallel — BDO/ICO do not apply
+**Tertiary: Holonomy computation (TM-A from RUN-0031)**
 
-**Option A — Formal residue documentation:**
-Document surviving formal results (BDO, ICO, preorder-from-extension, E008) as a publishable
-research note. Run this in parallel with W008, not instead of it.
+Formalize TM-A (minimal holonomy model). Compute curvature of the `Ext_S` connection for
+the minimal example. A nonzero curvature result would give a standalone formal result
+supporting TI-C012.
 
-**Option B — Program scope revision:**
-Revise the program scope to a non-mass-energy version of Temporal Issuance if W008
-exhausts all energy-momentum routes.
+## W009 Bridge Lemma Status
 
-**Default: invoke W008 next.** The program should not archive the physical interpretation
-solely on the basis of BDO + ICO until the W008 anti-local-minimum gate has been run.
+| Bridge Lemma | Status | Next Action |
+| --- | --- | --- |
+| BL-001 (BMS-covariant ExtCat) | UNKNOWN | Attempt definition |
+| BL-002 (Q_f is morphism-level) | UNKNOWN | Depends on BL-001 |
+| BL-003 (Q_f != p^mu) | SURVIVES | No action; established physics |
+| BL-004 (holonomy nontrivial) | WEAK | Requires reversible extensions + non-flat curvature |
+| BL-005 (pi_1(BExtCat) nontrivial) | WEAK | Requires endomorphisms in ExtCat |
+| BL-006 (TQFT functor exists) | SURVIVES (existence) | Monoidal structure for interesting properties |
+| BL-007 (soft charge is source-side) | UNKNOWN — CRITICAL | BL-001 required first |
+| BL-008 (conformal target evades BDO) | WEAK | Operator-state correspondence check |
+| BL-009 (quantum path-integral) | UNKNOWN | Action and measure on ExtCat needed |
 
-## Disposition Rule (Applied)
+## W008 Escape Route Status (Updated)
 
-A clean obstruction was achieved (ICO, RUN-0029). The physical interpretation is archived
-to NULL-SURVIVOR. The formal history-class residue is kept. This is a legitimate,
-publishable result — not a failure of the repo.
+```yaml
+BDO (RUN-0028):
+  local_minimum_risk: medium
+  assumption_used: full-boundary-data LorHist objects
+  escape_route_inverted_construction: addressed_by_ICO
+
+ICO (RUN-0029):
+  local_minimum_risk: low-medium
+  assumptions_used:
+    - Poincare-invariant dynamics on fixed (M, eta)
+    - standard Lagrangian field theory Hamiltonian
+    - classical completion selection
+  escape_routes:
+    Category_A: non-Poincare / curved spacetime / LQG — NOT YET TRIED
+    Category_B: quantum path-integral / superposition — NOT YET TRIED (BL-009 open)
+    Category_D: holographic / AdS-CFT / BMS — PARTIALLY ADDRESSED (BL-003 established; BL-007 open)
+    Category_E: source-generated metric — NOT YET TRIED
+    Category_F: lax functors / oo-functors — NOT YET TRIED
+    Category_G: BMS / soft charges — HIGHEST PRIORITY (BL-001 is the blocking step)
+    Category_H: 2-category / enriched Ext_S — NOT YET TRIED
+  phase_4_anti_local_minimum_gate: NOT_YET_RUN
+```
 
 ## Prior Route Summary
 
-RUN-0024 completed fixture-based ontology and survivor competition:
-
-```yaml
-C_status: weakened_carrier_only
-<=_S_status: killed_as_independent_source_primitive
-Ext_S_status: formalizing_next_test_target
-best_survivor: constraint_extension_primitive
-does_best_survivor_beat_NULL_SURVIVOR: not_yet
-```
-
-RUN-0025 killed direct derivation of `E = mc^2` from generic extension invariants and
-proved preorder-from-extension and extension-invariant theorems.
-
-RUN-0026 formalized the conditional Lorentzian realization theorem `F: ExtCat -> LorHist(M, eta, A)`.
-
-RUN-0027 tightened the goal to a minimal nontrivial `F` with the same-order/different-invariant gate.
-
-RUN-0028 (automated) constructed a weighted-category kinematic toy `F` preserving `Q` as
-proper time — externally stipulated, absorber-threatened.
-
-RUN-0028 (BDO pass) proved the Boundary-Determination Obstruction. Closed the full-boundary-
-data energy-momentum route. TI-C009 weakened.
-
-RUN-0029 (ICO) proved the Inverted Construction Obstruction. Closed the
-momentum-underdetermining energy-momentum route. Physical interpretation archived to
-NULL-SURVIVOR. TI-C007 weakened, TI-C009 archived, TI-C010 archived.
+RUN-0024 completed fixture-based ontology and survivor competition.
+RUN-0025 killed direct derivation of `E = mc^2` from generic extension invariants.
+RUN-0026 formalized the conditional Lorentzian realization theorem.
+RUN-0027 tightened the goal to a minimal nontrivial `F`.
+RUN-0028 (automated) constructed a weighted-category kinematic toy `F`.
+RUN-0028 (BDO pass) proved the Boundary-Determination Obstruction.
+RUN-0029 (ICO) proved the Inverted Construction Obstruction.
+RUN-0030 (W007) ran the full 62-persona steelman and Hegelian pass post-BDO/ICO.
+RUN-0031 (W009) ran the Heterodox Bridge Incubator against RUN-0030 synthesis.
 
 ## Automation Target
 
@@ -124,5 +122,4 @@ Codex hourly automation should point to:
 
 - `workflows/W000-repo-steward-cycle.md`
 
-W000 routes to formal residue documentation (Option A) or program scope revision (Option B)
-as directed by Joe.
+W000 routes to W008 Category G (BMS soft charge) as the primary next target.

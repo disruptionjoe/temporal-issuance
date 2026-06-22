@@ -671,3 +671,37 @@ What was promoted: None. TI-C007 weakened, TI-C008 clarified (formal claim intac
 New blockers: None for the energy-momentum route (sealed). Program direction is now Joe's call: formal residue documentation, scope revision, or new physical theory search.
 Recommended next run: W000 -> Option A (formal residue documentation) or Option B (program scope revision). See NEXT-TRIGGER-PLAN.md.
 Files changed: `agent-runs/RUN-0029-inverted-construction-momentum-selection.md`, `CLAIM-LEDGER.md`, `memory/path-kills.md`, `explorations/E008-conditional-lorentzian-realization-theorem.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0030
+
+Timestamp: 2026-06-22
+Trigger: NEXT-TRIGGER-PLAN (post-ICO; W007 steelman pass before W008 escape-route attempts)
+Workflow: W007-steelman-and-hegelian-persona-pass
+Agent / subagents used: All 62 expert personas from time-as-finality/personas/EXPERT-PANEL.md (personas 1-62).
+Current strongest version: ExtCat is a genuine mathematical structure with morphism-level invariants. BDO/ICO close one control case. Seven W008 escape-route categories have not been tried. The formal residue is publishable. The strongest surviving candidate mechanisms are holonomy (fiber bundle connection) and BMS soft charges.
+Current strongest objection: BDO and ICO are clean, well-argued obstructions. The escape routes are speculative and none has been attempted. The formal residue (extension categories with non-order invariants) may be the only publishable output.
+What collapsed: No new path kills. The mass-energy bridge interpretation remains archived to NULL-SURVIVOR.
+What survived: All 5 constructive routes identified by the panel (fiber bundle holonomy, BMS soft charges, resource theory monotone, conformal/TQFT target, quantum path-integral). HYPOTHESIS-STEELMAN.md updated with formal-residue-first posture and resurrection routes.
+What was absorbed: No new absorptions.
+What was clarified: The formal structure and the physical interpretation are two distinct research programs and should be treated separately. BDO/ICO close one control case, not all possible physics settings.
+What was promoted: No claims promoted. W009 created.
+New blockers: None. W009 to be run immediately.
+Recommended next run: W009 Heterodox Bridge Incubator against RUN-0030 synthesis.
+Files changed: `agent-runs/RUN-0030-w007-steelman-hegelian-pass.md`, `HYPOTHESIS-STEELMAN.md`, `CLAIM-LEDGER.md`, `workflows/W009-heterodox-bridge-incubator.md`, `workflows/README.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0031
+
+Timestamp: 2026-06-22
+Trigger: RUN-0030 synthesis (W009 run immediately after W007 pass)
+Workflow: W009-heterodox-bridge-incubator
+Agent / subagents used: Repo Steward; Teams A (Physics), B (Mathematics), C (Complex Systems), D (Information Theory), E (Heterodox Synthesis).
+Current strongest version: The BMS Soft Charge Mechanism (M2) + Holonomy Backbone (M1) is the strongest surviving bridge candidate. BL-003 is established (Q_f != p^mu). BL-007 is the critical open lemma (BMS action on ExtCat). BL-004 (holonomy) cleanly evades both BDO and ICO (holonomy is a loop invariant, inherently morphism-level and source-defined). Two new speculative claims added: TI-C012 (holonomy) and TI-C013 (BMS soft charge).
+Current strongest objection: BL-007 faces ICO' (modified ICO applied to Q_f). The same three-way trichotomy applies to soft charges as to p^mu. No theorem proves BMS acts on ExtCat. The bridge remains speculative.
+What collapsed: No path kills from Phase 6 (no lemma killed with a precise obstruction).
+What survived: 9 bridge lemmas (BL-001 through BL-009). BL-003 established (SURVIVES). 3 toy models with explicit falsification conditions. W009 Final Artifact in E010.
+What was absorbed: None new.
+What was clarified: BL-004 (holonomy) most cleanly evades BDO/ICO. BL-007 is the critical bridge lemma for the BMS mechanism. ICO' is the precise version of the soft-charge obstacle.
+What was promoted: No claims promoted. TI-C012 and TI-C013 added as speculative.
+New blockers: BL-001 (BMS action on ExtCat definition) is the blocking step for the BMS mechanism.
+Recommended next run: W000 -> W008 Category G (BMS soft charges / asymptotic symmetry) — attempt to define BMS action on ExtCat.
+Files changed: `agent-runs/RUN-0031-w009-heterodox-bridge-incubator.md`, `explorations/E010-heterodox-bridge-incubator-synthesis.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`, `agent-governance/STEWARD-METRICS.md`.

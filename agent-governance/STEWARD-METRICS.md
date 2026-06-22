@@ -611,6 +611,56 @@ notes: >
   formal residue). Next trigger: formal residue documentation or program scope revision.
 ```
 
+```yaml
+run_id: RUN-0030
+workflow_used: W007-steelman-and-hegelian-persona-pass
+research_vs_governance: research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: true
+  workflow_created_name: W009-heterodox-bridge-incubator
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: true
+estimated_token_intensity: very_high
+parallel_lanes_used: all_62_personas
+notes: >
+  Full 62-persona steelman and Hegelian pass against post-BDO/ICO state. Heterodox panel
+  synthesis identified 5 constructive routes not yet tried. Holonomy (M1) and BMS soft
+  charges (M2) identified as strongest surviving bridge candidates. HYPOTHESIS-STEELMAN.md
+  updated with formal-residue-first posture. W009 created. RUN-0031 dispatched immediately.
+```
+
+```yaml
+run_id: RUN-0031
+workflow_used: W009-heterodox-bridge-incubator
+research_vs_governance: research
+claim_status_changed: true
+  new_claims: [TI-C012_speculative, TI-C013_speculative]
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [RUN-0031, E010-heterodox-bridge-incubator-synthesis]
+daily_review_items_added: false
+estimated_token_intensity: very_high
+parallel_lanes_used: teams_A_B_C_D_E_specialist_divergence
+notes: >
+  W009 heterodox bridge incubator pass. 9 bridge lemmas (BL-001 through BL-009). BL-003
+  SURVIVES (Q_f != p^mu: established physics). BL-007 is the critical open bridge lemma
+  (BMS action on ExtCat). BL-004 (holonomy) cleanly evades both BDO and ICO (loop invariant,
+  source-defined). 3 toy models (TM-A/B/C) with explicit falsification conditions. No path
+  kills from Phase 6. Next: W008 Category G (BMS soft charges).
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

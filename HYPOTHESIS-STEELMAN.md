@@ -2,10 +2,12 @@
 artifact_type: hypothesis_steelman
 status: active
 governance_role: strongest_current_formulation
-last_updated_by: RUN-0024
+last_updated_by: RUN-0030
 claim_refs:
   - TI-C001
   - TI-C003
+  - TI-C007
+  - TI-C008
 constitutional: false
 ---
 
@@ -105,6 +107,44 @@ Synthesis:
 
 Temporal Issuance survives only if source-side admissible extension can be specified in a way that is covariant, typed, nondecorative, and not reducible to observer readout. The next research task is not to defend the whole intuition. It is to determine whether `Ext_S` can beat `NULL-SURVIVOR`; if it cannot, the remaining source-side residue should be archived.
 
+## Formal-Residue-First Posture (RUN-0030)
+
+The strongest steelman leads with the formal results, not with the physical bridge.
+
+**What is already proved (independently of any physical bridge):**
+- Extension categories carry morphism-level invariants not recoverable from the induced preorder (RUN-0025)
+- A functor F: ExtCat -> LorHist can be nontrivial at the admissible-history-class level (BDO, RUN-0028)
+- The BDO lemma is a theorem in Poincare-invariant Lorentzian field theory (RUN-0028)
+- The ICO theorem is a theorem in any momentum-underdetermining Lorentzian setting (RUN-0029)
+- The E008 conditional theorem is formally valid (RUN-0026); its antecedent is obstructed in the current control case
+
+**What BDO/ICO do not close:**
+- Non-Poincare targets (BMS, conformal group, diffeomorphism group)
+- Quantum completions (path-integral, superposition of morphisms)
+- Topological targets (TQFT, knot invariants)
+- Morphism invariants other than p^mu (holonomy, soft charges, topological charges)
+
+**Possible resurrection routes (W008 taxonomy, not yet tried):**
+- Category G: BMS soft charges / asymptotic symmetry (highest leverage)
+- Category A: non-Poincare / curved spacetime / LQG
+- Category B: quantum path-integral / superposition of completions
+- Category D: holographic / AdS-CFT
+- Category E: source-generated metric
+- Category F: lax functors / infinity-categories
+- Category H: 2-categorical or enriched Ext_S
+
+**The strongest honest steelman:**
+
+```text
+ExtCat is a genuine mathematical structure with morphism-level invariants.
+BDO and ICO close one specific control case (Poincare-invariant Lorentzian energy-momentum).
+At least 7 alternative physical settings have not been tried.
+The formal residue (BDO, ICO, preorder-from-extension, history-class nontriviality) is
+publishable and correct regardless of the fate of the physical bridge.
+The bridge incubation (W009, RUN-0031) identifies BMS soft charges and holonomy as
+the strongest surviving candidate mechanisms.
+```
+
 ## Research Posture
 
 Steelman first.
@@ -112,3 +152,7 @@ Steelman first.
 Then attack harder.
 
 No claim should strengthen unless `Ext_S` survives specification, absorber comparison, and null-survivor pressure.
+
+The formal residue earns its slot regardless. Publish it.
+
+The bridge search continues through W008 escape routes, in priority order: Category G first.
