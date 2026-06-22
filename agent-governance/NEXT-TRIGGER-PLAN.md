@@ -8,6 +8,39 @@ updated_by_run: RUN-0038
 
 # Next Trigger Plan
 
+## Issuance Precision Pass (RUN-0039)
+
+RUN-0039 completed the first issuance-precision pass (Roadmap Phase 2B). D4 is the minimal
+working definition of issuance: type-novel states not determined by any rule over the existing
+schema. D4 discriminates issuance from all four named competitors in classical form. Five-way
+toy model complete. TI-C019 survives at speculative. Kill condition not triggered.
+
+Two pressure points remain open: PP-1 (meta-distribution regress) and PP-2 (quantum CSG).
+
+Primary next trigger:
+
+```text
+W000 -> categorical_formalization_of_D4
+```
+
+Define the category `IssSys` of issuance-capable systems and the category `CloSys` of closed
+systems. Prove (or disprove) that no fully faithful functor from `IssSys` to `CloSys` exists.
+Success: a categorical witness that D4 is not embeddable in closed-system mathematics without
+information loss, moving TI-C019 toward formalizing. Failure: D4 is absorbed by some closed-
+system category, weakening TI-C019.
+
+Secondary next trigger:
+
+```text
+W000 -> cech_sheaf_fixture (cross-linked to D4)
+```
+
+TI-C017: specify section-compatibility predicate for C-typed extensions on a two-patch cover
+of S¹. Under D4, ask whether typed admissibility generates type-novel cocycle classes — classes
+not present in the base schema. This crosses Phase 2B with the reconstruction-layer work.
+
+Tertiary: meta-distribution self-reference test for PP-1.
+
 ## North Star Reframing (RUN-0038)
 
 Joe approved a constitutional vNext of the core hypothesis (`HYPOTHESIS.md`, `NORTH-STAR.md`).

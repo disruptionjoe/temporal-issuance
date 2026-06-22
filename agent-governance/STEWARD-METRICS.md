@@ -836,6 +836,32 @@ notes: >
   trigger: issuance-precision pass (Roadmap Phase 2B). Local commit only; not pushed.
 ```
 
+```yaml
+run_id: RUN-0039
+workflow_used: W000 -> issuance_precision_pass (Phase 2B)
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C019_updated_with_D4_discriminator]
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E016-issuance-precision-pass, RUN-0039-issuance-precision-pass]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  First issuance-precision pass (Phase 2B). D4 (type-novel + non-rule-generated) discriminates
+  issuance from all four named competitors in classical form. Kill condition not triggered;
+  TI-C019 survives speculative. Five-way toy model complete; layer separation validated.
+  PP-1 (meta-distribution regress) and PP-2 (quantum CSG) open. Primary next: categorical
+  formalization of D4 (IssSys vs CloSys functor proof).
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

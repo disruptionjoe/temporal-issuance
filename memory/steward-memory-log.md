@@ -826,3 +826,20 @@ What was promoted: None.
 New blockers: No minimal definition of issuance yet; no discriminator separating it from known physics.
 Recommended next run: W000 -> issuance_precision_pass (Roadmap Phase 2B). Cech/sheaf fixture demoted to secondary.
 Files changed: `HYPOTHESIS.md`, `NORTH-STAR.md`, `CLAIM-LEDGER.md`, `README.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`, `agent-runs/RUN-0038-north-star-reframing.md`.
+
+## RUN-0039
+
+Timestamp: 2026-06-22
+Trigger: joe_request_post_RUN-0038_push
+Workflow: W000 -> issuance_precision_pass (Roadmap Phase 2B)
+Agent / subagents used: Repo Steward.
+Current strongest version: Issuance under D4 (type-novel + non-rule-generated states) is structurally distinct from stochastic update, information flow, standard causal-set growth, and thermodynamic entropy — all four produce new instances of existing types within a fixed schema; issuance produces new types not rule-generated from prior state. The five-way toy model validates the layer separation: observer-side temporal reconstruction operates identically across Cases 1–4, confirming temporal order is downstream of the source-side issuance question.
+Current strongest objection: The meta-distribution regress (PP-1) is live. A system that generates new types from a meta-distribution satisfies D4 at the object level but is stochastic update at the meta-level. D4 does not yet block this regress or show that it is self-referential. The issuance-energy-cosmology bridge remains entirely unearned.
+What collapsed: Nothing. No path kills this run. The four named competitors were excluded by D4, not killed as paths in their own right.
+What survived: D4 as a working discriminator. Five-way toy model. Layer separation. TI-C019 at speculative status.
+What was absorbed: Nothing.
+What was clarified: The primary discriminating feature of D4 is type-novelty (D4-i), not non-determination (D4-ii). All four competitors fail on (i); (ii) is a secondary constraint preventing type-novelty via deterministic schema-expansion rules.
+What was promoted: None.
+New blockers: D4 needs categorical formalization; PP-1 (meta-distribution regress) is live; physics connection is unearned.
+Recommended next run: Categorical formalization of D4 — define IssSys and CloSys categories, prove no fully faithful functor from IssSys to CloSys. Secondary: Čech/sheaf fixture cross-linked to D4.
+Files changed: `explorations/E016-issuance-precision-pass.md`, `agent-runs/RUN-0039-issuance-precision-pass.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `agent-governance/STEWARD-METRICS.md`, `memory/steward-memory-log.md`, `memory/steward-memory-summary.md`.

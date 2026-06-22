@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0038
+last_summarized_run: RUN-0039
 ---
 
 # Steward Memory Summary
@@ -96,14 +96,34 @@ The next fixture should test the simpler version of the same independence proble
 - Nontrivial `G`-valued holonomy derived from bare `Ext_S` loops without transport or connection
   data.
 
+## Issuance Precision Result (RUN-0039)
+
+RUN-0039 completed Phase 2B first pass. Minimal definition D4 established:
+
+> Issuance produces (i) type-novel states not instances of any prior admissible type, and
+> (ii) not determined by any fixed rule over the existing type-schema.
+
+D4 discriminates issuance from all four named competitors: stochastic update, information
+flow, standard causal-set growth, and thermodynamic entropy — all four fail D4(i)
+(type-novelty). Five-way toy model complete. Layer separation confirmed: observer temporal
+reconstruction is downstream of all source-side cases (1-4), validating HYPOTHESIS.md vNext.
+
+TI-C019 survives at speculative. Kill condition not triggered.
+
+Two open pressure points:
+- PP-1 (meta-distribution regress): a type-generating meta-distribution satisfies D4 at
+  object level but is SU at meta-level. D4 does not yet block this.
+- PP-2 (quantum CSG): deferred pending a specific quantum-gravity model.
+
 ## Next Run
 
-Run W000 and route to the **issuance-precision pass** (Roadmap Phase 2B): give a minimal
-definition of issuance and at least one discriminator separating it from stochastic update,
-information flow, causal/event growth, and thermodynamic entropy, then build the five-way toy
-model from `NORTH-STAR.md`. If no discriminator survives, treat issuance as a relabeling
-candidate and weaken `TI-C019`.
+Primary: categorical formalization of D4. Define `IssSys` (issuance-capable systems) and
+`CloSys` (closed systems) categories. Prove no fully faithful functor from `IssSys` to
+`CloSys`. Success moves TI-C019 toward formalizing; failure weakens it.
 
-Secondary (reconstruction layer): the Cech/sheaf fixture — specify a section-compatibility
-predicate for `C`-typed extensions on a two-patch cover of `S^1` and ask whether admissibility
-independently determines which cocycles are allowed.
+Secondary: Čech/sheaf fixture cross-linked to D4. Test whether `C`-typed admissibility
+generates type-novel cocycle classes — a first concrete instance of D4 at the reconstruction
+layer. If it does, this connects Phase 2B to TI-C017.
+
+Tertiary: meta-distribution self-reference test. Build formal toy model to test whether D4
+at the object level requires D4 at the meta-level (which would make it a genuine primitive).

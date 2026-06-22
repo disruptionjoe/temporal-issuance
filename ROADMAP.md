@@ -20,26 +20,36 @@ layer. The immediate research objective is to make issuance precise. See `HYPOTH
 
 ## Phase 2B: Issuance Precision
 
-Status: active, opened by RUN-0038.
+Status: active, first pass complete in RUN-0039.
 
-This phase is the new primary research target. It precedes further direct physics-bridge work.
+RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
+a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
+remains speculative.
 
-Tasks:
+Completed tasks:
 
-- give a minimal definition of issuance
-- state what a closed observer-update system fails to explain
-- produce discriminators separating issuance from: ordinary stochastic update; information
-  flow; causal/event growth; thermodynamic entropy
-- state what would count as evidence that issuance is not merely a relabeling of known physics
-- build the five-way toy model (closed observer update; stochastic update; external input;
-  genuine issuance; observer-side temporal reconstruction) from the `NORTH-STAR.md` research
-  burden
-- only after a surviving discriminator exists, test how issuance could connect to energy,
+- minimal definition of issuance: D4 (type-novel + non-rule-generated)
+- statement of what closed observer-update fails to explain: type-novel structure; genuine
+  novelty in adaptive search; open-ended evolution
+- discriminators separating issuance from stochastic update, information flow, standard CSG,
+  and thermodynamic entropy: D4(i) (type-novelty) excludes all four
+- five-way toy model: complete in `explorations/E016-issuance-precision-pass.md`
+- layer separation validated: observer temporal reconstruction is downstream of all four
+  source-side cases, confirming the HYPOTHESIS.md vNext structure
+
+Open tasks:
+
+- categorical formalization of D4 (primary): define IssSys and CloSys categories; prove
+  no fully faithful functor from IssSys to CloSys; move TI-C019 toward formalizing
+- address meta-distribution regress (PP-1): build formal self-reference test for D4
+- Čech/sheaf fixture cross-linked to D4 (secondary): test whether typed admissibility
+  generates type-novel cocycle classes
+- only after categorical D4 formalization: test how issuance could connect to energy,
   expansion, and structure formation without being absorbed
 
-Kill/absorb condition: if no discriminator separates issuance from stochastic update,
-information flow, causal/event growth, or thermodynamic entropy, treat issuance as a relabeling
-candidate and weaken `TI-C019` accordingly.
+Kill/absorb condition (still active): if categorical formalization of D4 fails — no functor
+proof exists separating IssSys from CloSys — or if PP-1 shows D4 is fully absorbed by
+meta-stochastic update, weaken TI-C019 accordingly.
 
 ## Phase 0: Launch Coherence
 
