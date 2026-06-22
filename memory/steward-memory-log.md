@@ -791,3 +791,20 @@ What was promoted: No claim was promoted. TI-C016 was added as formalizing condi
 New blockers: Need a finished enough `CelExt` admissibility model; celestial holography is not yet a completed rigorous boundary CFT for all flat-space gravity.
 Recommended next run: W000 -> `CelExt` fixture suite, unless Joe explicitly asks for formal residue documentation first.
 Files changed: `agent-runs/RUN-0034-celestial-boundary-physics-bridge.md`, `explorations/E013-celestial-boundary-physics-bridge.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0037
+
+Timestamp: 2026-06-22 01:47:26 -05:00
+Trigger: scheduled_hourly_trigger
+Workflow: W000 -> holonomy_fixture
+Agent / subagents used: Repo Steward.
+Current strongest version: If typed source admissibility independently derives a transport functor `A: ExtCat -> B G`, then closed extension loops can carry `Hol_A(gamma) in G` as a morphism-level invariant not recoverable from the induced preorder.
+Current strongest objection: The minimal fixture shows that `A`, not bare `Ext_S`, supplies the group element. Without an independently forced transport functor, nontrivial holonomy is absorbed by path groupoids, representations into `B G`, Cech transition data, principal bundles, or gauge theory if physical meaning is claimed.
+What collapsed: Nontrivial `G`-valued holonomy derived from bare `Ext_S` loops without transport or connection data.
+What survived: Transport-enriched holonomy as formal residue; TI-C012 remains formalizing; TI-C018 survives only in weakened conditional form.
+What was absorbed: Any nontrivial holonomy whose transport values are stipulated rather than derived is absorbed by ordinary path-groupoid/principal-bundle mathematics.
+What was clarified: The holonomy fixture reduces the next independence problem to transition/cocycle determination. The Cech/sheaf fixture is now the simpler next test.
+What was promoted: None.
+New blockers: No `C`-typed admissibility predicate currently forces nontrivial transition data.
+Recommended next run: W000 -> Cech/sheaf fixture, unless Joe chooses formal residue documentation first.
+Files changed: `explorations/E015-holonomy-fixture.md`, `agent-runs/RUN-0037-holonomy-fixture.md`, `CLAIM-LEDGER.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `agent-governance/STEWARD-METRICS.md`.

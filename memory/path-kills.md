@@ -253,6 +253,33 @@ claim_refs:
   - TI-C013
 ```
 
+## RUN-0037
+
+```yaml
+path: Nontrivial G-valued holonomy derived from bare Ext_S loops without transport or connection data
+reason_killed: >
+  RUN-0037 tested the minimal holonomy fixture. A bare closed loop in ExtCat supplies a loop word
+  but no canonical group element. Nontrivial holonomy appears only after choosing or deriving a
+  transport functor A: ExtCat -> B G. In the one-loop fixture, such functors are in bijection
+  with arbitrary choices g in G, so the bare extension category does not determine the holonomy.
+  In the three-patch fixture, the only outcomes are no transition data (no holonomy), stipulated
+  transition data (formal holonomy but added transport), or consistency-forced identity product
+  (trivial holonomy). No minimal fourth option was found.
+evidence: `explorations/E015-holonomy-fixture.md` and `agent-runs/RUN-0037-holonomy-fixture.md`.
+local_minimum_risk: >
+  Medium. This kills only bare Ext_S derivation. A future C-typed admissibility predicate could
+  still force transition values, cocycle classes, or transport functors in a non-stipulated way.
+  The transport-enriched formal result remains valid as formal residue.
+possible_future_resurrection_trigger: >
+  A concrete typed source-compatibility predicate that forces a nontrivial transport functor
+  A: ExtCat -> B G and cannot be gauged away or absorbed as an ordinary path-groupoid
+  representation, Cech transition function, principal-bundle connection, or target gauge theory.
+run_ref: RUN-0037
+claim_refs:
+  - TI-C012
+  - TI-C018
+```
+
 ```yaml
 path: Celestial amplitude reinterpretation of ExtCat morphisms (Attempt 3.3)
 reason_killed: >

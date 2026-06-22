@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0034
+last_summarized_run: RUN-0037
 ---
 
 # Steward Memory Summary
@@ -13,54 +13,58 @@ last_summarized_run: RUN-0034
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_bridge: CelExt -> BMS soft charge / memory structure
-bridge_status: conditional_new_hypothesis
-next_required_test: CelExt_fixture_suite
+strongest_current_fixture_result: transport_enriched_holonomy_formal_only
+bare_Ext_S_derives_connection: no
+next_required_test: cech_sheaf_fixture
 ```
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
 
-The strongest surviving physics-facing route is conditional:
+RUN-0037 completed the holonomy fixture. The result is precise:
 
 ```text
-If ExtCat is upgraded or identified with an independently specified celestial boundary category
-CelExt, then BMS can act on boundary morphisms and Q_f can be a boundary Noether charge.
+Bare Ext_S with a closed loop supplies a loop word, not a G-valued holonomy.
+Nontrivial holonomy appears only after adding or deriving a transport functor A: ExtCat -> B G.
 ```
 
-This is a legitimate conditional bridge to known physics, not a derivation from the current
-Temporal Issuance formalism.
+The transport-enriched result is a valid formal residue. It is not a physics derivation and not
+a derivation from current bare Temporal Issuance primitives.
 
 ## Current Strongest Version
 
 Temporal Issuance has a formal extension-category residue:
 
 - morphism-level invariants can exist beyond induced preorder;
-- weighted/holonomy examples give conditional formal witnesses;
+- transport-enriched holonomy gives a clean order-invisible invariant;
+- weighted and history-class examples remain formal control models;
 - BDO and ICO kill the direct Poincare energy-momentum route;
-- BMS soft charges give a real physics-facing invariant only after extra boundary/asymptotic
-  structure is supplied.
+- BMS soft charges require extra boundary/asymptotic structure;
+- CelExt remains a conditional new-hypothesis bridge, not current TI.
 
-The bridge that now deserves testing is `CelExt`:
+The strongest holonomy survivor is:
 
 ```text
-objects: celestial boundary source states/sectors on S^2
-morphisms: admissible boundary insertions or kernels
-composition: operator/OPE/gluing composition
-symmetry: BMS action on boundary data
-charge: Q_f as boundary Noether charge
+If typed source admissibility independently derives A: ExtCat -> B G, then extension loops can
+carry Hol_A(gamma) in G as a non-order witness.
 ```
+
+RUN-0037 did not find such a derivation. It showed that choosing `A` is the load-bearing step.
 
 ## Current Strongest Objection
 
-`CelExt` may be imported celestial holography rather than Temporal Issuance structure.
+Nontrivial holonomy is absorbed unless the connection is source-generated.
 
-The next fixture suite must determine whether:
+The nearest absorbers are:
 
-1. `CelExt` satisfies typed source-state/admissible-extension structure;
-2. `Q_f` is determined using only boundary category data;
-3. the construction avoids prior bulk S-matrix or radiative phase-space data;
-4. it is more than celestial S-matrix relabeling.
+- path groupoids and functors into `B G`;
+- representations of fundamental groupoids;
+- principal `G`-bundles with connection;
+- Cech transition functions;
+- gauge theory, Berry phases, GR, BMS, or TQFT if a physical interpretation is claimed.
+
+The next fixture should test the simpler version of the same independence problem: whether
+`C`-typed admissibility determines allowed overlap cocycles in a Cech/sheaf model.
 
 ## Killed Or Archived Paths
 
@@ -75,8 +79,14 @@ The next fixture suite must determine whether:
 - Celestial amplitude reinterpretation when it is only S-matrix relabeling.
 - Holonomy as independent physics bridge without a source-generated physical connection.
 - Deriving physics from current TI primitives under the explored W008/W009 tree.
+- Nontrivial `G`-valued holonomy derived from bare `Ext_S` loops without transport or connection
+  data.
 
 ## Next Run
 
-Run W000 and route to the `CelExt` fixture suite unless Joe explicitly asks to pause physics
-bridge pursuit and document the formal residue instead.
+Run W000 and route to the Cech/sheaf fixture unless Joe explicitly chooses formal residue
+documentation first.
+
+The Cech/sheaf fixture should specify a section-compatibility predicate for `C`-typed extensions
+on a two-patch cover of `S^1` and ask whether admissibility independently determines which
+cocycles are allowed.

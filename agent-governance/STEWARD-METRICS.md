@@ -782,6 +782,32 @@ notes: >
   fixture — specify (C_min, <=_S^min, Ext_S^min) with closed loop and derive induced connection.
 ```
 
+```yaml
+run_id: RUN-0037
+workflow_used: W000 -> holonomy_fixture
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C012_clarified, TI-C018_weakened]
+path_killed: true
+  path: bare_Ext_S_to_nontrivial_holonomy_without_transport_data
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E015-holonomy-fixture, RUN-0037-holonomy-fixture]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Holonomy fixture completed. Bare Ext_S with a closed loop supplies a loop word, not a
+  canonical G-valued holonomy. Transport-enriched ExtCat with A: ExtCat -> B G gives a
+  real formal non-order invariant, but A is the load-bearing extra structure. Next trigger
+  moves to the Cech/sheaf fixture.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.
