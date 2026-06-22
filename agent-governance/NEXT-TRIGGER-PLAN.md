@@ -3,18 +3,18 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0009
+updated_by_run: RUN-0010
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run five real manual accelerated thin-trigger cycles, starting with W003 absorber mapping.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run RUN-0011 as primary-source readiness for the narrowed absorber set.
 
 ## Why
 
-RUN-0009 clarified that prior `SIM-*` runs were real repo runs with misleading names. Future accelerated runs should use ordinary `RUN-####` IDs. The next highest-learning move remains W003 absorber mapping, focused by `absorbers/gap-map.md`, followed by four more W000-selected accelerated cycles and a W004 assessment.
+RUN-0010 ran W003 with parallel absorber lanes and closed the two obvious stub gaps: cosmological expansion and process philosophy. It also added category-layer controls. The remaining blocker before W002 is not more general mapping; it is source readiness for the narrowed absorber set.
 
 ## Proposed Subagents
 
@@ -25,9 +25,9 @@ RUN-0009 clarified that prior `SIM-*` runs were real repo runs with misleading n
 
 ## Expected Outputs
 
-- W003 run record
-- updates to remaining absorber gaps, especially cosmological expansion and process philosophy if relevant
-- primary-source readiness notes for any absorber that could drive claim upgrade or component kill
+- RUN-0011 run record
+- primary-source readiness map for absorbers likely to matter in W002
+- source list or source classes for component pressure, without overbuilding a full literature workflow
 - closeout checklist status
 - metrics update
 - memory and next-trigger updates
