@@ -13,7 +13,7 @@ Reach the fastest correct verdict on the Temporal Issuance hypothesis.
 
 ## Phase 0: Launch Coherence
 
-Status: active.
+Status: complete.
 
 Tasks:
 
@@ -25,10 +25,12 @@ Tasks:
 
 ## Phase 1: Kill And Absorb
 
+Status: active.
+
 Tasks:
 
-- run W001 against the core hypothesis
-- run W003 absorber mapping
+- run W001 against the core hypothesis: complete in `agent-runs/RUN-0003-w001-kill-core-hypothesis.md`
+- run W003 absorber mapping: next
 - identify full absorption candidates
 - record killed paths and resurrection triggers
 - update claim ledger
@@ -61,4 +63,3 @@ Tasks:
 ## Current Next Trigger
 
 See `agent-governance/NEXT-TRIGGER-PLAN.md`.
-

@@ -3,36 +3,38 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0002
+updated_by_run: RUN-0003
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run W001: Kill Core Hypothesis.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run W003: Absorber Map.
 
 ## Why
 
-The hourly automation should always enter through W000 so the steward can adapt the next work pattern over time. At launch, the highest expected learning value remains testing whether the core hypothesis collapses immediately into known absorbers, circularity, or non-research-grade intuition.
+RUN-0003 completed the initial W001 kill pass. It weakened TI-C001 and killed the naive global-frontier reading, but did not kill the whole hypothesis. The highest expected learning value is now a focused absorber map before further formal strengthening.
 
 ## Proposed Subagents
 
 - Relativity Hardliner
 - Block Universe Defender
-- Cosmologist
 - Thermodynamics Expert
-- Philosopher of Time
-- Hostile Steward
+- Information Theorist
+- Causal Set Theorist
+- Time as Finality Boundary Keeper
+- Category Error Auditor
 
 ## Expected Outputs
 
-- strongest objections
-- likely absorbers
-- surviving formulation, if any
-- candidate killed paths
-- claim-ledger updates
-- next workflow recommendation
+- absorber-by-absorber mapping
+- what each absorber explains
+- what each absorber does not explain
+- category-error and layer-error risks
+- whether anything remains non-absorbed
+- claim-ledger and path-kill updates
+- next workflow recommendation, likely W002 after W003
 
 ## Automation Target
 
