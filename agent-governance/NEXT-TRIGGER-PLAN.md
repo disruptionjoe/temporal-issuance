@@ -3,34 +3,30 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0004
+updated_by_run: RUN-0005
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run a minimal governance instrumentation pass before W003.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to start the minimal governance instrumentation pass by creating the governance-change ledger.
 
 ## Why
 
-RUN-0004 completed the initial stewardship assessment. It found the repo architecture promising but under-instrumented. The highest expected learning value is to add a small set of governance guardrails that prevent automation drift without turning the repo into a bureaucracy, then return to W003 focused absorber mapping.
+RUN-0005 converted the prior stewardship assessment into reusable W004. The remaining highest expected learning move is to add the lightest possible governance-change ledger so future workflow, persona, question, and authority changes can be recorded with rationale.
 
 ## Proposed Subagents
 
 - Systems Engineer
 - AI Alignment / Agent Governance Researcher
-- Open Source Governance Architect
-- Founder / Startup Operator
 
 ## Expected Outputs
 
 - `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`
-- `agent-governance/STEWARD-METRICS.md`
-- `workflows/W004-stewardship-assessment-and-drift-audit.md`
-- `workflows/W005-contributor-intake-and-evaluation.md`
-- memory summarizer protocol
-- next-trigger plan returning to W003
+- a SIM-RUN-001 run record
+- memory update
+- next-trigger plan moving to steward metrics
 
 ## Automation Target
 

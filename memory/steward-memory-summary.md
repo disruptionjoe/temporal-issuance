@@ -2,7 +2,7 @@
 artifact_type: memory_summary
 status: active
 governance_role: steward_memory_summary
-last_summarized_run: RUN-0004
+last_summarized_run: RUN-0005
 constitutional: false
 ---
 
@@ -33,6 +33,8 @@ Run a minimal governance instrumentation pass next, then W003 as a focused absor
 Governance mechanisms are hypotheses. The steward should be aggressive by default and use uncertainty-driven review rather than approval-driven review.
 
 RUN-0004 found the launch architecture strong but under-instrumented. Immediate needs are a governance-change ledger, observation-only steward metrics, contributor intake stub, drift audit workflow, and memory summarizer protocol.
+
+RUN-0005 converted the prior one-time stewardship assessment into reusable W004. The remaining minimal instrumentation begins with a governance-change ledger.
 
 ## Killed Paths
 
