@@ -45,7 +45,7 @@ Status: next.
 
 Tasks:
 
-- create a governance-change ledger
+- create a governance-change ledger: complete as `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`
 - create observation-only steward metrics
 - create a recurring drift/stewardship assessment workflow: complete as `workflows/W004-stewardship-assessment-and-drift-audit.md`
 - create a contributor-intake workflow stub

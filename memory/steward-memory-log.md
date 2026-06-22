@@ -76,3 +76,20 @@ What was promoted: None.
 New blockers: Governance-change ledger does not exist yet to record future W004 design changes.
 Recommended next run: SIM-RUN-001 through W000, starting minimal governance instrumentation.
 Files changed: `workflows/W004-stewardship-assessment-and-drift-audit.md`, `workflows/README.md`, `agent-runs/RUN-0005-create-reusable-stewardship-assessment-workflow.md`, `memory/steward-memory-log.md`.
+
+## SIM-RUN-001
+
+Timestamp: 2026-06-22
+Trigger: simulated_thin_trigger
+Workflow: W000 -> governance_change_ledger_creation
+Agent / subagents used: Repo Steward.
+Current strongest version: Minimal governance instrumentation should precede W003, but it should stay bounded.
+Current strongest objection: Governance instrumentation can become process expansion if not kept minimal.
+What collapsed: The repo no longer lacks a place to record material governance design changes.
+What survived: Thin trigger and W000 adaptive routing.
+What was absorbed: RUN-0004's recommendation for a governance-change ledger was implemented.
+What was clarified: Future W004 design changes, persona changes, or authority changes should be logged in the governance-change ledger.
+What was promoted: None.
+New blockers: Steward metrics still absent.
+Recommended next run: SIM-RUN-002 steward metrics.
+Files changed: `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-runs/SIM-RUN-001-governance-change-ledger.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
