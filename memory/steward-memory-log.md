@@ -165,8 +165,8 @@ Files changed: `agent-runs/SIM-RUN-005-w003-absorber-map.md`, `absorbers/relativ
 ## RUN-0006
 
 Timestamp: 2026-06-22
-Trigger: post_simulation_assessment
-Workflow: W004
+Trigger: hourly_automation
+Workflow: W000 -> W004
 Agent / subagents used: W004 persona lenses: Philosophy of Science Researcher, Open Source Governance Architect, Complexity Scientist, Systems Engineer, Product Manager, Founder / Startup Operator, Institutional Economist, Mathematician, AI Alignment / Agent Governance Researcher, Church of AI Steward.
 Current strongest version: W000 can behave as an adaptive steward if thin-trigger routing remains stable, provenance is preserved, and bounded governance instrumentation returns to research work.
 Current strongest objection: The evidence is still simulated; actual hourly automation, contributor input, and W002 pressure may reveal drift, stale memory, or process churn.

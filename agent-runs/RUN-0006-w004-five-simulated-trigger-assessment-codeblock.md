@@ -4,8 +4,8 @@ artifact_type: run_record
 status: complete
 governance_role: stewardship_assessment
 run_id: RUN-0006
-trigger: post_simulation_assessment
-workflow: W004
+trigger: hourly_automation
+workflow: W000 -> W004
 constitutional: false
 lookback_window:
   - RUN-0004
