@@ -56,9 +56,8 @@ W001 has not run yet.
 
 ## Recommended Next Run
 
-Run W001: Kill Core Hypothesis.
+Invoke W000. W000 should currently route to W001: Kill Core Hypothesis.
 
 ## Files Changed
 
 Initial repository scaffold.
-

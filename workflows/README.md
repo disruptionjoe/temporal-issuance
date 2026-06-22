@@ -13,8 +13,10 @@ The steward may create, revise, retire, or combine workflows when doing so impro
 
 Initial workflows:
 
+- `W000-repo-steward-cycle.md`
 - `W001-kill-core-hypothesis.md`
 - `W002-formal-object-pressure-test.md`
 - `W003-absorber-map.md`
 - `DYNAMIC-WORKFLOW-PROTOCOL.md`
 
+`W000-repo-steward-cycle.md` is the automation target. Hourly triggers should invoke W000 and let the Repo Steward decide what workflow or workflow set should run next.
