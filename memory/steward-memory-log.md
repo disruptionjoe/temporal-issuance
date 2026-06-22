@@ -195,3 +195,20 @@ What was promoted: None.
 New blockers: None, if the second simulation uses distinct run IDs.
 Recommended next run: SIM-VSM-RUN-001 through W000.
 Files changed: `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/RUN-CLOSEOUT-CHECKLIST.md`, `agent-governance/MEMORY-SUMMARIZER-PROTOCOL.md`, `workflows/W004-stewardship-assessment-and-drift-audit.md`, `agent-governance/VSM-MAP.md`, `workflows/W005-contributor-intake-and-evaluation.md`, `workflows/W000-repo-steward-cycle.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-runs/RUN-0007-vsm-readiness-pass.md`.
+
+## SIM-VSM-RUN-001
+
+Timestamp: 2026-06-22
+Trigger: simulated_thin_trigger
+Workflow: W000 -> system_2_coordination_check
+Agent / subagents used: Repo Steward, VSM Auditor.
+Current strongest version: The VSM-aware sequence can proceed because next-trigger, roadmap, memory summary, metrics, and VSM surfaces agree on current state.
+Current strongest objection: Run-ID confusion between prior `SIM-RUN-*` records and new `SIM-VSM-RUN-*` records could obscure audit history.
+What collapsed: The need to repeat readiness setup before producing hard output.
+What survived: VSM readiness surfaces, thin-trigger route, and W000 adaptive routing.
+What was absorbed: The coordination check absorbed RUN-0007's readiness state into a first stress-run observation.
+What was clarified: SIM-VSM-RUN-002 should produce research-facing hard output.
+What was promoted: None.
+New blockers: None.
+Recommended next run: SIM-VSM-RUN-002 lightweight W003 absorber gap scan.
+Files changed: `agent-runs/SIM-VSM-RUN-001-system-2-coordination-check.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
