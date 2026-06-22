@@ -195,12 +195,34 @@ principled NAA (M2+M3), D4 discrimination of issuance from four competitors insi
 TI-C019 formalizing-candidate status confirmed. TI-C020 new pressure targets: holographic
 boundary theories (holography absorber is sharp — boundary encodes bulk as MetaCloSys encoding).
 
+## DS-Architect Intake (post-RUN-0043, non-run)
+
+Three external agent notes from a distributed-systems architect / MMO persona were
+synthesized. Three ideas worth recording:
+
+1. **Convergence theorem hypothesis** (`E021`): G_ij gluing obstruction = Abramsky-Brandenburger
+   sheaf contextuality (obstruction to global section) = NAA = morphism non-embedding may be the
+   same theorem from different faces. If true: TI finds its formal home. If false: TI-C017 is
+   absorbed as AB relabeling. B1 augmented to include AB question.
+
+2. **Order ≠ resource** (BDO/ICO annotation): the energy-momentum archive is a clean proof that
+   ordering systems cannot derive resource budgets. Not a dead end — a layer-separation result.
+
+3. **Authority/legitimacy gap**: the formalism lacks an account of what makes an issued type real
+   vs. private hallucination. Should be addressed in the AC-8 formal model.
+
+New absorbers file `absorbers/distributed-systems.md` created. Lamport logical clocks are a
+near-complete absorber for TI-C001 (temporal reconstruction layer); D4 and TI-C019 survive
+because they concern schema expansion, not just order-from-records.
+
 ## Next Run
 
-Primary: presheaf absorber test (B1). Determine whether `OnlineSchemaSys` is a standard
-Grothendieck fibration over `N`. If yes: identify what TI contributes beyond naming the
-fibration. If no: identify the precise axiom that prevents fibrancy — that is TI's novel
-formal contribution. This subsumes the prior hostile-review-TI-C019 goal.
+Primary: presheaf absorber test (B1), now augmented with the AB contextuality question.
+Determine whether `OnlineSchemaSys` is a standard Grothendieck fibration over `N` AND whether
+the NAA structural theorem is a standard AB obstruction theorem. These may be the same test
+from two angles. If yes on both: identify what TI contributes beyond naming the structures.
+If no on either: identify the precise axiom that prevents reduction — that is TI's novel
+formal contribution.
 
 Secondary: Assembly Theory D4 operationalization (B2). Define schema-relative assembly index;
 show D4 events have undefined/infinite assembly index within the prior schema.

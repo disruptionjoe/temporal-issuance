@@ -28,6 +28,10 @@ W000 -> presheaf_absorber_test
 ```
 
 Required: test whether `OnlineSchemaSys` is a standard Grothendieck fibration over `N`.
+**Now augmented (2026-06-22 DS-architect intake):** also test whether the NAA structural
+theorem is a standard Abramsky-Brandenburger (AB) sheaf contextuality result. These two
+tests may converge on the same obstruction from different angles. See
+`absorbers/distributed-systems.md` (AB entry) and `explorations/E021-ds-architect-convergence-theorem.md`.
 
 1. Formally define the candidate fibration: objects are pairs `(n, S_n)`, morphisms are
    prefix-indexed inclusions, cartesian lifts correspond to schema-growth transitions.
@@ -35,14 +39,18 @@ Required: test whether `OnlineSchemaSys` is a standard Grothendieck fibration ov
    a fibration commutes with limits, or does it add genuinely new content?
 3. Ask: is the morphism-level non-embedding of `OnlineSchemaSys` into `MetaCloSys` a theorem
    about fibrations, or does it depend on specifically TI-theoretic structure?
-4. If `OnlineSchemaSys` IS a standard fibration: identify what TI contributes beyond naming
-   the fibration. If nothing: archive TI-C019 and route to formal-residue documentation.
-5. If `OnlineSchemaSys` is NOT a standard fibration: identify precisely what axiom or structure
-   prevents the fibration; this is TI's novel formal contribution.
+4. **AB question (augmented):** Does the NAA structural theorem reduce to the AB obstruction
+   theorem (obstruction to global section in a sheaf of local data)? If yes, identify what
+   C-typed admissibility contributes beyond a generic AB sheaf.
+5. If `OnlineSchemaSys` IS a standard fibration AND the NAA theorem IS standard AB contextuality:
+   identify what TI contributes beyond naming. If nothing: archive TI-C019 and route to
+   formal-residue documentation.
+6. If either test fails (not a standard fibration, or not standard AB contextuality): identify
+   the precise axiom or structure that prevents reduction; this is TI's novel formal contribution.
 
-Success condition: presheaf/fibration absorber is either (a) killed with precise proof that
-`OnlineSchemaSys` is not a standard fibration, or (b) absorbed with identification of what TI
-contributes beyond the fibration. TI-C019 may then advance to hostile review.
+Success condition: presheaf/fibration + AB absorbers are either (a) killed with precise proofs,
+or (b) absorbed with identification of what TI contributes beyond the known structures.
+TI-C019 may then advance to hostile review.
 
 Failure condition: absorber cannot be resolved; `OnlineSchemaSys` collapses to existing
 fibration/presheaf theory without identifiable novel content. Archive TI-C019.
