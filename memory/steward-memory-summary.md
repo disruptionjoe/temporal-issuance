@@ -215,6 +215,35 @@ New absorbers file `absorbers/distributed-systems.md` created. Lamport logical c
 near-complete absorber for TI-C001 (temporal reconstruction layer); D4 and TI-C019 survive
 because they concern schema expansion, not just order-from-records.
 
+## Crypto-Econ Security Intake (post-RUN-0043, non-run)
+
+Three external agent notes from a crypto-economic security researcher persona were
+synthesized. Four ideas worth recording (Angle 5 — physical law as incentive-compatible
+mechanism — NOT integrated; highest anthropomorphic projection risk):
+
+1. **VDF as NAA formal grounding** (`E023`, B3 augmented): Verifiable Delay Functions
+   (Boneh et al. 2018) give a computational-complexity grounding for NAA. Key question:
+   does NAA require VDF-style sequential computation (in which case VDF = mechanism), or
+   does it hold for all prefix-indexed systems (in which case VDF = sufficient condition,
+   not full concept)? B3 now tests both HoTT and VDF angles on the same NAA question.
+
+2. **Cost-of-finality route for `mu`** (TI-C009/C010 annotation): BDO/ICO closed only the
+   ordering-layer route. The Landauer thermodynamic cost-of-commitment route to energy was
+   never tested. TI-C009/C010 archives annotated with this narrowness caveat. Kill condition:
+   if adversarial surplus (issuance ∝ attack cost vs. single-bit cost) absorbs into standard
+   thermodynamics, close as absorbed.
+
+3. **Finality = priced** (stronger reading for TI-C019): Nakamoto finality grounds
+   observer-relative finality in economic cost of reversal (a physical resource), not just
+   epistemic reconstruction. Candidate surplus over current formulation; needs fixture.
+
+4. **Missing adversary model** (AC-8 gap): incompatible schema extensions (two observers
+   propose `S_{n+1}` and `S'_{n+1}`) need a fork-choice analog. Not an absorber — a missing
+   formal component. AC-8 formal model should include this adversarial case.
+
+New absorbers file: `absorbers/crypto-economic-security.md` (Nakamoto, BFT, VDFs, Landauer,
+Bekenstein). No claim statuses changed.
+
 ## Next Run
 
 Primary: presheaf absorber test (B1), now augmented with the AB contextuality question.
@@ -227,8 +256,11 @@ formal contribution.
 Secondary: Assembly Theory D4 operationalization (B2). Define schema-relative assembly index;
 show D4 events have undefined/infinite assembly index within the prior schema.
 
-Tertiary: HoTT NAA derivation (B3). Encode `OnlineSchemaSys` in HoTT as a type family over
-`N`; test whether NAA follows from definitional equality / universe stratification.
+Tertiary: HoTT NAA derivation (B3), now augmented with VDF computational grounding question.
+Encode `OnlineSchemaSys` in HoTT as a type family over `N`; test whether NAA follows from
+definitional equality / universe stratification AND whether it requires VDF-style sequential
+computation or holds for all prefix-indexed systems.
 
 Quaternary: AC-8 formal model — concrete `OnlineSchemaSys` with two observers in interactive
-schema negotiation.
+schema negotiation, including an adversarial case (incompatible schema proposals + fork-choice
+analog) and authority/legitimacy condition (from T61 framework).

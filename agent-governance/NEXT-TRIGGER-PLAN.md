@@ -80,6 +80,17 @@ indexed by `N`, (b) ask whether NAA is a consequence of definitional equality / 
 stratification, (c) determine whether the morphism-level non-embedding follows from HoTT's
 type-theoretic structure. Success: M2 advances from motivation to derivation.
 
+**B3 augmented (2026-06-22 crypto-econ intake):** Also test the VDF computational grounding
+alongside the HoTT type-theoretic grounding. A VDF (`f: X -> Y` requiring exactly `T`
+sequential steps) is a concrete cryptographic model of "the future must be computed, not
+foreseen." The key question: does `OnlineSchemaSys` NAA require VDF-style sequential
+computation, or is it a structural constraint that holds even in deterministic non-sequential
+systems? If NAA holds only for systems with VDF-like construction: VDF is the mechanism and
+M2 is its type-theoretic analogue. If NAA holds more broadly: VDF is a sufficient motivating
+condition, and B3 must identify the weaker structural property NAA actually requires. See
+`absorbers/crypto-economic-security.md` (Absorber 3) and
+`explorations/E023-crypto-econ-intake-synthesis.md` (Idea 1).
+
 Quaternary next trigger (if B1/B2/B3 advance):
 
 ```text

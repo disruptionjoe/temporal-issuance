@@ -925,3 +925,48 @@ What survived: `OnlineSchemaSys` as principled class; D4 as structural discrimin
 New claims: TI-C020 (physical universe as `OnlineSchemaSys`), speculative.
 Recommended next run: hostile_review_TI_C019 (M2 formalization + morphism non-embedding proof), then AC-8 formal model, then TI-C020 pressure pass.
 Files changed: `explorations/E019-online-schema-sys-no-anticipation.md`, `agent-runs/RUN-0042-online-schema-sys-no-anticipation.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0043
+
+Timestamp: 2026-06-22
+Trigger: joe_request_expanded_steelman
+Workflow: W000 -> expanded_steelman_hegelian_75_persona (Phase 2B continued)
+Agent / subagents used: Repo Steward, 75 personas across thematic clusters A–H plus 13 new personas (P63–P75: Assembly Theory, Constructor Theory, HoTT, information geometry, adaptive systems theory).
+Current strongest version: Well-formed `OnlineSchemaSys`, principled NAA (M2+M3), D4 discrimination of issuance from four competitors inside `OnlineSchemaSys`, AC-8 as cleanest genuine issuance case, concrete formalization trajectory.
+Current strongest objection: B1 — `OnlineSchemaSys` may be a standard Grothendieck fibration over `N`, making NAA a standard fibredness condition. If yes, TI has named known structures without adding new content.
+What collapsed: Five previous illusions — bare `ExtCat` as novel, holonomy without source-generated connection, `Omega_ij` as independent, NAA as protective stipulation, D4 as unconstrained category-level fact.
+What survived: Five core items (OnlineSchemaSys, principled NAA, D4 discrimination, AC-8, formalization trajectory). Four genuine advances (Assembly Theory correspondence, Kauffman adjacent-possible, presheaf absorber as critical path, information geometry bridge).
+New claims: None. TI-C019 formalizing-candidate status confirmed. TI-C020 new pressure targets identified (holographic boundary theories).
+Research bottlenecks: B1 (presheaf absorber, critical path), B2 (Assembly Theory D4), B3 (HoTT NAA).
+Recommended next run: presheaf_absorber_test (B1), augmented to also test AB sheaf contextuality question.
+Files changed: `explorations/E020-expanded-steelman-hegelian-75-persona.md`, `agent-runs/RUN-0043-expanded-steelman-hegelian-75-persona.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `agent-governance/STEWARD-METRICS.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## DS-ARCHITECT-INTAKE
+
+Timestamp: 2026-06-22
+Trigger: joe_request_external_synthesis (three distributed-systems / MMO persona notes)
+Workflow: non-run external persona synthesis
+Agent / subagents used: Repo Steward (synthesis pass, no steward cycle).
+Three decision-relevant ideas identified:
+1. Convergence theorem hypothesis: G_ij gluing obstruction = Abramsky-Brandenburger sheaf contextuality = NAA = morphism non-embedding may be the same theorem from different faces. Two outcomes: TI finds its formal home (consolidation), or TI-C017 is absorbed as AB relabeling. B1 augmented to include AB question.
+2. Order ≠ resource annotation for BDO/ICO archives: layer-separation reading replaces dead-end reading. Adds context to closed claims without reopening them.
+3. Authority/legitimacy gap: the formalism lacks an account of what makes an issued type real vs. private hallucination. The map R (record formation) is the site; should be addressed in AC-8 formal model.
+What collapsed: Notion that BDO/ICO represent a dead end rather than a layer-separation result.
+What survived: All existing claims unchanged. B1 augmented. AB sheaf contextuality identified as the critical cross-check.
+New absorbers file: `absorbers/distributed-systems.md` (Lamport, Vector Clocks, CRDTs, CAP/PACELC/FLP, Event Sourcing/CQRS, Abramsky-Brandenburger).
+Files changed: `absorbers/distributed-systems.md`, `explorations/E021-ds-architect-convergence-theorem.md`, `CLAIM-LEDGER.md` (TI-C017 AB absorber), `agent-governance/NEXT-TRIGGER-PLAN.md` (B1 augmented), `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## CRYPTO-ECON-INTAKE
+
+Timestamp: 2026-06-22
+Trigger: joe_request_external_synthesis (three crypto-economic security researcher notes)
+Workflow: non-run external persona synthesis
+Agent / subagents used: Repo Steward (synthesis pass, no steward cycle).
+Four decision-relevant ideas identified (Angle 5 — physical law as incentive-compatible mechanism — explicitly NOT integrated; highest anthropomorphic projection risk):
+1. VDF as NAA formal grounding: Verifiable Delay Functions (Boneh et al. 2018) give an operational/cryptographic grounding for NAA from the computation-complexity side. Key question: does NAA require VDF-style sequential computation, or does it hold for all prefix-indexed systems? B3 augmented with VDF question alongside HoTT question.
+2. Cost-of-finality route for `mu`: the Landauer thermodynamic cost-of-record-commitment route to energy was never tested by BDO/ICO (which closed only the ordering-layer route). TI-C009/C010 archives annotated with this narrowness. Adversarial surplus (issuance ∝ attack cost, not ∝ single-bit cost) is the candidate new content; may be absorbed by standard thermodynamics.
+3. Finality = priced: Nakamoto finality (reversal cost as finality criterion) is a stronger reading of TI-C019's "finality is observer-reconstructed." Surplus: economic reading requires finality to be physical (tied to conserved resource), not merely epistemic. Flagged as stronger formulation candidate for TI-C019 reconstruction layer; no claim update without fixture.
+4. Missing adversary model: G_ij obstruction as fork condition; lightcone as partition boundary; incompatible schema extensions need a fork-choice analog. AC-8 formal model should include an adversarial case. Not an absorber — a missing formal component.
+What collapsed: Nothing. No claim statuses changed.
+New absorbers file: `absorbers/crypto-economic-security.md` (Nakamoto finality, BFT, VDFs, Landauer, Bekenstein + missing adversary model).
+Files changed: `absorbers/crypto-economic-security.md`, `explorations/E023-crypto-econ-intake-synthesis.md`, `CLAIM-LEDGER.md` (TI-C009/C010 archive annotations), `agent-governance/NEXT-TRIGGER-PLAN.md` (B3 augmented with VDF), `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
