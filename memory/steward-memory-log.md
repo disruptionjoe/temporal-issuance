@@ -382,3 +382,20 @@ What was promoted: None.
 New blockers: Toy model not yet built.
 Recommended next run: RUN-0014 toy-patch test candidates.
 Files changed: `agent-runs/RUN-0013-definition-repair.md`, `FORMAL-DEFINITION-REPAIR.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0014
+
+Timestamp: 2026-06-22
+Trigger: manual_accelerated_thin_trigger
+Workflow: W000 -> toy_patch_test
+Agent / subagents used: Repo Steward, Mathematician, Category Error Auditor.
+Current strongest version: Partial reconciliation and obstruction, `G_ij` plus `Omega_ij`, are the strongest surviving formal pieces. `kappa_i` weakly survives as ordinal update structure. `lambda_i` remains outside the core.
+Current strongest objection: The object may reduce to time-as-finality-style gluing plus record updates, with no independent issuance measure.
+What collapsed: Simple-counting `lambda_i` as a useful measure.
+What survived: `G_ij`, `Omega_ij`, and weak ordinal `kappa_i`.
+What was absorbed: Definition repair candidates were tested in a toy two-observer patch.
+What was clarified: W004 should now assess RUN-0010 through RUN-0014 and the repo's throughput behavior.
+What was promoted: None.
+New blockers: Need assessment before further formal work.
+Recommended next run: W004 assessment over RUN-0010 through RUN-0014.
+Files changed: `agent-runs/RUN-0014-two-observer-patch-test.md`, `explorations/E001-two-observer-patch-test.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.

@@ -118,6 +118,7 @@ Tasks:
 - RUN-0011 primary-source readiness: complete
 - RUN-0012 W002 component pressure pass: complete
 - RUN-0013 definition repair: complete
+- RUN-0014 two-observer patch test: complete
 - run W004 assessment over those five cycles
 - apply urgent fixes found by assessment
 - draft an overall assessment of how the repo is working so far
