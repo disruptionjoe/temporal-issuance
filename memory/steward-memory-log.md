@@ -246,3 +246,20 @@ What was promoted: None.
 New blockers: None for simulation. W002 still has not run.
 Recommended next run: SIM-VSM-RUN-004 System 3* audit spot check.
 Files changed: `agent-runs/SIM-VSM-RUN-003-component-pressure-matrix.md`, `FORMAL-OBJECT-PRESSURE-MATRIX.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## SIM-VSM-RUN-004
+
+Timestamp: 2026-06-22
+Trigger: simulated_thin_trigger
+Workflow: W000 -> system_3_star_audit
+Agent / subagents used: Repo Steward, VSM Auditor.
+Current strongest version: The VSM-aware sequence remains viable; state surfaces are consistent enough to proceed.
+Current strongest objection: The older RUN-0006 daily-review artifact can mislead Joe about the current default route unless the VSM correction is visible.
+What collapsed: The need to halt the stress sequence for a serious viability defect.
+What survived: Metrics, memory, roadmap, next-trigger state, path-kill recoverability, and claim-ledger caution.
+What was absorbed: SIM-VSM-RUN-001 through SIM-VSM-RUN-003 state changes were audited into a consistency finding.
+What was clarified: Add a fresh daily-review artifact and proceed to final simulation handoff.
+What was promoted: None.
+New blockers: None.
+Recommended next run: SIM-VSM-RUN-005 System 4 strategy handoff.
+Files changed: `agent-runs/SIM-VSM-RUN-004-system-3-audit.md`, `memory/daily-review/2026-06-22-vsm-stress-review.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.

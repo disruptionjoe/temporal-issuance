@@ -3,18 +3,18 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: SIM-VSM-RUN-003
+updated_by_run: SIM-VSM-RUN-004
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run SIM-VSM-RUN-004 as a System 3* audit spot check.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run SIM-VSM-RUN-005 as a System 4 strategy handoff.
 
 ## Why
 
-SIM-VSM-RUN-003 created the component pressure matrix needed for W002. Before the final simulation run, W000 should test whether the new metrics, memory, roadmap, closeout, and claim surfaces remain consistent.
+SIM-VSM-RUN-004 audited memory, claim, roadmap, metrics, path-kill, and daily-review surfaces. It found no serious viability issue, only a low-severity stale daily-review risk that has been routed to a fresh review artifact.
 
 ## Proposed Subagents
 
@@ -25,9 +25,10 @@ SIM-VSM-RUN-003 created the component pressure matrix needed for W002. Before th
 
 ## Expected Outputs
 
-- SIM-VSM-RUN-004 run record
-- System 3* audit spot check
-- inconsistency list, even if empty
+- SIM-VSM-RUN-005 run record
+- System 4 strategy handoff
+- clear route into W004 assessment
+- recommendation for post-assessment default, likely W003 unless assessment finds a serious issue
 - closeout checklist status
 - metrics update
 - memory and next-trigger updates
