@@ -3,45 +3,58 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0022
+updated_by_run: RUN-0024
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run an ontology and survivor competition discriminator.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run a minimal `Ext_S` specification and no-go pass.
 
 ## Why
 
-RUN-0019 built the `issuance_to_finality` bridge toy model and killed `G_ij`, `Omega_ij`, and `kappa_i` as source-side Temporal Issuance primitives. RUN-0020 then used all 62 Time as Finality expert personas plus lens-registry coverage checks to test whether the repo had converged too quickly on `SourceRealization = (C, <=_S, Ext_S)`.
+RUN-0024 completed the fixture-based ontology and survivor competition using `HYPOTHESIS-STEELMAN.md` and `explorations/E005-ontology-competition-fixture-suite.md`.
 
-RUN-0021 refined that route: the next bottleneck is ontology resolution, not governance. RUN-0022 then steelmanned the core hypothesis through all 62 Time as Finality personas. The constructive synthesis says the strongest version treats `Ext_S` as the likely load-bearing component: source-side constraints become admissibly extended, and observer histories are lossy projections of that extension.
+The result is austere:
 
-The next run must use `HYPOTHESIS-STEELMAN.md` as the strongest target and `explorations/E005-ontology-competition-fixture-suite.md` as the shared test surface.
+```yaml
+C_status: weakened_carrier_only
+<=_S_status: killed_as_independent_source_primitive
+Ext_S_status: formalizing_next_test_target
+best_survivor: constraint_extension_primitive
+does_best_survivor_beat_NULL_SURVIVOR: not_yet
+```
+
+`NULL-SURVIVOR` currently beats every fully formulated competitor. The only live reason not to archive the remaining source-side residue immediately is that `Ext_S` has a sharp bounded test: specify admissible source extension over typed constraints with a witness, invariant, transformation consequence, or source/readout discriminator that existing frameworks do not already explain as well.
+
+The next run should not run the narrow source-order absorption discriminator. Bare source order no longer leads. It can only be resurrected as a derived invariant if `Ext_S` succeeds.
 
 ## Proposed Subagents
 
 - Repo Steward
 - Category Error Auditor
 - Mathematical Minimalist
-- North Star Visionary
+- Formal Methods Researcher
+- Constructor / Resource Theory Skeptic
 - Time as Finality Boundary Keeper
 - Research Prioritization Steward
-- Parallel survivor lanes where separable
+- `NULL-SURVIVOR` advocate
 
 ## Expected Outputs
 
-- ontology and survivor competition run record
-- steelman restatement of the target before attacking it
-- component-level status for `C`, `<=_S`, and `Ext_S`
-- source-order taxonomy applied before any narrow source-order absorption decision
-- comparison lanes for source realization, constraint extension, projection kernel, constructor/resource transformability, obstruction/gluing residue, witness/certification, emergence, and `NULL-SURVIVOR`
-- fixture results from `explorations/E005-ontology-competition-fixture-suite.md`
-- minimal object, assumptions, absorber threat, sharpest discriminator, kill condition, and resurrection condition for each lane
-- verdict on whether each component survives independently
-- answer to whether any survivor beats archive
-- decision on whether to run the narrower source-order absorption discriminator next
+- minimal `Ext_S` specification or explicit failure to specify
+- typed `C_type`
+- admissible extension rule
+- projection map to observer readout
+- quotient or equivalence relation for representation/gauge collapse
+- witness or invariant
+- transformation consequence
+- absorber comparison against transition systems, proof theory, computation, constructor/resource theory, thermodynamics, information theory, and time-as-finality
+- explicit answer to whether `Ext_S` beats `NULL-SURVIVOR`
+- decision on whether to archive remaining source-side residue
+- claim-ledger update for TI-C005, TI-C006, and TI-C007
+- path kill or archive record if `Ext_S` fails
 - closeout checklist status
 - metrics update
 - memory and next-trigger updates

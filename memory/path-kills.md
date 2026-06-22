@@ -62,3 +62,18 @@ claim_refs:
   - TI-C001
   - TI-C003
 ```
+
+## RUN-0024
+
+```yaml
+path: <=_S as an independent source-side Temporal Issuance primitive
+reason_killed: The ontology competition found that bare source order does not carry independent explanatory work. The same order can hide different extension rules, source distinctions can vanish under quotienting, and every tested meaning of <=_S is absorbed by causal, dependency, proof, computational, construction, resource, observer-readout, or null order unless an independently specified Ext_S supplies the actual discriminator.
+evidence: `explorations/E006-ontology-survivor-competition-results.md` and `agent-runs/RUN-0024-ontology-survivor-competition.md`.
+local_minimum_risk: Killing bare source order must not kill a future order induced by a successful admissible source-extension rule. An induced order may still matter as a derived invariant.
+possible_future_resurrection_trigger: A minimal Ext_S model over typed C where the induced <=_S survives quotienting and changes a witness, invariant, transformation consequence, or source/readout discriminator not captured by known order frameworks.
+run_ref: RUN-0024
+claim_refs:
+  - TI-C001
+  - TI-C003
+  - TI-C006
+```

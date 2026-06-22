@@ -77,14 +77,14 @@ Tasks:
 
 ## Phase 2: Formal Object Pressure
 
-Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, decomposed by RUN-0021, and steelmanned by RUN-0022.
+Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, decomposed by RUN-0021, steelmanned by RUN-0022, and reduced by RUN-0024 to a minimal `Ext_S` specification/no-go target.
 
 Tasks:
 
 - run W002 against `IssuanceSystem`: complete in `agent-runs/RUN-0012-w002-component-pressure-pass.md`
-- define components without circular time assumptions: active, now split across `C`, `<=_S`, and `Ext_S`
+- define components without circular time assumptions: active, now split across `C`, killed independent `<=_S`, and live-but-unproven `Ext_S`
 - identify collapse risks: active, with time-as-finality readout absorption recorded in `RUN-0019`
-- produce revised object or kill the object: pending fixture-based ontology and survivor competition discriminator
+- produce revised object or kill the object: pending minimal `Ext_S` specification/no-go after RUN-0024 killed bare source order as an independent primitive
 
 ## Phase 3: Testable Claims
 
@@ -138,5 +138,7 @@ Tasks:
 - run 62-persona steelman and Hegelian pass: complete in `agent-runs/RUN-0022-taf-persona-steelman-hegelian-pass.md`
 - save the two full persona-analysis patterns as reusable workflows: complete in `agent-runs/RUN-0023-save-persona-analyses-as-workflows.md`
 - create steelman and ontology fixture research improvements: complete in `HYPOTHESIS-STEELMAN.md`, `explorations/E004-research-improvements-from-steelman-pass.md`, and `explorations/E005-ontology-competition-fixture-suite.md`
-- run fixture-based ontology and survivor competition before accepting the source-order residue: next
-- run source-order absorption discriminator against `<=_S` and `Ext_S` if source order remains leading after ontology competition
+- run fixture-based ontology and survivor competition before accepting the source-order residue: complete in `agent-runs/RUN-0024-ontology-survivor-competition.md` and `explorations/E006-ontology-survivor-competition-results.md`
+- kill bare `<=_S` as an independent source-side primitive: complete in `RUN-0024`
+- run source-order absorption discriminator against `<=_S` and `Ext_S` if source order remains leading after ontology competition: superseded; source order is not leading unless a future `Ext_S` model resurrects it as a derived invariant
+- run minimal `Ext_S` specification and no-go pass against `NULL-SURVIVOR`: next

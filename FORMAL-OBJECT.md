@@ -91,6 +91,18 @@ and observer histories are lossy projections of that extension.
 
 Use `HYPOTHESIS-STEELMAN.md` as the strongest target and `explorations/E005-ontology-competition-fixture-suite.md` as the shared test surface for ontology competition.
 
+RUN-0024 ontology competition result:
+
+The fixture-based competition in `explorations/E006-ontology-survivor-competition-results.md` separates the source-side components:
+
+| Component | RUN-0024 status | Formal consequence |
+| --- | --- | --- |
+| `C` | weakened, carrier only | Must be typed by the next `Ext_S` model; not an independent survivor. |
+| `<=_S` | killed as independent source-side primitive | Preserve only as a derived invariant or shadow of a successful extension rule. |
+| `Ext_S` | formalizing next test target | Must be specified with a typed carrier, projection map, quotient, witness or invariant, transformation consequence, absorber comparison, and kill condition. |
+
+The next formal pass should not defend source order first. It should attempt a minimal `Ext_S` specification and no-go. If that cannot beat transition-system, proof, computation, constructor/resource, thermodynamic, information-theoretic, and time-as-finality absorption, the remaining source-side formal object should route to `NULL-SURVIVOR`.
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?

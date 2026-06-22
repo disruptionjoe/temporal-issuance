@@ -2,7 +2,7 @@
 artifact_type: hypothesis_steelman
 status: active
 governance_role: strongest_current_formulation
-last_updated_by: RUN-0022
+last_updated_by: RUN-0024
 claim_refs:
   - TI-C001
   - TI-C003
@@ -50,15 +50,15 @@ The live candidate is decomposed:
 
 ```text
 C       typed source constraints
-<=_S    relation induced by source-side dependence, if it survives
+<=_S    derived relation induced by source-side dependence, not an independent primitive
 Ext_S   admissible source extension rule
 ```
 
+RUN-0024 killed `<=_S` as an independent source-side primitive. It may return only as a derived invariant of a successful `Ext_S` model.
+
 The component most likely to do real work is `Ext_S`.
 
-`<=_S` should be treated as a derived candidate until it proves otherwise.
-
-`C` is meaningless until typed.
+`C` is meaningless until typed by an extension rule.
 
 ## Narrative Explanation
 
@@ -76,7 +76,7 @@ This could be possible if all three are true:
 
 1. There are source-side constraints whose admissible extension is not fully captured by observer records.
 2. Observer projections are nonfaithful, so the same record history can hide different source structures.
-3. At least one source-side component changes a witness, invariant, transformation possibility, projection, or formal discriminator that existing frameworks do not already explain.
+3. `Ext_S` changes a witness, invariant, transformation possibility, projection, or formal discriminator that existing frameworks do not already explain.
 
 The hypothesis fails if source-side residue reduces to:
 
@@ -103,7 +103,7 @@ Every visible sign of issuance may be absorbed by existing frameworks: relativit
 
 Synthesis:
 
-Temporal Issuance survives only if source-side admissible extension can be specified in a way that is covariant, typed, nondecorative, and not reducible to observer readout. The next research task is not to defend the whole intuition. It is to find whether any component, especially `Ext_S`, beats `NULL-SURVIVOR`.
+Temporal Issuance survives only if source-side admissible extension can be specified in a way that is covariant, typed, nondecorative, and not reducible to observer readout. The next research task is not to defend the whole intuition. It is to determine whether `Ext_S` can beat `NULL-SURVIVOR`; if it cannot, the remaining source-side residue should be archived.
 
 ## Research Posture
 
@@ -111,4 +111,4 @@ Steelman first.
 
 Then attack harder.
 
-No claim should strengthen until the strongest version survives ontology competition and null-survivor comparison.
+No claim should strengthen unless `Ext_S` survives specification, absorber comparison, and null-survivor pressure.

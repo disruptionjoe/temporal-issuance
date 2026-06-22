@@ -552,3 +552,20 @@ What was promoted: No claims were promoted. Two analysis patterns were promoted 
 New blockers: None.
 Recommended next run: W000 -> fixture-based ontology and survivor competition discriminator.
 Files changed: `workflows/W006-divergent-persona-convergence-check.md`, `workflows/W007-steelman-and-hegelian-persona-pass.md`, `workflows/README.md`, `agent-runs/RUN-0023-save-persona-analyses-as-workflows.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0024
+
+Timestamp: 2026-06-21 22:48:39 -05:00
+Trigger: scheduled_hourly_trigger
+Workflow: W000 -> fixture_based_ontology_survivor_competition
+Agent / subagents used: Repo Steward, Category Error Auditor, Mathematical Minimalist, Time as Finality Boundary Keeper, Research Prioritization Steward, simulated competitor lanes.
+Current strongest version: Temporal Issuance survives only as a possible admissible source-extension rule, `Ext_S`, over typed `C`; observer histories are lossy projections of that extension.
+Current strongest objection: `NULL-SURVIVOR` currently beats every fully formulated competitor. `Ext_S` may reduce to transition systems, proof, computation, constructor/resource theory, thermodynamics, information update, or time-as-finality readout.
+What collapsed: Bare `<=_S` as an independent source-side primitive or primary survivor.
+What survived: `Ext_S` as a formalizing next-test target; `C` as carrier only; `<=_S` only as a possible derived invariant.
+What was absorbed: Source-order, typed-inventory, projection-kernel, witness, resource, obstruction, proof/computation, and emergence lanes were absorbed unless tied to a future source-extension discriminator.
+What was clarified: The next run should not be a narrow source-order absorption discriminator. It should specify or kill `Ext_S`.
+What was promoted: No claims were promoted. Component-specific claim rows were added for `C`, `<=_S`, and `Ext_S`.
+New blockers: `Ext_S` lacks a typed minimal model with projection, quotient, witness or invariant, transformation consequence, and absorber comparison.
+Recommended next run: W000 -> minimal `Ext_S` specification and no-go pass.
+Files changed: `explorations/E006-ontology-survivor-competition-results.md`, `agent-runs/RUN-0024-ontology-survivor-competition.md`, `HYPOTHESIS-STEELMAN.md`, `CLAIM-LEDGER.md`, `FORMAL-OBJECT.md`, `memory/path-kills.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/future-run-queue.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
