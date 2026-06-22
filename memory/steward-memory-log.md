@@ -603,3 +603,20 @@ What was promoted: No existing claim was promoted. TI-C010 was added as formaliz
 New blockers: Need a nontrivial `F` preserving extension composition as history composition.
 Recommended next run: W000 -> minimal `Ext_S` specification/no-go pass, attempting `F: ExtCat -> LorHist(M, eta, A)` if the physical bridge is pursued.
 Files changed: `explorations/E008-conditional-lorentzian-realization-theorem.md`, `explorations/E007-ti-gu-mass-energy-steelman.md`, `agent-runs/RUN-0026-conditional-lorentzian-realization-theorem.md`, `CLAIM-LEDGER.md`, `FORMAL-OBJECT.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0027
+
+Timestamp: 2026-06-21 23:15:35 -05:00
+Trigger: manual_research_direction
+Workflow: tighten_realization_functor_goal
+Agent / subagents used: Repo Steward.
+Current strongest version: The next run should construct or refute a minimal nontrivial realization functor `F: ExtCat -> LorHist`, starting with externally supplied `(M, g)`.
+Current strongest objection: A functor that merely relabels ordinary Lorentzian histories as source extensions is bookkeeping and should downgrade the bridge.
+What collapsed: The looser goal of "finishing the Lorentzian side."
+What survived: The conditional Lorentzian realization theorem, now with a nontriviality gate.
+What was absorbed: No claim change beyond tightening TI-C010's next action.
+What was clarified: `F` must distinguish same-order/different-`Ext_S` invariant cases; earned success may stop at causal preorder, conformal structure, metric up to scale, full metric, action, or Noether/Poincare machinery.
+What was promoted: None.
+New blockers: None; this was a goal-tightening pass.
+Recommended next run: W000 -> construct or refute minimal nontrivial `F: ExtCat -> LorHist`.
+Files changed: `agent-runs/RUN-0027-tighten-realization-functor-goal.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `explorations/E008-conditional-lorentzian-realization-theorem.md`, `ROADMAP.md`, `CLAIM-LEDGER.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

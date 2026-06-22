@@ -214,6 +214,54 @@ construct or refute a nontrivial realization functor
 F: ExtCat -> LorHist(M, eta, A)
 ```
 
+RUN-0027 tightened this target:
+
+```text
+Construct or refute a minimal nontrivial realization functor F.
+```
+
+The run is optimized for epistemic value, not for producing a bridge. Failure is a successful outcome if it is precise.
+
+### Nontriviality Requirement
+
+`F` must preserve at least one source-side distinction beyond induced order.
+
+Explicit test:
+
+```text
+same <=_S
+different Ext_S invariant
+```
+
+If `F` cannot distinguish those cases, classify the realization as bookkeeping and downgrade the bridge.
+
+### Earned-Structure Ladder
+
+Evaluate the strongest earned result at each level:
+
+```yaml
+causal_preorder:
+conformal_lorentzian_structure:
+metric_up_to_scale:
+full_lorentzian_metric:
+action_principle:
+noether_poincare_machinery:
+```
+
+The run may terminate successfully at any level.
+
+### External Metric Assumption
+
+Start with a fixed externally supplied `(M, g)`.
+
+Do not attempt metric reconstruction unless the construction naturally forces it.
+
+### GU Discipline
+
+Keep GU outside the first construction. First attempt ordinary Lorentzian realization. Evaluate GU compatibility only afterward.
+
+If the construction naturally points toward observerse-style geometry, document that separately instead of importing GU as the target by default.
+
 with:
 
 ```yaml
