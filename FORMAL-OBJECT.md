@@ -68,6 +68,18 @@ ProjectionAndReconciliation = (
 
 `kappa_i`, `G_ij`, and `Omega_ij` survive as observer-readout, reconciliation, and audit machinery. They should not be treated as source-side primitives unless a future model shows that they constrain source extensions rather than projected records.
 
+RUN-0021 ontology-resolution correction:
+
+Do not treat `SourceRealization` as one survivor. Treat its source-side components independently:
+
+```text
+C
+<=_S
+Ext_S
+```
+
+Each component needs its own absorber threats, kill criteria, resurrection criteria, and status. The next research run should use `explorations/E003-source-residue-ontology-competition-brief.md` to compare source-side ontology competitors, including `NULL-SURVIVOR`.
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?

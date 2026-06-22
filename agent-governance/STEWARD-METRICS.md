@@ -422,6 +422,24 @@ estimated_token_intensity: high
 parallel_lanes_used: false
 ```
 
+```yaml
+run_id: RUN-0021
+workflow_used: post_0019_ontology_resolution_recommendations
+research_vs_governance: research_routing
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: true
+estimated_token_intensity: low
+parallel_lanes_used: false
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

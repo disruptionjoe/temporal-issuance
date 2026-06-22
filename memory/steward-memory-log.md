@@ -501,3 +501,20 @@ What was promoted: None.
 New blockers: The repo needs a divergent-survivor discriminator before further convergence.
 Recommended next run: W000 -> divergent-survivor discriminator.
 Files changed: `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`, `agent-runs/RUN-0020-taf-persona-divergent-assessment-codeblock.md`, `CLAIM-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/future-run-queue.md`, `memory/daily-review/2026-06-22-divergent-persona-assessment.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0021
+
+Timestamp: 2026-06-21 22:20:43 -05:00
+Trigger: manual_request
+Workflow: post_0019_ontology_resolution_recommendations
+Agent / subagents used: Repo Steward.
+Current strongest version: Source/readout split remains live, but `SourceRealization` must be decomposed into `C`, `<=_S`, and `Ext_S` as separate component survivors.
+Current strongest objection: Survivor attachment may preserve the last remaining residue because prior candidates were killed.
+What collapsed: Treating `SourceRealization = (C, <=_S, Ext_S)` as one coherent survivor.
+What survived: Component-level ontology competition, source-order taxonomy, and `NULL-SURVIVOR` as a required competitor.
+What was absorbed: Joe's post-RUN-0019 recommendations were converted into a research brief and next-trigger constraints.
+What was clarified: `Ext_S` may be the most important live component because extension rules may do more work than bare order.
+What was promoted: None.
+New blockers: Need ontology competition before narrow source-order absorption.
+Recommended next run: W000 -> ontology and survivor competition discriminator.
+Files changed: `agent-runs/RUN-0021-post-0019-ontology-resolution-recommendations.md`, `explorations/E003-source-residue-ontology-competition-brief.md`, `FORMAL-OBJECT.md`, `CLAIM-LEDGER.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/future-run-queue.md`, `memory/daily-review/2026-06-22-divergent-persona-assessment.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
