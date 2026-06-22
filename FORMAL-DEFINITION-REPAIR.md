@@ -106,9 +106,33 @@ ReconciliationSystem = (
 )
 ```
 
+## RUN-0019 Bridge Verdict
+
+The issuance-to-finality bridge toy model moved the repaired components into layers:
+
+| Component | RUN-0019 result | Reason |
+| --- | --- | --- |
+| `kappa_i` | readout-side | Different cadences changed apparent finality without changing source realization. |
+| `G_ij` | readout-side | It reconciles projected observer records after source constraints have already been read out. |
+| `Omega_ij` | readout-side audit | It records projection or reconciliation failure, but does not generate source realization. |
+| `lambda_i` / `mu` | outside core | Different measures did not change the bridge projection or any invariant. |
+
+Current source-side candidate after RUN-0019:
+
+```text
+SourceRealization = (
+  C,
+  <=_S,
+  Ext_S
+)
+```
+
+Kill condition:
+
+If `<=_S` and `Ext_S` factor through causal order, ordinary dependency order, record generation, entropy, information, probability, volume, action, or primitive time, absorb or archive the remaining formal object.
+
 ## Next Test Candidates
 
-1. Construct a toy two-observer patch where `G_ij` has nontrivial obstruction.
-2. Try to define `lambda_i` on the toy patch without entropy, information, action, probability, volume, or expansion.
-3. Try to define `kappa_i` as an ordinal update relation without primitive time.
-4. Compare the toy patch to time-as-finality gluing and causal-set growth.
+1. Specify `<=_S` and `Ext_S` without causal order, ordinary dependency order, record generation, entropy, information, probability, volume, action, or primitive time.
+2. Test whether any source extension rule changes observer capabilities in a way time-as-finality readout cannot already express.
+3. If not, absorb the remaining object into existing causal/dependency and record-reconstruction machinery.

@@ -48,3 +48,17 @@ claim_refs:
   - TI-C001
   - TI-C003
 ```
+
+## RUN-0019
+
+```yaml
+path: G_ij, Omega_ij, and kappa_i as source-side Temporal Issuance primitives
+reason_killed: In the issuance-to-finality bridge toy model, all three components operate after projection into observer records. `kappa_i` changes apparent finality without changing source realization, while `G_ij` and `Omega_ij` reconcile or audit observer-local records rather than generating source extensions.
+evidence: `explorations/E002-issuance-to-finality-bridge-toy-model.md` and `agent-runs/RUN-0019-issuance-to-finality-bridge-toy-model.md`.
+local_minimum_risk: These components may still be valuable diagnostics, and a richer model might make access, cadence, or gluing constraints affect allowed source extensions rather than readout only.
+possible_future_resurrection_trigger: A model where changing `kappa_i`, `G_ij`, or `Omega_ij` changes permitted source extensions under independently typed source rules, not merely observer records.
+run_ref: RUN-0019
+claim_refs:
+  - TI-C001
+  - TI-C003
+```

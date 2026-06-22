@@ -45,3 +45,15 @@ Use the bridge note:
 Boundary:
 
 Do not merge ledgers. Do not promote Temporal Issuance claims because Time as Finality has adjacent results.
+
+## RUN-0019 Bridge Result
+
+The `issuance_to_finality` bridge toy model found that `kappa_i`, `G_ij`, and `Omega_ij` are readout-side in the current formalization:
+
+- `kappa_i` changes observer record cadence without changing source realization.
+- `G_ij` reconciles projected observer records.
+- `Omega_ij` records projection or reconciliation failure.
+
+Time as Finality therefore absorbs those components as observer-readout, reconstruction, and audit machinery unless a future Temporal Issuance model shows that they constrain source extensions.
+
+This is not a full absorption of Temporal Issuance. The bridge also showed a residual source/readout question: same observer records can hide different source structures. That residue now lives in whether `<=_S` and `Ext_S` can be typed without collapsing into causal order, dependency order, records, entropy, information, probability, volume, action, or ordinary time.

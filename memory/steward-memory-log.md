@@ -467,3 +467,20 @@ What was promoted: None.
 New blockers: None.
 Recommended next run: W000 -> `issuance_to_finality` bridge toy model.
 Files changed: `agent-runs/RUN-0018-stale-pointer-closeout.md`, `CLAIM-LEDGER.md`, `memory/future-run-queue.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0019
+
+Timestamp: 2026-06-21 21:49:04 -05:00
+Trigger: scheduled_hourly_trigger
+Workflow: W000 -> issuance_to_finality_bridge_toy_model
+Agent / subagents used: Repo Steward, Category Error Auditor, Time as Finality Boundary Keeper, Research Prioritization Steward.
+Current strongest version: Temporal Issuance can only survive as an independently typed source realization order, `SourceRealization = (C, <=_S, Ext_S)`, whose observer projection can be non-faithful.
+Current strongest objection: `<=_S` and `Ext_S` may be ordinary causal order, dependency order, record generation, entropy, information, probability, volume, action, or primitive time under new names.
+What collapsed: `G_ij`, `Omega_ij`, and `kappa_i` as source-side Temporal Issuance primitives.
+What survived: `G_ij`, `Omega_ij`, and `kappa_i` as observer-readout, reconciliation, and audit machinery; source/readout nonfaithfulness as a remaining burden.
+What was absorbed: The RUN-0014 local patch/gluing survivor was absorbed into time-as-finality-style readout machinery unless future source-extension constraints resurrect it.
+What was clarified: The next decisive test is a source-order absorption discriminator for `<=_S` and `Ext_S`.
+What was promoted: None.
+New blockers: The remaining source-order residue is not independently typed.
+Recommended next run: W000 -> source-order absorption discriminator.
+Files changed: `explorations/E002-issuance-to-finality-bridge-toy-model.md`, `agent-runs/RUN-0019-issuance-to-finality-bridge-toy-model.md`, `FORMAL-OBJECT.md`, `FORMAL-DEFINITION-REPAIR.md`, `CLAIM-LEDGER.md`, `absorbers/time-as-finality.md`, `memory/path-kills.md`, `memory/future-run-queue.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

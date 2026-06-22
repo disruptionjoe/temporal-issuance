@@ -77,14 +77,14 @@ Tasks:
 
 ## Phase 2: Formal Object Pressure
 
-Status: delayed until focused W003 absorber gap pass completes.
+Status: active, narrowed by RUN-0019.
 
 Tasks:
 
-- run W002 against `IssuanceSystem`: next
-- define components without circular time assumptions
-- identify collapse risks
-- produce revised object or kill the object
+- run W002 against `IssuanceSystem`: complete in `agent-runs/RUN-0012-w002-component-pressure-pass.md`
+- define components without circular time assumptions: active, now focused on `<=_S` and `Ext_S`
+- identify collapse risks: active, with time-as-finality readout absorption recorded in `RUN-0019`
+- produce revised object or kill the object: pending source-order absorption discriminator
 
 ## Phase 3: Testable Claims
 
@@ -126,10 +126,11 @@ Tasks:
 
 ## Phase 1E: Bridge Or Absorption Test
 
-Status: next.
+Status: active.
 
 Tasks:
 
-- build `issuance_to_finality` bridge toy model
-- test whether `G_ij`, `Omega_ij`, and `kappa_i` are source-side Temporal Issuance structure or time-as-finality readout/gluing
-- record absorption if the survivor collapses
+- build `issuance_to_finality` bridge toy model: complete in `agent-runs/RUN-0019-issuance-to-finality-bridge-toy-model.md`
+- test whether `G_ij`, `Omega_ij`, and `kappa_i` are source-side Temporal Issuance structure or time-as-finality readout/gluing: complete; source-side reading killed in `memory/path-kills.md`
+- record absorption if the survivor collapses: partial; observer-readout components absorbed by time-as-finality-style machinery
+- run source-order absorption discriminator against `<=_S` and `Ext_S`: next

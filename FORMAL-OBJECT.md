@@ -26,11 +26,11 @@ IssuanceSystem = (
 
 ## Current Pressure Result
 
-RUN-0012 weakened this object. The current working target is no longer the launch object as written.
+RUN-0012 weakened this object. RUN-0019 weakened the RUN-0014 survivor further. The current working target is no longer the launch object as written, and the local gluing survivor should be treated as readout-side until proven otherwise.
 
 See `FORMAL-OBJECT-PRESSURE-RESULTS.md`.
 
-Current working sketch:
+RUN-0012 working sketch:
 
 ```text
 LocalIssuancePatch_i = (
@@ -43,6 +43,30 @@ LocalIssuancePatch_i = (
 ```
 
 `mu` is demoted to an unresolved measure candidate. Global `dR` remains killed.
+
+RUN-0019 bridge sketch:
+
+```text
+SourceRealization = (
+  C,
+  <=_S,
+  Ext_S
+)
+
+ObserverReadout_i = (
+  A_i,
+  kappa_i,
+  Rec_i
+)
+
+ProjectionAndReconciliation = (
+  pi_TaF,
+  G_ij,
+  Omega_ij
+)
+```
+
+`kappa_i`, `G_ij`, and `Omega_ij` survive as observer-readout, reconciliation, and audit machinery. They should not be treated as source-side primitives unless a future model shows that they constrain source extensions rather than projected records.
 
 ## Component Pressures
 
