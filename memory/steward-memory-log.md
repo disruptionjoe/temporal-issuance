@@ -586,3 +586,20 @@ What was promoted: No claims were promoted. TI-C008 and TI-C009 were added with 
 New blockers: No physical bridge exists until a concrete `Ext_S` model supplies Lorentzian projection, Poincare or diffeomorphism symmetry, Noether or stress-energy map, and mass-shell/rest-frame definitions.
 Recommended next run: W000 -> minimal `Ext_S` specification/no-go pass with E007 guardrail.
 Files changed: `explorations/E007-ti-gu-mass-energy-steelman.md`, `agent-runs/RUN-0025-ti-gu-mass-energy-steelman.md`, `CLAIM-LEDGER.md`, `FORMAL-OBJECT.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/future-run-queue.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0026
+
+Timestamp: 2026-06-21 23:06:31 -05:00
+Trigger: manual_research_request
+Workflow: conditional_lorentzian_realization_formalization
+Agent / subagents used: Repo Steward.
+Current strongest version: The mass-energy bridge is a conditional embedding theorem requiring a nontrivial functor `F: ExtCat -> LorHist(M, eta, A)`.
+Current strongest objection: No such `F` exists yet, and a trivial `F` that relabels ordinary relativistic histories would add no Temporal Issuance content.
+What collapsed: No new path killed; RUN-0025's direct generic-invariant-to-mass-energy path remains killed.
+What survived: The conditional theorem tail from Lorentzian/Poincare-invariant action to Noether energy-momentum and rest-frame `E = mc^2`.
+What was absorbed: The mass-energy equation remains absorbed by ordinary relativity once Lorentzian/Poincare/Noether premises are supplied.
+What was clarified: The next positive target is constructing or refuting the realization functor, not re-deriving mass-energy.
+What was promoted: No existing claim was promoted. TI-C010 was added as formalizing.
+New blockers: Need a nontrivial `F` preserving extension composition as history composition.
+Recommended next run: W000 -> minimal `Ext_S` specification/no-go pass, attempting `F: ExtCat -> LorHist(M, eta, A)` if the physical bridge is pursued.
+Files changed: `explorations/E008-conditional-lorentzian-realization-theorem.md`, `explorations/E007-ti-gu-mass-energy-steelman.md`, `agent-runs/RUN-0026-conditional-lorentzian-realization-theorem.md`, `CLAIM-LEDGER.md`, `FORMAL-OBJECT.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

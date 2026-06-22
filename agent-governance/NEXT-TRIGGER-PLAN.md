@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0025
+updated_by_run: RUN-0026
 ---
 
 # Next Trigger Plan
@@ -32,6 +32,14 @@ The next run should not run the narrow source-order absorption discriminator. Ba
 
 RUN-0025 adds a cross-program guardrail: if the next `Ext_S` pass invokes Geometric Unity, conserved quantities, energy-momentum, or `E = mc^2`, it must treat those as a Lorentzian control case requiring explicit assumptions. Generic extension invariants do not derive mass-energy. The direct generic-invariant-to-`E = mc^2` path is killed in `memory/path-kills.md`.
 
+RUN-0026 sharpens the positive target. The legitimate theorem path is conditional on a nontrivial realization functor:
+
+```text
+F: ExtCat -> LorHist(M, eta, A)
+```
+
+If such an `F` preserves composition and lands in Poincare-invariant Lorentzian histories with an action and Noether currents, then the usual energy-momentum invariant and rest-frame `E = mc^2` follow. The next run should try to construct or refute `F`, not re-derive mass-energy.
+
 ## Proposed Subagents
 
 - Repo Steward
@@ -54,6 +62,7 @@ RUN-0025 adds a cross-program guardrail: if the next `Ext_S` pass invokes Geomet
 - transformation consequence
 - absorber comparison against transition systems, proof theory, computation, constructor/resource theory, thermodynamics, information theory, and time-as-finality
 - if invoking GU or mass-energy, six-axis specification plus Lorentzian/Poincare/Noether control case
+- explicit attempt to construct or refute `F: ExtCat -> LorHist(M, eta, A)` if the physical bridge is pursued
 - explicit answer to whether `Ext_S` beats `NULL-SURVIVOR`
 - decision on whether to archive remaining source-side residue
 - claim-ledger update for TI-C005, TI-C006, and TI-C007

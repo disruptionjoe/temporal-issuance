@@ -67,6 +67,14 @@ Verdict in one line:
 The first two arrows have formal category-theoretic content; the later arrows require Lorentzian/Poincare/Noether structure that Temporal Issuance does not currently derive.
 ```
 
+RUN-0026 refinement:
+
+`explorations/E008-conditional-lorentzian-realization-theorem.md` states the legitimate conditional theorem. The positive target is no longer generic "invariant to energy" language; it is a nontrivial realization functor:
+
+```text
+F: ExtCat -> LorHist(M, eta, A)
+```
+
 ## Task A: Formal Proof Attempt
 
 ### A1: Deriving Temporal Ordering From Admissible Extension

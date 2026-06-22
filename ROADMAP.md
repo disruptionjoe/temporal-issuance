@@ -77,14 +77,14 @@ Tasks:
 
 ## Phase 2: Formal Object Pressure
 
-Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, decomposed by RUN-0021, steelmanned by RUN-0022, reduced by RUN-0024 to a minimal `Ext_S` specification/no-go target, and sharpened by RUN-0025 with category-level extension/invariant theorems plus a GU/mass-energy guardrail.
+Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, decomposed by RUN-0021, steelmanned by RUN-0022, reduced by RUN-0024 to a minimal `Ext_S` specification/no-go target, sharpened by RUN-0025 with category-level extension/invariant theorems plus a GU/mass-energy guardrail, and advanced by RUN-0026 to the conditional realization-functor target `F: ExtCat -> LorHist(M, eta, A)`.
 
 Tasks:
 
 - run W002 against `IssuanceSystem`: complete in `agent-runs/RUN-0012-w002-component-pressure-pass.md`
 - define components without circular time assumptions: active, now split across `C`, killed independent `<=_S`, and live-but-unproven `Ext_S`
 - identify collapse risks: active, with time-as-finality readout absorption recorded in `RUN-0019`
-- produce revised object or kill the object: pending minimal `Ext_S` specification/no-go after RUN-0024 killed bare source order as an independent primitive and RUN-0025 killed direct generic-invariant-to-`E = mc^2` derivation
+- produce revised object or kill the object: pending minimal `Ext_S` specification/no-go after RUN-0024 killed bare source order as an independent primitive, RUN-0025 killed direct generic-invariant-to-`E = mc^2` derivation, and RUN-0026 made realization functor `F` the legitimate positive target
 
 ## Phase 3: Testable Claims
 
@@ -153,4 +153,6 @@ Tasks:
 - run Temporal Issuance / GU / mass-energy steelman: complete in `agent-runs/RUN-0025-ti-gu-mass-energy-steelman.md` and `explorations/E007-ti-gu-mass-energy-steelman.md`
 - prove or refute order-from-extension and extension-invariant claims: partial formal result complete in RUN-0025
 - kill direct bridge from generic extension invariants to `E = mc^2`: complete in `memory/path-kills.md`
+- formalize conditional Lorentzian realization theorem: complete in `agent-runs/RUN-0026-conditional-lorentzian-realization-theorem.md` and `explorations/E008-conditional-lorentzian-realization-theorem.md`
 - if the bridge is revisited, require explicit Lorentzian/Poincare/Noether premises rather than invariant-language transfer
+- next bridge test: construct or refute nontrivial `F: ExtCat -> LorHist(M, eta, A)`

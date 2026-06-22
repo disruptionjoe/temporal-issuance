@@ -120,6 +120,16 @@ S <=_S S' iff Hom_Ext(S, S') is nonempty
 
 If identities and composition are present, this relation is a preorder. It becomes a partial order only after quotienting mutual reachability or imposing antisymmetry conditions. RUN-0025 proves that morphism-level extension invariants can differ while the induced order is identical, so future formal work should not replace `Ext_S` with `<=_S`.
 
+RUN-0026 conditional Lorentzian realization target:
+
+If the source-extension object tries to touch mass-energy, the next formal object is not `E = mc^2`. The next formal object is a realization functor:
+
+```text
+F: ExtCat -> LorHist(M, eta, A)
+```
+
+where `LorHist(M, eta, A)` is a category of Lorentzian histories with action `A`. The functor must preserve extension composition as history composition. If `A` is Poincare-invariant and Noether currents exist, ordinary relativistic energy-momentum follows for timelike realized extensions. This is a conditional theorem target, not a substrate claim.
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?
