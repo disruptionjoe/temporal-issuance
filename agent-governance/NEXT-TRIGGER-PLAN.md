@@ -3,20 +3,20 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0027
+updated_by_run: RUN-0028
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to construct or refute a minimal nontrivial realization functor:
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to audit the source status of the weight required by the minimal realization functor:
 
 ```text
-F: ExtCat -> LorHist
+Q: Mor(ExtCat) -> ([0, infinity), +)
 ```
 
-This is the next `Ext_S` specification/no-go pass. It is optimized for epistemic value, not for producing a bridge.
+RUN-0028 constructed a bounded toy `F`. The next question is whether `Q` can be defined from admissible source extension before choosing `LorHist`, or whether it is only proper time, action, cost, entropy, information, proof length, or resource accounting under another name.
 
 ## Why
 
@@ -44,7 +44,7 @@ RUN-0026 sharpens the positive target. The legitimate theorem path is conditiona
 F: ExtCat -> LorHist(M, eta, A)
 ```
 
-If such an `F` preserves composition and lands in Poincare-invariant Lorentzian histories with an action and Noether currents, then the usual energy-momentum invariant and rest-frame `E = mc^2` follow. The next run should try to construct or refute `F`, not re-derive mass-energy.
+If such an `F` preserves composition and lands in Poincare-invariant Lorentzian histories with an action and Noether currents, then the usual energy-momentum invariant and rest-frame `E = mc^2` follow. That made constructing or refuting `F` the next target, rather than re-deriving mass-energy.
 
 RUN-0027 tightens the goal: `F` must preserve at least one source-side distinction beyond induced order. The explicit test is:
 
@@ -57,6 +57,19 @@ If `F` cannot distinguish those cases, classify the realization as bookkeeping a
 
 Start with an externally supplied Lorentzian spacetime `(M, g)`. Do not attempt metric reconstruction unless the construction forces it.
 
+RUN-0028 executed that target. It found:
+
+```yaml
+minimal_nontrivial_F_exists: yes_for_a_weighted_extension_category
+nontriviality_level: metric_sensitive_lorentzian_history
+causal_preorder_only: fails_nontriviality
+action_principle: not_earned
+noether_poincare: not_earned
+does_Ext_S_beat_NULL_SURVIVOR: not_yet
+```
+
+The next run should not construct another `F`. It should audit the source invariant `Q` that made the construction possible. If `Q` is not independently source-defined, the GU/mass-energy bridge should be archived as a speculative Lorentzian control case.
+
 ## Proposed Subagents
 
 - Repo Steward
@@ -68,47 +81,33 @@ Start with an externally supplied Lorentzian spacetime `(M, g)`. Do not attempt 
 - Research Prioritization Steward
 - `NULL-SURVIVOR` advocate
 
-For the five-reviewer synthesis, use:
+If the run invokes physics again, keep the RUN-0028 reviewer lenses available:
 
-- Category theorist
+- category theorist
 - Lorentzian geometer
-- Relativity physicist
+- relativity physicist
 - GU specialist / skeptic
-- Philosophy of science reviewer
+- philosophy of science reviewer
 
 ## Expected Outputs
 
-- definition of `TI_Ext` / `ExtCat`
-- definition of `LorHist`
-- candidate construction of `F`, or a precise obstruction
-- nontriviality test using same `<=_S` and different `Ext_S` invariant
-- functoriality verdict: strict functor, lax functor, pseudofunctor, profunctor, fibration, relation-valued functor, indexed category, or failure
-- order/causality verdict: order embedding, order reflection, order preservation only, lossy projection, or failure
-- earned-structure ladder verdict:
-  - causal preorder
-  - conformal Lorentzian structure
-  - metric up to scale
-  - full Lorentzian metric
-  - action principle
-  - Noether/Poincare machinery
-- metric-dependency verdict:
-  - externally supplied metric
-  - causal order only
-  - conformal structure
-  - metric up to scale
-  - full metric
-- GU compatibility verdict after the ordinary Lorentzian attempt:
-  - GU-compatible
-  - GU-suggestive
-  - GU-unneeded
-  - GU-blocked
-- absorber comparison against transition systems, proof theory, computation, constructor/resource theory, thermodynamics, information theory, and time-as-finality
-- if invoking GU or mass-energy, six-axis specification plus Lorentzian/Poincare/Noether control case
-- explicit attempt to construct or refute `F: ExtCat -> LorHist(M, g, A)` if the physical bridge is pursued
-- explicit answer to whether `Ext_S` beats `NULL-SURVIVOR`
-- decision on whether to archive remaining source-side residue
-- claim-ledger update for TI-C005, TI-C006, and TI-C007
-- path kill or archive record if `Ext_S` fails
+- formal definition attempt for `Q`
+- proof or counterexample that `Q` is not just:
+  - proper time
+  - action
+  - cost
+  - entropy
+  - information
+  - proof length
+  - computational path length
+  - resource monotone
+- quotient-stability test for `Q`
+- same `<=_S`, different `Q` fixture with a source-side consequence before Lorentzian realization
+- absorber comparison against weighted transition systems, path categories, proof theory, computation, constructor/resource theory, thermodynamics, information theory, variational mechanics, and time-as-finality
+- decision on whether `Ext_S^Q` beats `NULL-SURVIVOR`
+- decision on whether the GU/mass-energy bridge should be archived as speculative until a source-defined `Q` exists
+- claim-ledger update for TI-C007, TI-C009, TI-C010, and TI-C011
+- path kill or archive record if `Q` fails
 - closeout checklist status
 - metrics update
 - memory and next-trigger updates

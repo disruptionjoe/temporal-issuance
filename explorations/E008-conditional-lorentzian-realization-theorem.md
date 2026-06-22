@@ -278,6 +278,21 @@ kill_test: same induced source order but different Ext_S invariant changes, or f
 
 If this functor cannot be constructed even in a finite or toy control model, the GU/mass-energy bridge should stay speculative and `NULL-SURVIVOR` remains the default for physical interpretation.
 
+RUN-0028 result:
+
+```yaml
+minimal_nontrivial_F: constructed_for_weighted_ExtCat
+target: metric_sensitive_LorHist_g(M)
+preserved_invariant: source_weight_Q_as_proper_time
+causal_preorder_only: fails_nontriviality
+action_principle: not_earned
+noether_poincare: not_earned
+physical_bridge_status: still_speculative
+next_blocker: define_Q_source_side_before_choosing_LorHist
+```
+
+So E008's conditional theorem remains intact, but RUN-0028 shows that the first nontrivial functor only reaches a kinematic Lorentzian control model. It does not supply the action/Poincare/Noether premises.
+
 ## Relation To Existing Claims
 
 This artifact strengthens `TI-C008` and creates the legitimate formal target behind `TI-C009`. It does not promote `TI-C001`, `TI-C003`, or `TI-C007`.

@@ -620,3 +620,20 @@ What was promoted: None.
 New blockers: None; this was a goal-tightening pass.
 Recommended next run: W000 -> construct or refute minimal nontrivial `F: ExtCat -> LorHist`.
 Files changed: `agent-runs/RUN-0027-tighten-realization-functor-goal.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `explorations/E008-conditional-lorentzian-realization-theorem.md`, `ROADMAP.md`, `CLAIM-LEDGER.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0028
+
+Timestamp: 2026-06-21 23:24:04 -05:00
+Trigger: manual_request
+Workflow: W000 -> minimal_nontrivial_realization_functor
+Agent / subagents used: Repo Steward, simulated five-reviewer synthesis: Category Theorist, Lorentzian Geometer, Relativity Physicist, GU Specialist / Skeptic, Philosophy of Science Reviewer.
+Current strongest version: `Ext_S` can be modeled as a weighted extension category with `Q: Mor(ExtCat) -> ([0, infinity), +)`, and a strict toy functor can map `Q` into proper time in externally supplied metric-sensitive `LorHist_g(M)`.
+Current strongest objection: The functor is representational unless `Q` is independently source-defined; otherwise weighted transition systems, path categories, action accounting, resource/cost formalisms, thermodynamics, information theory, computation, and time-as-finality absorb it.
+What collapsed: Existence of a nontrivial `F` alone as evidence for a physical GU or mass-energy bridge.
+What survived: A bounded kinematic Lorentzian control model, the category-first `Ext_S` formalization, and the conditional E008 theorem tail if action/Poincare/Noether premises are later supplied.
+What was absorbed: Causal-preorder-only realization absorbs order but not nontriviality; proper-time realization is absorbed by ordinary Lorentzian metric geometry unless `Q` has source-side content.
+What was clarified: Nontriviality requires a source invariant, target invariant, preservation law, quotient stability, and absorber separation. Causal order alone fails the same-order/different-invariant test.
+What was promoted: No substrate claim was promoted. TI-C011 was added as a formalizing claim for the bounded representational construction.
+New blockers: Need a source-side definition of `Q` before choosing LorHist.
+Recommended next run: W000 -> source-invariant audit for `Q`; archive the GU/mass-energy bridge as speculative if `Q` is absorbed.
+Files changed: `explorations/E009-minimal-nontrivial-lorentzian-realization.md`, `agent-runs/RUN-0028-minimal-nontrivial-lorentzian-realization.md`, `CLAIM-LEDGER.md`, `FORMAL-OBJECT.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `explorations/E008-conditional-lorentzian-realization-theorem.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

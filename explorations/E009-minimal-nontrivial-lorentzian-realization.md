@@ -1,0 +1,628 @@
+---
+artifact_type: exploration
+status: active
+governance_role: minimal_lorentzian_realization_attempt
+exploration_id: E009
+last_updated_by: RUN-0028
+claim_refs:
+  - TI-C007
+  - TI-C008
+  - TI-C009
+  - TI-C010
+  - TI-C011
+constitutional: false
+---
+
+# E009: Minimal Nontrivial Lorentzian Realization Attempt
+
+## Purpose
+
+Execute the target installed by RUN-0027:
+
+```text
+Construct or refute a minimal nontrivial realization functor
+F: ExtCat -> LorHist
+```
+
+The run is optimized for epistemic value. A precise obstruction counts as success. The target is not to derive `E = mc^2`.
+
+## Verdict
+
+```yaml
+outcome: bounded_constructive_success_with_strong_downgrade
+minimal_nontrivial_F_exists: yes_for_a_weighted_extension_category
+nontriviality_level: metric_sensitive_lorentzian_history
+causal_preorder_only: fails_nontriviality
+conformal_only: insufficient_for_the_weight_invariant
+metric_dependency: externally_supplied_full_metric
+action_principle: not_earned
+noether_poincare: not_earned
+GU_verdict: GU_unneeded_for_the_minimal_construction
+does_Ext_S_beat_NULL_SURVIVOR: not_yet
+```
+
+The strongest honest result is:
+
+```text
+Temporal Issuance admits a minimal representational Lorentzian realization
+when Ext_S is strengthened to a weighted extension category and the external
+Lorentzian target retains metric/proper-time data.
+```
+
+This is not yet a load-bearing physical bridge. The weight is not derived from Temporal Issuance, and the construction is absorbed by weighted path categories, transition systems, action accounting, and resource/cost formalisms unless a future run gives the weight an independent source-side origin.
+
+## 1. Source Category: Weighted TI_Ext
+
+Define a minimal source category:
+
+```text
+TI_Ext^Q
+```
+
+Objects:
+
+```text
+S0, S1, S2
+```
+
+Generating non-identity morphisms:
+
+```text
+a: S0 -> S1
+b: S0 -> S1
+c: S1 -> S2
+```
+
+with:
+
+```text
+a != b
+```
+
+Composite morphisms:
+
+```text
+c circ a: S0 -> S2
+c circ b: S0 -> S2
+```
+
+Identities:
+
+```text
+id_S0, id_S1, id_S2
+```
+
+Let `Q` be an additive morphism invariant:
+
+```text
+Q: Mor(TI_Ext^Q) -> R_{\ge 0}
+```
+
+with:
+
+```text
+Q(id_S) = 0
+Q(e2 circ e1) = Q(e2) + Q(e1)
+Q(a) != Q(b)
+```
+
+The induced source preorder is:
+
+```text
+S <=_S S' iff Hom(S, S') is nonempty
+```
+
+For `a` and `b`, the induced order data is identical:
+
+```text
+domain(a) = domain(b) = S0
+codomain(a) = codomain(b) = S1
+same <=_S contribution: S0 <=_S S1
+different Ext_S invariant: Q(a) != Q(b)
+```
+
+This is the minimal witness required by RUN-0027.
+
+### General Form
+
+The toy model is the free category on a directed graph with parallel edges, equipped with an additive weight functor:
+
+```text
+Q: TI_Ext^Q -> ([0, infinity), +)
+```
+
+This structure is category-theoretically clean, but it is already absorber-threatened. A weighted category is also a standard weighted transition system, path category, cost algebra, action ledger, or resource accounting object.
+
+## 2. Target Category: Metric-Sensitive LorHist
+
+Fix an externally supplied time-oriented Lorentzian manifold:
+
+```text
+(M, g)
+```
+
+For the minimal control case, choose a convex region of 2D or 4D Minkowski spacetime. No metric reconstruction is attempted.
+
+Define:
+
+```text
+LorHist_g(M)
+```
+
+Objects:
+
+```text
+events or boundary events x in M
+```
+
+Morphisms:
+
+```text
+future-directed causal Moore curves gamma: x -> y
+```
+
+where Moore curves include a parameter length so concatenation is strictly associative. The identity morphism is the constant zero-length curve.
+
+Composition:
+
+```text
+gamma2 circ gamma1 = Moore concatenation
+```
+
+Metric invariant:
+
+```text
+Tau(gamma) = integral sqrt(g(gammadot, gammadot)) / c
+```
+
+for timelike portions, with `Tau(id_x) = 0`. `Tau` is additive under concatenation:
+
+```text
+Tau(gamma2 circ gamma1) = Tau(gamma2) + Tau(gamma1)
+```
+
+The quotient may identify reparametrizations, but it must not identify curves with different `Tau` if the nontriviality test is to pass.
+
+## 3. Candidate Functor F
+
+Choose target objects:
+
+```text
+x0 << x1 << x2
+```
+
+and define:
+
+```text
+F(S0) = x0
+F(S1) = x1
+F(S2) = x2
+```
+
+Choose future-directed timelike Moore curves:
+
+```text
+gamma_a: x0 -> x1
+gamma_b: x0 -> x1
+gamma_c: x1 -> x2
+```
+
+such that:
+
+```text
+Tau(gamma_a) = alpha Q(a)
+Tau(gamma_b) = alpha Q(b)
+Tau(gamma_c) = alpha Q(c)
+```
+
+for a fixed unit conversion factor `alpha > 0`.
+
+In Minkowski spacetime, if `x0 << x1`, timelike curves between the same endpoints can realize a range of proper times below the inertial maximum. Choose `Q(a)` and `Q(b)` inside that range.
+
+Define the morphism map:
+
+```text
+F(a) = gamma_a
+F(b) = gamma_b
+F(c) = gamma_c
+F(c circ a) = gamma_c circ gamma_a
+F(c circ b) = gamma_c circ gamma_b
+F(id_Si) = id_xi
+```
+
+### Functoriality Check
+
+Identity:
+
+```text
+F(id_Si) = id_F(Si)
+```
+
+Composition:
+
+```text
+F(c circ a) = F(c) circ F(a)
+F(c circ b) = F(c) circ F(b)
+```
+
+Since `TI_Ext^Q` is freely generated by the chosen graph and the composites are mapped by concatenation, `F` is a strict functor in this toy model.
+
+For a quotient source category, strict functoriality requires:
+
+```text
+e ~ e' implies F(e) ~ F(e')
+```
+
+under the chosen target equivalence. If the quotient forgets `Q`, the nontriviality witness is killed.
+
+## 4. Nontriviality Verdict
+
+The RUN-0027 test passes only at the metric-sensitive target level.
+
+Source-side:
+
+```text
+same <=_S: a and b both witness S0 <=_S S1
+different Ext_S invariant: Q(a) != Q(b)
+```
+
+Target-side:
+
+```text
+F(a) = gamma_a
+F(b) = gamma_b
+Tau(gamma_a) != Tau(gamma_b)
+```
+
+Therefore:
+
+```text
+Inv(F(a)) != Inv(F(b))
+```
+
+if `LorHist_g(M)` remembers proper time or metric length.
+
+### Failure Under Forgetful Targets
+
+Let:
+
+```text
+U: LorHist_g(M) -> CausPre(M)
+```
+
+forget curves and metric lengths, keeping only endpoint causal order.
+
+Then:
+
+```text
+U(F(a)) = U(F(b))
+```
+
+because both say only:
+
+```text
+x0 <=_causal x1
+```
+
+Thus any realization that lands only in a causal preorder fails the nontriviality requirement for parallel same-endpoint extensions.
+
+This is the key obstruction:
+
+```text
+causal order can preserve source reachability,
+but it cannot preserve same-order/different-extension invariants.
+```
+
+## 5. Order And Causality Verdict
+
+For the toy chain:
+
+```text
+S0 <=_S S1 <=_S S2
+```
+
+and:
+
+```text
+x0 <=_causal x1 <=_causal x2
+```
+
+`F` is order-preserving:
+
+```text
+S <=_S S' implies F(S) <=_causal F(S')
+```
+
+It is also order-reflecting in this three-object chain, because no extra target object pairs are introduced.
+
+For a general `ExtCat`, order preservation requires a causal embedding of the thin reflection:
+
+```text
+thin(ExtCat) -> (M, J^+)
+```
+
+This is not automatic. Obstructions include:
+
+- cycles that are not quotiented before mapping into antisymmetric causal order
+- source preorders with incomparable structure not realizable in the fixed spacetime region
+- finite posets whose order dimension or causal-set profile does not fit the chosen target dimension
+- extension branching that requires field histories or regions rather than event-to-event curves
+
+Therefore the general theorem is conditional:
+
+```text
+F can preserve order only after a causal object map is supplied.
+```
+
+## 6. Earned-Structure Ladder
+
+```yaml
+causal_preorder:
+  verdict: yes_for_order_only
+  nontriviality: fails_for_same_endpoint_parallel_extensions
+  reason: causal order forgets Q and Tau
+
+conformal_lorentzian_structure:
+  verdict: partially_available_from_external_g
+  nontriviality: insufficient_for_Q_if_Q_maps_to_proper_time
+  reason: conformal structure preserves light cones, not metric lengths
+
+metric_up_to_scale:
+  verdict: enough_for_Q_ratios_if_alpha_is_free
+  nontriviality: passes_for_relative_weights
+  reason: Tau ratios survive global scale choices
+
+full_lorentzian_metric:
+  verdict: used_but_externally_supplied
+  nontriviality: passes
+  reason: Q is represented by metric proper time
+
+action_principle:
+  verdict: not_earned
+  reason: arbitrary distinct curves between the same endpoints are not generally on-shell for a fixed free action
+
+noether_poincare_machinery:
+  verdict: not_earned
+  reason: requires Minkowski or symmetric target, Poincare-invariant action, regular variational theory, and conserved currents
+```
+
+The run can honestly terminate at:
+
+```text
+metric-sensitive representational Lorentzian history functor
+```
+
+It cannot claim:
+
+```text
+Temporal Issuance derives Lorentzian geometry, action, mass, or E = mc^2.
+```
+
+## 7. Metric Dependency Verdict
+
+The metric enters in exactly one place:
+
+```text
+Tau(gamma) = integral sqrt(g(gammadot, gammadot)) / c
+```
+
+Therefore:
+
+```yaml
+is_g_supplied_externally: true
+is_g_reconstructed_from_TI_Ext: false
+causal_order_reconstructed: false
+conformal_structure_reconstructed: false
+metric_scale_reconstructed: false
+full_metric_reconstructed: false
+```
+
+Temporal Issuance supplies, at most, a source weight `Q`. The Lorentzian target supplies the geometry that makes `Q` look like proper time.
+
+## 8. Action And Noether Boundary
+
+One can add a particle-like action:
+
+```text
+A(gamma) = -m c^2 Tau(gamma)
+```
+
+But this does not by itself complete the RUN-0026 theorem.
+
+Reasons:
+
+- `m` is externally supplied or identified with another source invariant.
+- Arbitrary curves with different proper times between the same endpoints are usually not all on-shell for the same free-particle action.
+- If the target is restricted to on-shell geodesics in a convex region, the same-endpoint parallel-curve witness may collapse.
+- Poincare conservation requires a symmetric target and action, not just a curve category.
+
+The action/Noether bridge can be recovered only under extra assumptions:
+
+```yaml
+target: Minkowski spacetime or appropriate symmetric control regime
+histories: on-shell for a stated Poincare-invariant action
+source_invariant: maps to a physical action parameter or boundary sector
+regularity: Noether hypotheses hold
+```
+
+Those assumptions are outside the minimal construction.
+
+## 9. GU Compatibility Verdict
+
+```yaml
+verdict: GU_unneeded
+```
+
+The ordinary Lorentzian construction does not require GU. It uses:
+
+- a weighted extension category
+- an externally supplied Lorentzian manifold
+- metric-sensitive curve histories
+
+GU becomes relevant only as specification discipline if a future run tries to explain where `(M, g)`, the source weight `Q`, or the action principle comes from.
+
+Possible future GU relevance:
+
+```yaml
+GU_compatible: yes_as_context
+GU_suggestive: only_if_Q_requires_observer_or_field_bundle_geometry
+GU_unneeded: yes_for_this_minimal_F
+GU_blocked: no_specific_block_found
+```
+
+No observerse-style target is forced by this construction.
+
+## 10. Absorber Comparison
+
+| Absorber | Result |
+| --- | --- |
+| Weighted transition systems | Absorb the source category: `Q` is a transition weight. |
+| Path categories | Absorb the functor: `F` is a path realization of a weighted graph. |
+| Proof theory / computation | Absorb if `Q` is proof length, rewrite cost, or execution cost. |
+| Constructor / resource theory | Absorb if `Q` is a resource monotone or cost. |
+| Thermodynamics | Absorb if `Q` is entropy production, free-energy cost, or irreversibility. |
+| Information theory | Absorb if `Q` is information gain, loss, surprise, or code length. |
+| Variational mechanics | Absorb if `Q` is action or proper time imported from physics. |
+| Time as Finality | Absorbs if `Q` is record cadence, access lag, or readout persistence. |
+| NULL-SURVIVOR | Still wins against a physical substrate claim because `Q` has no independent source origin yet. |
+
+## 11. Necessary Conditions For A Load-Bearing F
+
+A future functor is more than bookkeeping only if all of the following are supplied:
+
+```yaml
+source_invariant:
+  requirement: I(e1) != I(e2) for same-order extensions
+  not_enough: a freely assigned label
+
+target_invariant:
+  requirement: J(F(e1)) != J(F(e2))
+  not_enough: endpoint causal order
+
+preservation_law:
+  requirement: J(F(e)) = rho(I(e)) or an explicit weaker relation
+  not_enough: arbitrary curve choice after the fact
+
+quotient_stability:
+  requirement: the distinction survives source and target equivalence
+  not_enough: labels killed by gauge or endpoint quotient
+
+absorber_separation:
+  requirement: I is not only cost, action, entropy, information, proof length, or resource accounting
+  not_enough: calling a known weight "issuance"
+
+physical_upgrade:
+  requirement: an action, symmetry, and Noether map if energy-momentum is claimed
+  not_enough: metric length alone
+```
+
+## 12. Five-Reviewer Synthesis
+
+### Reviewer 1: Category Theorist
+
+The construction is functorial because the source is a free weighted category and the target is a Moore path category. The true primitive is not `<=_S`; it is a weighted morphism category. If the weight is removed, the functor becomes thin reachability bookkeeping.
+
+Verdict:
+
+```text
+Functorial, but the added weight is the real structure.
+```
+
+### Reviewer 2: Lorentzian Geometer
+
+The target deserves to be called Lorentzian only when it remembers `g` through proper time or causal cones. The nontriviality witness requires metric length, not just causal order. Conformal structure is too weak for the chosen invariant.
+
+Verdict:
+
+```text
+Metric-sensitive realization succeeds; causal-only realization does not.
+```
+
+### Reviewer 3: Relativity Physicist
+
+Proper time is kinematic. It is not energy. An action can be written, but on-shell dynamics, Poincare symmetry, and Noether currents are extra physical assumptions.
+
+Verdict:
+
+```text
+Enough for a kinematic control model, not enough for energy-momentum.
+```
+
+### Reviewer 4: GU Specialist / Skeptic
+
+GU is not needed for the construction. If GU enters now, it would mostly decorate a weighted path model. GU may help later only if it supplies a disciplined account of the external metric, observer geometry, or action sector.
+
+Verdict:
+
+```text
+GU-compatible but not GU-evidential.
+```
+
+### Reviewer 5: Philosophy Of Science Reviewer
+
+The run earns a useful distinction: existence of a nontrivial representation is weaker than a load-bearing bridge. The project would fool itself if it treated a chosen source weight as an explanation of spacetime.
+
+Verdict:
+
+```text
+Constructed model is a control, not confirmation.
+```
+
+## 13. Final Classification
+
+### Proven
+
+- A finite weighted extension category with parallel same-endpoint morphisms has the same induced order but different morphism invariant `Q`.
+- A strict functor from that category to a metric-sensitive Lorentzian Moore-curve category can preserve `Q` as proper time, provided suitable target curves are chosen.
+- Forgetting to causal preorder collapses the nontrivial witness.
+
+### Formalized
+
+- Nontrivial Lorentzian realization requires a source invariant, a target invariant, a preservation relation, and quotient stability.
+- The earned structure ladder separates causal preservation from metric-sensitive nontriviality.
+
+### Speculative
+
+- That the source weight `Q` is a Temporal Issuance primitive rather than cost, action, entropy, proof length, information, or resource accounting.
+- That the functor is natural, canonical, unique, or physically real.
+- That a future action/Noether/Poincare extension is available without importing ordinary physics.
+
+### Refuted
+
+The following path should be killed:
+
+```text
+existence of a nontrivial Lorentzian realization functor alone
+-> physical GU/mass-energy bridge
+```
+
+The functor can exist as a representational embedding while doing no substrate work.
+
+### Most Promising Route
+
+The next exact theorem or counterexample should target the source invariant:
+
+```text
+Can Q be defined from admissible source extension without being proper time,
+action, cost, entropy, information, proof length, or resource accounting?
+```
+
+If yes, rerun the functor test with `Q` fixed before choosing `(M, g)`.
+
+If no, archive the physical bridge as a useful Lorentzian control case and keep `Ext_S` only as a formal weighted-category abstraction.
+
+### Most Dangerous Failure Mode
+
+The project may confuse:
+
+```text
+representability in Lorentzian geometry
+```
+
+with:
+
+```text
+derivation of Lorentzian geometry or energy-momentum from Temporal Issuance
+```
+
+RUN-0028 earns only the first.

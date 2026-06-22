@@ -77,14 +77,14 @@ Tasks:
 
 ## Phase 2: Formal Object Pressure
 
-Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, decomposed by RUN-0021, steelmanned by RUN-0022, reduced by RUN-0024 to a minimal `Ext_S` specification/no-go target, sharpened by RUN-0025 with category-level extension/invariant theorems plus a GU/mass-energy guardrail, advanced by RUN-0026 to the conditional realization-functor target `F: ExtCat -> LorHist(M, eta, A)`, and tightened by RUN-0027 to the minimal nontrivial `F` test.
+Status: active, narrowed by RUN-0019, convergence-checked by RUN-0020, decomposed by RUN-0021, steelmanned by RUN-0022, reduced by RUN-0024 to a minimal `Ext_S` specification/no-go target, sharpened by RUN-0025 with category-level extension/invariant theorems plus a GU/mass-energy guardrail, advanced by RUN-0026 to the conditional realization-functor target `F: ExtCat -> LorHist(M, eta, A)`, tightened by RUN-0027 to the minimal nontrivial `F` test, and bounded by RUN-0028 to a weighted-category control model.
 
 Tasks:
 
 - run W002 against `IssuanceSystem`: complete in `agent-runs/RUN-0012-w002-component-pressure-pass.md`
 - define components without circular time assumptions: active, now split across `C`, killed independent `<=_S`, and live-but-unproven `Ext_S`
 - identify collapse risks: active, with time-as-finality readout absorption recorded in `RUN-0019`
-- produce revised object or kill the object: pending minimal nontrivial `F` construction/refutation after RUN-0024 killed bare source order, RUN-0025 killed direct generic-invariant-to-`E = mc^2`, RUN-0026 made realization functor `F` the legitimate positive target, and RUN-0027 required `F` to preserve source-side structure beyond induced order
+- produce revised object or kill the object: pending source-invariant audit after RUN-0028 constructed a weighted-category `F` but found that the required weight `Q` remains absorber-threatened and externally stipulated
 
 ## Phase 3: Testable Claims
 
@@ -142,7 +142,7 @@ Tasks:
 - run fixture-based ontology and survivor competition before accepting the source-order residue: complete in `agent-runs/RUN-0024-ontology-survivor-competition.md` and `explorations/E006-ontology-survivor-competition-results.md`
 - kill bare `<=_S` as an independent source-side primitive: complete in `RUN-0024`
 - run source-order absorption discriminator against `<=_S` and `Ext_S` if source order remains leading after ontology competition: superseded; source order is not leading unless a future `Ext_S` model resurrects it as a derived invariant
-- run minimal `Ext_S` specification and no-go pass against `NULL-SURVIVOR`: next
+- run minimal `Ext_S` specification and no-go pass against `NULL-SURVIVOR`: partially complete through RUN-0028; next step is source-invariant audit for `Q`
 
 ## Phase 1F: Cross-Program Bridge Guardrails
 
@@ -155,5 +155,6 @@ Tasks:
 - kill direct bridge from generic extension invariants to `E = mc^2`: complete in `memory/path-kills.md`
 - formalize conditional Lorentzian realization theorem: complete in `agent-runs/RUN-0026-conditional-lorentzian-realization-theorem.md` and `explorations/E008-conditional-lorentzian-realization-theorem.md`
 - tighten next realization-functor goal around minimal nontriviality, earned-structure ladder, external metric assumption, failure-as-success, and GU discipline: complete in `agent-runs/RUN-0027-tighten-realization-functor-goal.md`
+- construct/refute minimal nontrivial realization functor: bounded constructive result complete in `agent-runs/RUN-0028-minimal-nontrivial-lorentzian-realization.md` and `explorations/E009-minimal-nontrivial-lorentzian-realization.md`
 - if the bridge is revisited, require explicit Lorentzian/Poincare/Noether premises rather than invariant-language transfer
-- next bridge test: construct or refute minimal nontrivial `F: ExtCat -> LorHist`, starting with externally supplied `(M, g)`
+- next bridge test: audit whether the source weight `Q` required by `F` can be defined before choosing LorHist; if not, archive the GU/mass-energy bridge as a speculative Lorentzian control case

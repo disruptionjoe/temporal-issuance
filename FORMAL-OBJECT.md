@@ -101,7 +101,7 @@ The fixture-based competition in `explorations/E006-ontology-survivor-competitio
 | `<=_S` | killed as independent source-side primitive | Preserve only as a derived invariant or shadow of a successful extension rule. |
 | `Ext_S` | formalizing next test target | Must be specified with a typed carrier, projection map, quotient, witness or invariant, transformation consequence, absorber comparison, and kill condition. |
 
-The next formal pass should not defend source order first. It should attempt a minimal `Ext_S` specification and no-go. If that cannot beat transition-system, proof, computation, constructor/resource, thermodynamic, information-theoretic, and time-as-finality absorption, the remaining source-side formal object should route to `NULL-SURVIVOR`.
+The next formal pass after RUN-0024 should not defend source order first. RUN-0028 attempted the minimal realization branch and showed that a nontrivial `F` requires a weight `Q`. The remaining `Ext_S` no-go now turns on whether `Q` can be source-defined rather than absorbed by transition-system, proof, computation, constructor/resource, thermodynamic, information-theoretic, variational, or time-as-finality accounting.
 
 RUN-0025 category-first correction:
 
@@ -122,13 +122,30 @@ If identities and composition are present, this relation is a preorder. It becom
 
 RUN-0026 conditional Lorentzian realization target:
 
-If the source-extension object tries to touch mass-energy, the next formal object is not `E = mc^2`. The next formal object is a realization functor:
+If the source-extension object tries to touch mass-energy, the formal object is not `E = mc^2`. RUN-0026 made the next object a realization functor:
 
 ```text
 F: ExtCat -> LorHist(M, eta, A)
 ```
 
 where `LorHist(M, eta, A)` is a category of Lorentzian histories with action `A`. The functor must preserve extension composition as history composition. If `A` is Poincare-invariant and Noether currents exist, ordinary relativistic energy-momentum follows for timelike realized extensions. This is a conditional theorem target, not a substrate claim.
+
+RUN-0028 minimal realization result:
+
+A minimal nontrivial realization functor can be constructed only after adding a morphism-level source invariant:
+
+```text
+Q: Mor(ExtCat) -> ([0, infinity), +)
+```
+
+The toy target is metric-sensitive Lorentzian history:
+
+```text
+F: TI_Ext^Q -> LorHist_g(M)
+Tau(F(e)) = alpha Q(e)
+```
+
+This preserves same-order/different-extension distinctions when `LorHist_g(M)` remembers proper time. It fails if the target is reduced to causal preorder alone. The result is a kinematic control model, not a physical bridge: `Q`, `(M, g)`, action, Poincare symmetry, and Noether machinery are not derived.
 
 ## Component Pressures
 

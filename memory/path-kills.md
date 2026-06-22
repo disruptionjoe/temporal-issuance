@@ -93,3 +93,19 @@ claim_refs:
   - TI-C007
   - TI-C009
 ```
+
+## RUN-0028
+
+```yaml
+path: Existence of a nontrivial Lorentzian realization functor as sufficient evidence for a physical GU or mass-energy bridge
+reason_killed: RUN-0028 constructs a minimal nontrivial functor only by adding a source weight Q and mapping it into an externally supplied metric-sensitive Lorentzian target. The construction preserves a morphism distinction, but it does not derive the metric, action, Poincare symmetry, Noether current, energy-momentum, mass, or E = mc^2.
+evidence: `explorations/E009-minimal-nontrivial-lorentzian-realization.md` and `agent-runs/RUN-0028-minimal-nontrivial-lorentzian-realization.md`.
+local_minimum_risk: A future Ext_S model could still define Q independently of proper time, action, cost, entropy, information, proof length, or resource accounting, and then use a Lorentzian realization as a legitimate control case.
+possible_future_resurrection_trigger: A source-side derivation of Q plus a functor to Lorentzian histories that preserves Q under quotient, supplies or derives an action principle, and satisfies Poincare/Noether hypotheses without merely relabeling ordinary relativity.
+run_ref: RUN-0028
+claim_refs:
+  - TI-C007
+  - TI-C009
+  - TI-C010
+  - TI-C011
+```
