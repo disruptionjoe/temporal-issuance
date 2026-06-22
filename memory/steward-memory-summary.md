@@ -251,6 +251,38 @@ Next required test: PP-3 bounded accessibility source/projection model. Define a
 `S_infty` and projection layer `S_n`; test whether D4 events can occur in the projection
 without source expansion.
 
+## Anti-Collapse Steelman Pass (post-RUN-0045, non-run)
+
+21-persona steelman Hegelian workflow (14 steelman + 7 hostile pressure + synthesis) on the
+hypothesis: issuance = whatever prevents shared observer-participatory reality from collapsing.
+
+Verdict: `add_as_companion_claim`. 0 genuinely_deeper, 18 partially_deeper, 2 semantic_relabeling,
+1 kills_the_framing.
+
+**DO NOT reframe TI-C019 with anti-collapse language.** D4 is more precise and parsimonious;
+anti-collapse is the contrapositive of D4 (formally co-extensive, not deeper).
+
+One formal addition: the trajectory-level non-eventually-constant condition — `(∀N*)(∃n > N*)[S_{n+1} ⊃ S_n]`
+— is a new property naming (predicate on sequences, not individual events) but not new formal content.
+
+12 collapse modes reduce to 4 genuinely distinct:
+- Schema fixed-point (mode 10): primary target; modes 1-6 all reduce here.
+- Synchronization collapse (mode 9): dual of consensus goal — new vocabulary for TI-C019.
+- Bounded accessibility collapse (mode 12): = PP-3 restated in collapse language.
+- Record collapse (mode 11): partially distinct, targets H_n specifically.
+
+Kills the framing: Anthropomorphic Projection Auditor — modes 6/7 import adaptation/agency;
+"preventing collapse" is teleological without grounding.
+
+Two surviving non-trivial additions:
+1. Gödelian mechanism: self-referential OnlineSchemaSys generates undecidability that forces
+   schema growth — sharpest non-circular mechanism; requires expressive threshold test.
+2. Quorum legitimacy condition for AC-8: D4 events must propagate to threshold of observers
+   to count as genuine shared schema extension (vs. local hallucination or private novelty).
+
+Anti-collapse framing inherits PP-3 ambiguity from D4. PP-3 two-layer source/projection model
+remains the recommended primary next move. See E028.
+
 ## DS-Architect Intake (post-RUN-0043, non-run)
 
 Three external agent notes from a distributed-systems architect / MMO persona were

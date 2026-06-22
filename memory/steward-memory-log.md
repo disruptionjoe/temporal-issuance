@@ -1012,6 +1012,24 @@ Fixture required: exhibit one physical measurement event where the observable al
 New exploration: E025-qm-bridge-fixture-requirement.md. TI-C020 updated with QM bridge fixture path.
 Files changed: `explorations/E025-qm-bridge-fixture-requirement.md`, `explorations/E026-bounded-accessibility-vs-issuance.md`, `CLAIM-LEDGER.md` (TI-C019 PP-3 + refs, TI-C020 E025 ref), `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
 
+## ANTI-COLLAPSE-STEELMAN-PASS
+
+Timestamp: 2026-06-22
+Trigger: joe_request_steelman_hegelian_workflow (note: "Anti-Collapse Hypothesis Review and Divergent Steelman Pass")
+Workflow: 21-persona steelman Hegelian workflow pass (14 steelman + 7 hostile pressure + synthesis)
+Agent / subagents used: Workflow tool, 22 agents total (14 steelman + 7 pressure + 1 synthesis).
+Hypothesis: Is issuance best understood as whatever prevents shared observer-participatory reality from collapsing into a terminal, closed, exhausted, or non-generative state?
+Verdict: add_as_companion_claim. 0 genuinely_deeper, 18 partially_deeper, 2 semantic_relabeling, 0 absorbed, 1 kills_the_framing.
+Key finding: Anti-collapse is formally co-extensive with D4 non-termination (contrapositive), not more fundamental. The framing should NOT reframe TI-C019. D4 is more precise and parsimonious; anti-collapse imports teleological language the formalism has not earned.
+One formal addition: the trajectory-level non-eventually-constant condition — (∀N* ∈ N)(∃n > N*)[S_{n+1} ⊃ S_n] — is formally distinct from D4 (predicate on individual events) because it is a property of the full sequence. This is new naming, not new formal content.
+12 collapse modes reduce to 4 genuinely distinct: (1) schema fixed-point (modes 1-6 and 10 all = this); (2) synchronization collapse (mode 9, dual of consensus goal); (3) bounded accessibility collapse (mode 12, = PP-3 restated); (4) record collapse (mode 11, partially distinct).
+kills_the_framing: Anthropomorphic Projection Auditor — modes 6 and 7 import adaptation and rational agency without grounding; "preventing collapse" is teleological; formalism-safe content is already in the morphism-level non-embedding result.
+semantic_relabeling: hostile TI steward + formal mathematician — anti-collapse is contrapositive of D4 inside OnlineSchemaSys.
+Surviving additions: (a) Gödelian mechanism: self-referential OnlineSchemaSys forces schema growth via Gödelian undecidability — sharpest non-circular mechanism, but requires expressive threshold not yet established; (b) synchronization collapse as dual-of-consensus is a new vocabulary for TI-C019; (c) quorum legitimacy condition for AC-8 (D4 events must propagate to threshold of observers to count as genuine shared schema extension).
+Recommended next move: PP-3 two-layer source/projection model (E026, E027) — highest-learning move; anti-collapse ambiguity inherits from D4 ambiguity; PP-3 determines whether the non-eventually-constant condition applies to the source or only to the observer's projection.
+New exploration: E028-anti-collapse-hypothesis.md. TI-C019 Next Action updated (quorum legitimacy + E028 ref). No status changes.
+Files changed: `explorations/E028-anti-collapse-hypothesis.md`, `CLAIM-LEDGER.md` (TI-C019 evidence refs + next action), `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
 ## RUN-0045
 
 Timestamp: 2026-06-22
