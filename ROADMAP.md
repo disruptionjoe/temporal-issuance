@@ -70,9 +70,9 @@ Status: next.
 Tasks:
 
 - add minimal VSM readiness instrumentation: complete in `agent-runs/RUN-0007-vsm-readiness-pass.md`
-- run `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005` through W000: in progress, `SIM-VSM-RUN-001` through `SIM-VSM-RUN-004` complete
+- run `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005` through W000: complete
 - update metrics and closeout state on each simulated run
-- invoke W004 after the five runs
+- invoke W004 after the five runs: next
 - return to W003 absorber mapping unless the simulation reveals a serious viability issue
 
 ## Phase 2: Formal Object Pressure

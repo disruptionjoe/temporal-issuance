@@ -34,3 +34,11 @@ Export candidates:
 - Observation-only steward metrics for launch drift detection.
 - W004 as an invoked stewardship assessment, not a fixed ritual cadence.
 - Next-trigger plans as inspectable priority memory.
+
+## SIM-VSM-RUN-005 Governance Export Candidates
+
+- Minimal VSM map as readiness lens rather than full operating manual.
+- Run closeout checklist as lightweight System 3 control.
+- System 3* audit pass before final simulation handoff.
+- Explicit distinction between prior simulation IDs and corrective stress-test IDs.
+- Component pressure matrix as a bridge from governance readiness to research pressure.
