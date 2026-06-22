@@ -1061,3 +1061,35 @@ Files changed: `explorations/E027-hott-constructive-vdf-online-constructibility.
 `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`,
 `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
 `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0046
+
+Timestamp: 2026-06-22
+Trigger: scheduled_hourly_trigger
+Workflow: W000 -> bounded_accessibility_source_projection_model
+Agent / subagents used: Repo Steward.
+Current strongest version: TI-C019 remains coherent as a source-side witness claim: the shared
+process is not merely fixed richer structure disclosed through widening observer apertures, but
+genuinely extends source schema or source generator space.
+Current strongest objection: A fixed richer source `Mu_infty` plus expanding access apertures
+`P_n` can reproduce projection-layer D4 and NAA without source schema expansion. Any finite D4
+trace can be represented as bounded disclosure from the union of exposed schemas.
+What collapsed: D4 projection-level events as sufficient evidence for source-side issuance;
+soft DNN/grokking readings as support for issuance; commons language for possibility
+availability as a rivalrous resource.
+What survived: D4 as projection/process novelty, NAA as an access/process boundary, TI-C019
+as formalizing but narrowed to a source-side witness requirement.
+What was absorbed: Online observed latent-type appearance by fixed-source/hyperprior models;
+Bayesian nonparametrics added as a named absorber.
+What was clarified: The OnlineSchemaSys-to-MetaCloSys non-embedding is an observer-access fact
+unless the source itself is shown to be an OnlineSchemaSys. Sheaf/holonomy witnesses must
+distinguish source-side compatibility from projection inconsistency.
+What was promoted: None.
+New blockers: No source-side witness has survived the fixed-source aperture absorber yet.
+Recommended next run: W000 -> source_side_witness_fixture.
+Files changed: `explorations/E029-bounded-accessibility-source-projection-model.md`,
+`agent-runs/RUN-0046-bounded-accessibility-source-projection-model.md`,
+`absorbers/bayesian-nonparametrics.md`, `absorbers/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`,
+`agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`,
+`memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
+`agent-governance/STEWARD-METRICS.md`.

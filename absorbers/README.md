@@ -23,4 +23,7 @@ See `absorbers/gap-map.md` for the current minimum absorber gaps that matter bef
 
 See `absorbers/primary-source-readiness.md` for source anchors and source gaps before claim upgrades or component kills.
 
+See `absorbers/bayesian-nonparametrics.md` for the PP-3 absorber where new observed latent
+types arise from a fixed hyperprior or process class.
+
 See `agent-governance/CROSS-REPO-CONTEXT-PROTOCOL.md` for how to use time-as-finality and GU formalization as prior-thinking context without merging claims.

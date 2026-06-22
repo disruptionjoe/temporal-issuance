@@ -1025,6 +1025,33 @@ notes: >
   Next trigger moves to bounded-accessibility source/projection model.
 ```
 
+```yaml
+run_id: RUN-0046
+workflow_used: W000 -> bounded_accessibility_source_projection_model
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C019_narrowed_to_source_witness_requirement, TI-C020_pressured]
+path_killed: true
+  path: D4_projection_level_events_as_sufficient_evidence_for_source_side_issuance
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E029-bounded-accessibility-source-projection-model, RUN-0046-bounded-accessibility-source-projection-model, absorbers/bayesian-nonparametrics]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  PP-3 source/projection fixture completed. Static richer source plus expanding access
+  apertures can produce projection D4 and NAA without source expansion. D4 remains useful as
+  projection/process novelty but no longer counts as source-side issuance evidence without a
+  source witness. Processed pending intake clearing actions: rivalrousness split, DNN/grokking
+  correction, and IBP/CRP absorber logging.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

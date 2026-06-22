@@ -277,6 +277,34 @@ claim_refs:
   - TI-C019
 ```
 
+## RUN-0046
+
+```yaml
+path: D4 projection-level events as sufficient evidence for source-side issuance
+reason_killed: >
+  RUN-0046 constructed a two-layer source/projection fixture in which a static richer source
+  `Mu_infty` plus expanding access apertures `P_n` produces projection-layer D4 events and
+  NAA without any source schema expansion. For any finite trace `S_0 subset ... subset S_k`,
+  a fixed source can be chosen as the union of exposed schemas with apertures revealing
+  exactly the observed prefixes. Therefore a D4 event in an observer-accessible schema does
+  not by itself distinguish genuine source-side type creation from schema disclosure.
+evidence: `explorations/E029-bounded-accessibility-source-projection-model.md` and `agent-runs/RUN-0046-bounded-accessibility-source-projection-model.md`.
+local_minimum_risk: >
+  Medium-high. Killing D4-as-source-evidence must not kill D4 as a projection/process
+  discriminator or OnlineSchemaSys as a formal object. A source-side witness may still survive
+  if it cannot be represented by fixed-source aperture disclosure while preserving
+  admissibility, morphisms, and records.
+possible_future_resurrection_trigger: >
+  A source-side witness fixture showing that AC-8 quorum schema negotiation, source-supplied
+  sheaf/holonomy compatibility, Assembly Theory schema-relative undefinedness, or a physical
+  observable-algebra expansion cannot be represented as bounded access to a fixed richer
+  source or fixed hyperprior.
+run_ref: RUN-0046
+claim_refs:
+  - TI-C019
+  - TI-C020
+```
+
 ```yaml
 path: NAA requires VDF-style sequential computation
 reason_killed: >

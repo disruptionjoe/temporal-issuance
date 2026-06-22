@@ -3,13 +3,87 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0045
-intake_pending: 2026-06-22-external-three-lens-steelman-intake.md
+updated_by_run: RUN-0046
+intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## Intake Pending — Read Before Next Run
+## Source Witness Needed (RUN-0046)
+
+RUN-0046 completed the PP-3 bounded-accessibility source/projection model and processed the
+external three-lens intake clearing actions.
+
+Verdict:
+
+- A fixed richer source `Mu_infty` plus expanding access apertures `P_n` can produce
+  projection-layer D4 and NAA without source schema expansion.
+- D4 projection events are not sufficient evidence for source-side issuance.
+- The OnlineSchemaSys-to-MetaCloSys non-embedding remains a formal availability/access fact;
+  it is a source fact only if the source itself is shown to be an OnlineSchemaSys.
+- Grokking/emergent DNN capability is an absorber for the soft D4 reading, not support for
+  source-side issuance.
+- Bayesian nonparametrics (IBP/CRP-style fixed hyperprior with new observed latent types) is
+  now logged as an absorber.
+- Possibility availability is non-rival unless a source-side rivalrous resource is specified;
+  commons language is blocked there and allowed only for finality/legitimacy layers if earned.
+
+Primary next trigger:
+
+```text
+W000 -> source_side_witness_fixture
+```
+
+Required:
+
+1. Choose one candidate witness class: AC-8 quorum/adversary model, sheaf/holonomy with
+   source-side compatibility predicate, or grokking-vs-self-play.
+2. Define the fixed-source aperture absorber for that candidate.
+3. Test whether the candidate can be represented as bounded access to a fixed richer source
+   while preserving admissibility, morphisms, records, and observer legitimacy.
+4. If absorbed, narrow TI-C019 further to observer/process constructibility.
+5. If not absorbed, state the exact source-side invariant or obstruction and update claim state
+   conservatively.
+
+Success condition: a witness survives fixed-source aperture representation.
+
+Failure condition: the candidate reduces to projection disclosure; record the absorption and
+do not treat it as source-side issuance evidence.
+
+Secondary next trigger:
+
+```text
+W000 -> assembly_theory_D4_operationalization_with_source_projection_split
+```
+
+Run only after preserving the RUN-0046 distinction between source schema and projection schema.
+
+Tertiary next trigger:
+
+```text
+W000 -> AC8_formal_model_with_quorum_legitimacy_and_adversarial_case
+```
+
+This is also the strongest candidate primary witness if the steward chooses AC-8 as the next
+source-side test.
+
+Quaternary:
+
+```text
+W000 -> grokking_vs_self_play_projection_source_fixture
+```
+
+Use as the cheapest empirical proxy for fixed-source disclosure vs endogenous source change.
+
+## Processed Intake (RUN-0046)
+
+External three-lens steelman (Shapley/Ostrom + DNN/math-stats) logged in
+`memory/daily-review/2026-06-22-external-three-lens-steelman-intake.md` was processed by
+RUN-0046. No claim promotion was earned. Discipline flags carry forward: source-side issuance
+is unearned, cross-lens agreement is a crux signal rather than confirmation, and strongest
+steelman means hardest passable test rather than most flattering interpretation.
+
+## Preserved Intake Text (Processed By RUN-0046)
 
 External three-lens steelman (Shapley/Ostrom + DNN/math-stats) logged in
 `memory/daily-review/2026-06-22-external-three-lens-steelman-intake.md`.

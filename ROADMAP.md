@@ -113,11 +113,22 @@ future-schema oracle. VDF-style sequential computation is sufficient for no-anti
 necessary. The remaining hard question is PP-3: whether D4/OnlineSchemaSys detects source-side
 issuance or bounded-access schema disclosure from a richer non-expanding source.
 
-Open tasks (updated after RUN-0045):
+RUN-0046 completed the PP-3 bounded-accessibility source/projection model. Result: the
+projection absorber succeeds against D4-as-source-evidence. A fixed richer source
+`Mu_infty` plus expanding access apertures `P_n` can produce projection-layer D4 and NAA
+without source schema expansion. The finite-trace discriminator was not found. TI-C019 is not
+killed, but it is narrowed: D4/OnlineSchemaSys is a formal projection/process object until a
+source-side witness is supplied. TI-C020 is more pressured. Bayesian nonparametrics (IBP/CRP
+style fixed-hyperprior type appearance) was added as a named absorber. Possibility
+availability is treated as non-rival; commons language is blocked there and allowed only for
+finalization/legitimacy layers if later earned.
 
-- PP-3 bounded accessibility source/projection model (new critical path): define source layer
-  `S_infty` and projection layer `S_n`; test whether projection-layer D4 can occur without
-  source expansion; state a positive witness for source-side issuance.
+Open tasks (updated after RUN-0046):
+
+- Source-side witness fixture (new critical path): prove or refute that a candidate D4 event
+  cannot be represented as bounded access to a fixed richer source while preserving
+  admissibility, morphisms, and records. Candidate routes: AC-8 quorum/adversary model,
+  sheaf/holonomy with source-side compatibility predicate, or grokking-vs-self-play.
 - B2 Assembly Theory D4 operationalization: define assembly-complexity-undefined-relative-to-
   prior-schema precisely, separately for source layer and projection layer; connect to
   empirical assembly index measurements only after the layer split is explicit.
@@ -129,13 +140,11 @@ Open tasks (updated after RUN-0045):
 - Cech/sheaf fixture cross-linked to D4 (deferred): only after C-typed admissibility specifies
   the sheaf or compatibility predicate; generic Cech witnesses are AB-absorbed.
 
-Kill/absorb condition (active): if `OnlineSchemaSys` is a standard Grothendieck fibration
-with no online constructibility surplus, archive TI-C019 and route to formal-residue
-documentation. RUN-0044 found a surplus and RUN-0045 partially absorbed that surplus into
-ordinary constructive context discipline. The next kill condition is narrower: if all D4
-events can be modeled as projection-relative novelty from a non-expanding richer source,
-narrow TI-C019 to observer/process constructibility and stop treating D4 as evidence for
-source-side issuance.
+Kill/absorb condition (active): RUN-0046 found that projection-layer D4 can occur without
+source expansion. Therefore the active kill condition is now witness-specific: if every
+candidate source-side witness reduces to fixed-source aperture disclosure, narrow TI-C019 to
+observer/process constructibility and stop treating source-side issuance as the active
+research target until new evidence appears.
 
 ## Phase 0: Launch Coherence
 

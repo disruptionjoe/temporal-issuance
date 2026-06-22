@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0045
+last_summarized_run: RUN-0046
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: D4_survives_only_as_online_non_anticipatory_class_relative_discriminator
 bare_Ext_S_derives_connection: no
-next_required_test: bounded_accessibility_source_vs_projection_model
+next_required_test: source_side_witness_fixture
 ```
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
@@ -251,6 +251,36 @@ Next required test: PP-3 bounded accessibility source/projection model. Define a
 `S_infty` and projection layer `S_n`; test whether D4 events can occur in the projection
 without source expansion.
 
+## Source / Projection Result (RUN-0046)
+
+RUN-0046 resolved PP-3 against D4-as-source-evidence.
+
+Absorbed:
+- Projection-layer D4 as sufficient evidence for source-side issuance.
+- Soft DNN/grokking readings as support for issuance; grokking is better treated as fixed-source
+  disclosure to a bounded learner.
+- Online appearance of new latent types from fixed hyperpriors/process classes; Bayesian
+  nonparametrics is now a named absorber.
+
+Survived:
+- D4 as projection/process novelty inside `OnlineSchemaSys`.
+- NAA as an access/process boundary.
+- TI-C019 as formalizing, narrowed to a source-side witness requirement.
+
+Key construction: a static richer source `Mu_infty` plus access apertures `P_n` can produce
+`S_{n+1} \ S_n` D4 events and NAA at the projection layer without source schema expansion. For
+any finite projection trace, the fixed source can be chosen as the union of exposed schemas.
+
+Claim effect: TI-C019 remains formalizing but narrowed. TI-C020 remains speculative and is
+more pressured. The active burden is now to find a witness that cannot be represented as
+bounded access to a fixed richer source while preserving admissibility, morphisms, and records.
+
+Processed intake decisions:
+- Possibility availability is non-rival; commons language is blocked at that layer.
+- Commons/finality language may later apply to record commitment or legitimacy if earned.
+- Sheaf/holonomy obstruction is B1/TI-C017-adjacent and must carry a source-side compatibility
+  predicate before it can count as source issuance evidence.
+
 ## Anti-Collapse Steelman Pass (post-RUN-0045, non-run)
 
 21-persona steelman Hegelian workflow (14 steelman + 7 hostile pressure + synthesis) on the
@@ -361,12 +391,12 @@ Bekenstein). No claim statuses changed.
 
 ## Next Run
 
-Current RUN-0045 route:
+Current RUN-0046 route:
 
-Primary: bounded accessibility source/projection model. Define source layer `S_infty` and
-projection layer `S_n`; test whether D4 events can occur in projection without source
-expansion, whether NAA follows from projection limits alone, and whether the
-OnlineSchemaSys-to-MetaCloSys non-embedding is a source fact or observer-access fact.
+Primary: source-side witness fixture. Choose AC-8 quorum/adversary, sheaf/holonomy with
+source-side compatibility predicate, or grokking-vs-self-play. Define the fixed-source
+aperture absorber for the candidate and test whether the candidate survives as source-side
+issuance rather than projection disclosure.
 
 Secondary: Assembly Theory D4 operationalization (B2), but with the source/projection split
 explicit. Define schema-relative assembly index separately for source layer and projection
@@ -374,7 +404,11 @@ layer.
 
 Tertiary: AC-8 formal model - concrete `OnlineSchemaSys` with two observers in interactive
 schema negotiation, including incompatible schema proposals, fork-choice analog, and
-authority/legitimacy condition.
+authority/legitimacy condition. This is also the strongest source-witness candidate if chosen
+as the primary fixture.
+
+Quaternary: grokking-vs-self-play as the cheap empirical proxy for projection disclosure vs
+endogenous source change.
 
 Deferred: Cech/sheaf fixture. Do not run it as novelty until C-typed admissibility supplies
 the sheaf or compatibility predicate; otherwise AB absorbs the generic witness.
