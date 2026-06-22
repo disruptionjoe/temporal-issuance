@@ -36,7 +36,7 @@ commit_pushed:
 
 ## Use Rules
 
-- Use this checklist at closeout for W000 cycles and simulated W000 cycles.
+- Use this checklist at closeout for W000 cycles, including manual accelerated thin-trigger runs.
 - Do not treat every unchecked item as failure. Some items may be not applicable.
 - If an item is skipped, record the reason in the run record.
 - If the checklist itself creates noise, revise it through the governance-change ledger.

@@ -3,18 +3,18 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0008
+updated_by_run: RUN-0009
 ---
 
 # Next Trigger Plan
 
 ## Current Recommendation
 
-Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run W003: Absorber Map.
+Invoke W000: Repo Steward Cycle. Current W000 recommendation is to run five real manual accelerated thin-trigger cycles, starting with W003 absorber mapping.
 
 ## Why
 
-RUN-0008 found no serious viability issue in the VSM-aware five-run stress sequence. The next highest-learning move is to return to W003 absorber mapping, focused by `absorbers/gap-map.md`.
+RUN-0009 clarified that prior `SIM-*` runs were real repo runs with misleading names. Future accelerated runs should use ordinary `RUN-####` IDs. The next highest-learning move remains W003 absorber mapping, focused by `absorbers/gap-map.md`, followed by four more W000-selected accelerated cycles and a W004 assessment.
 
 ## Proposed Subagents
 

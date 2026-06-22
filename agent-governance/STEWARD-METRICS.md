@@ -38,7 +38,7 @@ estimated_token_intensity:
 | --- | --- | --- | --- |
 | verdict_movement | Measures whether work changes claim state, kill state, absorber state, or formal precision. | Count runs that update `CLAIM-LEDGER.md`, `memory/path-kills.md`, tests, or formal objects. | W001 weakened TI-C001 and killed one path. |
 | workflow_churn | Detects process expansion replacing research progress. | Count workflows created, retired, or revised per 10 runs. | W004 created after assessment; W005 still planned. |
-| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks RUN-0006 after this run. |
+| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks RUN-0009 after this run. |
 | governance_research_balance | Detects governance drift or research neglect. | Classify each run as research, governance, mixed, or maintenance. | Recent runs are governance-heavy by design. |
 | next_trigger_volatility | Detects unstable priorities. | Track how often `NEXT-TRIGGER-PLAN.md` changes route. | Volatile during launch instrumentation. |
 | path_kill_quality | Detects false closure and weak kill records. | Check killed paths for evidence, local-minimum risk, and resurrection trigger. | One path kill recorded cleanly. |
@@ -205,6 +205,23 @@ governance_change_made: false
 hard_output_created: true
 daily_review_items_added: false
 estimated_token_intensity: medium
+```
+
+```yaml
+run_id: RUN-0009
+workflow_used: terminology_and_routing_fix
+research_vs_governance: governance_maintenance
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: true
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: low
 ```
 
 ## Use Rules

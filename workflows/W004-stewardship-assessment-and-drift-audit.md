@@ -133,7 +133,7 @@ The chosen lookback window must be named in the assessment output.
 
 ## VSM Readiness Questions
 
-When W004 is invoked after a multi-run simulation or viability concern, answer:
+When W004 is invoked after a multi-run sequence or viability concern, answer:
 
 1. Did W000 behave like a steward or a checklist?
 2. Did System 5 identity remain stable?

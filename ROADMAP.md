@@ -105,3 +105,15 @@ Tasks:
 ## Current Next Trigger
 
 See `agent-governance/NEXT-TRIGGER-PLAN.md`.
+
+## Phase 1D: Accelerated Real Run Sequence
+
+Status: next.
+
+Tasks:
+
+- clarify run nomenclature so future manual accelerated runs use ordinary `RUN-####` IDs: complete in `RUN-0009`
+- run five real manual accelerated W000 cycles: next
+- run W004 assessment over those five cycles
+- apply urgent fixes found by assessment
+- draft an overall assessment of how the repo is working so far

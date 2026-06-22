@@ -1,6 +1,6 @@
 ---
 artifact_type: daily_review
-status: open
+status: superseded
 governance_role: human_review_queue
 constitutional: false
 source_run: SIM-VSM-RUN-004
@@ -11,6 +11,8 @@ source_run: SIM-VSM-RUN-004
 ## Context
 
 RUN-0007 added a VSM readiness pass after the first simulated sequence had already been committed. To preserve provenance, the steward is running the second stress sequence as `SIM-VSM-RUN-001` through `SIM-VSM-RUN-005`.
+
+RUN-0009 supersedes the naming question: those were real repo runs. The `SIM-*` prefix meant manually accelerated timing, not fake work. Future accelerated runs use ordinary `RUN-####` IDs.
 
 ## Items For Joe
 

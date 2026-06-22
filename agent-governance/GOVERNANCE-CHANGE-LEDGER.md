@@ -75,3 +75,22 @@ risk: Readiness instrumentation could become ceremony or retroactively obscure t
 review_needed: false
 rollback_or_revisit_trigger: If the next VSM-aware simulation produces no additional observability or slows research without catching drift, weaken or retire the added readiness surfaces.
 ```
+
+```yaml
+change_id: GCH-0006
+timestamp: 2026-06-22
+run_id: RUN-0009
+changed_surface:
+  - agent-governance/RUN-NOMENCLATURE.md
+  - workflows/W000-repo-steward-cycle.md
+  - agent-governance/RUN-CLOSEOUT-CHECKLIST.md
+  - workflows/W004-stewardship-assessment-and-drift-audit.md
+  - agent-governance/STEWARD-METRICS.md
+  - memory/future-run-queue.md
+change_type: terminology_clarification
+reason: Joe clarified that the prior "sim" wording was misleading because the runs were real repo runs.
+expected_learning_value: Preserve historical provenance while preventing future confusion about run reality.
+risk: Future readers may still misread historical `SIM-RUN-*` filenames without opening the nomenclature surface.
+review_needed: false
+rollback_or_revisit_trigger: If historical run names continue to confuse readers, add frontmatter clarification to old run records without renaming files.
+```

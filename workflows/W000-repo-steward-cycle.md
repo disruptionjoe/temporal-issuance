@@ -35,6 +35,7 @@ Maximize the probability of reaching the correct verdict on the Temporal Issuanc
 10. `agent-governance/RUN-CLOSEOUT-CHECKLIST.md`
 11. `agent-governance/STEWARD-METRICS.md`
 12. `agent-governance/VSM-MAP.md`
+13. `agent-governance/RUN-NOMENCLATURE.md`
 
 ## Decision Frame
 

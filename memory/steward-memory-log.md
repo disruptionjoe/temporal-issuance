@@ -297,3 +297,20 @@ What was promoted: None.
 New blockers: None.
 Recommended next run: W000 -> W003 absorber mapping focused by `absorbers/gap-map.md`.
 Files changed: `agent-runs/RUN-0008-w004-vsm-stress-assessment.md`, `agent-runs/RUN-0008-w004-vsm-stress-assessment-codeblock.md`, `CLAIM-LEDGER.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/export-queue.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0009
+
+Timestamp: 2026-06-22
+Trigger: manual_request
+Workflow: terminology_and_routing_fix
+Agent / subagents used: Repo Steward.
+Current strongest version: Prior `SIM-*` runs were real repo runs; the prefix meant manual acceleration rather than fake execution. Future accelerated W000 cycles should use ordinary `RUN-####` IDs.
+Current strongest objection: Historical filenames can still mislead readers unless they read the nomenclature surface.
+What collapsed: The terminology convention that future real accelerated runs should use `SIM-*`.
+What survived: Historical IDs remain unchanged for provenance.
+What was absorbed: Joe's clarification was converted into `agent-governance/RUN-NOMENCLATURE.md` and future run routing.
+What was clarified: Next five real accelerated W000 cycles should be `RUN-0010` through `RUN-0014`, followed by W004.
+What was promoted: None.
+New blockers: None.
+Recommended next run: RUN-0010 through W000, starting with W003 absorber mapping.
+Files changed: `agent-governance/RUN-NOMENCLATURE.md`, `memory/future-run-queue.md`, `workflows/W000-repo-steward-cycle.md`, `agent-governance/RUN-CLOSEOUT-CHECKLIST.md`, `workflows/W004-stewardship-assessment-and-drift-audit.md`, `agent-governance/STEWARD-METRICS.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `memory/daily-review/2026-06-22-vsm-stress-review.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-runs/RUN-0009-run-nomenclature-fix.md`.
