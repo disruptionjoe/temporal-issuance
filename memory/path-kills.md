@@ -330,6 +330,35 @@ claim_refs:
   - TI-C019
 ```
 
+## RUN-0044
+
+```yaml
+path: Full absorption of OnlineSchemaSys / TI-C019 by plain presheaf, Grothendieck fibration, or AB contextuality machinery with no surviving Temporal Issuance surplus
+reason_killed: >
+  RUN-0044 found that the absorber succeeds only against the static schema-availability
+  skeleton. A completed OnlineSchemaSys can be represented as a presheaf, fibration, or
+  growth opfibration over the prefix poset N. But ordinary fibredness does not impose NAA:
+  it does not constrain how delta_n or epsilon_n are formed, and it allows external
+  completed-history descriptions. NAA is an online constructibility boundary on current-prefix
+  operations, not a standard cartesian-lift or base-preservation condition. AB contextuality
+  also does not absorb NAA, because AB is a no-global-section theorem while NAA is a non-use
+  of future/global data by prefix operations. Generic Cech witnesses remain AB-absorbed, but
+  that does not kill TI-C019.
+evidence: `explorations/E024-presheaf-ab-absorber-test.md` and `agent-runs/RUN-0044-presheaf-ab-absorber-test.md`.
+local_minimum_risk: >
+  Medium. Killing full absorption must not license novelty claims about ordinary fibration
+  structure. The fibration skeleton is absorbed. The surviving surplus may still be absorbed
+  by constructive type theory, HoTT universe discipline, or computational sequentiality in
+  the next run.
+possible_future_resurrection_trigger: >
+  A proof that online constructibility is fully derivable from standard HoTT/constructive
+  type formation or VDF-style sequential computation with no TI-specific formal surplus,
+  plus a demonstration that TI's remaining contribution is only interpretive naming.
+run_ref: RUN-0044
+claim_refs:
+  - TI-C019
+```
+
 ```yaml
 path: Celestial amplitude reinterpretation of ExtCat morphisms (Attempt 3.3)
 reason_killed: >

@@ -972,6 +972,32 @@ notes: >
   presheaf absorber test.
 ```
 
+```yaml
+run_id: RUN-0044
+workflow_used: W000 -> presheaf_AB_absorber_test
+research_vs_governance: research
+claim_status_changed: true
+  changed_claims: [TI-C019_formalizing_narrowed, TI-C017_narrowed]
+path_killed: true
+  path: full_absorption_of_OnlineSchemaSys_by_plain_fibration_or_AB
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E024-presheaf-ab-absorber-test, RUN-0044-presheaf-ab-absorber-test]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  B1 resolved as partial absorption. Static OnlineSchemaSys schema-availability structure is
+  standard presheaf/fibration or opfibration machinery; NAA is not standard fibredness and not
+  AB contextuality. Surviving object: online constructible fibration/presheaf process. Next
+  trigger moves to HoTT/constructive derivation of online constructibility, with VDF pressure.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

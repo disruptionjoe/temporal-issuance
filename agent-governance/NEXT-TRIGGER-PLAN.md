@@ -3,57 +3,52 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0043
+updated_by_run: RUN-0044
 ---
 
 # Next Trigger Plan
 
-## Expanded 75-Persona Steelman Complete (RUN-0043) — Next: Presheaf Absorber + Assembly Theory
+## Presheaf Absorber Resolved (RUN-0044) — Next: Derive Online Constructibility
 
-RUN-0043 ran the expanded 75-persona steelman and Hegelian pass (62 standard + 13 new personas).
-Three research bottlenecks surfaced from the 75-persona synthesis:
+RUN-0044 completed the B1 presheaf / Grothendieck fibration absorber test, augmented with
+the AB sheaf contextuality question.
 
-- **B1 (critical path)**: Presheaf / Grothendieck fibration absorber — `OnlineSchemaSys` may be
-  a standard Grothendieck fibration over `N`, making NAA a standard fibredness condition. This
-  is the sharpest live threat to TI-C019. Must be resolved before promotion can proceed.
-- **B2 (operationalization)**: Assembly Theory D4 operationalization — D4 corresponds to
-  undefined assembly index relative to prior schema. First concrete empirical bridge if precise.
-- **B3 (formalization depth)**: HoTT NAA derivation — if NAA is derivable from univalence /
-  identity types, M2 advances from motivation to genuine derivation.
+Verdict:
+
+- `OnlineSchemaSys` has a standard presheaf / fibration or opfibration skeleton over `N`.
+  Static schema availability is absorbed by known category theory.
+- NAA is not a standard fibredness theorem. It is an online constructibility constraint on
+  operation formation: `delta_n` and `epsilon_n` may use only current-fiber data.
+- NAA is not AB contextuality. AB concerns no global section; NAA concerns non-use of future
+  or global data by prefix operations.
+- Generic Cech/no-global-section witnesses are AB-absorbed. TI-C017 survives only if C-typed
+  admissibility independently supplies the sheaf or compatibility predicate.
+- TI-C019 advances to formalizing in a narrowed sense: online constructible fibration /
+  presheaf process, not novel fibration theory.
 
 Primary next trigger:
 
 ```text
-W000 -> presheaf_absorber_test
+W000 -> hott_constructive_derivation_of_online_constructibility
 ```
 
-Required: test whether `OnlineSchemaSys` is a standard Grothendieck fibration over `N`.
-**Now augmented (2026-06-22 DS-architect intake):** also test whether the NAA structural
-theorem is a standard Abramsky-Brandenburger (AB) sheaf contextuality result. These two
-tests may converge on the same obstruction from different angles. See
-`absorbers/distributed-systems.md` (AB entry) and `explorations/E021-ds-architect-convergence-theorem.md`.
+Required:
 
-1. Formally define the candidate fibration: objects are pairs `(n, S_n)`, morphisms are
-   prefix-indexed inclusions, cartesian lifts correspond to schema-growth transitions.
-2. Ask: does the NAA structural theorem reduce to the standard theorem that base-change along
-   a fibration commutes with limits, or does it add genuinely new content?
-3. Ask: is the morphism-level non-embedding of `OnlineSchemaSys` into `MetaCloSys` a theorem
-   about fibrations, or does it depend on specifically TI-theoretic structure?
-4. **AB question (augmented):** Does the NAA structural theorem reduce to the AB obstruction
-   theorem (obstruction to global section in a sheaf of local data)? If yes, identify what
-   C-typed admissibility contributes beyond a generic AB sheaf.
-5. If `OnlineSchemaSys` IS a standard fibration AND the NAA theorem IS standard AB contextuality:
-   identify what TI contributes beyond naming. If nothing: archive TI-C019 and route to
-   formal-residue documentation.
-6. If either test fails (not a standard fibration, or not standard AB contextuality): identify
-   the precise axiom or structure that prevents reduction; this is TI's novel formal contribution.
+1. Encode `OnlineSchemaSys` as a type family, fibration, or displayed category over `N`.
+2. State the exact constructive type-formation rule that prevents `epsilon_n` from referencing
+   future fibers or unformed type labels.
+3. Test whether HoTT universe stratification, identity types, or univalence derives NAA, or
+   whether NAA must remain an added axiom.
+4. Include the VDF computational grounding question from crypto-econ intake: does online
+   constructibility require sequential computation, or is VDF only a sufficient model?
+5. If HoTT/CTT fully absorbs online constructibility, identify what TI contributes beyond
+   interpretation. If nothing, downgrade TI-C019 to formal-residue interpretation.
 
-Success condition: presheaf/fibration + AB absorbers are either (a) killed with precise proofs,
-or (b) absorbed with identification of what TI contributes beyond the known structures.
-TI-C019 may then advance to hostile review.
+Success condition: NAA / online constructibility is either derived from a precise formal
+system or identified as an explicit axiom with exact surplus and absorber status.
 
-Failure condition: absorber cannot be resolved; `OnlineSchemaSys` collapses to existing
-fibration/presheaf theory without identifiable novel content. Archive TI-C019.
+Failure condition: online constructibility is only a relabeling of ordinary type discipline,
+or cannot be stated without protective stipulation. Archive or narrow TI-C019 accordingly.
 
 Secondary next trigger:
 

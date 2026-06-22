@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0043
+last_summarized_run: RUN-0044
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: D4_survives_only_as_online_non_anticipatory_class_relative_discriminator
 bare_Ext_S_derives_connection: no
-next_required_test: no_anticipation_constraint_formalization
+next_required_test: hott_constructive_derivation_of_online_constructibility
 ```
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
@@ -195,6 +195,30 @@ principled NAA (M2+M3), D4 discrimination of issuance from four competitors insi
 TI-C019 formalizing-candidate status confirmed. TI-C020 new pressure targets: holographic
 boundary theories (holography absorber is sharp — boundary encodes bulk as MetaCloSys encoding).
 
+## Presheaf / AB Absorber Result (RUN-0044)
+
+RUN-0044 resolved B1 as partial absorption with a precise survivor.
+
+Absorbed:
+- `OnlineSchemaSys` has a standard presheaf / Grothendieck fibration or growth-opfibration
+  skeleton over `N`.
+- Prefix-indexed schema availability and restriction are not novel category theory.
+- Generic Cech/no-global-section witnesses are AB-absorbed unless C-typed admissibility
+  independently supplies the sheaf or compatibility predicate.
+
+Survived:
+- NAA is not standard fibredness. A fibration can be specified from completed total data; it
+  does not constrain how `delta_n` or `epsilon_n` are formed.
+- NAA is not AB contextuality. AB is about failure of global sections; NAA is about non-use of
+  future/global data by prefix operations.
+- The narrowed object is an online constructible fibration/presheaf process: operations may
+  use only current-fiber constructible data, not future fibers, hidden global sections,
+  completed trajectories, or universal meta-schema oracles.
+
+Claim effect: TI-C019 moves to formalizing in this narrowed sense. No promotion. The next
+absorber is B3: HoTT / constructive type derivation of online constructibility, augmented by
+the VDF sequential-computation question.
+
 ## DS-Architect Intake (post-RUN-0043, non-run)
 
 Three external agent notes from a distributed-systems architect / MMO persona were
@@ -245,6 +269,26 @@ New absorbers file: `absorbers/crypto-economic-security.md` (Nakamoto, BFT, VDFs
 Bekenstein). No claim statuses changed.
 
 ## Next Run
+
+Current RUN-0044 route:
+
+Primary: HoTT / constructive type derivation of online constructibility (B3, sharpened by
+RUN-0044). Encode `OnlineSchemaSys` as a type family, fibration, or displayed category over
+`N`; test whether constructive type formation, universe stratification, identity types, or
+univalence derives NAA rather than merely motivating it. Include the VDF question: is
+sequential computation necessary, sufficient, or only an analogy for NAA?
+
+Secondary: Assembly Theory D4 operationalization (B2). Define schema-relative assembly index;
+show D4 events have undefined/infinite assembly index within the prior schema.
+
+Tertiary: AC-8 formal model — concrete `OnlineSchemaSys` with two observers in interactive
+schema negotiation, including incompatible schema proposals, fork-choice analog, and
+authority/legitimacy condition.
+
+Deferred: Cech/sheaf fixture. Do not run it as novelty until C-typed admissibility supplies
+the sheaf or compatibility predicate; otherwise AB absorbs the generic witness.
+
+Superseded pre-RUN-0044 route preserved below for provenance:
 
 Primary: presheaf absorber test (B1), now augmented with the AB contextuality question.
 Determine whether `OnlineSchemaSys` is a standard Grothendieck fibration over `N` AND whether

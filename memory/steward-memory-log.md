@@ -970,3 +970,20 @@ Four decision-relevant ideas identified (Angle 5 — physical law as incentive-c
 What collapsed: Nothing. No claim statuses changed.
 New absorbers file: `absorbers/crypto-economic-security.md` (Nakamoto finality, BFT, VDFs, Landauer, Bekenstein + missing adversary model).
 Files changed: `absorbers/crypto-economic-security.md`, `explorations/E023-crypto-econ-intake-synthesis.md`, `CLAIM-LEDGER.md` (TI-C009/C010 archive annotations), `agent-governance/NEXT-TRIGGER-PLAN.md` (B3 augmented with VDF), `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`.
+
+## RUN-0044
+
+Timestamp: 2026-06-22
+Trigger: scheduled_hourly_trigger
+Workflow: W000 -> presheaf_AB_absorber_test
+Agent / subagents used: Repo Steward.
+Current strongest version: TI-C019 is now an online constructible fibration/presheaf process over `N`; the fibration skeleton is standard, but NAA constrains operation formation so `delta_n` and `epsilon_n` cannot use future fibers, hidden global sections, completed trajectories, or universal meta-schema oracles.
+Current strongest objection: The surviving online constructibility boundary may be ordinary constructive type formation, HoTT universe discipline, or computational sequentiality under another name.
+What collapsed: The full absorber path that `OnlineSchemaSys` is only a plain presheaf/Grothendieck fibration or AB contextuality result with no surplus. Also collapsed: any claim that ordinary prefix-indexed schema availability is novel category theory.
+What survived: NAA as an online constructibility constraint; TI-C019 moves to formalizing in that narrowed sense. TI-C017 survives only if C-typed admissibility independently determines the sheaf or compatibility predicate.
+What was absorbed: Static schema availability by presheaf/fibration machinery; generic Cech/no-global-section witness claims by AB-style sheaf contextuality.
+What was clarified: B1 is resolved as partial absorption, not a kill. The next exact pressure target is B3: derive online constructibility from HoTT/constructive type theory or absorb it.
+What was promoted: None. TI-C019 advanced to formalizing, not promoted.
+New blockers: No formal derivation of NAA / online constructibility from HoTT or constructive type formation yet.
+Recommended next run: W000 -> HoTT / constructive type derivation of online constructibility, augmented with the VDF sequential-computation question.
+Files changed: `explorations/E024-presheaf-ab-absorber-test.md`, `agent-runs/RUN-0044-presheaf-ab-absorber-test.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

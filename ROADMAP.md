@@ -92,26 +92,39 @@ Key RUN-0043 findings:
 - TI-C020 new pressure targets: holographic boundary theories, quantum no-cloning, causal
   set growth dynamics.
 
-Open tasks (updated after RUN-0043):
+RUN-0044 completed the B1 presheaf / Grothendieck fibration absorber test, augmented with
+the AB sheaf contextuality question. Result: partial absorption with a precise survivor.
+The prefix-indexed schema-availability skeleton of `OnlineSchemaSys` is standard
+presheaf/fibration or opfibration structure over `N`; TI should not claim novelty there.
+But NAA is not a standard fibredness theorem and not an AB contextuality theorem. The
+surviving formal object is an online constructible fibration/presheaf process: operations
+`delta_n` and `epsilon_n` are constrained to current-fiber constructible data and cannot use
+future fibers, hidden global sections, completed trajectories, or universal meta-schema
+oracles. TI-C019 moves to formalizing in this narrowed sense. Generic Cech/no-global-section
+witnesses for TI-C017 are absorbed by AB unless C-typed admissibility independently supplies
+the sheaf or compatibility predicate.
 
-- B1 presheaf absorber test (critical path): determine whether `OnlineSchemaSys` is a
-  standard Grothendieck fibration over `N`; if yes, identify what TI contributes beyond
-  naming the fibration. This subsumes the prior hostile-review goal.
+Open tasks (updated after RUN-0044):
+
+- B3 HoTT / constructive type derivation (new critical path): derive NAA / online
+  constructibility from constructive type formation, HoTT universe discipline, or an exact
+  equivalent. Include the VDF sequential-computation question from crypto-econ intake.
 - B2 Assembly Theory D4 operationalization: define assembly-complexity-undefined-relative-to-
   prior-schema precisely; connect to empirical assembly index measurements.
-- B3 HoTT NAA derivation: test whether NAA is derivable from univalence / identity types
-  in HoTT rather than merely motivated by constructive type formation.
 - AC-8 formal model: build concrete `OnlineSchemaSys` object with two observers in
-  interactive schema negotiation; verify D4 co-extension and NAA compliance.
+  interactive schema negotiation; verify D4 co-extension and NAA compliance; include
+  authority/legitimacy condition from DS intake.
 - TI-C020 pressure: test against quantum no-cloning / causality, causal set growth
   dynamics, holographic boundary theories.
-- Cech/sheaf fixture cross-linked to D4 (deferred): only after B1/B2/B3 resolve.
+- Cech/sheaf fixture cross-linked to D4 (deferred): only after C-typed admissibility specifies
+  the sheaf or compatibility predicate; generic Cech witnesses are AB-absorbed.
 
 Kill/absorb condition (active): if `OnlineSchemaSys` is a standard Grothendieck fibration
-and TI cannot identify a novel contribution beyond naming it, archive TI-C019 and route to
-formal-residue documentation. If the no-anticipation constraint cannot be stated without
-circularity or protective stipulation, archive D4 as a useful object-level discriminator
-but not a primitive.
+with no online constructibility surplus, archive TI-C019 and route to formal-residue
+documentation. RUN-0044 found a surplus, so the next kill condition is narrower: if online
+constructibility is only a relabeling of ordinary HoTT/constructive type discipline or VDF-
+style sequential computation with no TI-specific contribution, absorb the formal result and
+preserve only the interpretation layer.
 
 ## Phase 0: Launch Coherence
 
