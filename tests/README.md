@@ -17,3 +17,6 @@ Launch tests:
 4. Category-error test.
 5. Local-minimum risk test.
 
+Executable fixtures:
+
+- H3 Cech/sheaf fixture: `python tests/test_cech_sheaf_fixture.py`

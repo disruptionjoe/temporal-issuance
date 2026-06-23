@@ -1,0 +1,1310 @@
+{
+  "chsh_transfer": {
+    "assessed": true,
+    "berry_phase_input_used": false,
+    "coboundary": false,
+    "contexts": [
+      "AB",
+      "ABp",
+      "ApBp",
+      "ApB"
+    ],
+    "cover_id": "chsh_four_cycle",
+    "edges": [
+      {
+        "edge": "AB--ABp",
+        "left_polarity": "+1",
+        "provenance": "derived_from_C",
+        "right_polarity": "+1",
+        "shared_label": "A",
+        "transition": "+1"
+      },
+      {
+        "edge": "ABp--ApBp",
+        "left_polarity": "+1",
+        "provenance": "derived_from_C",
+        "right_polarity": "+1",
+        "shared_label": "Bp",
+        "transition": "+1"
+      },
+      {
+        "edge": "ApBp--ApB",
+        "left_polarity": "+1",
+        "provenance": "derived_from_C",
+        "right_polarity": "+1",
+        "shared_label": "Ap",
+        "transition": "+1"
+      },
+      {
+        "edge": "ApB--AB",
+        "left_polarity": "+1",
+        "provenance": "derived_from_C",
+        "right_polarity": "-1",
+        "shared_label": "B",
+        "transition": "-1"
+      }
+    ],
+    "generalization_assessment": "The SBP parity rule extends to a finite cycle by multiplying edge signs; this CHSH-shaped control has odd flip parity and loop product -1.",
+    "holonomy": "-1",
+    "remaining_limits": "This assesses the finite Cech transfer shape only. The C1 type bridge to GU flat Z/2Z local systems and the C3 spacelike correspondence geometry remain recorded as bridge conditions, not fully proved here."
+  },
+  "contract_sources": [
+    "gu-formalization/explorations/n3-cech-fixture-specification-2026-06-23.md",
+    "gu-formalization/explorations/h3-cech-sheaf-fixture-spec-2026-06-23.md"
+  ],
+  "control_cases": {
+    "bare_sections_no_transition_rule": {
+      "ab_absorber_check": {
+        "C_supplies_compatibility": false,
+        "generic_sheaf_only": true
+      },
+      "case_id": "bare_sections_no_transition_rule",
+      "coboundary": null,
+      "compatibility_mode": "none",
+      "conditionality": null,
+      "cover": {
+        "base_space": "S^1",
+        "cover_id": "two_patch_s1",
+        "geometry": {
+          "I_minus": "right overlap near theta = pi",
+          "I_plus": "left overlap near theta = 0",
+          "U_minus": "theta in (pi - pi/4, 2*pi + pi/4)",
+          "U_plus": "theta in (-pi/4, pi + pi/4)"
+        },
+        "overlap_components": [
+          "I_plus",
+          "I_minus"
+        ],
+        "patches": [
+          "U_plus",
+          "U_minus"
+        ]
+      },
+      "description": "Control A: sections exist but no C_overlap transition rule is supplied.",
+      "fixture_verdict": "UNDERDETERMINED_TRANSPORT",
+      "forbidden_inputs_checked": [
+        "berry_phase",
+        "desired_holonomy",
+        "future_schema",
+        "global_loop_product",
+        "preselected_transition_table_without_C_provenance"
+      ],
+      "forbidden_inputs_used": [],
+      "forced_cochain": null,
+      "holonomy": null,
+      "justification": "C_TaF left at least one overlap with both +1 and -1 allowed.",
+      "no_anticipation_check": {
+        "Ax_minus": {
+          "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+          "schema_id": "Ax_minus",
+          "status": "pass",
+          "violations": []
+        },
+        "Ax_plus": {
+          "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+          "schema_id": "Ax_plus",
+          "status": "pass",
+          "violations": []
+        }
+      },
+      "outcome_class": "A",
+      "outcome_label": "A",
+      "overlap_transition_candidates": [
+        {
+          "c_taf_pass": true,
+          "candidate_labels": [
+            "+1",
+            "-1"
+          ],
+          "candidate_values": [
+            1,
+            -1
+          ],
+          "component": "I_plus",
+          "external_input_used": false,
+          "forced_label": null,
+          "forced_value": null,
+          "left_sections": [
+            "ax_plus_L_phi"
+          ],
+          "provenance": "underdetermined_by_C",
+          "reason": "C_TaF checks local section admissibility but supplies no transition rule.",
+          "right_sections": [
+            "ax_minus_L_phi"
+          ]
+        },
+        {
+          "c_taf_pass": true,
+          "candidate_labels": [
+            "+1",
+            "-1"
+          ],
+          "candidate_values": [
+            1,
+            -1
+          ],
+          "component": "I_minus",
+          "external_input_used": false,
+          "forced_label": null,
+          "forced_value": null,
+          "left_sections": [
+            "ax_plus_R_psi"
+          ],
+          "provenance": "underdetermined_by_C",
+          "reason": "C_TaF checks local section admissibility but supplies no transition rule.",
+          "right_sections": [
+            "ax_minus_R_psi"
+          ]
+        }
+      ],
+      "schemas": [
+        {
+          "admissibility_predicate": "A_SBP with Compat_G-style consistency witness",
+          "axioms": [
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_plus_L_phi",
+              "family": "phi_L",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_plus",
+              "patch": "U_plus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_plus",
+              "type_label": "independent-of-phi_L"
+            },
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_plus_R_psi",
+              "family": "psi_R",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_minus",
+              "patch": "U_plus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_plus",
+              "type_label": "independent-of-psi_R"
+            }
+          ],
+          "history": [
+            "H_n contains only patch-local records and overlap restrictions"
+          ],
+          "local_abstraction": "E031 typed source constraint state S=(T_S,A_S)",
+          "patch": "U_plus",
+          "schema_id": "Ax_plus"
+        },
+        {
+          "admissibility_predicate": "A_SBP with Compat_G-style consistency witness",
+          "axioms": [
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_minus_L_phi",
+              "family": "phi_L",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_plus",
+              "patch": "U_minus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_minus",
+              "type_label": "independent-of-phi_L"
+            },
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_minus_R_psi",
+              "family": "psi_R",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_minus",
+              "patch": "U_minus",
+              "polarity": "-1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_minus",
+              "type_label": "independent-of-psi_R"
+            }
+          ],
+          "history": [
+            "H_n contains only patch-local records and overlap restrictions"
+          ],
+          "local_abstraction": "E031 typed source constraint state S=(T_S,A_S)",
+          "patch": "U_minus",
+          "schema_id": "Ax_minus"
+        }
+      ],
+      "tc_summary": {
+        "TC-1": {
+          "evidence": "Two-patch S^1 cover has U_plus, U_minus and I_plus/I_minus overlaps.",
+          "status": "pass"
+        },
+        "TC-10": {
+          "evidence": "No axiom, transition, or rule reads Berry phase data.",
+          "status": "pass"
+        },
+        "TC-11": {
+          "evidence": {
+            "assessed": true,
+            "berry_phase_input_used": false,
+            "coboundary": false,
+            "contexts": [
+              "AB",
+              "ABp",
+              "ApBp",
+              "ApB"
+            ],
+            "cover_id": "chsh_four_cycle",
+            "edges": [
+              {
+                "edge": "AB--ABp",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "+1",
+                "shared_label": "A",
+                "transition": "+1"
+              },
+              {
+                "edge": "ABp--ApBp",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "+1",
+                "shared_label": "Bp",
+                "transition": "+1"
+              },
+              {
+                "edge": "ApBp--ApB",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "+1",
+                "shared_label": "Ap",
+                "transition": "+1"
+              },
+              {
+                "edge": "ApB--AB",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "-1",
+                "shared_label": "B",
+                "transition": "-1"
+              }
+            ],
+            "generalization_assessment": "The SBP parity rule extends to a finite cycle by multiplying edge signs; this CHSH-shaped control has odd flip parity and loop product -1.",
+            "holonomy": "-1",
+            "remaining_limits": "This assesses the finite Cech transfer shape only. The C1 type bridge to GU flat Z/2Z local systems and the C3 spacelike correspondence geometry remain recorded as bridge conditions, not fully proved here."
+          },
+          "status": "pass"
+        },
+        "TC-2": {
+          "evidence": "Ax_plus and Ax_minus are E031-style typed source constraint states.",
+          "status": "pass"
+        },
+        "TC-3": {
+          "evidence": {
+            "Ax_minus": {
+              "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+              "schema_id": "Ax_minus",
+              "status": "pass",
+              "violations": []
+            },
+            "Ax_plus": {
+              "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+              "schema_id": "Ax_plus",
+              "status": "pass",
+              "violations": []
+            }
+          },
+          "status": "pass"
+        },
+        "TC-4": {
+          "evidence": "C_TaF/C_overlap evaluated on every overlap component.",
+          "status": "pass"
+        },
+        "TC-5": {
+          "evidence": "Transition values are outputs of C_overlap, not input.",
+          "status": "pass"
+        },
+        "TC-6": {
+          "evidence": {
+            "coboundary": null,
+            "holonomy": null
+          },
+          "status": "pass"
+        },
+        "TC-7": {
+          "evidence": {
+            "fixture_verdict": "UNDERDETERMINED_TRANSPORT",
+            "outcome_class": "A",
+            "outcome_label": "A"
+          },
+          "status": "pass"
+        },
+        "TC-8": {
+          "evidence": "Outcome is not D or D_prime.",
+          "status": "not_applicable"
+        },
+        "TC-9": {
+          "evidence": "Outcome is not D or D_prime.",
+          "status": "not_applicable"
+        }
+      },
+      "transition_provenance": {
+        "I_minus": "underdetermined_by_C",
+        "I_plus": "underdetermined_by_C"
+      }
+    },
+    "equality_only_compatibility": {
+      "ab_absorber_check": {
+        "C_supplies_compatibility": true,
+        "generic_sheaf_only": false
+      },
+      "case_id": "equality_only_compatibility",
+      "coboundary": true,
+      "compatibility_mode": "identity",
+      "conditionality": null,
+      "cover": {
+        "base_space": "S^1",
+        "cover_id": "two_patch_s1",
+        "geometry": {
+          "I_minus": "right overlap near theta = pi",
+          "I_plus": "left overlap near theta = 0",
+          "U_minus": "theta in (pi - pi/4, 2*pi + pi/4)",
+          "U_plus": "theta in (-pi/4, pi + pi/4)"
+        },
+        "overlap_components": [
+          "I_plus",
+          "I_minus"
+        ],
+        "patches": [
+          "U_plus",
+          "U_minus"
+        ]
+      },
+      "description": "Control C: exact-overlap compatibility forces identity transitions.",
+      "fixture_verdict": "DERIVED_TRIVIAL_COCYCLE",
+      "forbidden_inputs_checked": [
+        "berry_phase",
+        "desired_holonomy",
+        "future_schema",
+        "global_loop_product",
+        "preselected_transition_table_without_C_provenance"
+      ],
+      "forbidden_inputs_used": [],
+      "forced_cochain": {
+        "I_minus": "+1",
+        "I_plus": "+1"
+      },
+      "holonomy": "+1",
+      "justification": "All transitions are C-derived singletons and the loop product is +1.",
+      "no_anticipation_check": {
+        "Ax_minus": {
+          "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+          "schema_id": "Ax_minus",
+          "status": "pass",
+          "violations": []
+        },
+        "Ax_plus": {
+          "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+          "schema_id": "Ax_plus",
+          "status": "pass",
+          "violations": []
+        }
+      },
+      "outcome_class": "C",
+      "outcome_label": "C",
+      "overlap_transition_candidates": [
+        {
+          "c_taf_pass": true,
+          "candidate_labels": [
+            "+1"
+          ],
+          "candidate_values": [
+            1
+          ],
+          "component": "I_plus",
+          "external_input_used": false,
+          "forced_label": "+1",
+          "forced_value": 1,
+          "left_sections": [
+            "ax_plus_L_phi"
+          ],
+          "provenance": "forced_identity_by_C",
+          "reason": "Exact-overlap C_TaF forces identity transition for matching sections.",
+          "right_sections": [
+            "ax_minus_L_phi"
+          ]
+        },
+        {
+          "c_taf_pass": true,
+          "candidate_labels": [
+            "+1"
+          ],
+          "candidate_values": [
+            1
+          ],
+          "component": "I_minus",
+          "external_input_used": false,
+          "forced_label": "+1",
+          "forced_value": 1,
+          "left_sections": [
+            "ax_plus_R_psi"
+          ],
+          "provenance": "forced_identity_by_C",
+          "reason": "Exact-overlap C_TaF forces identity transition for matching sections.",
+          "right_sections": [
+            "ax_minus_R_psi"
+          ]
+        }
+      ],
+      "schemas": [
+        {
+          "admissibility_predicate": "A_SBP with Compat_G-style consistency witness",
+          "axioms": [
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_plus_L_phi",
+              "family": "phi_L",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_plus",
+              "patch": "U_plus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_plus",
+              "type_label": "independent-of-phi_L"
+            },
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_plus_R_psi",
+              "family": "psi_R",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_minus",
+              "patch": "U_plus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_plus",
+              "type_label": "independent-of-psi_R"
+            }
+          ],
+          "history": [
+            "H_n contains only patch-local records and overlap restrictions"
+          ],
+          "local_abstraction": "E031 typed source constraint state S=(T_S,A_S)",
+          "patch": "U_plus",
+          "schema_id": "Ax_plus"
+        },
+        {
+          "admissibility_predicate": "A_SBP with Compat_G-style consistency witness",
+          "axioms": [
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_minus_L_phi",
+              "family": "phi_L",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_plus",
+              "patch": "U_minus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_minus",
+              "type_label": "independent-of-phi_L"
+            },
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_minus_R_psi",
+              "family": "psi_R",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_minus",
+              "patch": "U_minus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_minus",
+              "type_label": "independent-of-psi_R"
+            }
+          ],
+          "history": [
+            "H_n contains only patch-local records and overlap restrictions"
+          ],
+          "local_abstraction": "E031 typed source constraint state S=(T_S,A_S)",
+          "patch": "U_minus",
+          "schema_id": "Ax_minus"
+        }
+      ],
+      "tc_summary": {
+        "TC-1": {
+          "evidence": "Two-patch S^1 cover has U_plus, U_minus and I_plus/I_minus overlaps.",
+          "status": "pass"
+        },
+        "TC-10": {
+          "evidence": "No axiom, transition, or rule reads Berry phase data.",
+          "status": "pass"
+        },
+        "TC-11": {
+          "evidence": {
+            "assessed": true,
+            "berry_phase_input_used": false,
+            "coboundary": false,
+            "contexts": [
+              "AB",
+              "ABp",
+              "ApBp",
+              "ApB"
+            ],
+            "cover_id": "chsh_four_cycle",
+            "edges": [
+              {
+                "edge": "AB--ABp",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "+1",
+                "shared_label": "A",
+                "transition": "+1"
+              },
+              {
+                "edge": "ABp--ApBp",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "+1",
+                "shared_label": "Bp",
+                "transition": "+1"
+              },
+              {
+                "edge": "ApBp--ApB",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "+1",
+                "shared_label": "Ap",
+                "transition": "+1"
+              },
+              {
+                "edge": "ApB--AB",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "-1",
+                "shared_label": "B",
+                "transition": "-1"
+              }
+            ],
+            "generalization_assessment": "The SBP parity rule extends to a finite cycle by multiplying edge signs; this CHSH-shaped control has odd flip parity and loop product -1.",
+            "holonomy": "-1",
+            "remaining_limits": "This assesses the finite Cech transfer shape only. The C1 type bridge to GU flat Z/2Z local systems and the C3 spacelike correspondence geometry remain recorded as bridge conditions, not fully proved here."
+          },
+          "status": "pass"
+        },
+        "TC-2": {
+          "evidence": "Ax_plus and Ax_minus are E031-style typed source constraint states.",
+          "status": "pass"
+        },
+        "TC-3": {
+          "evidence": {
+            "Ax_minus": {
+              "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+              "schema_id": "Ax_minus",
+              "status": "pass",
+              "violations": []
+            },
+            "Ax_plus": {
+              "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+              "schema_id": "Ax_plus",
+              "status": "pass",
+              "violations": []
+            }
+          },
+          "status": "pass"
+        },
+        "TC-4": {
+          "evidence": "C_TaF/C_overlap evaluated on every overlap component.",
+          "status": "pass"
+        },
+        "TC-5": {
+          "evidence": "Transition values are outputs of C_overlap, not input.",
+          "status": "pass"
+        },
+        "TC-6": {
+          "evidence": {
+            "coboundary": true,
+            "holonomy": "+1"
+          },
+          "status": "pass"
+        },
+        "TC-7": {
+          "evidence": {
+            "fixture_verdict": "DERIVED_TRIVIAL_COCYCLE",
+            "outcome_class": "C",
+            "outcome_label": "C"
+          },
+          "status": "pass"
+        },
+        "TC-8": {
+          "evidence": "Outcome is not D or D_prime.",
+          "status": "not_applicable"
+        },
+        "TC-9": {
+          "evidence": "Outcome is not D or D_prime.",
+          "status": "not_applicable"
+        }
+      },
+      "transition_provenance": {
+        "I_minus": "forced_identity_by_C",
+        "I_plus": "forced_identity_by_C"
+      }
+    },
+    "stipulated_nontrivial_transition_table": {
+      "ab_absorber_check": {
+        "C_supplies_compatibility": false,
+        "generic_sheaf_only": true
+      },
+      "case_id": "stipulated_nontrivial_transition_table",
+      "coboundary": false,
+      "compatibility_mode": "stipulated",
+      "conditionality": null,
+      "cover": {
+        "base_space": "S^1",
+        "cover_id": "two_patch_s1",
+        "geometry": {
+          "I_minus": "right overlap near theta = pi",
+          "I_plus": "left overlap near theta = 0",
+          "U_minus": "theta in (pi - pi/4, 2*pi + pi/4)",
+          "U_plus": "theta in (-pi/4, pi + pi/4)"
+        },
+        "overlap_components": [
+          "I_plus",
+          "I_minus"
+        ],
+        "patches": [
+          "U_plus",
+          "U_minus"
+        ]
+      },
+      "description": "Control B: nontrivial transport table is provided as input.",
+      "fixture_verdict": "STIPULATED_TRANSPORT",
+      "forbidden_inputs_checked": [
+        "berry_phase",
+        "desired_holonomy",
+        "future_schema",
+        "global_loop_product",
+        "preselected_transition_table_without_C_provenance"
+      ],
+      "forbidden_inputs_used": [],
+      "forced_cochain": {
+        "I_minus": "-1",
+        "I_plus": "+1"
+      },
+      "holonomy": "-1",
+      "justification": "At least one transition value was read from stipulated input.",
+      "no_anticipation_check": {
+        "Ax_minus": {
+          "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+          "schema_id": "Ax_minus",
+          "status": "pass",
+          "violations": []
+        },
+        "Ax_plus": {
+          "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+          "schema_id": "Ax_plus",
+          "status": "pass",
+          "violations": []
+        }
+      },
+      "outcome_class": "B",
+      "outcome_label": "B",
+      "overlap_transition_candidates": [
+        {
+          "c_taf_pass": true,
+          "candidate_labels": [
+            "+1"
+          ],
+          "candidate_values": [
+            1
+          ],
+          "component": "I_plus",
+          "external_input_used": true,
+          "forced_label": "+1",
+          "forced_value": 1,
+          "left_sections": [
+            "ax_plus_L_phi"
+          ],
+          "provenance": "stipulated_input",
+          "reason": "The transition was read from case.stipulated_transitions.",
+          "right_sections": [
+            "ax_minus_L_phi"
+          ]
+        },
+        {
+          "c_taf_pass": true,
+          "candidate_labels": [
+            "-1"
+          ],
+          "candidate_values": [
+            -1
+          ],
+          "component": "I_minus",
+          "external_input_used": true,
+          "forced_label": "-1",
+          "forced_value": -1,
+          "left_sections": [
+            "ax_plus_R_psi"
+          ],
+          "provenance": "stipulated_input",
+          "reason": "The transition was read from case.stipulated_transitions.",
+          "right_sections": [
+            "ax_minus_R_psi"
+          ]
+        }
+      ],
+      "schemas": [
+        {
+          "admissibility_predicate": "A_SBP with Compat_G-style consistency witness",
+          "axioms": [
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_plus_L_phi",
+              "family": "phi_L",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_plus",
+              "patch": "U_plus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_plus",
+              "type_label": "independent-of-phi_L"
+            },
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_plus_R_psi",
+              "family": "psi_R",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_minus",
+              "patch": "U_plus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_plus",
+              "type_label": "independent-of-psi_R"
+            }
+          ],
+          "history": [
+            "H_n contains only patch-local records and overlap restrictions"
+          ],
+          "local_abstraction": "E031 typed source constraint state S=(T_S,A_S)",
+          "patch": "U_plus",
+          "schema_id": "Ax_plus"
+        },
+        {
+          "admissibility_predicate": "A_SBP with Compat_G-style consistency witness",
+          "axioms": [
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_minus_L_phi",
+              "family": "phi_L",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_plus",
+              "patch": "U_minus",
+              "polarity": "+1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_minus",
+              "type_label": "independent-of-phi_L"
+            },
+            {
+              "c_typed": true,
+              "consistency_witness": "Cons(PA, Ax(S), c)",
+              "constraint_id": "ax_minus_R_psi",
+              "family": "psi_R",
+              "forbidden_refs": [],
+              "independence_witness": "constructive_independence_witness",
+              "overlap": "I_minus",
+              "patch": "U_minus",
+              "polarity": "-1",
+              "sbp_boundary_proposal": true,
+              "source": "Ax_minus",
+              "type_label": "independent-of-psi_R"
+            }
+          ],
+          "history": [
+            "H_n contains only patch-local records and overlap restrictions"
+          ],
+          "local_abstraction": "E031 typed source constraint state S=(T_S,A_S)",
+          "patch": "U_minus",
+          "schema_id": "Ax_minus"
+        }
+      ],
+      "tc_summary": {
+        "TC-1": {
+          "evidence": "Two-patch S^1 cover has U_plus, U_minus and I_plus/I_minus overlaps.",
+          "status": "pass"
+        },
+        "TC-10": {
+          "evidence": "No axiom, transition, or rule reads Berry phase data.",
+          "status": "pass"
+        },
+        "TC-11": {
+          "evidence": {
+            "assessed": true,
+            "berry_phase_input_used": false,
+            "coboundary": false,
+            "contexts": [
+              "AB",
+              "ABp",
+              "ApBp",
+              "ApB"
+            ],
+            "cover_id": "chsh_four_cycle",
+            "edges": [
+              {
+                "edge": "AB--ABp",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "+1",
+                "shared_label": "A",
+                "transition": "+1"
+              },
+              {
+                "edge": "ABp--ApBp",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "+1",
+                "shared_label": "Bp",
+                "transition": "+1"
+              },
+              {
+                "edge": "ApBp--ApB",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "+1",
+                "shared_label": "Ap",
+                "transition": "+1"
+              },
+              {
+                "edge": "ApB--AB",
+                "left_polarity": "+1",
+                "provenance": "derived_from_C",
+                "right_polarity": "-1",
+                "shared_label": "B",
+                "transition": "-1"
+              }
+            ],
+            "generalization_assessment": "The SBP parity rule extends to a finite cycle by multiplying edge signs; this CHSH-shaped control has odd flip parity and loop product -1.",
+            "holonomy": "-1",
+            "remaining_limits": "This assesses the finite Cech transfer shape only. The C1 type bridge to GU flat Z/2Z local systems and the C3 spacelike correspondence geometry remain recorded as bridge conditions, not fully proved here."
+          },
+          "status": "pass"
+        },
+        "TC-2": {
+          "evidence": "Ax_plus and Ax_minus are E031-style typed source constraint states.",
+          "status": "pass"
+        },
+        "TC-3": {
+          "evidence": {
+            "Ax_minus": {
+              "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+              "schema_id": "Ax_minus",
+              "status": "pass",
+              "violations": []
+            },
+            "Ax_plus": {
+              "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+              "schema_id": "Ax_plus",
+              "status": "pass",
+              "violations": []
+            }
+          },
+          "status": "pass"
+        },
+        "TC-4": {
+          "evidence": "C_TaF/C_overlap evaluated on every overlap component.",
+          "status": "pass"
+        },
+        "TC-5": {
+          "evidence": "A stipulated transition value was read from input.",
+          "status": "fail"
+        },
+        "TC-6": {
+          "evidence": {
+            "coboundary": false,
+            "holonomy": "-1"
+          },
+          "status": "pass"
+        },
+        "TC-7": {
+          "evidence": {
+            "fixture_verdict": "STIPULATED_TRANSPORT",
+            "outcome_class": "B",
+            "outcome_label": "B"
+          },
+          "status": "pass"
+        },
+        "TC-8": {
+          "evidence": "Outcome is not D or D_prime.",
+          "status": "not_applicable"
+        },
+        "TC-9": {
+          "evidence": "Outcome is not D or D_prime.",
+          "status": "not_applicable"
+        }
+      },
+      "transition_provenance": {
+        "I_minus": "stipulated_input",
+        "I_plus": "stipulated_input"
+      }
+    }
+  },
+  "fixture_name": "cech_sheaf_fixture",
+  "local_sources": [
+    "temporal-issuance/explorations/E031-nck-category-morphism-definitions-2026-06-22.md",
+    "temporal-issuance/explorations/E042-sbp-ind-verification-concrete-compat-family-2026-06-22.md",
+    "temporal-issuance/explorations/E052-option-a-mltt-formalization-compat-g-2026-06-22.md"
+  ],
+  "main_case": {
+    "ab_absorber_check": {
+      "C_supplies_compatibility": true,
+      "generic_sheaf_only": false
+    },
+    "case_id": "sbp_forced_orientation_flip",
+    "coboundary": false,
+    "compatibility_mode": "sbp_parity",
+    "conditionality": "Nontrivial holonomy is forced exactly when the overlap comparison has odd SBP polarity-flip parity under NAC, with no stipulated transition table.",
+    "cover": {
+      "base_space": "S^1",
+      "cover_id": "two_patch_s1",
+      "geometry": {
+        "I_minus": "right overlap near theta = pi",
+        "I_plus": "left overlap near theta = 0",
+        "U_minus": "theta in (pi - pi/4, 2*pi + pi/4)",
+        "U_plus": "theta in (-pi/4, pi + pi/4)"
+      },
+      "overlap_components": [
+        "I_plus",
+        "I_minus"
+      ],
+      "patches": [
+        "U_plus",
+        "U_minus"
+      ]
+    },
+    "description": "Main H3 fixture: Ax_plus and Ax_minus agree on I_plus and differ by one SBP polarity flip on I_minus.",
+    "fixture_verdict": "DERIVED_NONTRIVIAL_COCYCLE",
+    "forbidden_inputs_checked": [
+      "berry_phase",
+      "desired_holonomy",
+      "future_schema",
+      "global_loop_product",
+      "preselected_transition_table_without_C_provenance"
+    ],
+    "forbidden_inputs_used": [],
+    "forced_cochain": {
+      "I_minus": "-1",
+      "I_plus": "+1"
+    },
+    "holonomy": "-1",
+    "justification": "All transitions are C-derived singletons and the loop product is -1. This run is conditional because the rule forces nontriviality only for schemas with odd SBP polarity-flip parity.",
+    "no_anticipation_check": {
+      "Ax_minus": {
+        "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+        "schema_id": "Ax_minus",
+        "status": "pass",
+        "violations": []
+      },
+      "Ax_plus": {
+        "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+        "schema_id": "Ax_plus",
+        "status": "pass",
+        "violations": []
+      }
+    },
+    "outcome_class": "D_prime",
+    "outcome_label": "D'",
+    "overlap_transition_candidates": [
+      {
+        "c_taf_pass": true,
+        "candidate_labels": [
+          "+1"
+        ],
+        "candidate_values": [
+          1
+        ],
+        "comparisons": [
+          {
+            "family": "phi_L",
+            "forced_local_sign": "+1",
+            "left": "ax_plus_L_phi",
+            "left_polarity": "+1",
+            "right": "ax_minus_L_phi",
+            "right_polarity": "+1"
+          }
+        ],
+        "component": "I_plus",
+        "external_input_used": false,
+        "flip_count": 0,
+        "forced_label": "+1",
+        "forced_value": 1,
+        "left_sections": [
+          "ax_plus_L_phi"
+        ],
+        "provenance": "derived_from_C",
+        "reason": "C_overlap applies the SBP parity rule: matching polarity gives +1, opposite polarity gives -1, and multiple comparisons multiply in Z/2Z.",
+        "right_sections": [
+          "ax_minus_L_phi"
+        ]
+      },
+      {
+        "c_taf_pass": true,
+        "candidate_labels": [
+          "-1"
+        ],
+        "candidate_values": [
+          -1
+        ],
+        "comparisons": [
+          {
+            "family": "psi_R",
+            "forced_local_sign": "-1",
+            "left": "ax_plus_R_psi",
+            "left_polarity": "+1",
+            "right": "ax_minus_R_psi",
+            "right_polarity": "-1"
+          }
+        ],
+        "component": "I_minus",
+        "external_input_used": false,
+        "flip_count": 1,
+        "forced_label": "-1",
+        "forced_value": -1,
+        "left_sections": [
+          "ax_plus_R_psi"
+        ],
+        "provenance": "derived_from_C",
+        "reason": "C_overlap applies the SBP parity rule: matching polarity gives +1, opposite polarity gives -1, and multiple comparisons multiply in Z/2Z.",
+        "right_sections": [
+          "ax_minus_R_psi"
+        ]
+      }
+    ],
+    "schemas": [
+      {
+        "admissibility_predicate": "A_SBP with Compat_G-style consistency witness",
+        "axioms": [
+          {
+            "c_typed": true,
+            "consistency_witness": "Cons(PA, Ax(S), c)",
+            "constraint_id": "ax_plus_L_phi",
+            "family": "phi_L",
+            "forbidden_refs": [],
+            "independence_witness": "constructive_independence_witness",
+            "overlap": "I_plus",
+            "patch": "U_plus",
+            "polarity": "+1",
+            "sbp_boundary_proposal": true,
+            "source": "Ax_plus",
+            "type_label": "independent-of-phi_L"
+          },
+          {
+            "c_typed": true,
+            "consistency_witness": "Cons(PA, Ax(S), c)",
+            "constraint_id": "ax_plus_R_psi",
+            "family": "psi_R",
+            "forbidden_refs": [],
+            "independence_witness": "constructive_independence_witness",
+            "overlap": "I_minus",
+            "patch": "U_plus",
+            "polarity": "+1",
+            "sbp_boundary_proposal": true,
+            "source": "Ax_plus",
+            "type_label": "independent-of-psi_R"
+          }
+        ],
+        "history": [
+          "H_n contains only patch-local records and overlap restrictions"
+        ],
+        "local_abstraction": "E031 typed source constraint state S=(T_S,A_S)",
+        "patch": "U_plus",
+        "schema_id": "Ax_plus"
+      },
+      {
+        "admissibility_predicate": "A_SBP with Compat_G-style consistency witness",
+        "axioms": [
+          {
+            "c_typed": true,
+            "consistency_witness": "Cons(PA, Ax(S), c)",
+            "constraint_id": "ax_minus_L_phi",
+            "family": "phi_L",
+            "forbidden_refs": [],
+            "independence_witness": "constructive_independence_witness",
+            "overlap": "I_plus",
+            "patch": "U_minus",
+            "polarity": "+1",
+            "sbp_boundary_proposal": true,
+            "source": "Ax_minus",
+            "type_label": "independent-of-phi_L"
+          },
+          {
+            "c_typed": true,
+            "consistency_witness": "Cons(PA, Ax(S), c)",
+            "constraint_id": "ax_minus_R_psi",
+            "family": "psi_R",
+            "forbidden_refs": [],
+            "independence_witness": "constructive_independence_witness",
+            "overlap": "I_minus",
+            "patch": "U_minus",
+            "polarity": "-1",
+            "sbp_boundary_proposal": true,
+            "source": "Ax_minus",
+            "type_label": "independent-of-psi_R"
+          }
+        ],
+        "history": [
+          "H_n contains only patch-local records and overlap restrictions"
+        ],
+        "local_abstraction": "E031 typed source constraint state S=(T_S,A_S)",
+        "patch": "U_minus",
+        "schema_id": "Ax_minus"
+      }
+    ],
+    "tc_summary": {
+      "TC-1": {
+        "evidence": "Two-patch S^1 cover has U_plus, U_minus and I_plus/I_minus overlaps.",
+        "status": "pass"
+      },
+      "TC-10": {
+        "evidence": "No axiom, transition, or rule reads Berry phase data.",
+        "status": "pass"
+      },
+      "TC-11": {
+        "evidence": {
+          "assessed": true,
+          "berry_phase_input_used": false,
+          "coboundary": false,
+          "contexts": [
+            "AB",
+            "ABp",
+            "ApBp",
+            "ApB"
+          ],
+          "cover_id": "chsh_four_cycle",
+          "edges": [
+            {
+              "edge": "AB--ABp",
+              "left_polarity": "+1",
+              "provenance": "derived_from_C",
+              "right_polarity": "+1",
+              "shared_label": "A",
+              "transition": "+1"
+            },
+            {
+              "edge": "ABp--ApBp",
+              "left_polarity": "+1",
+              "provenance": "derived_from_C",
+              "right_polarity": "+1",
+              "shared_label": "Bp",
+              "transition": "+1"
+            },
+            {
+              "edge": "ApBp--ApB",
+              "left_polarity": "+1",
+              "provenance": "derived_from_C",
+              "right_polarity": "+1",
+              "shared_label": "Ap",
+              "transition": "+1"
+            },
+            {
+              "edge": "ApB--AB",
+              "left_polarity": "+1",
+              "provenance": "derived_from_C",
+              "right_polarity": "-1",
+              "shared_label": "B",
+              "transition": "-1"
+            }
+          ],
+          "generalization_assessment": "The SBP parity rule extends to a finite cycle by multiplying edge signs; this CHSH-shaped control has odd flip parity and loop product -1.",
+          "holonomy": "-1",
+          "remaining_limits": "This assesses the finite Cech transfer shape only. The C1 type bridge to GU flat Z/2Z local systems and the C3 spacelike correspondence geometry remain recorded as bridge conditions, not fully proved here."
+        },
+        "status": "pass"
+      },
+      "TC-2": {
+        "evidence": "Ax_plus and Ax_minus are E031-style typed source constraint states.",
+        "status": "pass"
+      },
+      "TC-3": {
+        "evidence": {
+          "Ax_minus": {
+            "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+            "schema_id": "Ax_minus",
+            "status": "pass",
+            "violations": []
+          },
+          "Ax_plus": {
+            "rule": "axioms may reference only the patch and its declared overlap components; global loop product, desired holonomy, future schema, preselected transition tables, and Berry phase data are forbidden",
+            "schema_id": "Ax_plus",
+            "status": "pass",
+            "violations": []
+          }
+        },
+        "status": "pass"
+      },
+      "TC-4": {
+        "evidence": "C_TaF/C_overlap evaluated on every overlap component.",
+        "status": "pass"
+      },
+      "TC-5": {
+        "evidence": "Transition values are outputs of C_overlap, not input.",
+        "status": "pass"
+      },
+      "TC-6": {
+        "evidence": {
+          "coboundary": false,
+          "holonomy": "-1"
+        },
+        "status": "pass"
+      },
+      "TC-7": {
+        "evidence": {
+          "fixture_verdict": "DERIVED_NONTRIVIAL_COCYCLE",
+          "outcome_class": "D_prime",
+          "outcome_label": "D'"
+        },
+        "status": "pass"
+      },
+      "TC-8": {
+        "evidence": "Explicit Ax_plus/Ax_minus fixture has c(I_plus)=+1, c(I_minus)=-1.",
+        "status": "pass"
+      },
+      "TC-9": {
+        "evidence": "Nontrivial holonomy is forced exactly when the overlap comparison has odd SBP polarity-flip parity under NAC, with no stipulated transition table.",
+        "status": "pass"
+      }
+    },
+    "transition_provenance": {
+      "I_minus": "derived_from_C",
+      "I_plus": "derived_from_C"
+    }
+  },
+  "summary": {
+    "fixture_verdict": "DERIVED_NONTRIVIAL_COCYCLE",
+    "forced_cochain": {
+      "I_minus": "-1",
+      "I_plus": "+1"
+    },
+    "h3_status": "conditional_derivation_path_open_for_this_finite_schema; C1/C3 bridge obligations remain outside this executable fixture",
+    "holonomy": "-1",
+    "outcome_class": "D_prime",
+    "outcome_label": "D'",
+    "transition_provenance": {
+      "I_minus": "derived_from_C",
+      "I_plus": "derived_from_C"
+    }
+  },
+  "version": 1
+}
