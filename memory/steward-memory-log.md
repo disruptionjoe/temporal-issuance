@@ -1093,3 +1093,43 @@ Files changed: `explorations/E029-bounded-accessibility-source-projection-model.
 `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`,
 `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
 `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0048
+
+Timestamp: 2026-06-22
+Trigger: manual_accelerated_thin_trigger
+Workflow: W000 -> source_side_witness_fixture (AC-8 / SBP route) + open-obligation discharge
+Agent / subagents used: Repo Steward (inline; no sub-agents — single-surface formal work).
+Current strongest version: TI-C019 source-side issuance holds in the Gödelian regime, where the
+SBP morphism space is infinite, non-c.e., and productive, so no fixed-source aperture model
+reproduces the trajectory (E042).
+Current strongest objection: in the finite-type-space regime the same trajectory is
+SSC-reproducible (E042 §3), so TI-C019 reduces to bounded projection disclosure. Whether the
+operative source is finite or Gödelian is unsettled — the single deciding bit (D-FORK).
+What collapsed: IA as a basis for K superlinearity (confirmed unrecoverable; already killed
+E039); D-RATE as an independent PP-3 discriminator (narrowed to a consistency check, E043);
+the diffuse form of the PP-3 question (replaced by single-bit D-FORK).
+What survived: monotone-obstruction (proved under FTS, E041) and the interior optimum (now a
+regime property — exists in FTS, absent in Gödelian); SBP-IND and WITNESS-OBL-001 (closed in
+the Gödelian regime, E042); TI-C021 (entropy absorber defeated, formalized as SAX, E043);
+TI-C022 (BFT/TCB absorber defeated, permanent-fork discriminator, E044).
+What was absorbed: finite-type SBP trajectories by the static-source construction (E042 §3);
+size-driven subadditivity NOT absorbed by entropy (recorded as non-absorption, E043).
+What was clarified: four previously separate questions (interior optimum, source-side witness,
+mu subadditivity, PP-3 fork) are governed by ONE axis — finite vs self-generating effective type
+space (D-FORK, E045). The interior optimum's non-existence is the formal signature of
+open-endedness. Q(e) over a productive option set cannot be pre-committed.
+What was promoted: None.
+New blockers: the operative-source question (FTS vs Gödelian) is now the program pivot, resolved
+via an expressiveness-threshold fixture; non-computable-fixed-oracle adversary defense pending
+(E042 §7); TI-C022 continuity predicate must be stated clock-free (E044 §7).
+Recommended next run: W000 -> expressiveness_threshold_fixture (decides D-FORK, resolves PP-3).
+Files changed: `explorations/E041-monotone-obstruction-sbp-finite-type-space-2026-06-22.md`,
+`explorations/E042-sbp-ind-verification-concrete-compat-family-2026-06-22.md`,
+`explorations/E043-ti-c021-entropy-subadditivity-discriminator-2026-06-22.md`,
+`explorations/E044-ti-c022-bft-tcb-discriminator-2026-06-22.md`,
+`explorations/E045-d-fork-synthesis-interior-optimum-verdict-2026-06-22.md`,
+`agent-runs/RUN-0048-monotone-obstruction-sbp-ind-discriminators.md`, `CLAIM-LEDGER.md`,
+`agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`,
+`memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `ROADMAP.md`,
+`agent-governance/STEWARD-METRICS.md`.

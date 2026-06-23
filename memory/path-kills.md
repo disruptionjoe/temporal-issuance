@@ -456,3 +456,63 @@ run_ref: RUN-0032 (W008 Category G detailed pass)
 claim_refs:
   - TI-C013
 ```
+
+```yaml
+path: Independence-Assumption (IA) route to K superlinearity / interior optimum
+reason_killed: >
+  IA (each extension creates an INDEPENDENT obstruction probability) was already shown to
+  fail structurally for all repo Compat families in E039 (admissibility is path-dependent;
+  obstruction probabilities at successive steps are correlated through the shared schema
+  state). RUN-0048 (E041) confirms IA is unrecoverable AND supplies its replacement: K is
+  superlinear iff the Compat family is MONOTONE-OBSTRUCTIVE, which is PROVED for SBP Compat
+  under a finite type space (FTS) via the Type-Pool Depletion Lemma — without IA. IA is
+  retired as the basis for the interior-optimum proof; the proof now rests on
+  monotone-obstruction (FTS regime) instead.
+evidence: >
+  `explorations/E039-ia-verification-k-superlinearity-2026-06-22.md` (IA fails),
+  `explorations/E041-monotone-obstruction-sbp-finite-type-space-2026-06-22.md` (replacement
+  proved).
+local_minimum_risk: >
+  Low. Killing IA does not weaken the interior optimum — it is re-proved on a stronger
+  (path-dependent, monotone-obstruction) basis for the finite regime. The risk is assuming the
+  operative source is FTS; in the Gödelian regime the interior optimum legitimately does not
+  exist.
+possible_future_resurrection_trigger: >
+  A restricted subclass of Compat predicates, sufficient for all operative uses, for which
+  obstruction events ARE genuinely independent (e.g. a memoryless extension process with no
+  schema-modification side effect). E039 §10 kill-condition 1 notes this would upgrade the
+  verdict; no such subclass is currently identified.
+run_ref: RUN-0048 (E039 finding confirmed; E041 replacement)
+claim_refs:
+  - TI-C019
+  - TI-C021
+```
+
+```yaml
+path: D-RATE (size-dependent vs aperture-dependent issuance rate) as an independent PP-3 discriminator
+reason_killed: >
+  E036 proposed that a size-dependent declining issuance rate (d(mu)/d|r| ~ |r|^{alpha-1})
+  distinguishes source-side issuance from projection-layer aperture disclosure, since the
+  latter's rate is set by the aperture schedule, not by realized size. RUN-0048 (E043 §7)
+  NARROWS this to a consistency check: in the finite-type-space regime — exactly where mu IS
+  strictly subadditive (E043) — the static-source adversary can choose its aperture schedule
+  to BE the pool-depletion schedule, reproducing the size-dependent rate. So D-RATE does not
+  discriminate in FTS; and in the Gödelian regime mu need not be subadditive, so the
+  size-dependent signature is absent. The genuine PP-3 discriminator is D-FORK (E042:
+  productivity / non-enumerability of the SBP space), not the rate.
+evidence: >
+  `explorations/E036-sublinear-mu-discriminator.md` (Addition 3 proposal),
+  `explorations/E043-ti-c021-entropy-subadditivity-discriminator-2026-06-22.md` (§7 narrowing),
+  `explorations/E042-sbp-ind-verification-concrete-compat-family-2026-06-22.md` (D-FORK).
+local_minimum_risk: >
+  Low. Demoting D-RATE does not weaken TI-C021 (which survives the entropy absorber on the
+  subadditivity property itself) and correctly relocates the discriminating work to D-FORK.
+possible_future_resurrection_trigger: >
+  A source-side rate signature that provably does NOT reduce to an aperture schedule tracking
+  pool depletion (e.g. a rate law independent of any monotone aperture growth), which would
+  partially restore D-RATE as a genuine discriminator alongside D-FORK.
+run_ref: RUN-0048 (E043)
+claim_refs:
+  - TI-C021
+  - TI-C019
+```

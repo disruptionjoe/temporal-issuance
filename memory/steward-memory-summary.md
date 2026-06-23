@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0046
+last_summarized_run: RUN-0048
 ---
 
 # Steward Memory Summary
@@ -389,7 +389,74 @@ mechanism — NOT integrated; highest anthropomorphic projection risk):
 New absorbers file: `absorbers/crypto-economic-security.md` (Nakamoto, BFT, VDFs, Landauer,
 Bekenstein). No claim statuses changed.
 
+## RUN-0048 Open-Obligation Discharge + D-FORK (2026-06-22)
+
+RUN-0048 discharged the four obligations carried from E039/E040 and RUN-0047, and produced a
+cross-cutting structural result.
+
+**E041 — Monotone-obstruction (IA replacement), PROVED under FTS.** The Type-Pool Depletion
+Lemma: each SBP step strictly removes one type from a finite novel-type pool (and SBP types are
+single-shot, forced by the D4 clause — not an extra assumption). Hence per-step obstruction
+probability is non-decreasing along SBP trajectories (Monotone-Obstruction Theorem), K is
+superlinear without the (killed) IA, and the **interior optimum lambda*(S) exists** under
+FTS + type-fairness + C-convexity (Theorem 2). N concavity and K superlinearity share ONE
+mechanism: finite-pool depletion. The proof breaks exactly in the Gödelian regime, where the
+interior optimum's NON-existence is the signature of open-endedness.
+
+**E042 — SBP-IND / WITNESS-OBL-001.** SBP-IND FAILS for every finite-type Compat family (only
+≤ m SBP morphisms exist — enumerable; SSC succeeds; witness does not close). SBP-IND HOLDS for a
+concrete Gödelian family (consistency-preserving arithmetic constraints): SBP(S) ≅ {φ
+independent of Ax(S)} is infinite, non-c.e., and PRODUCTIVE. Productivity defeats the E040 §7.2
+exponential-pre-commitment adversary via the diagonal escape sentence (not by cardinality).
+WITNESS-OBL-001 FULLY CLOSES in the Gödelian regime, including the infinite-trajectory version.
+The decisive property is non-computability of admissibility, not mere infinitude.
+
+**E043 — TI-C021 entropy discriminator, NOT ABSORBED.** Size-driven subadditivity (distribution-
+free concavity of the size functional) and correlation-driven Shannon subadditivity (mutual-
+information deficit) are formally distinct and logically independent (Disjoint-Independent
+Discriminator, both directions). TI-C021 formalized as the Subadditivity Axiom (SAX). The PP-3
+rate discriminator (D-RATE) HONESTLY NARROWED to a consistency check (in FTS the aperture
+adversary matches the size-dependent rate). TI-C021 stays speculative; entropy objection defeated.
+
+**E044 — TI-C022 BFT/TCB discriminator, SURVIVES.** The Permanent-Fork Discriminator: a run
+(>f Byzantine fork, or eternal partition) where each branch record satisfies BFT/TCB integrity
+but neither satisfies TI-C022's continuing-shared-process condition (b). Surplus = global
+continuity predicate on the shared process; operational reading = ontological fork-choice rule
+(genuine issuance = canonical-branch records). Honest residual: is continuity just eventual-
+synchrony liveness? Partial rebuttal (verdict-direction surplus). TI-C022 stays speculative.
+
+**E045 — D-FORK (the program pivot).** The interior optimum (E041), the source-side witness
+(E042), mu subadditivity (E043), and the PP-3 fork are ALL governed by one axis: is the
+operative source's effective type space FINITE (FTS) or SELF-GENERATING (Gödelian)?
+- FINITE ⇒ optimum exists, mu subadditive, BUT trajectory is SSC-reproducible ⇒ TI-C019 reduces
+  to bounded projection disclosure (PP-3 against issuance).
+- GÖDELIAN ⇒ productive SBP space, witness closes, SSC defeated ⇒ TI-C019 source-side issuance
+  succeeds (PP-3 for issuance); optimum need not exist (open-endedness signature).
+The diffuse PP-3 question is now a SINGLE STRUCTURAL BIT with two fully-proved, mutually
+exclusive consequence-sets. **TI-C019 is true iff the operative source is Gödelian.** The
+expressiveness threshold (self-encoded provability, Robinson-Q analog) is the FTS/Gödelian
+boundary and the concrete test target. No claim promoted; no claim killed.
+
 ## Next Run
+
+**RUN-0048 route (current): determine the operative regime (D-FORK).**
+
+Primary: expressiveness-threshold fixture — determine whether the operative TI source can encode
+its own admissibility predicate (Robinson-Q analog, E042 §6.2). This decides D-FORK and resolves
+PP-3. If self-encoding: Gödelian, TI-C019 source-side succeeds. If provably not: FTS, TI-C019
+reduces to projection disclosure. Update TI-C019 conservatively; no promotion without hostile
+review.
+
+Secondary: complete the non-computable-fixed-oracle adversary defense (E042 §7 kill-condition 2).
+
+Tertiary: formalize TI-C022's shared-process-continuity predicate as a clock-free, order-
+theoretic liveness-class condition (E044 §7); test reduction to eventual-synchrony liveness.
+
+Quaternary: FUNCTOR-OBL-001 (N naturality) and Q-OBL-001 (Q over a productive option set).
+
+Superseded RUN-0046 route preserved below for provenance:
+
+
 
 Current RUN-0046 route:
 

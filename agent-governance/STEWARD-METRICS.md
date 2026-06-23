@@ -1052,6 +1052,39 @@ notes: >
   correction, and IBP/CRP absorber logging.
 ```
 
+```yaml
+run_id: RUN-0048
+workflow_used: W000 -> source_side_witness_fixture (AC-8/SBP) + open-obligation discharge
+research_vs_governance: research
+claim_status_changed: false
+  note: no status changes; two standing objections defeated (TI-C021 entropy, TI-C022 BFT/TCB); both stay speculative; TI-C019 pivot sharpened
+path_killed: true
+  paths: [IA_route_to_K_superlinearity_interior_optimum, D-RATE_as_independent_PP3_discriminator]
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E041-monotone-obstruction-sbp-finite-type-space, E042-sbp-ind-verification-concrete-compat-family, E043-ti-c021-entropy-subadditivity-discriminator, E044-ti-c022-bft-tcb-discriminator, E045-d-fork-synthesis-interior-optimum-verdict, RUN-0048-monotone-obstruction-sbp-ind-discriminators]
+daily_review_items_added: false
+estimated_token_intensity: high
+parallel_lanes_used: false
+obligations_discharged: [monotone-obstruction(E039), WITNESS-OBL-001_SBP-IND(E040), TI-C021_entropy_discriminator, TI-C022_BFT/TCB_discriminator]
+notes: >
+  Five sequential goals, each discharging a named open obligation, plus a cross-cutting
+  synthesis. Monotone-obstruction PROVED under FTS (replaces killed IA); interior optimum
+  resolved as a regime property (exists in FTS, absent in Gödelian). SBP-IND verified:
+  fails for finite-type families, holds for a concrete Gödelian family (productive SBP space);
+  WITNESS-OBL-001 fully closed in the Gödelian regime. TI-C021 not absorbed by entropy
+  (formalized as SAX); TI-C022 survives BFT/TCB (permanent-fork discriminator). Cross-cutting
+  result D-FORK: the interior optimum, the source-side witness, mu subadditivity, and the PP-3
+  fork are all governed by one axis — finite vs self-generating effective type space — which
+  collapses PP-3 to a single structural bit. No promotion; no claim killed. Inline single-surface
+  formal work, no sub-agents (per inline-persona discipline).
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

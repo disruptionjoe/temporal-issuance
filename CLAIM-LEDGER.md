@@ -28,7 +28,7 @@ reconstruction layer beneath it. See `HYPOTHESIS.md` (vNext) and `NORTH-STAR.md`
 | --- | --- | --- | --- | --- | --- | --- |
 | TI-C001 | Temporal issuance may be the primitive substrate beneath matter, energy, information, spacetime, and records. | weakened | RUN-0024 narrows the strongest survivor to admissible source extension: typed source constraints may become admissibly extended, and observer histories are lossy projections of that extension. | `NULL-SURVIVOR` currently beats every fully formulated competitor. `Ext_S` only earns a final specification/no-go pass; it does not yet strengthen the substrate claim. | `HYPOTHESIS.md`, `HYPOTHESIS-STEELMAN.md`, `ANTI-HYPOTHESIS.md`, `agent-runs/RUN-0003-w001-kill-core-hypothesis.md`, `agent-runs/SIM-RUN-005-w003-absorber-map.md`, `agent-runs/RUN-0006-w004-five-simulated-trigger-assessment.md`, `agent-runs/RUN-0012-w002-component-pressure-pass.md`, `agent-runs/RUN-0017-repo-working-assessment.md`, `explorations/E002-issuance-to-finality-bridge-toy-model.md`, `agent-runs/RUN-0019-issuance-to-finality-bridge-toy-model.md`, `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`, `explorations/E003-source-residue-ontology-competition-brief.md`, `agent-runs/RUN-0021-post-0019-ontology-resolution-recommendations.md`, `agent-runs/RUN-0022-taf-persona-steelman-hegelian-pass.md`, `explorations/E006-ontology-survivor-competition-results.md`, `agent-runs/RUN-0024-ontology-survivor-competition.md` | Run minimal `Ext_S` specification/no-go; archive remaining source-side residue if it cannot beat named absorbers. |
 | TI-C002 | The anti-hypothesis is strong enough to threaten the project at launch. | formalizing | RUN-0024 makes `NULL-SURVIVOR` the current evidence winner against every fully formulated source-side ontology. | The anti-hypothesis could still close too early if `Ext_S` is archived before a typed admissible-extension model is attempted. | `ANTI-HYPOTHESIS.md`, `absorbers/`, `agent-runs/RUN-0003-w001-kill-core-hypothesis.md`, `agent-runs/SIM-RUN-005-w003-absorber-map.md`, `absorbers/gap-map.md`, `absorbers/category-layer-map.md`, `absorbers/primary-source-readiness.md`, `agent-runs/RUN-0010-parallel-absorber-gap-pass.md`, `agent-runs/RUN-0011-primary-source-readiness.md`, `agent-runs/RUN-0012-w002-component-pressure-pass.md`, `absorbers/time-as-finality.md`, `agent-runs/RUN-0019-issuance-to-finality-bridge-toy-model.md`, `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`, `explorations/E003-source-residue-ontology-competition-brief.md`, `explorations/E005-ontology-competition-fixture-suite.md`, `explorations/E006-ontology-survivor-competition-results.md` | Force `Ext_S` through a minimal specification/no-go pass, then let `NULL-SURVIVOR` win if no witness, invariant, or transformation consequence appears. |
-| TI-C003 | `IssuanceSystem` is a candidate formal object. | weakened | `kappa_i`, `G_ij`, and `Omega_ij` remain readout-side. RUN-0024 kills bare `<=_S` as an independent source primitive, keeps `C` only as a typed carrier, and leaves `Ext_S` as the only live source-side formalization target. | `Ext_S` may still be only ordinary transition, proof, computation, constructor/resource, thermodynamic, information-update, or time-as-finality machinery. | `FORMAL-OBJECT.md`, `FORMAL-OBJECT-PRESSURE-MATRIX.md`, `FORMAL-OBJECT-PRESSURE-RESULTS.md`, `FORMAL-DEFINITION-REPAIR.md`, `explorations/E001-two-observer-patch-test.md`, `absorbers/primary-source-readiness.md`, `agent-runs/RUN-0012-w002-component-pressure-pass.md`, `agent-runs/RUN-0013-definition-repair.md`, `agent-runs/RUN-0014-two-observer-patch-test.md`, `agent-runs/RUN-0016-w004-accelerated-sequence-assessment.md`, `agent-runs/RUN-0017-repo-working-assessment.md`, `explorations/E002-issuance-to-finality-bridge-toy-model.md`, `agent-runs/RUN-0019-issuance-to-finality-bridge-toy-model.md`, `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`, `explorations/E003-source-residue-ontology-competition-brief.md`, `explorations/E005-ontology-competition-fixture-suite.md`, `explorations/E006-ontology-survivor-competition-results.md`, `memory/path-kills.md` | Specify `Ext_S` minimally with `C_type`, projection map, quotient, witness or invariant, transformation consequence, absorber comparison, and kill condition. |
+| TI-C003 | `IssuanceSystem` is a candidate formal object. | weakened | `kappa_i`, `G_ij`, and `Omega_ij` remain readout-side. RUN-0024 kills bare `<=_S` as an independent source primitive, keeps `C` only as a typed carrier, and leaves `Ext_S` as the only live source-side formalization target. | `Ext_S` may still be only ordinary transition, proof, computation, constructor/resource, thermodynamic, information-update, or time-as-finality machinery. | `FORMAL-OBJECT.md`, `FORMAL-OBJECT-PRESSURE-MATRIX.md`, `FORMAL-OBJECT-PRESSURE-RESULTS.md`, `FORMAL-DEFINITION-REPAIR.md`, `explorations/E001-two-observer-patch-test.md`, `absorbers/primary-source-readiness.md`, `agent-runs/RUN-0012-w002-component-pressure-pass.md`, `agent-runs/RUN-0013-definition-repair.md`, `agent-runs/RUN-0014-two-observer-patch-test.md`, `agent-runs/RUN-0016-w004-accelerated-sequence-assessment.md`, `agent-runs/RUN-0017-repo-working-assessment.md`, `explorations/E002-issuance-to-finality-bridge-toy-model.md`, `agent-runs/RUN-0019-issuance-to-finality-bridge-toy-model.md`, `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`, `explorations/E003-source-residue-ontology-competition-brief.md`, `explorations/E005-ontology-competition-fixture-suite.md`, `explorations/E006-ontology-survivor-competition-results.md`, `memory/path-kills.md`, `explorations/E043-ti-c021-entropy-subadditivity-discriminator-2026-06-22.md` | Specify `Ext_S` minimally with `C_type`, projection map, quotient, witness or invariant, transformation consequence, absorber comparison, and kill condition. Note (RUN-0048, E043): the subadditivity requirement on `mu` is now a JUSTIFIED formal constraint (not absorbed by entropy) — any surviving `mu` must be distribution-free size-concave (SAX), a genuine narrowing of the `mu` candidate space. |
 | TI-C004 | Governance should evolve as hypotheses under pressure. | formalizing | RUN-0024 completed component-level ontology competition without adding governance machinery; component-specific claim rows were enough to preserve traceability. | Persona and workflow machinery can still become theater if the next run avoids the hard `Ext_S` no-go. | `agent-governance/`, `governance-package/`, `agent-runs/RUN-0004-initial-stewardship-assessment.md`, `agent-runs/RUN-0006-w004-five-simulated-trigger-assessment.md`, `agent-runs/RUN-0008-w004-vsm-stress-assessment.md`, `agent-runs/RUN-0010-parallel-absorber-gap-pass.md`, `agent-runs/RUN-0016-w004-accelerated-sequence-assessment.md`, `agent-runs/RUN-0020-taf-persona-divergent-assessment.md`, `agent-runs/RUN-0021-post-0019-ontology-resolution-recommendations.md`, `agent-runs/RUN-0024-ontology-survivor-competition.md` | Keep governance stable; route the next run to `Ext_S` specification/no-go rather than another process pass. |
 | TI-C005 | `C` can be typed source constraints with a role beyond records, events, propositions, facts, proof objects, information states, or causal-set elements. | weakened | `C` survives only as the typed carrier for a future admissible-extension rule. | If `C` does not change admissible extension, witnesses, invariants, projection, or transformation consequences, it is only an absorbed inventory. | `HYPOTHESIS-STEELMAN.md`, `explorations/E003-source-residue-ontology-competition-brief.md`, `explorations/E005-ontology-competition-fixture-suite.md`, `explorations/E006-ontology-survivor-competition-results.md`, `agent-runs/RUN-0024-ontology-survivor-competition.md` | Do not test `C` alone; require the next `Ext_S` pass to state `C_type`. |
 | TI-C006 | `<=_S` is an independent source-side order primitive. | killed | Strongest possible reading is an order induced by source-side dependence after quotienting, but RUN-0024 finds no independent role. | F2 and F6 show same order can hide different extension rules or vanish under equivalence; all bare meanings are absorbed by known order frameworks or readout. | `explorations/E003-source-residue-ontology-competition-brief.md`, `explorations/E005-ontology-competition-fixture-suite.md`, `explorations/E006-ontology-survivor-competition-results.md`, `agent-runs/RUN-0024-ontology-survivor-competition.md`, `memory/path-kills.md` | Resurrect only as a derived invariant of a successful `Ext_S` model. |
@@ -44,8 +44,10 @@ reconstruction layer beneath it. See `HYPOTHESIS.md` (vNext) and `NORTH-STAR.md`
 | TI-C016 | Temporal Issuance has a conditional physics bridge if `ExtCat` is expanded or identified with an independently specified celestial boundary category carrying BMS symmetry and boundary Noether charges. | formalizing | RUN-0034 defines candidate `CelExt`: boundary source states on `S^2`, admissible boundary insertions/kernels as morphisms, composition by operator/OPE/gluing structure, and BMS action as boundary symmetry. Under these added premises, `Q_f` is source-side relative to `CelExt` and physically meaningful as a BMS soft charge. | This is not derived from current TI. The boundary category, current algebra/action or symplectic structure, and BMS representation are imported from celestial holography unless a future fixture suite reconstructs them from source admissibility. Celestial holography itself is an active research program, not a completed rigorous boundary CFT for all flat-space gravity. | `agent-runs/RUN-0034-celestial-boundary-physics-bridge.md`, `explorations/E013-celestial-boundary-physics-bridge.md`, `agent-runs/RUN-0035-w008-category-g-bms-formal-pass.md` | Run `CelExt` fixture suite; kill if `Q_f` or morphism composition requires prior bulk S-matrix/radiative phase-space data. |
 | TI-C017 | A witness obligation `W(e)` for an admissible extension `e: S -> S'` can survive projection to a boundary `S²` as a Čech cohomology class in `H¹(S², F_e)`, where `F_e` is the sheaf of constraint-valid sections induced by `e`. Non-trivial classes correspond to gluing obstructions detectable at the boundary without bulk access. | speculative | RUN-0036 constructs the parallel pair: two extensions with the same induced order but different Čech cocycle classes — one a coboundary (trivial), one not. RUN-0044 finds that generic Čech/no-global-section witnesses are absorbed by AB-style sheaf contextuality; the survivor is narrower: C-typed admissibility must independently determine the sheaf or compatibility predicate. | Abramsky-Brandenburger (AB) sheaf contextuality absorbs any generic obstruction-to-global-section claim. TI-C017 survives only if C-typed admissibility contributes structure that a generic AB sheaf does not have; otherwise it is formal relabeling. | `explorations/E014-cetext-witness-obligations-lens-survey.md`, `agent-runs/RUN-0036-cetext-witness-obligations.md`, `explorations/E021-ds-architect-convergence-theorem.md`, `absorbers/distributed-systems.md`, `explorations/E024-presheaf-ab-absorber-test.md`, `agent-runs/RUN-0044-presheaf-ab-absorber-test.md` | Do not run Cech witness as novelty until C-typed admissibility supplies the sheaf data. If pursuing TI-C017, specify the admissibility-determined sheaf/compatibility predicate first, then compare to AB. |
 | TI-C018 | A typed constraint extension system `(C, <=_S, Ext_S)` with closed extension loops can determine a `G`-valued holonomy observable `Hol_{A_{Ext_S}}(gamma) in G` that is a morphism-level invariant not recoverable from the induced preorder, cleanly evades both BDO and ICO, and can serve as the witness observable for a boundary category `CelExt = BunConn(S^2)` if the connection is determined by the extension rule without importing target-side physics. | weakened | RUN-0037 runs the holonomy fixture. Result: bare `Ext_S` with a closed loop supplies a loop word but no canonical group element. Nontrivial holonomy appears only after adding or deriving a transport functor `A: ExtCat -> BG`. With `A`, the formal witness is real and order-invisible; without `A`, it is not determined. | The minimal fixture found no fourth option between no transport data, stipulated transport data, and identity-forced trivial holonomy. Nontriviality is absorbed by path-groupoid representation or principal-bundle mathematics unless a source admissibility rule independently forces `A`. | `explorations/E014-cetext-witness-obligations-lens-survey.md`, `agent-runs/RUN-0036-cetext-witness-obligations.md`, `explorations/E010-heterodox-bridge-incubator-synthesis.md`, `agent-runs/RUN-0031-w009-heterodox-bridge-incubator.md`, `explorations/E015-holonomy-fixture.md`, `agent-runs/RUN-0037-holonomy-fixture.md`, `memory/path-kills.md` | Route to the Cech/sheaf fixture: test whether `C`-typed admissibility independently determines allowed overlap cocycles. If not, document holonomy as formal residue only. |
-| TI-C019 | The shared-process-and-issuance hypothesis: reality remains a coherent, open-ended observer-participatory process because ongoing issuance introduces new possibility into the shared process; temporal order and finality are downstream observer-side reconstructions from records; and the intended long-range target is to determine whether issuance connects non-circularly to physical energy, cosmological expansion, structure formation, and observer reality. | formalizing | RUN-0045 partially absorbs online constructibility into constructive type theory / HoTT context discipline. CTT derives the context-relative no-reference rule: current operations cannot use unformed types. HoTT-specific univalence does not derive NAA, and VDF-style sequential computation is sufficient but not necessary. What survives is the source-side interpretation: reality may involve genuine source context extension rather than only bounded projection from a richer completed source. | RUN-0045 resolves B3 as partial absorption: ordinary contextual type formation supplies the no-reference rule, while HoTT/univalence and VDF necessity do not carry the result. The morphism-level non-embedding is formal but may describe observer-access limits rather than source structure. The issuance-energy-cosmology bridge remains unearned. PP-3 (2026-06-22, E026): bounded observer accessibility may explain all surviving D4 effects without source-side issuance — D4 does not currently distinguish genuine type creation from schema disclosure to a bounded observer. The question "is issuance a property of reality itself, or of bounded observers receiving partial projections from a richer structure?" is open and may be the deepest unresolved fork in the program. | `HYPOTHESIS.md`, `NORTH-STAR.md`, `agent-runs/RUN-0038-north-star-reframing.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `explorations/E016-issuance-precision-pass.md`, `agent-runs/RUN-0039-issuance-precision-pass.md`, `explorations/E017-d4-categorical-formalization.md`, `agent-runs/RUN-0040-d4-categorical-formalization.md`, `explorations/E018-pp1-meta-distribution-self-reference.md`, `agent-runs/RUN-0041-pp1-meta-distribution-self-reference.md`, `explorations/E019-online-schema-sys-no-anticipation.md`, `agent-runs/RUN-0042-online-schema-sys-no-anticipation.md`, `explorations/E020-expanded-steelman-hegelian-75-persona.md`, `agent-runs/RUN-0043-expanded-steelman-hegelian-75-persona.md`, `explorations/E024-presheaf-ab-absorber-test.md`, `agent-runs/RUN-0044-presheaf-ab-absorber-test.md`, `explorations/E026-bounded-accessibility-vs-issuance.md`, `explorations/E025-qm-bridge-fixture-requirement.md`, `explorations/E027-hott-constructive-vdf-online-constructibility.md`, `agent-runs/RUN-0045-hott-constructive-vdf-online-constructibility.md`, `explorations/E028-anti-collapse-hypothesis.md` | Primary: formalize bounded-accessibility source/projection model and test whether projection-layer D4 requires source-side issuance. Secondary: Assembly Theory D4 operationalization with source/projection split. Tertiary: AC-8 formal model with quorum legitimacy condition and adversarial case (incompatible schema proposals + fork-choice analog). Quaternary: TI-C020 pressure pass. Anti-collapse framing filed as companion (trajectory-level non-eventually-constant condition) — do NOT reframe TI-C019 with anti-collapse language; see E028 for synthesis and projection risks. See E026, E027, E028, RUN-0045. |
+| TI-C019 | The shared-process-and-issuance hypothesis: reality remains a coherent, open-ended observer-participatory process because ongoing issuance introduces new possibility into the shared process; temporal order and finality are downstream observer-side reconstructions from records; and the intended long-range target is to determine whether issuance connects non-circularly to physical energy, cosmological expansion, structure formation, and observer reality. | formalizing | RUN-0045 partially absorbs online constructibility into constructive type theory / HoTT context discipline. CTT derives the context-relative no-reference rule: current operations cannot use unformed types. HoTT-specific univalence does not derive NAA, and VDF-style sequential computation is sufficient but not necessary. What survives is the source-side interpretation: reality may involve genuine source context extension rather than only bounded projection from a richer completed source. | RUN-0045 resolves B3 as partial absorption: ordinary contextual type formation supplies the no-reference rule, while HoTT/univalence and VDF necessity do not carry the result. The morphism-level non-embedding is formal but may describe observer-access limits rather than source structure. The issuance-energy-cosmology bridge remains unearned. PP-3 (2026-06-22, E026): bounded observer accessibility may explain all surviving D4 effects without source-side issuance — D4 does not currently distinguish genuine type creation from schema disclosure to a bounded observer. The question "is issuance a property of reality itself, or of bounded observers receiving partial projections from a richer structure?" is open and may be the deepest unresolved fork in the program. | `HYPOTHESIS.md`, `NORTH-STAR.md`, `agent-runs/RUN-0038-north-star-reframing.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`, `explorations/E016-issuance-precision-pass.md`, `agent-runs/RUN-0039-issuance-precision-pass.md`, `explorations/E017-d4-categorical-formalization.md`, `agent-runs/RUN-0040-d4-categorical-formalization.md`, `explorations/E018-pp1-meta-distribution-self-reference.md`, `agent-runs/RUN-0041-pp1-meta-distribution-self-reference.md`, `explorations/E019-online-schema-sys-no-anticipation.md`, `agent-runs/RUN-0042-online-schema-sys-no-anticipation.md`, `explorations/E020-expanded-steelman-hegelian-75-persona.md`, `agent-runs/RUN-0043-expanded-steelman-hegelian-75-persona.md`, `explorations/E024-presheaf-ab-absorber-test.md`, `agent-runs/RUN-0044-presheaf-ab-absorber-test.md`, `explorations/E026-bounded-accessibility-vs-issuance.md`, `explorations/E025-qm-bridge-fixture-requirement.md`, `explorations/E027-hott-constructive-vdf-online-constructibility.md`, `agent-runs/RUN-0045-hott-constructive-vdf-online-constructibility.md`, `explorations/E028-anti-collapse-hypothesis.md`, `explorations/E041-monotone-obstruction-sbp-finite-type-space-2026-06-22.md`, `explorations/E042-sbp-ind-verification-concrete-compat-family-2026-06-22.md`, `explorations/E045-d-fork-synthesis-interior-optimum-verdict-2026-06-22.md`, `agent-runs/RUN-0048-monotone-obstruction-sbp-ind-discriminators.md` | PIVOT (RUN-0048, D-FORK): the PP-3 fork is now a single structural bit — is the operative source's effective type space self-generating (Gödelian) or fixed-finite (FTS)? TI-C019 source-side issuance is TRUE iff Gödelian (productive SBP space defeats the fixed-source aperture model, E042) and reduces to bounded projection disclosure iff finite (trajectory is SSC-reproducible, E042 §3). Primary next: expressiveness-threshold fixture — determine whether the operative source can encode its own admissibility predicate (Robinson-Q analog, E042 §6.2). Secondary: complete the non-computable-fixed-oracle adversary defense (E042 §7). Tertiary: TI-C020 pressure pass; Assembly Theory D4 with source/projection split. Anti-collapse framing remains companion only — do NOT reframe TI-C019 with anti-collapse language; see E028. See E041, E042, E045, RUN-0048. |
 | TI-C020 | The physical universe, as an observer-participatory process, is an instance of `OnlineSchemaSys`: its state evolution involves prefix-indexed schema growth satisfying NAA, where the no-anticipation constraint is grounded in physical causal structure, quantum measurement dynamics, and/or cosmological boundary conditions. | speculative | RUN-0042 adds this claim to separate TI-C019's principled architecture from the unearned physical application. Without TI-C020, TI describes a possible architecture for reality without arguing that physical reality falls within `OnlineSchemaSys`. RUN-0043 75-persona panel identifies quantum no-cloning, holographic boundary theories, and causal set growth dynamics as live pressure targets. RUN-0045 adds that formal NAA derivation does not establish source-side issuance; TI-C020 now requires a source-vs-projection discriminator before physics-bridge pressure can carry weight. | Entirely unearned. No physical argument currently connects `OnlineSchemaSys` to quantum mechanics, general relativity, causal set theory, or cosmology without importing ordinary time or causal structure that TI has not derived. Holographic boundary theories (AdS/CFT-style) are a particularly sharp absorber: if the boundary encodes the bulk, the boundary schema is a closed MetaCloSys encoding of the bulk — exactly the kind of system D4 is not meant to describe. | `explorations/E019-online-schema-sys-no-anticipation.md`, `agent-runs/RUN-0042-online-schema-sys-no-anticipation.md`, `explorations/E020-expanded-steelman-hegelian-75-persona.md`, `agent-runs/RUN-0043-expanded-steelman-hegelian-75-persona.md`, `explorations/E025-qm-bridge-fixture-requirement.md`, `explorations/E026-bounded-accessibility-vs-issuance.md`, `explorations/E027-hott-constructive-vdf-online-constructibility.md`, `agent-runs/RUN-0045-hott-constructive-vdf-online-constructibility.md` | Pressure TI-C020 only after source/projection split is explicit: decide whether the physical source is an OnlineSchemaSys or whether observers experience OnlineSchemaSys as bounded access to richer MetaCloSys structure. Then test quantum no-cloning / causality, causal set growth, cosmological horizon structure, and holographic boundary theories. QM bridge (E025) still requires a physical measurement where the observable algebra expands in a D4-traceable way. |
+| TI-C021 | The issuance measure mu is subadditive in realized structure size: for all disjoint realized structures A, B with positive size, mu(A union B) < mu(A) + mu(B). The marginal issuance per new constraint is strictly decreasing in realized structure size. This property distinguishes mu from all additive and inclusion-exclusion-additive measure candidates (cardinality, probability, action, linear information content). | speculative | E043 (RUN-0048): the entropy-subadditivity discriminator is RUN and TI-C021 is NOT ABSORBED. Size-driven subadditivity (concavity of the size functional, distribution-free) and correlation-driven Shannon subadditivity (mutual-information deficit) are formally distinct and logically independent (Disjoint-Independent Discriminator, both directions). TI-C021 formalized as the Subadditivity Axiom (SAX); the sublinear power-law class is characterized; diminishing marginal issuance is tied to E041 finite-pool depletion as its structural cause. The claim is regime-pinned: SAX (strict size-subadditivity) is the FTS-regime signature; in the Gödelian regime mu need not be subadditive (sustained marginal issuance). | Standing entropy objection DEFEATED (E043). Residual: the specific exponent 3/4 is absorbed by West-Brown-Enquist and is not a TI claim. The PP-3 rate discriminator (D-RATE) is honestly NARROWED to a consistency check — in the FTS regime an aperture schedule tracking pool depletion reproduces the size-dependent rate, so D-RATE does not discriminate; the genuine PP-3 discriminator is D-FORK (E042), not the rate. | `explorations/E035-mu-M-metabolic-field-specification.md`, `explorations/E036-sublinear-mu-discriminator.md`, `explorations/E043-ti-c021-entropy-subadditivity-discriminator-2026-06-22.md`, `agent-runs/RUN-0047-cross-repo-intake-absorber-test.md`, `agent-runs/RUN-0048-monotone-obstruction-sbp-ind-discriminators.md` | Entropy discriminator complete (not absorbed). Next: determine the operative regime (FTS vs Gödelian) via D-FORK — this merges TI-C021's open question into the program pivot. Promotion still requires hostile review. |
+| TI-C022 | The shared participatory process (OnlineSchemaSys + AC-8 legitimacy) is ontologically load-bearing for the reality of issuance records. A D4 event is genuine shared-process issuance iff its record propagates to a quorum of observers within a continuing valid shared process. Locally-finalized records not achieving quorum propagation in a continuing shared process are local observations, not genuine shared-process issuance events. | speculative | E044 (RUN-0048): the BFT/TCB discriminator is RUN and TI-C022 SURVIVES. The Permanent-Fork Discriminator exhibits a run (>f Byzantine fork, or eternal partition) where each branch record satisfies BFT/TCB integrity but neither satisfies TI-C022's continuing-shared-process condition (b). The surplus is real and identified precisely: TI-C022 = BFT integrity + a global continuity predicate on the shared process (no permanent unreconciled fork through the quorum event), the second conjunct being content BFT is silent about off its fault assumption. Operational reading: condition (b) is the ontological fork-choice rule (genuine issuance = canonical-branch records; orphaned-branch records are local observations). | Standing BFT/TCB objection DEFEATED (E044). Residual (flagged for next run): is the continuing-shared-process predicate just eventual-synchrony liveness restated? Partial rebuttal — TI-C022 converts BFT's silence-off-assumption into a positive ontological verdict (neither fork record is genuine), which is added content; whether that surplus supports a theorem/prediction beyond the verdict is the open question that keeps TI-C022 speculative. | `explorations/E037-kill-criteria-test-cross-repo-ideas.md`, `explorations/E044-ti-c022-bft-tcb-discriminator-2026-06-22.md`, `agent-runs/RUN-0047-cross-repo-intake-absorber-test.md`, `agent-runs/RUN-0048-monotone-obstruction-sbp-ind-discriminators.md`, `explorations/E028-anti-collapse-hypothesis.md` | BFT/TCB discriminator complete (survives). Next: formalize the shared-process-continuity predicate as an order-theoretic (clock-free) liveness-class condition and test whether it reduces to eventual-synchrony liveness. The permanent-fork case is now the canonical AC-8 adversarial fixture. Promotion still requires hostile review. |
 
 ## RUN-0046 Claim Update
 
@@ -75,4 +77,347 @@ TI-C020:
   evidence_refs_added:
     - explorations/E029-bounded-accessibility-source-projection-model.md
     - absorbers/bayesian-nonparametrics.md
+```
+
+## RUN-0047 Claim Registration
+
+```yaml
+TI-C021:
+  status: speculative
+  claim: >
+    The issuance measure mu is subadditive in realized structure size: for all disjoint
+    realized structures A, B with positive size, mu(A union B) < mu(A) + mu(B).
+    The marginal issuance per new constraint is strictly decreasing in realized structure
+    size. This property distinguishes mu from all additive and inclusion-exclusion-additive
+    measure candidates (cardinality, probability, action, linear information content).
+  current_strongest_version: >
+    The sublinear mu class mu_alpha(r) = c * |r|^alpha for 0 < alpha < 1 satisfies
+    subadditivity and produces diminishing marginal issuance. Not absorbed by any existing
+    TI mu candidate. The specific alpha and c remain unspecified.
+  current_strongest_objection: >
+    Shannon entropy is subadditive in some regimes via correlation structure. If
+    entropy's subadditivity absorbs TI-C021's size-driven subadditivity, the claim is
+    absorbed as an entropy variant. Discriminating test: entropy subadditivity depends
+    on joint distribution; TI-C021 subadditivity holds for all disjoint sets regardless
+    of distribution. Test is not yet run.
+  evidence_refs:
+    - explorations/E035-mu-M-metabolic-field-specification.md
+    - explorations/E036-sublinear-mu-discriminator.md
+    - agent-runs/RUN-0047-cross-repo-intake-absorber-test.md
+  next_action: >
+    Run entropy-subadditivity discriminator: test whether correlation-driven entropy
+    subadditivity absorbs size-driven TI-C021 subadditivity. If not absorbed: formalize
+    and add PP-3 discriminator candidate (size-dependent issuance rate vs.
+    aperture-dependent disclosure rate) as a formal test condition for TI-C021.
+
+TI-C022:
+  status: speculative
+  claim: >
+    The shared participatory process (OnlineSchemaSys + AC-8 legitimacy) is ontologically
+    load-bearing for the reality of issuance records. A D4 event is genuine shared-process
+    issuance if and only if its record propagates to a quorum of observers within a
+    continuing valid shared process. Locally-finalized records that do not achieve quorum
+    propagation in a continuing shared process are local observations, not genuine
+    shared-process issuance events.
+  current_strongest_version: >
+    Formal version: D4 event e is genuinely shared-process issuance iff (a) its record
+    appears in R_n for at least k observers (quorum threshold k from AC-8 legitimacy
+    condition), AND (b) the shared OnlineSchemaSys process has not terminated or been
+    invalidated before e achieves quorum. Condition (b) is the ontological
+    process-dependence condition not present in BFT/TCB formalism.
+  current_strongest_objection: >
+    Absorbed by Byzantine fault tolerance (BFT) + trusted computing base (TCB): the
+    requirement that records be valid within a continuing system is standard distributed
+    systems integrity. The proposed surplus — ontological grounding vs. fault-tolerance,
+    schema-extension legitimacy vs. message authentication — has not been formally tested.
+  evidence_refs:
+    - explorations/E037-kill-criteria-test-cross-repo-ideas.md
+    - agent-runs/RUN-0047-cross-repo-intake-absorber-test.md
+  next_action: >
+    Run discriminator test between BFT/TCB and TI-C022: construct a case where BFT
+    guarantees record integrity but TI-C022's ontological condition is not satisfied.
+    Connect to AC-8 adversarial model (incompatible schema proposals + fork-choice
+    analog). If the BFT discriminator case exists: TI-C022 survives. If not: absorb.
+```
+
+## RUN-0048 Claim Update
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: pivot_sharpened
+  current_strongest_version: >
+    Source-side issuance holds in the Gödelian regime, where the SBP morphism space is
+    infinite, non-c.e., and productive, so no fixed-source aperture model (E029 SSC) can
+    reproduce the trajectory (E042).
+  current_strongest_objection: >
+    In the finite-type-space regime the same trajectory is SSC-reproducible (E042 §3), so
+    TI-C019 reduces to bounded projection disclosure. Whether the operative source is finite
+    or Gödelian is unsettled — this is now the single deciding bit (D-FORK).
+  key_result: >
+    D-FORK (E045): the interior optimum (E041), the source-side witness (E042), mu
+    subadditivity (E043), and the PP-3 fork are ALL governed by one axis — finite vs
+    self-generating effective type space. The diffuse PP-3 question collapses to one
+    structural bit with two fully-proved, mutually exclusive consequence-sets.
+  evidence_refs_added:
+    - explorations/E041-monotone-obstruction-sbp-finite-type-space-2026-06-22.md
+    - explorations/E042-sbp-ind-verification-concrete-compat-family-2026-06-22.md
+    - explorations/E045-d-fork-synthesis-interior-optimum-verdict-2026-06-22.md
+    - agent-runs/RUN-0048-monotone-obstruction-sbp-ind-discriminators.md
+  next_action: >
+    Expressiveness-threshold fixture: determine whether the operative source can encode its
+    own admissibility predicate (Robinson-Q analog, E042 §6.2). This decides D-FORK and
+    resolves PP-3. No promotion.
+
+TI-C021:
+  status: speculative
+  effect: entropy_absorber_defeated_formalized
+  resolution: NOT ABSORBED (E043)
+  current_strongest_version: >
+    Size-driven subadditivity (distribution-free concavity of the size functional) is
+    formally distinct and logically independent from correlation-driven Shannon subadditivity
+    (mutual-information deficit). Formalized as the Subadditivity Axiom (SAX). Strict
+    size-subadditivity is the FTS-regime signature; tied to E041 finite-pool depletion.
+  narrowing: >
+    The PP-3 rate discriminator (D-RATE) is demoted to a consistency check — in the FTS
+    regime an aperture schedule tracking pool depletion reproduces the size-dependent rate.
+    The genuine PP-3 discriminator is D-FORK (E042), not the rate.
+  evidence_refs_added:
+    - explorations/E043-ti-c021-entropy-subadditivity-discriminator-2026-06-22.md
+    - agent-runs/RUN-0048-monotone-obstruction-sbp-ind-discriminators.md
+  next_action: >
+    Entropy discriminator complete. Determine operative regime (FTS vs Gödelian) via D-FORK;
+    TI-C021's open question merges into the program pivot. Promotion requires hostile review.
+
+TI-C022:
+  status: speculative
+  effect: bft_tcb_absorber_defeated
+  resolution: SURVIVES (E044)
+  current_strongest_version: >
+    The Permanent-Fork Discriminator: a run (>f Byzantine fork, or eternal partition) where
+    each branch record satisfies BFT/TCB integrity but neither satisfies TI-C022's
+    continuing-shared-process condition (b). Surplus = global continuity predicate on the
+    shared process; operational reading = ontological fork-choice rule.
+  current_strongest_objection: >
+    Is the continuing-shared-process predicate just eventual-synchrony liveness restated?
+    Partial rebuttal: TI-C022 converts BFT's silence-off-assumption into a positive
+    ontological verdict (neither fork record genuine); whether that surplus supports a
+    theorem/prediction beyond the verdict is the open question keeping TI-C022 speculative.
+  evidence_refs_added:
+    - explorations/E044-ti-c022-bft-tcb-discriminator-2026-06-22.md
+    - agent-runs/RUN-0048-monotone-obstruction-sbp-ind-discriminators.md
+  next_action: >
+    Formalize the shared-process-continuity predicate as an order-theoretic (clock-free)
+    liveness-class condition; test reduction to eventual-synchrony liveness. The
+    permanent-fork case is the canonical AC-8 adversarial fixture. Promotion requires
+    hostile review.
+
+interior_optimum_lambda_star:
+  status: resolved_as_regime_property (NOT admitted as a TI claim)
+  resolution: >
+    Existence PROVED for the finite-type-space regime (E041 Thm 2: monotone-obstruction +
+    N concavity + C convexity ⇒ strictly concave net functional ⇒ interior lambda*(S) > 0),
+    no longer blocked on the killed IA. Does NOT generally exist in the Gödelian regime
+    (E041 Prop 2); its non-existence is the formal signature of open-endedness. lambda*(S)
+    remains absorbed by optimal control (E034) in the finite regime and is not a TI-native
+    claim.
+  evidence_refs:
+    - explorations/E041-monotone-obstruction-sbp-finite-type-space-2026-06-22.md
+    - explorations/E045-d-fork-synthesis-interior-optimum-verdict-2026-06-22.md
+```
+
+## E047 Claim Addenda (GU Cross-Repo Check, 2026-06-22)
+
+```yaml
+TI-C012:
+  next_action_addendum: >
+    Run the Ehresmannian holonomy test: check whether a transport functor A derived
+    from the AC-8 quorum process (not from bare ExtCat alone) produces non-trivial
+    holonomy around closed schema loops. Non-trivial holonomy would be the formal
+    signature of Ehresmannian (source-layer) character of the quorum process, which
+    supports LAYER-OBL-001 sub-requirement 1. E047 shows that the Riemannian/Ehresmannian
+    split from GU provides a formally precise version of the source-layer declaration:
+    A_{S_n} is Ehresmannian (independent gauge degrees of freedom) iff the quorum
+    operates at source layer; A_{S_n} is Riemannian (uniquely derived from fixed metric)
+    iff the quorum operates at observer-coordination layer. The holonomy of A_{S_n} is the
+    formal test. This is a more motivated entry point for the transport functor than the
+    bare ExtCat holonomy of E015, which required A independently without a grounding
+    reason. The grounding reason is now: A is the Ehresmannian connection of the quorum
+    process, and its non-trivial holonomy would constitute the source-layer declaration.
+  cross_ref: explorations/E047-gu-constructions-ti-cross-repo-check-2026-06-22.md
+
+TI-C019:
+  layer_obl_001_addendum: >
+    E047 provides two positive characterizations of what LAYER-OBL-001 requires (neither
+    discharges it; both point at D-FORK as the resolution mechanism):
+    (1) Ehresmannian test: A_{S_n} carries gauge-independent degrees of freedom not
+    derivable from any fixed source — the Ehresmannian formulation of LAYER-OBL-001
+    sub-requirement 1. Formal signature: non-trivial holonomy of the A_{S_n} connection
+    process (connects to TI-C012, E015, E047). The Riemannian/Ehresmannian split from GU
+    gives sub-requirement 1 a mathematical shape it previously lacked.
+    (2) Higgs-illusion test: no fixed A_infty exists such that all SBP morphisms from
+    any S_n can be expressed as components or projections from A_infty. The GU Higgs-
+    as-illusion construction is a precise physical model of what projection-absorber
+    disclosure looks like at the observer layer (Y^14 = Mu_infty; X^4 = S_n; Higgs
+    appearing as new = D4 type appearing in schema; Higgs derived from Y^14 = type already
+    in T_infty). LAYER-OBL-001 must rule out the Higgs illusion scenario. Ruling it out
+    is equivalent to the expressiveness-threshold fixture (Robinson-Q analog, E042 §6.2,
+    E045): if the operative source is Gödelian, no fixed A_infty serves as the Higgs space
+    because the SBP space outgrows any pre-committed A_infty via Gödelian productivity.
+  cross_ref: explorations/E047-gu-constructions-ti-cross-repo-check-2026-06-22.md
+```
+
+## E051 D-FORK Verdict Addenda (2026-06-22)
+
+```yaml
+LAYER-OBL-001_sub_req_3:
+  status: OPEN
+  verdict: UNDECIDABLE_WITHIN_CURRENT_FORMALISM
+  formal_result: >
+    Navigation predicate (N) defeated across all Gödelian SBP trajectories and per
+    individual infinite trajectory. No fixed A_∞ exists for the Gödelian Compat family
+    (path-dependence of quorum choices; proved via Lindenbaum-Tarski algebra on LT(PA)).
+    However: creation (C) is not positively established. Navigation-of-Stone-space-of-LT(PA)
+    is formally coherent and consistent with all proved results (productivity E042,
+    DR≠0 E049, quorum equivariance E050). Resolution requires ontological commitment
+    external to TI's current formalism.
+  resolution_paths:
+    A: >
+      Constructivist formalization of Compat_G in intuitionistic arithmetic (Martin-Löf
+      type theory or intuitionistic PA). Each SBP morphism becomes a construction event,
+      not a discovery. Sub-req 3 closes under creation verdict. Recommended.
+    B: >
+      Accept Platonist arithmetic. Sub-req 3 fails. ORT proves navigation-of-non-computable-
+      space. PP-3 must find alternative route.
+    C: >
+      Prove Stone space of LT(PA) is not a coherent object in TI's framework. Strong claim;
+      deferred.
+  absorbers_updated:
+    - "#1 (Latent Global Section): Stone space of LT(PA) is the precise formal Platonic object. Coherent."
+    - "#3 (Sheaf Completion): The completed sheaf over the consistency space = LT(PA). Coherent."
+    - "#15 (Modal Space): Stone space of LT(PA) is the correct formal version. Confirmed."
+  exploration_ref: explorations/E051-d-fork-creation-vs-navigation-resolution-2026-06-22.md
+
+TI-C019:
+  layer_obl_001_sub_req_3_addendum: >
+    E051 (2026-06-22): Sub-req 3 is UNDECIDABLE within current formalism. Navigation
+    interpretation (#1/#3/#15 absorbers) confirmed formally coherent via Lindenbaum-Tarski
+    analysis. Path-dependence argument proves no single fixed A_∞ works, but does not
+    rule out "navigating a non-computable Platonic sheaf." Resolution requires adopting
+    Option A (constructivist Compat_G formalization) or Option B (accept navigation,
+    find alternative PP-3 route). Recommended: Option A. Next action updated accordingly.
+  next_action_updated: >
+    Option A of E051: formalize Compat_G within intuitionistic arithmetic. Specifically:
+    reformulate "c is independent of Ax(S_n)" constructively (no classical excluded middle
+    over the independence predicate); show that each SBP morphism is a construction of a
+    new formal object (not selection from a pre-existing Platonic set). This closes
+    LAYER-OBL-001 sub-req 3 under creation verdict and, combined with the conditional
+    closures of sub-reqs 1 and 2, fully closes LAYER-OBL-001, allowing PP-3 to close.
+```
+
+## E052 Option A Execution (2026-06-22)
+
+```yaml
+LAYER-OBL-001_sub_req_3:
+  status: CLOSED_UNDER_MLTT
+  verdict: CREATION (conditional on MLTT adoption for Compat_G)
+  formal_result: >
+    E052 executes Option A from E051. Compat_G is reformulated in Martin-Löf type theory
+    (MLTT). Key results:
+    (1) Consistency type: Cons(PA, A_S, c) := ProofOf(Ax(S) ∪ {c}, ⊥) → ⊥_type.
+        A term π: Cons(PA, A_S, c) is an explicit proof construction. No pre-existing
+        space of consistent extensions is assumed.
+    (2) Navigation (N) fails as malformed in MLTT: a fixed A_∞ would require the
+        ultrafilter lemma (to construct the Stone space of LT(PA)) or a Π_1 decision
+        procedure — both non-constructive and absent from MLTT. (N) cannot be stated as
+        a well-formed MLTT proposition.
+    (3) Creation (C) holds in MLTT: each SBP morphism at stage n requires the quorum to
+        construct proof terms π_n: Cons(PA, Ax(S_n), c_n) that did not previously exist.
+        Path-dependence is type-structural: diverging trajectories build incompatible MLTT
+        type families with no consistent ambient type.
+    (4) All prior TI results survive: E038 (associativity via type isomorphism), E039
+        (monotone-obstruction via finite induction), E042 (SBP-IND via constructive
+        incompleteness and diagonalization), E049 (distortion residue via proof-term
+        non-emptiness), E050 (quorum equivariance via constructive GAUGE-COV).
+    (5) LAYER-OBL-001 FULLY CLOSED: sub-reqs 1 (E049), 2 (E050), 3 (E052) all closed.
+    (6) PP-3 HOLDS under MLTT: ORT is a genuine source-side witness; Mu_infty cannot
+        pre-contain unconstructed proof terms.
+  conditionality: >
+    The creation verdict is conditional on adopting MLTT as the background mathematics
+    for Compat_G. Under classical Platonism, the Stone space of LT(PA) pre-exists and
+    navigation remains coherent (though (N) still fails per E051 §3.4). The MLTT choice
+    is well-motivated: Compat_G's operational content is naturally constructive; Platonist
+    excess (importing a completed infinite structure TI does not otherwise need) is avoided;
+    the choice aligns with TI-C019's intent.
+  exploration_ref: explorations/E052-option-a-mltt-formalization-compat-g-2026-06-22.md
+
+TI-C019:
+  layer_obl_001_closure_addendum: >
+    E052 (2026-06-22): LAYER-OBL-001 FULLY CLOSED under MLTT formalization of Compat_G.
+    Sub-req 3 closes under creation verdict. PP-3 holds. The ORT (E040) is now a
+    confirmed source-side witness, not merely a global-coordination-structure
+    irreducibility result. Remaining open items: FUNCTOR-OBL-001 (N naturality),
+    Q-OBL-001 (Q grounding circularity), TI-C020 (physical universe as OnlineSchemaSys),
+    non-computable-oracle adversary defense (E042 §7). None of these are required for
+    LAYER-OBL-001 closure; they remain independent open obligations.
+  next_action_updated: >
+    LAYER-OBL-001 closed. Next priority: (1) FUNCTOR-OBL-001 — show N transforms
+    naturally under morphisms in Ext_S; (2) Q-OBL-001 — ground quorum-validity weight
+    without circularity; (3) TI-C020 expressiveness-threshold fixture — determine whether
+    the physical operative source encodes its own admissibility predicate (Robinson-Q
+    analog). No promotion for TI-C019 yet; FUNCTOR-OBL-001 and Q-OBL-001 remain open.
+```
+
+---
+
+## E048 Claim Addenda (Weinstein UCSD 2025 Cross-Repo Check, 2026-06-22)
+
+```yaml
+TI-C012:
+  next_action_addendum: >
+    E048 (Weinstein UCSD 2025 assessment) adds a parallel diagnostic to the E047
+    Ehresmannian holonomy test: the DISTORTION-RESIDUE TEST. Rather than testing for
+    non-trivial holonomy around closed loops, the distortion-residue test computes the
+    gauge-equivariant component of A_{S_{n+1}} - A_{S_n} that is NOT explainable by
+    type-relabeling from A_{S_n} (the "schema distortion" analog of Weinstein's
+    distortion = connection minus gauge-transformed Levi-Civita). If this residue is
+    non-zero and transforms correctly under type relabelings, it is evidence for
+    source-layer admissibility change (Ehresmannian). If zero, the quorum is observer-
+    layer (Riemannian from a fixed source). The holonomy test and distortion-residue test
+    are INDEPENDENT diagnostics that can be run in parallel; both target Ehresmannian
+    vs. Riemannian character of A_{S_n} evolution.
+  cross_ref: explorations/E048-weinstein-ucsd-2025-ti-cross-repo-check-2026-06-22.md
+
+TI-C019:
+  layer_obl_001_addendum: >
+    E048 (Weinstein UCSD 2025 assessment) sharpens LAYER-OBL-001 sub-requirement 1 with
+    three additions from the distortion/torsion, tau+, and double-coset constructions:
+    (3) Distortion-residue test: compute the gauge-equivariant difference between
+    type-relabeling applied to A_{S_n} (observer-layer operation) and SBP extension
+    e: S_n -> S_{n+1} applied to A_{S_n} (source-layer operation). The non-zero,
+    gauge-equivariant residue — the "schema distortion" — is the named quantity that
+    sub-requirement 1 requires showing is non-zero. E047 said "show A carries independent
+    gauge degrees of freedom"; E048 adds "compute the distortion residue — the
+    gauge-equivariant component of A_{S_{n+1}} - A_{S_n} not due to type relabeling."
+    (4) Quorum-equivariance test: verify that A_{S_{n+1}} is invariant under individual
+    observer type-name choices (left action absorbed, from double-coset construction) but
+    sensitive to quorum-accepted schema updates (right action visible). If the double-coset
+    structure holds, the quorum is schema-state-changing (source-layer); if the left action
+    is visible, the quorum is observer-layer. This tests sub-requirement 2 directly.
+    Neither test discharges LAYER-OBL-001 by itself; both are precursors to the
+    expressiveness-threshold fixture (D-FORK). A new concrete formal obligation named:
+    GAUGE-COV-OBL-001 — verify that E031's Compat(c, T, S) predicate is
+    schema-relabeling-covariant (distortion-style, not torsion-style). If verified,
+    E046 Gauge Absorber #5 is formally defeated.
+  cross_ref: explorations/E048-weinstein-ucsd-2025-ti-cross-repo-check-2026-06-22.md
+
+E046_gauge_absorber_5:
+  status_update: >
+    CONDITIONALLY DEFEATED (E048). E048 identifies that the Gauge Absorber (#5 in E046)
+    has a constructive resolution path via GAUGE-COV-OBL-001: if the Compat(c, T, S)
+    predicate in E031 §III.1 is schema-relabeling-covariant (distortion-style — evaluates
+    incompatibility relative to the gauge-transformed schema rather than the raw schema),
+    then type-incompatibility is gauge-equivariant by construction and the absorber is
+    formally defeated. Verification pending E031 check and amendment if needed.
+  cross_ref: explorations/E048-weinstein-ucsd-2025-ti-cross-repo-check-2026-06-22.md
 ```

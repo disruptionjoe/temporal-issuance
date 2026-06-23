@@ -146,6 +146,42 @@ candidate source-side witness reduces to fixed-source aperture disclosure, narro
 observer/process constructibility and stop treating source-side issuance as the active
 research target until new evidence appears.
 
+RUN-0048 discharged the four open obligations carried from E039/E040/RUN-0047 and produced the
+cross-cutting D-FORK result. Monotone-obstruction is PROVED under a finite type space (E041),
+replacing the killed IA; the interior optimum lambda*(S) is resolved as a regime property
+(exists in FTS, absent in Gödelian, its absence being the signature of open-endedness). SBP-IND
+is verified (E042): it FAILS for finite-type Compat families (the trajectory is then
+SSC-reproducible, so TI-C019 reduces to bounded projection disclosure) and HOLDS for a concrete
+Gödelian family with a productive (non-c.e.) SBP space (which defeats the fixed-source adversary,
+closing WITNESS-OBL-001 in that regime). TI-C021 survives the entropy absorber (E043); TI-C022
+survives the BFT/TCB absorber (E044). The headline (E045): the source-side witness, the interior
+optimum, mu subadditivity, and the PP-3 fork are all governed by a single axis — whether the
+operative source's effective type space is finite or self-generating. The diffuse PP-3 question
+is now a single structural bit (D-FORK): TI-C019 source-side issuance is true iff the source is
+Gödelian.
+
+Open tasks (updated after RUN-0048):
+
+- Expressiveness-threshold fixture (new critical path): determine whether the operative source
+  can encode its own admissibility predicate (Robinson-Q analog). This decides D-FORK and
+  resolves PP-3. If self-encoding: Gödelian, TI-C019 source-side succeeds. If provably not: FTS,
+  TI-C019 reduces to projection disclosure.
+- Non-computable-fixed-oracle adversary defense (E042 §7): close the last SSC escape in the
+  Gödelian regime.
+- TI-C022 shared-process-continuity predicate: formalize clock-free (order-theoretic); test
+  reduction to eventual-synchrony liveness. Permanent-fork is the canonical AC-8 adversarial
+  fixture.
+- FUNCTOR-OBL-001 (N naturality) and Q-OBL-001 (Q over a productive option set) — carried forward.
+- LAYER-OBL-001 Ehresmannian formulation (E047): the obligation to show A_{S_n} is
+  Ehresmannian (gauge-independent, not uniquely derivable from any fixed source) now has
+  a specific formal shape. Two positive characterizations: (a) Ehresmannian holonomy test
+  — non-trivial holonomy of the A_{S_n} connection process would serve as the source-layer
+  declaration (links to TI-C012, E015); (b) Higgs-illusion test — show no fixed A_infty
+  can serve as the "Higgs space" from which all SBP morphisms project (equivalent to
+  expressiveness-threshold fixture / Robinson-Q analog). Both tests converge on D-FORK
+  as the resolution mechanism. The Ehresmannian holonomy test is the more tractable
+  near-term entry point; the Higgs-illusion test is the conceptually precise formulation.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.

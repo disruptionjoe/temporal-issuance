@@ -3,11 +3,90 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0046
+updated_by_run: RUN-0048
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## D-FORK Pivot (RUN-0048) — Determine the Operative Regime
+
+RUN-0048 discharged four carried-forward obligations (monotone-obstruction, SBP-IND /
+WITNESS-OBL-001, TI-C021 entropy discriminator, TI-C022 BFT/TCB discriminator) and produced a
+cross-cutting structural result, **D-FORK** (E045):
+
+The interior optimum (E041), the source-side witness (E042), mu subadditivity (E043), and the
+PP-3 fork are all governed by **one axis**: whether the operative source's effective type space
+is finite (FTS) or self-generating (Gödelian).
+
+```text
+FTS (finite type space):  interior optimum exists; mu strictly subadditive; BUT the
+  trajectory is SSC-reproducible ⇒ TI-C019 reduces to bounded projection disclosure.
+GÖDELIAN (self-generating): SBP space productive (non-c.e.); source-side witness closes;
+  SSC defeated by productivity ⇒ TI-C019 source-side issuance succeeds; interior optimum
+  need not exist (its absence = signature of open-endedness).
+```
+
+So the deepest PP-3 question is now a **single structural bit**: is the operative source's
+effective type space self-generating or fixed-finite?
+
+Primary next trigger:
+
+```text
+W000 -> expressiveness_threshold_fixture
+```
+
+Required:
+
+1. Specify what it would take for the operative TI source to **encode its own admissibility
+   predicate** (the Robinson-Q / self-encoded-provability analog, E042 §6.2). This is the
+   FTS/Gödelian boundary.
+2. If the source can self-encode admissibility: it is Gödelian; SBP-IND holds; TI-C019
+   source-side issuance succeeds; WITNESS-OBL-001 is closed for it.
+3. If it provably cannot (computable/finite admissibility): it is FTS; the trajectory is
+   SSC-reproducible; TI-C019 reduces to bounded projection disclosure (PP-3 resolves against
+   issuance for that source).
+4. Update TI-C019 conservatively based on the regime determination. No promotion without
+   hostile review.
+
+Success condition: a principled regime determination (or a principled statement of what
+evidence would determine it) for the operative source.
+
+Failure condition: the FTS/Gödelian distinction cannot be applied to the operative source
+without importing ordinary time/causal structure (KILL-CRITERIA K2 circularity risk); if so,
+flag and narrow.
+
+Secondary next trigger:
+
+```text
+W000 -> non_computable_fixed_oracle_adversary_defense
+```
+
+Complete the E042 §7 kill-condition-2 defense: prove a fixed non-computable oracle cannot
+reproduce productive SBP traces, because Ax(S_n) is itself produced by un-pre-committable
+quorum choices among productive options (closes the last SSC escape in the Gödelian regime).
+
+Tertiary next trigger:
+
+```text
+W000 -> shared_process_continuity_predicate_formalization
+```
+
+Formalize TI-C022's continuing-shared-process predicate (E044 §7) as an order-theoretic,
+clock-free liveness-class condition (e.g. "a single ⊆-directed chain of quorum-legitimate
+schema states contains the event"); test whether it reduces to eventual-synchrony liveness.
+The permanent-fork case is the canonical AC-8 adversarial fixture.
+
+Quaternary (carried forward):
+
+```text
+W000 -> FUNCTOR_OBL_001 (N naturality)  and  Q_OBL_001 (Q circularity over a productive set)
+```
+
+Both are now better positioned: Q(e) = -log(acceptance prob) over a productive (non-enumerable)
+option set cannot be pre-committed (E042 §8).
+
+---
 
 ## Source Witness Needed (RUN-0046)
 
