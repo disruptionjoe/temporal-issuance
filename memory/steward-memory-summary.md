@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0048
+last_summarized_run: RUN-0049
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: D4_survives_only_as_online_non_anticipatory_class_relative_discriminator
 bare_Ext_S_derives_connection: no
-next_required_test: source_side_witness_fixture
+next_required_test: TI_C020_predictive_accessible_fixed_H_vs_H_growing_fixture
 ```
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
@@ -437,9 +437,51 @@ exclusive consequence-sets. **TI-C019 is true iff the operative source is Gödel
 expressiveness threshold (self-encoded provability, Robinson-Q analog) is the FTS/Gödelian
 boundary and the concrete test target. No claim promoted; no claim killed.
 
+## Predictive / Accessible Orch-OR / GU Steelman Result (RUN-0049)
+
+RUN-0049 processed Joe's predictive/accessibility, Orch-OR, and GU cross-link prompt through a
+62-persona W007 steelman/Hegelian pass.
+
+Verdict:
+
+```yaml
+add_as_fixture_candidate_not_claim: true
+direct_superposition_equals_issuance: killed
+predictive_accessible_split: survives_as_layer_vocabulary
+orch_or_as_ti_evidence: not_earned
+orch_or_as_fixture: strong_candidate
+gu_cross_link: useful_context_not_authority
+claim_status_change: none
+```
+
+Strongest surviving version: predictive state is the process/readout representation of unresolved
+admissible extensions; accessible state is the record/quorum layer after reconstruction. This is
+TI-C020-relevant only if the transition forces H-growing or A-growing structure not pre-contained
+in fixed `H_infty` / `A_infty` / `Mu_infty`.
+
+Strongest objection: standard superposition is fixed-H state structure. Measurement, decoherence,
+objective collapse, QBism/RQM, Quantum Darwinism, Abramsky-Brandenburger contextuality, and
+ordinary biochemical/anesthetic mechanisms can absorb predictive-to-accessible language.
+
+Path killed: `superposition = issuance` without an H-growing/A-growing witness.
+
+Next test: build the fixed-H vs H-growing fixture. Orch-OR/microtubule quantum-biology and GU
+signed-readout/TaF links are fixture handles only, not evidence for `TI-C020`.
+
 ## Next Run
 
-**RUN-0048 route (current): determine the operative regime (D-FORK).**
+**RUN-0049 route (current): TI-C020 predictive/accessibility fixture.**
+
+Primary: fixed-H vs H-growing predictive-accessible fixture. Define `P_n`, `A_n`, `rho_n`,
+the fixed-H null, and the H-growing/A-growing success condition. Use Orch-OR/microtubule data
+only as candidate substrate material. Compare against decoherence, objective-collapse variants,
+QBism/RQM, Quantum Darwinism, AB contextuality, and biochemical/anesthetic absorbers. No claim
+movement without a growing observable algebra, admissibility predicate, or construction-space
+witness.
+
+Secondary: determine the operative regime (D-FORK), preserving the RUN-0048 route below.
+
+**RUN-0048 route (still live): determine the operative regime (D-FORK).**
 
 Primary: expressiveness-threshold fixture — determine whether the operative TI source can encode
 its own admissibility predicate (Robinson-Q analog, E042 §6.2). This decides D-FORK and resolves

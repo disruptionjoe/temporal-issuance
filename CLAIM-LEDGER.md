@@ -421,3 +421,43 @@ E046_gauge_absorber_5:
     formally defeated. Verification pending E031 check and amendment if needed.
   cross_ref: explorations/E048-weinstein-ucsd-2025-ti-cross-repo-check-2026-06-22.md
 ```
+
+## RUN-0049 Claim Addenda
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: narrative_fixture_vocabulary_added_no_claim_movement
+  addendum: >
+    Predictive/accessibility language fits the observer-temporal layer, but does not change
+    D-FORK. Source-side issuance still depends on productive/self-generating source structure
+    or another witness that defeats fixed-source aperture disclosure.
+  evidence_refs_added:
+    - explorations/E053-predictive-accessible-orch-or-gu-62-persona-pass-2026-06-23.md
+    - agent-runs/RUN-0049-predictive-accessible-orch-or-gu-steelman.md
+
+TI-C020:
+  status: speculative
+  effect: physical_bridge_fixture_sharpened
+  current_strongest_version: >
+    TI-C020 can use Orch-OR, microtubules, and GU signed-readout/TaF parallels only as a
+    candidate fixed-H vs H-growing substrate fixture. Predictive state means unresolved
+    admissible extensions at the process/readout boundary; accessible state means record-usable
+    finality after reconstruction.
+  strongest_objection: >
+    Standard fixed-H quantum mechanics, decoherence, objective-collapse variants, QBism/RQM,
+    Quantum Darwinism, Abramsky-Brandenburger contextuality, and ordinary biochemical or
+    anesthetic mechanisms absorb the predictive-accessible interpretation unless an H-growing
+    or A-growing witness is supplied.
+  next_action: >
+    Run a fixed-H vs H-growing predictive-accessible fixture. Use Orch-OR/microtubule
+    perturbation only as one candidate substrate. No claim movement without a growing
+    observable algebra, admissibility predicate, or construction-space witness.
+
+TI-C001:
+  status: weakened
+  effect: reconstruction_layer_reinforced
+  note: >
+    Measurement/accessibility belongs to the downstream record/finality layer unless the
+    source predicate or admissible observable algebra changes.
+```

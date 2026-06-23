@@ -3,11 +3,65 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0048
+updated_by_run: RUN-0049
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Predictive / Accessible TI-C020 Fixture (RUN-0049)
+
+RUN-0049 processed Joe's predictive/accessibility, Orch-OR, and GU cross-link prompt through
+W007 with 62 personas.
+
+Verdict:
+
+```yaml
+direct_superposition_equals_issuance: killed
+predictive_accessible_split: fixture_vocabulary_survives
+orch_or_as_ti_evidence: not_earned
+orch_or_as_fixture: strong_candidate
+gu_cross_link: useful_context_not_authority
+claim_status_change: none
+```
+
+Primary next trigger:
+
+```text
+W000 -> TI_C020_predictive_accessible_fixed_H_vs_H_growing_fixture
+```
+
+Required:
+
+1. Define `P_n` (predictive state space), `A_n` (accessible record algebra), `rho_n`
+   (projection/readout map), the fixed-H null, and the H-growing/A-growing success condition.
+2. Fixed-H null: all apparent predictive-to-accessible transitions are value resolution,
+   decoherence, objective collapse inside fixed state space, Bayesian/RQM/QBist update,
+   Quantum Darwinism redundancy, AB contextuality, or biochemical/anesthetic mechanism inside a
+   fixed observable algebra.
+3. H-growing success: the transition forces a non-isomorphic observable algebra, admissibility
+   predicate, or construction space that cannot be represented as fixed `H_infty` plus an access
+   map.
+4. Treat Orch-OR/microtubule data as a candidate substrate only. Superradiance, tryptophan
+   network, exciton diffusion, and anesthetic perturbation data must be fixtures, not proof.
+5. Treat GU signed-readout / observer-finality / TaF links as comparison handles, not authority.
+
+Success condition: a discriminating fixture that says what observation or formal witness would
+separate fixed-H accessibility from H-growing source issuance.
+
+Failure condition: the predictive/accessibility distinction remains an interpretation of fixed-H
+readout and should stay in the reconstruction layer (`TI-C001`), not `TI-C020`.
+
+Carry forward:
+
+```text
+FUNCTOR-OBL-001
+Q-OBL-001
+D-FORK / expressiveness-threshold fixture
+```
+
+The D-FORK pivot below remains the deeper TI-C019 route. RUN-0049 only adds a targeted TI-C020
+physical-bridge fixture.
 
 ## D-FORK Pivot (RUN-0048) — Determine the Operative Regime
 

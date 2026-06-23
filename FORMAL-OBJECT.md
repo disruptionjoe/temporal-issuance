@@ -147,6 +147,35 @@ Tau(F(e)) = alpha Q(e)
 
 This preserves same-order/different-extension distinctions when `LorHist_g(M)` remembers proper time. It fails if the target is reduced to causal preorder alone. The result is a kinematic control model, not a physical bridge: `Q`, `(M, g)`, action, Poincare symmetry, and Noether machinery are not derived.
 
+RUN-0049 predictive/accessibility fixture interface:
+
+This is an optional `TI-C020` physical-bridge interface. It does not replace `Ext_S`,
+`OnlineSchemaSys`, D-FORK, or the MLTT `Compat_G` formalization. It exists to test whether a
+predictive-to-accessible transition is fixed-H readout or H-growing issuance.
+
+```text
+P_n       predictive state/process space at stage n
+A_n       accessible record or observable algebra at stage n
+rho_n     readout/projection map P_n -> A_n
+H_fixed   null model: one fixed Hilbert/state/observable space with changing access or values
+H_grow    success model: non-isomorphic growth of admissible observable algebra, predicate,
+          or construction space
+```
+
+Formal discriminator:
+
+```text
+fixed-H absorbed:
+  exists H_infty and access maps alpha_n such that every A_n and rho_n factors through H_infty
+
+H-growing candidate:
+  no fixed H_infty / A_infty / Mu_infty can factor all A_n, rho_n, and admissibility updates
+  while preserving records, morphisms, and observer reconstruction
+```
+
+Orch-OR, microtubule superradiance, anesthetic perturbation, and GU signed-readout comparisons
+belong here only as fixture sources. They do not by themselves supply `H_grow`.
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?

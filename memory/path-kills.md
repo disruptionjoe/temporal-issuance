@@ -516,3 +516,33 @@ claim_refs:
   - TI-C021
   - TI-C019
 ```
+
+## RUN-0049
+
+```yaml
+path: Superposition-as-predictive interpreted as direct source-side issuance without an H-growing witness
+reason_killed: >
+  Standard quantum superposition is fixed-H state/algebraic structure; measurement, collapse,
+  decoherence, accessibility, and observer reconstruction can be handled by fixed observable
+  algebra mechanisms. Orch-OR and microtubule quantum-biology data are fixture candidates, but
+  they do not by themselves show growing observable algebra, growing admissibility predicate,
+  or source-side construction-space expansion.
+evidence: >
+  `explorations/E025-qm-bridge-fixture-requirement.md`,
+  `explorations/E053-predictive-accessible-orch-or-gu-62-persona-pass-2026-06-23.md`, and
+  `agent-runs/RUN-0049-predictive-accessible-orch-or-gu-steelman.md`.
+local_minimum_risk: >
+  Medium. Predictive/accessibility remains useful fixture vocabulary, and a real H-growing
+  physical witness could still resurrect a TI-C020 bridge. Killing the identity claim must not
+  kill the narrower fixed-H vs H-growing test.
+possible_future_resurrection_trigger: >
+  A concrete physical process where the pre/post observable algebra, admissibility predicate,
+  or construction space is non-isomorphic and not representable as fixed `H_infty` plus an
+  access map. Orch-OR or microtubule perturbation data may be used only if they supply this
+  growing-algebra witness rather than ordinary state resolution.
+run_ref: RUN-0049
+claim_refs:
+  - TI-C020
+  - TI-C019
+  - TI-C001
+```

@@ -182,6 +182,23 @@ Open tasks (updated after RUN-0048):
   as the resolution mechanism. The Ehresmannian holonomy test is the more tractable
   near-term entry point; the Higgs-illusion test is the conceptually precise formulation.
 
+RUN-0049 completed the requested W007 62-persona steelman/Hegelian pass on the
+predictive/accessibility, Orch-OR, and GU cross-link thesis. Result: add the material as a
+fixture candidate, not as a claim. Direct `superposition = issuance` is killed unless there is
+an H-growing or A-growing witness. Predictive/accessibility survives as layer vocabulary:
+predictive state is unresolved admissible extension at the process/readout boundary; accessible
+state is record-usable finality. Orch-OR/microtubule quantum-biology and GU signed-readout/TaF
+links are useful fixture handles, not evidence for `TI-C020`.
+
+Open tasks (updated after RUN-0049):
+
+- TI-C020 predictive-accessible fixture: construct the fixed-H null and the H-growing/A-growing
+  success condition. Orch-OR/microtubule perturbation can serve as one candidate substrate, but
+  only if the fixture checks against decoherence, objective-collapse variants, QBism/RQM,
+  Quantum Darwinism, AB contextuality, and biochemical/anesthetic absorbers.
+- Keep D-FORK / expressiveness-threshold as the deeper TI-C019 pivot. The predictive-accessible
+  fixture must not replace the finite vs self-generating effective-type-space question.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.

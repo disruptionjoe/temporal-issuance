@@ -145,6 +145,44 @@ The bridge incubation (W009, RUN-0031) identifies BMS soft charges and holonomy 
 the strongest surviving candidate mechanisms.
 ```
 
+## Predictive -> Accessible Bridge Candidate (RUN-0049)
+
+RUN-0049 steelmanned Joe's proposed cross-program addition:
+
+```text
+superposition = predictive / not-yet-accessible state
+measurement, collapse, or observer reconstruction = accessible record layer
+```
+
+The strongest surviving version is not that ordinary quantum superposition directly is
+Temporal Issuance. Standard quantum mechanics already models superposition inside a fixed
+Hilbert space or observable algebra, and measurement/decoherence/objective-collapse/QBism/RQM
+interpretations can absorb the predictive-to-accessible vocabulary at the state-readout layer.
+
+The useful steelman is narrower:
+
+```text
+Predictive state = observer/process-accessible representation of unresolved admissible
+extensions.
+
+Accessible state = quorum/record layer after an extension becomes usable for temporal
+reconstruction.
+
+The bridge becomes source-side only if the transition forces a growing H or growing observable
+algebra, admissibility predicate, or construction space that is not pre-contained in a fixed
+H_infty / A_infty / Mu_infty.
+```
+
+Orch-OR and microtubule quantum-biology results are therefore not evidence for `TI-C020` by
+themselves. They are admissible fixture candidates: perturbation data involving superradiance,
+tryptophan networks, anesthetic effects, or objective-reduction-style transitions can be used
+to test whether a predictive-to-accessible transition is merely fixed-H value resolution or a
+genuine H-growing / A-growing process.
+
+GU signed-readout, observer-finality, and TaF crosswalks are useful comparison handles, not
+claim authority. They sharpen the readout/reconstruction layer and help state the fixture, but
+they do not promote the Temporal Issuance hypothesis.
+
 ## Research Posture
 
 Steelman first.
