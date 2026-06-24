@@ -3,11 +3,115 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0049
+updated_by_run: RUN-0051
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Frontier Selection Complete (RUN-0051) - Current Route
+
+RUN-0051 executed W010, the frontier-selection and next-work ranking workflow.
+
+Verdict:
+
+```yaml
+primary_next_trigger: TI_C020_predictive_accessible_fixed_H_vs_H_growing_six_axis_fixture
+frontier_result: RUN_0050_and_E056_align_rather_than_compete
+claim_status_change: none
+claim_ledger_update_required: false
+```
+
+The repo's live surfaces agree that the next highest-value work is the physical-source
+discriminator for `TI-C020`. E056 does not move the claim. It sharpens the admission gate:
+before treating any physical proposal as evidence, write it as a six-axis candidate and test it
+against the fixed-H / fixed-operator-algebra null.
+
+Primary next trigger:
+
+```text
+W000 -> TI_C020_predictive_accessible_fixed_H_vs_H_growing_six_axis_fixture
+```
+
+Required:
+
+1. Write the candidate physical-source proposal as a six-axis sextuple:
+   L1 substrate, L2 observer, L3 pairing, L4 causal/protocol order, L5 emergence, and
+   L6 coordination loop.
+2. Define `P_n`, `A_n`, `rho_n`, the fixed-H null, and the H-growing/A-growing success
+   condition before using Orch-OR, microtubule, GU, or TaF material.
+3. Fixed-H null: all predictive/accessibility behavior factors through a fixed Hilbert space,
+   fixed observable algebra, fixed instrument/channel, or fixed `H_infty` / `A_infty` /
+   `Mu_infty` plus access/readout maps.
+4. H-growing success: no fixed structure reproduces observable types, record maps,
+   perturbation effects, and admissibility predicates across the transition.
+5. Operator-algebra guardrail: bigger state space is not enough. The fixture must name what
+   changes in observable algebra, instrument/channel, admissibility, or construction space.
+6. Treat Orch-OR/microtubule data and GU/TaF links as fixture handles only, not evidence for
+   `TI-C020`.
+
+Secondary next triggers:
+
+```text
+W000 -> shared_process_continuity_predicate_formalization
+W000 -> E054_E056_Cech_H3_Ehresmannian_holonomy_bridge_obligations
+W000 -> FUNCTOR_OBL_001_Q_OBL_001_filtered_source_functor
+```
+
+## Expressiveness Threshold Complete (RUN-0050) - Current Route
+
+RUN-0050 executed the D-FORK expressiveness-threshold fixture.
+
+Verdict:
+
+```yaml
+formal_source_candidate: Compat_G^MLTT
+formal_source_verdict: passes_expressiveness_threshold
+D_FORK_for_formal_source: Godelian
+PP3_for_formal_source: holds
+physical_source_verdict: unresolved
+claim_status_change: none
+```
+
+The threshold is now explicit:
+
+```text
+self-encoding admissibility
+plus diagonal/productive SBP escape
+plus no hidden completed oracle
+```
+
+`Compat_G^MLTT` passes that threshold. Mere infinite/complex/computable expressiveness is
+killed as sufficient evidence for source-side issuance. The non-computable fixed-oracle
+adversary is closed against the MLTT source model; it survives only as an external Platonist
+navigation ontology.
+
+Primary next trigger:
+
+```text
+W000 -> TI_C020_predictive_accessible_fixed_H_vs_H_growing_fixture
+```
+
+Required:
+
+1. Define `P_n`, `A_n`, `rho_n`, the fixed-H null, and the H-growing/A-growing success
+   condition.
+2. Fixed-H null: all predictive/accessibility behavior factors through a fixed `H_infty`,
+   `A_infty`, or `Mu_infty` plus access/readout maps.
+3. H-growing success: no fixed source can factor all observable algebras, admissibility
+   updates, record maps, and perturbation effects.
+4. Treat Orch-OR/microtubule data as fixture material only.
+5. Compare against decoherence, objective-collapse variants, QBism/RQM, Quantum Darwinism,
+   AB contextuality, holographic/fixed-boundary encodings, and biochemical/anesthetic
+   mechanisms.
+
+Secondary next triggers:
+
+```text
+W000 -> shared_process_continuity_predicate_formalization
+W000 -> FUNCTOR_OBL_001_and_Q_OBL_001
+W000 -> E054_Cech_H3_bridge_obligations
+```
 
 ## Predictive / Accessible TI-C020 Fixture (RUN-0049)
 

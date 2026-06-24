@@ -196,8 +196,47 @@ Open tasks (updated after RUN-0049):
   success condition. Orch-OR/microtubule perturbation can serve as one candidate substrate, but
   only if the fixture checks against decoherence, objective-collapse variants, QBism/RQM,
   Quantum Darwinism, AB contextuality, and biochemical/anesthetic absorbers.
-- Keep D-FORK / expressiveness-threshold as the deeper TI-C019 pivot. The predictive-accessible
-  fixture must not replace the finite vs self-generating effective-type-space question.
+
+RUN-0050 completed the D-FORK expressiveness-threshold fixture for the formal source model.
+Result: the threshold is self-encoding admissibility plus diagonal/productive SBP escape plus
+no hidden completed oracle. `Compat_G^MLTT` passes; D-FORK resolves Godelian for the repo's
+formal source candidate, and PP-3 holds for that model. The non-computable fixed-oracle
+adversary is closed against the MLTT source model because the required oracle domain ranges
+over future contexts and future proof terms not formed at S_0. An external Platonist oracle
+remains a navigation ontology, not a source-creation witness. This does not establish
+`TI-C020`.
+
+Open tasks (updated after RUN-0050):
+
+- TI-C020 predictive-accessible fixed-H vs H-growing fixture (primary): determine whether a
+  candidate physical transition forces growing observable algebra, admissibility predicate, or
+  construction space, or whether it is absorbed by fixed `H_infty` / `A_infty` / `Mu_infty`
+  plus access maps.
+- TI-C022 shared-process-continuity predicate: formalize the clock-free liveness-class
+  condition and test reduction to eventual-synchrony liveness.
+- FUNCTOR-OBL-001 (N naturality) and Q-OBL-001 (Q over a productive option set): carry forward.
+- Cech/H3 bridge obligations from E054: the finite parity fixture inherits source force from
+  `Compat_G^MLTT`, but GU flat-local-system and spacelike-correspondence bridge obligations
+  remain unproved.
+
+RUN-0051 ran W010 frontier selection against the current repo state. Result: the RUN-0050
+primary route remains correct, but E056 sharpens the next run into a six-axis physical-source
+spec before any physics-facing modeling.
+
+Open tasks (updated after RUN-0051):
+
+- TI-C020 fixed-H vs H-growing six-axis fixture (primary): write the candidate physical-source
+  proposal as L1 substrate, L2 observer, L3 pairing, L4 causal/protocol order, L5 emergence,
+  and L6 coordination loop; then test whether any behavior forces growing observable algebra,
+  admissibility predicate, or construction space rather than fixed-H / fixed-A / fixed-Mu
+  access and readout.
+- TI-C022 shared-process-continuity predicate: formalize the clock-free liveness-class
+  condition and test reduction to eventual-synchrony liveness.
+- Cech/H3 and Ehresmannian bridge obligations from E054/E056: test whether source-side
+  admissibility supplies compatibility, transport, or nontrivial holonomy after gauge/name
+  relabeling and AB-style absorbers are handled.
+- FUNCTOR-OBL-001, Q-OBL-001, and filtered-source functor: carry forward naturality, Q over a
+  productive option set, and the candidate `Compat_G^MLTT -> FiltSh(C)` route.
 
 ## Phase 0: Launch Coherence
 

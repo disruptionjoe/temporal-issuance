@@ -18,3 +18,6 @@ They should still preserve:
 - what would make the exploration worth promoting
 - what would kill it
 
+## Recent Cross-Repo Intake
+
+- `E056-gu-taf-reciprocal-bridge-incorporation-2026-06-24.md` preserves the ten-lens GU / TaF / Temporal Issuance bridge review as gates and absorbers for future TI-C019, TI-C020, and TI-C022 work. It records no claim movement.

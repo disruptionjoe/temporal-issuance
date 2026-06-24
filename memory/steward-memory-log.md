@@ -1162,3 +1162,63 @@ Files changed: `explorations/E053-predictive-accessible-orch-or-gu-62-persona-pa
 `FORMAL-OBJECT.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`,
 `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
 `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0050
+
+Timestamp: 2026-06-24
+Trigger: manual_request
+Workflow: W000 -> expressiveness_threshold_fixture
+Agent / subagents used: Repo Steward.
+Current strongest version: TI-C019 has a formal source-side witness under `Compat_G^MLTT`.
+The expressiveness threshold is self-encoding admissibility plus diagonal/productive SBP escape
+plus no hidden completed oracle. `Compat_G^MLTT` passes: no fixed `A_infty` is a well-formed
+present object, and SBP morphisms are construction events.
+Current strongest objection: Formal source success does not establish physical source success.
+The physical universe may still be fixed-H / fixed-Mu_infty with bounded observer access.
+What collapsed: Mere infinite, complex, or computable expressiveness as sufficient evidence for
+source-side issuance; fixed non-computable oracle as an internal MLTT absorber.
+What survived: `Compat_G^MLTT` as a Godelian formal source candidate; AC-8 over `Compat_G^MLTT`
+as the cleanest formal source-side witness; TI-C020 fixed-H vs H-growing as the required
+physical bridge fixture.
+What was absorbed: Classical Platonist `Compat_G` reading as navigation of a completed
+structure.
+What was promoted: None.
+New blockers: Physical D-FORK remains open. The next run must show H-growing/A-growing
+observable algebra, admissibility predicate, or construction space, or leave TI-C020
+speculative/absorbed into readout.
+Recommended next run: W000 -> TI_C020_predictive_accessible_fixed_H_vs_H_growing_fixture.
+Files changed: `explorations/E055-expressiveness-threshold-fixture-2026-06-24.md`,
+`agent-runs/RUN-0050-expressiveness-threshold-fixture.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`,
+`agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`,
+`memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
+`agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0051
+
+Timestamp: 2026-06-24
+Trigger: manual_request
+Workflow: W010 -> frontier_selection_and_next_work_ranking
+Agent / subagents used: Repo Steward.
+Current strongest version: The repo's highest-leverage next work is the TI-C020 fixed-H vs
+H-growing physical-source fixture, sharpened by E056 into a six-axis admission gate and
+operator-algebra fixed-H null.
+Current strongest objection: A candidate physical proposal may still reduce to fixed Hilbert
+space, fixed observable algebra, fixed instrument/channel, fixed H_infty / A_infty / Mu_infty
+plus access/readout maps, or ordinary biochemical/anesthetic and quantum-measurement absorbers.
+What collapsed: The idea that W010 should redirect away from TI-C020 after RUN-0050. E056
+aligns with the same primary route rather than displacing it.
+What survived: TI-C020 fixed-H vs H-growing as primary frontier; TI-C022 continuity predicate;
+Cech/H3 and Ehresmannian bridge obligations; FUNCTOR-OBL-001 and Q-OBL-001.
+What was absorbed: GU/TaF cross-repo material as intake discipline and absorber vocabulary,
+not claim evidence.
+What was clarified: The next physical-source run must begin with the L1-L6 six-axis sextuple
+and only then test for growing observable algebra, admissibility predicate, or construction
+space.
+What was promoted: None.
+New blockers: No physical six-axis candidate has yet been specified; no H-growing/A-growing
+witness exists.
+Recommended next run: W000 -> TI_C020_predictive_accessible_fixed_H_vs_H_growing_six_axis_fixture.
+Files changed: `agent-runs/RUN-0051-frontier-selection-and-next-work-ranking.md`,
+`agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`,
+`memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
+`agent-governance/STEWARD-METRICS.md`.

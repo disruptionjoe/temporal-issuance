@@ -160,3 +160,29 @@ rollback_or_revisit_trigger: >
   update, information flow, causal/event growth, or thermodynamic entropy, weaken TI-C019 and
   reopen the constitutional framing with Joe.
 ```
+
+```yaml
+change_id: GCH-0010
+timestamp: 2026-06-24
+run_id: manual_request
+changed_surface:
+  - workflows/W010-frontier-selection-and-next-work-ranking.md
+  - workflows/README.md
+change_type: durable_workflow_creation
+reason: >
+  Joe asked to preserve the reusable meta-workflow used to inspect the repo, identify the
+  live frontier, and rank the next most important work. W000 already serves as the steward
+  container, but the repo lacked a specific frontier-selection subroutine for cases where
+  multiple next actions compete or routing surfaces may be stale.
+expected_learning_value: >
+  Improve next-trigger quality by extracting frontier candidates from memory, roadmap,
+  claim ledger, path kills, latest runs, and explorations; rank them by verdict movement;
+  and recommend one primary next trigger with success/failure conditions.
+risk: >
+  W010 could become process ceremony if invoked when the next trigger is already fresh and
+  obvious, or could bias the repo toward ranking exercises instead of doing research.
+review_needed: false
+rollback_or_revisit_trigger: >
+  If W010 repeatedly selects the same route W000 would have selected without catching stale
+  state, hidden blockers, or higher-leverage work, narrow it to on-demand use or retire it.
+```

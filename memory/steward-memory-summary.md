@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0049
+last_summarized_run: RUN-0051
 ---
 
 # Steward Memory Summary
@@ -27,10 +27,18 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: D4_survives_only_as_online_non_anticipatory_class_relative_discriminator
+strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: TI_C020_predictive_accessible_fixed_H_vs_H_growing_fixture
+next_required_test: TI_C020_predictive_accessible_fixed_H_vs_H_growing_six_axis_fixture
 ```
+
+RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
+passes the expressiveness threshold (self-encoding admissibility + diagonal/productive SBP
+escape + no hidden completed oracle). PP-3 holds for that formal model. This does not establish
+`TI-C020`; the physical source question remains the fixed-H vs H-growing fixture.
+
+RUN-0051 adds: W010 frontier selection confirms the same primary route and sharpens it with
+E056's six-axis admission gate and operator-algebra fixed-H null. No claim movement is earned.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -468,22 +476,73 @@ Path killed: `superposition = issuance` without an H-growing/A-growing witness.
 Next test: build the fixed-H vs H-growing fixture. Orch-OR/microtubule quantum-biology and GU
 signed-readout/TaF links are fixture handles only, not evidence for `TI-C020`.
 
+## Expressiveness Threshold Fixture (RUN-0050)
+
+RUN-0050 executed the D-FORK expressiveness-threshold fixture.
+
+Threshold:
+
+```text
+self-encoding admissibility
++ diagonal/productive SBP escape
++ no hidden completed oracle
+```
+
+Candidate verdicts:
+- FTS fails: enumerable and SSC-reproducible.
+- Infinite/complex/computable admissibility fails: mere infinitude is not productivity.
+- Classical `Compat_G` under Platonism is navigation of a completed structure, not creation.
+- `Compat_G^MLTT` passes: no fixed `A_infty` is a well-formed present object; SBP morphisms
+  are construction events; productivity survives constructively.
+- AC-8 over `Compat_G^MLTT` passes conditionally using E049/E050/E052.
+- E054 Cech/H3 inherits source force conditionally from the SBP/Compat_G predicate.
+- TI-C020 remains unresolved until a physical H-growing/A-growing witness is supplied.
+
+Residual non-computable fixed-oracle adversary: closed against the MLTT source model because
+an internal oracle over future contexts/proof terms is not a formed type at S_0. An external
+Platonist oracle remains a navigation ontology and does not defeat the local MLTT source claim.
+
+Claim effect: `TI-C019` remains formalizing, now with a formal source-side witness under
+`Compat_G^MLTT`; `TI-C020` remains speculative and becomes the primary next run. Path killed:
+mere infinite/complex/computable source expressiveness as sufficient evidence for source-side
+issuance.
+
+## Frontier Selection Result (RUN-0051)
+
+RUN-0051 ran W010 against the current repo state. Ranking:
+
+1. TI-C020 fixed-H vs H-growing six-axis fixture.
+2. TI-C022 shared-process continuity predicate.
+3. Cech/H3 and Ehresmannian holonomy bridge obligations from E054/E056.
+4. FUNCTOR-OBL-001, Q-OBL-001, and filtered-source functor.
+5. Assembly Theory D4 operationalization, deferred until the physical/source gate is sharper.
+
+Key state-sync result: RUN-0050 and E056 align. E056 does not move claims; it hardens the
+admission test for physical-source proposals. The primary next run must not treat Orch-OR,
+microtubules, GU, or TaF as evidence. It must first state the six-axis proposal and then test
+whether the transition escapes every fixed-H, fixed-A, fixed-Mu, fixed-channel, and
+operator-algebra absorber.
+
 ## Next Run
 
-**RUN-0049 route (current): TI-C020 predictive/accessibility fixture.**
+**RUN-0051 route (current): TI-C020 fixed-H vs H-growing six-axis fixture.**
 
-Primary: fixed-H vs H-growing predictive-accessible fixture. Define `P_n`, `A_n`, `rho_n`,
-the fixed-H null, and the H-growing/A-growing success condition. Use Orch-OR/microtubule data
-only as candidate substrate material. Compare against decoherence, objective-collapse variants,
-QBism/RQM, Quantum Darwinism, AB contextuality, and biochemical/anesthetic absorbers. No claim
-movement without a growing observable algebra, admissibility predicate, or construction-space
-witness.
+Primary: write the candidate physical-source proposal as a six-axis sextuple (L1 substrate,
+L2 observer, L3 pairing, L4 causal/protocol order, L5 emergence, L6 coordination loop), then
+run the fixed-H vs H-growing fixture. Define `P_n`, `A_n`, `rho_n`, the fixed-H null, and the
+H-growing/A-growing success condition. Use Orch-OR/microtubule data and GU/TaF links only as
+candidate fixture handles. Compare against fixed Hilbert space, fixed observable algebra,
+fixed instrument/channel, fixed `H_infty` / `A_infty` / `Mu_infty` access maps, decoherence,
+objective-collapse variants, QBism/RQM, Quantum Darwinism, AB contextuality, holographic fixed
+boundary encodings, and biochemical/anesthetic absorbers. No claim movement without a growing
+observable algebra, admissibility predicate, or construction-space witness.
 
-Secondary: determine the operative regime (D-FORK), preserving the RUN-0048 route below.
+Secondary: TI-C022 shared-process continuity; E054/E056 Cech/H3 and Ehresmannian bridge
+obligations; FUNCTOR-OBL-001, Q-OBL-001, and the candidate filtered-source functor.
 
-**RUN-0048 route (still live): determine the operative regime (D-FORK).**
+**RUN-0048 route (provenance; formal threshold discharged by RUN-0050).**
 
-Primary: expressiveness-threshold fixture — determine whether the operative TI source can encode
+Primary was the expressiveness-threshold fixture: determine whether the operative TI source can encode
 its own admissibility predicate (Robinson-Q analog, E042 §6.2). This decides D-FORK and resolves
 PP-3. If self-encoding: Gödelian, TI-C019 source-side succeeds. If provably not: FTS, TI-C019
 reduces to projection disclosure. Update TI-C019 conservatively; no promotion without hostile

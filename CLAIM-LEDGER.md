@@ -461,3 +461,43 @@ TI-C001:
     Measurement/accessibility belongs to the downstream record/finality layer unless the
     source predicate or admissible observable algebra changes.
 ```
+
+## RUN-0050 Claim Addenda
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: formal_source_witness_sharpened
+  addendum: >
+    RUN-0050 executes the D-FORK expressiveness-threshold fixture. The threshold is defined as
+    self-encoding admissibility plus diagonal/productive SBP escape plus a no-hidden-completed-
+    oracle construction discipline. `Compat_G^MLTT` passes this threshold: no fixed `A_infty`
+    is a well-formed present object, and each SBP morphism is a construction event. Therefore
+    D-FORK resolves Godelian for the repo's formal source candidate and PP-3 holds for that
+    model. This does not promote TI-C019 and does not establish TI-C020.
+  strongest_objection_after_run: >
+    The physical/operative source may still be fixed-H, fixed-Mu_infty, or bounded-access
+    disclosure. Formal `Compat_G^MLTT` success is not physical evidence.
+  evidence_refs_added:
+    - explorations/E055-expressiveness-threshold-fixture-2026-06-24.md
+    - agent-runs/RUN-0050-expressiveness-threshold-fixture.md
+  next_action: >
+    Treat D-FORK as closed for the formal MLTT source candidate. Route the physical source
+    question to TI-C020 fixed-H vs H-growing fixture. Also preserve FUNCTOR-OBL-001,
+    Q-OBL-001, and TI-C022 continuity predicate work.
+
+TI-C020:
+  status: speculative
+  effect: physical_source_question_isolated
+  addendum: >
+    RUN-0050 clarifies that the physical bridge must show a source with the same kind of
+    expressiveness threshold behavior as `Compat_G^MLTT`: growing observable algebra,
+    admissibility predicate, or construction space not representable as fixed `H_infty`,
+    fixed `A_infty`, or fixed `Mu_infty` plus access maps.
+  next_action: >
+    Run the fixed-H vs H-growing predictive-accessible fixture from RUN-0049/E053.
+
+path_kill:
+  path: mere_infinite_or_computable_expressiveness_as_sufficient_for_source_side_issuance
+  evidence_ref: memory/path-kills.md#run-0050
+```

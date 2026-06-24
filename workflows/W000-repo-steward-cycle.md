@@ -47,6 +47,7 @@ Ask:
 The answer may be:
 
 - run W001, W002, W003, or another existing workflow
+- run W010 when multiple next actions compete or roadmap, memory, and next-trigger surfaces are stale or in tension
 - create a new dynamic workflow
 - create a dynamic persona
 - attach a memory pack to a repeated workflow or persona

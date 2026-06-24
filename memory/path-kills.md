@@ -546,3 +546,31 @@ claim_refs:
   - TI-C019
   - TI-C001
 ```
+
+## RUN-0050
+
+```yaml
+path: Mere infinite, complex, or computable source expressiveness as sufficient evidence for source-side issuance
+reason_killed: >
+  RUN-0050's expressiveness-threshold fixture shows that source-side issuance requires
+  self-encoding admissibility, diagonal/productive SBP escape, and a no-hidden-completed-oracle
+  construction discipline. Infinite type spaces, Turing-complete dynamics, complex state spaces,
+  or decidable/computable admissibility do not by themselves defeat the fixed-source aperture
+  adversary. They remain SSC-reproducible or collapse to navigation of a completed structure.
+evidence: >
+  `explorations/E055-expressiveness-threshold-fixture-2026-06-24.md` and
+  `agent-runs/RUN-0050-expressiveness-threshold-fixture.md`, building on E042, E045, E051,
+  and E052.
+local_minimum_risk: >
+  Medium. Killing mere complexity must not kill the genuine Godelian route: `Compat_G^MLTT`
+  passes the threshold precisely because it has self-reference, constructive admissibility,
+  and productive diagonal escape.
+possible_future_resurrection_trigger: >
+  A candidate source with complexity/infinite expressiveness that also demonstrates
+  self-encoding admissibility, productive non-precommittable successor construction, and
+  no well-formed fixed `A_infty` / `Mu_infty` oracle in its own source formalism.
+run_ref: RUN-0050
+claim_refs:
+  - TI-C019
+  - TI-C020
+```

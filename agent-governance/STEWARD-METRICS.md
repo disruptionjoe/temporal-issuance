@@ -1110,6 +1110,56 @@ notes: >
   interface. Orch-OR/microtubule evidence is admissible fixture material, not claim support.
 ```
 
+```yaml
+run_id: RUN-0050
+workflow_used: W000 -> expressiveness_threshold_fixture
+research_vs_governance: research
+claim_status_changed: false
+path_killed: true
+  path: mere_infinite_or_computable_expressiveness_as_sufficient_for_source_side_issuance
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E055-expressiveness-threshold-fixture, RUN-0050-expressiveness-threshold-fixture]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  D-FORK expressiveness-threshold fixture completed. `Compat_G^MLTT` passes the threshold:
+  it has self-encoding admissibility, diagonal/productive SBP escape, and no well-formed
+  fixed `A_infty` oracle under MLTT. Formal D-FORK resolves Godelian for the repo's source
+  candidate, so PP-3 holds for that formal model. Physical D-FORK remains unresolved and
+  routes to the TI-C020 fixed-H vs H-growing fixture.
+```
+
+```yaml
+run_id: RUN-0051
+workflow_used: W010 -> frontier_selection_and_next_work_ranking
+research_vs_governance: research_routing
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [RUN-0051-frontier-selection-and-next-work-ranking]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  W010 frontier selection ran against RUN-0050 plus E056. It confirmed TI-C020 fixed-H vs
+  H-growing as the primary next route and sharpened it into a six-axis physical-source fixture
+  with an operator-algebra fixed-H null. No claim or path-kill movement; GU/TaF material remains
+  intake discipline and absorber vocabulary only.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.
