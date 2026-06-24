@@ -1215,6 +1215,35 @@ Files changed: `explorations/E063-ti-c020-physical-bridge-w1-w6-recheck-2026-06-
 `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`,
 `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`, `explorations/README.md`.
 
+## RUN-0059
+
+Timestamp: 2026-06-24
+Trigger: manual_parallel_accelerated_request
+Workflow: W000 -> assembly_theory_D4_operationalization_with_source_projection_split
+Agent / subagents used: Explorer D supplied read-only lane finding; Repo Steward performed
+serial merge.
+Current strongest version: Assembly Theory can operationalize D4 if the repo distinguishes
+`AI_src,n(x)` from `AI_proj,n(x)`.
+Current strongest objection: Undefined assembly index at the projection layer can be produced
+by a fixed richer source plus widening apertures, so it is observer-access novelty rather than
+source-side issuance evidence.
+What collapsed: Undefined projection assembly index as source-side issuance evidence.
+What survived: Assembly Theory as useful projection-side operational vocabulary and as a
+possible source-side witness only if `AI_src,n` changes and fixed-source aperture absorption is
+defeated.
+What was absorbed: Projection assembly novelty by the RUN-0046 fixed-source aperture model.
+What was clarified: Source D4 requires `AI_src,n(x)` undefined, `AI_src,n+1(x)` defined, and no
+fixed `Mu_infty` representation preserving constructors, admissibility, proof terms, and
+records.
+What was promoted: None.
+New blockers: Need a source-layer assembly trace, not merely projection undefinedness.
+Recommended next run: W000 -> parallel_burst_mode_governance_assessment.
+Files changed: `explorations/E064-assembly-theory-d4-source-projection-operationalization-2026-06-24.md`,
+`agent-runs/RUN-0059-assembly-theory-d4-source-projection-operationalization.md`, `CLAIM-LEDGER.md`,
+`ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`,
+`memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
+`agent-governance/STEWARD-METRICS.md`, `explorations/README.md`.
+
 ## RUN-0046
 
 Timestamp: 2026-06-22

@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0058
+last_summarized_run: RUN-0059
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: assembly_theory_D4_operationalization_with_source_projection_split
+next_required_test: parallel_burst_mode_governance_assessment
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -76,6 +76,11 @@ RUN-0058 adds: no current physical bridge candidate satisfies the E057 W1-W6 gat
 remains speculative and parked. The strongest named physical substrate, microtubule / Orch-OR,
 remains fixture material only unless it supplies growing observable algebra, admissibility, or
 construction space and defeats fixed-H/fixed-A/fixed-boundary absorbers.
+
+RUN-0059 adds: Assembly Theory D4 is operationalized with separate source-layer and
+projection-layer assembly indexes. Projection undefinedness is not source-side issuance
+evidence by itself; source evidence requires `AI_src,n` undefined, `AI_src,n+1` defined, and
+fixed-source aperture absorption defeated.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -145,6 +150,7 @@ The next fixture should test the simpler version of the same independence proble
 - Finite filtered `Z/2` local-system data as sufficient proof of a full GU/H3 or C3 geometry
   bridge.
 - TI-C022 as independent operational surplus over fork-choice / canonical-chain finality.
+- Undefined projection-layer assembly index as source-side issuance evidence.
 
 ## Issuance Precision Result (RUN-0039)
 
@@ -720,20 +726,49 @@ No current candidate supplies non-isomorphic observable algebra, new admissibili
 source-side construction-space growth, perturbation non-factorization, record preservation, and
 gauge/AB/fixed-boundary absorption. TI-C020 remains parked until a real W1-W6 witness appears.
 
+## Assembly Theory D4 Source / Projection Operationalization (RUN-0059)
+
+RUN-0059 operationalized Assembly Theory D4 while preserving the RUN-0046 source/projection
+split.
+
+Definitions:
+
+```text
+AI_src,n(x)  = minimum assembly/construction length for x using only source-layer schema,
+               constructors, admissibility predicates, and proof terms formed at source prefix n.
+
+AI_proj,n(x) = minimum assembly/construction length for x using only observer-accessible
+               projection schema, exposed constructors, records, and admissibility predicates
+               at prefix n.
+```
+
+Verdict:
+
+```yaml
+assembly_operationalization: useful
+projection_D4_operationalized: true
+source_side_issuance_proved_by_projection_AI: false
+source_AI_positive_condition: AI_src,n_undefined_and_AI_src,n+1_defined_plus_fixed_source_absorber_defeated
+claim_status_change: none
+path_kill_added: undefined_projection_assembly_index_as_source_issuance_evidence
+```
+
+Assembly Theory now gives a clean projection-side operationalization of D4. It helps TI-C019
+only if the source-layer assembly index changes and fixed-source precontainment is defeated.
+
 ## Next Run
 
-**RUN-0058 route (current): Assembly Theory D4 operationalization with source/projection split.**
+**RUN-0059 route (current): parallel burst mode governance assessment.**
 
-Primary: define source-layer and projection-layer assembly indexes separately, then test
-whether undefined projection assembly index is only bounded-access novelty or can witness
-source-side issuance.
+Primary: record the parallel-lane / serial-merge pattern used in this five-run burst and add a
+bounded W000 parallel-burst clause if useful.
 
-Secondary: preserve the RUN-0046 source/projection split. Do not treat observer-side assembly
-novelty as source-side issuance without defeating fixed-source aperture absorption.
+Secondary: after the burst is closed, route to W010 frontier selection unless a clearer primary
+research trigger has emerged.
 
-Parked: TI-C020 until a full W1-W6 witness appears; TI-C022 unless a trace separates it from
-canonical-chain finality under the same protocol assumptions; H3/C1/C3 bridge unless a
-canonical localization/comparison rule and independent C3 geometry are supplied.
+Parked: Assembly Theory as source evidence until `AI_src` changes and fixed-source aperture
+absorption is defeated; TI-C020 until a full W1-W6 witness appears; TI-C022 unless a trace
+separates it from canonical-chain finality under the same protocol assumptions.
 
 **RUN-0048 route (provenance; formal threshold discharged by RUN-0050).**
 

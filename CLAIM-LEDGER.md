@@ -792,3 +792,29 @@ path_kill_reaffirmed:
   path: microtubule_orch_or_six_axis_candidate_as_sufficient_ti_c020_evidence_without_operator_algebra_growth
   evidence_ref: memory/path-kills.md#run-0052
 ```
+
+## RUN-0059 Claim Addenda
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: assembly_theory_operationalization_added_without_claim_promotion
+  addendum: >
+    RUN-0059 defines separate assembly indexes for the source layer and projection layer:
+    `AI_src,n(x)` and `AI_proj,n(x)`. Projection D4 is operationalized by
+    `AI_proj,n(x)` undefined and `AI_proj,n+1(x)` defined, but this does not prove source-side
+    issuance because RUN-0046's fixed-source aperture absorber can produce projection novelty.
+    Source-side Assembly Theory evidence requires `AI_src,n(x)` undefined,
+    `AI_src,n+1(x)` defined, and defeat of fixed-source precontainment.
+  evidence_refs_added:
+    - explorations/E064-assembly-theory-d4-source-projection-operationalization-2026-06-24.md
+    - agent-runs/RUN-0059-assembly-theory-d4-source-projection-operationalization.md
+  next_action: >
+    Use Assembly Theory as operational vocabulary only with the source/projection split. Do not
+    treat projection assembly novelty as source evidence unless fixed-source aperture absorption
+    is defeated.
+
+path_kill:
+  path: undefined_projection_assembly_index_as_source_issuance_evidence
+  evidence_ref: memory/path-kills.md#run-0059
+```

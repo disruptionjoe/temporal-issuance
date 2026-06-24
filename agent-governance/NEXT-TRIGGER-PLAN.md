@@ -3,13 +3,73 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0058
+updated_by_run: RUN-0059
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## TI-C020 Physical Bridge W1-W6 Recheck Complete (RUN-0058) - Current Route
+## Assembly Theory D4 Source / Projection Operationalization Complete (RUN-0059) - Current Route
+
+RUN-0059 executed the `assembly_theory_D4_operationalization_with_source_projection_split`
+trigger.
+
+Verdict:
+
+```yaml
+assembly_operationalization: useful
+projection_D4_operationalized: true
+source_side_issuance_proved_by_projection_AI: false
+source_AI_positive_condition: AI_src,n_undefined_and_AI_src,n+1_defined_plus_fixed_source_absorber_defeated
+claim_status_change: none
+path_kill_added: undefined_projection_assembly_index_as_source_issuance_evidence
+```
+
+Assembly Theory now has a source/projection split:
+
+```text
+AI_src,n(x)  = minimum construction length using source-layer schema at prefix n
+AI_proj,n(x) = minimum construction length using observer-accessible projection schema at prefix n
+```
+
+Projection D4 is `AI_proj,n(x)` undefined and `AI_proj,n+1(x)` defined. This operationalizes
+observer-access novelty but does not prove source-side issuance. Source D4 requires
+`AI_src,n(x)` undefined, `AI_src,n+1(x)` defined, and defeat of the fixed-source aperture
+absorber.
+
+Primary next trigger:
+
+```text
+W000 -> parallel_burst_mode_governance_assessment
+```
+
+Required:
+
+1. Record how this five-lane burst was parallelized.
+2. Decide whether W000 needs a bounded "parallel burst mode" amendment.
+3. Preserve the rule that shared steward surfaces are merged serially.
+4. Keep commit-and-push after every completed run.
+5. Route the next research run after the burst.
+
+Secondary next triggers:
+
+```text
+W000 -> W010_frontier_selection_and_next_work_ranking
+```
+
+Parked / narrowed triggers:
+
+```text
+W000 -> assembly_theory_D4_operationalization_with_source_projection_split
+W000 -> TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+W000 -> TI_C022_fork_choice_canonical_chain_ontology_absorber
+W000 -> H3_C1_C3_bridge_from_finite_filtered_functor
+```
+
+Only re-run Assembly Theory as source evidence if a candidate supplies source-layer assembly
+undefinedness/resolution and defeats fixed-source aperture absorption.
+
+## TI-C020 Physical Bridge W1-W6 Recheck Complete (RUN-0058)
 
 RUN-0058 executed the `TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness`
 trigger.

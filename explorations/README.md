@@ -31,3 +31,4 @@ They should still preserve:
 - `E061-h3-c1-c3-bridge-from-finite-filtered-functor-2026-06-24.md` parks the H3/C1/C3 bridge by showing the finite filtered `Z/2` local-system witness does not supply a total GU/H3 or C3 geometry bridge.
 - `E062-ti-c022-fork-choice-canonical-chain-ontology-absorber-2026-06-24.md` narrows TI-C022 by showing fork-choice / canonical-chain finality absorbs its operational content, leaving ontological record-reality typing.
 - `E063-ti-c020-physical-bridge-w1-w6-recheck-2026-06-24.md` keeps TI-C020 parked because no current physical candidate satisfies the W1-W6 growing-algebra/admissibility witness gate.
+- `E064-assembly-theory-d4-source-projection-operationalization-2026-06-24.md` defines separate source and projection assembly indexes and kills projection-only undefined assembly index as source-side issuance evidence.

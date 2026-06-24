@@ -745,3 +745,29 @@ claim_refs:
   - TI-C022
   - TI-C019
 ```
+
+## RUN-0059
+
+```yaml
+path: undefined_projection_assembly_index_as_source_issuance_evidence
+reason_killed: >
+  RUN-0059 defines separate source-layer and projection-layer assembly indexes. An undefined
+  projection assembly index can be produced by bounded access to a fixed richer source, so it
+  operationalizes observer-access novelty rather than source-side issuance unless the
+  source-layer assembly index also changes and fixed-source aperture absorption is defeated.
+evidence: >
+  `explorations/E064-assembly-theory-d4-source-projection-operationalization-2026-06-24.md` and
+  `agent-runs/RUN-0059-assembly-theory-d4-source-projection-operationalization.md`, building
+  on RUN-0046 and the B2 Assembly Theory route from RUN-0043.
+local_minimum_risk: >
+  Medium. Assembly Theory remains useful as an empirical and projection-side operational
+  vocabulary. The killed path is only the shortcut from projection undefinedness to source
+  issuance.
+possible_future_resurrection_trigger: >
+  A source-layer construction trace where `AI_src,n(x)` is undefined, `AI_src,n+1(x)` becomes
+  defined, and no fixed `Mu_infty` plus aperture schedule can precontain the source
+  constructors, admissibility predicates, proof terms, and record maps.
+run_ref: RUN-0059
+claim_refs:
+  - TI-C019
+```

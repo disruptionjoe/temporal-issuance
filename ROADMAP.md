@@ -367,6 +367,23 @@ Open tasks (updated after RUN-0058):
 - W010 frontier selection should run after the Assembly Theory pass or after this burst if
   multiple frontiers remain tied.
 
+RUN-0059 operationalized Assembly Theory D4 with separate source-layer and projection-layer
+assembly indexes. Result: projection D4 is measurable as `AI_proj,n(x)` undefined and
+`AI_proj,n+1(x)` defined, but that is not source-side issuance evidence by itself because
+fixed richer source plus widening apertures can produce it. Source D4 requires
+`AI_src,n(x)` undefined, `AI_src,n+1(x)` defined, and defeat of fixed-source aperture
+absorption.
+
+Open tasks (updated after RUN-0059):
+
+- Parallel burst mode governance assessment (primary): record the read-only parallel lane /
+  serial merge pattern used in this five-run burst and decide whether W000 needs an explicit
+  reusable clause.
+- W010 frontier selection should run after the burst to choose the next research route now
+  that H3, TI-C022, TI-C020, and Assembly Theory have all been narrowed.
+- Assembly Theory is parked as source evidence until a source-layer construction trace defeats
+  fixed-source aperture absorption.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.
