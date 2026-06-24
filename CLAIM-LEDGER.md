@@ -501,3 +501,133 @@ path_kill:
   path: mere_infinite_or_computable_expressiveness_as_sufficient_for_source_side_issuance
   evidence_ref: memory/path-kills.md#run-0050
 ```
+
+## RUN-0052 Claim Addenda
+
+```yaml
+TI-C020:
+  status: speculative
+  effect: physical_source_fixture_narrowed
+  addendum: >
+    RUN-0052 executes the fixed-H vs H-growing six-axis fixture against the strongest current
+    microtubule / Orch-OR predictive-accessible candidate. The candidate is admitted as a
+    fixture substrate, but the fixed-H null survives: no non-isomorphic observable algebra,
+    new admissibility predicate, source-side construction-space growth, or perturbation
+    non-factorization is supplied. Microtubule, Orch-OR, superradiance, anesthetic, GU, and
+    TaF material remain fixture handles or readout vocabulary only, not TI-C020 evidence.
+  evidence_refs_added:
+    - explorations/E057-ti-c020-fixed-h-vs-h-growing-six-axis-fixture-2026-06-24.md
+    - agent-runs/RUN-0052-ti-c020-fixed-h-vs-h-growing-six-axis-fixture.md
+  next_action: >
+    Park physical-bridge promotion until a candidate satisfies E057's W1-W6 witness gate:
+    non-isomorphic observable algebra, new admissibility predicate, construction-space growth,
+    perturbation non-factorization, record preservation, and gauge/AB/fixed-boundary absorption.
+
+TI-C019:
+  status: formalizing
+  effect: physical_source_not_established
+  addendum: >
+    RUN-0052 does not disturb the formal source witness from `Compat_G^MLTT`. It only confirms
+    that the current physical candidate has not shown analogous H-growing/A-growing source
+    behavior.
+
+TI-C001:
+  status: weakened
+  effect: predictive_accessible_readout_layer_reinforced
+  addendum: >
+    Predictive/accessibility remains useful downstream reconstruction and record/finality
+    vocabulary unless a source-side observable/admissibility growth witness is supplied.
+
+path_kill:
+  path: microtubule_orch_or_six_axis_candidate_as_sufficient_ti_c020_evidence_without_operator_algebra_growth
+  evidence_ref: memory/path-kills.md#run-0052
+```
+
+## RUN-0053 Claim Addenda
+
+```yaml
+TI-C022:
+  status: speculative
+  effect: predicate_formalized_and_eventual_synchrony_absorber_defeated
+  addendum: >
+    RUN-0053 formalizes the shared-process continuity predicate as unique cofinal
+    quorum-legitimate carrier membership in the schema-state poset. A record is genuine
+    shared-process issuance iff it is quorum-certified and its target state belongs to the
+    unique cofinal continuity carrier. This is clock-free and order-theoretic. The
+    eventual-synchrony reduction fails: eventual synchrony is neither necessary nor sufficient
+    for the trace predicate without extra protocol, fault-bound, and fork-choice assumptions.
+  strongest_objection_after_run: >
+    Fork-choice / canonical-chain finality operationally implements most of the predicate.
+    TI-C022's remaining surplus is ontological: it treats canonical-carrier membership as
+    load-bearing for record reality, not merely ledger finality.
+  evidence_refs_added:
+    - explorations/E058-ti-c022-shared-process-continuity-predicate-2026-06-24.md
+    - agent-runs/RUN-0053-shared-process-continuity-predicate.md
+  next_action: >
+    Do not re-run TI-C022 unless pressuring the fork-choice / canonical-chain ontology absorber.
+    Otherwise route to the next RUN-0051 frontier: E054/E056 Cech-H3 and Ehresmannian bridge
+    obligations.
+
+TI-C019:
+  status: formalizing
+  effect: shared_participation_record_legitimacy_sharpened
+  addendum: >
+    RUN-0053 gives the shared-participation layer a cleaner record-legitimacy predicate without
+    moving the source-side issuance verdict.
+
+path_kill:
+  path: shared_process_continuity_as_mere_eventual_synchrony_liveness
+  evidence_ref: memory/path-kills.md#run-0053
+```
+
+## RUN-0054 Claim Addenda
+
+```yaml
+TI-C017:
+  status: speculative
+  effect: finite_cech_fixture_preserved_full_h3_bridge_not_proved
+  addendum: >
+    RUN-0054 separates the E054 finite Cech parity result from the larger GU/H3 bridge. The
+    finite SBP polarity fixture survives as a formal residue with conditional source force:
+    `C` / `Compat` can force a nontrivial `Z/2` overlap value in the no-anticipation fixture,
+    and `Compat_G^MLTT` gives that finite witness a source-side provenance. This does not prove
+    a full GU flat-local-system/H3 identity theorem or spacelike/correspondence geometry.
+  evidence_refs_added:
+    - explorations/E059-cech-h3-ehresmannian-bridge-obligation-discharge-2026-06-24.md
+    - agent-runs/RUN-0054-cech-h3-ehresmannian-bridge-obligations.md
+  next_action: >
+    Define or refute `Phi: Compat_G^MLTT -> FiltSh(C)` and test whether the SBP parity
+    obstruction is preserved as flat `Z/2` local-system data under admissible schema morphisms.
+
+TI-C012:
+  status: formalizing
+  effect: ehresmannian_transport_requirement_reaffirmed
+  addendum: >
+    RUN-0054 confirms that E054's Cech loop value `-1` is not yet an Ehresmannian holonomy
+    witness. TI-C012 still requires a supplied or source-derived transport functor
+    `A: ExtCat -> B G`, or an equivalent nonzero gauge-equivariant distortion residue. The
+    finite Cech parity fixture is evidence for local source-derived compatibility, not for a
+    full source connection.
+  next_action: >
+    Run GAUGE-COV-OBL-001 and the E048 distortion-residue test after or alongside the
+    filtered-source functor pass.
+
+TI-C019:
+  status: formalizing
+  effect: formal_source_witness_unchanged_bridge_scope_narrowed
+  addendum: >
+    RUN-0054 does not disturb RUN-0050's `Compat_G^MLTT` source witness. It narrows what that
+    witness currently supports: finite SBP parity compatibility, not an automatic GU/H3 or
+    Ehresmannian connection theorem.
+
+TI-C020:
+  status: speculative
+  effect: no_physical_bridge_movement
+  addendum: >
+    RUN-0054 is a formal bridge-obligation pass. It supplies no fixed-H vs H-growing physical
+    witness and does not move TI-C020.
+
+path_kill:
+  path: finite_cech_parity_holonomy_as_full_gu_h3_or_ehresmannian_source_connection_proof
+  evidence_ref: memory/path-kills.md#run-0054
+```

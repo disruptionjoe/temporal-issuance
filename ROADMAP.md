@@ -238,6 +238,65 @@ Open tasks (updated after RUN-0051):
 - FUNCTOR-OBL-001, Q-OBL-001, and filtered-source functor: carry forward naturality, Q over a
   productive option set, and the candidate `Compat_G^MLTT -> FiltSh(C)` route.
 
+RUN-0052 executed the TI-C020 fixed-H vs H-growing six-axis fixture against the strongest
+current microtubule / Orch-OR predictive-accessible candidate. Result: the candidate is
+well-formed as a six-axis fixture, but the fixed-H null survives. No non-isomorphic observable
+algebra, new admissibility predicate, source-side construction-space growth, or perturbation
+non-factorization was supplied. The path "microtubule/Orch-OR six-axis candidate as sufficient
+TI-C020 evidence without operator-algebra growth" is killed.
+
+Open tasks (updated after RUN-0052):
+
+- TI-C022 shared-process-continuity predicate (primary): formalize the clock-free,
+  order-theoretic liveness-class condition and test reduction to eventual-synchrony liveness,
+  BFT integrity, TCB integrity, or fork-choice/finality machinery.
+- Cech/H3 and Ehresmannian bridge obligations from E054/E056: test whether source-side
+  admissibility supplies compatibility, transport, or nontrivial holonomy after gauge/name
+  relabeling and AB-style absorbers are handled.
+- FUNCTOR-OBL-001, Q-OBL-001, and filtered-source functor: carry forward naturality, Q over a
+  productive option set, and the candidate `Compat_G^MLTT -> FiltSh(C)` route.
+- TI-C020 physical bridge is parked until a candidate satisfies E057's W1-W6 gate:
+  non-isomorphic observable algebra, new admissibility predicate, construction-space growth,
+  perturbation non-factorization, record preservation, and gauge/AB/fixed-boundary absorption.
+
+RUN-0053 executed the TI-C022 shared-process continuity predicate formalization. Result: the
+predicate is now stated as unique cofinal quorum-legitimate carrier membership in the
+schema-state poset. It is clock-free and does not reduce to eventual-synchrony liveness:
+eventual synchrony is neither necessary nor sufficient without extra protocol, fault-bound, and
+fork-choice assumptions. Fork-choice / canonical-chain finality operationally implements most
+of the predicate, so TI-C022 remains speculative; the status does not move.
+
+Open tasks (updated after RUN-0053):
+
+- Cech/H3 and Ehresmannian bridge obligations from E054/E056 (primary): test whether
+  source-side admissibility supplies compatibility, transport, or nontrivial holonomy after
+  schema relabeling, observer-name gauge actions, and AB-style absorbers are handled.
+- FUNCTOR-OBL-001, Q-OBL-001, and filtered-source functor: carry forward naturality, Q over a
+  productive option set, and the candidate `Compat_G^MLTT -> FiltSh(C)` route.
+- TI-C022 fork-choice / canonical-chain ontology absorber: parked unless Joe wants to pressure
+  whether canonical-carrier membership has consequences beyond ledger finality.
+- TI-C020 physical bridge remains parked until a candidate satisfies E057's W1-W6 gate.
+
+RUN-0054 executed the E054/E056 Cech/H3 and Ehresmannian bridge-obligation pass. Result: the
+finite SBP parity cocycle from E054 survives as a source-conditioned formal residue because
+`C` / `Compat` can force the overlap sign in the finite no-anticipation fixture. But the run
+does not prove the GU flat-local-system/H3 bridge, spacelike/correspondence geometry, or an
+Ehresmannian source connection. The path "finite Cech parity holonomy as full GU H3 or
+Ehresmannian source-connection proof" is killed.
+
+Open tasks (updated after RUN-0054):
+
+- FUNCTOR-OBL-001, Q-OBL-001, and filtered-source functor (primary): define or refute
+  `Phi: Compat_G^MLTT -> FiltSh(C)`, test naturality, and ground `Q` over the productive
+  option set without circular use of future accepted schemas.
+- GAUGE-COV-OBL-001 and distortion residue: verify schema-relabeling covariance for
+  `Compat(c, T, S)` and compute whether any nonzero gauge-equivariant residue survives
+  observer-name gauge actions and schema relabeling.
+- Cech/H3 and Ehresmannian bridge route is narrowed: re-run only after the functor/Q/gauge
+  pass supplies a candidate bridge or a principled no-go.
+- TI-C022 fork-choice / canonical-chain ontology absorber remains parked.
+- TI-C020 physical bridge remains parked until a candidate satisfies E057's W1-W6 gate.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.

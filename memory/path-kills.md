@@ -574,3 +574,92 @@ claim_refs:
   - TI-C019
   - TI-C020
 ```
+
+## RUN-0052
+
+```yaml
+path: microtubule_orch_or_six_axis_candidate_as_sufficient_ti_c020_evidence_without_operator_algebra_growth
+reason_killed: >
+  RUN-0052 admitted the microtubule / Orch-OR predictive-accessible proposal as a six-axis
+  physical fixture, but the proposal supplies only substrate, readout channels, perturbation
+  handles, and cadence/finality language. It does not supply a source-generated non-isomorphic
+  observable algebra, new admissibility predicate, construction-space growth, or perturbation
+  effect that cannot be represented inside a fixed Hilbert space, fixed observable algebra,
+  fixed instrument/channel, fixed collapse law, fixed biochemical dynamics, or fixed Mu_infty
+  plus access/readout maps.
+evidence: >
+  `explorations/E057-ti-c020-fixed-h-vs-h-growing-six-axis-fixture-2026-06-24.md` and
+  `agent-runs/RUN-0052-ti-c020-fixed-h-vs-h-growing-six-axis-fixture.md`.
+local_minimum_risk: >
+  Medium. This kills only the candidate-as-evidence reading, not microtubules or Orch-OR as
+  possible future fixture substrates. A real H-growing/A-growing witness could still resurrect
+  the route if it satisfies the E057 W1-W6 witness gate.
+possible_future_resurrection_trigger: >
+  A concrete physical event where A_n and A_{n+1} are demonstrably non-isomorphic in a way not
+  absorbed by subalgebra, completion, representation, context-cover, fixed-instrument, fixed
+  biochemical, or fixed-boundary models; where the new observable/admissibility/construction
+  class is source-generated rather than experimenter-added; and where record maps and
+  perturbation effects are preserved.
+run_ref: RUN-0052
+claim_refs:
+  - TI-C020
+  - TI-C019
+  - TI-C001
+```
+
+## RUN-0053
+
+```yaml
+path: shared_process_continuity_as_mere_eventual_synchrony_liveness
+reason_killed: >
+  RUN-0053 formalizes shared-process continuity as unique cofinal quorum-legitimate carrier
+  membership in the schema-state poset. Eventual synchrony is an environment/protocol
+  assumption about message delay and progress. It is neither necessary nor sufficient for this
+  trace predicate without additional protocol, fault-bound, and fork-choice assumptions.
+evidence: >
+  `explorations/E058-ti-c022-shared-process-continuity-predicate-2026-06-24.md` and
+  `agent-runs/RUN-0053-shared-process-continuity-predicate.md`.
+local_minimum_risk: >
+  Medium. Killing the eventual-synchrony reduction must not overstate TI-C022. Fork-choice /
+  canonical-chain finality operationally implements most of the predicate; the remaining
+  surplus is the ontological typing of canonical-carrier membership as record reality.
+possible_future_resurrection_trigger: >
+  A proof that, for every admissible OnlineSchemaSys / AC-8 trace, unique cofinal
+  quorum-legitimate carrier membership is equivalent to eventual-synchrony liveness without
+  adding fork-choice, fault-bound, common-prefix/finality, or canonical-chain assumptions.
+run_ref: RUN-0053
+claim_refs:
+  - TI-C022
+  - TI-C019
+```
+
+## RUN-0054
+
+```yaml
+path: finite_cech_parity_holonomy_as_full_gu_h3_or_ehresmannian_source_connection_proof
+reason_killed: >
+  RUN-0054 preserves the E054 finite SBP parity cocycle as a real formal residue, but kills
+  the overclaim that this finite Cech holonomy proves the full GU flat-local-system/H3 bridge
+  or an Ehresmannian source connection. The finite witness does not construct
+  `Phi: Compat_G^MLTT -> FiltSh(C)`, does not prove spacelike/correspondence geometry, does
+  not derive a transport functor `A: ExtCat -> B G`, and does not compute a nonzero
+  gauge-equivariant distortion residue.
+evidence: >
+  `explorations/E059-cech-h3-ehresmannian-bridge-obligation-discharge-2026-06-24.md` and
+  `agent-runs/RUN-0054-cech-h3-ehresmannian-bridge-obligations.md`, building on E054, E055,
+  E056, E047, and E048.
+local_minimum_risk: >
+  Medium. The finite Cech/SBP result should not be thrown away. It survives as a conditional
+  source-derived parity fixture; only its promotion into a full GU/H3 or Ehresmannian theorem
+  is killed.
+possible_future_resurrection_trigger: >
+  A functorial bridge from `Compat_G^MLTT` to filtered sheaves or flat `Z/2` local systems,
+  plus schema-relabeling covariance for `Compat(c, T, S)`, plus either a spacelike/correspondence
+  geometry bridge or a nonzero gauge-equivariant distortion residue / transport-holonomy
+  witness.
+run_ref: RUN-0054
+claim_refs:
+  - TI-C017
+  - TI-C012
+  - TI-C019
+```
