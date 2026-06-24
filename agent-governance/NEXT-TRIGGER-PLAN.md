@@ -3,13 +3,67 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0059
+updated_by_run: RUN-0060
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## Assembly Theory D4 Source / Projection Operationalization Complete (RUN-0059) - Current Route
+## Parallel Burst Mode Governance Assessment Complete (RUN-0060) - Current Route
+
+RUN-0060 executed the `parallel_burst_mode_governance_assessment` trigger.
+
+Verdict:
+
+```yaml
+parallelization_pattern: parallel_lane_serial_merge
+subagents_used: true
+concurrent_writers_to_shared_surfaces: forbidden
+workflow_updated: W000_parallel_burst_mode
+governance_change_logged: true
+claim_status_change: none
+next_trigger: W010_frontier_selection_and_next_work_ranking
+```
+
+The burst pattern is now reusable: read-only explorer lanes may run in parallel, but shared
+steward surfaces are merged serially by the Repo Steward. Each resulting run gets an ordinary
+`RUN-####` record and its own commit/push.
+
+Primary next trigger:
+
+```text
+W000 -> W010_frontier_selection_and_next_work_ranking
+```
+
+Required:
+
+1. Load the results of RUN-0056 through RUN-0060.
+2. Rank the next frontiers after H3/C1/C3, TI-C022, TI-C020, Assembly Theory, and burst
+   governance were narrowed.
+3. Choose one primary next research route with success/failure conditions.
+4. Preserve the parked conditions for H3, TI-C022, TI-C020, and Assembly Theory.
+
+Secondary next triggers:
+
+```text
+W000 -> source_side_witness_fixture
+W000 -> cost_of_finality_landauer_fixture
+```
+
+Parked / narrowed triggers:
+
+```text
+W000 -> parallel_burst_mode_governance_assessment
+W000 -> assembly_theory_D4_operationalization_with_source_projection_split
+W000 -> TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+W000 -> TI_C022_fork_choice_canonical_chain_ontology_absorber
+W000 -> H3_C1_C3_bridge_from_finite_filtered_functor
+```
+
+Only re-run parallel burst governance if a future burst causes stale next-trigger state,
+duplicate path kills, shared-surface conflicts, or lower-quality verdicts than serial W000.
+
+## Assembly Theory D4 Source / Projection Operationalization Complete (RUN-0059)
 
 RUN-0059 executed the `assembly_theory_D4_operationalization_with_source_projection_split`
 trigger.

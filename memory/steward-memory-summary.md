@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0059
+last_summarized_run: RUN-0060
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: parallel_burst_mode_governance_assessment
+next_required_test: W010_frontier_selection_and_next_work_ranking
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -81,6 +81,11 @@ RUN-0059 adds: Assembly Theory D4 is operationalized with separate source-layer 
 projection-layer assembly indexes. Projection undefinedness is not source-side issuance
 evidence by itself; source evidence requires `AI_src,n` undefined, `AI_src,n+1` defined, and
 fixed-source aperture absorption defeated.
+
+RUN-0060 adds: W000 now has a bounded Parallel Burst Mode clause. The safe pattern is
+read-only parallel explorer lanes plus Repo Steward serial merge into shared surfaces, with a
+commit and push after every resulting run. After this five-run burst, the next route is W010
+frontier selection.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -756,19 +761,41 @@ path_kill_added: undefined_projection_assembly_index_as_source_issuance_evidence
 Assembly Theory now gives a clean projection-side operationalization of D4. It helps TI-C019
 only if the source-layer assembly index changes and fixed-source precontainment is defeated.
 
+## Parallel Burst Mode Governance Assessment (RUN-0060)
+
+RUN-0060 recorded the safe parallelization pattern used for RUN-0056 through RUN-0060.
+
+Verdict:
+
+```yaml
+parallelization_pattern: parallel_lane_serial_merge
+subagents_used: true
+concurrent_writers_to_shared_surfaces: forbidden
+workflow_updated: W000_parallel_burst_mode
+governance_change_logged: true
+claim_status_change: none
+next_trigger: W010_frontier_selection_and_next_work_ranking
+```
+
+The reusable rule: subagents may explore separate questions in parallel, but the Repo Steward
+serially merges shared surfaces (`NEXT-TRIGGER-PLAN.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`,
+memory, metrics, governance, and workflow files). Each resulting run is committed and pushed
+before the next run lands.
+
 ## Next Run
 
-**RUN-0059 route (current): parallel burst mode governance assessment.**
+**RUN-0060 route (current): W010 frontier selection and next-work ranking.**
 
-Primary: record the parallel-lane / serial-merge pattern used in this five-run burst and add a
-bounded W000 parallel-burst clause if useful.
+Primary: re-rank the live frontier after RUN-0056 through RUN-0060 narrowed H3/C1/C3, TI-C022,
+TI-C020, Assembly Theory, and burst governance.
 
-Secondary: after the burst is closed, route to W010 frontier selection unless a clearer primary
-research trigger has emerged.
+Secondary: preserve all parked conditions from the burst and choose one primary next research
+route with success/failure conditions.
 
-Parked: Assembly Theory as source evidence until `AI_src` changes and fixed-source aperture
-absorption is defeated; TI-C020 until a full W1-W6 witness appears; TI-C022 unless a trace
-separates it from canonical-chain finality under the same protocol assumptions.
+Parked: parallel burst governance unless future bursts create shared-surface conflicts;
+Assembly Theory as source evidence until `AI_src` changes and fixed-source aperture absorption
+is defeated; TI-C020 until a full W1-W6 witness appears; TI-C022 unless a trace separates it
+from canonical-chain finality under the same protocol assumptions.
 
 **RUN-0048 route (provenance; formal threshold discharged by RUN-0050).**
 

@@ -384,6 +384,18 @@ Open tasks (updated after RUN-0059):
 - Assembly Theory is parked as source evidence until a source-layer construction trace defeats
   fixed-source aperture absorption.
 
+RUN-0060 closed the five-run burst and updated W000 with a bounded Parallel Burst Mode clause.
+The reusable pattern is read-only parallel explorer lanes, followed by steward-owned serial
+merge into shared surfaces, one ordinary run record per result, and commit/push after every
+run.
+
+Open tasks (updated after RUN-0060):
+
+- W010 frontier selection (primary): re-rank the live frontier after RUN-0056 through RUN-0060
+  narrowed H3/C1/C3, TI-C022, TI-C020, Assembly Theory, and burst governance.
+- Preserve burst mode as a tool for separable frontiers, not as a substitute for serial
+  steward ownership of claim, memory, roadmap, trigger, metrics, and governance surfaces.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.

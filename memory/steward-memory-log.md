@@ -1244,6 +1244,30 @@ Files changed: `explorations/E064-assembly-theory-d4-source-projection-operation
 `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
 `agent-governance/STEWARD-METRICS.md`, `explorations/README.md`.
 
+## RUN-0060
+
+Timestamp: 2026-06-24
+Trigger: manual_parallel_accelerated_request
+Workflow: W000 -> parallel_burst_mode_governance_assessment
+Agent / subagents used: Explorer E supplied read-only lane finding; Repo Steward performed
+serial merge.
+Current strongest version: Parallel bursts are useful when explorer lanes are read-only or
+isolated, shared surfaces remain steward-owned, and each resulting run is landed sequentially.
+Current strongest objection: Concurrent writers to `NEXT-TRIGGER-PLAN.md`, memory, claim,
+roadmap, metrics, governance, or workflow files would create stale or conflicting repo state.
+What collapsed: Nothing research-facing. The unsafe pattern of concurrent writers to shared
+steward surfaces is explicitly blocked.
+What survived: Parallel-lane / serial-merge burst mode as a reusable W000 pattern.
+What was absorbed: No claim absorber movement.
+What was clarified: Commit and push after every completed run is part of the burst contract.
+What was promoted: None.
+New blockers: None.
+Recommended next run: W000 -> W010_frontier_selection_and_next_work_ranking.
+Files changed: `agent-runs/RUN-0060-parallel-burst-mode-governance-assessment.md`,
+`workflows/W000-repo-steward-cycle.md`, `agent-governance/GOVERNANCE-CHANGE-LEDGER.md`,
+`ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`,
+`memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
 ## RUN-0046
 
 Timestamp: 2026-06-22

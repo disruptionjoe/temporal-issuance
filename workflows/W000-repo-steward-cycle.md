@@ -81,6 +81,21 @@ Parallelize when workstreams have separable surfaces and parallel pressure impro
 
 If parallelization is not available in the current environment, simulate it by producing separate persona sections inside one run record and record that limitation.
 
+## Parallel Burst Mode
+
+Use parallel burst mode when the user asks for several runs at once or when W000 identifies
+several separable pressure targets.
+
+1. Start from a clean git snapshot and record the base commit in the run notes when useful.
+2. Spawn read-only explorer lanes or isolated workers with disjoint write surfaces.
+3. Keep shared steward surfaces owner-merged by the Repo Steward: `NEXT-TRIGGER-PLAN.md`,
+   `CLAIM-LEDGER.md`, `ROADMAP.md`, memory files, metrics, governance ledgers, and workflow
+   files should be merged serially.
+4. Convert explorer findings into ordinary sequential `RUN-####` records.
+5. Commit and push after each completed run before landing the next run.
+6. After a burst touches multiple research frontiers, route to W010 unless the next trigger is
+   already obvious and fresh.
+
 ## Strongest-Version Rule
 
 Before killing a path, generate the strongest version available inside the run. Then attack that version from first principles.

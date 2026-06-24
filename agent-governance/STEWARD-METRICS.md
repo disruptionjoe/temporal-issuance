@@ -38,7 +38,7 @@ estimated_token_intensity:
 | --- | --- | --- | --- |
 | verdict_movement | Measures whether work changes claim state, kill state, absorber state, or formal precision. | Count runs that update `CLAIM-LEDGER.md`, `memory/path-kills.md`, tests, or formal objects. | W001 weakened TI-C001 and killed one path. |
 | workflow_churn | Detects process expansion replacing research progress. | Count workflows created, retired, or revised per 10 runs. | W004 created after assessment; W005 still planned. |
-| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks RUN-0059 after this run. |
+| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks RUN-0060 after this run. |
 | governance_research_balance | Detects governance drift or research neglect. | Classify each run as research, governance, mixed, or maintenance. | Recent runs are governance-heavy by design. |
 | next_trigger_volatility | Detects unstable priorities. | Track how often `NEXT-TRIGGER-PLAN.md` changes route. | Volatile during launch instrumentation. |
 | path_kill_quality | Detects false closure and weak kill records. | Check killed paths for evidence, local-minimum risk, and resurrection trigger. | One path kill recorded cleanly. |
@@ -1363,6 +1363,33 @@ notes: >
   Projection undefinedness is killed as sufficient source-issuance evidence; source evidence
   requires AI_src,n undefined, AI_src,n+1 defined, and fixed-source aperture absorption defeated.
   Next trigger moves to parallel burst mode governance assessment.
+```
+
+```yaml
+run_id: RUN-0060
+workflow_used: W000 -> parallel_burst_mode_governance_assessment
+research_vs_governance: governance
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+workflow_updated: true
+  workflow_updated_name: W000_parallel_burst_mode
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: true
+  change_id: GCH-0011
+hard_output_created: true
+  artifacts: [RUN-0060-parallel-burst-mode-governance-assessment]
+daily_review_items_added: false
+estimated_token_intensity: low
+parallel_lanes_used: five_read_only_explorer_lanes_serial_merge
+notes: >
+  Parallel burst mode governance assessment completed. W000 now records the reusable pattern:
+  read-only or isolated explorer lanes may run in parallel, but shared steward surfaces are
+  merged serially by the Repo Steward and each resulting run is committed and pushed before the
+  next run lands. Next trigger moves to W010 frontier selection.
 ```
 
 ## Use Rules

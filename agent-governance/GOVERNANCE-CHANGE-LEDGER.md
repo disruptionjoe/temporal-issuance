@@ -186,3 +186,27 @@ rollback_or_revisit_trigger: >
   If W010 repeatedly selects the same route W000 would have selected without catching stale
   state, hidden blockers, or higher-leverage work, narrow it to on-demand use or retire it.
 ```
+
+```yaml
+change_id: GCH-0011
+timestamp: 2026-06-24
+run_id: RUN-0060
+changed_surface:
+  - workflows/W000-repo-steward-cycle.md
+change_type: parallel_burst_mode_clause
+reason: >
+  Joe asked for five runs and asked how to parallelize them. The burst showed that read-only
+  explorer lanes can usefully pressure separate frontiers, but shared steward surfaces must be
+  merged serially to avoid conflicting next-trigger, memory, claim, and metrics updates.
+expected_learning_value: >
+  Allow future multi-run bursts to get parallel research pressure without corrupting repo
+  governance state. Preserve commit-and-push after every completed run.
+risk: >
+  Parallel burst mode could be overused for work that should be a single focused run, or could
+  create superficial breadth if explorer lanes are not turned into ordinary run records.
+review_needed: false
+rollback_or_revisit_trigger: >
+  If future bursts create stale next-trigger state, duplicate path kills, unclear ownership of
+  shared surfaces, or lower-quality verdicts than serial W000 runs, narrow burst mode to
+  explicit user requests only.
+```
