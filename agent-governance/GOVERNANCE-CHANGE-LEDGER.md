@@ -233,3 +233,24 @@ rollback_or_revisit_trigger: >
   If batch commits obscure provenance, cause hard-to-review diffs, or make rollback harder,
   restore per-run commits as the default for multi-run bursts.
 ```
+
+```yaml
+change_id: GCH-0013
+timestamp: 2026-06-24
+run_id: manual_request
+changed_surface:
+  - workflows/W000-repo-steward-cycle.md
+change_type: per_run_commit_push_reaffirmation
+reason: >
+  Joe instructed: "Commit and push after each run." This supersedes the recent batch-commit
+  preference as the durable default for W000 and parallel burst mode.
+expected_learning_value: >
+  Preserve tighter auditability, easier rollback, and clearer mapping from each run to its
+  commit and pushed remote state.
+risk: >
+  Multi-run bursts will take slightly longer and create more commits than a batch strategy.
+review_needed: false
+rollback_or_revisit_trigger: >
+  Only allow a batch commit when Joe explicitly overrides the per-run rule for the current
+  burst and the run notes record the override.
+```
