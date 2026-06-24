@@ -3,13 +3,64 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0056
+updated_by_run: RUN-0057
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## H3 C1/C3 Bridge From Finite Filtered Functor Complete (RUN-0056) - Current Route
+## TI-C022 Fork-Choice Canonical-Chain Absorber Complete (RUN-0057) - Current Route
+
+RUN-0057 executed the `TI_C022_fork_choice_canonical_chain_ontology_absorber` trigger.
+
+Verdict:
+
+```yaml
+fork_choice_absorption: operational_absorption_succeeds
+canonical_chain_equivalence: finalized_record_membership_matches_predicate_when_protocol_supplies_canonical_carrier_finality_quorum_validity
+remaining_surplus: ontological_record_reality_typing
+claim_status_change: none
+path_kill_added: TI_C022_as_independent_operational_surplus_over_fork_choice_canonical_chain_finality
+```
+
+TI-C022 still defeats the simple eventual-synchrony absorber from RUN-0053, but its operational
+content is absorbed once a protocol already supplies quorum validity, canonical carrier or
+canonical-chain selection, finality, and finalized record membership. The remaining surplus is
+ontological: canonical-carrier membership is treated as shared-process record reality.
+
+Primary next trigger:
+
+```text
+W000 -> TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+```
+
+Required:
+
+1. Load E057/RUN-0052 and the W1-W6 witness gate.
+2. Test whether any current physical candidate supplies non-isomorphic observable algebra,
+   new admissibility predicate, construction-space growth, perturbation non-factorization,
+   record preservation, and gauge/AB/fixed-boundary absorption.
+3. If no candidate supplies W1-W6, keep TI-C020 parked and state the resurrection condition.
+
+Secondary next triggers:
+
+```text
+W000 -> assembly_theory_D4_operationalization_with_source_projection_split
+W000 -> W010_frontier_selection_and_next_work_ranking
+```
+
+Parked / narrowed triggers:
+
+```text
+W000 -> TI_C022_fork_choice_canonical_chain_ontology_absorber
+W000 -> H3_C1_C3_bridge_from_finite_filtered_functor
+```
+
+Only re-run TI-C022 if a protocol trace is supplied where fork-choice/canonical-chain finality
+succeeds while TI-C022 fails, or vice versa, without changing the underlying protocol
+assumptions.
+
+## H3 C1/C3 Bridge From Finite Filtered Functor Complete (RUN-0056)
 
 RUN-0056 executed the `H3_C1_C3_bridge_from_finite_filtered_functor` trigger.
 

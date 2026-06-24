@@ -725,3 +725,40 @@ path_kill:
   path: finite_filtered_Z2_local_system_as_sufficient_full_GU_H3_or_C3_geometry_bridge
   evidence_ref: memory/path-kills.md#run-0056
 ```
+
+## RUN-0057 Claim Addenda
+
+```yaml
+TI-C022:
+  status: speculative
+  effect: operational_surplus_absorbed_ontological_residue_preserved
+  addendum: >
+    RUN-0057 tests TI-C022 against fork-choice / canonical-chain finality. The eventual
+    synchrony absorber remains defeated, but the operational part of TI-C022 is absorbed
+    when the protocol already supplies quorum validity, canonical carrier or canonical-chain
+    selection, finality, and finalized record membership. The remaining surplus is
+    ontological: canonical-carrier membership is treated as shared-process record reality.
+  strongest_objection_after_run: >
+    Without a trace separating TI-C022 from canonical-chain membership under the same protocol
+    assumptions, TI-C022 adds vocabulary and ontology rather than an independent operational
+    theorem.
+  evidence_refs_added:
+    - explorations/E062-ti-c022-fork-choice-canonical-chain-ontology-absorber-2026-06-24.md
+    - agent-runs/RUN-0057-ti-c022-fork-choice-canonical-chain-ontology-absorber.md
+  next_action: >
+    Keep TI-C022 speculative/narrowed. Reopen only if a protocol trace makes fork-choice
+    finality and TI-C022's shared-process predicate diverge without changing the underlying
+    assumptions.
+
+TI-C019:
+  status: formalizing
+  effect: shared_participation_record_layer_narrowed
+  addendum: >
+    RUN-0057 does not disturb the formal source witness. It narrows the shared-participation
+    record layer by treating canonical carrier membership as ontology, not as new operational
+    mechanics.
+
+path_kill:
+  path: TI_C022_as_independent_operational_surplus_over_fork_choice_canonical_chain_finality
+  evidence_ref: memory/path-kills.md#run-0057
+```

@@ -335,6 +335,23 @@ Open tasks (updated after RUN-0056):
 - H3/C1/C3 bridge is parked until a candidate supplies a canonical localization/comparison
   rule beyond SBP parity plus independent C3 geometry data.
 
+RUN-0057 executed the TI-C022 fork-choice / canonical-chain ontology absorber. Result:
+TI-C022 still resists reduction to mere eventual synchrony, but it is operationally absorbed
+once a protocol supplies quorum validity, canonical carrier or canonical-chain selection,
+finality, and finalized record membership. The remaining surplus is ontological: canonical
+carrier membership is treated as shared-process record reality.
+
+Open tasks (updated after RUN-0057):
+
+- TI-C020 physical bridge W1-W6 recheck (primary): verify whether any current candidate
+  supplies non-isomorphic observable algebra, new admissibility predicate, construction-space
+  growth, perturbation non-factorization, record preservation, and gauge/AB/fixed-boundary
+  absorption.
+- If no W1-W6 witness exists, keep TI-C020 parked and route to Assembly Theory D4
+  operationalization with the source/projection split explicit.
+- TI-C022 is narrowed to ontological record-reality typing unless a trace separates it from
+  fork-choice / canonical-chain finality under the same protocol assumptions.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.

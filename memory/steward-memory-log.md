@@ -1158,6 +1158,35 @@ Files changed: `explorations/E061-h3-c1-c3-bridge-from-finite-filtered-functor-2
 `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
 `agent-governance/STEWARD-METRICS.md`, `explorations/README.md`.
 
+## RUN-0057
+
+Timestamp: 2026-06-24
+Trigger: manual_parallel_accelerated_request
+Workflow: W000 -> TI_C022_fork_choice_canonical_chain_ontology_absorber
+Agent / subagents used: Explorer B supplied read-only lane finding; Repo Steward performed
+serial merge.
+Current strongest version: TI-C022 still says a record is genuinely shared-process real only
+when it belongs to the unique cofinal quorum-legitimate canonical carrier.
+Current strongest objection: If a protocol already supplies canonical-chain selection, quorum
+validity, finality, and finalized record membership, TI-C022 is operationally implemented by
+that machinery.
+What collapsed: TI-C022 as an independent operational surplus over fork-choice /
+canonical-chain finality.
+What survived: TI-C022 as ontological record-reality typing: canonical-carrier membership is
+treated as what makes a record shared-process real.
+What was absorbed: The operational predicate by canonical-chain finality under the same
+protocol assumptions.
+What was clarified: TI-C022 should stay speculative and narrowed unless a trace separates it
+from fork-choice / canonical-chain finality without changing assumptions.
+What was promoted: None.
+New blockers: No current separating trace exists for TI-C022.
+Recommended next run: W000 -> TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness.
+Files changed: `explorations/E062-ti-c022-fork-choice-canonical-chain-ontology-absorber-2026-06-24.md`,
+`agent-runs/RUN-0057-ti-c022-fork-choice-canonical-chain-ontology-absorber.md`, `CLAIM-LEDGER.md`,
+`ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`,
+`memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
+`agent-governance/STEWARD-METRICS.md`, `explorations/README.md`.
+
 ## RUN-0046
 
 Timestamp: 2026-06-22

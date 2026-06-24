@@ -718,3 +718,30 @@ claim_refs:
   - TI-C012
   - TI-C019
 ```
+
+## RUN-0057
+
+```yaml
+path: TI_C022_as_independent_operational_surplus_over_fork_choice_canonical_chain_finality
+reason_killed: >
+  RUN-0057 shows that when a protocol already supplies quorum validity, canonical carrier or
+  canonical-chain selection, finality, and finalized record membership, TI-C022's shared-
+  process continuity predicate is operationally realized by canonical-chain membership. The
+  remaining surplus is ontological record-reality typing, not independent operational
+  machinery.
+evidence: >
+  `explorations/E062-ti-c022-fork-choice-canonical-chain-ontology-absorber-2026-06-24.md` and
+  `agent-runs/RUN-0057-ti-c022-fork-choice-canonical-chain-ontology-absorber.md`, building on
+  E044, E058, and RUN-0053.
+local_minimum_risk: >
+  Medium. This kills only independent operational surplus, not the ontological commitment that
+  canonical-carrier membership is what makes a record shared-process real.
+possible_future_resurrection_trigger: >
+  A protocol trace in which fork-choice/canonical-chain finality succeeds but TI-C022 fails, or
+  TI-C022 succeeds while canonical-chain finality fails, without changing quorum, finality, or
+  carrier-selection assumptions.
+run_ref: RUN-0057
+claim_refs:
+  - TI-C022
+  - TI-C019
+```

@@ -29,3 +29,4 @@ They should still preserve:
 - `E059-cech-h3-ehresmannian-bridge-obligation-discharge-2026-06-24.md` preserves the finite SBP parity Cech fixture as a source-conditioned formal residue, but kills the overclaim that it proves the full GU/H3 or Ehresmannian source-connection bridge.
 - `E060-filtered-source-functor-q-obligation-2026-06-24.md` constructs the finite SBP-parity filtered functor, narrows strict N naturality to a filtered/lax residual equation, and kills global normalized Q over the productive SBP option set.
 - `E061-h3-c1-c3-bridge-from-finite-filtered-functor-2026-06-24.md` parks the H3/C1/C3 bridge by showing the finite filtered `Z/2` local-system witness does not supply a total GU/H3 or C3 geometry bridge.
+- `E062-ti-c022-fork-choice-canonical-chain-ontology-absorber-2026-06-24.md` narrows TI-C022 by showing fork-choice / canonical-chain finality absorbs its operational content, leaving ontological record-reality typing.

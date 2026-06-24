@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0056
+last_summarized_run: RUN-0057
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: TI_C022_fork_choice_canonical_chain_ontology_absorber
+next_required_test: TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -66,6 +66,11 @@ does not discharge the C1 GU/H3 bridge, and does not derive C3 spacelike/corresp
 geometry. The finite filtered witness survives as formal residue; the full-bridge overclaim
 is killed. The next pressure point is TI-C022's fork-choice / canonical-chain ontology
 absorber.
+
+RUN-0057 adds: TI-C022 is operationally absorbed by fork-choice / canonical-chain finality
+once quorum validity, canonical carrier selection, finality, and finalized record membership
+are supplied. The remaining surplus is ontological record-reality typing. TI-C022 stays
+speculative/narrowed.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -134,6 +139,7 @@ The next fixture should test the simpler version of the same independence proble
 - Global normalized `Q` over the productive SBP option set as a source invariant.
 - Finite filtered `Z/2` local-system data as sufficient proof of a full GU/H3 or C3 geometry
   bridge.
+- TI-C022 as independent operational surplus over fork-choice / canonical-chain finality.
 
 ## Issuance Precision Result (RUN-0039)
 
@@ -668,20 +674,42 @@ functional, and parity-bearing SBP morphisms. Its flat `Z/2` local-system class 
 finite E054 parity witness, but it is not a total `Compat_G^MLTT -> FiltSh(C)` bridge, not a
 GU/H3 identity theorem, and not C3 spacelike/correspondence geometry.
 
+## TI-C022 Fork-Choice Canonical-Chain Absorber (RUN-0057)
+
+RUN-0057 tested whether TI-C022's shared-process predicate has independent operational content
+beyond canonical-chain finality.
+
+Verdict:
+
+```yaml
+fork_choice_absorption: operational_absorption_succeeds
+canonical_chain_equivalence: finalized_record_membership_matches_predicate_when_protocol_supplies_canonical_carrier_finality_quorum_validity
+remaining_surplus: ontological_record_reality_typing
+claim_status_change: none
+path_kill_added: TI_C022_as_independent_operational_surplus_over_fork_choice_canonical_chain_finality
+```
+
+RUN-0053 had already defeated the reduction to mere eventual-synchrony liveness. RUN-0057 adds
+the next narrowing: if the protocol already supplies quorum validity, a canonical carrier or
+canonical chain, finality, and finalized record membership, then TI-C022 is operationally
+implemented by canonical-chain membership. What remains is the ontological reading that
+canonical-carrier membership is shared-process record reality.
+
 ## Next Run
 
-**RUN-0056 route (current): TI-C022 fork-choice / canonical-chain ontology absorber.**
+**RUN-0057 route (current): TI-C020 physical bridge candidate with W1-W6 operator-algebra witness.**
 
-Primary: test whether TI-C022's unique cofinal quorum-legitimate carrier predicate has
-operational content beyond fork-choice, canonical-chain finality, quorum validity, and record
-membership.
+Primary: check whether any current physical bridge candidate supplies E057's W1-W6 gate:
+non-isomorphic observable algebra, new admissibility predicate, construction-space growth,
+perturbation non-factorization, record preservation, and gauge/AB/fixed-boundary absorption.
 
-Secondary: if the operational content is absorbed, preserve only the ontological record-reality
-residue and keep TI-C022 speculative.
+Secondary: if no W1-W6 witness is supplied, keep TI-C020 parked and route to Assembly Theory
+D4 operationalization with the source/projection split explicit.
 
-Parked: TI-C020 physical bridge pending E057's W1-W6 witness gate; H3/C1/C3 bridge unless a
-canonical localization/comparison rule and independent C3 geometry are supplied; re-running
-functor/Q unless a total localization rule or constructive non-oracular measure is supplied.
+Parked: TI-C022 unless a trace separates it from canonical-chain finality under the same
+protocol assumptions; H3/C1/C3 bridge unless a canonical localization/comparison rule and
+independent C3 geometry are supplied; re-running functor/Q unless a total localization rule or
+constructive non-oracular measure is supplied.
 
 **RUN-0048 route (provenance; formal threshold discharged by RUN-0050).**
 
