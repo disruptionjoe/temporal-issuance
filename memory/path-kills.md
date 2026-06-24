@@ -691,3 +691,30 @@ claim_refs:
   - TI-C019
   - TI-C017
 ```
+
+## RUN-0056
+
+```yaml
+path: finite_filtered_Z2_local_system_as_sufficient_full_GU_H3_or_C3_geometry_bridge
+reason_killed: >
+  RUN-0056 shows that the finite filtered `Z/2` local-system witness preserves the E054 parity
+  cocycle but does not supply a canonical total functor, a GU/H3 comparison theorem, or
+  spacelike/correspondence geometry. `Phi_par` remains dependent on finite cover data,
+  localization, a parity functional, and parity-bearing SBP morphisms.
+evidence: >
+  `explorations/E061-h3-c1-c3-bridge-from-finite-filtered-functor-2026-06-24.md` and
+  `agent-runs/RUN-0056-h3-c1-c3-bridge-from-finite-filtered-functor.md`, building on E054,
+  E059, and E060.
+local_minimum_risk: >
+  Medium. Killing the full-bridge overclaim must not discard the finite filtered witness. It
+  remains a useful source-derived formal residue and a future comparison target.
+possible_future_resurrection_trigger: >
+  A canonical localization/comparison rule extending `Phi_par` beyond finite SBP parity, plus
+  an independent model showing how the local-system class corresponds to GU/H3 or C3
+  spacelike/correspondence geometry.
+run_ref: RUN-0056
+claim_refs:
+  - TI-C017
+  - TI-C012
+  - TI-C019
+```

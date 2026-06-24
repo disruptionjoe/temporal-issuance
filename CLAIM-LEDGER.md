@@ -683,3 +683,45 @@ path_kill:
   path: global_normalized_Q_over_productive_SBP_option_set_as_source_invariant
   evidence_ref: memory/path-kills.md#run-0055
 ```
+
+## RUN-0056 Claim Addenda
+
+```yaml
+TI-C017:
+  status: speculative
+  effect: finite_filtered_residue_narrowed_full_h3_bridge_not_earned
+  addendum: >
+    RUN-0056 tests whether `Phi_par` extends beyond the finite SBP-parity subcategory and
+    whether its flat `Z/2` local-system class discharges the C1 GU/H3 bridge. It does not.
+    The finite witness remains valuable as formal residue, but it is not a total
+    `Compat_G^MLTT -> FiltSh(C)` bridge and does not prove full GU/H3 identity.
+  evidence_refs_added:
+    - explorations/E061-h3-c1-c3-bridge-from-finite-filtered-functor-2026-06-24.md
+    - agent-runs/RUN-0056-h3-c1-c3-bridge-from-finite-filtered-functor.md
+  next_action: >
+    Park H3/C1/C3 promotion unless a new candidate supplies canonical localization or a
+    comparison theorem from the finite local-system class to the intended GU/H3 object.
+
+TI-C012:
+  status: formalizing
+  effect: transport_and_geometry_requirements_reaffirmed
+  addendum: >
+    RUN-0056 confirms that flat finite `Z/2` local-system data is not yet a full transport
+    functor, connection, or C3 correspondence geometry. The source-derived parity class
+    remains formal residue unless additional geometry is supplied.
+  next_action: >
+    Require a derived transport/comparison theorem or independent C3 geometry before treating
+    the finite local-system witness as more than formal residue.
+
+TI-C019:
+  status: formalizing
+  effect: formal_source_witness_unchanged_bridge_scope_narrowed
+  addendum: >
+    RUN-0056 does not disturb the `Compat_G^MLTT` formal source witness. It narrows what the
+    finite filtered witness can currently support: source-derived parity residue, not full
+    GU/H3 or C3 geometry.
+
+path_kill:
+  path: finite_filtered_Z2_local_system_as_sufficient_full_GU_H3_or_C3_geometry_bridge
+  evidence_ref: memory/path-kills.md#run-0056
+```
