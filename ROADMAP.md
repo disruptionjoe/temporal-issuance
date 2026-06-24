@@ -401,13 +401,17 @@ not ten loose goals: G01 is the serial source-shadow-finality contract; G02/G03/
 are independent fixture/audit lanes after G01; G04 precedes G05; G10 performs final frontier
 integration. Each actual goal run should commit and push before the next goal lands.
 
-Open tasks (updated after RUN-0062):
+RUN-0063 completed G01. The source-shadow-finality interface contract now exists in E067 and
+defines `SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKernel`,
+`AbsorberSet`, and explicit verdict classes. The contract recommends running the fixed-source
+bounded-access negative control before the positive fixture.
 
-- G01 source-shadow-finality interface contract (primary): define the boundary between
-  Temporal Issuance source-side issuance and Time as Finality projection/finality audit.
+Open tasks (updated after RUN-0063):
+
+- G03 fixed-source negative control (primary): instantiate the E067 contract with fixed
+  `Mu_infty` plus expanding `P_n` access aperture and ensure it does not classify as source
+  issuance.
 - G02 positive fixture: run one finite example through the contract.
-- G03 fixed-source negative control: ensure bounded-access disclosure is not classified as
-  source issuance.
 - G04/G05 AC-8 actor trace and projection audit: state the actor protocol first, then audit
   observer-visible finality.
 - G06/G07/G08/G09 parallel lanes: issued capability, memory LossKernel, TI-C022 record-reality

@@ -1439,6 +1439,29 @@ notes: >
   precede G05; G10 is final frontier integration. No claim status changed.
 ```
 
+```yaml
+run_id: RUN-0063
+workflow_used: W000 -> G01_source_shadow_finality_interface_contract
+research_vs_governance: research_strategy
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E067-source-shadow-finality-interface-contract, RUN-0063-source-shadow-finality-interface-contract]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  G01 completed. E067 defines SourceExtension, Projection, Capability, RecordFinality,
+  LossKernel, AbsorberSet, and verdict classes for future fixtures. Next trigger moves to
+  G03 fixed-source bounded-access negative control before G02 positive fixture.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

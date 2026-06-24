@@ -1525,3 +1525,19 @@ What was promoted: None.
 New blockers: G01 must succeed before the other nine goals can execute cleanly.
 Recommended next run: W000 -> G01_source_shadow_finality_interface_contract.
 Files changed: `explorations/E066-ten-goal-source-shadow-finality-orchestration-2026-06-24.md`, `agent-runs/RUN-0062-ten-goal-source-shadow-finality-orchestration.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0063
+
+Timestamp: 2026-06-24
+Trigger: manual_request
+Workflow: W000 -> G01_source_shadow_finality_interface_contract
+Agent / subagents used: Repo Steward.
+Current strongest version: The source-shadow-finality bridge is now a typed interface contract with `SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKernel`, and `AbsorberSet`. Future fixtures must classify their result using the E067 verdict classes rather than blending source, projection, finality, and loss.
+Current strongest objection: The contract may still fail if the fixed-source negative control is misclassified as source issuance, so G03 should run before the positive fixture.
+What collapsed: Treating projection/access novelty, capability insufficiency, or record finality as source issuance by default.
+What survived: A small contract that separates source gate, observer projection, capability sufficiency, record finality, loss, and absorbers.
+What was absorbed: Broad cross-repo bridge language was absorbed into explicit verdict classes and absorber gates.
+What was promoted: None.
+New blockers: G03 must pressure-test the contract against fixed `Mu_infty` plus expanding access aperture before relying on it for a positive fixture.
+Recommended next run: W000 -> G03_fixed_source_bounded_access_negative_control.
+Files changed: `explorations/E067-source-shadow-finality-interface-contract-2026-06-24.md`, `agent-runs/RUN-0063-source-shadow-finality-interface-contract.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

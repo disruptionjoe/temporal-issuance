@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0062
+last_summarized_run: RUN-0063
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: G01_source_shadow_finality_interface_contract
+next_required_test: G03_fixed_source_bounded_access_negative_control
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -98,6 +98,13 @@ RUN-0062 adds: the cross-repo interface work is now organized into ten goals. G0
 serial foundation: source-shadow-finality interface contract. After G01, G02/G03/G06/G07/G08/G09
 can run as independent fixture or audit lanes; G04 must precede G05; G10 is the final W010-style
 frontier re-rank. Each goal should become its own run, artifact, commit, and push.
+
+RUN-0063 adds: G01 succeeded. E067 defines the source-shadow-finality contract with
+`SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKernel`, and
+`AbsorberSet`, plus verdict classes separating source issuance, projection/access novelty,
+capability sufficiency failure, record finality, lossy projection residue, and absorber-
+controlled bookkeeping. The recommended next run is G03 fixed-source bounded-access negative
+control before G02 positive fixture.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.

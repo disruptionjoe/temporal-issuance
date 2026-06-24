@@ -3,13 +3,68 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0062
+updated_by_run: RUN-0063
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## Ten-Goal Source / Shadow / Finality Orchestration Complete (RUN-0062) - Current Route
+## G01 Source / Shadow / Finality Interface Contract Complete (RUN-0063) - Current Route
+
+RUN-0063 executed the `G01_source_shadow_finality_interface_contract` trigger.
+
+Verdict:
+
+```yaml
+G01_complete: true
+contract_artifact: explorations/E067-source-shadow-finality-interface-contract-2026-06-24.md
+claim_status_change: none
+contract_objects_defined:
+  - SourceExtension
+  - Projection
+  - Capability
+  - RecordFinality
+  - LossKernel
+  - AbsorberSet
+next_recommended_trigger: G03_fixed_source_bounded_access_negative_control
+alternate_next_trigger: G02_source_shadow_finality_positive_fixture
+```
+
+The contract now gives later runs verdict classes:
+
+```text
+source_issuance_candidate
+projection_access_novelty
+capability_sufficiency_failure
+record_finality_only
+lossy_projection_residue
+absorber_controlled_bookkeeping
+untyped_or_invalid
+```
+
+Primary next trigger:
+
+```text
+W000 -> G03_fixed_source_bounded_access_negative_control
+```
+
+Required:
+
+1. Instantiate the E067 contract with `fixed Mu_infty + expanding P_n access aperture`.
+2. Verify the expected verdict is `projection_access_novelty` or
+   `absorber_controlled_bookkeeping`, not `source_issuance_candidate`.
+3. If the negative control is misclassified as source issuance, reopen E067 before running G02.
+4. Commit and push after G03.
+
+Secondary next trigger:
+
+```text
+W000 -> G02_source_shadow_finality_positive_fixture
+```
+
+Only run G02 first if Joe explicitly wants the positive fixture before the negative control.
+
+## Ten-Goal Source / Shadow / Finality Orchestration Complete (RUN-0062)
 
 RUN-0062 executed the `ten_goal_source_shadow_finality_orchestration` trigger.
 
