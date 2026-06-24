@@ -1187,6 +1187,34 @@ Files changed: `explorations/E062-ti-c022-fork-choice-canonical-chain-ontology-a
 `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
 `agent-governance/STEWARD-METRICS.md`, `explorations/README.md`.
 
+## RUN-0058
+
+Timestamp: 2026-06-24
+Trigger: manual_parallel_accelerated_request
+Workflow: W000 -> TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+Agent / subagents used: Explorer C supplied read-only lane finding; Repo Steward performed
+serial merge.
+Current strongest version: TI-C020 would require a physical candidate satisfying E057's W1-W6
+gate: growing observable algebra/admissibility/construction space plus perturbation,
+record-preservation, and absorber defeat.
+Current strongest objection: No current candidate supplies W1-W6. The strongest named
+substrate fixture, microtubule / Orch-OR, remains compatible with fixed-H, fixed-A, fixed
+instrument/channel, fixed `Mu_infty`, access/readout, and fixed-boundary absorbers.
+What collapsed: No new path collapsed; the RUN-0052 microtubule / Orch-OR path-kill is
+reaffirmed.
+What survived: TI-C020 as speculative and parked pending a real W1-W6 witness.
+What was absorbed: Current physical-source readings by fixed-H/fixed-A/fixed-instrument/
+fixed-Mu/access-readout and fixed-boundary models.
+What was clarified: The next useful route is Assembly Theory D4 operationalization, but only
+with source and projection indexes kept separate.
+What was promoted: None.
+New blockers: No physical W1-W6 witness exists in current repo state.
+Recommended next run: W000 -> assembly_theory_D4_operationalization_with_source_projection_split.
+Files changed: `explorations/E063-ti-c020-physical-bridge-w1-w6-recheck-2026-06-24.md`,
+`agent-runs/RUN-0058-ti-c020-physical-bridge-w1-w6-recheck.md`, `CLAIM-LEDGER.md`,
+`ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`,
+`memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`, `explorations/README.md`.
+
 ## RUN-0046
 
 Timestamp: 2026-06-22

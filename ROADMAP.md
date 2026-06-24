@@ -352,6 +352,21 @@ Open tasks (updated after RUN-0057):
 - TI-C022 is narrowed to ontological record-reality typing unless a trace separates it from
   fork-choice / canonical-chain finality under the same protocol assumptions.
 
+RUN-0058 rechecked the TI-C020 physical bridge against the E057 W1-W6 witness gate. Result:
+no current candidate supplies non-isomorphic observable algebra, new admissibility predicate,
+source-side construction-space growth, perturbation non-factorization, record preservation, and
+absorber defeat. TI-C020 remains speculative and parked. The RUN-0052 microtubule / Orch-OR
+path-kill is reaffirmed rather than duplicated.
+
+Open tasks (updated after RUN-0058):
+
+- Assembly Theory D4 operationalization (primary): define source-layer and projection-layer
+  assembly indexes separately, and test whether undefined projection assembly index is only
+  bounded-access novelty or can witness source-side issuance.
+- TI-C020 remains parked until an actual W1-W6 witness appears.
+- W010 frontier selection should run after the Assembly Theory pass or after this burst if
+  multiple frontiers remain tied.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.

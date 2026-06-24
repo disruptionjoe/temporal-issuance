@@ -762,3 +762,33 @@ path_kill:
   path: TI_C022_as_independent_operational_surplus_over_fork_choice_canonical_chain_finality
   evidence_ref: memory/path-kills.md#run-0057
 ```
+
+## RUN-0058 Claim Addenda
+
+```yaml
+TI-C020:
+  status: speculative
+  effect: physical_bridge_remains_parked_no_current_W1_W6_witness
+  addendum: >
+    RUN-0058 rechecks the physical bridge route against E057's W1-W6 gate. No current
+    candidate supplies non-isomorphic observable algebra, a new source-generated admissibility
+    predicate, construction-space growth, perturbation non-factorization, record preservation,
+    and gauge/AB/fixed-boundary absorption. Microtubule / Orch-OR remains fixture material
+    only.
+  evidence_refs_added:
+    - explorations/E063-ti-c020-physical-bridge-w1-w6-recheck-2026-06-24.md
+    - agent-runs/RUN-0058-ti-c020-physical-bridge-w1-w6-recheck.md
+  next_action: >
+    Keep TI-C020 parked. Reopen only when a candidate supplies the full W1-W6 witness gate.
+
+TI-C019:
+  status: formalizing
+  effect: physical_source_not_established
+  addendum: >
+    RUN-0058 does not disturb the formal `Compat_G^MLTT` source witness. It only confirms that
+    no physical analogue currently satisfies the growing-algebra/admissibility witness gate.
+
+path_kill_reaffirmed:
+  path: microtubule_orch_or_six_axis_candidate_as_sufficient_ti_c020_evidence_without_operator_algebra_growth
+  evidence_ref: memory/path-kills.md#run-0052
+```

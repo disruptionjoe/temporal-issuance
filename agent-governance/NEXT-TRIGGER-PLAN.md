@@ -3,13 +3,66 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0057
+updated_by_run: RUN-0058
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## TI-C022 Fork-Choice Canonical-Chain Absorber Complete (RUN-0057) - Current Route
+## TI-C020 Physical Bridge W1-W6 Recheck Complete (RUN-0058) - Current Route
+
+RUN-0058 executed the `TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness`
+trigger.
+
+Verdict:
+
+```yaml
+route: TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+verdict: keep_parked_no_current_witness
+W1_W6_currently_supplied: false
+dominant_absorber: fixed_H_fixed_A_fixed_instrument_fixed_Mu_infty_plus_access_readout_and_fixed_boundary
+claim_status_change: none
+path_kill_added: none
+path_kill_reaffirmed: microtubule_orch_or_six_axis_candidate_as_sufficient_ti_c020_evidence_without_operator_algebra_growth
+```
+
+No current physical candidate clears the E057 W1-W6 gate. Microtubule / Orch-OR remains a
+fixture substrate, not TI-C020 evidence, unless it supplies growing observable algebra,
+admissibility, construction-space growth, perturbation non-factorization, record preservation,
+and absorber defeat.
+
+Primary next trigger:
+
+```text
+W000 -> assembly_theory_D4_operationalization_with_source_projection_split
+```
+
+Required:
+
+1. Define assembly index separately for source layer and projection layer.
+2. Preserve the RUN-0046 source/projection split: projection novelty is not source issuance.
+3. Decide whether undefined projection assembly index is only aperture/access novelty.
+4. State the positive source-side condition for Assembly Theory to help TI-C019.
+
+Secondary next triggers:
+
+```text
+W000 -> W010_frontier_selection_and_next_work_ranking
+```
+
+Parked / narrowed triggers:
+
+```text
+W000 -> TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+W000 -> TI_C022_fork_choice_canonical_chain_ontology_absorber
+W000 -> H3_C1_C3_bridge_from_finite_filtered_functor
+```
+
+Only re-run TI-C020 when a candidate supplies E057 W1-W6: non-isomorphic observable algebra,
+new admissibility predicate, construction-space growth, perturbation non-factorization, record
+preservation, and gauge/AB/fixed-boundary absorption.
+
+## TI-C022 Fork-Choice Canonical-Chain Absorber Complete (RUN-0057)
 
 RUN-0057 executed the `TI_C022_fork_choice_canonical_chain_ontology_absorber` trigger.
 

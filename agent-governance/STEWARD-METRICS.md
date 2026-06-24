@@ -38,7 +38,7 @@ estimated_token_intensity:
 | --- | --- | --- | --- |
 | verdict_movement | Measures whether work changes claim state, kill state, absorber state, or formal precision. | Count runs that update `CLAIM-LEDGER.md`, `memory/path-kills.md`, tests, or formal objects. | W001 weakened TI-C001 and killed one path. |
 | workflow_churn | Detects process expansion replacing research progress. | Count workflows created, retired, or revised per 10 runs. | W004 created after assessment; W005 still planned. |
-| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks RUN-0057 after this run. |
+| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks RUN-0058 after this run. |
 | governance_research_balance | Detects governance drift or research neglect. | Classify each run as research, governance, mixed, or maintenance. | Recent runs are governance-heavy by design. |
 | next_trigger_volatility | Detects unstable priorities. | Track how often `NEXT-TRIGGER-PLAN.md` changes route. | Volatile during launch instrumentation. |
 | path_kill_quality | Detects false closure and weak kill records. | Check killed paths for evidence, local-minimum risk, and resurrection trigger. | One path kill recorded cleanly. |
@@ -1314,6 +1314,30 @@ notes: >
   canonical-chain finality when the protocol supplies quorum validity, canonical carrier
   selection, finality, and finalized record membership. Remaining surplus is ontological
   record-reality typing. Next trigger moves to TI-C020 W1-W6 physical bridge recheck.
+```
+
+```yaml
+run_id: RUN-0058
+workflow_used: W000 -> TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+research_vs_governance: research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E063-ti-c020-physical-bridge-w1-w6-recheck, RUN-0058-ti-c020-physical-bridge-w1-w6-recheck]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: read_only_explorer_lane
+notes: >
+  TI-C020 W1-W6 physical bridge recheck completed. No current candidate supplies the witness
+  gate, so TI-C020 remains speculative and parked. The RUN-0052 microtubule / Orch-OR path-kill
+  is reaffirmed rather than duplicated. Next trigger moves to Assembly Theory D4
+  operationalization with source/projection split.
 ```
 
 ## Use Rules

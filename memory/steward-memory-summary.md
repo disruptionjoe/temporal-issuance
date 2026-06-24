@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0057
+last_summarized_run: RUN-0058
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+next_required_test: assembly_theory_D4_operationalization_with_source_projection_split
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -71,6 +71,11 @@ RUN-0057 adds: TI-C022 is operationally absorbed by fork-choice / canonical-chai
 once quorum validity, canonical carrier selection, finality, and finalized record membership
 are supplied. The remaining surplus is ontological record-reality typing. TI-C022 stays
 speculative/narrowed.
+
+RUN-0058 adds: no current physical bridge candidate satisfies the E057 W1-W6 gate. TI-C020
+remains speculative and parked. The strongest named physical substrate, microtubule / Orch-OR,
+remains fixture material only unless it supplies growing observable algebra, admissibility, or
+construction space and defeats fixed-H/fixed-A/fixed-boundary absorbers.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -695,21 +700,40 @@ canonical chain, finality, and finalized record membership, then TI-C022 is oper
 implemented by canonical-chain membership. What remains is the ontological reading that
 canonical-carrier membership is shared-process record reality.
 
+## TI-C020 Physical Bridge W1-W6 Recheck (RUN-0058)
+
+RUN-0058 rechecked the physical bridge route against E057's W1-W6 gate.
+
+Verdict:
+
+```yaml
+route: TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+verdict: keep_parked_no_current_witness
+W1_W6_currently_supplied: false
+dominant_absorber: fixed_H_fixed_A_fixed_instrument_fixed_Mu_infty_plus_access_readout_and_fixed_boundary
+claim_status_change: none
+path_kill_added: none
+path_kill_reaffirmed: microtubule_orch_or_six_axis_candidate_as_sufficient_ti_c020_evidence_without_operator_algebra_growth
+```
+
+No current candidate supplies non-isomorphic observable algebra, new admissibility predicate,
+source-side construction-space growth, perturbation non-factorization, record preservation, and
+gauge/AB/fixed-boundary absorption. TI-C020 remains parked until a real W1-W6 witness appears.
+
 ## Next Run
 
-**RUN-0057 route (current): TI-C020 physical bridge candidate with W1-W6 operator-algebra witness.**
+**RUN-0058 route (current): Assembly Theory D4 operationalization with source/projection split.**
 
-Primary: check whether any current physical bridge candidate supplies E057's W1-W6 gate:
-non-isomorphic observable algebra, new admissibility predicate, construction-space growth,
-perturbation non-factorization, record preservation, and gauge/AB/fixed-boundary absorption.
+Primary: define source-layer and projection-layer assembly indexes separately, then test
+whether undefined projection assembly index is only bounded-access novelty or can witness
+source-side issuance.
 
-Secondary: if no W1-W6 witness is supplied, keep TI-C020 parked and route to Assembly Theory
-D4 operationalization with the source/projection split explicit.
+Secondary: preserve the RUN-0046 source/projection split. Do not treat observer-side assembly
+novelty as source-side issuance without defeating fixed-source aperture absorption.
 
-Parked: TI-C022 unless a trace separates it from canonical-chain finality under the same
-protocol assumptions; H3/C1/C3 bridge unless a canonical localization/comparison rule and
-independent C3 geometry are supplied; re-running functor/Q unless a total localization rule or
-constructive non-oracular measure is supplied.
+Parked: TI-C020 until a full W1-W6 witness appears; TI-C022 unless a trace separates it from
+canonical-chain finality under the same protocol assumptions; H3/C1/C3 bridge unless a
+canonical localization/comparison rule and independent C3 geometry are supplied.
 
 **RUN-0048 route (provenance; formal threshold discharged by RUN-0050).**
 
