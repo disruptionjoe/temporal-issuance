@@ -396,10 +396,23 @@ program. The next useful cross-repo artifact is a source-shadow-finality interfa
 linking `SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKernel`, and
 `Absorber`.
 
-Open tasks (updated after RUN-0061):
+RUN-0062 organized that cross-repo artifact path into ten goals. The sequence is intentionally
+not ten loose goals: G01 is the serial source-shadow-finality contract; G02/G03/G06/G07/G08/G09
+are independent fixture/audit lanes after G01; G04 precedes G05; G10 performs final frontier
+integration. Each actual goal run should commit and push before the next goal lands.
 
-- Cross-repo source-shadow-finality interface contract (primary): define the boundary between
+Open tasks (updated after RUN-0062):
+
+- G01 source-shadow-finality interface contract (primary): define the boundary between
   Temporal Issuance source-side issuance and Time as Finality projection/finality audit.
+- G02 positive fixture: run one finite example through the contract.
+- G03 fixed-source negative control: ensure bounded-access disclosure is not classified as
+  source issuance.
+- G04/G05 AC-8 actor trace and projection audit: state the actor protocol first, then audit
+  observer-visible finality.
+- G06/G07/G08/G09 parallel lanes: issued capability, memory LossKernel, TI-C022 record-reality
+  typing, and typed effect signature.
+- G10 frontier integration: run W010-style re-rank after the goal sequence.
 - W010 frontier selection (secondary): re-rank the live frontier if the interface contract
   cannot be made bounded or if a higher-verdict route appears.
 - AC-8 actor protocol projection audit: model AC-8 as a local actor/message trace, then audit

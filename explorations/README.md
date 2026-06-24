@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E066-ten-goal-source-shadow-finality-orchestration-2026-06-24.md` turns the RUN-0061 cross-repo source/projection finding into ten ordered goals with batch structure. It makes G01, the source-shadow-finality interface contract, the required serial first run before parallel fixture lanes.
 - `E065-cross-repo-os-agent-orchestration-persona-report-2026-06-24.md` compares Temporal Issuance and Time as Finality through ten OS/agent-orchestration personas. It recommends keeping the source/projection split and making the next cross-repo move a source-shadow-finality interface contract, with no claim movement.
 - `E056-gu-taf-reciprocal-bridge-incorporation-2026-06-24.md` preserves the ten-lens GU / TaF / Temporal Issuance bridge review as gates and absorbers for future TI-C019, TI-C020, and TI-C022 work. It records no claim movement.
 

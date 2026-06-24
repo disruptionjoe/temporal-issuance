@@ -3,13 +3,72 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0061
+updated_by_run: RUN-0062
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## Cross-Repo OS / Agent-Orchestration Persona Report Complete (RUN-0061) - Current Route
+## Ten-Goal Source / Shadow / Finality Orchestration Complete (RUN-0062) - Current Route
+
+RUN-0062 executed the `ten_goal_source_shadow_finality_orchestration` trigger.
+
+Verdict:
+
+```yaml
+ten_goal_sequence_defined: true
+claim_status_change: none
+serial_first_goal: G01_source_shadow_finality_interface_contract
+parallel_after_G01:
+  - G02_positive_fixture
+  - G03_fixed_source_negative_control
+  - G06_issued_capability_contract_test
+  - G07_memory_losskernel_audit
+  - G08_TI_C022_record_reality_typing_fixture
+  - G09_typed_effect_signature
+dependent_lane: G04_AC8_actor_trace_then_G05_projection_finality_audit
+final_serial_goal: G10_frontier_rerank_and_integration
+```
+
+Primary next trigger:
+
+```text
+W000 -> G01_source_shadow_finality_interface_contract
+```
+
+Required:
+
+1. Define `SourceExtension`, `Projection`, `Capability`, `RecordFinality`,
+   `LossKernel`, and `Absorber`.
+2. Keep the contract small enough that G02 and G03 can run as finite fixtures.
+3. Include fixed-source bounded-access absorption as a first-class negative
+   control.
+4. Do not start parallel fixture lanes until G01 exists.
+5. Commit and push after the G01 run before beginning G02-G09.
+
+Secondary next triggers:
+
+```text
+W000 -> G02_source_shadow_finality_positive_fixture
+W000 -> G03_fixed_source_bounded_access_negative_control
+W000 -> G04_AC8_actor_protocol_source_trace
+W000 -> G06_issued_capability_contract_test
+W000 -> G07_memory_losskernel_audit
+W000 -> G08_TI_C022_record_reality_typing_fixture
+W000 -> G09_typed_effect_signature
+```
+
+Integration trigger after the sequence:
+
+```text
+W000 -> G10_ten_goal_frontier_rerank_and_integration
+```
+
+Only re-route before G01 if the contract cannot be made bounded enough to
+distinguish source issuance, projection/access novelty, record finality, lossy
+projection, and absorber-controlled bookkeeping.
+
+## Cross-Repo OS / Agent-Orchestration Persona Report Complete (RUN-0061)
 
 RUN-0061 executed the `cross_repo_os_agent_orchestration_persona_report` trigger.
 
