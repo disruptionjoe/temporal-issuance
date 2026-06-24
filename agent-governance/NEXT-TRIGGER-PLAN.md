@@ -3,13 +3,72 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0060
+updated_by_run: RUN-0061
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## Parallel Burst Mode Governance Assessment Complete (RUN-0060) - Current Route
+## Cross-Repo OS / Agent-Orchestration Persona Report Complete (RUN-0061) - Current Route
+
+RUN-0061 executed the `cross_repo_os_agent_orchestration_persona_report` trigger.
+
+Verdict:
+
+```yaml
+cross_repo_divergence_useful: true
+merge_repos: false
+claim_status_change: none
+source_side_repo: temporal_issuance
+projection_finality_repo: time_as_finality
+recommended_next_trigger: cross_repo_source_shadow_finality_interface_contract
+```
+
+The ten-persona pass found one useful synthesis: do not merge Temporal Issuance
+and Time as Finality. Instead, define the interface between source-side
+issuance, observer projection, capability, record finality, typed loss, and
+absorbers.
+
+Primary next trigger:
+
+```text
+W000 -> cross_repo_source_shadow_finality_interface_contract
+```
+
+Required:
+
+1. Define `SourceExtension`, `Projection`, `Capability`, `RecordFinality`,
+   `LossKernel`, and `Absorber`.
+2. Run one finite example through the interface without promoting any claim.
+3. Include a negative control where apparent source issuance reduces to bounded
+   access to a fixed richer source.
+4. Preserve the cross-repo authority boundary: Time as Finality context may
+   sharpen Temporal Issuance tests but may not promote Temporal Issuance claims.
+
+Secondary next triggers:
+
+```text
+W000 -> W010_frontier_selection_and_next_work_ranking
+W000 -> AC8_actor_protocol_projection_audit
+W000 -> memory_losskernel_audit
+```
+
+Parked / narrowed triggers:
+
+```text
+W000 -> W010_frontier_selection_and_next_work_ranking
+W000 -> source_side_witness_fixture
+W000 -> cost_of_finality_landauer_fixture
+W000 -> assembly_theory_D4_operationalization_with_source_projection_split
+W000 -> TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+W000 -> TI_C022_fork_choice_canonical_chain_ontology_absorber
+W000 -> H3_C1_C3_bridge_from_finite_filtered_functor
+```
+
+Only skip the interface contract if W010 finds a higher-verdict frontier or if
+the contract cannot be made smaller than a broad vocabulary bridge.
+
+## Parallel Burst Mode Governance Assessment Complete (RUN-0060)
 
 RUN-0060 executed the `parallel_burst_mode_governance_assessment` trigger.
 

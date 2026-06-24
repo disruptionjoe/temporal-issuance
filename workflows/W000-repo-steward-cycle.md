@@ -92,7 +92,9 @@ several separable pressure targets.
    `CLAIM-LEDGER.md`, `ROADMAP.md`, memory files, metrics, governance ledgers, and workflow
    files should be merged serially.
 4. Convert explorer findings into ordinary sequential `RUN-####` records.
-5. Commit and push after each completed run before landing the next run.
+5. Commit and push after each completed run by default. If Joe authorizes batch committing,
+   keep the worktree coherent, run checks before the batch commit, and record which goals are
+   included in the batch.
 6. After a burst touches multiple research frontiers, route to W010 unless the next trigger is
    already obvious and fresh.
 

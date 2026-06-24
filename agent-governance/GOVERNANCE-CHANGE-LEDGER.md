@@ -210,3 +210,26 @@ rollback_or_revisit_trigger: >
   shared surfaces, or lower-quality verdicts than serial W000 runs, narrow burst mode to
   explicit user requests only.
 ```
+
+```yaml
+change_id: GCH-0012
+timestamp: 2026-06-24
+run_id: RUN-0061
+changed_surface:
+  - workflows/W000-repo-steward-cycle.md
+change_type: batch_commit_policy_clarification
+reason: >
+  Joe clarified that future multi-run bursts may batch commit at the end. W000 previously said
+  to commit and push after each completed run, which conflicted with the new operating
+  preference.
+expected_learning_value: >
+  Allow faster burst execution while preserving auditability: the steward must record included
+  goals, keep the worktree coherent, and run checks before the final batch commit.
+risk: >
+  A large batch commit could make it harder to isolate which goal introduced a bad surface
+  update if too many shared files change at once.
+review_needed: false
+rollback_or_revisit_trigger: >
+  If batch commits obscure provenance, cause hard-to-review diffs, or make rollback harder,
+  restore per-run commits as the default for multi-run bursts.
+```

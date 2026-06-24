@@ -389,10 +389,23 @@ The reusable pattern is read-only parallel explorer lanes, followed by steward-o
 merge into shared surfaces, one ordinary run record per result, and commit/push after every
 run.
 
-Open tasks (updated after RUN-0060):
+RUN-0061 completed a ten-persona OS/agent-orchestration comparison of Temporal Issuance and
+Time as Finality. Result: the useful divergence is not repo merger. Temporal Issuance remains
+the source-side issuance program; Time as Finality remains the projection/finality audit
+program. The next useful cross-repo artifact is a source-shadow-finality interface contract
+linking `SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKernel`, and
+`Absorber`.
 
-- W010 frontier selection (primary): re-rank the live frontier after RUN-0056 through RUN-0060
-  narrowed H3/C1/C3, TI-C022, TI-C020, Assembly Theory, and burst governance.
+Open tasks (updated after RUN-0061):
+
+- Cross-repo source-shadow-finality interface contract (primary): define the boundary between
+  Temporal Issuance source-side issuance and Time as Finality projection/finality audit.
+- W010 frontier selection (secondary): re-rank the live frontier if the interface contract
+  cannot be made bounded or if a higher-verdict route appears.
+- AC-8 actor protocol projection audit: model AC-8 as a local actor/message trace, then audit
+  its observer-visible records through the Time as Finality projection frame.
+- Memory LossKernel audit: treat steward memory summaries and TaF memory packs as typed
+  projections with explicit loss.
 - Preserve burst mode as a tool for separable frontiers, not as a substitute for serial
   steward ownership of claim, memory, roadmap, trigger, metrics, and governance surfaces.
 
