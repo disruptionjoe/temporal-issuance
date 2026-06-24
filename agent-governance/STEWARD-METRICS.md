@@ -38,7 +38,7 @@ estimated_token_intensity:
 | --- | --- | --- | --- |
 | verdict_movement | Measures whether work changes claim state, kill state, absorber state, or formal precision. | Count runs that update `CLAIM-LEDGER.md`, `memory/path-kills.md`, tests, or formal objects. | W001 weakened TI-C001 and killed one path. |
 | workflow_churn | Detects process expansion replacing research progress. | Count workflows created, retired, or revised per 10 runs. | W004 created after assessment; W005 still planned. |
-| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks RUN-0054 after this run. |
+| memory_staleness | Detects stale or misleading memory summaries. | Compare `last_summarized_run` to latest completed run. | Current summary tracks RUN-0055 after this run. |
 | governance_research_balance | Detects governance drift or research neglect. | Classify each run as research, governance, mixed, or maintenance. | Recent runs are governance-heavy by design. |
 | next_trigger_volatility | Detects unstable priorities. | Track how often `NEXT-TRIGGER-PLAN.md` changes route. | Volatile during launch instrumentation. |
 | path_kill_quality | Detects false closure and weak kill records. | Check killed paths for evidence, local-minimum risk, and resurrection trigger. | One path kill recorded cleanly. |
@@ -1236,6 +1236,33 @@ notes: >
   finite source-derived transition fixture, and gauge/name relabeling remains pending
   GAUGE-COV-OBL-001. Next trigger moves to FUNCTOR-OBL-001, Q-OBL-001, and the filtered-source
   functor.
+```
+
+```yaml
+run_id: RUN-0055
+workflow_used: W000 -> FUNCTOR_OBL_001_Q_OBL_001_filtered_source_functor
+research_vs_governance: research
+claim_status_changed: false
+path_killed: true
+  path: global_normalized_Q_over_productive_SBP_option_set_as_source_invariant
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E060-filtered-source-functor-q-obligation, RUN-0055-filtered-source-functor-q-obligation]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Filtered-source functor/Q pass completed. A finite functor
+  `Phi_par: SBPPar^MLTT(S0) -> FiltSh_Z2(C_fin)` preserves E054's parity cocycle as a flat
+  Z2 local-system witness. Strict N naturality fails and is replaced by a filtered/lax
+  residual equation. Global normalized Q over the productive SBP option set is killed;
+  prefix-local conditional Q survives. Next trigger moves to H3 C1/C3 bridge testing from the
+  finite filtered functor.
 ```
 
 ## Use Rules

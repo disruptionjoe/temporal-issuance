@@ -297,6 +297,25 @@ Open tasks (updated after RUN-0054):
 - TI-C022 fork-choice / canonical-chain ontology absorber remains parked.
 - TI-C020 physical bridge remains parked until a candidate satisfies E057's W1-W6 gate.
 
+RUN-0055 executed the filtered-source functor and Q obligation pass. Result: a finite
+filtered bridge exists on the parity-bearing SBP subcategory,
+`Phi_par: SBPPar^MLTT(S0) -> FiltSh_Z2(C_fin)`, preserving E054's parity cocycle as a flat
+`Z/2` local-system witness. Strict total `N` naturality fails and is replaced by a
+filtered/lax residual equation. Global normalized `Q` over the whole productive SBP option
+space is killed; prefix-local conditional `Q_n(e)` survives.
+
+Open tasks (updated after RUN-0055):
+
+- H3 C1/C3 bridge from finite filtered functor (primary): test whether `Phi_par` extends
+  beyond the finite SBP-parity subcategory and whether its flat `Z/2` local-system class
+  discharges the GU/H3 type bridge or remains formal residue.
+- C3 spacelike/correspondence geometry: pressure directly; no physical/geometric bridge
+  should be inferred from finite parity alone.
+- Q remains prefix-local: do not use a global source-invariant `Q` unless a constructive
+  non-oracular measure over productive SBP options is supplied.
+- TI-C022 fork-choice / canonical-chain ontology absorber remains parked.
+- TI-C020 physical bridge remains parked until a candidate satisfies E057's W1-W6 gate.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.

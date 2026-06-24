@@ -1096,6 +1096,36 @@ Files changed: `explorations/E059-cech-h3-ehresmannian-bridge-obligation-dischar
 `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
 `agent-governance/STEWARD-METRICS.md`, `explorations/README.md`.
 
+## RUN-0055
+
+Timestamp: 2026-06-24
+Trigger: manual_request
+Workflow: W000 -> FUNCTOR_OBL_001_Q_OBL_001_filtered_source_functor
+Agent / subagents used: Repo Steward.
+Current strongest version: A finite filtered-source functor exists on the parity-bearing
+SBP subcategory: `Phi_par: SBPPar^MLTT(S0) -> FiltSh_Z2(C_fin)`. It preserves E054's
+finite parity cocycle as a flat `Z/2` local-system witness.
+Current strongest objection: The functor is not total over all `Compat_G^MLTT`, does not
+prove a full GU/H3 identity theorem, and does not supply spacelike/correspondence geometry.
+What collapsed: Global normalized `Q` over the productive SBP option set as a source
+invariant. It would require a completed future option space / hidden oracle.
+What survived: Prefix-local conditional `Q_n(e)`; finite `Phi_par`; E049/E050/E052 gauge
+covariance and nonzero distortion residue for the operative structural / `Compat_G^MLTT`
+setting; finite formal Cech/H3 residue.
+What was absorbed: Strict `N` naturality. It is replaced by a filtered/lax residual equation
+because SBP morphisms change the future option space.
+What was clarified: The finite parity witness has a sheaf/local-system home, but the full
+GU/H3 and C3 geometry bridge still require a separate test.
+What was promoted: None.
+New blockers: Extend or fail `Phi_par` beyond the finite parity subcategory; decide whether
+flat `Z/2` local-system data discharges C1 or remains formal residue; pressure C3 geometry.
+Recommended next run: W000 -> H3_C1_C3_bridge_from_finite_filtered_functor.
+Files changed: `explorations/E060-filtered-source-functor-q-obligation-2026-06-24.md`,
+`agent-runs/RUN-0055-filtered-source-functor-q-obligation.md`, `CLAIM-LEDGER.md`,
+`ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`,
+`memory/steward-memory-summary.md`, `memory/steward-memory-log.md`,
+`agent-governance/STEWARD-METRICS.md`, `explorations/README.md`.
+
 ## RUN-0046
 
 Timestamp: 2026-06-22

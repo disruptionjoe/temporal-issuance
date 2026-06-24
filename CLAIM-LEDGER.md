@@ -631,3 +631,55 @@ path_kill:
   path: finite_cech_parity_holonomy_as_full_gu_h3_or_ehresmannian_source_connection_proof
   evidence_ref: memory/path-kills.md#run-0054
 ```
+
+## RUN-0055 Claim Addenda
+
+```yaml
+TI-C017:
+  status: speculative
+  effect: finite_filtered_sheaf_bridge_constructed
+  addendum: >
+    RUN-0055 constructs a finite filtered-source functor on the parity-bearing SBP subcategory:
+    `Phi_par: SBPPar^MLTT(S0) -> FiltSh_Z2(C_fin)`. It sends constructed
+    `Compat_G^MLTT` proof-term traces to finite filtered Cech objects and preserves E054's
+    parity cocycle as a flat `Z/2` local-system witness. This strengthens the finite formal
+    residue but does not prove the full GU/H3 identity theorem.
+  evidence_refs_added:
+    - explorations/E060-filtered-source-functor-q-obligation-2026-06-24.md
+    - agent-runs/RUN-0055-filtered-source-functor-q-obligation.md
+  next_action: >
+    Test whether `Phi_par` extends beyond the finite SBP-parity subcategory and whether the
+    resulting flat `Z/2` class discharges C1 or remains formal residue.
+
+TI-C012:
+  status: formalizing
+  effect: filtered_cech_witness_added_transport_functor_still_unproved
+  addendum: >
+    RUN-0055 gives the finite Cech parity witness a functorial filtered-sheaf home, but this is
+    still not a full transport functor `A: ExtCat -> B G`. E049/E050/E052 are reconciled:
+    `GAUGE-COV-OBL-001` is closed for structural Compat and `Compat_G^MLTT`, and distortion
+    residue is nonzero for SBP morphisms with the incompatibility guard.
+  next_action: >
+    Pressure whether the filtered Cech witness can be promoted to a genuine transport or H3
+    bridge without independently stipulated connection/geometric data.
+
+TI-C019:
+  status: formalizing
+  effect: q_grounding_narrowed_and_formal_bridge_sharpened
+  addendum: >
+    RUN-0055 preserves the `Compat_G^MLTT` formal source witness and adds a finite filtered
+    bridge for SBP parity. It also narrows Q: a global normalized Q over all productive SBP
+    options would reintroduce a completed future option space, so Q survives only as a
+    prefix-local conditional quorum/proposal weight.
+
+TI-C020:
+  status: speculative
+  effect: no_physical_bridge_movement
+  addendum: >
+    RUN-0055 is formal and sheaf/functor-facing. It supplies no physical H-growing/A-growing
+    witness and does not move TI-C020.
+
+path_kill:
+  path: global_normalized_Q_over_productive_SBP_option_set_as_source_invariant
+  evidence_ref: memory/path-kills.md#run-0055
+```

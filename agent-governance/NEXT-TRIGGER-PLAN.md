@@ -3,13 +3,82 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0054
+updated_by_run: RUN-0055
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## Cech/H3 and Ehresmannian Bridge Pass Complete (RUN-0054) - Current Route
+## Filtered-Source Functor / Q Pass Complete (RUN-0055) - Current Route
+
+RUN-0055 executed the `FUNCTOR_OBL_001_Q_OBL_001_filtered_source_functor` trigger.
+
+Verdict:
+
+```yaml
+Phi_parity_constructed: true
+Phi_domain: finite_SBP_parity_subcategory_of_Compat_G_MLTT
+Phi_target: filtered_finite_Cech_presheaves_with_flat_Z2_local_system
+strict_total_Phi: not_proved_without_cover_parity_and_localization_data
+SBP_parity_preserved: true_on_finite_parity_subcategory
+N_strict_naturality: failed
+N_replacement: filtered_lax_residual_equation
+Q_global_productive_measure: killed
+Q_prefix_local_conditional_weight: survives
+GAUGE_COV_OBL_001: already_closed_for_structural_Compat_and_Compat_G_MLTT
+distortion_residue: nonzero_for_SBP_incompatibility_guard
+claim_status_change: none
+path_kill_added: global_normalized_Q_over_productive_SBP_option_set_as_source_invariant
+```
+
+The finite filtered bridge now exists:
+
+```text
+Phi_par: SBPPar^MLTT(S0) -> FiltSh_Z2(C_fin)
+```
+
+It sends finite SBP-parity proof-term traces to finite filtered Cech objects with flat
+`Z/2` transition signs. This preserves E054's finite parity cocycle in a sheaf/local-system
+home. It does not yet give a total canonical `Compat_G^MLTT -> FiltSh(C)` functor, a full
+GU/H3 identity theorem, or spacelike/correspondence geometry.
+
+Primary next trigger:
+
+```text
+W000 -> H3_C1_C3_bridge_from_finite_filtered_functor
+```
+
+Required:
+
+1. Load E054, E059, and E060.
+2. Test whether `Phi_par` extends beyond the finite SBP-parity subcategory without adding
+   arbitrary cover, localization, or parity data.
+3. Decide whether the flat `Z/2` local-system class from `Phi_par` discharges the C1 GU/H3
+   type bridge or remains finite formal residue.
+4. Pressure C3 directly: does any spacelike/correspondence geometry follow, or must it be
+   independently stipulated?
+5. Preserve `Q` as prefix-local unless a constructive non-oracular measure over productive
+   SBP options is supplied.
+
+Secondary next triggers:
+
+```text
+W000 -> TI_C022_fork_choice_canonical_chain_ontology_absorber
+W000 -> TI_C020_physical_bridge_candidate_with_W1_W6_operator_algebra_witness
+```
+
+Parked / narrowed triggers:
+
+```text
+W000 -> FUNCTOR_OBL_001_Q_OBL_001_filtered_source_functor
+W000 -> E054_E056_Cech_H3_Ehresmannian_holonomy_bridge_obligations
+```
+
+Only re-run the functor/Q route if a new candidate supplies either a total localization rule
+for all `Compat_G^MLTT` morphisms or a constructive non-oracular measure over productive SBP
+options.
+
+## Cech/H3 and Ehresmannian Bridge Pass Complete (RUN-0054)
 
 RUN-0054 executed the `E054_E056_Cech_H3_Ehresmannian_holonomy_bridge_obligations` trigger.
 

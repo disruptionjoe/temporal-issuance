@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0054
+last_summarized_run: RUN-0055
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: FUNCTOR_OBL_001_Q_OBL_001_filtered_source_functor
+next_required_test: H3_C1_C3_bridge_from_finite_filtered_functor
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -54,6 +54,12 @@ RUN-0054 adds: E054's finite SBP parity Cech cocycle survives as a source-condit
 residue, but it does not prove the full GU flat-local-system/H3 bridge or an Ehresmannian
 source connection. The bridge obligation now points to the filtered-source functor, Q, gauge
 covariance, and distortion-residue tests.
+
+RUN-0055 adds: a finite filtered-source functor exists on the SBP parity subcategory,
+`Phi_par: SBPPar^MLTT(S0) -> FiltSh_Z2(C_fin)`, preserving the E054 parity cocycle as a
+flat `Z/2` local-system witness. Strict total `N` naturality fails; `Q` survives only as a
+prefix-local conditional weight, not a global normalized measure over the productive option
+space.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -119,6 +125,7 @@ The next fixture should test the simpler version of the same independence proble
 - Nontrivial `G`-valued holonomy derived from bare `Ext_S` loops without transport or connection
   data.
 - Finite Cech parity holonomy as a full GU H3 or Ehresmannian source-connection proof.
+- Global normalized `Q` over the productive SBP option set as a source invariant.
 
 ## Issuance Precision Result (RUN-0039)
 
@@ -611,21 +618,42 @@ proof. Claim statuses do not move. Next required work: define/refute
 `Phi: Compat_G^MLTT -> FiltSh(C)`, ground `Q` over the productive option set, and test gauge
 covariance plus distortion residue.
 
+## Filtered-Source Functor and Q Pass (RUN-0055)
+
+RUN-0055 discharged the functor/Q route in bounded form.
+
+Constructed:
+- `Phi_par: SBPPar^MLTT(S0) -> FiltSh_Z2(C_fin)` on the finite SBP-parity subcategory.
+- It maps constructed `Compat_G^MLTT` proof-term traces to finite filtered Cech objects.
+- It preserves E054's parity cocycle as a flat `Z/2` local-system witness.
+
+Clarified:
+- There is no total canonical `Compat_G^MLTT -> FiltSh(C)` functor without extra cover,
+  localization, parity, and non-parity-morphism data.
+- Strict `N` naturality fails because SBP morphisms change the future option space. The
+  replacement is a filtered/lax residual equation:
+  `N(lambda, S') = transport_e(N(lambda, S)) + Delta_N(e)`.
+- E049/E050/E052 already close `GAUGE-COV-OBL-001` and nonzero distortion residue for the
+  operative structural / `Compat_G^MLTT` setting.
+
+Path killed: global normalized `Q` over the productive SBP option set as a source invariant.
+Q survives only as prefix-local conditional quorum/proposal weight:
+`Q_n(e) = -log P_n(e accepted | e proposed, S_n, I_n)`.
+
 ## Next Run
 
-**RUN-0054 route (current): FUNCTOR-OBL-001, Q-OBL-001, and filtered-source functor.**
+**RUN-0055 route (current): H3 C1/C3 bridge from finite filtered functor.**
 
-Primary: define or refute a functorial bridge such as `Phi: Compat_G^MLTT -> FiltSh(C)`.
-Test whether SBP parity data is preserved as flat `Z/2` local-system data under admissible
-schema morphisms/refinements, prove the relevant naturality condition for `N`, and ground `Q`
-over the productive option set without circularly using future accepted schemas.
+Primary: test whether `Phi_par` extends beyond the finite SBP-parity subcategory and whether
+the resulting flat `Z/2` local-system class discharges the C1 GU/H3 type bridge or remains
+finite formal residue.
 
-Secondary: verify `GAUGE-COV-OBL-001` for `Compat(c, T, S)` and run the E048
-distortion-residue test.
+Secondary: pressure C3 spacelike/correspondence geometry directly. Do not infer any physical
+or geometric bridge from finite parity alone.
 
 Parked: TI-C020 physical bridge pending E057's W1-W6 witness gate; TI-C022 fork-choice /
-canonical-chain ontology absorber; re-running E054/E056 bridge obligations until the
-functor/Q/gauge pass produces a candidate bridge or no-go.
+canonical-chain ontology absorber; re-running functor/Q unless a total localization rule or
+constructive non-oracular measure is supplied.
 
 **RUN-0048 route (provenance; formal threshold discharged by RUN-0050).**
 

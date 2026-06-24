@@ -663,3 +663,31 @@ claim_refs:
   - TI-C012
   - TI-C019
 ```
+
+## RUN-0055
+
+```yaml
+path: global_normalized_Q_over_productive_SBP_option_set_as_source_invariant
+reason_killed: >
+  RUN-0055 shows that a global normalized Q over the whole productive SBP option set would
+  require a completed probability space of all future SBP options. In the Godelian /
+  Compat_G^MLTT regime, that imports the hidden completed oracle or fixed A_infty structure
+  that the source model explicitly forbids. Q can avoid circularity only when stated as a
+  prefix-local conditional weight over the currently proposed finite frontier.
+evidence: >
+  `explorations/E060-filtered-source-functor-q-obligation-2026-06-24.md` and
+  `agent-runs/RUN-0055-filtered-source-functor-q-obligation.md`, building on E031, E049,
+  E050, E052, E054, E055, and E059.
+local_minimum_risk: >
+  Medium. This kills only the global source-invariant reading of Q. Prefix-local Q remains
+  useful for record/proposal cost, quorum surprise, and additive path weights under conditional
+  composition.
+possible_future_resurrection_trigger: >
+  A constructive measure object over productive SBP options that is formed at stage n without
+  enumerating or pre-containing future options, and that composes under accepted morphism paths
+  without using future accepted schemas.
+run_ref: RUN-0055
+claim_refs:
+  - TI-C019
+  - TI-C017
+```
