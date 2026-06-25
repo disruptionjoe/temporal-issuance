@@ -487,9 +487,16 @@ RUN-0080 completed OnlineIssuance Goal 4. A conditional minimal witness survives
 MLTT/no-hidden-oracle class; finite and computable classes fail, and external Platonist
 completion absorbs the trace as navigation. No claim moved.
 
-Open tasks (updated after RUN-0080):
+RUN-0081 completed OnlineIssuance Goal 5 and closed the sequence. Final verdict:
+`NARROWED_FORMAL_RESIDUE_SURVIVES`. `FORMAL-OBJECT.md` now records `OnlineIssuance^LC` as the
+narrow class-relative formal target. No claim moved.
 
-- OnlineIssuance Goal 5: issue the verdict and patch `FORMAL-OBJECT.md` only if earned.
+Open tasks (updated after RUN-0081):
+
+- W010 frontier selection after the OnlineIssuance sequence: re-rank machine-checking the
+  OnlineIssuance witness against other live routes.
+- Optional machine-check online-issuance witness: encode the E090 witness in Lean, Coq, Agda,
+  or a small formal calculus.
 - W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.
 - Optional dual-record adjacent-possible fixture: compare single-record search, fixed-latent
   dual-record search, and growing-adjacency dual-record search under equal budget.

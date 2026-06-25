@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0080
+last_summarized_run: RUN-0081
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: online_issuance_verdict_and_formal_object_rewrite
+next_required_test: W010_frontier_selection_and_next_work_ranking
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -212,6 +212,13 @@ trace externally but fails as an internal witness. The survivor is local constru
 self-encoding admissibility + diagonal/productive successor + no internally formed future
 oracle. No claim status changes. Next trigger:
 `online_issuance_verdict_and_formal_object_rewrite`.
+
+RUN-0081 adds: the five-goal OnlineIssuance sequence is complete. Final verdict:
+`NARROWED_FORMAL_RESIDUE_SURVIVES`. `FORMAL-OBJECT.md` now records `OnlineIssuance^LC` as the
+current narrow formal target. Fixed-law computation, category structure, projection/finality,
+and external completion are absorbed; local constructive productive witness formation survives
+class-relatively. No claim status changes. Next trigger: W010 frontier selection; optional
+direct route is machine-checking the OnlineIssuance witness.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -910,15 +917,16 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0080 route (current): online_issuance_verdict_and_formal_object_rewrite.**
+**RUN-0081 route (current): W010 frontier selection and next-work ranking.**
 
-Primary: integrate E087 through E090, decide the verdict, and patch `FORMAL-OBJECT.md` only if
-the class-relative formal residue is earned.
+Primary: re-rank the live frontier after the OnlineIssuance sequence.
 
-Preserve: physical source issuance remains unresolved; external Platonist completion remains an
-absorber; no new category primitive was found.
+Preserve: `OnlineIssuance^LC` is formal/class-relative only; physical source issuance remains
+unresolved; external Platonist completion remains an absorber; no new category primitive was
+found.
 
-Follow-on sequence: return to W010 frontier ranking after the verdict unless Joe redirects.
+Optional direct route: machine-check the E090 OnlineIssuance witness in Lean, Coq, Agda, or a
+small explicit formal calculus.
 
 **RUN-0074 route (preserved provenance): W010 frontier selection and next-work ranking.**
 

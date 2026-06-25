@@ -176,6 +176,48 @@ H-growing candidate:
 Orch-OR, microtubule superradiance, anesthetic perturbation, and GU signed-readout comparisons
 belong here only as fixture sources. They do not by themselves supply `H_grow`.
 
+RUN-0081 OnlineIssuance verdict:
+
+The current strongest formal source object is the narrowed class-relative residue:
+
+```text
+OnlineIssuance^LC =
+(
+  Gamma_n,     prefix-presented constructive context
+  Adm_n,       admissibility predicate formed at prefix n
+  Ext_n,       witness-bearing extension category available at n
+  Iss_n,       source extension step
+  Proj_{o,n},  observer projection/readout
+  Glue_n,      downstream reconciliation/finality operation
+  tau_n        recordable source trace
+)
+```
+
+The load-bearing source gate is:
+
+```text
+Issue[S](Gamma_n, e_n, w_n) is source-side only if:
+
+1. Gamma_n, CandExt(Gamma_n), and Adm_n are formed at prefix n.
+2. e_n : CandExt(Gamma_n) and w_n : Adm_n(e_n).
+3. the issued target is unavailable in Gamma_n.
+4. no internally formed future-schema oracle, fixed latent graph, fixed stochastic law, or
+   completed extension diagram precontains all future admissible witnesses.
+5. the step emits a recordable trace tau_n for projection/finality audit.
+```
+
+Absorber verdict:
+
+```text
+finite/computable/fixed-law/adaptive-search/fixed-latent growth: absorbed
+category/context/fibration/sheaf/colimit structure: absorbed as presentation
+external Platonist completion: absorbs as navigation, not internal source issuance
+local constructive productive witness: survives class-relatively
+```
+
+This is not a physical bridge, not a new category-theoretic primitive, and not a proof that
+reality issues. It is the current narrow formal target for `TI-C019`.
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?

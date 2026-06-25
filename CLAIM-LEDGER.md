@@ -1185,3 +1185,41 @@ path_kill:
   path: fixed_platonist_completion_as_internal_online_issuance_witness
   evidence_ref: memory/path-kills.md#run-0080
 ```
+
+## RUN-0081 Claim Addenda
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: narrowed_formal_residue_survives
+  addendum: >
+    RUN-0081 completes the OnlineIssuance five-goal sequence. Final verdict:
+    `NARROWED_FORMAL_RESIDUE_SURVIVES`. OnlineIssuance survives only as local constructive
+    source extension with self-encoding admissibility, productive successor, no internally
+    formed future oracle, and recordable source trace. This sharpens the formal source-side
+    target but does not promote the claim.
+  evidence_refs_added:
+    - explorations/E091-online-issuance-verdict-and-formal-object-rewrite-2026-06-25.md
+    - agent-runs/RUN-0081-online-issuance-verdict-and-rewrite.md
+    - FORMAL-OBJECT.md
+    - HYPOTHESIS-STEELMAN.md
+  next_action: >
+    Route to W010 frontier selection; optional direct route is machine-checking the
+    OnlineIssuance witness.
+
+TI-C003:
+  status: formal_object_updated
+  effect: online_issuance_lc_added
+  addendum: >
+    `FORMAL-OBJECT.md` now records `OnlineIssuance^LC` as the current narrow formal target:
+    prefix constructive context, formed admissibility, witness-bearing extension category,
+    source step, projection/gluing downstream, and recordable trace. The object is explicitly
+    class-relative and not a physical bridge or new category primitive.
+
+TI-C020:
+  status: speculative
+  effect: unchanged
+  addendum: >
+    The OnlineIssuance sequence is formal only. It supplies no H-growing/A-growing physical
+    witness and does not move the physical-source claim.
+```

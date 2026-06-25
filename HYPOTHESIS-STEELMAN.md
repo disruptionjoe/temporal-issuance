@@ -2,10 +2,11 @@
 artifact_type: hypothesis_steelman
 status: active
 governance_role: strongest_current_formulation
-last_updated_by: RUN-0030
+last_updated_by: RUN-0081
 claim_refs:
   - TI-C001
   - TI-C003
+  - TI-C019
   - TI-C007
   - TI-C008
 constitutional: false
@@ -182,6 +183,31 @@ genuine H-growing / A-growing process.
 GU signed-readout, observer-finality, and TaF crosswalks are useful comparison handles, not
 claim authority. They sharpen the readout/reconstruction layer and help state the fixture, but
 they do not promote the Temporal Issuance hypothesis.
+
+## OnlineIssuance Formal Residue (RUN-0081)
+
+The strongest formal source-side version after the five-goal OnlineIssuance sequence is:
+
+```text
+OnlineIssuance^LC =
+local constructive source extension
++ self-encoding admissibility
++ diagonal/productive admissible successor
++ no internally formed future oracle
++ recordable source trace
+```
+
+The sequence narrowed the claim:
+
+- adaptive computation absorbs finite, computable, fixed-law, stochastic, hyperprior, search,
+  and fixed-latent growth;
+- category theory absorbs the structure of the tuple;
+- external Platonist completion absorbs the trace as navigation;
+- the surviving residue is class-relative constructive witness formation, not a physical claim
+  and not new category machinery.
+
+This gives `Ext_S` a sharper target: prove, machine-check, or refute the local constructive
+witness discipline.
 
 ## Research Posture
 

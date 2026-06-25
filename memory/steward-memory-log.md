@@ -1860,3 +1860,26 @@ What was promoted: None.
 New blockers: Need final verdict and formal-object rewrite pass.
 Recommended next run: W000 -> online_issuance_verdict_and_formal_object_rewrite.
 Files changed: `explorations/E090-online-issuance-minimal-constructive-witness-2026-06-25.md`, `agent-runs/RUN-0080-online-issuance-minimal-constructive-witness.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0081
+
+Timestamp: 2026-06-25
+Trigger: manual_request
+Workflow: W000 -> online_issuance_verdict_and_formal_object_rewrite
+Agent / subagents used: Repo Steward.
+Current strongest version: `OnlineIssuance^LC` as local constructive source extension with
+self-encoding admissibility, productive successor, no internally formed future oracle, and
+recordable source trace.
+Current strongest objection: External Platonist completion absorbs the trace as navigation;
+category theory absorbs the structural presentation; physical source issuance remains
+unresolved.
+What collapsed: Broad online issuance as new computation/category machinery.
+What survived: Narrow class-relative formal residue.
+What was absorbed: Fixed-law computation, category structure, projection/finality/gluing, and
+external completed future navigation.
+What was promoted: None.
+New blockers: Machine-checking would strengthen the formal residue; W010 should re-rank it
+against other routes.
+Recommended next run: W000 -> W010_frontier_selection_and_next_work_ranking; optional direct
+route W000 -> machine_check_online_issuance_witness.
+Files changed: `explorations/E091-online-issuance-verdict-and-formal-object-rewrite-2026-06-25.md`, `agent-runs/RUN-0081-online-issuance-verdict-and-rewrite.md`, `FORMAL-OBJECT.md`, `HYPOTHESIS-STEELMAN.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

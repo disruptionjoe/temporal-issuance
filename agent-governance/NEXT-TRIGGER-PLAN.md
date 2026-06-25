@@ -3,11 +3,46 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0080
+updated_by_run: RUN-0081
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## OnlineIssuance Verdict Complete (RUN-0081) - Current Route
+
+RUN-0081 completed the five-goal OnlineIssuance sequence.
+
+Verdict:
+
+```yaml
+RUN_0081_complete: true
+online_issuance_sequence_complete: true
+final_verdict: NARROWED_FORMAL_RESIDUE_SURVIVES
+claim_status_change: none
+formal_object_updated: true
+official_next_trigger: W010_frontier_selection_and_next_work_ranking
+optional_direct_trigger: machine_check_online_issuance_witness
+```
+
+Primary next trigger:
+
+```text
+W000 -> W010_frontier_selection_and_next_work_ranking
+```
+
+Optional direct trigger:
+
+```text
+W000 -> machine_check_online_issuance_witness
+```
+
+Required for optional direct trigger:
+
+1. Choose Lean, Coq, Agda, or a small explicit formal calculus.
+2. Encode finite/computable failure controls.
+3. Encode the local constructive witness schema.
+4. State exactly where the proof is machine-checked, pseudocode-only, or blocked.
 
 ## Minimal Constructive Witness Complete (RUN-0080) - Current Route
 

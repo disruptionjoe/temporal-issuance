@@ -1860,6 +1860,28 @@ notes: >
   computable absorbers, but external Platonist completion still absorbs the trace as navigation.
 ```
 
+```yaml
+run_id: RUN-0081
+workflow_used: W000 -> online_issuance_verdict_and_formal_object_rewrite
+research_vs_governance: research_integration
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E091-online-issuance-verdict-and-formal-object-rewrite, RUN-0081-online-issuance-verdict-and-rewrite, FORMAL-OBJECT, HYPOTHESIS-STEELMAN]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Goal 5 completed. Final verdict: NARROWED_FORMAL_RESIDUE_SURVIVES. FORMAL-OBJECT.md and
+  HYPOTHESIS-STEELMAN.md now record OnlineIssuance^LC as class-relative formal residue.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.
