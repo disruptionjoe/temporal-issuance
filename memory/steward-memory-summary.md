@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0063
+last_summarized_run: RUN-0064
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: G03_fixed_source_bounded_access_negative_control
+next_required_test: G02_source_shadow_finality_positive_fixture
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -105,6 +105,11 @@ RUN-0063 adds: G01 succeeded. E067 defines the source-shadow-finality contract w
 capability sufficiency failure, record finality, lossy projection residue, and absorber-
 controlled bookkeeping. The recommended next run is G03 fixed-source bounded-access negative
 control before G02 positive fixture.
+
+RUN-0064 adds: G03 succeeded. The fixed `Mu_infty` plus expanding `P_n` aperture null is
+classified as `projection_access_novelty` and `absorber_controlled_bookkeeping`, explicitly not
+`source_issuance_candidate`. E067 passes its first negative control. The next run is G02, a
+bounded positive fixture through the contract.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.

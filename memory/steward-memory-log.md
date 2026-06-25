@@ -1541,3 +1541,19 @@ What was promoted: None.
 New blockers: G03 must pressure-test the contract against fixed `Mu_infty` plus expanding access aperture before relying on it for a positive fixture.
 Recommended next run: W000 -> G03_fixed_source_bounded_access_negative_control.
 Files changed: `explorations/E067-source-shadow-finality-interface-contract-2026-06-24.md`, `agent-runs/RUN-0063-source-shadow-finality-interface-contract.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0064
+
+Timestamp: 2026-06-24
+Trigger: manual_request
+Workflow: W000 -> G03_fixed_source_bounded_access_negative_control
+Agent / subagents used: Repo Steward.
+Current strongest version: The E067 contract rejects fixed-source bounded-access disclosure as source issuance. A fixed `Mu_infty` plus expanding `P_n` aperture is projection/access novelty and absorber-controlled bookkeeping.
+Current strongest objection: The contract still needs a bounded positive example before it can support later capability and LossKernel lanes.
+What collapsed: First observer access, local final records, and access-driven capability changes as source issuance evidence.
+What survived: Fixed-source absorber, source/projection distinction, and the G02 positive fixture route.
+What was absorbed: Apparent novelty from `P_n -> P_{n+1}` is absorbed by access/projection change.
+What was promoted: None.
+New blockers: G02 must show the contract can also carry a bounded positive source-side fixture without category mistakes.
+Recommended next run: W000 -> G02_source_shadow_finality_positive_fixture.
+Files changed: `explorations/E069-fixed-source-bounded-access-negative-control-2026-06-24.md`, `agent-runs/RUN-0064-fixed-source-bounded-access-negative-control.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

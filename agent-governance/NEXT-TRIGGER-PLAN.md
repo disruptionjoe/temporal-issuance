@@ -3,13 +3,54 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0063
+updated_by_run: RUN-0064
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## G01 Source / Shadow / Finality Interface Contract Complete (RUN-0063) - Current Route
+## G03 Fixed-Source Bounded-Access Negative Control Complete (RUN-0064) - Current Route
+
+RUN-0064 executed the `G03_fixed_source_bounded_access_negative_control` trigger.
+
+Verdict:
+
+```yaml
+G03_complete: true
+contract_pressure_result: passed
+null_model: fixed_Mu_infty_plus_expanding_P_n_aperture
+verdict:
+  - projection_access_novelty
+  - absorber_controlled_bookkeeping
+not_verdict: source_issuance_candidate
+claim_status_change: none
+next_recommended_trigger: G02_source_shadow_finality_positive_fixture
+```
+
+Primary next trigger:
+
+```text
+W000 -> G02_source_shadow_finality_positive_fixture
+```
+
+Required:
+
+1. Instantiate E067 with a finite `Compat_G^MLTT` source trace.
+2. Keep the fixture bounded and do not promote any claim.
+3. Distinguish source gate success from observer finality and LossKernel behavior.
+4. Use G03 as the negative-control baseline.
+5. Commit and push after G02.
+
+Secondary next triggers:
+
+```text
+W000 -> G06_issued_capability_contract_test
+W000 -> G09_typed_effect_signature
+W000 -> G07_memory_losskernel_audit
+W000 -> G08_TI_C022_record_reality_typing_fixture
+```
+
+## G01 Source / Shadow / Finality Interface Contract Complete (RUN-0063)
 
 RUN-0063 executed the `G01_source_shadow_finality_interface_contract` trigger.
 

@@ -1462,6 +1462,29 @@ notes: >
   G03 fixed-source bounded-access negative control before G02 positive fixture.
 ```
 
+```yaml
+run_id: RUN-0064
+workflow_used: W000 -> G03_fixed_source_bounded_access_negative_control
+research_vs_governance: research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E069-fixed-source-bounded-access-negative-control, RUN-0064-fixed-source-bounded-access-negative-control]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  G03 completed. Fixed Mu_infty plus expanding P_n aperture is classified as
+  projection/access novelty and absorber-controlled bookkeeping, not source issuance. Next
+  trigger moves to G02 positive fixture.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

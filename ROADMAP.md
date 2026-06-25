@@ -406,12 +406,14 @@ defines `SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKe
 `AbsorberSet`, and explicit verdict classes. The contract recommends running the fixed-source
 bounded-access negative control before the positive fixture.
 
-Open tasks (updated after RUN-0063):
+RUN-0064 completed G03. The fixed-source bounded-access negative control is correctly classified
+as projection/access novelty plus absorber-controlled bookkeeping, not source issuance. E067 is
+therefore safe to use for the first bounded positive fixture.
 
-- G03 fixed-source negative control (primary): instantiate the E067 contract with fixed
-  `Mu_infty` plus expanding `P_n` access aperture and ensure it does not classify as source
-  issuance.
-- G02 positive fixture: run one finite example through the contract.
+Open tasks (updated after RUN-0064):
+
+- G02 positive fixture (primary): run one finite `Compat_G^MLTT` example through the contract,
+  using G03 as the negative-control baseline.
 - G04/G05 AC-8 actor trace and projection audit: state the actor protocol first, then audit
   observer-visible finality.
 - G06/G07/G08/G09 parallel lanes: issued capability, memory LossKernel, TI-C022 record-reality
