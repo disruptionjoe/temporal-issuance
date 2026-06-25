@@ -3,11 +3,64 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0070
+updated_by_run: RUN-0071
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## RSPS Robustness Sweep Complete (RUN-0071) - Current Route
+
+RUN-0071 executed Goal 2 of the five-goal disproof ladder.
+
+Verdict:
+
+```yaml
+RUN_0071_complete: true
+scenario_count: 28
+pointer_wins_full_score_count: 28
+full_score_failures: []
+redundancy_degenerate_count: 4
+claim_status_change: none
+next_recommended_trigger: general_RSPS_Born_weight_no_go
+```
+
+Primary next trigger:
+
+```text
+W000 -> general_RSPS_Born_weight_no_go
+```
+
+Required:
+
+1. State the target functional class: predictability/stability, redundancy, decoherence, and
+   agreement terms that do not directly read `diag(rho_S)`.
+2. Prove or refute that this class cannot determine Born weights.
+3. Identify allowed escape routes: trace rule, envariance, explicit `diag(rho_S)` input, or a
+   genuinely different probability module.
+4. Decide whether the no-go is a theorem, conjecture, or only a controlled-copy observation.
+5. Commit and push after the run.
+
+Success condition:
+
+```text
+Born weights are shown external to the stated record-fidelity functional class
+```
+
+Failure condition:
+
+```text
+a record-fidelity functional in the stated class determines Born weights without importing
+trace-rule information
+```
+
+Secondary next trigger:
+
+```text
+W000 -> fixed_H_absorber_vs_H_growing_issuance_fixture
+```
+
+Only run Goal 4 after the no-go result is scoped.
 
 ## RSPS Record-Fidelity Toy Baseline Complete (RUN-0070) - Current Route
 

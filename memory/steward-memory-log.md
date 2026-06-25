@@ -1653,3 +1653,24 @@ What was promoted: None.
 New blockers: Robustness must be tested before attempting a general Born-weight no-go.
 Recommended next run: W000 -> RSPS_robustness_sweep.
 Files changed: `tools/rsps_record_fidelity_toy.py`, `tests/artifacts/rsps_record_fidelity_toy_result.json`, `explorations/E075-rsps-record-fidelity-toy-baseline-2026-06-25.md`, `agent-runs/RUN-0070-rsps-record-fidelity-toy-baseline.md`, `explorations/README.md`, `tests/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0071
+
+Timestamp: 2026-06-25
+Trigger: manual_request
+Workflow: W000 -> RSPS_robustness_sweep
+Agent / subagents used: Repo Steward.
+Current strongest version: RSPS pointer-basis selection is robust across the tested noisy,
+partial, nonorthogonal, and varying-fragment record channels.
+Current strongest objection: The full score includes stability and agreement terms that already
+prefer the pointer basis, so this remains a fixed-H/decoherence absorber result rather than
+source-side issuance evidence.
+What collapsed: The simple objection that RSPS basis selection is only an ideal perfect-GHZ
+artifact weakened across the finite sweep.
+What survived: Modest RSPS basis selection. Redundancy-only selection degenerates when no
+accessible record remains.
+What was absorbed: The robustness result is standard fixed-H quantum/decoherence structure.
+What was promoted: None.
+New blockers: Need a scoped general Born-weight no-go before fixed-H vs H-growing adjudication.
+Recommended next run: W000 -> general_RSPS_Born_weight_no_go.
+Files changed: `tools/rsps_robustness_sweep.py`, `tests/artifacts/rsps_robustness_sweep_result.json`, `explorations/E076-rsps-robustness-sweep-2026-06-25.md`, `agent-runs/RUN-0071-rsps-robustness-sweep.md`, `explorations/README.md`, `tests/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

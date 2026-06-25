@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0070
+last_summarized_run: RUN-0071
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: RSPS_robustness_sweep
+next_required_test: general_RSPS_Born_weight_no_go
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -145,6 +145,14 @@ constant across tested branch weights, while raw redundancy is `N * H2(p0)` and 
 entropy-like rather than branch-weight-like. The overstrong path "one record-fidelity
 functional derives both pointer basis and Born probabilities" is killed for the toy fixture.
 Next run: RSPS robustness sweep.
+
+RUN-0071 adds: Goal 2 is complete. The RSPS robustness sweep tested 28 perturbation scenarios
+covering imperfect copying, partial environment access, nonorthogonal records, noise, and
+varying `N`. The full RSPS score selected the pointer basis in all 28 scenarios. Redundancy-only
+selection became degenerate in the expected no-record cases: copy reliability 0.5, zero
+accessible fragments, record overlap 1.0, and noise flip 0.5. This weakens the "perfect GHZ
+artifact" objection but remains fixed-H/decoherence absorber evidence, not source issuance.
+Next run: general RSPS Born-weight no-go.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -843,16 +851,17 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0070 route (current): RSPS robustness sweep.**
+**RUN-0071 route (current): general RSPS Born-weight no-go.**
 
-Primary: test whether the record-fidelity pointer-basis extremum survives imperfect copying,
-partial environment access, non-orthogonal records, noise, and varying `N`.
+Primary: state the class of record-fidelity functionals built from stability/predictability,
+environmental redundancy, decoherence/agreement, and no direct `diag(rho_S)` readout; then
+prove or refute that Born weights are external to that class.
 
-Success condition: pointer-basis selection remains stable under ordinary decoherence
-perturbations, strengthening the fixed-H absorber.
+Success condition: a scoped theorem or theorem-candidate showing that basis/objectivity
+selection and Born-weight derivation are separate modules.
 
-Failure condition: pointer-basis selection is an ideal controlled-copy artifact, narrowing RSPS
-before any general no-go or fixed-H-vs-H-growing adjudication.
+Failure condition: a valid functional in the stated class determines Born weights without
+importing trace-rule or diagonal-state information.
 
 **RUN-0060 route (preserved provenance): W010 frontier selection and next-work ranking.**
 

@@ -1626,6 +1626,30 @@ notes: >
   trigger moves to RSPS robustness sweep.
 ```
 
+```yaml
+run_id: RUN-0071
+workflow_used: W000 -> RSPS_robustness_sweep
+research_vs_governance: research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E076-rsps-robustness-sweep, RUN-0071-rsps-robustness-sweep, rsps_robustness_sweep.py, rsps_robustness_sweep_result.json]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Goal 2 completed. Across 28 record-channel perturbation scenarios, the full RSPS score
+  selected the pointer basis every time. Redundancy-only selection degenerated in expected
+  no-record cases. The result strengthens the fixed-H absorber and routes next to the scoped
+  Born-weight no-go.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

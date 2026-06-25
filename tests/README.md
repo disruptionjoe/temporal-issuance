@@ -21,3 +21,4 @@ Executable fixtures:
 
 - H3 Cech/sheaf fixture: `python tests/test_cech_sheaf_fixture.py`
 - RSPS record-fidelity toy baseline: `python tools/rsps_record_fidelity_toy.py --output tests/artifacts/rsps_record_fidelity_toy_result.json`
+- RSPS robustness sweep: `python tools/rsps_robustness_sweep.py --output tests/artifacts/rsps_robustness_sweep_result.json`

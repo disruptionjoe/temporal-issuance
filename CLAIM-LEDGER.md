@@ -859,3 +859,32 @@ path_kill:
   path: single_record_fidelity_functional_derives_born_weights_in_controlled_copy_fixture
   evidence_ref: memory/path-kills.md#run-0070
 ```
+
+## RUN-0071 Claim Addenda
+
+```yaml
+TI-C020:
+  status: speculative
+  effect: fixed_H_record_fidelity_absorber_strengthened
+  addendum: >
+    RUN-0071 runs the RSPS robustness sweep across 28 noisy, partial, nonorthogonal, and
+    varying-fragment record-channel scenarios. The full RSPS score selects the pointer basis in
+    every scenario. Redundancy-only selection becomes degenerate when no accessible record
+    remains. This strengthens the standard fixed-H/decoherence absorber for record-fidelity
+    basis selection and supplies no physical source issuance evidence.
+  evidence_refs_added:
+    - explorations/E076-rsps-robustness-sweep-2026-06-25.md
+    - agent-runs/RUN-0071-rsps-robustness-sweep.md
+    - tools/rsps_robustness_sweep.py
+    - tests/artifacts/rsps_robustness_sweep_result.json
+  next_action: >
+    Attempt the scoped general RSPS Born-weight no-go for stability/redundancy/agreement
+    functionals that do not import `diag(rho_S)`.
+
+TI-C001:
+  status: weakened
+  effect: reconstruction_layer_record_selection_robustness_added
+  addendum: >
+    The downstream reconstruction layer can use robust record-fidelity basis selection as
+    vocabulary for accessible objectivity, while keeping source-side issuance claims separate.
+```

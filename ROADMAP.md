@@ -438,12 +438,15 @@ The weights remain external in `diag(rho_S)` and require the trace rule or a sep
 module. The overstrong route "one record-fidelity functional derives both basis and
 probabilities" is path-killed for the controlled-copy fixture. No claim moved.
 
-Open tasks (updated after RUN-0070):
+RUN-0071 completed Goal 2. The RSPS robustness sweep tested 28 imperfect-copy, partial-
+environment, nonorthogonal-record, noise, and varying-`N` scenarios. The full RSPS score
+selected the pointer basis in every scenario; redundancy-only selection became degenerate in
+the expected no-record cases. No claim moved. The result strengthens the fixed-H/decoherence
+absorber and justifies moving to the scoped Born-weight no-go.
 
-- RSPS robustness sweep (primary): test imperfect copying, partial environment access,
-  non-orthogonal environment records, noise, and varying `N`. Decide whether pointer-basis
-  record-fidelity selection is robust or only an ideal GHZ artifact.
-- General RSPS Born-weight no-go (secondary, after robustness): attempt a structural theorem
+Open tasks (updated after RUN-0071):
+
+- General RSPS Born-weight no-go (primary): attempt a structural theorem
   that record-stability/redundancy functionals select basis/objectivity but cannot derive Born
   weights without importing the trace rule.
 - Fixed-H absorber fixture (tertiary, after no-go attempt): compare fixed-H QM/decoherence
