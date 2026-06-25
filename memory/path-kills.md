@@ -306,6 +306,34 @@ claim_refs:
   - TI-C001
 ```
 
+## RUN-0073
+
+```yaml
+path: RSPS_accessible_trace_as_H_growing_or_A_growing_TI_C020_evidence
+reason_killed: >
+  RUN-0073 defines the RSPS accessible trace vocabulary and tests it against the fixed-H
+  absorber. Every currently named trace component is represented by fixed Hilbert space,
+  fixed observable algebra, open-system/decoherence dynamics, trace-rule weights, and observer
+  record maps. No non-isomorphic Hilbert-space growth, observable-algebra growth, new
+  admissibility predicate, construction-space growth, or perturbation non-factorization is
+  supplied.
+evidence: >
+  `explorations/E078-rsps-fixed-h-absorber-vs-h-growing-issuance-2026-06-25.md` and
+  `agent-runs/RUN-0073-rsps-fixed-h-absorber-fixture.md`, building on RUN-0070 through
+  RUN-0072.
+local_minimum_risk: >
+  Medium. This kills only the currently formulated RSPS accessible trace as TI-C020 evidence.
+  It does not kill all possible future quantum physical-source candidates.
+possible_future_resurrection_trigger: >
+  A record/finality trace with a non-isomorphic observable algebra, new admissibility
+  predicate, source-side construction-space growth, perturbation non-factorization, and
+  preserved observer records, satisfying the E057 W1-W6 witness gate.
+run_ref: RUN-0073
+claim_refs:
+  - TI-C020
+  - TI-C001
+```
+
 ## RUN-0072
 
 ```yaml

@@ -1697,3 +1697,24 @@ New blockers: Need fixed-H absorber fixture to decide whether any accessible RSP
 requires H-growing/A-growing issuance.
 Recommended next run: W000 -> fixed_H_absorber_vs_H_growing_issuance_fixture.
 Files changed: `explorations/E077-rsps-born-weight-no-go-2026-06-25.md`, `agent-runs/RUN-0072-rsps-born-weight-no-go.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0073
+
+Timestamp: 2026-06-25
+Trigger: manual_request
+Workflow: W000 -> fixed_H_absorber_vs_H_growing_issuance_fixture
+Agent / subagents used: Repo Steward.
+Current strongest version: If RSPS has TI-C020 relevance, some observer-accessible trace must
+require H-growing/A-growing structure, new admissibility, construction-space growth, or
+perturbation non-factorization.
+Current strongest objection: Every named RSPS trace is representable inside fixed-H quantum
+mechanics with decoherence, observer instruments, accessible subalgebras, and trace-rule
+weights.
+What collapsed: RSPS accessible traces as H-growing/A-growing TI-C020 evidence.
+What survived: RSPS as fixed-H reconstruction/finality vocabulary.
+What was absorbed: The RSPS quantum-facing line is absorbed by standard QM for all currently
+named accessible traces.
+What was promoted: None.
+New blockers: Goal 5 should close the ladder as `ABSORBED` unless it finds a missed residue.
+Recommended next run: W000 -> RSPS_absorption_or_residue_report.
+Files changed: `explorations/E078-rsps-fixed-h-absorber-vs-h-growing-issuance-2026-06-25.md`, `agent-runs/RUN-0073-rsps-fixed-h-absorber-fixture.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

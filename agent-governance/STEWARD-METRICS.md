@@ -1674,6 +1674,30 @@ notes: >
   module. Next trigger moves to the fixed-H absorber vs H-growing issuance fixture.
 ```
 
+```yaml
+run_id: RUN-0073
+workflow_used: W000 -> fixed_H_absorber_vs_H_growing_issuance_fixture
+research_vs_governance: research
+claim_status_changed: false
+path_killed: true
+  path: RSPS_accessible_trace_as_H_growing_or_A_growing_TI_C020_evidence
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E078-rsps-fixed-h-absorber-vs-h-growing-issuance, RUN-0073-rsps-fixed-h-absorber-fixture]
+daily_review_items_added: false
+estimated_token_intensity: low
+parallel_lanes_used: false
+notes: >
+  Goal 4 completed. Fixed-H quantum mechanics absorbs every currently named RSPS accessible
+  trace. No H-growing/A-growing residue is found. Next trigger moves to the Goal 5 absorption
+  or residue report, expected ABSORBED.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

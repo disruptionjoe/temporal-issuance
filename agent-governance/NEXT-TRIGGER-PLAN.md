@@ -3,11 +3,50 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0072
+updated_by_run: RUN-0073
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## RSPS Fixed-H Absorber Fixture Complete (RUN-0073) - Current Route
+
+RUN-0073 executed Goal 4 of the five-goal disproof ladder.
+
+Verdict:
+
+```yaml
+RUN_0073_complete: true
+fixed_H_absorbs_RSPS_accessible_trace: true
+H_growing_witness_found: false
+A_growing_witness_found: false
+claim_status_change: none
+path_killed: RSPS_accessible_trace_as_H_growing_or_A_growing_TI_C020_evidence
+next_recommended_trigger: RSPS_absorption_or_residue_report
+```
+
+Primary next trigger:
+
+```text
+W000 -> RSPS_absorption_or_residue_report
+```
+
+Required:
+
+1. Integrate RUN-0070 through RUN-0073.
+2. State final ladder verdict: `ABSORBED` or `RESIDUE`.
+3. If `ABSORBED`, specify exactly what is absorbed and what remains usable as vocabulary.
+4. If `RESIDUE`, name the exact non-fixed-H structure.
+5. Update roadmap/memory/next-trigger after the sequence.
+6. Commit and push.
+
+Expected verdict:
+
+```text
+ABSORBED
+```
+
+After Goal 5, route back to W010/frontier selection unless Joe supplies a new candidate.
 
 ## RSPS Born-Weight No-Go Complete (RUN-0072) - Current Route
 

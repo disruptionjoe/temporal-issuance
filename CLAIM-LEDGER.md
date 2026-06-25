@@ -919,3 +919,40 @@ path_kill:
   path: born_weights_from_scalar_RSPS_stability_redundancy_agreement_without_diagonal_readout
   evidence_ref: memory/path-kills.md#run-0072
 ```
+
+## RUN-0073 Claim Addenda
+
+```yaml
+TI-C020:
+  status: speculative
+  effect: RSPS_line_absorbed_by_fixed_H_for_current_traces
+  addendum: >
+    RUN-0073 tests the RSPS accessible trace vocabulary against the fixed-H absorber. Every
+    currently named trace component is representable by fixed Hilbert space, fixed observable
+    algebra, decoherence/open-system dynamics, observer record maps, and trace-rule weights.
+    No H-growing/A-growing witness is found.
+  evidence_refs_added:
+    - explorations/E078-rsps-fixed-h-absorber-vs-h-growing-issuance-2026-06-25.md
+    - agent-runs/RUN-0073-rsps-fixed-h-absorber-fixture.md
+  next_action: >
+    Run Goal 5 absorption/residue report. Expected verdict: ABSORBED for the RSPS quantum
+    record-fidelity line.
+
+TI-C001:
+  status: weakened
+  effect: RSPS_kept_as_reconstruction_vocabulary
+  addendum: >
+    RSPS remains usable as downstream finality/objectivity vocabulary: stable records select
+    accessible basis structure. It is not source-side issuance evidence.
+
+TI-C019:
+  status: formalizing
+  effect: unchanged
+  addendum: >
+    RUN-0073 does not disturb the formal `Compat_G^MLTT` source witness. It only absorbs the
+    RSPS quantum-facing physical bridge line.
+
+path_kill:
+  path: RSPS_accessible_trace_as_H_growing_or_A_growing_TI_C020_evidence
+  evidence_ref: memory/path-kills.md#run-0073
+```

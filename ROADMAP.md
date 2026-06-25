@@ -450,12 +450,17 @@ module. Verdict: basis/objectivity selection survives; Born-weight derivation fa
 target class. Trace rule, envariance, decision theory, collapse dynamics, frequency modules,
 and explicit diagonal readout remain separate allowed routes. No claim moved.
 
-Open tasks (updated after RUN-0072):
+RUN-0073 completed Goal 4. The RSPS accessible trace vocabulary was tested against the fixed-H
+absorber. Every currently named trace component is representable with fixed Hilbert space,
+fixed observable algebra, decoherence/open-system dynamics, observer record maps, and trace-
+rule weights. No H-growing/A-growing residue was found. The RSPS line is expected to close as
+`ABSORBED` in Goal 5.
 
-- Fixed-H absorber fixture (primary): compare fixed-H QM/decoherence
-  record traces against H-growing/A-growing Temporal Issuance traces.
-- Absorption or residue report (final goal): decide whether the quantum record/finality route
+Open tasks (updated after RUN-0073):
+
+- Absorption or residue report (primary/final goal): decide whether the quantum record/finality route
   is absorbed or leaves a precise residue.
+- W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.
 - Quantum QEC/entanglement fixed-H absorber fixture (parked behind RSPS ladder): apply the
   Barandes, fixed-H, QEC/capability, and entanglement-reconstruction absorbers to one concrete
   quantum-facing candidate.

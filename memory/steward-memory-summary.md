@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0072
+last_summarized_run: RUN-0073
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: fixed_H_absorber_vs_H_growing_issuance_fixture
+next_required_test: RSPS_absorption_or_residue_report
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -160,6 +160,12 @@ probability module, can select basis/objectivity but cannot derive Born weights.
 weight route is path-killed for that class. Allowed separate modules remain trace rule,
 envariance, decision theory, collapse dynamics, frequency/typicality, and explicit
 `diag_B(rho)` readout. Next run: fixed-H absorber vs H-growing issuance fixture.
+
+RUN-0073 adds: Goal 4 is complete. The RSPS accessible trace vocabulary is absorbed by fixed-H
+quantum mechanics with fixed observable algebra, decoherence/open-system dynamics, observer
+record maps, and trace-rule weights. No H-growing/A-growing witness, new admissibility
+predicate, construction-space growth, or perturbation non-factorization is found. The RSPS line
+should close with Goal 5 as `ABSORBED` unless the integration step finds a missed residue.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -858,15 +864,13 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0072 route (current): fixed-H absorber vs H-growing issuance fixture.**
+**RUN-0073 route (current): RSPS absorption or residue report.**
 
-Primary: define observer-accessible RSPS traces and test whether fixed-H quantum mechanics
-with decoherence, trace-rule weights, and record maps reproduces all of them.
+Primary: integrate RUN-0070 through RUN-0073 and issue the final ladder verdict.
 
-Success condition: fixed-H absorbs every accessible RSPS trace, routing Goal 5 to `ABSORBED`.
+Expected verdict: `ABSORBED` for the RSPS quantum record-fidelity line.
 
-Failure condition: an accessible trace requires H-growing/A-growing structure, a new
-admissibility predicate, or construction-space growth; route Goal 5 to `RESIDUE`.
+After closeout: route back to W010/frontier selection unless Joe supplies a new candidate.
 
 **RUN-0060 route (preserved provenance): W010 frontier selection and next-work ranking.**
 
