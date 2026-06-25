@@ -20,6 +20,9 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E082-sheafification-bridge-projection-absorber-2026-06-25.md` integrates the sheafification / associated-sheaf bridge suggestion as a precise categorical model for `Project[O] + Finalize[R] + Lose[K]`, while treating fixed site, coverage, target, and reflector data as an absorber for premature `Issue[S]` readings; no claim movement.
+- `E081-quantum-darwinism-bridge-fixed-h-absorber-2026-06-25.md` integrates the Quantum Darwinism bridge suggestion as a strong physical mechanism for `Project[O] + Finalize[R] + Lose[K]` and as a fixed-H/fixed-A absorber for premature `Issue[S]` readings; no claim movement.
+- `E080-gu-effect-typed-witness-transport-2026-06-25.md` preserves the GU / Time as Finality / Temporal Issuance bridge. It treats GU's five blockers as a hostile testbed for `SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKernel`, `AbsorberSet`, and the `Issue[S]`, `Project[O]`, `Finalize[R]`, `Lose[K]` effect discipline; no claim movement.
 - `E079-rsps-absorption-or-residue-report-2026-06-25.md` executes RSPS Goal 5. It closes the five-goal RSPS ladder as `ABSORBED`: fixed-H QM/decoherence/Quantum Darwinism/trace-rule record maps absorb the current quantum record-fidelity line.
 - `E078-rsps-fixed-h-absorber-vs-h-growing-issuance-2026-06-25.md` executes RSPS Goal 4. It finds fixed-H quantum mechanics absorbs every currently named RSPS accessible trace; no H-growing/A-growing residue is found.
 - `E077-rsps-born-weight-no-go-2026-06-25.md` executes RSPS Goal 3. It states a scoped no-go: scalar stability/redundancy/agreement record-fidelity functionals without diagonal-state readout can select basis/objectivity but cannot derive Born weights.
