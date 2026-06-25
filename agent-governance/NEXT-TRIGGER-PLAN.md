@@ -3,11 +3,40 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0082
+updated_by_run: RUN-0083
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Dual-Record Comparator Freeze Complete (RUN-0083) - Current Route
+
+RUN-0083 froze the finite comparator for the dual-record adjacent-possible fixture.
+
+Verdict:
+
+```yaml
+RUN_0083_complete: true
+comparator_frozen: true
+claim_status_change: none
+official_next_trigger: implement_dual_record_adjacent_possible_fixture
+primary_fixture_home: time-as-finality
+```
+
+Primary next trigger:
+
+```text
+W000 -> implement_dual_record_adjacent_possible_fixture
+```
+
+Required:
+
+1. Implement the frozen landscape from E093.
+2. Compare A single-record, B0 limited fixed-latent, B1 exact fixed-latent absorber, and C
+   growing-adjacency search.
+3. Emit JSON and Markdown results.
+4. Run tests.
+5. Do not claim `Issue[S]` if B1 reproduces C.
 
 ## W010 Frontier Route Lock Complete (RUN-0082) - Current Route
 

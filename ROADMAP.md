@@ -530,6 +530,17 @@ Open tasks (updated after RUN-0082):
   residue.
 - Machine-check `OnlineIssuance^LC` remains a parked live route.
 
+RUN-0083 froze the dual-record comparator in E093. The executable fixture must now compare
+single-record search, limited fixed-latent dual-record search, exact fixed-latent absorber, and
+growing-adjacency dual-record search under one finite landscape and equal proposal budget.
+
+Open tasks (updated after RUN-0083):
+
+- Implement `dual_record_opportunity_fixture` in Time as Finality exactly against E093.
+- Emit JSON and Markdown results that distinguish bounded residue relative to B0 from absorption
+  by B1.
+- Bring the fixture result back into Temporal Issuance for effect typing.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.
