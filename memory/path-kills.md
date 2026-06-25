@@ -306,6 +306,34 @@ claim_refs:
   - TI-C001
 ```
 
+## RUN-0074
+
+```yaml
+path: RSPS_quantum_record_fidelity_line_as_physical_source_side_TI_evidence
+reason_killed: >
+  RUN-0074 integrates RUN-0070 through RUN-0073 and finds the RSPS quantum record-fidelity
+  line absorbed. Pointer-basis selection works and is robust in the tested class, but Born
+  weights require the trace rule or another explicit probability module, and every currently
+  named observer-accessible trace is representable inside fixed-H quantum mechanics with
+  decoherence, Quantum Darwinism-style records, observer maps, and accessible subalgebras.
+evidence: >
+  `explorations/E079-rsps-absorption-or-residue-report-2026-06-25.md` and
+  `agent-runs/RUN-0074-rsps-absorption-or-residue-report.md`, integrating E075 through E078.
+local_minimum_risk: >
+  Medium. This kills the current RSPS line as physical source-side evidence, not RSPS as
+  useful reconstruction vocabulary and not all possible future quantum physical-source
+  candidates.
+possible_future_resurrection_trigger: >
+  A new candidate satisfying the W1-W6 witness gate: non-isomorphic H/A growth, new
+  source-generated admissibility, construction-space growth, perturbation non-factorization,
+  preserved observer records, and absorber defeat.
+run_ref: RUN-0074
+claim_refs:
+  - TI-C020
+  - TI-C001
+  - TI-C019
+```
+
 ## RUN-0073
 
 ```yaml

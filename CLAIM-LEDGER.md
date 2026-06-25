@@ -956,3 +956,41 @@ path_kill:
   path: RSPS_accessible_trace_as_H_growing_or_A_growing_TI_C020_evidence
   evidence_ref: memory/path-kills.md#run-0073
 ```
+
+## RUN-0074 Claim Addenda
+
+```yaml
+TI-C020:
+  status: speculative
+  effect: RSPS_quantum_record_fidelity_line_absorbed
+  addendum: >
+    RUN-0074 integrates RUN-0070 through RUN-0073 and closes the RSPS five-goal ladder as
+    ABSORBED. Fixed-H quantum mechanics plus decoherence/Quantum Darwinism-style record maps
+    and trace-rule weights absorb the current RSPS quantum record-fidelity line. No
+    H-growing/A-growing residue is found.
+  evidence_refs_added:
+    - explorations/E079-rsps-absorption-or-residue-report-2026-06-25.md
+    - agent-runs/RUN-0074-rsps-absorption-or-residue-report.md
+  next_action: >
+    Route back to W010 frontier selection. Reopen RSPS only if a new candidate satisfies the
+    W1-W6 witness gate.
+
+TI-C001:
+  status: weakened
+  effect: RSPS_reconstruction_vocabulary_preserved
+  addendum: >
+    RSPS remains useful for downstream observer-side reconstruction: record stabilization can
+    select accessible pointer/objectivity structure, while probabilities remain supplied by a
+    separate module.
+
+TI-C019:
+  status: formalizing
+  effect: unchanged_by_RSPS_absorption
+  addendum: >
+    RSPS absorption does not disturb the formal source-side `Compat_G^MLTT` witness. It only
+    blocks using the current quantum record-fidelity line as physical-source evidence.
+
+path_kill:
+  path: RSPS_quantum_record_fidelity_line_as_physical_source_side_TI_evidence
+  evidence_ref: memory/path-kills.md#run-0074
+```

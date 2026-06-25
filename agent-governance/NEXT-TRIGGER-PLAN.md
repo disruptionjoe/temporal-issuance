@@ -3,11 +3,50 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0073
+updated_by_run: RUN-0074
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## RSPS Absorption Or Residue Report Complete (RUN-0074) - Current Route
+
+RUN-0074 executed Goal 5 of the five-goal disproof ladder.
+
+Verdict:
+
+```yaml
+RUN_0074_complete: true
+five_goal_RSPS_ladder_complete: true
+final_verdict: ABSORBED
+absorber: fixed_H_quantum_mechanics_plus_decoherence_quantum_darwinism_trace_rule_record_maps
+residue_found: false
+claim_status_change: none
+path_killed: RSPS_quantum_record_fidelity_line_as_physical_source_side_TI_evidence
+next_recommended_trigger: W010_frontier_selection_and_next_work_ranking
+```
+
+Primary next trigger:
+
+```text
+W000 -> W010_frontier_selection_and_next_work_ranking
+```
+
+Required:
+
+1. Re-rank the live frontier after the RSPS ladder closure.
+2. Preserve RSPS as reconstruction vocabulary only.
+3. Keep TI-C020 parked unless a new candidate supplies the W1-W6 witness gate.
+4. Decide whether the next best route is quantum QEC/entanglement fixed-H absorber, G08
+   TI-C022 record-reality typing, AC-8 actor trace/projection audit, or another frontier.
+5. Commit and push after W010.
+
+Resurrection condition for RSPS:
+
+```text
+new W1-W6 witness: non-isomorphic H/A growth, source-generated admissibility,
+construction-space growth, perturbation non-factorization, preserved records, absorber defeat
+```
 
 ## RSPS Fixed-H Absorber Fixture Complete (RUN-0073) - Current Route
 

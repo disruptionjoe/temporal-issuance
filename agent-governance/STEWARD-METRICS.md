@@ -1698,6 +1698,30 @@ notes: >
   or residue report, expected ABSORBED.
 ```
 
+```yaml
+run_id: RUN-0074
+workflow_used: W000 -> RSPS_absorption_or_residue_report
+research_vs_governance: research_integration
+claim_status_changed: false
+path_killed: true
+  path: RSPS_quantum_record_fidelity_line_as_physical_source_side_TI_evidence
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E079-rsps-absorption-or-residue-report, RUN-0074-rsps-absorption-or-residue-report]
+daily_review_items_added: false
+estimated_token_intensity: low
+parallel_lanes_used: false
+notes: >
+  Goal 5 completed and the RSPS five-goal ladder closed as ABSORBED. RSPS is retained as
+  reconstruction/finality vocabulary but not TI-C020 physical-source evidence. Next trigger
+  returns to W010 frontier selection.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

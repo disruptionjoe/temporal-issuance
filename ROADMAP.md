@@ -456,10 +456,13 @@ fixed observable algebra, decoherence/open-system dynamics, observer record maps
 rule weights. No H-growing/A-growing residue was found. The RSPS line is expected to close as
 `ABSORBED` in Goal 5.
 
-Open tasks (updated after RUN-0073):
+RUN-0074 completed Goal 5 and closed the RSPS five-goal ladder as `ABSORBED`. RSPS remains
+usable as downstream reconstruction vocabulary for basis/objectivity/finality, but it is not
+TI-C020 physical source evidence. Born weights remain external to scalar record-fidelity
+selection, and all current RSPS accessible traces are fixed-H representable. No claim moved.
 
-- Absorption or residue report (primary/final goal): decide whether the quantum record/finality route
-  is absorbed or leaves a precise residue.
+Open tasks (updated after RUN-0074):
+
 - W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.
 - Quantum QEC/entanglement fixed-H absorber fixture (parked behind RSPS ladder): apply the
   Barandes, fixed-H, QEC/capability, and entanglement-reconstruction absorbers to one concrete

@@ -1718,3 +1718,24 @@ What was promoted: None.
 New blockers: Goal 5 should close the ladder as `ABSORBED` unless it finds a missed residue.
 Recommended next run: W000 -> RSPS_absorption_or_residue_report.
 Files changed: `explorations/E078-rsps-fixed-h-absorber-vs-h-growing-issuance-2026-06-25.md`, `agent-runs/RUN-0073-rsps-fixed-h-absorber-fixture.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0074
+
+Timestamp: 2026-06-25
+Trigger: manual_request
+Workflow: W000 -> RSPS_absorption_or_residue_report
+Agent / subagents used: Repo Steward.
+Current strongest version: RSPS survives as reconstruction/finality vocabulary: record
+stabilization selects accessible basis/objectivity, while weights come from a separate
+probability module.
+Current strongest objection: The full RSPS quantum-facing line is absorbed by fixed-H standard
+quantum mechanics and cannot serve as TI-C020 evidence without a new W1-W6 witness.
+What collapsed: RSPS quantum record-fidelity line as physical source-side TI evidence.
+What survived: RSPS as observer-side reconstruction vocabulary.
+What was absorbed: Pointer selection, robustness, Born weights via trace rule, and accessible
+record/finality traces are all absorbed by fixed-H quantum mechanics plus decoherence/Quantum
+Darwinism-style record maps.
+What was promoted: None.
+New blockers: None for RSPS; route back to frontier selection.
+Recommended next run: W000 -> W010_frontier_selection_and_next_work_ranking.
+Files changed: `explorations/E079-rsps-absorption-or-residue-report-2026-06-25.md`, `agent-runs/RUN-0074-rsps-absorption-or-residue-report.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

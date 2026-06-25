@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0073
+last_summarized_run: RUN-0074
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: RSPS_absorption_or_residue_report
+next_required_test: W010_frontier_selection_and_next_work_ranking
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -166,6 +166,12 @@ quantum mechanics with fixed observable algebra, decoherence/open-system dynamic
 record maps, and trace-rule weights. No H-growing/A-growing witness, new admissibility
 predicate, construction-space growth, or perturbation non-factorization is found. The RSPS line
 should close with Goal 5 as `ABSORBED` unless the integration step finds a missed residue.
+
+RUN-0074 adds: Goal 5 is complete. The RSPS five-goal ladder closes as `ABSORBED`. Fixed-H
+quantum mechanics plus decoherence/Quantum Darwinism-style record maps and trace-rule weights
+absorb the current quantum record-fidelity line. RSPS remains useful as reconstruction/finality
+vocabulary, but not as TI-C020 physical source evidence. No claim status changes. Route back to
+W010 frontier selection.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -864,13 +870,15 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0073 route (current): RSPS absorption or residue report.**
+**RUN-0074 route (current): W010 frontier selection and next-work ranking.**
 
-Primary: integrate RUN-0070 through RUN-0073 and issue the final ladder verdict.
+Primary: re-rank the live frontier after the RSPS ladder closure.
 
-Expected verdict: `ABSORBED` for the RSPS quantum record-fidelity line.
+Preserve: RSPS is reconstruction vocabulary only unless a new W1-W6 witness appears.
 
-After closeout: route back to W010/frontier selection unless Joe supplies a new candidate.
+Candidate next routes include quantum QEC/entanglement fixed-H absorber, G08 TI-C022
+record-reality typing fixture, G04/G05 AC-8 actor/projection audit, or another W010-selected
+frontier.
 
 **RUN-0060 route (preserved provenance): W010 frontier selection and next-work ranking.**
 

@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E079-rsps-absorption-or-residue-report-2026-06-25.md` executes RSPS Goal 5. It closes the five-goal RSPS ladder as `ABSORBED`: fixed-H QM/decoherence/Quantum Darwinism/trace-rule record maps absorb the current quantum record-fidelity line.
 - `E078-rsps-fixed-h-absorber-vs-h-growing-issuance-2026-06-25.md` executes RSPS Goal 4. It finds fixed-H quantum mechanics absorbs every currently named RSPS accessible trace; no H-growing/A-growing residue is found.
 - `E077-rsps-born-weight-no-go-2026-06-25.md` executes RSPS Goal 3. It states a scoped no-go: scalar stability/redundancy/agreement record-fidelity functionals without diagonal-state readout can select basis/objectivity but cannot derive Born weights.
 - `E076-rsps-robustness-sweep-2026-06-25.md` executes RSPS Goal 2. The full record-fidelity score selects the pointer basis across 28 noisy/partial/nonorthogonal record-channel scenarios; redundancy-only selection degenerates when no accessible record remains.
