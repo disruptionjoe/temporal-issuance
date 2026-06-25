@@ -818,3 +818,44 @@ path_kill:
   path: undefined_projection_assembly_index_as_source_issuance_evidence
   evidence_ref: memory/path-kills.md#run-0059
 ```
+
+## RUN-0070 Claim Addenda
+
+```yaml
+TI-C020:
+  status: speculative
+  effect: fixed_H_record_fidelity_absorber_strengthened
+  addendum: >
+    RUN-0070 reproduces the RSPS controlled-copy toy model. A record-fidelity functional
+    selects the einselected pointer basis in standard fixed-H quantum mechanics, but it does
+    not derive Born weights. The weights remain in `diag(rho_S)` and require the trace rule or
+    a separate weight module. This strengthens the fixed-H absorber for quantum-facing TI-C020
+    claims.
+  evidence_refs_added:
+    - explorations/E075-rsps-record-fidelity-toy-baseline-2026-06-25.md
+    - agent-runs/RUN-0070-rsps-record-fidelity-toy-baseline.md
+    - tools/rsps_record_fidelity_toy.py
+    - tests/artifacts/rsps_record_fidelity_toy_result.json
+  next_action: >
+    Run the RSPS robustness sweep before attempting any general Born-weight no-go or
+    fixed-H-vs-H-growing adjudication.
+
+TI-C001:
+  status: weakened
+  effect: record_finality_reconstruction_layer_supported
+  addendum: >
+    RSPS supports downstream reconstruction vocabulary: stable redundant records can select
+    accessible pointer/objectivity structure. It does not make record finality a source-side
+    issuance witness.
+
+TI-C019:
+  status: formalizing
+  effect: no_source_side_movement
+  addendum: >
+    RUN-0070 does not disturb the formal `Compat_G^MLTT` source witness and supplies no
+    physical source evidence. It only narrows quantum record-stabilization language.
+
+path_kill:
+  path: single_record_fidelity_functional_derives_born_weights_in_controlled_copy_fixture
+  evidence_ref: memory/path-kills.md#run-0070
+```

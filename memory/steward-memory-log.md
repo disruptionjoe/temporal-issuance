@@ -1637,3 +1637,19 @@ What was promoted: None.
 New blockers: A concrete quantum-facing candidate must be run through Barandes, fixed-H, QEC/capability, and entanglement-reconstruction absorbers.
 Recommended next run: W000 -> quantum_QEC_entanglement_fixed_H_absorber_fixture.
 Files changed: `explorations/E074-stochastic-quantum-willow-entanglement-learning-2026-06-24.md`, `agent-runs/RUN-0069-stochastic-quantum-willow-entanglement-learning.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0070
+
+Timestamp: 2026-06-25
+Trigger: manual_request
+Workflow: W000 -> RSPS_record_fidelity_toy_baseline
+Agent / subagents used: Repo Steward.
+Current strongest version: Record fidelity can select pointer-basis/objectivity structure in a standard fixed-H controlled-copy fixture, while Born weights remain external in `diag(rho_S)`.
+Current strongest objection: This is standard QM/decoherence structure and supplies no source-side issuance evidence.
+What collapsed: A single record-fidelity functional deriving both pointer basis and Born probabilities, at least in the controlled-copy fixture.
+What survived: Modest RSPS: record stabilization selects basis/objectivity; trace rule or a separate module supplies weights.
+What was absorbed: The toy fixture is fully compatible with fixed-H quantum mechanics and therefore strengthens the absorber side for TI-C020.
+What was promoted: None.
+New blockers: Robustness must be tested before attempting a general Born-weight no-go.
+Recommended next run: W000 -> RSPS_robustness_sweep.
+Files changed: `tools/rsps_record_fidelity_toy.py`, `tests/artifacts/rsps_record_fidelity_toy_result.json`, `explorations/E075-rsps-record-fidelity-toy-baseline-2026-06-25.md`, `agent-runs/RUN-0070-rsps-record-fidelity-toy-baseline.md`, `explorations/README.md`, `tests/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

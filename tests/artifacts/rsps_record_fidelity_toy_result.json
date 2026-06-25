@@ -1,0 +1,91 @@
+{
+  "basis_selection_check": {
+    "argmax": {
+      "agreement_score": 1.0,
+      "mutual_information_single_fragment": 0.8812908992,
+      "redundancy_score": 1.0,
+      "stability_score": 1.0,
+      "theta_deg": 0.0,
+      "theta_rad": 0.0,
+      "total_score": 3.0
+    },
+    "passes": true,
+    "x_basis": {
+      "agreement_score": 0.0,
+      "mutual_information_single_fragment": -0.0,
+      "redundancy_score": -0.0,
+      "stability_score": 0.0,
+      "theta_deg": 90.0,
+      "theta_rad": 1.5707963268,
+      "total_score": -0.0
+    },
+    "z_basis": {
+      "agreement_score": 1.0,
+      "mutual_information_single_fragment": 0.8812908992,
+      "redundancy_score": 1.0,
+      "stability_score": 1.0,
+      "theta_deg": 0.0,
+      "theta_rad": 0.0,
+      "total_score": 3.0
+    }
+  },
+  "born_weight_check": {
+    "negative_result": "The normalized fidelity score is constant at the winning pointer basis, while raw redundancy is N*H2(p0), which is symmetric under p0 <-> 1-p0 and is maximal at p0=0.5. The Born weights live in diag(rho_S), not in F.",
+    "passes_as_no_go": true,
+    "rows": [
+      {
+        "born_weight_0": 0.3,
+        "born_weight_1": 0.7,
+        "entropy_h2_p0": 0.8812908992,
+        "normalized_fidelity_at_pointer": 3.0,
+        "p0": 0.3,
+        "raw_agreement_cost_at_pointer": 0.0,
+        "raw_redundancy_n_fragments": 7.0503271938,
+        "raw_stability_cost_at_pointer": 0.0
+      },
+      {
+        "born_weight_0": 0.5,
+        "born_weight_1": 0.5,
+        "entropy_h2_p0": 1.0,
+        "normalized_fidelity_at_pointer": 3.0,
+        "p0": 0.5,
+        "raw_agreement_cost_at_pointer": 0.0,
+        "raw_redundancy_n_fragments": 8.0,
+        "raw_stability_cost_at_pointer": 0.0
+      },
+      {
+        "born_weight_0": 0.7,
+        "born_weight_1": 0.3,
+        "entropy_h2_p0": 0.8812908992,
+        "normalized_fidelity_at_pointer": 3.0,
+        "p0": 0.7,
+        "raw_agreement_cost_at_pointer": 0.0,
+        "raw_redundancy_n_fragments": 7.0503271938,
+        "raw_stability_cost_at_pointer": 0.0
+      },
+      {
+        "born_weight_0": 0.9,
+        "born_weight_1": 0.1,
+        "entropy_h2_p0": 0.4689955936,
+        "normalized_fidelity_at_pointer": 3.0,
+        "p0": 0.9,
+        "raw_agreement_cost_at_pointer": 0.0,
+        "raw_redundancy_n_fragments": 3.7519647487,
+        "raw_stability_cost_at_pointer": 0.0
+      }
+    ]
+  },
+  "fixture": "RSPS controlled-copy / GHZ record-fidelity toy model",
+  "model": {
+    "n_fragments": 8,
+    "p0": 0.7,
+    "p1": 0.3,
+    "state": "|Psi> = a|0>|0..0> + b|1>|1..1>",
+    "theta_domain": "[-pi/2, pi/2], theta=0 pointer basis, theta=+/-pi/2 x-like basis"
+  },
+  "verdict": {
+    "record_fidelity_derives_born_weights": false,
+    "record_fidelity_selects_pointer_basis": true,
+    "surviving_hypothesis": "RSPS: record stabilization selects basis/objectivity; weights come from the trace rule."
+  }
+}

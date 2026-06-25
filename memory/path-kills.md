@@ -277,6 +277,35 @@ claim_refs:
   - TI-C019
 ```
 
+## RUN-0070
+
+```yaml
+path: single_record_fidelity_functional_derives_born_weights_in_controlled_copy_fixture
+reason_killed: >
+  RUN-0070 reproduces the controlled-copy / GHZ RSPS toy model. The record-fidelity functional
+  selects the pointer basis (`theta = 0`, normalized `F = 3.0`) but does not contain the Born
+  weights. At the winning basis the normalized fidelity is constant across `p0 = 0.3, 0.5,
+  0.7, 0.9`; the only raw amplitude-sensitive term is `N * H2(p0)`, which is symmetric under
+  `p0 <-> 1-p0` and maximal at `p0 = 0.5`.
+evidence: >
+  `tools/rsps_record_fidelity_toy.py`,
+  `tests/artifacts/rsps_record_fidelity_toy_result.json`,
+  `explorations/E075-rsps-record-fidelity-toy-baseline-2026-06-25.md`, and
+  `agent-runs/RUN-0070-rsps-record-fidelity-toy-baseline.md`.
+local_minimum_risk: >
+  Medium. This kill is scoped to the controlled-copy fixture. It should not be generalized to
+  all possible record functionals until Goal 3 attempts a structural theorem. It also should
+  not kill the modest RSPS result that record fidelity selects pointer structure.
+possible_future_resurrection_trigger: >
+  A different record-fidelity functional that reads `diag(rho_S)` without smuggling in the
+  trace rule, distinguishes `p0` from `1-p0`, and still independently selects the pointer
+  basis across robustness fixtures.
+run_ref: RUN-0070
+claim_refs:
+  - TI-C020
+  - TI-C001
+```
+
 ## RUN-0046
 
 ```yaml

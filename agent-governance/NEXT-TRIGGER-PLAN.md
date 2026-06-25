@@ -3,11 +3,63 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0069
+updated_by_run: RUN-0070
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## RSPS Record-Fidelity Toy Baseline Complete (RUN-0070) - Current Route
+
+RUN-0070 executed Goal 1 of the five-goal disproof ladder.
+
+Verdict:
+
+```yaml
+RUN_0070_complete: true
+record_fidelity_selects_pointer_basis: true
+record_fidelity_derives_born_weights: false
+path_killed: single_record_fidelity_functional_derives_born_weights_in_controlled_copy_fixture
+claim_status_change: none
+next_recommended_trigger: RSPS_robustness_sweep
+```
+
+Primary next trigger:
+
+```text
+W000 -> RSPS_robustness_sweep
+```
+
+Required:
+
+1. Extend `tools/rsps_record_fidelity_toy.py` or add a companion script.
+2. Test imperfect copying.
+3. Test partial environment access.
+4. Test non-orthogonal environment records.
+5. Test noise and varying `N`.
+6. Decide whether pointer-basis selection is robust or an ideal GHZ artifact.
+7. Commit and push after the fixture.
+
+Success condition:
+
+```text
+pointer-basis extremum remains stable under ordinary decoherence perturbations
+```
+
+Failure condition:
+
+```text
+record-fidelity pointer selection is only an ideal controlled-copy artifact
+```
+
+Secondary next trigger:
+
+```text
+W000 -> general_RSPS_Born_weight_no_go
+```
+
+Only run Goal 3 after Goal 2, because the no-go should not be generalized until the basis-
+selection side has been pressure-tested beyond the perfect GHZ fixture.
 
 ## Stochastic Quantum / Willow / Entanglement Learning Complete (RUN-0069) - Current Route
 

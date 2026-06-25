@@ -1601,6 +1601,31 @@ notes: >
   fixture.
 ```
 
+```yaml
+run_id: RUN-0070
+workflow_used: W000 -> RSPS_record_fidelity_toy_baseline
+research_vs_governance: research
+claim_status_changed: false
+path_killed: true
+  path: single_record_fidelity_functional_derives_born_weights_in_controlled_copy_fixture
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E075-rsps-record-fidelity-toy-baseline, RUN-0070-rsps-record-fidelity-toy-baseline, rsps_record_fidelity_toy.py, rsps_record_fidelity_toy_result.json]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Goal 1 of the five-goal disproof ladder completed. The controlled-copy RSPS toy fixture
+  selects the pointer basis but does not derive Born weights. The overstrong single-functional
+  probability route is killed for this fixture; modest basis-selection RSPS survives. Next
+  trigger moves to RSPS robustness sweep.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

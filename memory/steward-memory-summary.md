@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0069
+last_summarized_run: RUN-0070
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: quantum_QEC_entanglement_fixed_H_absorber_fixture
+next_required_test: RSPS_robustness_sweep
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -137,6 +137,14 @@ as issuance evidence by itself. Willow is a real QEC capability/finality achieve
 E067/E072 it types as `Project[O] + Finalize[R] + Lose[K]` plus capability improvement, not
 `Issue[S]`. Entanglement is first a reconstruction/capability/finality signal. Next run:
 quantum_QEC_entanglement_fixed_H_absorber_fixture.
+
+RUN-0070 adds: Goal 1 of the RSPS disproof ladder is now reproduced locally. The controlled-
+copy / GHZ record-fidelity toy model selects the pointer basis exactly (`theta = 0`, normalized
+`F = 3.0`) but does not derive Born weights. At the pointer basis, normalized fidelity is
+constant across tested branch weights, while raw redundancy is `N * H2(p0)` and therefore
+entropy-like rather than branch-weight-like. The overstrong path "one record-fidelity
+functional derives both pointer basis and Born probabilities" is killed for the toy fixture.
+Next run: RSPS robustness sweep.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -835,7 +843,18 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0060 route (current): W010 frontier selection and next-work ranking.**
+**RUN-0070 route (current): RSPS robustness sweep.**
+
+Primary: test whether the record-fidelity pointer-basis extremum survives imperfect copying,
+partial environment access, non-orthogonal records, noise, and varying `N`.
+
+Success condition: pointer-basis selection remains stable under ordinary decoherence
+perturbations, strengthening the fixed-H absorber.
+
+Failure condition: pointer-basis selection is an ideal controlled-copy artifact, narrowing RSPS
+before any general no-go or fixed-H-vs-H-growing adjudication.
+
+**RUN-0060 route (preserved provenance): W010 frontier selection and next-work ranking.**
 
 Primary: re-rank the live frontier after RUN-0056 through RUN-0060 narrowed H3/C1/C3, TI-C022,
 TI-C020, Assembly Theory, and burst governance.

@@ -431,11 +431,28 @@ strengthens the absorber side of the quantum bridge: stochastic-quantum represen
 fixed-H/fixed-A dynamics, QEC capability engineering, and entanglement reconstruction do not
 imply `Issue[S]`. TI-C020 pressure increases; no claim moved.
 
-Open tasks (updated after RUN-0069):
+RUN-0070 completed Goal 1 of the RSPS five-goal disproof ladder. The controlled-copy / GHZ
+record-fidelity toy model was reproduced locally and made executable. Result: record fidelity
+selects the pointer basis (`theta = 0`, normalized `F = 3.0`) but does not derive Born weights.
+The weights remain external in `diag(rho_S)` and require the trace rule or a separate weight
+module. The overstrong route "one record-fidelity functional derives both basis and
+probabilities" is path-killed for the controlled-copy fixture. No claim moved.
 
-- Quantum QEC/entanglement fixed-H absorber fixture (primary): apply the Barandes, fixed-H,
-  QEC/capability, and entanglement-reconstruction absorbers to one concrete quantum-facing
-  candidate.
+Open tasks (updated after RUN-0070):
+
+- RSPS robustness sweep (primary): test imperfect copying, partial environment access,
+  non-orthogonal environment records, noise, and varying `N`. Decide whether pointer-basis
+  record-fidelity selection is robust or only an ideal GHZ artifact.
+- General RSPS Born-weight no-go (secondary, after robustness): attempt a structural theorem
+  that record-stability/redundancy functionals select basis/objectivity but cannot derive Born
+  weights without importing the trace rule.
+- Fixed-H absorber fixture (tertiary, after no-go attempt): compare fixed-H QM/decoherence
+  record traces against H-growing/A-growing Temporal Issuance traces.
+- Absorption or residue report (final goal): decide whether the quantum record/finality route
+  is absorbed or leaves a precise residue.
+- Quantum QEC/entanglement fixed-H absorber fixture (parked behind RSPS ladder): apply the
+  Barandes, fixed-H, QEC/capability, and entanglement-reconstruction absorbers to one concrete
+  quantum-facing candidate.
 - G08 TI-C022 record-reality typing fixture (secondary): test whether any type-level surplus
   remains after fork-choice/canonical-chain finality.
 - G04/G05 AC-8 actor trace and projection audit: state the actor protocol first, then audit
