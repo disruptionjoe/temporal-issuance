@@ -426,21 +426,25 @@ RUN-0068 completed G07. Memory summaries and memory packs are now classified as 
 projections with finality effects, not authority and not source issuance. A future memory-format
 improvement may add explicit LossKernel fields, but this run made no governance-format change.
 
-Open tasks (updated after RUN-0068):
+RUN-0069 completed the stochastic quantum / Willow / entanglement learning run. The result
+strengthens the absorber side of the quantum bridge: stochastic-quantum representation,
+fixed-H/fixed-A dynamics, QEC capability engineering, and entanglement reconstruction do not
+imply `Issue[S]`. TI-C020 pressure increases; no claim moved.
 
-- G08 TI-C022 record-reality typing fixture (primary): test whether any type-level surplus
+Open tasks (updated after RUN-0069):
+
+- Quantum QEC/entanglement fixed-H absorber fixture (primary): apply the Barandes, fixed-H,
+  QEC/capability, and entanglement-reconstruction absorbers to one concrete quantum-facing
+  candidate.
+- G08 TI-C022 record-reality typing fixture (secondary): test whether any type-level surplus
   remains after fork-choice/canonical-chain finality.
 - G04/G05 AC-8 actor trace and projection audit: state the actor protocol first, then audit
   observer-visible finality.
-- G06/G07/G08/G09 parallel lanes: issued capability, memory LossKernel, TI-C022 record-reality
-  typing, and typed effect signature.
 - G10 frontier integration: run W010-style re-rank after the goal sequence.
 - W010 frontier selection (secondary): re-rank the live frontier if the interface contract
   cannot be made bounded or if a higher-verdict route appears.
 - AC-8 actor protocol projection audit: model AC-8 as a local actor/message trace, then audit
   its observer-visible records through the Time as Finality projection frame.
-- Memory LossKernel audit: treat steward memory summaries and TaF memory packs as typed
-  projections with explicit loss.
 - Preserve burst mode as a tool for separable frontiers, not as a substitute for serial
   steward ownership of claim, memory, roadmap, trigger, metrics, and governance surfaces.
 

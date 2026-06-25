@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0068
+last_summarized_run: RUN-0069
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: G08_TI_C022_record_reality_typing_fixture
+next_required_test: quantum_QEC_entanglement_fixed_H_absorber_fixture
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -130,6 +130,13 @@ packs are `Project[O] + Finalize[R] + Lose[K]`, not `Issue[S]` and not authority
 workflow capability while losing detail. Future memory-format work may add explicit LossKernel
 fields, but no governance format change was made in this run. Next run: G08 TI-C022 record-
 reality typing fixture.
+
+RUN-0069 adds: the Barandes/Willow/entanglement learning strengthens the quantum absorber side,
+not the physical-source claim side. Barandes makes stochastic or quantum representation unsafe
+as issuance evidence by itself. Willow is a real QEC capability/finality achievement, but under
+E067/E072 it types as `Project[O] + Finalize[R] + Lose[K]` plus capability improvement, not
+`Issue[S]`. Entanglement is first a reconstruction/capability/finality signal. Next run:
+quantum_QEC_entanglement_fixed_H_absorber_fixture.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.

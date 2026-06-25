@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E074-stochastic-quantum-willow-entanglement-learning-2026-06-24.md` records the Barandes/Willow/entanglement lesson as an absorber-strengthening result: stochastic-quantum representation, QEC capability engineering, and entanglement reconstruction do not imply `Issue[S]`.
 - `E073-memory-losskernel-audit-2026-06-24.md` executes G07. It treats Temporal Issuance memory summaries and Time as Finality memory packs as `Project[O] + Finalize[R] + Lose[K]`, not authority and not `Issue[S]`.
 - `E072-typed-effect-signature-source-shadow-finality-2026-06-24.md` executes G09. It defines `Issue[S]`, `Project[O]`, `Finalize[R]`, and `Lose[K]`, blocking projection, finality, loss, or capability change from implying source issuance.
 - `E071-issued-capability-contract-test-2026-06-24.md` executes G06. It uses G03/G02 as paired baselines and defines `IssuedCapability` as source-gated, task-natural, non-ambient, projection-declared, and absorber-checked; no claim movement.
