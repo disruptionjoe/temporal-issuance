@@ -1028,6 +1028,41 @@ TI-C019:
     source witness.
 ```
 
+## RUN-0086 Claim Addenda
+
+```yaml
+TI-C020:
+  status: speculative
+  effect: dual_record_fixture_absorbed_as_physical_source_evidence
+  addendum: >
+    RUN-0086 applies the effect gate to the Time as Finality dual-record fixture. C
+    growing-adjacency search beats A single-record and B0 limited fixed-latent search, but B1
+    exact fixed-latent access reproduces the same target result. This is useful record-regime
+    architecture and local-minimum vocabulary, but no physical source evidence.
+  evidence_refs_added:
+    - explorations/E094-dual-record-fixture-effect-gate-2026-06-25.md
+    - agent-runs/RUN-0086-dual-record-fixture-effect-gate.md
+    - ../time-as-finality/results/dual-record-opportunity-fixture-v0.1-results.md
+  next_action: >
+    Use GU only as an observer-finality / section-retrieval stress surface. Do not reopen
+    TI-C020 from this fixture unless a future comparator defeats exact fixed-latent graph
+    access.
+
+TI-C001:
+  status: weakened
+  effect: dual_record_kept_as_reconstruction_vocabulary
+  addendum: >
+    Stable records and opportunity-edge records remain distinct reconstruction vocabulary. The
+    first fixture confirms the distinction is executable, while keeping source issuance false.
+
+TI-C019:
+  status: formalizing
+  effect: unchanged
+  addendum: >
+    The dual-record fixture does not affect `OnlineIssuance^LC`. The source-side shortcut is
+    killed for this finite fixture because exact fixed-latent graph access absorbs it.
+```
+
 ## RUN-0076 Claim Addenda
 
 ```yaml

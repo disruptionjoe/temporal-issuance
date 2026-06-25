@@ -3,11 +3,44 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0085
+updated_by_run: RUN-0086
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Dual-Record Fixture Effect Gate Complete (RUN-0086) - Current Route
+
+RUN-0086 applied the Temporal Issuance effect gate to the Time as Finality
+dual-record opportunity fixture.
+
+Verdict:
+
+```yaml
+RUN_0086_complete: true
+fixture_result: bounded_growing_adjacency_residue_relative_to_B0
+absorber_result: exact_fixed_latent_edge_absorbs_source_side_reading
+effect_verdict:
+  Issue[S]: false
+  Project[O]: true
+  Finalize[R]: true
+  Lose[K]: true
+claim_status_change: none
+official_next_trigger: GU_dual_record_section_retrieval_witness
+```
+
+Primary next trigger:
+
+```text
+W000 -> GU_dual_record_section_retrieval_witness
+```
+
+Required:
+
+1. Use GU only as an observer-finality / section-retrieval stress surface.
+2. Preserve the TaF result: C beats A/B0 but B1 absorbs source-side reading.
+3. Build a same-stable-record / different-opportunity-record witness.
+4. Do not promote to GU source geometry.
 
 ## Dual-Record Comparator Decoy Correction 2 Complete (RUN-0085) - Current Route
 

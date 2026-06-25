@@ -965,3 +965,33 @@ claim_refs:
   - TI-C019
   - TI-C003
 ```
+
+## RUN-0086
+
+```yaml
+path: dual_record_growing_adjacency_fixture_success_as_source_side_temporal_issuance_evidence
+reason_killed: >
+  The Time as Finality dual-record fixture shows C growing-adjacency search beats A
+  single-record and B0 limited fixed-latent search under equal budget. But B1 exact
+  fixed-latent access reproduces C once the critical edge 2 -> 7 is supplied with a matching
+  access trigger. The finite result is therefore record-regime architecture plus projection,
+  finality, and loss; it is not source-side issuance evidence.
+evidence: >
+  `explorations/E094-dual-record-fixture-effect-gate-2026-06-25.md`,
+  `agent-runs/RUN-0086-dual-record-fixture-effect-gate.md`, and
+  `../time-as-finality/results/dual-record-opportunity-fixture-v0.1-results.md`.
+local_minimum_risk: >
+  Medium. Killing the source-side shortcut must not erase the useful strong hypothesis: stable
+  records and opportunity-edge records are distinct regimes, and opportunity records can change
+  finite proposal kernels. A future stronger fixture could still matter if it defeats exact
+  fixed-latent graph access or proves a no-hidden-oracle source condition.
+possible_future_resurrection_trigger: >
+  A comparator where growing opportunity edges cannot be represented by any declared fixed
+  latent graph plus access schedule, while preserving stable records, opportunity records,
+  proposal kernels, source traces, and absorber controls.
+run_ref: RUN-0086
+claim_refs:
+  - TI-C019
+  - TI-C020
+  - TI-C001
+```

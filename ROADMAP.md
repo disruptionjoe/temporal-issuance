@@ -541,6 +541,18 @@ Open tasks (updated after RUN-0083):
   by B1.
 - Bring the fixture result back into Temporal Issuance for effect typing.
 
+RUN-0086 applied the effect gate to the Time as Finality fixture. The result is intentionally
+two-sided: growing adjacency beats the limited fixed-latent comparator, but exact fixed-latent
+edge access reproduces the target result. Verdict: `Project[O] + Finalize[R] + Lose[K]`, not
+`Issue[S]`. No claim moved.
+
+Open tasks (updated after RUN-0086):
+
+- Add the GU dual-record section-retrieval witness as an observer-finality stress note only.
+- Keep the source-side shortcut path killed unless a future comparator defeats exact
+  fixed-latent graph access.
+- Machine-check `OnlineIssuance^LC` remains a parked live route.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.

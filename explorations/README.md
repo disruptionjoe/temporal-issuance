@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E094-dual-record-fixture-effect-gate-2026-06-25.md` applies the Temporal Issuance effect gate to the Time as Finality dual-record fixture: growing adjacency beats the limited comparator, but exact fixed-latent access absorbs the source-side reading; verdict `Project[O] + Finalize[R] + Lose[K]`, not `Issue[S]`.
 - `E093-dual-record-comparator-freeze-2026-06-25.md` freezes the dual-record adjacent-possible fixture before simulation: A single-record, B0 limited fixed-latent, B1 exact fixed-latent absorber, and C growing-adjacency search under equal budget; no claim movement.
 - `E092-w010-frontier-route-lock-dual-record-2026-06-25.md` executes a W010-style route lock after RUN-0081: machine-checking `OnlineIssuance^LC` remains parked live, while the user-directed active sequence becomes the dual-record comparator, fixture, effect gate, and GU observer-finality witness ladder.
 - `E091-online-issuance-verdict-and-formal-object-rewrite-2026-06-25.md` executes OnlineIssuance Goal 5. Final verdict: a narrowed class-relative formal residue survives; fixed-law computation, category structure, projection/finality, and external completion are absorbed. `FORMAL-OBJECT.md` and `HYPOTHESIS-STEELMAN.md` were patched; no claim status changed.
