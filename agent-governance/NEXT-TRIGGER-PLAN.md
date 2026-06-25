@@ -3,11 +3,55 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0074
+updated_by_run: RUN-0075
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Dual-Record Opportunity Steelman Vote Complete (RUN-0075) - Current Intake
+
+RUN-0075 processed Joe's weak dual-record opportunity hypothesis.
+
+Verdict:
+
+```yaml
+RUN_0075_complete: true
+best_version: V4_adjacent_possible_graph_with_V1_opportunity_reservoir
+claim_status_change: none
+fixture_candidate: dual_record_adjacent_possible_fixture
+main_absorber: fixed_latent_graph_plus_access_schedule
+official_next_trigger: W010_frontier_selection_and_next_work_ranking
+```
+
+Primary next trigger remains:
+
+```text
+W000 -> W010_frontier_selection_and_next_work_ranking
+```
+
+Reason:
+
+```text
+RUN-0075 is a fresh intake/steelman pass, not enough to outrank frontier selection by itself.
+```
+
+Optional direct trigger if Joe wants to pursue this line immediately:
+
+```text
+W000 -> dual_record_adjacent_possible_fixture
+```
+
+Required:
+
+1. Define `S_n` stabilized record, `O_n` opportunity record, `G_n` move graph, `K_n` proposal
+   kernel, and `T_n` transfer/finality rule.
+2. Compare single-record search, dual-record fixed-latent search, and dual-record growing-
+   adjacency search.
+3. Use equal search budget.
+4. Test against fixed latent graph, annealing, random restarts, evolutionary search, and
+   Bayesian nonparametric generation.
+5. Record whether any source-side residue survives.
 
 ## RSPS Absorption Or Residue Report Complete (RUN-0074) - Current Route
 

@@ -994,3 +994,36 @@ path_kill:
   path: RSPS_quantum_record_fidelity_line_as_physical_source_side_TI_evidence
   evidence_ref: memory/path-kills.md#run-0074
 ```
+
+## RUN-0075 Claim Addenda
+
+```yaml
+TI-C020:
+  status: speculative
+  effect: dual_record_opportunity_fixture_candidate_added
+  addendum: >
+    RUN-0075 processes Joe's weak dual-record opportunity hypothesis. The strongest version is
+    not manifold-specific. It is an information/search hypothesis: one record regime stabilizes
+    selected outcomes while another maintains or changes the adjacency graph of future
+    admissible moves. This is only a fixture candidate and supplies no TI-C020 evidence.
+  evidence_refs_added:
+    - explorations/E083-dual-record-opportunity-steelman-vote-2026-06-25.md
+    - agent-runs/RUN-0075-dual-record-opportunity-steelman-vote.md
+  next_action: >
+    If pursued, run `dual_record_adjacent_possible_fixture` against the fixed-latent-graph
+    absorber, simulated annealing, evolutionary search, and Bayesian nonparametric generation.
+
+TI-C001:
+  status: weakened
+  effect: dual_record_language_kept_as_reconstruction_vocabulary
+  addendum: >
+    The idea may sharpen reconstruction-layer language about stabilized records versus
+    opportunity records, but it does not by itself show source-side issuance.
+
+TI-C019:
+  status: formalizing
+  effect: unchanged
+  addendum: >
+    RUN-0075 adds a possible fixture route but does not disturb the formal `Compat_G^MLTT`
+    source witness.
+```

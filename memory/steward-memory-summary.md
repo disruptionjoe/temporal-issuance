@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0074
+last_summarized_run: RUN-0075
 ---
 
 # Steward Memory Summary
@@ -172,6 +172,13 @@ quantum mechanics plus decoherence/Quantum Darwinism-style record maps and trace
 absorb the current quantum record-fidelity line. RSPS remains useful as reconstruction/finality
 vocabulary, but not as TI-C020 physical source evidence. No claim status changes. Route back to
 W010 frontier selection.
+
+RUN-0075 adds: Joe's dual-record opportunity hypothesis was steelmanned into five versions and
+voted by seven personas. Winner: adjacent-possible graph with opportunity-reservoir interface.
+Best version: one record regime stabilizes selected outcomes while another maintains or changes
+the graph of future admissible moves. Main absorber: fixed latent graph plus access schedule,
+plus ordinary annealing/evolutionary/Bayesian nonparametric search. No claim status changes.
+W010 remains official next trigger; optional direct route is `dual_record_adjacent_possible_fixture`.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -879,6 +886,9 @@ Preserve: RSPS is reconstruction vocabulary only unless a new W1-W6 witness appe
 Candidate next routes include quantum QEC/entanglement fixed-H absorber, G08 TI-C022
 record-reality typing fixture, G04/G05 AC-8 actor/projection audit, or another W010-selected
 frontier.
+
+New optional intake route from RUN-0075: dual-record adjacent-possible fixture, only if Joe
+chooses to pursue this candidate before W010.
 
 **RUN-0060 route (preserved provenance): W010 frontier selection and next-work ranking.**
 

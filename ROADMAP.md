@@ -461,9 +461,16 @@ usable as downstream reconstruction vocabulary for basis/objectivity/finality, b
 TI-C020 physical source evidence. Born weights remain external to scalar record-fidelity
 selection, and all current RSPS accessible traces are fixed-H representable. No claim moved.
 
-Open tasks (updated after RUN-0074):
+RUN-0075 processed Joe's dual-record opportunity hypothesis. Five steelmans and seven personas
+selected the adjacent-possible graph version: one record regime stabilizes selected outcomes
+while another maintains or changes the graph of future admissible moves. This is a fixture
+candidate only. The main absorber is fixed latent graph plus access schedule.
+
+Open tasks (updated after RUN-0075):
 
 - W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.
+- Optional dual-record adjacent-possible fixture: compare single-record search, fixed-latent
+  dual-record search, and growing-adjacency dual-record search under equal budget.
 - Quantum QEC/entanglement fixed-H absorber fixture (parked behind RSPS ladder): apply the
   Barandes, fixed-H, QEC/capability, and entanglement-reconstruction absorbers to one concrete
   quantum-facing candidate.

@@ -1739,3 +1739,24 @@ What was promoted: None.
 New blockers: None for RSPS; route back to frontier selection.
 Recommended next run: W000 -> W010_frontier_selection_and_next_work_ranking.
 Files changed: `explorations/E079-rsps-absorption-or-residue-report-2026-06-25.md`, `agent-runs/RUN-0074-rsps-absorption-or-residue-report.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0075
+
+Timestamp: 2026-06-25
+Trigger: manual_request
+Workflow: W000 -> dual_record_opportunity_steelman_vote
+Agent / subagents used: Repo Steward, simulated seven-persona panel.
+Current strongest version: One record regime stabilizes selected outcomes while another
+maintains or changes the adjacency graph of future admissible moves.
+Current strongest objection: Fixed latent graph plus access schedule, annealing, random
+restarts, evolutionary search, and Bayesian nonparametric generation may absorb the whole
+advantage.
+What collapsed: The manifold-specific framing as load-bearing evidence.
+What survived: Adjacent-possible graph with opportunity-reservoir interface as a fixture
+candidate.
+What was absorbed: Nothing tested yet.
+What was promoted: None.
+New blockers: If pursued, the candidate must beat fixed-latent-graph absorption.
+Recommended next run: W000 -> W010_frontier_selection_and_next_work_ranking; optional direct
+route is W000 -> dual_record_adjacent_possible_fixture if Joe wants this line immediately.
+Files changed: `explorations/E083-dual-record-opportunity-steelman-vote-2026-06-25.md`, `agent-runs/RUN-0075-dual-record-opportunity-steelman-vote.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
