@@ -1531,6 +1531,29 @@ notes: >
   signature.
 ```
 
+```yaml
+run_id: RUN-0067
+workflow_used: W000 -> G09_typed_effect_signature
+research_vs_governance: research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E072-typed-effect-signature-source-shadow-finality, RUN-0067-typed-effect-signature]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  G09 completed. Minimal effects are Issue[S], Project[O], Finalize[R], and Lose[K].
+  Projection, finality, loss, or capability change do not imply source issuance. Next trigger
+  moves to G07 memory LossKernel audit.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

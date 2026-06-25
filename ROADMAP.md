@@ -418,10 +418,14 @@ RUN-0066 completed G06. `IssuedCapability` is now gated: task-natural capability
 gate plus non-ambient authority plus declared projection status plus AbsorberSet. G03 is access
 capability, not issued; G02 is a formal issued-capability candidate.
 
-Open tasks (updated after RUN-0066):
+RUN-0067 completed G09. The minimal typed effect signature is now `Issue[S]`, `Project[O]`,
+`Finalize[R]`, and `Lose[K]`, with the rule that projection, finality, loss, or capability
+change do not imply source issuance.
 
-- G09 typed effect signature (primary): define effects for Issue, Project, Finalize, and Lose
-  and apply them to G03/G02/G06.
+Open tasks (updated after RUN-0067):
+
+- G07 memory LossKernel audit (primary): treat steward summaries and adjacent memory packs as
+  lossy projections with preserved fields, lost fields, quotient relation, and capability spread.
 - G04/G05 AC-8 actor trace and projection audit: state the actor protocol first, then audit
   observer-visible finality.
 - G06/G07/G08/G09 parallel lanes: issued capability, memory LossKernel, TI-C022 record-reality

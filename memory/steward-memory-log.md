@@ -1589,3 +1589,19 @@ What was promoted: None.
 New blockers: G09 should now define the minimal typed effect signature.
 Recommended next run: W000 -> G09_typed_effect_signature.
 Files changed: `explorations/E071-issued-capability-contract-test-2026-06-24.md`, `agent-runs/RUN-0066-issued-capability-contract-test.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0067
+
+Timestamp: 2026-06-24
+Trigger: manual_request
+Workflow: W000 -> G09_typed_effect_signature
+Agent / subagents used: Repo Steward.
+Current strongest version: The source-shadow-finality bridge now has a minimal effect discipline: `Issue[S]`, `Project[O]`, `Finalize[R]`, and `Lose[K]`. Only the E067 source gate permits `Issue[S]`.
+Current strongest objection: The effect discipline still needs to be tested on memory summarization, where loss and authority can be confused.
+What collapsed: Projection novelty, finality, loss, or capability change as automatic source evidence.
+What survived: The E067 source gate as the only route to `Issue[S]`; G07 memory LossKernel audit as next.
+What was absorbed: Recent category mistakes were absorbed into explicit non-implication rules.
+What was promoted: None.
+New blockers: Memory summaries must be audited as lossy projections rather than authority surfaces.
+Recommended next run: W000 -> G07_memory_losskernel_audit.
+Files changed: `explorations/E072-typed-effect-signature-source-shadow-finality-2026-06-24.md`, `agent-runs/RUN-0067-typed-effect-signature.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

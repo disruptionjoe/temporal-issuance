@@ -3,13 +3,49 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0066
+updated_by_run: RUN-0067
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## G06 IssuedCapability Contract Test Complete (RUN-0066) - Current Route
+## G09 Typed Effect Signature Complete (RUN-0067) - Current Route
+
+RUN-0067 executed the `G09_typed_effect_signature` trigger.
+
+Verdict:
+
+```yaml
+G09_complete: true
+effects:
+  - Issue[S]
+  - Project[O]
+  - Finalize[R]
+  - Lose[K]
+claim_status_change: none
+next_recommended_trigger: G07_memory_losskernel_audit
+```
+
+Primary next trigger:
+
+```text
+W000 -> G07_memory_losskernel_audit
+```
+
+Required:
+
+1. Treat steward summaries as projections, not authority.
+2. Identify preserved fields, lost fields, quotient relation, and capability spread.
+3. Compare Temporal Issuance steward memory with Time as Finality memory-pack discipline.
+4. Commit and push after G07.
+
+Secondary next trigger:
+
+```text
+W000 -> G08_TI_C022_record_reality_typing_fixture
+```
+
+## G06 IssuedCapability Contract Test Complete (RUN-0066)
 
 RUN-0066 executed the `G06_issued_capability_contract_test` trigger.
 
