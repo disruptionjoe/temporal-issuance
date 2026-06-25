@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0065
+last_summarized_run: RUN-0066
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: G06_issued_capability_contract_test
+next_required_test: G09_typed_effect_signature
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -115,6 +115,10 @@ RUN-0065 adds: G02 succeeded. A bounded `Compat_G^MLTT` finite trace passes thro
 verdict `source_issuance_candidate` plus `lossy_projection_residue`. This is a formal,
 class-relative source fixture only; TI-C020 and physical-source status are unchanged. Next run:
 G06 issued capability contract test using G03/G02 as paired baselines.
+
+RUN-0066 adds: G06 succeeded. Capability language is safe only when "issued" is source-gated.
+G03 is access-granted capability, not issued. G02 is a formal `IssuedCapability` candidate
+because the source gate passes in the local MLTT class. Next run: G09 typed effect signature.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.

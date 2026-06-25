@@ -414,11 +414,14 @@ RUN-0065 completed G02. A bounded `Compat_G^MLTT` finite trace runs through E067
 `source_issuance_candidate` with `lossy_projection_residue`, while explicitly not testing or
 promoting any physical-source claim.
 
-Open tasks (updated after RUN-0065):
+RUN-0066 completed G06. `IssuedCapability` is now gated: task-natural capability plus source
+gate plus non-ambient authority plus declared projection status plus AbsorberSet. G03 is access
+capability, not issued; G02 is a formal issued-capability candidate.
 
-- G06 issued capability contract test (primary): use G03 and G02 as paired baselines to test
-  whether `IssuedCapability` distinguishes access-driven capability change from source-linked
-  capability creation.
+Open tasks (updated after RUN-0066):
+
+- G09 typed effect signature (primary): define effects for Issue, Project, Finalize, and Lose
+  and apply them to G03/G02/G06.
 - G04/G05 AC-8 actor trace and projection audit: state the actor protocol first, then audit
   observer-visible finality.
 - G06/G07/G08/G09 parallel lanes: issued capability, memory LossKernel, TI-C022 record-reality

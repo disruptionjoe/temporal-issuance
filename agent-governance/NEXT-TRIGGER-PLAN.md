@@ -3,13 +3,47 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0065
+updated_by_run: RUN-0066
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## G02 Source / Shadow / Finality Positive Fixture Complete (RUN-0065) - Current Route
+## G06 IssuedCapability Contract Test Complete (RUN-0066) - Current Route
+
+RUN-0066 executed the `G06_issued_capability_contract_test` trigger.
+
+Verdict:
+
+```yaml
+G06_complete: true
+G03_access_case: access_granted_capability_not_issued
+G02_formal_case: IssuedCapability_candidate_formal
+claim_status_change: none
+next_recommended_trigger: G09_typed_effect_signature
+```
+
+Primary next trigger:
+
+```text
+W000 -> G09_typed_effect_signature
+```
+
+Required:
+
+1. Define minimal effects `Issue[S]`, `Project[O]`, `Finalize[R]`, and `Lose[K]`.
+2. Apply the effects to G03, G02, and G06.
+3. Show at least one recent category mistake the effects prevent.
+4. Commit and push after G09.
+
+Secondary next triggers:
+
+```text
+W000 -> G07_memory_losskernel_audit
+W000 -> G08_TI_C022_record_reality_typing_fixture
+```
+
+## G02 Source / Shadow / Finality Positive Fixture Complete (RUN-0065)
 
 RUN-0065 executed the `G02_source_shadow_finality_positive_fixture` trigger.
 

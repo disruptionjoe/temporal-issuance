@@ -1508,6 +1508,29 @@ notes: >
   moved. Next trigger moves to G06 issued capability contract test.
 ```
 
+```yaml
+run_id: RUN-0066
+workflow_used: W000 -> G06_issued_capability_contract_test
+research_vs_governance: research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E071-issued-capability-contract-test, RUN-0066-issued-capability-contract-test]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  G06 completed. IssuedCapability is source-gated: G03 is access-granted capability, not
+  issued; G02 is a formal issued-capability candidate. Next trigger moves to G09 typed effect
+  signature.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

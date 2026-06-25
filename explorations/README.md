@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E071-issued-capability-contract-test-2026-06-24.md` executes G06. It uses G03/G02 as paired baselines and defines `IssuedCapability` as source-gated, task-natural, non-ambient, projection-declared, and absorber-checked; no claim movement.
 - `E070-source-shadow-finality-positive-fixture-2026-06-24.md` executes G02. It runs a bounded `Compat_G^MLTT` finite trace through E067 and gets a formal `source_issuance_candidate` plus `lossy_projection_residue` verdict, with no physics or claim promotion.
 - `E069-fixed-source-bounded-access-negative-control-2026-06-24.md` executes G03. It instantiates E067 with fixed `Mu_infty` plus expanding `P_n` aperture and verifies the verdict is projection/access novelty plus absorber-controlled bookkeeping, not source issuance.
 - `E067-source-shadow-finality-interface-contract-2026-06-24.md` executes G01 from the ten-goal plan. It defines `SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKernel`, `AbsorberSet`, and verdict classes for future fixtures; no claim movement.

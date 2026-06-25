@@ -1573,3 +1573,19 @@ What was promoted: None.
 New blockers: Capability language now needs a direct test so it does not blur access-driven capability change with source-linked capability creation.
 Recommended next run: W000 -> G06_issued_capability_contract_test.
 Files changed: `explorations/E070-source-shadow-finality-positive-fixture-2026-06-24.md`, `agent-runs/RUN-0065-source-shadow-finality-positive-fixture.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0066
+
+Timestamp: 2026-06-24
+Trigger: manual_request
+Workflow: W000 -> G06_issued_capability_contract_test
+Agent / subagents used: Repo Steward.
+Current strongest version: `IssuedCapability` is useful only when source-gated. G03 is access-granted capability, not issued; G02 is a formal issued-capability candidate under the local MLTT source class.
+Current strongest objection: Capability vocabulary still needs an effect system to prevent source/project/finalize/loss category mistakes.
+What collapsed: "Observer can now do X" as sufficient evidence that the source issued X.
+What survived: Source-gated `IssuedCapability` with task-natural Cap, non-ambient authority, projection status, and AbsorberSet.
+What was absorbed: Access-driven capability change is absorbed by projection/access, not source issuance.
+What was promoted: None.
+New blockers: G09 should now define the minimal typed effect signature.
+Recommended next run: W000 -> G09_typed_effect_signature.
+Files changed: `explorations/E071-issued-capability-contract-test-2026-06-24.md`, `agent-runs/RUN-0066-issued-capability-contract-test.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
