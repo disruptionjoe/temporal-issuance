@@ -3,11 +3,31 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0084
+updated_by_run: RUN-0085
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Dual-Record Comparator Decoy Correction 2 Complete (RUN-0085) - Current Route
+
+RUN-0085 removed the equal-score `0 -> 5` B0 decoy after implementation testing found that it
+created an unintended target-reaching path.
+
+Verdict:
+
+```yaml
+RUN_0085_complete: true
+comparator_correction_complete: true
+claim_status_change: none
+official_next_trigger: implement_dual_record_adjacent_possible_fixture
+```
+
+Primary next trigger remains:
+
+```text
+W000 -> implement_dual_record_adjacent_possible_fixture
+```
 
 ## Dual-Record Comparator Decoy Correction Complete (RUN-0084) - Current Route
 
