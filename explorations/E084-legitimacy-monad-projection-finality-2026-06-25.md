@@ -41,6 +41,26 @@ therefore Issue[S]
 
 Temporal Issuance must keep those separate.
 
+## Strong Form vs Conservative Effect Gate
+
+Strong-form S7:
+
+```text
+legitimacy may be a first-class primitive for turning local data into
+buildable observer mathematics.
+```
+
+Conservative TI gate:
+
+```text
+classify legitimacy operations as Project[O] + Finalize[R] + Lose[K] unless a
+separate source-side witness passes the Issue[S] gate.
+```
+
+The conservative gate is not a rejection of the strong form. It is the effect
+discipline that prevents a successful legitimacy operation from being
+misreported as source issuance.
+
 ## Typed Reading
 
 Let `(C, J)` be a fixed site and coverage of local observer contexts, and let:
