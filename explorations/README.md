@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E092-w010-frontier-route-lock-dual-record-2026-06-25.md` executes a W010-style route lock after RUN-0081: machine-checking `OnlineIssuance^LC` remains parked live, while the user-directed active sequence becomes the dual-record comparator, fixture, effect gate, and GU observer-finality witness ladder.
 - `E091-online-issuance-verdict-and-formal-object-rewrite-2026-06-25.md` executes OnlineIssuance Goal 5. Final verdict: a narrowed class-relative formal residue survives; fixed-law computation, category structure, projection/finality, and external completion are absorbed. `FORMAL-OBJECT.md` and `HYPOTHESIS-STEELMAN.md` were patched; no claim status changed.
 - `E090-online-issuance-minimal-constructive-witness-2026-06-25.md` executes OnlineIssuance Goal 4. It finds a conditional local-constructive witness pattern against finite/computable sources, while admitting external Platonist completion absorbs the trace as navigation.
 - `E089-online-issuance-category-absorber-2026-06-25.md` executes OnlineIssuance Goal 3. Category theory absorbs the structure of `OnlineIssuance v0.1`; the surviving residue is constructive prefix discipline plus productive witness, not a new category-theoretic primitive.

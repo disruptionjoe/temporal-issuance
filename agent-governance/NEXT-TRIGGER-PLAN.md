@@ -3,11 +3,42 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0081
+updated_by_run: RUN-0082
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## W010 Frontier Route Lock Complete (RUN-0082) - Current Route
+
+RUN-0082 executed a bounded W010-style route lock after RUN-0081.
+
+Verdict:
+
+```yaml
+RUN_0082_complete: true
+route_lock_complete: true
+selected_sequence: dual_record_adjacent_possible_ladder
+claim_status_change: none
+machine_check_online_issuance: parked_live
+official_next_trigger: dual_record_comparator_freeze
+```
+
+Primary next trigger:
+
+```text
+W000 -> dual_record_comparator_freeze
+```
+
+Required:
+
+1. Freeze `S_n`, `O_n`, `G_n`, `K_n`, and `T_n`.
+2. Freeze the A/B/C comparator before simulation:
+   single-record, fixed-latent dual-record, and growing-adjacency dual-record.
+3. State equal-budget rules and local-minimum trap shape.
+4. State fixed-latent, annealing, restart, evolutionary-search, novelty-search, and Bayesian
+   nonparametric absorbers.
+5. Keep the strong hypothesis separate from the conservative finite formalization.
 
 ## OnlineIssuance Verdict Complete (RUN-0081) - Current Route
 

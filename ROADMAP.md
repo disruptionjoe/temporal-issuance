@@ -515,6 +515,21 @@ Open tasks (updated after RUN-0081):
 - Preserve burst mode as a tool for separable frontiers, not as a substitute for serial
   steward ownership of claim, memory, roadmap, trigger, metrics, and governance surfaces.
 
+RUN-0082 executed a W010-style route lock for Joe's requested five-goal sequence. Machine-
+checking `OnlineIssuance^LC` remains live but parked. The active route is now the dual-record
+adjacent-possible ladder because it has a fresh cross-repo placement, a clear fixed-latent
+absorber, and an executable finite fixture path.
+
+Open tasks (updated after RUN-0082):
+
+- Dual-record comparator freeze: define `S_n`, `O_n`, `G_n`, `K_n`, `T_n`, the A/B/C
+  comparator, equal-budget rules, trap shape, absorber list, and demotion conditions.
+- Executable adjacent-possible fixture in Time as Finality after the comparator is frozen.
+- Temporal Issuance effect-gate verdict after the fixture result.
+- GU observer-finality stress witness only if the fixture leaves a nontrivial opportunity-edge
+  residue.
+- Machine-check `OnlineIssuance^LC` remains a parked live route.
+
 ## Phase 0: Launch Coherence
 
 Status: complete.
