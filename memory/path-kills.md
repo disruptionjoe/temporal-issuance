@@ -306,6 +306,32 @@ claim_refs:
   - TI-C001
 ```
 
+## RUN-0072
+
+```yaml
+path: born_weights_from_scalar_RSPS_stability_redundancy_agreement_without_diagonal_readout
+reason_killed: >
+  RUN-0072 states the scoped no-go for scalar RSPS functionals built from stability,
+  redundancy, and agreement terms that do not directly read the labelled diagonal vector
+  `diag_B(rho)` and do not import the trace rule or another probability module. Such
+  functionals can select a basis/objectivity structure but cannot determine the Born weights.
+evidence: >
+  `explorations/E077-rsps-born-weight-no-go-2026-06-25.md`, building on executable witnesses
+  in E075/RUN-0070 and E076/RUN-0071.
+local_minimum_risk: >
+  Medium. This is a class no-go, not a universal no-go against trace rule, envariance,
+  Everettian decision theory, collapse dynamics, frequency modules, or explicit diagonal
+  readout.
+possible_future_resurrection_trigger: >
+  A scalar record-fidelity functional in the stated class that determines labelled Born
+  weights without retaining `diag_B(rho)`, importing trace-rule information, or smuggling in
+  a separate probability module.
+run_ref: RUN-0072
+claim_refs:
+  - TI-C020
+  - TI-C001
+```
+
 ## RUN-0046
 
 ```yaml

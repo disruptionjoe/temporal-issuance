@@ -888,3 +888,34 @@ TI-C001:
     The downstream reconstruction layer can use robust record-fidelity basis selection as
     vocabulary for accessible objectivity, while keeping source-side issuance claims separate.
 ```
+
+## RUN-0072 Claim Addenda
+
+```yaml
+TI-C020:
+  status: speculative
+  effect: born_weight_route_narrowed
+  addendum: >
+    RUN-0072 states a scoped no-go for the RSPS class: scalar stability/redundancy/agreement
+    record-fidelity functionals without diagonal-state readout can select basis/objectivity but
+    cannot derive Born weights. Any weight story must be supplied by a separate module such as
+    the trace rule, envariance, decision theory, collapse dynamics, frequency/typicality, or
+    explicit `diag_B(rho)` readout.
+  evidence_refs_added:
+    - explorations/E077-rsps-born-weight-no-go-2026-06-25.md
+    - agent-runs/RUN-0072-rsps-born-weight-no-go.md
+  next_action: >
+    Run the fixed-H absorber vs H-growing issuance fixture on the accessible traces left after
+    the RSPS narrowing.
+
+TI-C001:
+  status: weakened
+  effect: basis_finality_separated_from_probability
+  addendum: >
+    Record-finality language may describe accessible basis/objectivity selection, but the
+    probability measure over that basis is not supplied by scalar record fidelity.
+
+path_kill:
+  path: born_weights_from_scalar_RSPS_stability_redundancy_agreement_without_diagonal_readout
+  evidence_ref: memory/path-kills.md#run-0072
+```

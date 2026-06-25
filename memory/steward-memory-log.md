@@ -1674,3 +1674,26 @@ What was promoted: None.
 New blockers: Need a scoped general Born-weight no-go before fixed-H vs H-growing adjudication.
 Recommended next run: W000 -> general_RSPS_Born_weight_no_go.
 Files changed: `tools/rsps_robustness_sweep.py`, `tests/artifacts/rsps_robustness_sweep_result.json`, `explorations/E076-rsps-robustness-sweep-2026-06-25.md`, `agent-runs/RUN-0071-rsps-robustness-sweep.md`, `explorations/README.md`, `tests/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0072
+
+Timestamp: 2026-06-25
+Trigger: manual_request
+Workflow: W000 -> general_RSPS_Born_weight_no_go
+Agent / subagents used: Repo Steward.
+Current strongest version: Scalar RSPS functionals built from stability, redundancy, and
+agreement can select basis/objectivity but cannot derive Born weights unless they import
+diagonal-state or probability-module information.
+Current strongest objection: This is a scoped class no-go, not a universal no-go against trace
+rule, envariance, decision theory, collapse dynamics, frequency modules, or explicit diagonal
+readout.
+What collapsed: Born weights from scalar RSPS stability/redundancy/agreement without diagonal
+readout.
+What survived: Modest RSPS plus separate weight module.
+What was absorbed: Record/finality probability language is absorbed by standard trace-rule or
+other explicit probability modules.
+What was promoted: None.
+New blockers: Need fixed-H absorber fixture to decide whether any accessible RSPS trace
+requires H-growing/A-growing issuance.
+Recommended next run: W000 -> fixed_H_absorber_vs_H_growing_issuance_fixture.
+Files changed: `explorations/E077-rsps-born-weight-no-go-2026-06-25.md`, `agent-runs/RUN-0072-rsps-born-weight-no-go.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

@@ -444,12 +444,15 @@ selected the pointer basis in every scenario; redundancy-only selection became d
 the expected no-record cases. No claim moved. The result strengthens the fixed-H/decoherence
 absorber and justifies moving to the scoped Born-weight no-go.
 
-Open tasks (updated after RUN-0071):
+RUN-0072 completed Goal 3. The scoped no-go targets scalar stability/redundancy/agreement
+record-fidelity functionals that do not directly read `diag_B(rho)` or import a probability
+module. Verdict: basis/objectivity selection survives; Born-weight derivation fails for the
+target class. Trace rule, envariance, decision theory, collapse dynamics, frequency modules,
+and explicit diagonal readout remain separate allowed routes. No claim moved.
 
-- General RSPS Born-weight no-go (primary): attempt a structural theorem
-  that record-stability/redundancy functionals select basis/objectivity but cannot derive Born
-  weights without importing the trace rule.
-- Fixed-H absorber fixture (tertiary, after no-go attempt): compare fixed-H QM/decoherence
+Open tasks (updated after RUN-0072):
+
+- Fixed-H absorber fixture (primary): compare fixed-H QM/decoherence
   record traces against H-growing/A-growing Temporal Issuance traces.
 - Absorption or residue report (final goal): decide whether the quantum record/finality route
   is absorbed or leaves a precise residue.

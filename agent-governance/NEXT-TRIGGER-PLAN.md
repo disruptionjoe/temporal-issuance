@@ -3,11 +3,59 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0071
+updated_by_run: RUN-0072
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## RSPS Born-Weight No-Go Complete (RUN-0072) - Current Route
+
+RUN-0072 executed Goal 3 of the five-goal disproof ladder.
+
+Verdict:
+
+```yaml
+RUN_0072_complete: true
+target_class: scalar_RSPS_stability_redundancy_agreement_without_diag_readout
+basis_selection: survives
+born_weight_derivation: fails_for_target_class
+claim_status_change: none
+path_killed: born_weights_from_scalar_RSPS_stability_redundancy_agreement_without_diagonal_readout
+next_recommended_trigger: fixed_H_absorber_vs_H_growing_issuance_fixture
+```
+
+Primary next trigger:
+
+```text
+W000 -> fixed_H_absorber_vs_H_growing_issuance_fixture
+```
+
+Required:
+
+1. Define the observer-accessible RSPS trace vocabulary: selected basis, record redundancy,
+   decoherence/agreement status, accessible finality, and weights-from-trace-rule marker.
+2. Define the fixed-H null: fixed Hilbert space, fixed observable algebra, unitary/open-system
+   dynamics, decoherence, trace-rule weights, and observer record maps.
+3. Define the H-growing/A-growing issuance alternative: growing Hilbert space, observable
+   algebra, admissibility predicate, or construction space.
+4. Test whether every accessible RSPS trace is represented by the fixed-H null.
+5. If fixed-H absorbs all traces, route to Goal 5 as `ABSORBED`.
+6. If not, name the exact residue and route to Goal 5 as `RESIDUE`.
+7. Commit and push after the fixture.
+
+Success condition:
+
+```text
+the fixed-H null reproduces every observer-accessible RSPS trace
+```
+
+Failure condition:
+
+```text
+some accessible RSPS trace requires non-isomorphic H/A growth, new admissibility, or
+construction-space growth
+```
 
 ## RSPS Robustness Sweep Complete (RUN-0071) - Current Route
 

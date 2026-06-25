@@ -1650,6 +1650,30 @@ notes: >
   Born-weight no-go.
 ```
 
+```yaml
+run_id: RUN-0072
+workflow_used: W000 -> general_RSPS_Born_weight_no_go
+research_vs_governance: research
+claim_status_changed: false
+path_killed: true
+  path: born_weights_from_scalar_RSPS_stability_redundancy_agreement_without_diagonal_readout
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E077-rsps-born-weight-no-go, RUN-0072-rsps-born-weight-no-go]
+daily_review_items_added: false
+estimated_token_intensity: low
+parallel_lanes_used: false
+notes: >
+  Goal 3 completed. The scoped no-go kills Born weights from scalar RSPS
+  stability/redundancy/agreement without diagonal-state readout or a separate probability
+  module. Next trigger moves to the fixed-H absorber vs H-growing issuance fixture.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0071
+last_summarized_run: RUN-0072
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: general_RSPS_Born_weight_no_go
+next_required_test: fixed_H_absorber_vs_H_growing_issuance_fixture
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -153,6 +153,13 @@ selection became degenerate in the expected no-record cases: copy reliability 0.
 accessible fragments, record overlap 1.0, and noise flip 0.5. This weakens the "perfect GHZ
 artifact" objection but remains fixed-H/decoherence absorber evidence, not source issuance.
 Next run: general RSPS Born-weight no-go.
+
+RUN-0072 adds: Goal 3 is complete. The scoped no-go states that scalar RSPS functionals built
+from stability, redundancy, and agreement, without direct diagonal-state readout or a separate
+probability module, can select basis/objectivity but cannot derive Born weights. The overstrong
+weight route is path-killed for that class. Allowed separate modules remain trace rule,
+envariance, decision theory, collapse dynamics, frequency/typicality, and explicit
+`diag_B(rho)` readout. Next run: fixed-H absorber vs H-growing issuance fixture.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -851,17 +858,15 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0071 route (current): general RSPS Born-weight no-go.**
+**RUN-0072 route (current): fixed-H absorber vs H-growing issuance fixture.**
 
-Primary: state the class of record-fidelity functionals built from stability/predictability,
-environmental redundancy, decoherence/agreement, and no direct `diag(rho_S)` readout; then
-prove or refute that Born weights are external to that class.
+Primary: define observer-accessible RSPS traces and test whether fixed-H quantum mechanics
+with decoherence, trace-rule weights, and record maps reproduces all of them.
 
-Success condition: a scoped theorem or theorem-candidate showing that basis/objectivity
-selection and Born-weight derivation are separate modules.
+Success condition: fixed-H absorbs every accessible RSPS trace, routing Goal 5 to `ABSORBED`.
 
-Failure condition: a valid functional in the stated class determines Born weights without
-importing trace-rule or diagonal-state information.
+Failure condition: an accessible trace requires H-growing/A-growing structure, a new
+admissibility predicate, or construction-space growth; route Goal 5 to `RESIDUE`.
 
 **RUN-0060 route (preserved provenance): W010 frontier selection and next-work ranking.**
 
