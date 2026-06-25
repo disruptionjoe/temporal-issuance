@@ -20,8 +20,9 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
-- `E083-dual-record-opportunity-steelman-vote-2026-06-25.md` processes Joe's dual-record opportunity hypothesis. Five steelmans and seven personas select the adjacent-possible graph version, with a fixed-latent-graph absorber as the main threat.
+- `E085-dual-record-opportunity-cross-repo-placement-2026-06-25.md` places the dual-record opportunity hypothesis across Temporal Issuance, Time as Finality, and GU: TI owns the fixed-latent-graph vs growing-adjacency discriminator, TaF is the fixture home, and GU is only an observer-finality stress surface; no claim movement.
 - `E084-legitimacy-monad-projection-finality-2026-06-25.md` integrates the S7 legitimacy-monad steelman as an idempotent observer-record operation for `Project[O] + Finalize[R] + Lose[K]`, while explicitly blocking "legitimate record therefore `Issue[S]`" readings; no claim movement.
+- `E083-dual-record-opportunity-steelman-vote-2026-06-25.md` processes Joe's dual-record opportunity hypothesis. Five steelmans and seven personas select the adjacent-possible graph version, with a fixed-latent-graph absorber as the main threat.
 - `E082-sheafification-bridge-projection-absorber-2026-06-25.md` integrates the sheafification / associated-sheaf bridge suggestion as a precise categorical model for `Project[O] + Finalize[R] + Lose[K]`, while treating fixed site, coverage, target, and reflector data as an absorber for premature `Issue[S]` readings; no claim movement.
 - `E081-quantum-darwinism-bridge-fixed-h-absorber-2026-06-25.md` integrates the Quantum Darwinism bridge suggestion as a strong physical mechanism for `Project[O] + Finalize[R] + Lose[K]` and as a fixed-H/fixed-A absorber for premature `Issue[S]` readings; no claim movement.
 - `E080-gu-effect-typed-witness-transport-2026-06-25.md` preserves the GU / Time as Finality / Temporal Issuance bridge. It treats GU's five blockers as a hostile testbed for `SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKernel`, `AbsorberSet`, and the `Issue[S]`, `Project[O]`, `Finalize[R]`, `Lose[K]` effect discipline; no claim movement.

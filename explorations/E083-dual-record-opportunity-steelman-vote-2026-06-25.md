@@ -13,7 +13,7 @@ related:
   - explorations/E067-source-shadow-finality-interface-contract-2026-06-24.md
 ---
 
-# E080: Dual-Record Opportunity Hypothesis Steelman Vote
+# E083: Dual-Record Opportunity Hypothesis Steelman Vote
 
 ## Intake
 
