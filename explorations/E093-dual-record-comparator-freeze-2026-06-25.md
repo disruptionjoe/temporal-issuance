@@ -116,9 +116,9 @@ negative control; should get trapped at state 2.
 record regime: S_n + O_n
 graph: base graph plus declared latent edge reservoir
 latent reservoir:
-  0 -> 4
+  0 -> 5
   1 -> 5
-  3 -> 7
+  3 -> 6
 access schedule: expose one latent edge per proposal attempt if its source is
                  the current stable state
 edge growth: none
@@ -130,6 +130,15 @@ Expected role:
 ```text
 tests whether ordinary opportunity access, without the critical bridge, beats
 the single-record trap.
+```
+
+Implementation correction:
+
+```text
+RUN-0084 corrected the B0 decoy reservoir. The initial draft included 0 -> 4
+and 3 -> 7; together those created an unintended target-reaching path. The
+corrected B0 reservoir keeps decoy opportunity access while preserving the
+limited fixed-latent role.
 ```
 
 ### B1. Dual-Record Fixed-Latent Search, Exact Absorber Panel

@@ -3,11 +3,31 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0083
+updated_by_run: RUN-0084
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Dual-Record Comparator Decoy Correction Complete (RUN-0084) - Current Route
+
+RUN-0084 corrected the B0 limited fixed-latent decoy reservoir after implementation testing
+found an unintended target-reaching path in the initial E093 draft.
+
+Verdict:
+
+```yaml
+RUN_0084_complete: true
+comparator_correction_complete: true
+claim_status_change: none
+official_next_trigger: implement_dual_record_adjacent_possible_fixture
+```
+
+Primary next trigger remains:
+
+```text
+W000 -> implement_dual_record_adjacent_possible_fixture
+```
 
 ## Dual-Record Comparator Freeze Complete (RUN-0083) - Current Route
 
