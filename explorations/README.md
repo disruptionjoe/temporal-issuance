@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E089-online-issuance-category-absorber-2026-06-25.md` executes OnlineIssuance Goal 3. Category theory absorbs the structure of `OnlineIssuance v0.1`; the surviving residue is constructive prefix discipline plus productive witness, not a new category-theoretic primitive.
 - `E088-online-issuance-adaptive-computation-absorber-2026-06-25.md` executes OnlineIssuance Goal 2. It absorbs finite, computable, stochastic fixed-law, fixed-hyperprior, adaptive-search, and fixed-latent growth as source issuance; only the constructive/productive/no-hidden-oracle class survives, and only class-relatively.
 - `E087-online-issuance-formal-object-v0-1-2026-06-25.md` executes OnlineIssuance Goal 1 by defining `OnlineIssuance v0.1` with source/projection separation, properness gates, no-hidden-oracle discipline, and effect typing; no claim movement.
 - `E086-online-issuance-five-goal-formalization-sequence-2026-06-25.md` turns the outside-agent online-issuance suggestions into five ambitious sequential goals: define `OnlineIssuance v0.1`, run adaptive-computation absorbers, run category-bookkeeping absorbers, build a minimal constructive witness or clean refutation, then issue a verdict / formal-object rewrite; no claim movement.

@@ -3,11 +3,41 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0078
+updated_by_run: RUN-0079
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Category Bookkeeping Absorber Complete (RUN-0079) - Current Route
+
+RUN-0079 completed OnlineIssuance Goal 3.
+
+Verdict:
+
+```yaml
+RUN_0079_complete: true
+goal_3_complete: true
+category_bookkeeping_absorber: succeeds_on_structure
+new_category_primitive_found: false
+surviving_residue: constructive_prefix_discipline_plus_productive_witness
+claim_status_change: none
+official_next_trigger: online_issuance_minimal_constructive_witness_or_refutation
+```
+
+Primary next trigger:
+
+```text
+W000 -> online_issuance_minimal_constructive_witness_or_refutation
+```
+
+Required:
+
+1. Compare finite-type context.
+2. Compare infinite computable context.
+3. Compare fixed Platonist oracle context.
+4. State the local MLTT source context with no well-formed future oracle.
+5. Decide whether a minimal constructive witness survives or the line collapses to proof navigation.
 
 ## Adaptive Computation Absorber Complete (RUN-0078) - Current Route
 

@@ -912,3 +912,30 @@ claim_refs:
   - TI-C019
   - TI-C003
 ```
+
+## RUN-0079
+
+```yaml
+path: OnlineIssuance_v0_1_as_new_category_theoretic_structure
+reason_killed: >
+  RUN-0079 shows that the structural tuple of `OnlineIssuance v0.1` is presentable with
+  standard category-theoretic tools: context categories, displayed categories, fibrations,
+  opfibrations, presheaves/sheaves, directed colimits, proarrows/double categories, topos
+  logic, forcing/generic extensions, dynamic epistemic logic, and free cocompletion. The
+  categorical shape is not a new primitive.
+evidence: >
+  `explorations/E089-online-issuance-category-absorber-2026-06-25.md` and
+  `agent-runs/RUN-0079-online-issuance-category-absorber.md`, building on E087 and E088.
+local_minimum_risk: >
+  Medium. This does not kill the constructive/productive/no-hidden-oracle residue. It kills
+  only the claim that the residue is new category-theoretic machinery rather than a class
+  discipline on prefix-formed admissible witnesses.
+possible_future_resurrection_trigger: >
+  A categorical invariant or theorem produced by the online discipline that cannot be
+  represented by context categories, fibrations, presheaves/sheaves, colimits, forcing,
+  internal logic, or completion machinery without using a completed future schema.
+run_ref: RUN-0079
+claim_refs:
+  - TI-C019
+  - TI-C003
+```

@@ -479,10 +479,12 @@ RUN-0078 completed OnlineIssuance Goal 2. Fixed-law computation, fixed stochasti
 fixed hyperpriors, adaptive search, and fixed latent graphs absorb apparent source growth. The
 surviving class is constructive/productive and no-hidden-oracle only. No claim moved.
 
-Open tasks (updated after RUN-0078):
+RUN-0079 completed OnlineIssuance Goal 3. Category theory absorbs the structure of
+`OnlineIssuance v0.1`; the survivor is constructive prefix discipline plus productive
+admissible witness, not a new category primitive. No claim moved.
 
-- OnlineIssuance Goal 3: run the category-theory bookkeeping absorber gauntlet against the
-  E087/E088 narrowed object.
+Open tasks (updated after RUN-0079):
+
 - OnlineIssuance Goal 4: build the minimal constructive witness or clean refutation.
 - OnlineIssuance Goal 5: issue the verdict and patch `FORMAL-OBJECT.md` only if earned.
 - W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.

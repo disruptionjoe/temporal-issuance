@@ -1121,3 +1121,35 @@ path_kill:
   path: finite_computable_fixed_law_or_fixed_latent_growth_as_source_issuance
   evidence_ref: memory/path-kills.md#run-0078
 ```
+
+## RUN-0079 Claim Addenda
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: category_absorber_narrows_online_issuance
+  addendum: >
+    RUN-0079 shows that category theory absorbs the structure of `OnlineIssuance v0.1`:
+    context categories, fibrations, opfibrations, presheaves/sheaves, colimits, proarrows,
+    topos logic, forcing, and free cocompletion can present the tuple and its projection
+    machinery. The surviving residue is not a new category primitive. It is constructive
+    prefix-formation discipline plus productive admissible witness under no-hidden-oracle
+    constraints.
+  evidence_refs_added:
+    - explorations/E089-online-issuance-category-absorber-2026-06-25.md
+    - agent-runs/RUN-0079-online-issuance-category-absorber.md
+  next_action: >
+    Build the minimal constructive witness or clean refutation.
+
+TI-C003:
+  status: formal_object_under_revision_pressure
+  effect: new_category_primitive_route_killed
+  addendum: >
+    The formal object should not be advertised as new category-theoretic machinery. If it
+    survives, it survives as a constructive/proof-theoretic class discipline around
+    admissible witness formation, not as context/gluing/colimit novelty.
+
+path_kill:
+  path: OnlineIssuance_v0_1_as_new_category_theoretic_structure
+  evidence_ref: memory/path-kills.md#run-0079
+```

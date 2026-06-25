@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0078
+last_summarized_run: RUN-0079
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: online_issuance_category_bookkeeping_absorber
+next_required_test: online_issuance_minimal_constructive_witness_or_refutation
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -198,6 +198,13 @@ surviving online-issuance class is only constructive/productive/no-hidden-oracle
 fixed-law computation only class-relatively. External Platonist oracle navigation remains an
 absorber class. No claim status changes. Next trigger:
 `online_issuance_category_bookkeeping_absorber`.
+
+RUN-0079 adds: category theory absorbs the structure of `OnlineIssuance v0.1`. Context
+categories, fibrations, presheaves/sheaves, colimits, topos logic, forcing, and completion
+machinery can present the tuple and its projections. The survivor is constructive
+prefix-formation discipline plus productive admissible witness, not a new category primitive.
+No claim status changes. Next trigger:
+`online_issuance_minimal_constructive_witness_or_refutation`.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -896,17 +903,15 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0078 route (current): online_issuance_category_bookkeeping_absorber.**
+**RUN-0079 route (current): online_issuance_minimal_constructive_witness_or_refutation.**
 
-Primary: try to absorb the E087/E088 narrowed object into context categories, displayed
-categories, fibrations/opfibrations, presheaves/sheaves, colimits, topos logic, forcing,
-dynamic epistemic logic, and free cocompletion.
+Primary: compare finite-type, infinite computable, fixed Platonist oracle, and local MLTT
+source contexts. Decide whether the constructive/productive/no-hidden-oracle residue yields a
+minimal witness or collapses to ordinary proof navigation.
 
-Preserve: no claim promotion until the category absorber and constructive witness/refutation
-run.
+Preserve: no claim promotion until the constructive witness/refutation and final verdict run.
 
-Follow-on sequence: minimal constructive witness or clean refutation, then verdict /
-formal-object rewrite.
+Follow-on sequence: verdict / formal-object rewrite.
 
 **RUN-0074 route (preserved provenance): W010 frontier selection and next-work ranking.**
 
