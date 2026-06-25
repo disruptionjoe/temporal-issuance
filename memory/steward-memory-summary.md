@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0079
+last_summarized_run: RUN-0080
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: online_issuance_minimal_constructive_witness_or_refutation
+next_required_test: online_issuance_verdict_and_formal_object_rewrite
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -205,6 +205,13 @@ machinery can present the tuple and its projections. The survivor is constructiv
 prefix-formation discipline plus productive admissible witness, not a new category primitive.
 No claim status changes. Next trigger:
 `online_issuance_minimal_constructive_witness_or_refutation`.
+
+RUN-0080 adds: the minimal constructive witness is conditional but live. Finite-type and
+infinite-computable contexts fail as source issuance. Fixed Platonist completion absorbs the
+trace externally but fails as an internal witness. The survivor is local constructive context +
+self-encoding admissibility + diagonal/productive successor + no internally formed future
+oracle. No claim status changes. Next trigger:
+`online_issuance_verdict_and_formal_object_rewrite`.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -903,15 +910,15 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0079 route (current): online_issuance_minimal_constructive_witness_or_refutation.**
+**RUN-0080 route (current): online_issuance_verdict_and_formal_object_rewrite.**
 
-Primary: compare finite-type, infinite computable, fixed Platonist oracle, and local MLTT
-source contexts. Decide whether the constructive/productive/no-hidden-oracle residue yields a
-minimal witness or collapses to ordinary proof navigation.
+Primary: integrate E087 through E090, decide the verdict, and patch `FORMAL-OBJECT.md` only if
+the class-relative formal residue is earned.
 
-Preserve: no claim promotion until the constructive witness/refutation and final verdict run.
+Preserve: physical source issuance remains unresolved; external Platonist completion remains an
+absorber; no new category primitive was found.
 
-Follow-on sequence: verdict / formal-object rewrite.
+Follow-on sequence: return to W010 frontier ranking after the verdict unless Joe redirects.
 
 **RUN-0074 route (preserved provenance): W010 frontier selection and next-work ranking.**
 

@@ -483,9 +483,12 @@ RUN-0079 completed OnlineIssuance Goal 3. Category theory absorbs the structure 
 `OnlineIssuance v0.1`; the survivor is constructive prefix discipline plus productive
 admissible witness, not a new category primitive. No claim moved.
 
-Open tasks (updated after RUN-0079):
+RUN-0080 completed OnlineIssuance Goal 4. A conditional minimal witness survives in the local
+MLTT/no-hidden-oracle class; finite and computable classes fail, and external Platonist
+completion absorbs the trace as navigation. No claim moved.
 
-- OnlineIssuance Goal 4: build the minimal constructive witness or clean refutation.
+Open tasks (updated after RUN-0080):
+
 - OnlineIssuance Goal 5: issue the verdict and patch `FORMAL-OBJECT.md` only if earned.
 - W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.
 - Optional dual-record adjacent-possible fixture: compare single-record search, fixed-latent

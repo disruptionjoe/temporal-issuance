@@ -1153,3 +1153,35 @@ path_kill:
   path: OnlineIssuance_v0_1_as_new_category_theoretic_structure
   evidence_ref: memory/path-kills.md#run-0079
 ```
+
+## RUN-0080 Claim Addenda
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: minimal_constructive_witness_class_stated
+  addendum: >
+    RUN-0080 compares finite-type, infinite computable, fixed Platonist oracle, and local MLTT
+    source contexts. The finite and computable classes fail as source issuance. The fixed
+    Platonist oracle absorbs the trace externally but violates the internal no-hidden-oracle
+    gate. The surviving witness is conditional and class-relative: local constructive context,
+    self-encoding admissibility, diagonal/productive successor, and no internally formed future
+    oracle.
+  evidence_refs_added:
+    - explorations/E090-online-issuance-minimal-constructive-witness-2026-06-25.md
+    - agent-runs/RUN-0080-online-issuance-minimal-constructive-witness.md
+  next_action: >
+    Run the verdict and formal-object rewrite pass.
+
+TI-C003:
+  status: formal_object_under_revision_pressure
+  effect: witness_available_but_conditional
+  addendum: >
+    The candidate object now has a minimal constructive witness pattern, but it is not
+    machine-checked and remains absorbed by external Platonist completion. Any rewrite must
+    present the object as class-relative, not metaphysically absolute.
+
+path_kill:
+  path: fixed_platonist_completion_as_internal_online_issuance_witness
+  evidence_ref: memory/path-kills.md#run-0080
+```

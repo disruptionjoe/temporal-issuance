@@ -3,11 +3,41 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0079
+updated_by_run: RUN-0080
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Minimal Constructive Witness Complete (RUN-0080) - Current Route
+
+RUN-0080 completed OnlineIssuance Goal 4.
+
+Verdict:
+
+```yaml
+RUN_0080_complete: true
+goal_4_complete: true
+minimal_witness: conditional_survives
+survival_class: local_constructive_no_hidden_oracle
+external_platonist_completion_absorbs: true
+claim_status_change: none
+official_next_trigger: online_issuance_verdict_and_formal_object_rewrite
+```
+
+Primary next trigger:
+
+```text
+W000 -> online_issuance_verdict_and_formal_object_rewrite
+```
+
+Required:
+
+1. Integrate E087 through E090.
+2. Decide the final verdict class.
+3. Patch `FORMAL-OBJECT.md` only if the result is earned.
+4. Update roadmap, memory, next-trigger plan, metrics, and claim ledger.
+5. Commit and push.
 
 ## Category Bookkeeping Absorber Complete (RUN-0079) - Current Route
 

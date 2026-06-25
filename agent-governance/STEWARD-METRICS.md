@@ -1837,6 +1837,29 @@ notes: >
   prefix discipline plus productive admissible witness, not a new category primitive.
 ```
 
+```yaml
+run_id: RUN-0080
+workflow_used: W000 -> online_issuance_minimal_constructive_witness_or_refutation
+research_vs_governance: research_witness
+claim_status_changed: false
+path_killed: true
+  path: fixed_platonist_completion_as_internal_online_issuance_witness
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E090-online-issuance-minimal-constructive-witness, RUN-0080-online-issuance-minimal-constructive-witness]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Goal 4 completed. A conditional local-constructive witness survives against finite and
+  computable absorbers, but external Platonist completion still absorbs the trace as navigation.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

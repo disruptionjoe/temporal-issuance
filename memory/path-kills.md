@@ -939,3 +939,29 @@ claim_refs:
   - TI-C019
   - TI-C003
 ```
+
+## RUN-0080
+
+```yaml
+path: fixed_platonist_completion_as_internal_online_issuance_witness
+reason_killed: >
+  RUN-0080 shows that a fixed Platonist completion can represent the whole OnlineIssuance
+  trace only as an external absorber. It violates the internal no-hidden-completed-oracle gate
+  when treated as a formed source object available at the prior prefix. It is therefore
+  navigation through a completed object, not an internal online source witness.
+evidence: >
+  `explorations/E090-online-issuance-minimal-constructive-witness-2026-06-25.md` and
+  `agent-runs/RUN-0080-online-issuance-minimal-constructive-witness.md`, building on E055,
+  E087, E088, and E089.
+local_minimum_risk: >
+  Medium. This does not refute external Platonist metaphysics. It only prevents the repo from
+  counting a completed future object as an internal source-side issuance witness.
+possible_future_resurrection_trigger: >
+  A formal account in which a total future completion is well-formed inside the current prefix
+  without collapsing the prefix/future distinction, violating no-hidden-oracle discipline, or
+  making all later source issuance mere access to the completion.
+run_ref: RUN-0080
+claim_refs:
+  - TI-C019
+  - TI-C003
+```

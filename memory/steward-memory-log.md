@@ -1841,3 +1841,22 @@ What was promoted: None.
 New blockers: Need a minimal constructive witness or clean refutation.
 Recommended next run: W000 -> online_issuance_minimal_constructive_witness_or_refutation.
 Files changed: `explorations/E089-online-issuance-category-absorber-2026-06-25.md`, `agent-runs/RUN-0079-online-issuance-category-absorber.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0080
+
+Timestamp: 2026-06-25
+Trigger: manual_request
+Workflow: W000 -> online_issuance_minimal_constructive_witness_or_refutation
+Agent / subagents used: Repo Steward.
+Current strongest version: Local constructive context with self-encoding admissibility,
+diagonal/productive successor, and no internally formed future oracle.
+Current strongest objection: External Platonist completion represents the trace as navigation.
+What collapsed: Finite-type and infinite computable contexts as source issuance; fixed
+Platonist completion as internal online issuance witness.
+What survived: Conditional local-constructive witness pattern.
+What was absorbed: The witness is absorbed as external navigation if completed future objects
+are admitted.
+What was promoted: None.
+New blockers: Need final verdict and formal-object rewrite pass.
+Recommended next run: W000 -> online_issuance_verdict_and_formal_object_rewrite.
+Files changed: `explorations/E090-online-issuance-minimal-constructive-witness-2026-06-25.md`, `agent-runs/RUN-0080-online-issuance-minimal-constructive-witness.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

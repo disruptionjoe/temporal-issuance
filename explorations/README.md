@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E090-online-issuance-minimal-constructive-witness-2026-06-25.md` executes OnlineIssuance Goal 4. It finds a conditional local-constructive witness pattern against finite/computable sources, while admitting external Platonist completion absorbs the trace as navigation.
 - `E089-online-issuance-category-absorber-2026-06-25.md` executes OnlineIssuance Goal 3. Category theory absorbs the structure of `OnlineIssuance v0.1`; the surviving residue is constructive prefix discipline plus productive witness, not a new category-theoretic primitive.
 - `E088-online-issuance-adaptive-computation-absorber-2026-06-25.md` executes OnlineIssuance Goal 2. It absorbs finite, computable, stochastic fixed-law, fixed-hyperprior, adaptive-search, and fixed-latent growth as source issuance; only the constructive/productive/no-hidden-oracle class survives, and only class-relatively.
 - `E087-online-issuance-formal-object-v0-1-2026-06-25.md` executes OnlineIssuance Goal 1 by defining `OnlineIssuance v0.1` with source/projection separation, properness gates, no-hidden-oracle discipline, and effect typing; no claim movement.
