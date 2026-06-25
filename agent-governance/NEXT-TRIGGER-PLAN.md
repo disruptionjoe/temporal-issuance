@@ -3,11 +3,39 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0076
+updated_by_run: RUN-0077
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## OnlineIssuance v0.1 Complete (RUN-0077) - Current Route
+
+RUN-0077 completed Goal 1 by defining `OnlineIssuance v0.1`.
+
+Verdict:
+
+```yaml
+RUN_0077_complete: true
+goal_1_complete: true
+claim_status_change: none
+current_object: OnlineIssuance_v0_1
+official_next_trigger: online_issuance_adaptive_computation_absorber
+```
+
+Primary next trigger:
+
+```text
+W000 -> online_issuance_adaptive_computation_absorber
+```
+
+Required:
+
+1. Test finite/countable transition systems.
+2. Test Turing machines with expanding tape.
+3. Test interactive computation.
+4. Test oracle computation and fixed stochastic laws.
+5. Test Bayesian nonparametric, adaptive-control, evolutionary-search, and fixed-latent-graph absorbers.
 
 ## Online Issuance Five-Goal Sequence Complete (RUN-0076) - Current Route
 

@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0076
+last_summarized_run: RUN-0077
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: online_issuance_formal_object_v0_1
+next_required_test: online_issuance_adaptive_computation_absorber
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -185,6 +185,12 @@ sequence: define `OnlineIssuance v0.1`, run adaptive-computation absorbers, run
 category-bookkeeping absorbers, build a minimal constructive witness or clean refutation, then
 issue a verdict / formal-object rewrite. The next trigger is
 `online_issuance_formal_object_v0_1`. No claim status changes.
+
+RUN-0077 adds: `OnlineIssuance v0.1` is now defined. A proper source issuance step requires a
+formed present domain, witnessed extension, prior-context unavailability, no hidden completed
+oracle, and recordability. Observer projection, gluing, finality, legitimacy, and record
+stabilization remain downstream effects. No claim status changes. Next trigger:
+`online_issuance_adaptive_computation_absorber`.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -883,17 +889,17 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0076 route (current): online_issuance_formal_object_v0_1.**
+**RUN-0077 route (current): online_issuance_adaptive_computation_absorber.**
 
-Primary: write the smallest precise `OnlineIssuance v0.1` definition with source/projection
-separation, no-hidden-oracle discipline, and properness conditions.
+Primary: try to absorb `OnlineIssuance v0.1` into finite/countable transition systems,
+Turing computation, interactive computation, oracle computation, stochastic fixed-law models,
+Bayesian nonparametric generation, adaptive control/evolutionary search, and fixed latent
+graphs with access schedules.
 
-Preserve: observer records, finality, legitimacy, Quantum Darwinism, GU, and Orch-OR remain
-projection or physical-bridge material until the source object survives the formal absorber
-gauntlets.
+Preserve: no claim promotion until the computation and category absorber gauntlets run.
 
-Follow-on sequence: adaptive-computation absorber, category-bookkeeping absorber, minimal
-constructive witness or clean refutation, then verdict / formal-object rewrite.
+Follow-on sequence: category-bookkeeping absorber, minimal constructive witness or clean
+refutation, then verdict / formal-object rewrite.
 
 **RUN-0074 route (preserved provenance): W010 frontier selection and next-work ranking.**
 

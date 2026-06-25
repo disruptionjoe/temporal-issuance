@@ -1768,6 +1768,28 @@ notes: >
   constructive witness/refutation, and verdict/formal-object rewrite. No claim movement.
 ```
 
+```yaml
+run_id: RUN-0077
+workflow_used: W000 -> online_issuance_formal_object_v0_1
+research_vs_governance: research_formalization
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E087-online-issuance-formal-object-v0-1, RUN-0077-online-issuance-formal-object-v0-1]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Goal 1 completed. OnlineIssuance v0.1 is precise enough for absorber pressure:
+  source/projection layers, effect typing, properness gates, and no-hidden-oracle discipline.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

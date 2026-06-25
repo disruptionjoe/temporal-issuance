@@ -471,14 +471,16 @@ formalization sequence. The route aims to define `OnlineIssuance v0.1`, then try
 into adaptive computation and category-theoretic bookkeeping before attempting a minimal
 constructive witness or clean refutation. No claim moved.
 
-Open tasks (updated after RUN-0076):
+RUN-0077 completed OnlineIssuance Goal 1. `OnlineIssuance v0.1` is now stated with source and
+projection layers, properness gates, no-hidden-oracle discipline, and effect typing. No claim
+moved.
 
-- OnlineIssuance Goal 1: write `OnlineIssuance v0.1` with source/projection separation,
-  no-hidden-oracle discipline, and precise properness conditions.
-- OnlineIssuance Goal 2: run the adaptive-computation absorber gauntlet against the Goal 1
+Open tasks (updated after RUN-0077):
+
+- OnlineIssuance Goal 2: run the adaptive-computation absorber gauntlet against the E087
   object.
 - OnlineIssuance Goal 3: run the category-theory bookkeeping absorber gauntlet against the
-  Goal 1 object.
+  E087 object.
 - OnlineIssuance Goal 4: build the minimal constructive witness or clean refutation.
 - OnlineIssuance Goal 5: issue the verdict and patch `FORMAL-OBJECT.md` only if earned.
 - W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.

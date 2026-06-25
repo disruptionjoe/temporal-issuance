@@ -1063,3 +1063,30 @@ TI-C003:
     Goal 5 after the formal object, computation absorber, category absorber, and constructive
     witness/refutation goals complete.
 ```
+
+## RUN-0077 Claim Addenda
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: online_issuance_v0_1_defined
+  addendum: >
+    RUN-0077 defines `OnlineIssuance v0.1` as prefix-presented constructive contexts,
+    formed admissibility predicates, witness-bearing extension categories, source issuance
+    steps, observer projections, and downstream gluing. A proper source step requires formed
+    present domain, witnessed extension, prior-context unavailability, no hidden completed
+    oracle, and recordability. No claim promotion is earned until the absorber gauntlets run.
+  evidence_refs_added:
+    - explorations/E087-online-issuance-formal-object-v0-1-2026-06-25.md
+    - agent-runs/RUN-0077-online-issuance-formal-object-v0-1.md
+  next_action: >
+    Run the adaptive-computation absorber gauntlet against `OnlineIssuance v0.1`.
+
+TI-C003:
+  status: formal_object_under_revision_pressure
+  effect: candidate_object_stated_but_not_integrated
+  addendum: >
+    `OnlineIssuance v0.1` is now the active candidate object under pressure, but
+    `FORMAL-OBJECT.md` remains unchanged until Goal 5 decides whether the object survives
+    absorption or should be demoted.
+```
