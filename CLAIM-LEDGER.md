@@ -1090,3 +1090,34 @@ TI-C003:
     `FORMAL-OBJECT.md` remains unchanged until Goal 5 decides whether the object survives
     absorption or should be demoted.
 ```
+
+## RUN-0078 Claim Addenda
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: adaptive_computation_absorber_narrows_online_issuance
+  addendum: >
+    RUN-0078 shows that finite, computable, stochastic fixed-law, fixed-hyperprior,
+    adaptive-search, and fixed-latent growth are absorbed as computation/access/projection
+    rather than source issuance. `OnlineIssuance v0.1` survives only class-relatively as a
+    constructive/productive source extension where the oracle needed to precontain future
+    admissible witnesses is not well-formed inside the prior source context.
+  evidence_refs_added:
+    - explorations/E088-online-issuance-adaptive-computation-absorber-2026-06-25.md
+    - agent-runs/RUN-0078-online-issuance-adaptive-computation-absorber.md
+  next_action: >
+    Run the category-theory bookkeeping absorber against the narrowed object.
+
+TI-C003:
+  status: formal_object_under_revision_pressure
+  effect: computation_absorbers_recorded
+  addendum: >
+    The formal object is narrowed by excluding fixed-law computation, fixed latent graph
+    disclosure, and stochastic/adaptive search as source issuance. External Platonist oracle
+    navigation remains an absorber class for Goal 5.
+
+path_kill:
+  path: finite_computable_fixed_law_or_fixed_latent_growth_as_source_issuance
+  evidence_ref: memory/path-kills.md#run-0078
+```

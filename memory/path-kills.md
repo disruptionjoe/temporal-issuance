@@ -882,3 +882,33 @@ run_ref: RUN-0059
 claim_refs:
   - TI-C019
 ```
+
+## RUN-0078
+
+```yaml
+path: finite_computable_fixed_law_or_fixed_latent_growth_as_source_issuance
+reason_killed: >
+  RUN-0078 shows that finite option pools, computable grammars, fixed transition graphs,
+  fixed stochastic laws, fixed Bayesian nonparametric hyperpriors, adaptive search, and fixed
+  latent graphs can all produce apparent novelty, observer surprise, opportunity growth, and
+  record expansion without source-side issuance. These are fixed richer source plus
+  computation/access/projection models.
+evidence: >
+  `explorations/E088-online-issuance-adaptive-computation-absorber-2026-06-25.md` and
+  `agent-runs/RUN-0078-online-issuance-adaptive-computation-absorber.md`, building on
+  `explorations/E087-online-issuance-formal-object-v0-1-2026-06-25.md`.
+local_minimum_risk: >
+  Medium. This does not kill constructive/productive source issuance under the no-hidden-oracle
+  discipline, and it does not defeat an external Platonist oracle model. It kills only the
+  shortcut from ordinary adaptive computation or fixed latent opportunity disclosure to source
+  issuance.
+possible_future_resurrection_trigger: >
+  A model where the admissible action/extension space itself changes in a way not represented
+  by any fixed computable generator, fixed stochastic law, fixed hyperprior, fixed latent graph,
+  fixed input protocol, or internally formed oracle over future contexts, while preserving
+  source records and morphisms.
+run_ref: RUN-0078
+claim_refs:
+  - TI-C019
+  - TI-C003
+```

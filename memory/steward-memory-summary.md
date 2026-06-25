@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0077
+last_summarized_run: RUN-0078
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: online_issuance_adaptive_computation_absorber
+next_required_test: online_issuance_category_bookkeeping_absorber
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -191,6 +191,13 @@ formed present domain, witnessed extension, prior-context unavailability, no hid
 oracle, and recordability. Observer projection, gluing, finality, legitimacy, and record
 stabilization remain downstream effects. No claim status changes. Next trigger:
 `online_issuance_adaptive_computation_absorber`.
+
+RUN-0078 adds: adaptive-computation absorbers kill finite, computable, fixed stochastic law,
+fixed hyperprior, adaptive-search, and fixed latent graph growth as source issuance. The
+surviving online-issuance class is only constructive/productive/no-hidden-oracle, and survives
+fixed-law computation only class-relatively. External Platonist oracle navigation remains an
+absorber class. No claim status changes. Next trigger:
+`online_issuance_category_bookkeeping_absorber`.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -889,17 +896,17 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0077 route (current): online_issuance_adaptive_computation_absorber.**
+**RUN-0078 route (current): online_issuance_category_bookkeeping_absorber.**
 
-Primary: try to absorb `OnlineIssuance v0.1` into finite/countable transition systems,
-Turing computation, interactive computation, oracle computation, stochastic fixed-law models,
-Bayesian nonparametric generation, adaptive control/evolutionary search, and fixed latent
-graphs with access schedules.
+Primary: try to absorb the E087/E088 narrowed object into context categories, displayed
+categories, fibrations/opfibrations, presheaves/sheaves, colimits, topos logic, forcing,
+dynamic epistemic logic, and free cocompletion.
 
-Preserve: no claim promotion until the computation and category absorber gauntlets run.
+Preserve: no claim promotion until the category absorber and constructive witness/refutation
+run.
 
-Follow-on sequence: category-bookkeeping absorber, minimal constructive witness or clean
-refutation, then verdict / formal-object rewrite.
+Follow-on sequence: minimal constructive witness or clean refutation, then verdict /
+formal-object rewrite.
 
 **RUN-0074 route (preserved provenance): W010 frontier selection and next-work ranking.**
 

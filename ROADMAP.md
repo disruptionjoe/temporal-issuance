@@ -475,12 +475,14 @@ RUN-0077 completed OnlineIssuance Goal 1. `OnlineIssuance v0.1` is now stated wi
 projection layers, properness gates, no-hidden-oracle discipline, and effect typing. No claim
 moved.
 
-Open tasks (updated after RUN-0077):
+RUN-0078 completed OnlineIssuance Goal 2. Fixed-law computation, fixed stochastic processes,
+fixed hyperpriors, adaptive search, and fixed latent graphs absorb apparent source growth. The
+surviving class is constructive/productive and no-hidden-oracle only. No claim moved.
 
-- OnlineIssuance Goal 2: run the adaptive-computation absorber gauntlet against the E087
-  object.
+Open tasks (updated after RUN-0078):
+
 - OnlineIssuance Goal 3: run the category-theory bookkeeping absorber gauntlet against the
-  E087 object.
+  E087/E088 narrowed object.
 - OnlineIssuance Goal 4: build the minimal constructive witness or clean refutation.
 - OnlineIssuance Goal 5: issue the verdict and patch `FORMAL-OBJECT.md` only if earned.
 - W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.

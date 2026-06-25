@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E088-online-issuance-adaptive-computation-absorber-2026-06-25.md` executes OnlineIssuance Goal 2. It absorbs finite, computable, stochastic fixed-law, fixed-hyperprior, adaptive-search, and fixed-latent growth as source issuance; only the constructive/productive/no-hidden-oracle class survives, and only class-relatively.
 - `E087-online-issuance-formal-object-v0-1-2026-06-25.md` executes OnlineIssuance Goal 1 by defining `OnlineIssuance v0.1` with source/projection separation, properness gates, no-hidden-oracle discipline, and effect typing; no claim movement.
 - `E086-online-issuance-five-goal-formalization-sequence-2026-06-25.md` turns the outside-agent online-issuance suggestions into five ambitious sequential goals: define `OnlineIssuance v0.1`, run adaptive-computation absorbers, run category-bookkeeping absorbers, build a minimal constructive witness or clean refutation, then issue a verdict / formal-object rewrite; no claim movement.
 - `E085-dual-record-opportunity-cross-repo-placement-2026-06-25.md` places the dual-record opportunity hypothesis across Temporal Issuance, Time as Finality, and GU: TI owns the fixed-latent-graph vs growing-adjacency discriminator, TaF is the fixture home, and GU is only an observer-finality stress surface; no claim movement.

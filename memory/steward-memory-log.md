@@ -1802,3 +1802,22 @@ What was promoted: None.
 New blockers: Need adaptive-computation absorber gauntlet.
 Recommended next run: W000 -> online_issuance_adaptive_computation_absorber.
 Files changed: `explorations/E087-online-issuance-formal-object-v0-1-2026-06-25.md`, `agent-runs/RUN-0077-online-issuance-formal-object-v0-1.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0078
+
+Timestamp: 2026-06-25
+Trigger: manual_request
+Workflow: W000 -> online_issuance_adaptive_computation_absorber
+Agent / subagents used: Repo Steward.
+Current strongest version: Constructive/productive source extension under no-hidden-oracle
+discipline.
+Current strongest objection: External Platonist oracle/completed-source navigation can still
+represent the whole trace outside the source discipline.
+What collapsed: Finite, computable, stochastic fixed-law, fixed-hyperprior, adaptive-search,
+and fixed-latent growth as source issuance.
+What survived: The E055-style self-encoding / diagonal productive / no-hidden-oracle class.
+What was absorbed: Ordinary fixed-law adaptive computation variants.
+What was promoted: None.
+New blockers: Need category-theory bookkeeping absorber.
+Recommended next run: W000 -> online_issuance_category_bookkeeping_absorber.
+Files changed: `explorations/E088-online-issuance-adaptive-computation-absorber-2026-06-25.md`, `agent-runs/RUN-0078-online-issuance-adaptive-computation-absorber.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/path-kills.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

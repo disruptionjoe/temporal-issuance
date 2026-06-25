@@ -1790,6 +1790,30 @@ notes: >
   source/projection layers, effect typing, properness gates, and no-hidden-oracle discipline.
 ```
 
+```yaml
+run_id: RUN-0078
+workflow_used: W000 -> online_issuance_adaptive_computation_absorber
+research_vs_governance: research_absorber
+claim_status_changed: false
+path_killed: true
+  path: finite_computable_fixed_law_or_fixed_latent_growth_as_source_issuance
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E088-online-issuance-adaptive-computation-absorber, RUN-0078-online-issuance-adaptive-computation-absorber]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Goal 2 completed. Fixed-law adaptive computation absorbs finite, computable, stochastic,
+  hyperprior, adaptive-search, and fixed-latent growth as source issuance. Only the
+  constructive/productive/no-hidden-oracle class survives, and only class-relatively.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

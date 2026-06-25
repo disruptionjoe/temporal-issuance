@@ -3,11 +3,45 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0077
+updated_by_run: RUN-0078
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Adaptive Computation Absorber Complete (RUN-0078) - Current Route
+
+RUN-0078 completed OnlineIssuance Goal 2.
+
+Verdict:
+
+```yaml
+RUN_0078_complete: true
+goal_2_complete: true
+adaptive_computation_absorber: partially_defeated_class_relatively
+absorbed_paths:
+  - finite_or_computable_growth_as_source_issuance
+  - fixed_law_stochastic_growth_as_source_issuance
+  - fixed_hyperprior_class_growth_as_source_issuance
+  - adaptive_search_growth_as_source_issuance
+  - fixed_latent_graph_disclosure_as_source_issuance
+claim_status_change: none
+official_next_trigger: online_issuance_category_bookkeeping_absorber
+```
+
+Primary next trigger:
+
+```text
+W000 -> online_issuance_category_bookkeeping_absorber
+```
+
+Required:
+
+1. Test category of contexts.
+2. Test displayed categories, fibrations, and opfibrations.
+3. Test presheaf/sheaf and colimit presentations.
+4. Test topos, forcing, dynamic epistemic logic, and free-cocompletion presentations.
+5. Decide whether any residue remains beyond ordinary category bookkeeping plus no-hidden-oracle class discipline.
 
 ## OnlineIssuance v0.1 Complete (RUN-0077) - Current Route
 
