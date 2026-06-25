@@ -1745,6 +1745,29 @@ notes: >
   claim movement; optional fixture route added while W010 remains official next trigger.
 ```
 
+```yaml
+run_id: RUN-0076
+workflow_used: W000 -> online_issuance_five_goal_sequence
+research_vs_governance: research_planning
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E086-online-issuance-five-goal-formalization-sequence, RUN-0076-online-issuance-five-goal-sequence]
+daily_review_items_added: false
+estimated_token_intensity: low
+parallel_lanes_used: false
+notes: >
+  Outside-agent online-issuance suggestions were converted into a five-goal sequence:
+  formal object, adaptive-computation absorber, category-bookkeeping absorber, minimal
+  constructive witness/refutation, and verdict/formal-object rewrite. No claim movement.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

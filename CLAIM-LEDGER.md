@@ -1027,3 +1027,39 @@ TI-C019:
     RUN-0075 adds a possible fixture route but does not disturb the formal `Compat_G^MLTT`
     source witness.
 ```
+
+## RUN-0076 Claim Addenda
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: online_issuance_goal_sequence_added
+  addendum: >
+    RUN-0076 turns the outside-agent online-issuance suggestions into a five-goal formalization
+    sequence. The next target is `OnlineIssuance v0.1`: prefix-presented constructive source
+    contexts, formed admissibility predicates, admissible extension witnesses, no-hidden-oracle
+    discipline, and observer projection/finality kept downstream. This is a planning and
+    routing update only; it does not promote the source-side claim.
+  evidence_refs_added:
+    - explorations/E086-online-issuance-five-goal-formalization-sequence-2026-06-25.md
+    - agent-runs/RUN-0076-online-issuance-five-goal-sequence.md
+  next_action: >
+    Run `online_issuance_formal_object_v0_1`, then pressure the resulting object against
+    adaptive computation and category-theoretic bookkeeping absorbers.
+
+TI-C020:
+  status: speculative
+  effect: unchanged
+  addendum: >
+    RUN-0076 keeps physical source issuance parked. The online-issuance sequence is formal
+    first; it must not import Orch-OR, GU, Quantum Darwinism, or physical substrate claims
+    before the source object survives the formal absorber gauntlets.
+
+TI-C003:
+  status: formal_object_under_revision_pressure
+  effect: possible_future_rewrite_scoped
+  addendum: >
+    `FORMAL-OBJECT.md` should not be rewritten during the planning run. A rewrite is gated on
+    Goal 5 after the formal object, computation absorber, category absorber, and constructive
+    witness/refutation goals complete.
+```

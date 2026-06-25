@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0075
+last_summarized_run: RUN-0076
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: W010_frontier_selection_and_next_work_ranking
+next_required_test: online_issuance_formal_object_v0_1
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -179,6 +179,12 @@ Best version: one record regime stabilizes selected outcomes while another maint
 the graph of future admissible moves. Main absorber: fixed latent graph plus access schedule,
 plus ordinary annealing/evolutionary/Bayesian nonparametric search. No claim status changes.
 W010 remains official next trigger; optional direct route is `dual_record_adjacent_possible_fixture`.
+
+RUN-0076 adds: outside-agent online-issuance suggestions were converted into a five-goal
+sequence: define `OnlineIssuance v0.1`, run adaptive-computation absorbers, run
+category-bookkeeping absorbers, build a minimal constructive witness or clean refutation, then
+issue a verdict / formal-object rewrite. The next trigger is
+`online_issuance_formal_object_v0_1`. No claim status changes.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
@@ -877,7 +883,19 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0074 route (current): W010 frontier selection and next-work ranking.**
+**RUN-0076 route (current): online_issuance_formal_object_v0_1.**
+
+Primary: write the smallest precise `OnlineIssuance v0.1` definition with source/projection
+separation, no-hidden-oracle discipline, and properness conditions.
+
+Preserve: observer records, finality, legitimacy, Quantum Darwinism, GU, and Orch-OR remain
+projection or physical-bridge material until the source object survives the formal absorber
+gauntlets.
+
+Follow-on sequence: adaptive-computation absorber, category-bookkeeping absorber, minimal
+constructive witness or clean refutation, then verdict / formal-object rewrite.
+
+**RUN-0074 route (preserved provenance): W010 frontier selection and next-work ranking.**
 
 Primary: re-rank the live frontier after the RSPS ladder closure.
 

@@ -466,8 +466,21 @@ selected the adjacent-possible graph version: one record regime stabilizes selec
 while another maintains or changes the graph of future admissible moves. This is a fixture
 candidate only. The main absorber is fixed latent graph plus access schedule.
 
-Open tasks (updated after RUN-0075):
+RUN-0076 processed the outside-agent online-issuance suggestions and turned them into a five-goal
+formalization sequence. The route aims to define `OnlineIssuance v0.1`, then try to absorb it
+into adaptive computation and category-theoretic bookkeeping before attempting a minimal
+constructive witness or clean refutation. No claim moved.
 
+Open tasks (updated after RUN-0076):
+
+- OnlineIssuance Goal 1: write `OnlineIssuance v0.1` with source/projection separation,
+  no-hidden-oracle discipline, and precise properness conditions.
+- OnlineIssuance Goal 2: run the adaptive-computation absorber gauntlet against the Goal 1
+  object.
+- OnlineIssuance Goal 3: run the category-theory bookkeeping absorber gauntlet against the
+  Goal 1 object.
+- OnlineIssuance Goal 4: build the minimal constructive witness or clean refutation.
+- OnlineIssuance Goal 5: issue the verdict and patch `FORMAL-OBJECT.md` only if earned.
 - W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.
 - Optional dual-record adjacent-possible fixture: compare single-record search, fixed-latent
   dual-record search, and growing-adjacency dual-record search under equal budget.

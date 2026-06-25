@@ -3,11 +3,57 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0075
+updated_by_run: RUN-0076
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## Online Issuance Five-Goal Sequence Complete (RUN-0076) - Current Route
+
+RUN-0076 processed outside-agent suggestions about rigorous online issuance.
+
+Verdict:
+
+```yaml
+RUN_0076_complete: true
+sequence_created: online_issuance_five_goal_formalization_sequence
+claim_status_change: none
+primary_target: OnlineIssuance_v0_1
+main_absorbers:
+  - adaptive_computation_and_dynamical_systems
+  - category_theory_bookkeeping
+official_next_trigger: online_issuance_formal_object_v0_1
+```
+
+Primary next trigger:
+
+```text
+W000 -> online_issuance_formal_object_v0_1
+```
+
+Reason:
+
+```text
+Joe explicitly redirected from W010 toward the outside-agent online-issuance suggestions. The
+repo's current strongest source-side question is whether an `OnlineIssuance` object can be
+stated without collapsing into fixed computation, fixed oracle/access, or categorical
+bookkeeping.
+```
+
+Required:
+
+1. Define `Ctx_n`, `Adm_n`, `Ext_n`, and `Iss_n` as the source layer.
+2. Define `Obs_o,n`, `Proj_o,n`, and `Glue_n` only as downstream projection/finality layer.
+3. State the no-hidden-oracle discipline and forbidden fixed-future-schema moves.
+4. State the properness condition for an admissible witness unavailable at the prior prefix.
+5. Classify easy examples and non-examples so the object is ready for absorber gauntlets.
+
+Next sequence after Goal 1:
+
+```text
+adaptive_computation_absorber -> category_bookkeeping_absorber -> minimal_constructive_witness_or_refutation -> verdict_and_formal_object_rewrite
+```
 
 ## Dual-Record Opportunity Steelman Vote Complete (RUN-0075) - Current Intake
 

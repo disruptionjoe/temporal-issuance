@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E086-online-issuance-five-goal-formalization-sequence-2026-06-25.md` turns the outside-agent online-issuance suggestions into five ambitious sequential goals: define `OnlineIssuance v0.1`, run adaptive-computation absorbers, run category-bookkeeping absorbers, build a minimal constructive witness or clean refutation, then issue a verdict / formal-object rewrite; no claim movement.
 - `E085-dual-record-opportunity-cross-repo-placement-2026-06-25.md` places the dual-record opportunity hypothesis across Temporal Issuance, Time as Finality, and GU: TI owns the fixed-latent-graph vs growing-adjacency discriminator, TaF is the fixture home, and GU is only an observer-finality stress surface; no claim movement.
 - `E084-legitimacy-monad-projection-finality-2026-06-25.md` integrates the S7 legitimacy-monad steelman as an idempotent observer-record operation for `Project[O] + Finalize[R] + Lose[K]`, while explicitly blocking "legitimate record therefore `Issue[S]`" readings; no claim movement.
 - `E083-dual-record-opportunity-steelman-vote-2026-06-25.md` processes Joe's dual-record opportunity hypothesis. Five steelmans and seven personas select the adjacent-possible graph version, with a fixed-latent-graph absorber as the main threat.
