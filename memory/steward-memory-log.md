@@ -1557,3 +1557,19 @@ What was promoted: None.
 New blockers: G02 must show the contract can also carry a bounded positive source-side fixture without category mistakes.
 Recommended next run: W000 -> G02_source_shadow_finality_positive_fixture.
 Files changed: `explorations/E069-fixed-source-bounded-access-negative-control-2026-06-24.md`, `agent-runs/RUN-0064-fixed-source-bounded-access-negative-control.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0065
+
+Timestamp: 2026-06-24
+Trigger: manual_request
+Workflow: W000 -> G02_source_shadow_finality_positive_fixture
+Agent / subagents used: Repo Steward.
+Current strongest version: E067 can carry both the G03 negative control and a bounded positive formal source fixture. `Compat_G^MLTT` finite trace classifies as `source_issuance_candidate` plus `lossy_projection_residue`.
+Current strongest objection: This remains formal and class-relative; it does not establish physical source issuance or TI-C020.
+What collapsed: The worry that E067 only rejects fixed-source disclosure but cannot type a positive formal source fixture.
+What survived: `Compat_G^MLTT` as formal source witness; G03/G02 as paired baselines for capability testing.
+What was absorbed: Record finality and projection loss are downstream; they do not carry the source verdict.
+What was promoted: None.
+New blockers: Capability language now needs a direct test so it does not blur access-driven capability change with source-linked capability creation.
+Recommended next run: W000 -> G06_issued_capability_contract_test.
+Files changed: `explorations/E070-source-shadow-finality-positive-fixture-2026-06-24.md`, `agent-runs/RUN-0065-source-shadow-finality-positive-fixture.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

@@ -20,6 +20,7 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E070-source-shadow-finality-positive-fixture-2026-06-24.md` executes G02. It runs a bounded `Compat_G^MLTT` finite trace through E067 and gets a formal `source_issuance_candidate` plus `lossy_projection_residue` verdict, with no physics or claim promotion.
 - `E069-fixed-source-bounded-access-negative-control-2026-06-24.md` executes G03. It instantiates E067 with fixed `Mu_infty` plus expanding `P_n` aperture and verifies the verdict is projection/access novelty plus absorber-controlled bookkeeping, not source issuance.
 - `E067-source-shadow-finality-interface-contract-2026-06-24.md` executes G01 from the ten-goal plan. It defines `SourceExtension`, `Projection`, `Capability`, `RecordFinality`, `LossKernel`, `AbsorberSet`, and verdict classes for future fixtures; no claim movement.
 - `E066-ten-goal-source-shadow-finality-orchestration-2026-06-24.md` turns the RUN-0061 cross-repo source/projection finding into ten ordered goals with batch structure. It makes G01, the source-shadow-finality interface contract, the required serial first run before parallel fixture lanes.

@@ -1485,6 +1485,29 @@ notes: >
   trigger moves to G02 positive fixture.
 ```
 
+```yaml
+run_id: RUN-0065
+workflow_used: W000 -> G02_source_shadow_finality_positive_fixture
+research_vs_governance: research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E070-source-shadow-finality-positive-fixture, RUN-0065-source-shadow-finality-positive-fixture]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  G02 completed. A bounded Compat_G^MLTT finite trace classifies as formal
+  source_issuance_candidate plus lossy_projection_residue under E067. No physical-source claim
+  moved. Next trigger moves to G06 issued capability contract test.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

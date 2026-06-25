@@ -3,13 +3,51 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0064
+updated_by_run: RUN-0065
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## G03 Fixed-Source Bounded-Access Negative Control Complete (RUN-0064) - Current Route
+## G02 Source / Shadow / Finality Positive Fixture Complete (RUN-0065) - Current Route
+
+RUN-0065 executed the `G02_source_shadow_finality_positive_fixture` trigger.
+
+Verdict:
+
+```yaml
+G02_complete: true
+positive_fixture: Compat_G_MLTT_finite_trace
+verdict:
+  - source_issuance_candidate
+  - lossy_projection_residue
+claim_status_change: none
+physical_source_claim: not_tested
+next_recommended_trigger: G06_issued_capability_contract_test
+```
+
+Primary next trigger:
+
+```text
+W000 -> G06_issued_capability_contract_test
+```
+
+Required:
+
+1. Use G03 and G02 as paired baselines.
+2. Define `IssuedCapability` without making it "recover the hidden issuance label."
+3. Test whether capability language separates source-linked capability creation from access-driven capability change.
+4. Commit and push after G06.
+
+Secondary next triggers:
+
+```text
+W000 -> G09_typed_effect_signature
+W000 -> G07_memory_losskernel_audit
+W000 -> G08_TI_C022_record_reality_typing_fixture
+```
+
+## G03 Fixed-Source Bounded-Access Negative Control Complete (RUN-0064)
 
 RUN-0064 executed the `G03_fixed_source_bounded_access_negative_control` trigger.
 

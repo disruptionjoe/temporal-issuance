@@ -410,10 +410,15 @@ RUN-0064 completed G03. The fixed-source bounded-access negative control is corr
 as projection/access novelty plus absorber-controlled bookkeeping, not source issuance. E067 is
 therefore safe to use for the first bounded positive fixture.
 
-Open tasks (updated after RUN-0064):
+RUN-0065 completed G02. A bounded `Compat_G^MLTT` finite trace runs through E067 as a formal
+`source_issuance_candidate` with `lossy_projection_residue`, while explicitly not testing or
+promoting any physical-source claim.
 
-- G02 positive fixture (primary): run one finite `Compat_G^MLTT` example through the contract,
-  using G03 as the negative-control baseline.
+Open tasks (updated after RUN-0065):
+
+- G06 issued capability contract test (primary): use G03 and G02 as paired baselines to test
+  whether `IssuedCapability` distinguishes access-driven capability change from source-linked
+  capability creation.
 - G04/G05 AC-8 actor trace and projection audit: state the actor protocol first, then audit
   observer-visible finality.
 - G06/G07/G08/G09 parallel lanes: issued capability, memory LossKernel, TI-C022 record-reality
