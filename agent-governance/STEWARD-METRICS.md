@@ -1554,6 +1554,29 @@ notes: >
   moves to G07 memory LossKernel audit.
 ```
 
+```yaml
+run_id: RUN-0068
+workflow_used: W000 -> G07_memory_losskernel_audit
+research_vs_governance: mixed_research_governance
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E073-memory-losskernel-audit, RUN-0068-memory-losskernel-audit]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  G07 completed. Memory summaries and packs are classified as Project[O] + Finalize[R] +
+  Lose[K], not Issue[S] and not authority. Next trigger moves to G08 TI-C022 record-reality
+  typing fixture.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

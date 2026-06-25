@@ -1605,3 +1605,19 @@ What was promoted: None.
 New blockers: Memory summaries must be audited as lossy projections rather than authority surfaces.
 Recommended next run: W000 -> G07_memory_losskernel_audit.
 Files changed: `explorations/E072-typed-effect-signature-source-shadow-finality-2026-06-24.md`, `agent-runs/RUN-0067-typed-effect-signature.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+## RUN-0068
+
+Timestamp: 2026-06-24
+Trigger: manual_request
+Workflow: W000 -> G07_memory_losskernel_audit
+Agent / subagents used: Repo Steward.
+Current strongest version: Memory summaries and memory packs are lossy projections with finality effects: `Project[O] + Finalize[R] + Lose[K]`, not `Issue[S]` and not authority.
+Current strongest objection: Memory format could later benefit from explicit LossKernel fields, but adding format policy here would exceed G07's audit scope.
+What collapsed: Memory summaries as neutral mirrors, authority surfaces, or source issuance of new research truth.
+What survived: Temporal Issuance memory summary as compact load surface; Time as Finality memory packs as guidance-only projections; future LossKernel-field improvement.
+What was absorbed: Memory compression is absorbed by projection/loss/finality effects.
+What was promoted: None.
+New blockers: G08 should now test TI-C022 record-reality typing under the same effect discipline.
+Recommended next run: W000 -> G08_TI_C022_record_reality_typing_fixture.
+Files changed: `explorations/E073-memory-losskernel-audit-2026-06-24.md`, `agent-runs/RUN-0068-memory-losskernel-audit.md`, `explorations/README.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `ROADMAP.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.

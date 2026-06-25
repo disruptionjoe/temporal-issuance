@@ -422,10 +422,14 @@ RUN-0067 completed G09. The minimal typed effect signature is now `Issue[S]`, `P
 `Finalize[R]`, and `Lose[K]`, with the rule that projection, finality, loss, or capability
 change do not imply source issuance.
 
-Open tasks (updated after RUN-0067):
+RUN-0068 completed G07. Memory summaries and memory packs are now classified as lossy
+projections with finality effects, not authority and not source issuance. A future memory-format
+improvement may add explicit LossKernel fields, but this run made no governance-format change.
 
-- G07 memory LossKernel audit (primary): treat steward summaries and adjacent memory packs as
-  lossy projections with preserved fields, lost fields, quotient relation, and capability spread.
+Open tasks (updated after RUN-0068):
+
+- G08 TI-C022 record-reality typing fixture (primary): test whether any type-level surplus
+  remains after fork-choice/canonical-chain finality.
 - G04/G05 AC-8 actor trace and projection audit: state the actor protocol first, then audit
   observer-visible finality.
 - G06/G07/G08/G09 parallel lanes: issued capability, memory LossKernel, TI-C022 record-reality

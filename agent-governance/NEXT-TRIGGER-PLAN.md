@@ -3,13 +3,49 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0067
+updated_by_run: RUN-0068
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## G09 Typed Effect Signature Complete (RUN-0067) - Current Route
+## G07 Memory LossKernel Audit Complete (RUN-0068) - Current Route
+
+RUN-0068 executed the `G07_memory_losskernel_audit` trigger.
+
+Verdict:
+
+```yaml
+G07_complete: true
+memory_effects:
+  - Project[O]
+  - Finalize[R]
+  - Lose[K]
+not_effect: Issue[S]
+claim_status_change: none
+next_recommended_trigger: G08_TI_C022_record_reality_typing_fixture
+```
+
+Primary next trigger:
+
+```text
+W000 -> G08_TI_C022_record_reality_typing_fixture
+```
+
+Required:
+
+1. Use E067/E072 to separate record finality from source issuance.
+2. Test whether TI-C022 has any type-level surplus after fork-choice/canonical-chain finality.
+3. Preserve RUN-0057's absorber: ordinary finality machinery is not independent TI-C022 surplus.
+4. Commit and push after G08.
+
+Secondary next trigger:
+
+```text
+W000 -> G04_AC8_actor_protocol_source_trace
+```
+
+## G09 Typed Effect Signature Complete (RUN-0067)
 
 RUN-0067 executed the `G09_typed_effect_signature` trigger.
 

@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0067
+last_summarized_run: RUN-0068
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: G07_memory_losskernel_audit
+next_required_test: G08_TI_C022_record_reality_typing_fixture
 ```
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
@@ -124,6 +124,12 @@ RUN-0067 adds: G09 succeeded. The minimal effect signature is `Issue[S]`, `Proje
 `Finalize[R]`, and `Lose[K]`. Projection, finality, loss, or capability change do not imply
 source issuance. This blocks the projection-assembly, first-access, and finalized-record
 category mistakes. Next run: G07 memory LossKernel audit.
+
+RUN-0068 adds: G07 succeeded. Temporal Issuance steward summaries and Time as Finality memory
+packs are `Project[O] + Finalize[R] + Lose[K]`, not `Issue[S]` and not authority. They preserve
+workflow capability while losing detail. Future memory-format work may add explicit LossKernel
+fields, but no governance format change was made in this run. Next run: G08 TI-C022 record-
+reality typing fixture.
 
 Current Temporal Issuance primitives do not derive a physical observable, action, measure,
 metric, symmetry, charge, mass, energy, or `E = mc^2`.
