@@ -109,3 +109,33 @@ explicitly deferred.
 - TaF finality + H1-as-co-creation-failure + G1/G3 reframe proposal: `time-as-finality/explorations/co-creation-integration-and-g1g3-reframe-2026-06-30.md`
 - This repo: `FORMAL-DEFINITION-REPAIR.md` (the `Ext_S` residue this elevates), `KILL-CRITERIA.md`, the three
   absorbers (`action-principle-boundary-selection`, `observer-equivalencing-ruliad-slice`, cosmological-measure note).
+
+## Update (2026-06-30): `mu` v0.1 built -> promotion trigger FIRE-CONDITIONALLY
+
+The central work-item -- construct `mu` and test the two-source claim -- has been executed at v0.1 (full
+result: `time-as-finality/results/mu-two-source-discriminator-v0.1-results.md`, code in
+`time-as-finality/models/{ca_harness,mu_experiment,mu_strengthen}.py`). Process: a pre-registered spec (design
+workflow: 3 designs + adversarial red-team + synthesis), the run, an adversarial verification workflow
+(6 skeptics + adjudicator), and two caveat-addressing strengthening passes.
+
+**Verdict: CONFIRM-WITH-CAVEATS.** On exactly-enumerable cellular automata, a double dissociation holds:
+a map that is **thermodynamically free to undo (INFO=0, exact) yet computationally not reduced** (2nd-order
+Rule 110), and a map that is **thermodynamically costly yet computationally cheap** (1st-order Rule 90). A
+single-thermodynamic-axis collapse of reversal cost is **falsified** for these cases; the KILL branch was
+genuinely reachable. Strengthening showed the off-diagonal corners are generic (240/256 second-order rules
+realize the reversible-yet-irreducible corner) and that the reducibility instrument earns its validity gate by
+*discovering* a recoding it was not handed.
+
+**Honest scope (binding):** this confirms only the scoped **MC-2** leg (`mu` has two dissociable sources),
+*not* observer-issuance. There are no observers, no distinct holders, no private-to-shared conversion, and no
+H1-gated sharing anywhere in this experiment; the CA->finality bridge is asserted by name, not demonstrated.
+Caveats: "irreducible" is one-sided (battery-null) and cell B leans on the Rule-110 universality conjecture;
+"two sources of ONE measure" is a theory-side bundling, not measured jointness.
+
+**Trigger status:** the promotion trigger is recorded as **conditionally fired for the MC-2 leg.** Full
+spin-out into a dedicated integration repo (and the [[feedback_llm_council_inline_personas]]-style G4
+promotion) still awaits: (a) converting B's battery-null to a positive hardness fact or de-correlating it from
+the 110 conjecture, and (b) the first **observer / multi-holder** leg -- instantiating "rising reversal cost
+across distinct holders" and testing whether it is a third axis orthogonal to INFO and COMP. That multi-holder
+experiment is the next highest-value step and is where this stops being "reversal cost on a map" and starts
+being "finality across observers."
