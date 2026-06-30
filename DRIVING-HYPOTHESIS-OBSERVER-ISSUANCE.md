@@ -3,7 +3,7 @@ artifact_type: driving_hypothesis
 status: active
 governance_role: lead_hypothesis
 constitutional: false
-last_updated_by: persona-council-synthesis-2026-06-30
+last_updated_by: coherent-issuance-framing-2026-06-30
 ---
 
 # Driving Hypothesis: Observer-Level Issuance (the integrating idea)
@@ -58,6 +58,36 @@ fundamental" dissolves because each layer answers a different question:
 `mu` is the **central missing object**. The skeptic (hostile-rigor gatekeeper) and the builder (constructor
 theorist) independently named the same thing: build `mu` and the idea stops being a metaphor, gains a
 falsifier, and makes `H1` computable.
+
+## Coherent issuance, not a clock
+
+Joe's 2026-06-30 framing adds an important anti-flattening rule: the unifying intuition should not be reduced
+to "there is a universal tick." The stronger reading is:
+
+> The universe is not fundamentally evolving *in time*; it is continually issuing recordable opportunities.
+> What observers call time is the ordered accumulation of records, and what physics calls law is the
+> consistency constraint governing which records can be jointly issued.
+
+So the phrase "all observers do it in sync" should be treated carefully. It does **not** mean synchronized by a
+shared coordinate clock, preferred foliation, or absolute simultaneity. It means coherent under a shared
+issuance constraint while each observer receives only a local projection of that constraint.
+
+This keeps the relativity and quantum bridges in bounds:
+
+- **Relativity:** observers may disagree about coordinate time because they take different local slices through
+  the shared issuance-consistency structure. Gravity changes the local relation between record accumulation and
+  observer-measured duration; it does not require an external tick.
+- **Quantum mechanics:** a quantum state is not yet a shared record. Measurement/interaction is where a
+  recordable opportunity becomes accessible relative to an observer-system. Entanglement constrains which
+  records can be jointly issued, not a faster-than-light message.
+
+This is a framing discipline, not claim promotion. The full note is preserved in
+`explorations/E095-coherent-issuance-not-clock-2026-06-30.md`, and the first concrete fixture is frozen in
+`explorations/E096-clock-free-record-cadence-fixture-2026-06-30.md`. The first absorber gate is recorded in
+`explorations/E097-clock-free-cadence-absorber-gauntlet-2026-06-30.md`: causal-order-alone does not absorb the
+fixture, but fixed-site sheaf compatibility, database constraints, fixed-H record filtering, and fixed latent
+source plus changing access do. The remaining source-side resurrection burden is nonfixed admissibility,
+nonfixed site, or nonfixed observable algebra; `kappa_i` remains observer-side unless that burden is met.
 
 ## Falsifiers / kill criteria for H0 (using this repo's kill classes)
 

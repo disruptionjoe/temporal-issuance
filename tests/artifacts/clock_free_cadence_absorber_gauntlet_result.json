@@ -1,0 +1,148 @@
+{
+  "absorbers": {
+    "database_constraint_checking": {
+      "absorber_id": "database_constraint_checking",
+      "admitted_records": [
+        "p1",
+        "p2",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "description": "known relational schema with a parity CHECK constraint per record handle",
+      "reason": "The behavior is reproduced by ordinary online insertion into a known schema with a deferred-but-prefix-checkable parity constraint.",
+      "rejected_records": [
+        "p3"
+      ],
+      "reproduces_c_exactly": true,
+      "revises_final_records": false,
+      "uses_hidden_tick": false,
+      "verdict": "absorbs_C"
+    },
+    "fixed_H_record_update": {
+      "absorber_id": "fixed_H_record_update",
+      "admitted_records": [
+        "p1",
+        "p2",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "description": "fixed finite state space with allowed subspace parity projector",
+      "reason": "A fixed finite state space over the two handles can contain the parity-allowed record states from the start; update is projection/filtering, not H growth.",
+      "rejected_records": [
+        "p3"
+      ],
+      "reproduces_c_exactly": true,
+      "revises_final_records": false,
+      "uses_hidden_tick": false,
+      "verdict": "absorbs_C"
+    },
+    "fixed_latent_source_changing_access": {
+      "absorber_id": "fixed_latent_source_changing_access",
+      "admitted_records": [
+        "p1",
+        "p2",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "description": "completed latent parity table with observers receiving partial apertures",
+      "reason": "The full admissible table for h0 and h1 can be fixed from the start; observers only gain access to local projections as proposals arrive.",
+      "rejected_records": [
+        "p3"
+      ],
+      "reproduces_c_exactly": true,
+      "revises_final_records": false,
+      "uses_hidden_tick": false,
+      "verdict": "absorbs_C"
+    },
+    "fixed_site_sheaf_gluing": {
+      "absorber_id": "fixed_site_sheaf_gluing",
+      "admitted_records": [
+        "p1",
+        "p2",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "description": "fixed cover with local sections and parity compatibility on overlaps",
+      "reason": "The observer patches, handle set, bit projections, and parity compatibility predicate are all fixed in advance. Prefix extendability rejects p3 exactly.",
+      "rejected_records": [
+        "p3"
+      ],
+      "reproduces_c_exactly": true,
+      "revises_final_records": false,
+      "uses_hidden_tick": false,
+      "verdict": "absorbs_C"
+    },
+    "ordinary_causal_order_only": {
+      "absorber_id": "ordinary_causal_order_only",
+      "admitted_records": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "description": "partial order of proposal dependencies without a value compatibility predicate",
+      "reason": "A causal partial order can say p3 occurs after p1 and p2, but order alone does not know that x_BC=0 violates parity. It needs an added compatibility predicate.",
+      "rejected_records": [],
+      "reproduces_c_exactly": false,
+      "revises_final_records": false,
+      "uses_hidden_tick": false,
+      "verdict": "does_not_absorb_C"
+    }
+  },
+  "fixture": "clock_free_cadence_absorber_gauntlet_v0_1",
+  "source_artifacts": [
+    "explorations/E096-clock-free-record-cadence-fixture-2026-06-30.md",
+    "tools/clock_free_record_cadence_fixture.py"
+  ],
+  "summary": {
+    "absorbing_absorbers": [
+      "fixed_site_sheaf_gluing",
+      "database_constraint_checking",
+      "fixed_H_record_update",
+      "fixed_latent_source_changing_access"
+    ],
+    "absorbing_count": 4,
+    "failing_absorbers": [
+      "ordinary_causal_order_only"
+    ],
+    "failing_count": 1,
+    "source_side_residue_found": false,
+    "strongest_survivor": "clock-free record coherence is a useful reconstruction-layer discipline, but E096 C is fully reproduced by fixed compatibility/admissibility machinery"
+  },
+  "target_c_signature": {
+    "admitted_records": [
+      "p1",
+      "p2",
+      "p4",
+      "p5",
+      "p6",
+      "p7"
+    ],
+    "coherence_without_revision": true,
+    "global_ticks_used": 0,
+    "hidden_total_order_used": false,
+    "rejected_records": [
+      "p3"
+    ],
+    "revised_final_records": []
+  },
+  "verdict": {
+    "Finalize[R]": true,
+    "Issue[S]": false,
+    "Lose[K]": true,
+    "Project[O]": true,
+    "claim_status_change": "none",
+    "path_kill": "E096 clock-free coherence by itself => source-side Temporal Issuance evidence"
+  }
+}

@@ -43,7 +43,7 @@ Surface promotion / external-consequence decisions, claim-status changes (especi
 
 - This repo is public; publishing and public/private decisions are governed.
 - Constitutional objects may not be silently changed: (1) the core hypothesis in `HYPOTHESIS.md`, (2) the Repo Steward job description in `agent-governance/REPO-STEWARD.md`. Everything else is mutable unless later governance learning adds protection.
-- `governance-package/` is reusable, portable governance process-IP — protected; no extraction or copy of components into reusable form without explicit per-component Joe approval and the portability marking the folder requires.
+- Portable/reusable governance now lives centrally in CapacityOS (`system/meta/architecture/repo-steward-reference-architecture/portability-candidate-registry.md`), not in this repo. (The former local `governance-package/` seed was archived 2026-06-30; the portability transfer experiment is retired.)
 - The real governance boundary is promotion / external consequence, not internal drafting. Every stop names the rule AND the route forward. Apply transcribe-then-retire before closing any record.
 
 ## Intake expectations
@@ -60,7 +60,7 @@ Supports CapacityOS-orchestrated and direct repo-mounted runs; the hourly/manual
 
 ## Escalation rules
 
-Promotion, external/public consequence, IP extraction from `governance-package/`, constitutional changes, or capture-risk decisions escalate to Joe. CapacityOS architecture/Kernel/System questions route to CapacityOS governance, not resolved here.
+Promotion, external/public consequence, constitutional changes, or capture-risk decisions escalate to Joe. CapacityOS architecture/Kernel/System questions route to CapacityOS governance, not resolved here.
 
 ## Artifact & information zones
 

@@ -551,6 +551,19 @@ Open tasks (updated after RUN-0086):
 - Add the GU dual-record section-retrieval witness as an observer-finality stress note only.
 - Keep the source-side shortcut path killed unless a future comparator defeats exact
   fixed-latent graph access.
+- RUN-0088 / E099 triple-steelman complete: optional next route is
+  `rendered_interface_system_v0_1`, defining the larger quantum/geometric carrier, observer
+  selection/rendering, 4D interface, quantum leakage, matter criterion, finality measure, and
+  GU adapter hypothesis before running new fixtures.
+- RUN-0087 / E098 Shared Record Rendering persona pass complete: optional next route is a
+  relativistic record-rendering fixture that tests whether a shared compatibility carrier plus
+  observer render maps can recover an interval-like invariant without importing full 4D
+  Minkowski geometry first.
+- E095/E096/E097 route: clock-free record-cadence fixture and absorber gate complete. Causal
+  order alone does not absorb the result, but fixed-site sheaf compatibility, database
+  constraints, fixed-H record filtering, and fixed latent source plus changing access do absorb
+  it. Keep E095 as reconstruction-layer anti-clock discipline unless a future fixture supplies
+  nonfixed admissibility, nonfixed site, or nonfixed observable algebra.
 - Machine-check `OnlineIssuance^LC` remains a parked live route.
 
 ## Phase 0: Launch Coherence

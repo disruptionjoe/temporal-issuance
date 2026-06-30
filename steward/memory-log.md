@@ -43,3 +43,5 @@ canonical home for hypothesis/claim/run research memory.
   untracked E095-E097 explorations, clock-free cadence tools/tests/artifacts). These were not
   created by this session and were left untouched and uncommitted; only this session's own
   files were staged by explicit path.
+
+- **2026-06-30 - governance-package retired.** Per Joe, both repos adopt the standard CapacityOS repo-steward package; the local `governance-package/` seed was archived to `JB/_archive/governance-package-seeds-2026-06-30/` and the governance-portability transfer experiment is null. Cross-repo portability candidates are preserved centrally in the repo-steward reference architecture (`portability-candidate-registry.md`).

@@ -1,0 +1,168 @@
+{
+  "comparisons": {
+    "B_reproduces_coherence_with_hidden_tick": true,
+    "C_avoids_B": true,
+    "C_beats_A": true
+  },
+  "fixture": "clock_free_record_cadence_fixture_v0_1",
+  "source_artifact": "explorations/E096-clock-free-record-cadence-fixture-2026-06-30.md",
+  "systems": {
+    "A": {
+      "absorber_verdict": "after_the_fact_reconciliation_control",
+      "admitted_records": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "coherence_without_revision": false,
+      "deferred_records": [],
+      "description": "independent local records plus later reconciliation",
+      "effect_verdict": {
+        "Finalize[R]": true,
+        "Issue[S]": false,
+        "Lose[K]": true,
+        "Project[O]": true
+      },
+      "global_completion_checks": 2,
+      "global_ticks_used": 0,
+      "hidden_total_order_used": false,
+      "max_unsettled_handle_width": 1,
+      "orphaned_local_records": [
+        "p3"
+      ],
+      "parity_obstructions": 1,
+      "rejected_records": [],
+      "revised_final_records": [
+        "p3"
+      ],
+      "system_id": "A"
+    },
+    "B": {
+      "absorber_verdict": "hidden_clock_absorber",
+      "admitted_records": [
+        "p1",
+        "p2",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "coherence_without_revision": true,
+      "deferred_records": [],
+      "description": "hidden global tick / preferred foliation",
+      "effect_verdict": {
+        "Finalize[R]": true,
+        "Issue[S]": false,
+        "Lose[K]": false,
+        "Project[O]": true
+      },
+      "global_completion_checks": 7,
+      "global_ticks_used": 2,
+      "hidden_total_order_used": true,
+      "max_unsettled_handle_width": 1,
+      "orphaned_local_records": [],
+      "parity_obstructions": 1,
+      "rejected_records": [
+        "p3"
+      ],
+      "revised_final_records": [],
+      "system_id": "B"
+    },
+    "C": {
+      "absorber_verdict": "clock_free_candidate_absorber_pending",
+      "admitted_records": [
+        "p1",
+        "p2",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ],
+      "coherence_without_revision": true,
+      "deferred_records": [],
+      "description": "clock-free shared admissibility constraint",
+      "effect_verdict": {
+        "Finalize[R]": true,
+        "Issue[S]": false,
+        "Lose[K]": true,
+        "Project[O]": true
+      },
+      "global_completion_checks": 7,
+      "global_ticks_used": 0,
+      "hidden_total_order_used": false,
+      "max_unsettled_handle_width": 1,
+      "orphaned_local_records": [],
+      "parity_obstructions": 1,
+      "rejected_records": [
+        "p3"
+      ],
+      "revised_final_records": [],
+      "system_id": "C"
+    }
+  },
+  "trace": [
+    {
+      "bit": "x_AB",
+      "handle": "h0",
+      "observer": "O_A",
+      "proposal_id": "p1",
+      "value": 1
+    },
+    {
+      "bit": "x_CA",
+      "handle": "h0",
+      "observer": "O_C",
+      "proposal_id": "p2",
+      "value": 0
+    },
+    {
+      "bit": "x_BC",
+      "handle": "h0",
+      "observer": "O_B",
+      "proposal_id": "p3",
+      "value": 0
+    },
+    {
+      "bit": "x_BC",
+      "handle": "h0",
+      "observer": "O_B",
+      "proposal_id": "p4",
+      "value": 1
+    },
+    {
+      "bit": "x_CA",
+      "handle": "h1",
+      "observer": "O_C",
+      "proposal_id": "p5",
+      "value": 1
+    },
+    {
+      "bit": "x_AB",
+      "handle": "h1",
+      "observer": "O_A",
+      "proposal_id": "p6",
+      "value": 0
+    },
+    {
+      "bit": "x_BC",
+      "handle": "h1",
+      "observer": "O_B",
+      "proposal_id": "p7",
+      "value": 1
+    }
+  ],
+  "verdict": {
+    "Finalize[R]": true,
+    "Issue[S]": false,
+    "Lose[K]": true,
+    "Project[O]": true,
+    "claim_status_change": "none",
+    "comparator_executed": true,
+    "next_gate": "apply_fixed_site_sheaf_gluing_and_fixed_H_absorbers_before_any_source_claim",
+    "positive_scope": "clock_free_coherence_vs_after_the_fact_reconciliation"
+  }
+}

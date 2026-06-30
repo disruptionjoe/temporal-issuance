@@ -20,6 +20,23 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E099-rendered-4d-interface-63-persona-triple-steelman-2026-06-30.md` runs all 63 available
+  personas through novel/profound/publishable steelmans of the corrected rendered-interface
+  idea. It recommends defining `RenderedInterfaceSystem v0.1`; no claim movement.
+- `E098-shared-record-rendering-63-persona-steelman-2026-06-30.md` runs W007 across all 63
+  available numbered personas. It reframes the live idea as Shared Record Rendering: a shared
+  record-compatibility carrier rendered by observers into 4D histories; next recommended route
+  is a relativistic record-rendering fixture; no claim movement.
+- `E097-clock-free-cadence-absorber-gauntlet-2026-06-30.md` executes the E096 absorber gate:
+  causal-order-alone fails, but fixed-site sheaf compatibility, database constraints,
+  fixed-H record filtering, and fixed latent source plus changing access absorb C exactly;
+  no claim movement.
+- `E096-clock-free-record-cadence-fixture-2026-06-30.md` freezes the first finite fixture for
+  E095: compare independent reconciliation, hidden global tick, and clock-free shared
+  admissibility over observer-local `kappa_i` streams; no claim movement.
+- `E095-coherent-issuance-not-clock-2026-06-30.md` captures Joe's "single cadence of recordability" intuition
+  as coherent issuance under a shared constraint, explicitly not a universal clock, preferred foliation, or
+  claim promotion; no claim movement.
 - `E094-dual-record-fixture-effect-gate-2026-06-25.md` applies the Temporal Issuance effect gate to the Time as Finality dual-record fixture: growing adjacency beats the limited comparator, but exact fixed-latent access absorbs the source-side reading; verdict `Project[O] + Finalize[R] + Lose[K]`, not `Issue[S]`.
 - `E093-dual-record-comparator-freeze-2026-06-25.md` freezes the dual-record adjacent-possible fixture before simulation: A single-record, B0 limited fixed-latent, B1 exact fixed-latent absorber, and C growing-adjacency search under equal budget; no claim movement.
 - `E092-w010-frontier-route-lock-dual-record-2026-06-25.md` executes a W010-style route lock after RUN-0081: machine-checking `OnlineIssuance^LC` remains parked live, while the user-directed active sequence becomes the dual-record comparator, fixture, effect gate, and GU observer-finality witness ladder.

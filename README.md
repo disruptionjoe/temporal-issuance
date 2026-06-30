@@ -15,6 +15,8 @@ The organizing question is "Why does reality remain capable of producing genuine
 
 The prior framing — temporal issuance as the monotone realization of constraint, modeled as a growing measured realization order with observer-indexed record cadences — is retained as the downstream reconstruction layer (claim `TI-C001`).
 
+Current framing note: the "single cadence" intuition should be read as coherent issuance under a shared constraint, not as a universal clock, preferred foliation, or coordinate simultaneity. See [E095: Coherent Issuance, Not A Clock](explorations/E095-coherent-issuance-not-clock-2026-06-30.md), the follow-on fixture [E096: Clock-Free Record-Cadence Fixture](explorations/E096-clock-free-record-cadence-fixture-2026-06-30.md), and the absorber verdict [E097: Clock-Free Cadence Absorber Gauntlet](explorations/E097-clock-free-cadence-absorber-gauntlet-2026-06-30.md).
+
 This repo is not here to protect that idea. It exists to determine, as efficiently as possible, whether the idea should be killed, absorbed by existing theory, narrowed into a formal object, converted into testable claims, promoted after hostile review, or archived as useful but non-research-grade intuition.
 
 ## What This Is
@@ -71,4 +73,3 @@ First intended work:
 2. Build the initial absorber map.
 3. Pressure-test the formal object.
 4. Let the steward update the next-trigger plan based on what survives.
-
