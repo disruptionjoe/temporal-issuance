@@ -7,3 +7,7 @@ Thumbs.db
 node_modules/
 __pycache__/
 
+# Scratch / working state only (durable artifacts -> JB/library, secrets -> vault).
+# See CapacityOS/system/meta/architecture/artifact-information-architecture.md.
+_local/
+
