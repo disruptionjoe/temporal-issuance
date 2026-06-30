@@ -75,3 +75,22 @@ exists, doing observer-capability work TaF readout cannot already express?
 - No -> absorb the source residue under action + relativity (write the kill-record).
 - Cannot even be posed precisely -> K5 metaphysical residue.
 - Yes (with a worked finite model) -> the absorber is survived, with a narrowed burden.
+
+## Corroboration (2026-06-30): the cosmological-measure view
+
+In *A Route to Quantum Gravity (Without Strings)* (Theories of Everything podcast, 2026), Turok states a
+"no one started the universe" view: rather than positing an initial event that *issues* the universe in a
+special state, you **count space-time histories with a measure** (Hawking's gravitational entropy, generalized
+to cosmologies), and the smooth, flat, small-Lambda universe is simply the *typical* (maximum-microstate)
+state -- no dynamics, no smoothing, no initial-condition-setter required.
+
+This is fresh pressure on the source side. Where Temporal Issuance posits a `SourceRealization` whose `Ext_S`
+*issues* allowed extensions, the measure view replaces the issuance *event/order* with a **measure over
+histories** plus "pick the typical one." If the observed structure is fully accounted for by counting +
+typicality (no issuance act), the source residue is at risk of absorption by a measure/counting framework, not
+only by the `action` clause.
+
+Bounded next step: this may deserve its own absorber, candidate `absorbers/gravitational-entropy-measure.md`,
+with key test -- *does `Ext_S` do work that a measure-over-histories + typicality argument does not already
+do?* Carry the caveat: Turok's program is by his own statement "halfway there," an external provocation, not a
+result.
