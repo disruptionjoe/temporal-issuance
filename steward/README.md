@@ -51,7 +51,7 @@ This repo owns the Temporal Issuance hypothesis, claim ledger, formal object, ki
 
 - Research truth stays in this repo.
 - CapacityOS architecture questions route to `C:\Users\joe\JB\CapacityOS`.
-- JoeOps coordination questions route to `C:\Users\joe\JB\Github Repos\joeops`.
+- JoeOps coordination questions route to `C:\Users\joe\JB\CapacityOS\repos\private\joeops`.
 - Durable artifacts belong in `C:\Users\joe\JB\library\repos\public\temporal-issuance\`.
 - Scratch belongs in `_local/`.
 

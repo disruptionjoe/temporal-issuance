@@ -45,3 +45,6 @@ canonical home for hypothesis/claim/run research memory.
   files were staged by explicit path.
 
 - **2026-06-30 - governance-package retired.** Per Joe, both repos adopt the standard CapacityOS repo-steward package; the local `governance-package/` seed was archived to `JB/_archive/governance-package-seeds-2026-06-30/` and the governance-portability transfer experiment is null. Cross-repo portability candidates are preserved centrally in the repo-steward reference architecture (`portability-candidate-registry.md`).
+## 2026-07-01
+
+- Discovery fleet pass found the D-FORK pivot should guide next work: focus the expressiveness-threshold/source-side witness burden before widening again. See `steward/runs/2026-07-01-discovery-fleet-pass.md`.
