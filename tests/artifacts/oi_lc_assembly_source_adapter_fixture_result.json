@@ -1,0 +1,868 @@
+{
+  "adapter_fields": [
+    "Adm_n",
+    "Gamma_n",
+    "Gamma_n_plus_1",
+    "e_n",
+    "tau_n",
+    "w_n"
+  ],
+  "adapter_mapping_for_local_candidate": {
+    "Adm_n": "target ABC not constructible at prefix n; bind_c admissibility is not present",
+    "Gamma_n": "source_before = local source assembly context before bind_c",
+    "Gamma_n_plus_1": "source_after = successor context containing bind_c",
+    "e_n": "source-generated constructor bind_c: (AB, C) -> ABC",
+    "tau_n": "constructor provenance record for bind_c and computed assembly index change",
+    "w_n": "computed witness AI_src,n(ABC)=undefined and AI_src,n+1(ABC)=2"
+  },
+  "assembly_index_definition": "AI(state, x) is the minimal finite constructor cost for x from the state's seeds and constructors; None means undefined in that prefix.",
+  "comparisons": {
+    "TI_C020_reopened": false,
+    "all_negative_controls_rejected": true,
+    "assembly_index_computed": true,
+    "experimenter_added_schema_negative_rejected": true,
+    "fixed_complete_assembly_space_negative_rejected": true,
+    "fixed_search_process_negative_rejected": true,
+    "local_source_candidate_adapter_contract_passed": false,
+    "local_source_candidate_passes_assembly_source_gate": true,
+    "local_source_candidate_source_d4": true,
+    "local_source_candidate_targeted_absorbers_defeated": true,
+    "next_gate": "oi_lc_assembly_w4_w6_physical_protocol_fixture",
+    "physical_source_issuance_established": false,
+    "projection_access_negative_rejected": true,
+    "trace_count": 5
+  },
+  "evaluations": [
+    {
+      "absorber_results": {
+        "bounded_access_to_Mu_infty": true,
+        "experimenter_added_schema": false,
+        "fixed_complete_assembly_space": false,
+        "fixed_stochastic_or_search_process": false
+      },
+      "adapter_contract_passed": false,
+      "adapter_witness_status": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": false,
+        "W3_construction_space_growth": false,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": true,
+        "W6_gauge_access_language_absorption": false
+      },
+      "assembly_source_gate_passed": false,
+      "fixed_complete_index": 2,
+      "no_hidden_oracle": false,
+      "physical_source_issuance_established": false,
+      "projection_d4": true,
+      "projection_index_after": 2,
+      "projection_index_before": null,
+      "reason": "the novelty is projection/access disclosure from a fixed richer source",
+      "record_preserved": true,
+      "source_d4": false,
+      "source_generated_extension": false,
+      "source_index_after": 2,
+      "source_index_before": 2,
+      "trace_id": "projection_access_negative",
+      "verdict": "absorbed_projection_access"
+    },
+    {
+      "absorber_results": {
+        "bounded_access_to_Mu_infty": false,
+        "experimenter_added_schema": false,
+        "fixed_complete_assembly_space": true,
+        "fixed_stochastic_or_search_process": false
+      },
+      "adapter_contract_passed": false,
+      "adapter_witness_status": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": false,
+        "W3_construction_space_growth": false,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": true,
+        "W6_gauge_access_language_absorption": false
+      },
+      "assembly_source_gate_passed": false,
+      "fixed_complete_index": 2,
+      "no_hidden_oracle": false,
+      "physical_source_issuance_established": false,
+      "projection_d4": true,
+      "projection_index_after": 2,
+      "projection_index_before": null,
+      "reason": "a fixed complete source already contains the target construction",
+      "record_preserved": true,
+      "source_d4": true,
+      "source_generated_extension": true,
+      "source_index_after": 2,
+      "source_index_before": null,
+      "trace_id": "fixed_complete_assembly_space_negative",
+      "verdict": "absorbed_fixed_complete_assembly_space"
+    },
+    {
+      "absorber_results": {
+        "bounded_access_to_Mu_infty": false,
+        "experimenter_added_schema": true,
+        "fixed_complete_assembly_space": false,
+        "fixed_stochastic_or_search_process": false
+      },
+      "adapter_contract_passed": false,
+      "adapter_witness_status": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": false,
+        "W3_construction_space_growth": false,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": true,
+        "W6_gauge_access_language_absorption": false
+      },
+      "assembly_source_gate_passed": false,
+      "fixed_complete_index": null,
+      "no_hidden_oracle": true,
+      "physical_source_issuance_established": false,
+      "projection_d4": true,
+      "projection_index_after": 1,
+      "projection_index_before": null,
+      "reason": "the construction becomes available only by modeler-added schema",
+      "record_preserved": true,
+      "source_d4": true,
+      "source_generated_extension": false,
+      "source_index_after": 1,
+      "source_index_before": null,
+      "trace_id": "experimenter_added_schema_negative",
+      "verdict": "absorbed_experimenter_added_schema"
+    },
+    {
+      "absorber_results": {
+        "bounded_access_to_Mu_infty": false,
+        "experimenter_added_schema": false,
+        "fixed_complete_assembly_space": false,
+        "fixed_stochastic_or_search_process": true
+      },
+      "adapter_contract_passed": false,
+      "adapter_witness_status": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": false,
+        "W3_construction_space_growth": false,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": true,
+        "W6_gauge_access_language_absorption": false
+      },
+      "assembly_source_gate_passed": false,
+      "fixed_complete_index": 2,
+      "no_hidden_oracle": false,
+      "physical_source_issuance_established": false,
+      "projection_d4": false,
+      "projection_index_after": 2,
+      "projection_index_before": 2,
+      "reason": "the target was already constructible and was only discovered later",
+      "record_preserved": true,
+      "source_d4": false,
+      "source_generated_extension": false,
+      "source_index_after": 2,
+      "source_index_before": 2,
+      "trace_id": "fixed_search_process_negative",
+      "verdict": "absorbed_fixed_search_process"
+    },
+    {
+      "absorber_results": {
+        "bounded_access_to_Mu_infty": false,
+        "experimenter_added_schema": false,
+        "fixed_complete_assembly_space": false,
+        "fixed_stochastic_or_search_process": false
+      },
+      "adapter_contract_passed": false,
+      "adapter_witness_status": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": true,
+        "W3_construction_space_growth": true,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": true,
+        "W6_gauge_access_language_absorption": true
+      },
+      "assembly_source_gate_passed": true,
+      "fixed_complete_index": null,
+      "no_hidden_oracle": true,
+      "physical_source_issuance_established": false,
+      "projection_d4": true,
+      "projection_index_after": 2,
+      "projection_index_before": null,
+      "reason": "AI_src is undefined at n and defined at n+1 through a source-generated constructor, while the targeted assembly absorbers fail.",
+      "record_preserved": true,
+      "source_d4": true,
+      "source_generated_extension": true,
+      "source_index_after": 2,
+      "source_index_before": null,
+      "trace_id": "local_source_generated_constructor_candidate",
+      "verdict": "formal_local_source_candidate"
+    }
+  ],
+  "fixture": "oi_lc_assembly_source_adapter_fixture_v0_1",
+  "source_artifacts": [
+    "explorations/E064-assembly-theory-d4-source-projection-operationalization-2026-06-24.md",
+    "explorations/E069-fixed-source-bounded-access-negative-control-2026-06-24.md",
+    "explorations/E070-source-shadow-finality-positive-fixture-2026-06-24.md",
+    "explorations/E112-oi-lc-candidate-scout-w1-w6-table-2026-07-01.md"
+  ],
+  "targeted_absorber_map": {
+    "bounded_access_to_Mu_infty": "bounded_access_to_Mu_infty",
+    "experimenter_added_schema": "experimenter_added_schema",
+    "fixed_complete_assembly_space": "fixed_boundary_or_holographic_completion / fixed richer source",
+    "fixed_stochastic_or_search_process": "fixed_stochastic_or_collapse_law generalized to fixed search"
+  },
+  "traces": [
+    {
+      "access_changed_only": true,
+      "description": "The projection assembly index becomes defined because access exposes an already source-constructible target.",
+      "fixed_complete_source": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "fixed_search_process": false,
+      "modeler_added_schema": false,
+      "no_hidden_oracle": false,
+      "projection_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "projection_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n"
+      },
+      "real_physical_candidate": true,
+      "record_preserved": true,
+      "source_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "source_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "source_generated_extension": false,
+      "target": "ABC",
+      "trace_id": "projection_access_negative"
+    },
+    {
+      "access_changed_only": false,
+      "description": "The local prefix looks undefined, but a fixed complete assembly space already contains the target constructor.",
+      "fixed_complete_source": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "fixed_search_process": false,
+      "modeler_added_schema": false,
+      "no_hidden_oracle": false,
+      "projection_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "projection_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n"
+      },
+      "real_physical_candidate": true,
+      "record_preserved": true,
+      "source_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "source_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n"
+      },
+      "source_generated_extension": true,
+      "target": "ABC",
+      "trace_id": "fixed_complete_assembly_space_negative"
+    },
+    {
+      "access_changed_only": false,
+      "description": "The target becomes constructible only because the modeler introduces a macro constructor into the schema.",
+      "fixed_complete_source": null,
+      "fixed_search_process": false,
+      "modeler_added_schema": true,
+      "no_hidden_oracle": true,
+      "projection_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "A",
+              "B",
+              "C"
+            ],
+            "introduced_by": "modeler_schema",
+            "name": "declare_abc",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1_modeler"
+      },
+      "projection_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n"
+      },
+      "real_physical_candidate": true,
+      "record_preserved": true,
+      "source_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "A",
+              "B",
+              "C"
+            ],
+            "introduced_by": "modeler_schema",
+            "name": "declare_abc",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1_modeler"
+      },
+      "source_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n"
+      },
+      "source_generated_extension": false,
+      "target": "ABC",
+      "trace_id": "experimenter_added_schema_negative"
+    },
+    {
+      "access_changed_only": false,
+      "description": "The target is already constructible at the source layer, but a fixed search or stochastic process discovers it later.",
+      "fixed_complete_source": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "fixed_search_process": true,
+      "modeler_added_schema": false,
+      "no_hidden_oracle": false,
+      "projection_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "projection_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "real_physical_candidate": true,
+      "record_preserved": true,
+      "source_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "source_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "source_generated_extension": false,
+      "target": "ABC",
+      "trace_id": "fixed_search_process_negative"
+    },
+    {
+      "access_changed_only": false,
+      "description": "A local source prefix lacks a construction path for the target; the successor prefix records a source-generated constructor that makes the target constructible.",
+      "fixed_complete_source": null,
+      "fixed_search_process": false,
+      "modeler_added_schema": false,
+      "no_hidden_oracle": true,
+      "projection_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "projection_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n"
+      },
+      "real_physical_candidate": false,
+      "record_preserved": true,
+      "source_after": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          },
+          {
+            "inputs": [
+              "AB",
+              "C"
+            ],
+            "introduced_by": "source_generated",
+            "name": "bind_c",
+            "output": "ABC"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n_plus_1"
+      },
+      "source_before": {
+        "constructors": [
+          {
+            "inputs": [
+              "A",
+              "B"
+            ],
+            "introduced_by": "source_prefix",
+            "name": "join_ab",
+            "output": "AB"
+          }
+        ],
+        "seeds": [
+          "A",
+          "B",
+          "C"
+        ],
+        "state_id": "Gamma_n"
+      },
+      "source_generated_extension": true,
+      "target": "ABC",
+      "trace_id": "local_source_generated_constructor_candidate"
+    }
+  ],
+  "verdict": {
+    "Issue[S]^assembly_local": true,
+    "Issue[S]^physical": false,
+    "TI_C020_reopened": false,
+    "assembly_source_fixture_passed_formally": true,
+    "best_result": "The source assembly-index witness survives the targeted local absorbers: projection disclosure, fixed complete assembly space, modeler-added schema, and fixed search are rejected by controls. The surviving trace is formal/local only and lacks W1 plus W4 physical perturbation non-factorization.",
+    "claim_status_change": "none",
+    "next_gate": "oi_lc_assembly_w4_w6_physical_protocol_fixture",
+    "selected_candidate": "assembly_theory_source_assembly_index",
+    "selected_scope": "formal/local source trace, not physical evidence"
+  }
+}

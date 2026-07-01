@@ -1,0 +1,406 @@
+{
+  "comparisons": {
+    "external_trace_equal": true,
+    "fixed_completed_table_absorbs_external_behavior": true,
+    "no_time_column": true,
+    "source_side_residue_found": false,
+    "taF_absorbs_temporal_order": true,
+    "taf_reconstruction_equal": true,
+    "ti_owned_admissibility_provenance_difference": true
+  },
+  "fixture": "record_table_admissibility_vs_taf_reconstruction_v0_1",
+  "models": {
+    "A_fixed_schema": {
+      "append_events": [
+        {
+          "candidate_available_from": 0,
+          "compat_predicate": "seed_row",
+          "event_id": "e_alpha_lock",
+          "fields": {
+            "entity": "alpha",
+            "state": "locked",
+            "value": "A"
+          },
+          "prefix": 0,
+          "row_id": "alpha",
+          "schema_id": "S_seed",
+          "witness_id": "w_alpha_seed"
+        },
+        {
+          "candidate_available_from": 0,
+          "compat_predicate": "seed_row",
+          "event_id": "e_beta_lock",
+          "fields": {
+            "entity": "beta",
+            "state": "locked",
+            "value": "B"
+          },
+          "prefix": 1,
+          "row_id": "beta",
+          "schema_id": "S_seed",
+          "witness_id": "w_beta_seed"
+        },
+        {
+          "candidate_available_from": 0,
+          "compat_predicate": "join_requires_two_locked_inputs",
+          "event_id": "e_join_lock",
+          "fields": {
+            "certificate": "alpha_beta_locked",
+            "entity": "join",
+            "left": "alpha",
+            "right": "beta",
+            "state": "locked"
+          },
+          "prefix": 2,
+          "row_id": "join",
+          "schema_id": "S_fixed_all_columns",
+          "witness_id": "w_join_from_two_locked_inputs"
+        }
+      ],
+      "candidates_by_prefix": {
+        "0": [
+          "alpha",
+          "beta",
+          "join"
+        ],
+        "1": [
+          "alpha",
+          "beta",
+          "join"
+        ],
+        "2": [
+          "alpha",
+          "beta",
+          "join"
+        ]
+      },
+      "columns_by_prefix": {
+        "0": [
+          "entity",
+          "state",
+          "value",
+          "left",
+          "right",
+          "certificate"
+        ],
+        "1": [
+          "entity",
+          "state",
+          "value",
+          "left",
+          "right",
+          "certificate"
+        ],
+        "2": [
+          "entity",
+          "state",
+          "value",
+          "left",
+          "right",
+          "certificate"
+        ]
+      },
+      "compat_formed_at": {
+        "join_requires_two_locked_inputs": 0,
+        "seed_row": 0
+      },
+      "description": "fixed schema, fixed completed candidate table, fixed compatibility predicate",
+      "join_candidate_available_before_inputs": true,
+      "join_compat_fixed_at_start": true,
+      "model_id": "A_fixed_schema",
+      "nonfixed_admissibility_provenance": false,
+      "taf_trace": [
+        {
+          "event_id": "e_alpha_lock",
+          "finality_profile": {
+            "causal": 2,
+            "info": 2
+          },
+          "source_records": [
+            "r_alpha_raw"
+          ],
+          "target_records": [
+            "r_alpha_locked"
+          ]
+        },
+        {
+          "event_id": "e_beta_lock",
+          "finality_profile": {
+            "causal": 1,
+            "info": 3
+          },
+          "source_records": [
+            "r_beta_raw"
+          ],
+          "target_records": [
+            "r_beta_locked"
+          ]
+        },
+        {
+          "event_id": "e_join_lock",
+          "finality_profile": {
+            "causal": 3,
+            "info": 4
+          },
+          "source_records": [
+            "r_alpha_locked",
+            "r_beta_locked",
+            "r_join_raw"
+          ],
+          "target_records": [
+            "r_alpha_locked",
+            "r_beta_locked",
+            "r_join_locked"
+          ]
+        }
+      ],
+      "time_columns_present": []
+    },
+    "B_prefix_formed": {
+      "append_events": [
+        {
+          "candidate_available_from": 0,
+          "compat_predicate": "seed_row",
+          "event_id": "e_alpha_lock",
+          "fields": {
+            "entity": "alpha",
+            "state": "locked",
+            "value": "A"
+          },
+          "prefix": 0,
+          "row_id": "alpha",
+          "schema_id": "S_seed",
+          "witness_id": "w_alpha_seed"
+        },
+        {
+          "candidate_available_from": 0,
+          "compat_predicate": "seed_row",
+          "event_id": "e_beta_lock",
+          "fields": {
+            "entity": "beta",
+            "state": "locked",
+            "value": "B"
+          },
+          "prefix": 1,
+          "row_id": "beta",
+          "schema_id": "S_seed",
+          "witness_id": "w_beta_seed"
+        },
+        {
+          "candidate_available_from": 2,
+          "compat_predicate": "join_requires_two_locked_inputs",
+          "event_id": "e_join_lock",
+          "fields": {
+            "certificate": "alpha_beta_locked",
+            "entity": "join",
+            "left": "alpha",
+            "right": "beta",
+            "state": "locked"
+          },
+          "prefix": 2,
+          "row_id": "join",
+          "schema_id": "S_prefix_join_columns",
+          "witness_id": "w_join_from_two_locked_inputs"
+        }
+      ],
+      "candidates_by_prefix": {
+        "0": [
+          "alpha",
+          "beta"
+        ],
+        "1": [
+          "alpha",
+          "beta"
+        ],
+        "2": [
+          "alpha",
+          "beta",
+          "join"
+        ]
+      },
+      "columns_by_prefix": {
+        "0": [
+          "entity",
+          "state",
+          "value"
+        ],
+        "1": [
+          "entity",
+          "state",
+          "value"
+        ],
+        "2": [
+          "entity",
+          "state",
+          "value",
+          "left",
+          "right",
+          "certificate"
+        ]
+      },
+      "compat_formed_at": {
+        "join_requires_two_locked_inputs": 2,
+        "seed_row": 0
+      },
+      "description": "join candidate and join compatibility predicate are formed only after prefix records",
+      "join_candidate_available_before_inputs": false,
+      "join_compat_fixed_at_start": false,
+      "model_id": "B_prefix_formed",
+      "nonfixed_admissibility_provenance": true,
+      "taf_trace": [
+        {
+          "event_id": "e_alpha_lock",
+          "finality_profile": {
+            "causal": 2,
+            "info": 2
+          },
+          "source_records": [
+            "r_alpha_raw"
+          ],
+          "target_records": [
+            "r_alpha_locked"
+          ]
+        },
+        {
+          "event_id": "e_beta_lock",
+          "finality_profile": {
+            "causal": 1,
+            "info": 3
+          },
+          "source_records": [
+            "r_beta_raw"
+          ],
+          "target_records": [
+            "r_beta_locked"
+          ]
+        },
+        {
+          "event_id": "e_join_lock",
+          "finality_profile": {
+            "causal": 3,
+            "info": 4
+          },
+          "source_records": [
+            "r_alpha_locked",
+            "r_beta_locked",
+            "r_join_raw"
+          ],
+          "target_records": [
+            "r_alpha_locked",
+            "r_beta_locked",
+            "r_join_locked"
+          ]
+        }
+      ],
+      "time_columns_present": []
+    }
+  },
+  "source_artifacts": [
+    "explorations/E103-record-table-taf-boundary-v0-1-definition-2026-06-30.md",
+    "../time-as-finality/results/finali-event-structure-v0.1-results.md",
+    "../time-as-finality/results/reconstruction-without-background-time-v0.1-results.md"
+  ],
+  "taf_reconstruction": {
+    "A_fixed_schema": {
+      "direct_dependencies": [
+        [
+          "e_alpha_lock",
+          "e_join_lock"
+        ],
+        [
+          "e_beta_lock",
+          "e_join_lock"
+        ]
+      ],
+      "events": [
+        "e_alpha_lock",
+        "e_beta_lock",
+        "e_join_lock"
+      ],
+      "incomparable_pairs": [
+        [
+          "e_alpha_lock",
+          "e_beta_lock"
+        ]
+      ],
+      "order_pairs": [
+        [
+          "e_alpha_lock",
+          "e_alpha_lock"
+        ],
+        [
+          "e_alpha_lock",
+          "e_join_lock"
+        ],
+        [
+          "e_beta_lock",
+          "e_beta_lock"
+        ],
+        [
+          "e_beta_lock",
+          "e_join_lock"
+        ],
+        [
+          "e_join_lock",
+          "e_join_lock"
+        ]
+      ],
+      "uses_time_column": false
+    },
+    "B_prefix_formed": {
+      "direct_dependencies": [
+        [
+          "e_alpha_lock",
+          "e_join_lock"
+        ],
+        [
+          "e_beta_lock",
+          "e_join_lock"
+        ]
+      ],
+      "events": [
+        "e_alpha_lock",
+        "e_beta_lock",
+        "e_join_lock"
+      ],
+      "incomparable_pairs": [
+        [
+          "e_alpha_lock",
+          "e_beta_lock"
+        ]
+      ],
+      "order_pairs": [
+        [
+          "e_alpha_lock",
+          "e_alpha_lock"
+        ],
+        [
+          "e_alpha_lock",
+          "e_join_lock"
+        ],
+        [
+          "e_beta_lock",
+          "e_beta_lock"
+        ],
+        [
+          "e_beta_lock",
+          "e_join_lock"
+        ],
+        [
+          "e_join_lock",
+          "e_join_lock"
+        ]
+      ],
+      "uses_time_column": false
+    }
+  },
+  "verdict": {
+    "Finalize[R]": true,
+    "Issue[S]": false,
+    "Lose[K]": true,
+    "Project[O]": true,
+    "best_result": "TaF absorbs downstream temporal reconstruction; TI-owned difference is admissibility provenance only, and this fixture does not defeat fixed-table absorption.",
+    "claim_status_change": "none",
+    "next_gate": "record_table_no_fixed_schema_witness_or_demote"
+  }
+}

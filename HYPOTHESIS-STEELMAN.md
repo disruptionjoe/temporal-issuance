@@ -2,11 +2,12 @@
 artifact_type: hypothesis_steelman
 status: active
 governance_role: strongest_current_formulation
-last_updated_by: RUN-0081
+last_updated_by: RUN-0100
 claim_refs:
   - TI-C001
   - TI-C003
   - TI-C019
+  - TI-C020
   - TI-C007
   - TI-C008
 constitutional: false
@@ -208,6 +209,373 @@ The sequence narrowed the claim:
 
 This gives `Ext_S` a sharper target: prove, machine-check, or refute the local constructive
 witness discipline.
+
+RUN-0097 machine-check result:
+
+The E090 witness schema now has executable small-calculus support:
+
+```yaml
+schema_machine_checked: true
+local_constructive_witness_passes: true
+internal_future_oracle_rejected: true
+external_platonist_absorber_still_available: true
+Issue[S]^LC: true
+Issue[S]^physical: false
+```
+
+Plainly:
+
+```text
+Inside the local constructive source class, a present enumeration can be answered by a diagonal
+admissible successor with a witness and recordable trace.
+```
+
+But the scope remains narrow:
+
+```text
+This is not a Lean/Coq theorem, not a physical bridge, and not a defeat of external completed
+future readings. It strengthens the formal residue only.
+```
+
+## RecordTableSystem Working Steelman (RUN-0090)
+
+Joe's current clearest working formulation is:
+
+```text
+Dimensions are columns.
+Time is row append.
+Time is not one of the columns.
+```
+
+The strongest non-constitutional version is:
+
+```text
+Reality is a shared record system.
+Dimensions are fields / columns in the record schema.
+Time is the authoritative append / ordering / finality process by which compatible records
+enter shared history.
+Observers render local 4D interfaces from that record process.
+```
+
+This should not be read as a hidden universal clock. The append/order/finality structure may
+be partial, observer-indexed, compatibility-indexed, or finality-indexed. Coordinate time is a
+rendered variable inside observer interfaces, not the primitive column that makes records
+temporal.
+
+Working hypotheses:
+
+- past = committed rows with high dependency / reversal cost;
+- future = compatible continuations not yet appended or finalized;
+- matter = persistent, cross-observer-stable, action-constraining rendered row structure;
+- quantum mechanics = possible boundary/leakage between rendered 4D interface and deeper
+  compatibility structure;
+- relativity = consistency discipline for observer renderings without a universal clock.
+
+Primary absorber threats:
+
+- ordinary database/log/git/ledger semantics;
+- fixed completed table / block universe;
+- fixed richer source plus changing access;
+- fixed-H quantum mechanics with changing record maps;
+- Minkowski-first or GR-first geometry with record-table language added afterward;
+- evolved-perception-only account.
+
+The next target is not claim promotion. It is the absorber-gated route in
+`explorations/E101-record-table-hypothesis-set-2026-06-30.md`: define
+`RecordTableSystem v0.1`, build a no-time-column temporal-query fixture, and decide whether
+anything remains beyond append-log semantics.
+
+RUN-0092 boundary correction:
+
+Time as Finality already owns record-finality reconstruction without background time (TaF
+T48/T49). The strongest TI version is therefore narrower:
+
+```text
+RecordTableSystem^TI is about schema/admissibility/append before records enter TaF.
+```
+
+The first nonduplicative target is not "recover temporal order from records." It is:
+
+```text
+Can two systems with the same TaF-reconstructable trace differ because one requires nonfixed
+Compat_n, Cand_n, Schema_n, or Witness_n?
+```
+
+If fixed schema/table/access plus TaF reconstruction reproduces all behavior, record-table TI
+collapses to TaF/log/database vocabulary.
+
+RUN-0093 executed the first fixture. It found:
+
+```yaml
+TaF_absorbs_temporal_order: true
+admissibility_provenance_difference: true
+fixed_completed_table_absorbs_external_behavior: true
+Issue[S]: false
+```
+
+The strongest surviving version is therefore narrower still:
+
+```text
+The record-table route is live only if an admissibility-formation record cannot be represented
+as fixed completed table/schema/access/oracle metadata.
+```
+
+RUN-0094 bigger-swing campaign:
+
+The next serious attempt is not to add more interpretive language. It is to make formation
+events explicit and attack fixed precontainment:
+
+```text
+form_schema
+form_candidate
+form_compat
+form_witness
+```
+
+The route survives only if those records cannot be mapped into a fixed universal schema, fixed
+proof registry, fixed latent table, or fixed-access disclosure while preserving prefix
+availability and witness dependencies. If that fails, record-table TI should be demoted to
+TaF/log/database vocabulary. If it succeeds or leaves a sharp residue, the next move is to lift
+the object into `OnlineIssuance^LC` rather than jump directly to physics.
+
+RUN-0095 no-fixed-schema gauntlet:
+
+The formation-record version was tested and absorbed:
+
+```yaml
+formation_records_first_class: true
+all_fixed_precontainment_absorbers_succeed: true
+prefix_availability_preserved_by_absorbers: true
+source_side_residue_found: false
+Issue[S]: false
+```
+
+The key learning is that fixed precontainment does not have to make an object usable early. It
+can precontain the completed object while preserving a separate availability or usability record.
+That absorbs `form_schema`, `form_candidate`, `form_compat`, and `form_witness`.
+
+So the strongest surviving statement is now weaker:
+
+```text
+Record-table language is useful as an explanatory/interface vocabulary, but it is not an
+independent source-side route unless an OnlineIssuance^LC lift adds formal surplus over E091.
+```
+
+RUN-0096 OnlineIssuance lift-or-demote:
+
+The lift succeeded as a mapping and failed as a source-side advance:
+
+```yaml
+record_table_is_online_issuance_interface: true
+fails_no_hidden_oracle_gate: true
+productive_self_encoding_witness_present: false
+adds_formal_surplus_over_e091: false
+record_table_archive_as_vocabulary: true
+```
+
+This preserves the plain-English insight:
+
+```text
+Dimensions can be treated as columns.
+Time can be treated as append/finality rather than a column.
+Formation records can make admissibility visible.
+```
+
+But it assigns the formal burden correctly:
+
+```text
+OnlineIssuance^LC owns the source-side residue.
+TaF owns temporal reconstruction.
+Record-table owns interface vocabulary.
+```
+
+RUN-0098 big-swing campaign:
+
+The next ambitious move is not another record-table formulation. It is to test whether the
+formal `OnlineIssuance^LC` residue can even state a non-circular physical adapter:
+
+```text
+Adapter_P:
+  physical candidate trace -> (Gamma_n, Adm_n, e_n, w_n, Gamma_{n+1}, tau_n)
+```
+
+under the W1-W6 source-witness gate:
+
+```text
+non-isomorphic algebra
+new admissibility predicate
+construction-space growth
+perturbation non-factorization
+record preservation
+gauge/name absorber pass
+```
+
+If no such adapter can be stated, TI-C020 remains parked and the main output should become the
+formal OnlineIssuance verdict bundle. If the adapter can be stated, the next move is candidate
+scouting and then a best-candidate absorber fixture.
+
+RUN-0099 physical adapter contract:
+
+The adapter can be stated:
+
+```text
+Adapter_P:
+  physical candidate trace -> Gamma_n, Adm_n, e_n, w_n, Gamma_{n+1}, tau_n
+```
+
+It rejects fixed-H/readout traces unless they supply:
+
+```text
+W1/W2/W3 source-growth core
+W4/W5/W6 absorber controls
+fixed-source absorber defeat
+no hidden oracle
+source-generated new class
+```
+
+The result is disciplined but not evidential:
+
+```yaml
+adapter_contract_exists: true
+Issue[S]^physical: false
+TI_C020_reopened: false
+next_gate: oi_lc_candidate_scout_w1_w6_table
+```
+
+RUN-0100 persona missing-piece pass:
+
+The 63-persona panel steelmanned what `Adapter_P` still lacks before candidate scouting:
+
+```text
+invariant layer
+witness/proof layer
+null-model layer
+record/provenance layer
+intervention/perturbation layer
+gauge/access/language layer
+stop-rule layer
+```
+
+The Hegelian synthesis:
+
+```text
+Adapter_P is valid as a gate, but incomplete as a scouting instrument until W1-W6 become
+operational scoring fields.
+```
+
+So the next scout must score candidate families by adapter mapping, W1-W6 evidence,
+fixed-source absorber defeat, and stop-rule verdict. It should not be a narrative survey.
+
+RUN-0101 candidate scout:
+
+The structured `Adapter_P` scout scores seven candidate families:
+
+```text
+quantum measurement/contextuality
+causal-set or sequential growth
+holographic/boundary encoding
+GU missing-piece adapter language
+Assembly Theory source assembly index
+quantum-biological / Orch-OR substrate
+dual-record adjacent-possible graphs
+```
+
+Verdict:
+
+```yaml
+fixture_candidate: assembly_theory_source_assembly_index
+fixture_candidate_is_evidence: false
+parked:
+  - causal_set_sequential_growth
+  - gu_missing_piece_adapter_language
+killed_shortcut:
+  - quantum_measurement_contextuality
+  - holographic_boundary_encoding
+  - quantum_biological_orch_or_substrate
+  - dual_record_adjacent_possible_graphs_current_form
+Issue[S]^physical: false
+TI_C020_reopened: false
+next_gate: oi_lc_assembly_source_adapter_fixture
+```
+
+The interesting residue is narrow:
+
+```text
+Assembly Theory can state a concrete W2/W3 obligation:
+AI_src,n undefined -> AI_src,n+1 defined.
+```
+
+That does not prove source issuance. It only gives the next fixture something sharp to attack:
+fixed complete assembly space, bounded access to `Mu_infty`, experimenter-added schema, and
+fixed stochastic/search-process absorbers.
+
+RUN-0102 Assembly source adapter fixture:
+
+The fixture attacks that residue with an executable assembly-index calculus:
+
+```text
+Gamma_n:
+  seeds A, B, C
+  join_ab(A, B) -> AB
+  AI_src,n(ABC) undefined
+
+Gamma_{n+1}:
+  source-generated bind_c(AB, C) -> ABC
+  AI_src,n+1(ABC) = 2
+```
+
+It rejects four false positives:
+
+```text
+projection/access D4
+fixed complete assembly space
+experimenter/modeler-added schema
+fixed search/discovery process
+```
+
+Verdict:
+
+```yaml
+Issue[S]^assembly_local: true
+Issue[S]^physical: false
+TI_C020_reopened: false
+next_gate: oi_lc_assembly_w4_w6_physical_protocol_fixture
+```
+
+So Assembly Theory now has a formal/local W2/W3 witness shape. It still does not supply W1
+non-isomorphic algebra growth, W4 perturbation non-factorization, or a real physical candidate.
+
+RUN-0103 Assembly W4-W6 physical protocol fixture:
+
+The bigger physical-protocol pass tests whether Assembly can add the missing physical controls:
+
+```text
+chemical reaction network trace
+high-throughput search trace
+evolutionary biosynthesis trace
+instrument/schema update trace
+formal local E113 trace
+strict positive schematic shape
+```
+
+Verdict:
+
+```yaml
+all_real_physical_attempts_absorbed: true
+w1_real_physical_candidate_found: false
+w4_real_physical_protocol_found: false
+w5_record_preservation_available_for_real_attempts: true
+w6_real_physical_absorber_defeat_found: false
+assembly_current_scope: formal_local_w2_w3_only
+Issue[S]^physical: false
+TI_C020_reopened: false
+next_gate: proof_assistant_online_issuance_witness
+```
+
+This closes Assembly Theory as a current physical bridge. It remains good formal/local W2/W3
+language, but empirical Assembly traces currently factor through fixed chemistry, fixed
+observable algebra, fixed search/stochastic exploration, bounded access, or instrument/modeler
+schema.
 
 ## Research Posture
 

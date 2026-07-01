@@ -1,0 +1,229 @@
+{
+  "absorber_nulls": [
+    {
+      "absorber_id": "fixed_H_infty",
+      "null_model": "fixed Hilbert/state space with evolving state or access maps",
+      "rejection_condition": "candidate cannot factor through fixed H_infty while preserving records"
+    },
+    {
+      "absorber_id": "fixed_A_infty",
+      "null_model": "fixed observable algebra with subalgebra, context, or representation changes",
+      "rejection_condition": "candidate supplies non-isomorphic algebra/admissibility not representable in A_infty"
+    },
+    {
+      "absorber_id": "fixed_instrument_family",
+      "null_model": "fixed POVM/channel/instrument family plus protocol selection",
+      "rejection_condition": "candidate's instrument or observable type is source-generated, not selected"
+    },
+    {
+      "absorber_id": "fixed_stochastic_or_collapse_law",
+      "null_model": "fixed stochastic, collapse, or open-system law",
+      "rejection_condition": "candidate cannot be reproduced as sampling or collapse inside a fixed law"
+    },
+    {
+      "absorber_id": "fixed_boundary_or_holographic_completion",
+      "null_model": "fixed richer boundary/source containing the trace",
+      "rejection_condition": "candidate blocks precontainment by a boundary or completed source object"
+    },
+    {
+      "absorber_id": "bounded_access_to_Mu_infty",
+      "null_model": "fixed richer Mu_infty plus changing observer/process access",
+      "rejection_condition": "candidate changes source admissibility rather than access to pre-existing structure"
+    },
+    {
+      "absorber_id": "experimenter_added_schema",
+      "null_model": "new observables introduced by measurement design or modeler vocabulary",
+      "rejection_condition": "candidate shows the physical source forms the new class without experimenter addition"
+    }
+  ],
+  "adapter_contract": {
+    "acceptance_rule": "A real physical candidate passes only if all adapter fields map, at least one W1-W3 source-growth core witness is supplied, W4-W6 absorber controls are supplied, every fixed-source absorber is defeated, no hidden oracle remains, and the new class is source-generated rather than experimenter-added.",
+    "adapter_id": "Adapter_P",
+    "source": "physical candidate trace",
+    "target": {
+      "Adm_n": "admissibility predicate formed inside Gamma_n",
+      "Gamma_n": "physical source context available at prefix n",
+      "Gamma_n_plus_1": "successor source context after accepted extension",
+      "e_n": "candidate physical source extension",
+      "tau_n": "recordable source trace sufficient for projection/finality audit",
+      "w_n": "witness term for Adm_n(e_n)"
+    }
+  },
+  "candidate_controls": [
+    {
+      "absorber_defeats": {
+        "bounded_access_to_Mu_infty": false,
+        "experimenter_added_schema": false,
+        "fixed_A_infty": false,
+        "fixed_H_infty": false,
+        "fixed_boundary_or_holographic_completion": false,
+        "fixed_instrument_family": false,
+        "fixed_stochastic_or_collapse_law": false
+      },
+      "candidate_id": "negative_fixed_h_readout",
+      "description": "A predictive-to-accessible physical trace that maps records but remains fixed-H, fixed-A, fixed-instrument readout.",
+      "mapped_fields": {
+        "Adm_n": true,
+        "Gamma_n": true,
+        "Gamma_n_plus_1": true,
+        "e_n": true,
+        "tau_n": true,
+        "w_n": true
+      },
+      "no_hidden_oracle": false,
+      "real_physical_candidate": true,
+      "source_generated": false,
+      "witness_claims": {
+        "W1": false,
+        "W2": false,
+        "W3": false,
+        "W4": false,
+        "W5": true,
+        "W6": false
+      }
+    },
+    {
+      "absorber_defeats": {
+        "bounded_access_to_Mu_infty": true,
+        "experimenter_added_schema": true,
+        "fixed_A_infty": true,
+        "fixed_H_infty": true,
+        "fixed_boundary_or_holographic_completion": true,
+        "fixed_instrument_family": true,
+        "fixed_stochastic_or_collapse_law": true
+      },
+      "candidate_id": "schematic_positive_adapter_shape",
+      "description": "A schematic, not-yet-instantiated shape showing the contract is satisfiable if a future candidate supplies W1-W6 and defeats every fixed-source null.",
+      "mapped_fields": {
+        "Adm_n": true,
+        "Gamma_n": true,
+        "Gamma_n_plus_1": true,
+        "e_n": true,
+        "tau_n": true,
+        "w_n": true
+      },
+      "no_hidden_oracle": true,
+      "real_physical_candidate": false,
+      "source_generated": true,
+      "witness_claims": {
+        "W1": true,
+        "W2": true,
+        "W3": true,
+        "W4": true,
+        "W5": true,
+        "W6": true
+      }
+    }
+  ],
+  "candidate_evaluations": [
+    {
+      "absorber_control_supplied": false,
+      "adapter_contract_passed": false,
+      "all_absorbers_defeated": false,
+      "all_adapter_fields_mapped": true,
+      "candidate_id": "negative_fixed_h_readout",
+      "no_hidden_oracle": false,
+      "physical_source_issuance_established": false,
+      "real_physical_candidate": true,
+      "reason": "no W1-W3 source-growth core witness supplied",
+      "source_generated": false,
+      "source_growth_core_supplied": false
+    },
+    {
+      "absorber_control_supplied": true,
+      "adapter_contract_passed": true,
+      "all_absorbers_defeated": true,
+      "all_adapter_fields_mapped": true,
+      "candidate_id": "schematic_positive_adapter_shape",
+      "no_hidden_oracle": true,
+      "physical_source_issuance_established": false,
+      "real_physical_candidate": false,
+      "reason": "schematic adapter shape passes but is not a real physical candidate",
+      "source_generated": true,
+      "source_growth_core_supplied": true
+    }
+  ],
+  "comparisons": {
+    "absorber_control_requires_w4_w5_w6": true,
+    "adapter_fields_defined": [
+      "Adm_n",
+      "Gamma_n",
+      "Gamma_n_plus_1",
+      "e_n",
+      "tau_n",
+      "w_n"
+    ],
+    "all_required_adapter_fields_defined": true,
+    "candidate_selected_for_fixture": false,
+    "contract_well_formed": true,
+    "fixed_source_absorber_nulls_defined": true,
+    "negative_fixed_h_control_rejected": true,
+    "negative_fixed_h_reason": "no W1-W3 source-growth core witness supplied",
+    "physical_source_issuance_established": false,
+    "schematic_positive_is_real_candidate": false,
+    "schematic_positive_shape_admitted": true,
+    "source_growth_core_requires_w1_or_w2_or_w3": true,
+    "w1_w6_gate_defined": true,
+    "w1_w6_gate_ids": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6"
+    ]
+  },
+  "fixture": "online_issuance_lc_physical_adapter_contract_v0_1",
+  "source_artifacts": [
+    "explorations/E057-ti-c020-fixed-h-vs-h-growing-six-axis-fixture-2026-06-24.md",
+    "explorations/E108-online-issuance-witness-machine-check-2026-07-01.md",
+    "explorations/E109-online-issuance-big-swing-campaign-2026-07-01.md"
+  ],
+  "verdict": {
+    "Issue[S]^LC": true,
+    "Issue[S]^physical": false,
+    "TI_C020_reopened": false,
+    "adapter_contract_exists": true,
+    "best_result": "A non-circular Adapter_P contract can be stated. It rejects fixed-H/readout controls and admits only candidates that supply a W1-W3 source-growth core, W4-W6 absorber controls, no hidden oracle, source generation, and fixed-source absorber defeat.",
+    "claim_status_change": "none",
+    "next_gate": "oi_lc_candidate_scout_w1_w6_table"
+  },
+  "witness_gates": [
+    {
+      "gate_id": "W1",
+      "name": "non_isomorphic_algebra",
+      "requirement": "A_{n+1} is not isomorphic to a restriction, subalgebra, completion, representation change, or coarse-graining of fixed A_infty while preserving records.",
+      "role": "source_growth_core"
+    },
+    {
+      "gate_id": "W2",
+      "name": "new_admissibility_predicate",
+      "requirement": "Adm_{n+1} decides a new observable, instrument, or construction class not decidable or pre-enumerable by Adm_infty.",
+      "role": "source_growth_core"
+    },
+    {
+      "gate_id": "W3",
+      "name": "construction_space_growth",
+      "requirement": "The physical source constructs an observable or instrument type whose construction term was not present in the prior physical/source formalism.",
+      "role": "source_growth_core"
+    },
+    {
+      "gate_id": "W4",
+      "name": "perturbation_non_factorization",
+      "requirement": "Perturbation effects cannot be reproduced by parameter, coupling, channel, decoherence, collapse-rate, or biochemical changes inside fixed structure.",
+      "role": "absorber_control"
+    },
+    {
+      "gate_id": "W5",
+      "name": "record_preservation",
+      "requirement": "The growing-structure reading preserves the same record maps and observed perturbation effects better than every fixed-H absorber.",
+      "role": "absorber_control"
+    },
+    {
+      "gate_id": "W6",
+      "name": "gauge_absorption_pass",
+      "requirement": "The claimed growth is not an observer-name change, schema relabeling, measurement-context bookkeeping, or AB-style fixed-cover contextuality effect.",
+      "role": "absorber_control"
+    }
+  ]
+}

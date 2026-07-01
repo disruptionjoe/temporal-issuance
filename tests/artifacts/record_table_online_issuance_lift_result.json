@@ -1,0 +1,156 @@
+{
+  "comparisons": {
+    "adds_formal_surplus_over_e091": false,
+    "component_mapping_total": true,
+    "fails_no_hidden_oracle_gate": true,
+    "inherits_e091_residue_without_extra_axioms": false,
+    "physics_adapter_route_closed_for_record_table": true,
+    "productive_self_encoding_witness_present": false,
+    "properness_gates_pass_without_extra_axioms": false,
+    "record_table_archive_as_vocabulary": true,
+    "record_table_is_online_issuance_interface": true,
+    "source_side_residue_found": false
+  },
+  "component_mapping": [
+    {
+      "formal_surplus_over_e091": false,
+      "mapping": "available row fields, declarations, compatibility objects, and proof records become the prefix-presented context",
+      "online_issuance_component": "Gamma_n",
+      "record_table_component": "Schema_n",
+      "status": "maps_cleanly"
+    },
+    {
+      "formal_surplus_over_e091": false,
+      "mapping": "candidate row/schema updates become candidate source extensions",
+      "online_issuance_component": "CandExt(Gamma_n)",
+      "record_table_component": "Cand_n",
+      "status": "maps_cleanly"
+    },
+    {
+      "formal_surplus_over_e091": false,
+      "mapping": "row compatibility becomes the admissibility predicate for candidate extensions",
+      "online_issuance_component": "Adm_n",
+      "record_table_component": "Compat_n",
+      "status": "maps_cleanly"
+    },
+    {
+      "formal_surplus_over_e091": false,
+      "mapping": "a witnessed append becomes a source-extension step when it passes the properness gate",
+      "online_issuance_component": "Iss_n / e_n",
+      "record_table_component": "Append_n",
+      "status": "maps_cleanly"
+    },
+    {
+      "formal_surplus_over_e091": false,
+      "mapping": "formation and append witnesses become proof terms inhabiting admissibility",
+      "online_issuance_component": "w_n : Adm_n(e_n)",
+      "record_table_component": "Witness_n",
+      "status": "maps_cleanly"
+    },
+    {
+      "formal_surplus_over_e091": false,
+      "mapping": "row and formation records become the recordable source trace",
+      "online_issuance_component": "tau_n",
+      "record_table_component": "Trace_n",
+      "status": "maps_cleanly"
+    },
+    {
+      "formal_surplus_over_e091": false,
+      "mapping": "observer rendering and finality reconstruction become projection and downstream gluing",
+      "online_issuance_component": "Proj_{o,n} / Glue_n",
+      "record_table_component": "Project_i,n / TaF_i,n",
+      "status": "maps_cleanly"
+    }
+  ],
+  "fixture": "record_table_online_issuance_lift_or_demote_v0_1",
+  "properness_gates": [
+    {
+      "basis": "the prefix model explicitly distinguishes formed and unformed schema/candidate/compatibility objects",
+      "gate_id": "P1",
+      "passed_by_record_table": true,
+      "required_for_e091_residue": true,
+      "requirement": "formed present domain"
+    },
+    {
+      "basis": "f_witness_join records an admissibility witness for the join append",
+      "gate_id": "P2",
+      "passed_by_record_table": true,
+      "required_for_e091_residue": true,
+      "requirement": "witnessed extension"
+    },
+    {
+      "basis": "the join schema, candidate, compatibility predicate, and witness are unavailable before prefix 2",
+      "gate_id": "P3",
+      "passed_by_record_table": true,
+      "required_for_e091_residue": true,
+      "requirement": "prior-context unavailability"
+    },
+    {
+      "basis": "E106 shows fixed universal schema, fixed proof registry, fixed latent table, and fixed richer source plus changing access all preserve the record-table trace",
+      "gate_id": "P4",
+      "passed_by_record_table": false,
+      "required_for_e091_residue": true,
+      "requirement": "no internally formed hidden completed oracle"
+    },
+    {
+      "basis": "row records, formation records, and the TaF trace are explicitly emitted",
+      "gate_id": "P5",
+      "passed_by_record_table": true,
+      "required_for_e091_residue": true,
+      "requirement": "recordability for projection/finality audit"
+    }
+  ],
+  "source_artifacts": [
+    "explorations/E091-online-issuance-verdict-and-formal-object-rewrite-2026-06-25.md",
+    "explorations/E106-record-table-no-fixed-schema-witness-or-demote-2026-06-30.md",
+    "tools/record_table_no_fixed_schema_gauntlet.py"
+  ],
+  "surplus_checks": [
+    {
+      "adds_surplus": false,
+      "feature": "dimensions as columns",
+      "online_issuance_owner": "Gamma_n declarations",
+      "record_table_contribution": "helpful interface language for typed record fields"
+    },
+    {
+      "adds_surplus": false,
+      "feature": "time is append/finality, not a column",
+      "online_issuance_owner": "tau_n plus downstream Proj/Glue/TaF",
+      "record_table_contribution": "useful anti-clock discipline, but no new source discriminator"
+    },
+    {
+      "adds_surplus": false,
+      "feature": "formation records",
+      "online_issuance_owner": "tau_n and w_n : Adm_n(e_n)",
+      "record_table_contribution": "good concrete trace format for admissibility formation"
+    },
+    {
+      "adds_surplus": false,
+      "feature": "observer rendering",
+      "online_issuance_owner": "Proj_{o,n} and Glue_n",
+      "record_table_contribution": "clear observer-interface vocabulary"
+    },
+    {
+      "adds_surplus": false,
+      "feature": "fixed precontainment resistance",
+      "online_issuance_owner": "P4 no-hidden-completed-oracle discipline",
+      "record_table_contribution": "does not supply the discipline; E106 shows fixed absorbers succeed"
+    },
+    {
+      "adds_surplus": false,
+      "feature": "productive/self-encoding witness",
+      "online_issuance_owner": "E090 diagonal local-constructive witness",
+      "record_table_contribution": "not present in the record-table join fixture"
+    }
+  ],
+  "verdict": {
+    "Finalize[R]": true,
+    "Issue[S]": false,
+    "Lose[K]": true,
+    "Project[O]": true,
+    "best_result": "RecordTableSystem^TI maps cleanly into OnlineIssuance^LC as an interface, but it does not add no-hidden-oracle discipline, self-encoding admissibility, or a productive witness beyond E091.",
+    "claim_status_change": "none",
+    "demote_record_table_ti": true,
+    "next_gate": "machine_check_online_issuance_witness_or_frontier_rerank"
+  }
+}

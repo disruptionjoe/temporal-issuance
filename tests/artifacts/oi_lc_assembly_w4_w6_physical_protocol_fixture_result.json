@@ -1,0 +1,361 @@
+{
+  "comparisons": {
+    "TI_C020_reopened": false,
+    "all_attempts_have_adapter_mapping": true,
+    "all_real_physical_attempts_absorbed": true,
+    "assembly_current_scope": "formal_local_w2_w3_only",
+    "assembly_physical_bridge_currently_closed": true,
+    "attempt_count": 6,
+    "formal_local_is_not_physical": true,
+    "formal_local_w2_w3_preserved": true,
+    "next_gate": "proof_assistant_online_issuance_witness",
+    "physical_protocol_candidate_ids": [
+      "chemistry_reaction_network_trace",
+      "high_throughput_search_trace",
+      "evolutionary_biosynthesis_trace",
+      "instrument_schema_update_trace"
+    ],
+    "physical_source_issuance_established": false,
+    "real_physical_attempt_count": 4,
+    "schematic_positive_is_real_candidate": false,
+    "schematic_positive_shape_passes_adapter_gate": true,
+    "w1_real_physical_candidate_found": false,
+    "w4_real_physical_protocol_found": false,
+    "w5_record_preservation_available_for_real_attempts": true,
+    "w6_real_physical_absorber_defeat_found": false
+  },
+  "evaluations": [
+    {
+      "adapter_contract_passed_by_real_candidate": false,
+      "adapter_gate_shape_passed": false,
+      "all_adapter_fields_mapped": true,
+      "attempt_id": "chemistry_reaction_network_trace",
+      "no_hidden_oracle": false,
+      "physical_source_issuance_established": false,
+      "real_physical_candidate": true,
+      "reason": "the trace factors through fixed chemistry or a fixed reaction network",
+      "source_generated": false,
+      "source_growth_core_supplied": false,
+      "targeted_absorbers_defeated": false,
+      "verdict": "absorbed_fixed_chemistry",
+      "w1_supplied": false,
+      "w2_w3_supplied": false,
+      "w4_physical_protocol_supplied": false,
+      "w5_record_preservation_supplied": true,
+      "w6_absorber_control_supplied": false
+    },
+    {
+      "adapter_contract_passed_by_real_candidate": false,
+      "adapter_gate_shape_passed": false,
+      "all_adapter_fields_mapped": true,
+      "attempt_id": "high_throughput_search_trace",
+      "no_hidden_oracle": false,
+      "physical_source_issuance_established": false,
+      "real_physical_candidate": true,
+      "reason": "the trace factors through fixed search, sampling, stochastic, or evolutionary dynamics",
+      "source_generated": false,
+      "source_growth_core_supplied": false,
+      "targeted_absorbers_defeated": false,
+      "verdict": "absorbed_fixed_search_or_evolutionary_process",
+      "w1_supplied": false,
+      "w2_w3_supplied": false,
+      "w4_physical_protocol_supplied": false,
+      "w5_record_preservation_supplied": true,
+      "w6_absorber_control_supplied": false
+    },
+    {
+      "adapter_contract_passed_by_real_candidate": false,
+      "adapter_gate_shape_passed": false,
+      "all_adapter_fields_mapped": true,
+      "attempt_id": "evolutionary_biosynthesis_trace",
+      "no_hidden_oracle": false,
+      "physical_source_issuance_established": false,
+      "real_physical_candidate": true,
+      "reason": "the trace factors through fixed search, sampling, stochastic, or evolutionary dynamics",
+      "source_generated": false,
+      "source_growth_core_supplied": false,
+      "targeted_absorbers_defeated": false,
+      "verdict": "absorbed_fixed_search_or_evolutionary_process",
+      "w1_supplied": false,
+      "w2_w3_supplied": false,
+      "w4_physical_protocol_supplied": false,
+      "w5_record_preservation_supplied": true,
+      "w6_absorber_control_supplied": false
+    },
+    {
+      "adapter_contract_passed_by_real_candidate": false,
+      "adapter_gate_shape_passed": false,
+      "all_adapter_fields_mapped": true,
+      "attempt_id": "instrument_schema_update_trace",
+      "no_hidden_oracle": true,
+      "physical_source_issuance_established": false,
+      "real_physical_candidate": true,
+      "reason": "the change is introduced by analysis, instrument, or modeler schema",
+      "source_generated": false,
+      "source_growth_core_supplied": false,
+      "targeted_absorbers_defeated": false,
+      "verdict": "absorbed_experimenter_or_instrument_schema",
+      "w1_supplied": false,
+      "w2_w3_supplied": false,
+      "w4_physical_protocol_supplied": false,
+      "w5_record_preservation_supplied": true,
+      "w6_absorber_control_supplied": false
+    },
+    {
+      "adapter_contract_passed_by_real_candidate": false,
+      "adapter_gate_shape_passed": false,
+      "all_adapter_fields_mapped": true,
+      "attempt_id": "formal_local_assembly_trace_from_e113",
+      "no_hidden_oracle": true,
+      "physical_source_issuance_established": false,
+      "real_physical_candidate": false,
+      "reason": "no perturbation protocol defeats fixed chemistry/search/schema factorizations",
+      "source_generated": true,
+      "source_growth_core_supplied": true,
+      "targeted_absorbers_defeated": true,
+      "verdict": "rejected_no_w4_physical_protocol",
+      "w1_supplied": false,
+      "w2_w3_supplied": true,
+      "w4_physical_protocol_supplied": false,
+      "w5_record_preservation_supplied": true,
+      "w6_absorber_control_supplied": true
+    },
+    {
+      "adapter_contract_passed_by_real_candidate": false,
+      "adapter_gate_shape_passed": true,
+      "all_adapter_fields_mapped": true,
+      "attempt_id": "strict_positive_physical_protocol_shape",
+      "no_hidden_oracle": true,
+      "physical_source_issuance_established": false,
+      "real_physical_candidate": false,
+      "reason": "Adapter_P shape passes, but no real physical candidate is supplied",
+      "source_generated": true,
+      "source_growth_core_supplied": true,
+      "targeted_absorbers_defeated": true,
+      "verdict": "schematic_or_formal_only",
+      "w1_supplied": true,
+      "w2_w3_supplied": true,
+      "w4_physical_protocol_supplied": true,
+      "w5_record_preservation_supplied": true,
+      "w6_absorber_control_supplied": true
+    }
+  ],
+  "fixture": "oi_lc_assembly_w4_w6_physical_protocol_fixture_v0_1",
+  "physical_absorbers": [
+    "fixed_chemistry_or_reaction_network",
+    "bounded_sampling_or_database_access",
+    "experimenter_or_instrument_schema",
+    "fixed_stochastic_or_search_process",
+    "fixed_observable_algebra"
+  ],
+  "protocol_attempts": [
+    {
+      "absorber_results": {
+        "bounded_sampling_or_database_access": false,
+        "experimenter_or_instrument_schema": false,
+        "fixed_chemistry_or_reaction_network": true,
+        "fixed_observable_algebra": true,
+        "fixed_stochastic_or_search_process": false
+      },
+      "adapter_mapping": {
+        "Adm_n": "partial: admissible products are determined by fixed chemistry and protocol constraints",
+        "Gamma_n": "partial: current physical reaction context, reagents, catalysts, and instrument records",
+        "Gamma_n_plus_1": "partial: updated reaction state or record set after product formation",
+        "e_n": "partial: observed product class or synthesis step",
+        "tau_n": "supplied: reaction log, spectra, product identity, and assembly-index record",
+        "w_n": "partial: lab trace showing product detection and assembly-index assignment"
+      },
+      "attempt_id": "chemistry_reaction_network_trace",
+      "domain": "chemical synthesis / molecular assembly records",
+      "no_hidden_oracle": false,
+      "real_physical_candidate": true,
+      "record_trace": "reaction log plus spectra preserve the observed product, but not source issuance",
+      "source_generated": false,
+      "trace_claim": "A molecule with higher assembly index appears after a reagent, catalyst, temperature, or pathway perturbation.",
+      "witness_claims": {
+        "W1": false,
+        "W2": false,
+        "W3": false,
+        "W4": false,
+        "W5": true,
+        "W6": false
+      }
+    },
+    {
+      "absorber_results": {
+        "bounded_sampling_or_database_access": true,
+        "experimenter_or_instrument_schema": false,
+        "fixed_chemistry_or_reaction_network": false,
+        "fixed_observable_algebra": true,
+        "fixed_stochastic_or_search_process": true
+      },
+      "adapter_mapping": {
+        "Adm_n": "partial: admissibility is fixed by the search objective and detection threshold",
+        "Gamma_n": "partial: current sample library, search protocol, and scoring rule",
+        "Gamma_n_plus_1": "partial: expanded discovered set",
+        "e_n": "partial: newly found object or synthesis recipe",
+        "tau_n": "supplied: search log, hit record, and analysis output",
+        "w_n": "partial: search run record and detection certificate"
+      },
+      "attempt_id": "high_throughput_search_trace",
+      "domain": "automated discovery / high-throughput assembly search",
+      "no_hidden_oracle": false,
+      "real_physical_candidate": true,
+      "record_trace": "search logs preserve discovery but factor through fixed search space",
+      "source_generated": false,
+      "trace_claim": "A previously unknown high-assembly object is found after many trials, giving an apparent undefined-to-defined transition.",
+      "witness_claims": {
+        "W1": false,
+        "W2": false,
+        "W3": false,
+        "W4": false,
+        "W5": true,
+        "W6": false
+      }
+    },
+    {
+      "absorber_results": {
+        "bounded_sampling_or_database_access": false,
+        "experimenter_or_instrument_schema": false,
+        "fixed_chemistry_or_reaction_network": true,
+        "fixed_observable_algebra": true,
+        "fixed_stochastic_or_search_process": true
+      },
+      "adapter_mapping": {
+        "Adm_n": "partial: viability and biosynthetic admissibility under existing chemistry",
+        "Gamma_n": "partial: lineage state, genome/regulatory machinery, environment, and records",
+        "Gamma_n_plus_1": "partial: lineage state after pathway/product appears",
+        "e_n": "partial: new pathway, enzyme activity, or product class",
+        "tau_n": "supplied: sequence records, phenotype records, and product assays",
+        "w_n": "partial: phylogenetic, genomic, and product-trace evidence"
+      },
+      "attempt_id": "evolutionary_biosynthesis_trace",
+      "domain": "biological or evolutionary molecular assembly",
+      "no_hidden_oracle": false,
+      "real_physical_candidate": true,
+      "record_trace": "evolutionary records preserve novelty but fit mutation/search over fixed chemistry",
+      "source_generated": false,
+      "trace_claim": "A lineage evolves a new biosynthetic capability or high-assembly molecule after mutation and selection.",
+      "witness_claims": {
+        "W1": false,
+        "W2": false,
+        "W3": false,
+        "W4": false,
+        "W5": true,
+        "W6": false
+      }
+    },
+    {
+      "absorber_results": {
+        "bounded_sampling_or_database_access": true,
+        "experimenter_or_instrument_schema": true,
+        "fixed_chemistry_or_reaction_network": false,
+        "fixed_observable_algebra": true,
+        "fixed_stochastic_or_search_process": false
+      },
+      "adapter_mapping": {
+        "Adm_n": "partial: admissibility is the modeler's current analysis rule",
+        "Gamma_n": "partial: current instrument, decomposition grammar, and database schema",
+        "Gamma_n_plus_1": "absorbed: schema/database state after update",
+        "e_n": "absorbed: new annotation or decomposition macro",
+        "tau_n": "supplied: instrument output and annotation history",
+        "w_n": "partial: analysis output showing index now defined"
+      },
+      "attempt_id": "instrument_schema_update_trace",
+      "domain": "measurement pipeline / assembly-index annotation",
+      "no_hidden_oracle": true,
+      "real_physical_candidate": true,
+      "record_trace": "annotation history preserves the change as schema update, not source growth",
+      "source_generated": false,
+      "trace_claim": "The assembly index becomes defined after a new decomposition grammar, mass-spec method, database entry, or annotation rule is introduced.",
+      "witness_claims": {
+        "W1": false,
+        "W2": false,
+        "W3": false,
+        "W4": false,
+        "W5": true,
+        "W6": false
+      }
+    },
+    {
+      "absorber_results": {
+        "bounded_sampling_or_database_access": false,
+        "experimenter_or_instrument_schema": false,
+        "fixed_chemistry_or_reaction_network": false,
+        "fixed_observable_algebra": false,
+        "fixed_stochastic_or_search_process": false
+      },
+      "adapter_mapping": {
+        "Adm_n": "supplied: target ABC not constructible at prefix n",
+        "Gamma_n": "supplied: formal source assembly prefix before bind_c",
+        "Gamma_n_plus_1": "supplied: successor prefix with bind_c",
+        "e_n": "supplied: source-generated bind_c(AB, C) -> ABC",
+        "tau_n": "supplied: constructor provenance and index computation",
+        "w_n": "supplied: computed AI_src,n undefined and AI_src,n+1 = 2"
+      },
+      "attempt_id": "formal_local_assembly_trace_from_e113",
+      "domain": "formal/local assembly source trace",
+      "no_hidden_oracle": true,
+      "real_physical_candidate": false,
+      "record_trace": "formal provenance trace from E113",
+      "source_generated": true,
+      "trace_claim": "The E113 source-generated constructor trace makes AI_src,n undefined and AI_src,n+1 defined while targeted local absorbers fail.",
+      "witness_claims": {
+        "W1": false,
+        "W2": true,
+        "W3": true,
+        "W4": false,
+        "W5": true,
+        "W6": true
+      }
+    },
+    {
+      "absorber_results": {
+        "bounded_sampling_or_database_access": false,
+        "experimenter_or_instrument_schema": false,
+        "fixed_chemistry_or_reaction_network": false,
+        "fixed_observable_algebra": false,
+        "fixed_stochastic_or_search_process": false
+      },
+      "adapter_mapping": {
+        "Adm_n": "supplied: admissibility predicate not decidable by prior source",
+        "Gamma_n": "supplied: physical source context before new algebra/instrument type",
+        "Gamma_n_plus_1": "supplied: successor source context with new type",
+        "e_n": "supplied: source-generated physical construction class",
+        "tau_n": "supplied: preserved empirical and provenance records",
+        "w_n": "supplied: witness of new admissibility and non-factorizing perturbation"
+      },
+      "attempt_id": "strict_positive_physical_protocol_shape",
+      "domain": "schematic positive control",
+      "no_hidden_oracle": true,
+      "real_physical_candidate": false,
+      "record_trace": "schematic only; no real empirical trace supplied",
+      "source_generated": true,
+      "trace_claim": "A counterfactual real protocol where the physical source generates a new observable/instrument algebra and perturbations cannot factor through any fixed chemistry, search, access, or schema model.",
+      "witness_claims": {
+        "W1": true,
+        "W2": true,
+        "W3": true,
+        "W4": true,
+        "W5": true,
+        "W6": true
+      }
+    }
+  ],
+  "source_artifacts": [
+    "explorations/E109-online-issuance-big-swing-campaign-2026-07-01.md",
+    "explorations/E110-online-issuance-lc-physical-adapter-contract-2026-07-01.md",
+    "explorations/E112-oi-lc-candidate-scout-w1-w6-table-2026-07-01.md",
+    "explorations/E113-oi-lc-assembly-source-adapter-fixture-2026-07-01.md"
+  ],
+  "verdict": {
+    "Issue[S]^assembly_local": true,
+    "Issue[S]^physical": false,
+    "TI_C020_reopened": false,
+    "all_real_physical_protocol_attempts_absorbed": true,
+    "assembly_can_carry_current_evidence": "formal_local_W2_W3_only",
+    "best_result": "Assembly supplies a formal/local W2-W3 witness, but every real empirical assembly protocol attempted here factors through fixed chemistry, fixed search or stochastic exploration, bounded access, instrument/modeler schema, or fixed observable algebra. No W1 or W4 physical witness is found.",
+    "claim_status_change": "none",
+    "next_gate": "proof_assistant_online_issuance_witness"
+  }
+}

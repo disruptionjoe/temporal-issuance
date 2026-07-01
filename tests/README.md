@@ -22,5 +22,13 @@ Executable fixtures:
 - H3 Cech/sheaf fixture: `python tests/test_cech_sheaf_fixture.py`
 - Clock-free record-cadence fixture: `python tests/test_clock_free_record_cadence_fixture.py`
 - Clock-free cadence absorber gauntlet: `python tests/test_clock_free_cadence_absorber_gauntlet.py`
+- OnlineIssuance Assembly W4-W6 physical protocol fixture: `python tests/test_oi_lc_assembly_w4_w6_physical_protocol_fixture.py`
+- OnlineIssuance Assembly source adapter fixture: `python tests/test_oi_lc_assembly_source_adapter_fixture.py`
+- OnlineIssuance Adapter_P candidate scout W1-W6 table: `python tests/test_oi_lc_candidate_scout_w1_w6_table.py`
+- OnlineIssuance physical adapter contract: `python tests/test_online_issuance_physical_adapter_contract.py`
+- OnlineIssuance witness checker: `python tests/test_online_issuance_witness_checker.py`
+- Record-table admissibility vs TaF reconstruction fixture: `python tests/test_record_table_admissibility_taf_fixture.py`
+- Record-table no-fixed-schema absorber gauntlet: `python tests/test_record_table_no_fixed_schema_gauntlet.py`
+- Record-table OnlineIssuance lift-or-demote fixture: `python tests/test_record_table_online_issuance_lift.py`
 - RSPS record-fidelity toy baseline: `python tools/rsps_record_fidelity_toy.py --output tests/artifacts/rsps_record_fidelity_toy_result.json`
 - RSPS robustness sweep: `python tools/rsps_robustness_sweep.py --output tests/artifacts/rsps_robustness_sweep_result.json`

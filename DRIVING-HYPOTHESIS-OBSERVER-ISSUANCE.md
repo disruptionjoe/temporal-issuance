@@ -3,7 +3,7 @@ artifact_type: driving_hypothesis
 status: active
 governance_role: lead_hypothesis
 constitutional: false
-last_updated_by: coherent-issuance-framing-2026-06-30
+last_updated_by: RUN-0090
 ---
 
 # Driving Hypothesis: Observer-Level Issuance (the integrating idea)
@@ -88,6 +88,32 @@ This is a framing discipline, not claim promotion. The full note is preserved in
 fixture, but fixed-site sheaf compatibility, database constraints, fixed-H record filtering, and fixed latent
 source plus changing access do. The remaining source-side resurrection burden is nonfixed admissibility,
 nonfixed site, or nonfixed observable algebra; `kappa_i` remains observer-side unless that burden is met.
+
+## Record-table time: time is the commit log, not a column
+
+Joe's record-table formulation gives the current cleanest plain-English compression:
+
+```text
+Dimensions are fields in the world-state schema.
+Time is the commit log.
+```
+
+More precisely:
+
+```text
+Dimensions are columns.
+Time is row append / order / finality.
+Time is not one of the columns.
+```
+
+This fits the coherent-issuance rule above: no hidden universal tick is being introduced.
+Observers may render append/order/finality as local coordinate time inside a 4D interface, but
+that rendered coordinate is not the primitive source of temporal structure.
+
+The working hypothesis set is preserved in
+`explorations/E101-record-table-hypothesis-set-2026-06-30.md`. Its next route is absorber-gated:
+define `RecordTableSystem v0.1`, build a no-time-column temporal-query fixture, and test
+whether the formulation is more than ordinary append-log/database semantics.
 
 ## Falsifiers / kill criteria for H0 (using this repo's kill classes)
 

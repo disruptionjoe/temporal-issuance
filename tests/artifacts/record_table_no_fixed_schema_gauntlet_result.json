@@ -1,0 +1,324 @@
+{
+  "absorbers": [
+    {
+      "absorber_id": "fixed_universal_schema",
+      "absorbs": true,
+      "description": "all possible columns and predicates are declared at prefix 0",
+      "precontains_all_objects": true,
+      "preserves_formation_records": true,
+      "preserves_prefix_availability": true,
+      "preserves_row_records": true,
+      "preserves_taf_trace": true,
+      "preserves_witness_dependencies": true,
+      "reason": "The absorber can precontain the object while representing formation as an availability-indexed record, so prefix unavailability is preserved as metadata.",
+      "represents_formation_as": "availability metadata over predeclared schema objects",
+      "treats_unavailable_prior_objects_as_available": false
+    },
+    {
+      "absorber_id": "fixed_proof_registry",
+      "absorbs": true,
+      "description": "all proofs and witnesses exist in a fixed registry from prefix 0",
+      "precontains_all_objects": true,
+      "preserves_formation_records": true,
+      "preserves_prefix_availability": true,
+      "preserves_row_records": true,
+      "preserves_taf_trace": true,
+      "preserves_witness_dependencies": true,
+      "reason": "The absorber can precontain the object while representing formation as an availability-indexed record, so prefix unavailability is preserved as metadata.",
+      "represents_formation_as": "dependency-gated proof usability",
+      "treats_unavailable_prior_objects_as_available": false
+    },
+    {
+      "absorber_id": "fixed_latent_completed_table",
+      "absorbs": true,
+      "description": "the completed table includes every row and formation record",
+      "precontains_all_objects": true,
+      "preserves_formation_records": true,
+      "preserves_prefix_availability": true,
+      "preserves_row_records": true,
+      "preserves_taf_trace": true,
+      "preserves_witness_dependencies": true,
+      "reason": "The absorber can precontain the object while representing formation as an availability-indexed record, so prefix unavailability is preserved as metadata.",
+      "represents_formation_as": "rows in a completed table with prefix labels",
+      "treats_unavailable_prior_objects_as_available": false
+    },
+    {
+      "absorber_id": "fixed_richer_source_changing_access",
+      "absorbs": true,
+      "description": "a fixed source contains all objects while access changes by prefix",
+      "precontains_all_objects": true,
+      "preserves_formation_records": true,
+      "preserves_prefix_availability": true,
+      "preserves_row_records": true,
+      "preserves_taf_trace": true,
+      "preserves_witness_dependencies": true,
+      "reason": "The absorber can precontain the object while representing formation as an availability-indexed record, so prefix unavailability is preserved as metadata.",
+      "represents_formation_as": "observer/process access disclosure schedule",
+      "treats_unavailable_prior_objects_as_available": false
+    }
+  ],
+  "comparisons": {
+    "absorber_count": 4,
+    "absorbing_count": 4,
+    "all_fixed_precontainment_absorbers_succeed": true,
+    "fixed_precontainment_needs_to_make_prior_objects_available": false,
+    "formation_kinds_present": [
+      "form_candidate",
+      "form_compat",
+      "form_schema",
+      "form_witness"
+    ],
+    "formation_records_first_class": true,
+    "prefix_availability_preserved_by_absorbers": true,
+    "row_records_preserved_by_absorbers": true,
+    "source_side_residue_found": false,
+    "taf_trace_preserved_by_absorbers": true,
+    "time_is_column": false,
+    "witness_dependencies_preserved_by_absorbers": true
+  },
+  "fixture": "record_table_no_fixed_schema_absorber_gauntlet_v0_1",
+  "source_artifacts": [
+    "explorations/E104-record-table-admissibility-vs-taf-fixture-2026-06-30.md",
+    "explorations/E105-record-table-bigger-swing-campaign-2026-06-30.md",
+    "tools/record_table_admissibility_taf_fixture.py"
+  ],
+  "target_signature": {
+    "formation_kinds": [
+      "form_candidate",
+      "form_compat",
+      "form_schema",
+      "form_witness"
+    ],
+    "formation_records": [
+      {
+        "depends_on": [
+          "r_alpha_locked",
+          "r_beta_locked"
+        ],
+        "kind": "form_schema",
+        "object_id": "S_prefix_join_columns",
+        "payload": {
+          "columns_formed": [
+            "left",
+            "right",
+            "certificate"
+          ],
+          "extends_schema": "S_seed"
+        },
+        "prefix": 2,
+        "record_id": "f_schema_join_columns"
+      },
+      {
+        "depends_on": [
+          "f_schema_join_columns",
+          "r_alpha_locked",
+          "r_beta_locked"
+        ],
+        "kind": "form_candidate",
+        "object_id": "join",
+        "payload": {
+          "candidate_row": "join",
+          "requires_columns": [
+            "left",
+            "right",
+            "certificate"
+          ]
+        },
+        "prefix": 2,
+        "record_id": "f_candidate_join"
+      },
+      {
+        "depends_on": [
+          "f_schema_join_columns",
+          "f_candidate_join"
+        ],
+        "kind": "form_compat",
+        "object_id": "join_requires_two_locked_inputs",
+        "payload": {
+          "predicate": "join_requires_two_locked_inputs",
+          "requires_records": [
+            "r_alpha_locked",
+            "r_beta_locked"
+          ]
+        },
+        "prefix": 2,
+        "record_id": "f_compat_join"
+      },
+      {
+        "depends_on": [
+          "f_candidate_join",
+          "f_compat_join",
+          "r_alpha_locked",
+          "r_beta_locked"
+        ],
+        "kind": "form_witness",
+        "object_id": "w_join_from_two_locked_inputs",
+        "payload": {
+          "certifies_append_event": "e_join_lock",
+          "witness": "w_join_from_two_locked_inputs"
+        },
+        "prefix": 2,
+        "record_id": "f_witness_join"
+      }
+    ],
+    "prefix_availability": {
+      "S_prefix_join_columns": 2,
+      "join": 2,
+      "join_requires_two_locked_inputs": 2,
+      "w_join_from_two_locked_inputs": 2
+    },
+    "row_records": [
+      {
+        "compat_predicate": "seed_row",
+        "event_id": "e_alpha_lock",
+        "fields": {
+          "entity": "alpha",
+          "state": "locked",
+          "value": "A"
+        },
+        "prefix": 0,
+        "row_id": "alpha",
+        "schema_id": "S_seed",
+        "witness_id": "w_alpha_seed"
+      },
+      {
+        "compat_predicate": "seed_row",
+        "event_id": "e_beta_lock",
+        "fields": {
+          "entity": "beta",
+          "state": "locked",
+          "value": "B"
+        },
+        "prefix": 1,
+        "row_id": "beta",
+        "schema_id": "S_seed",
+        "witness_id": "w_beta_seed"
+      },
+      {
+        "compat_predicate": "join_requires_two_locked_inputs",
+        "event_id": "e_join_lock",
+        "fields": {
+          "certificate": "alpha_beta_locked",
+          "entity": "join",
+          "left": "alpha",
+          "right": "beta",
+          "state": "locked"
+        },
+        "prefix": 2,
+        "row_id": "join",
+        "schema_id": "S_prefix_join_columns",
+        "witness_id": "w_join_from_two_locked_inputs"
+      }
+    ],
+    "taf_reconstruction": {
+      "direct_dependencies": [
+        [
+          "e_alpha_lock",
+          "e_join_lock"
+        ],
+        [
+          "e_beta_lock",
+          "e_join_lock"
+        ]
+      ],
+      "events": [
+        "e_alpha_lock",
+        "e_beta_lock",
+        "e_join_lock"
+      ],
+      "incomparable_pairs": [
+        [
+          "e_alpha_lock",
+          "e_beta_lock"
+        ]
+      ],
+      "order_pairs": [
+        [
+          "e_alpha_lock",
+          "e_alpha_lock"
+        ],
+        [
+          "e_alpha_lock",
+          "e_join_lock"
+        ],
+        [
+          "e_beta_lock",
+          "e_beta_lock"
+        ],
+        [
+          "e_beta_lock",
+          "e_join_lock"
+        ],
+        [
+          "e_join_lock",
+          "e_join_lock"
+        ]
+      ],
+      "uses_time_column": false
+    },
+    "taf_trace": [
+      {
+        "event_id": "e_alpha_lock",
+        "finality_profile": {
+          "causal": 2,
+          "info": 2
+        },
+        "source_records": [
+          "r_alpha_raw"
+        ],
+        "target_records": [
+          "r_alpha_locked"
+        ]
+      },
+      {
+        "event_id": "e_beta_lock",
+        "finality_profile": {
+          "causal": 1,
+          "info": 3
+        },
+        "source_records": [
+          "r_beta_raw"
+        ],
+        "target_records": [
+          "r_beta_locked"
+        ]
+      },
+      {
+        "event_id": "e_join_lock",
+        "finality_profile": {
+          "causal": 3,
+          "info": 4
+        },
+        "source_records": [
+          "r_alpha_locked",
+          "r_beta_locked",
+          "r_join_raw"
+        ],
+        "target_records": [
+          "r_alpha_locked",
+          "r_beta_locked",
+          "r_join_locked"
+        ]
+      }
+    ],
+    "time_is_column": false,
+    "witness_dependencies": {
+      "w_join_from_two_locked_inputs": [
+        "f_candidate_join",
+        "f_compat_join",
+        "r_alpha_locked",
+        "r_beta_locked"
+      ]
+    }
+  },
+  "verdict": {
+    "Finalize[R]": true,
+    "Issue[S]": false,
+    "Lose[K]": true,
+    "Project[O]": true,
+    "best_result": "Making formation records explicit does not defeat fixed precontainment; the absorbers preserve formation records and prefix availability by treating formation as availability-indexed metadata over a completed source.",
+    "claim_status_change": "none",
+    "demote_record_table_ti_as_independent_source_route": true,
+    "next_gate": "record_table_online_issuance_lift_or_demote"
+  }
+}

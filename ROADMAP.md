@@ -551,6 +551,89 @@ Open tasks (updated after RUN-0086):
 - Add the GU dual-record section-retrieval witness as an observer-finality stress note only.
 - Keep the source-side shortcut path killed unless a future comparator defeats exact
   fixed-latent graph access.
+- RUN-0089 / E100 record-table time pass complete: optional next route is
+  `record_table_hypothesis_formal_object_and_absorber_gate`, defining dimensions as columns
+  and time as append/order/finality over rows rather than a column. RUN-0090 / E101 placed the
+  full hypothesis set as a bounded working package and routed the next step to a no-time-column
+  temporal-query fixture plus fixed-completed-table/database/log/fixed-H/Minkowski-first
+  absorber gate.
+- RUN-0091 / E102 record-table five-goal sequence complete: immediate optional direct route is
+  `record_table_system_v0_1_definition`, followed by no-time-column temporal-query fixture,
+  absorber gauntlet, relativistic render-consistency fixture, and quantum/GU boundary adapter
+  assessment only if earlier gates leave residue or a useful reconstruction object.
+- RUN-0092 / E103 record-table TaF-boundary definition complete: `RecordTableSystem^TI v0.1`
+  is narrowed to schema/admissibility/append with downstream handoff to TaF. Immediate optional
+  direct route is now `record_table_admissibility_vs_taf_reconstruction_fixture`, comparing
+  fixed-schema/fixed-table/fixed-access models against prefix-formed `Compat_n` / `Cand_n`
+  while mapping both traces through TaF reconstruction.
+- RUN-0093 / E104 record-table admissibility vs TaF fixture complete: TaF absorbs downstream
+  temporal reconstruction, admissibility provenance differs, but fixed completed table absorbs
+  all external behavior. Immediate optional direct route is now
+  `record_table_no_fixed_schema_witness_or_demote`: either make admissibility-formation records
+  defeat fixed schema/table/access/oracle absorbers, or demote record-table TI to TaF/log/database
+  vocabulary.
+- RUN-0094 / E105 record-table bigger-swing campaign complete: three gated goals are now
+  defined. Goal A attacks fixed-schema/table/oracle absorption with explicit formation records;
+  Goal B attempts an OnlineIssuance^LC lift if Goal A leaves residue; Goal C only preflights
+  physics-facing adapter work if formal residue survives. Immediate optional direct route
+  remains `record_table_no_fixed_schema_witness_or_demote`.
+- RUN-0095 / E106 record-table no-fixed-schema gauntlet complete: formation records were made
+  explicit, but fixed universal schema, fixed proof registry, fixed latent completed table, and
+  fixed richer source plus changing access all preserve formation records, witness dependencies,
+  and prefix availability. Record-table TI is demoted as an independent source-side route. The
+  only remaining optional direct route is `record_table_online_issuance_lift_or_demote`: map it
+  into `OnlineIssuance^LC`, and archive it as vocabulary if no formal surplus remains.
+- RUN-0096 / E107 record-table OnlineIssuance lift complete: all record-table components map
+  cleanly into `OnlineIssuance^LC`, but the route adds no no-hidden-oracle discipline, no
+  productive/self-encoding witness, and no formal surplus over E091. Record-table TI is archived
+  as interface vocabulary. Optional direct route is now
+  `machine_check_online_issuance_witness_or_frontier_rerank`.
+- RUN-0097 / E108 OnlineIssuance witness machine check complete: the E090 local-constructive
+  witness schema is executable in a small symbolic calculus. It checks present enumeration,
+  diagonal candidate formation, admissibility witness formation, source trace recording, and
+  internal future-oracle rejection. This strengthens `OnlineIssuance^LC` class-relatively
+  (`Issue[S]^LC: true`) but does not establish physical issuance or defeat external Platonist
+  completion. Optional direct route is now
+  `W010_frontier_selection_after_online_issuance_machine_check`.
+- RUN-0098 / E109 OnlineIssuance big-swing campaign complete: W010 ranks the largest bounded
+  next move as an `OnlineIssuance^LC` physical adapter contract. The campaign is serial:
+  adapter contract, W1-W6 candidate scout, best-candidate absorber fixture, proof-assistant
+  hardening, and publishable verdict bundle. Immediate optional direct route is now
+  `online_issuance_lc_physical_adapter_contract`.
+- RUN-0099 / E110 OnlineIssuance LC physical adapter contract complete: `Adapter_P` is now
+  defined as a gate from physical candidate traces to
+  `(Gamma_n, Adm_n, e_n, w_n, Gamma_{n+1}, tau_n)`. The checker rejects a fixed-H/readout
+  negative control and admits only a schematic non-real positive shape. No physical source
+  issuance is established and TI-C020 remains parked. Immediate optional direct route is now
+  `oi_lc_candidate_scout_w1_w6_table`.
+- RUN-0100 / E111 Adapter_P missing-piece persona pass complete: the 63-persona pass says the
+  next scout is missing seven layers: invariant, witness/proof, null-model, record/provenance,
+  intervention/perturbation, gauge/access/language, and stop-rule. The immediate route remains
+  `oi_lc_candidate_scout_w1_w6_table`, but it must be a structured Adapter_P scoring table,
+  not a narrative survey.
+- RUN-0101 / E112 OI LC candidate scout W1-W6 table complete: seven candidate families were
+  scored against `Adapter_P`, W1-W6, fixed-source nulls, and stop-rule verdicts. Assembly Theory
+  source assembly index is selected only as an executable fixture target because it can state the
+  concrete W2/W3 obligation `AI_src,n undefined -> AI_src,n+1 defined`. Quantum contextuality
+  alone, fixed boundary/holographic completion, Orch-OR/substrate claims alone, and current-form
+  dual-record adjacent-possible graphs are killed as shortcuts; causal-set growth and GU
+  missing-piece adapter language remain parked. TI-C020 remains parked. Immediate route is now
+  `oi_lc_assembly_source_adapter_fixture`.
+- RUN-0102 / E113 OI LC Assembly source adapter fixture complete: the source assembly-index
+  witness survives as a formal/local trace. A toy assembly calculus computes
+  `AI_src,n(ABC)` as undefined before source-generated `bind_c(AB, C) -> ABC` and as `2` after.
+  Projection/access D4, fixed complete assembly space, experimenter/modeler schema, and fixed
+  search/discovery controls are rejected. The candidate still does not pass full `Adapter_P`
+  because W1 and W4 are missing and no real physical candidate is supplied. TI-C020 remains
+  parked. Immediate route is now `oi_lc_assembly_w4_w6_physical_protocol_fixture`.
+- RUN-0103 / E114 OI LC Assembly W4-W6 physical protocol fixture complete: the bigger
+  physical-protocol pass evaluates chemical reaction network traces, high-throughput search,
+  evolutionary biosynthesis, instrument/schema update, the E113 formal local trace, and a
+  schematic positive shape. All real physical attempts are absorbed by fixed chemistry, fixed
+  observable algebra, fixed search/stochastic exploration, bounded access, or instrument/modeler
+  schema. Assembly remains formal/local W2/W3 evidence only; no W1 or W4 real physical witness
+  is found. TI-C020 remains parked. Immediate route is now
+  `proof_assistant_online_issuance_witness`.
 - RUN-0088 / E099 triple-steelman complete: optional next route is
   `rendered_interface_system_v0_1`, defining the larger quantum/geometric carrier, observer
   selection/rendering, 4D interface, quantum leakage, matter criterion, finality measure, and

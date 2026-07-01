@@ -1,0 +1,230 @@
+{
+  "checker_kind": "small_symbolic_calculus",
+  "comparators": [
+    {
+      "comparator_id": "finite_type_context",
+      "external_absorber_valid": true,
+      "internal_source_valid": true,
+      "reason": "finite candidate pools are pre-enumerable at the prefix",
+      "source_issuance_passes": false
+    },
+    {
+      "comparator_id": "infinite_computable_context",
+      "external_absorber_valid": true,
+      "internal_source_valid": true,
+      "reason": "a fixed grammar or c.e. generator absorbs the trace as search/disclosure",
+      "source_issuance_passes": false
+    },
+    {
+      "comparator_id": "fixed_platonist_oracle_context",
+      "external_absorber_valid": true,
+      "internal_source_valid": false,
+      "reason": "Omega_future represents the whole trace externally but violates the internal no-hidden-oracle gate",
+      "source_issuance_passes": false
+    },
+    {
+      "comparator_id": "local_constructive_context",
+      "external_absorber_valid": false,
+      "internal_source_valid": true,
+      "reason": "the present context forms a diagonal admissible successor without forming a completed future oracle",
+      "source_issuance_passes": true
+    }
+  ],
+  "comparisons": {
+    "all_checked_values_separate": true,
+    "computable_context_absorbed": true,
+    "diagonal_candidate_formed": true,
+    "diagonal_candidate_not_in_present_enumeration": true,
+    "external_platonist_absorber_still_available": true,
+    "finite_type_context_absorbed": true,
+    "fixed_oracle_invalid_internally_valid_externally": true,
+    "full_theorem_prover_verification": false,
+    "internal_future_oracle_rejected": true,
+    "local_constructive_witness_passes": true,
+    "physical_source_issuance_established": false,
+    "present_enumerator_valid": true,
+    "proof_assistant_used": false,
+    "schema_machine_checked": true,
+    "successor_issued": true,
+    "symbolic_for_all_k_separation_recorded": true,
+    "trace_recorded": true,
+    "witness_formed": true
+  },
+  "context": {
+    "name": "Gamma_n",
+    "prefix": 0,
+    "rules": [
+      "present_prefix_only",
+      "self_encoding_admissibility",
+      "diagonal_productivity",
+      "recordable_source_trace",
+      "no_hidden_completed_oracle"
+    ],
+    "symbols": [
+      {
+        "formed_at": 0,
+        "kind": "code_space",
+        "name": "Code_n"
+      },
+      {
+        "formed_at": 0,
+        "kind": "candidate_type",
+        "name": "Cand_n"
+      },
+      {
+        "formed_at": 0,
+        "kind": "admissibility_predicate",
+        "name": "Adm_n"
+      },
+      {
+        "formed_at": 0,
+        "kind": "candidate",
+        "name": "cand_0"
+      },
+      {
+        "formed_at": 0,
+        "kind": "candidate",
+        "name": "cand_1"
+      },
+      {
+        "formed_at": 0,
+        "kind": "candidate",
+        "name": "cand_2"
+      },
+      {
+        "formed_at": 0,
+        "kind": "enumerator",
+        "name": "Enum_n"
+      }
+    ]
+  },
+  "diagonal_candidate": {
+    "depends_on": [
+      "Enum_n",
+      "diagonal_productivity"
+    ],
+    "formed_at": 0,
+    "name": "Diag(Enum_n)"
+  },
+  "effect_typing": {
+    "Finalize[R]": false,
+    "Issue[S]^LC": true,
+    "Issue[S]^physical": false,
+    "Lose[K]": false,
+    "Project[O]": false
+  },
+  "enumerator": {
+    "claims_total_for_present_prefix": true,
+    "formed_at": 0,
+    "name": "Enum_n",
+    "values": [
+      "cand_0",
+      "cand_1",
+      "cand_2"
+    ]
+  },
+  "fixture": "online_issuance_witness_checker_v0_1",
+  "oracle_check": {
+    "error": "forbidden internal source object: completed_future_oracle:Omega_future",
+    "external_platonist_absorber_still_available": true,
+    "internal_oracle_rejected": true
+  },
+  "separation_proof": {
+    "all_checked_values_separate": true,
+    "checked_values": {
+      "cand_0": true,
+      "cand_1": true,
+      "cand_2": true
+    },
+    "symbolic_basis": "Diag(Enum_n) is introduced by a constructor outside Enum_n's present range",
+    "symbolic_for_all_k": true
+  },
+  "source_artifacts": [
+    "explorations/E055-expressiveness-threshold-fixture-2026-06-24.md",
+    "explorations/E090-online-issuance-minimal-constructive-witness-2026-06-25.md",
+    "explorations/E091-online-issuance-verdict-and-formal-object-rewrite-2026-06-25.md"
+  ],
+  "source_trace": {
+    "enumerator": "Enum_n",
+    "issued_candidate": "Diag(Enum_n)",
+    "source_context": "Gamma_n",
+    "target_context": "Gamma_n_plus_1",
+    "trace_id": "tau_diag",
+    "witness": "w_diag"
+  },
+  "successor_context": {
+    "name": "Gamma_n_plus_1",
+    "prefix": 1,
+    "rules": [
+      "present_prefix_only",
+      "self_encoding_admissibility",
+      "diagonal_productivity",
+      "recordable_source_trace",
+      "no_hidden_completed_oracle"
+    ],
+    "symbols": [
+      {
+        "formed_at": 0,
+        "kind": "code_space",
+        "name": "Code_n"
+      },
+      {
+        "formed_at": 0,
+        "kind": "candidate_type",
+        "name": "Cand_n"
+      },
+      {
+        "formed_at": 0,
+        "kind": "admissibility_predicate",
+        "name": "Adm_n"
+      },
+      {
+        "formed_at": 0,
+        "kind": "candidate",
+        "name": "cand_0"
+      },
+      {
+        "formed_at": 0,
+        "kind": "candidate",
+        "name": "cand_1"
+      },
+      {
+        "formed_at": 0,
+        "kind": "candidate",
+        "name": "cand_2"
+      },
+      {
+        "formed_at": 0,
+        "kind": "enumerator",
+        "name": "Enum_n"
+      },
+      {
+        "formed_at": 1,
+        "kind": "candidate",
+        "name": "Diag(Enum_n)"
+      },
+      {
+        "formed_at": 1,
+        "kind": "witness",
+        "name": "w_diag"
+      }
+    ]
+  },
+  "verdict": {
+    "best_result": "The E090 local-constructive witness schema is executable in a small symbolic calculus: a formed present enumeration yields a diagonal admissible successor and witness while completed future oracles are rejected internally.",
+    "claim_status_change": "none",
+    "formal_lc_witness_strengthened": true,
+    "limits": "This is not a Lean/Coq proof and does not establish physical issuance; external Platonist completion remains an absorber outside the local constructive source class.",
+    "next_gate": "W010_frontier_selection_after_online_issuance_machine_check"
+  },
+  "witness": {
+    "depends_on": [
+      "Diag(Enum_n)",
+      "Adm_n",
+      "self_encoding_admissibility"
+    ],
+    "formed_at": 0,
+    "name": "w_diag",
+    "proposition": "Adm_n(Diag(Enum_n))"
+  }
+}

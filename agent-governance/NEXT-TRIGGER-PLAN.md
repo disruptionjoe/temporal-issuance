@@ -3,11 +3,679 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0086
+updated_by_run: RUN-0103
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## OI LC Assembly W4-W6 Physical Protocol Fixture Complete - Immediate Direct Route
+
+RUN-0103 evaluated whether the formal/local Assembly source witness could be lifted into a
+real physical protocol under W1 and W4-W6.
+
+Primary artifact:
+
+```text
+explorations/E114-oi-lc-assembly-w4-w6-physical-protocol-fixture-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+attempt_count: 6
+real_physical_attempt_count: 4
+all_real_physical_attempts_absorbed: true
+w1_real_physical_candidate_found: false
+w4_real_physical_protocol_found: false
+w5_record_preservation_available_for_real_attempts: true
+w6_real_physical_absorber_defeat_found: false
+assembly_current_scope: formal_local_w2_w3_only
+Issue[S]^assembly_local: true
+Issue[S]^physical: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> proof_assistant_online_issuance_witness
+```
+
+Required:
+
+1. Harden the `OnlineIssuance^LC` local constructive witness in a stricter typed calculus or
+   proof-assistant-style checker.
+2. Preserve the no-hidden-future-oracle condition.
+3. Keep external Platonist completion as an explicitly external absorber, not an internal source.
+4. Do not reopen TI-C020; the physical Assembly branch is currently absorbed.
+5. Route next to `online_issuance_core_verdict_bundle` after proof hardening or typed-calculus
+   demotion.
+
+## OI LC Assembly Source Adapter Fixture Complete - Immediate Direct Route
+
+RUN-0102 built an executable Assembly source-index absorber fixture for:
+
+```text
+AI_src,n undefined -> AI_src,n+1 defined
+```
+
+Primary artifact:
+
+```text
+explorations/E113-oi-lc-assembly-source-adapter-fixture-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+all_negative_controls_rejected: true
+local_source_candidate_source_d4: true
+local_source_candidate_targeted_absorbers_defeated: true
+local_source_candidate_passes_assembly_source_gate: true
+local_source_candidate_adapter_contract_passed: false
+Issue[S]^assembly_local: true
+Issue[S]^physical: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> oi_lc_assembly_w4_w6_physical_protocol_fixture
+```
+
+Required:
+
+1. Propose a real physical or empirical assembly-domain trace that can map into `Adapter_P`.
+2. Define a W4 perturbation that cannot factor through fixed chemistry, fixed search,
+   stochastic discovery, access widening, or modeler-added schema.
+3. Preserve the same record trace under W5.
+4. Test W6 against gauge/access/language absorption and experimenter schema.
+5. Either supply W1 non-isomorphic algebra growth or explicitly conclude Assembly can only
+   carry W2/W3 formal/local evidence.
+6. Keep TI-C020 parked unless a real candidate passes full `Adapter_P`.
+
+## OI LC Candidate Scout W1-W6 Table Complete - Immediate Direct Route
+
+RUN-0101 scored seven candidate families against `Adapter_P`, W1-W6, fixed-source nulls, and
+stop-rule verdicts.
+
+Primary artifact:
+
+```text
+explorations/E112-oi-lc-candidate-scout-w1-w6-table-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+candidate_count: 7
+fixture_candidate_count: 1
+parked_count: 2
+killed_shortcut_count: 4
+selected_fixture_candidate: assembly_theory_source_assembly_index
+selected_scope: executable absorber fixture target, not evidence
+Issue[S]^physical: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> oi_lc_assembly_source_adapter_fixture
+```
+
+Required:
+
+1. Build an executable absorber fixture for Assembly Theory source assembly index.
+2. Test the proposed witness:
+   `AI_src,n undefined -> AI_src,n+1 defined`.
+3. Compare against fixed complete assembly space, bounded access to `Mu_infty`,
+   experimenter/modeler-added schema, and fixed stochastic/search processes.
+4. Keep TI-C020 parked unless the fixture supplies a real `Adapter_P` source-growth witness and
+   defeats the fixed-source nulls.
+
+## Adapter_P Missing-Piece Persona Pass Complete - Immediate Direct Route
+
+RUN-0100 ran the 63-persona missing-piece pass, Hegelian analysis, and meta-synthesis against
+`Adapter_P`.
+
+Primary artifact:
+
+```text
+explorations/E111-adapter-p-missing-piece-63-persona-pass-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+persona_count: 63
+missing_layers:
+  - invariant_layer
+  - witness_proof_layer
+  - null_model_layer
+  - record_provenance_layer
+  - intervention_perturbation_layer
+  - gauge_access_language_layer
+  - stop_rule_layer
+claim_status_change: none
+optional_direct_trigger: oi_lc_candidate_scout_w1_w6_table
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> oi_lc_candidate_scout_w1_w6_table
+```
+
+Required upgrade:
+
+Candidate scouting must be a structured `Adapter_P` scoring table, not a narrative survey.
+Each candidate family must be scored against:
+
+1. adapter mapping: `Gamma_n`, `Adm_n`, `e_n`, `w_n`, `Gamma_{n+1}`, `tau_n`;
+2. W1 invariant;
+3. W2 admissibility predicate;
+4. W3 construction provenance;
+5. W4 perturbation non-factorization;
+6. W5 record preservation;
+7. W6 gauge/access/language absorption;
+8. fixed-source nulls:
+   `fixed_H_infty`, `fixed_A_infty`, `fixed_instrument_family`,
+   `fixed_stochastic_or_collapse_law`, `fixed_boundary_or_holographic_completion`,
+   `bounded_access_to_Mu_infty`, and `experimenter_added_schema`;
+9. stop-rule verdict: `fixture_candidate`, `parked`, or `killed_shortcut`.
+
+## OnlineIssuance LC Physical Adapter Contract Complete - Immediate Direct Route
+
+RUN-0099 defined and executed the `Adapter_P` contract checker.
+
+Primary artifact:
+
+```text
+explorations/E110-online-issuance-lc-physical-adapter-contract-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+adapter_contract_exists: true
+source_growth_core_requires_w1_or_w2_or_w3: true
+absorber_control_requires_w4_w5_w6: true
+fixed_source_absorber_nulls_defined: true
+negative_fixed_h_control_rejected: true
+schematic_positive_shape_admitted: true
+schematic_positive_is_real_candidate: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+constitutional_change: false
+claim_status_change: none
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: oi_lc_candidate_scout_w1_w6_table
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> oi_lc_candidate_scout_w1_w6_table
+```
+
+Required:
+
+1. Score candidate families against `Adapter_P`: quantum measurement/contextuality,
+   causal-set/sequential growth, holographic/boundary encodings, GU adapter language, assembly
+   theory, quantum-biological/Orch-OR substrate, and dual-record opportunity graphs.
+2. Select one candidate only if it can state a concrete W1-W6 witness obligation.
+3. If no candidate can state the witness, keep TI-C020 parked and route to
+   `online_issuance_core_verdict_bundle`.
+
+## OnlineIssuance Big-Swing Campaign Created - Immediate Direct Route
+
+RUN-0098 executed W010 frontier selection after the RUN-0097 machine check and created a
+serial big-swing campaign.
+
+Primary artifact:
+
+```text
+explorations/E109-online-issuance-big-swing-campaign-2026-07-01.md
+```
+
+Campaign:
+
+```text
+Goal A: online_issuance_lc_physical_adapter_contract
+Goal B: oi_lc_candidate_scout_w1_w6_table
+Goal C: oi_lc_best_candidate_absorber_fixture
+Goal D: proof_assistant_online_issuance_witness
+Goal E: online_issuance_core_verdict_bundle
+```
+
+Verdict:
+
+```yaml
+campaign_created: true
+goal_count: 5
+primary_next_goal: online_issuance_lc_physical_adapter_contract
+record_table_route: archived_as_interface_vocabulary
+online_issuance_lc: strengthened_by_small_calculus
+physical_source_issuance_established: false
+constitutional_change: false
+claim_status_change: none
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: online_issuance_lc_physical_adapter_contract
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> online_issuance_lc_physical_adapter_contract
+```
+
+Required:
+
+1. Define `Adapter_P` from a physical candidate trace into `Gamma_n`, `Adm_n`, `e_n`, `w_n`,
+   `Gamma_{n+1}`, and `tau_n`.
+2. Import E057's W1-W6 gate: non-isomorphic algebra, new admissibility predicate,
+   construction-space growth, perturbation non-factorization, record preservation, and
+   gauge/name absorption.
+3. State fixed-H, fixed-A, fixed-instrument, fixed-boundary, fixed-Mu, holographic, and
+   bounded-access absorber nulls.
+4. If no non-circular adapter can be stated, keep TI-C020 parked and route to
+   `online_issuance_core_verdict_bundle`.
+
+## OnlineIssuance Witness Machine Check Complete - Immediate Direct Route
+
+RUN-0097 encoded the E090 local-constructive witness schema in a small symbolic calculus.
+
+Primary artifact:
+
+```text
+explorations/E108-online-issuance-witness-machine-check-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+checker_kind: small_symbolic_calculus
+schema_machine_checked: true
+proof_assistant_used: false
+full_theorem_prover_verification: false
+local_constructive_witness_passes: true
+internal_future_oracle_rejected: true
+external_platonist_absorber_still_available: true
+physical_source_issuance_established: false
+formal_lc_witness_strengthened: true
+constitutional_change: false
+claim_status_change: none
+immediate_next_goal: W010_frontier_selection_after_online_issuance_machine_check
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: W010_frontier_selection_after_online_issuance_machine_check
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> W010_frontier_selection_after_online_issuance_machine_check
+```
+
+Required:
+
+1. Re-rank the live frontier after the record-table route was archived as vocabulary and the
+   OnlineIssuance witness gained small-calculus support.
+2. Decide whether to upgrade the checker to Lean/Coq/Agda, run a stricter physical adapter
+   preflight under `OnlineIssuance^LC`, or pursue another live frontier.
+3. Preserve the limits: no physical source issuance is established, and external Platonist
+   completion remains an absorber outside the local constructive class.
+
+## Record-Table OnlineIssuance Lift Complete - Immediate Direct Route
+
+RUN-0096 mapped RecordTableSystem^TI into `OnlineIssuance^LC`.
+
+Primary artifact:
+
+```text
+explorations/E107-record-table-online-issuance-lift-or-demote-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+component_mapping_total: true
+record_table_is_online_issuance_interface: true
+properness_gates_pass_without_extra_axioms: false
+fails_no_hidden_oracle_gate: true
+productive_self_encoding_witness_present: false
+adds_formal_surplus_over_e091: false
+record_table_archive_as_vocabulary: true
+source_side_residue_found: false
+constitutional_change: false
+claim_status_change: none
+immediate_next_goal: machine_check_online_issuance_witness_or_frontier_rerank
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: machine_check_online_issuance_witness_or_frontier_rerank
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> machine_check_online_issuance_witness_or_frontier_rerank
+```
+
+Required:
+
+1. Either machine-check the E090 local-constructive witness schema, or run W010 frontier
+   re-ranking now that record-table TI is archived as interface vocabulary.
+2. Do not route physics-facing adapter work through record-table TI unless OnlineIssuance
+   supplies a stronger formal residue.
+3. Preserve record-table language only as explanatory/interface vocabulary:
+   dimensions as columns, time as append/finality rather than a column, and formation records
+   as admissibility traces.
+
+## Record-Table No-Fixed-Schema Gauntlet Complete - Immediate Direct Route
+
+RUN-0095 executed Goal A from E105. Formation events were promoted into first-class records:
+
+```text
+form_schema
+form_candidate
+form_compat
+form_witness
+```
+
+Primary artifact:
+
+```text
+explorations/E106-record-table-no-fixed-schema-witness-or-demote-2026-06-30.md
+```
+
+Verdict:
+
+```yaml
+formation_records_first_class: true
+absorber_count: 4
+absorbing_count: 4
+all_fixed_precontainment_absorbers_succeed: true
+prefix_availability_preserved_by_absorbers: true
+witness_dependencies_preserved_by_absorbers: true
+source_side_residue_found: false
+demote_record_table_ti_as_independent_source_route: true
+constitutional_change: false
+claim_status_change: none
+immediate_next_goal: record_table_online_issuance_lift_or_demote
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: record_table_online_issuance_lift_or_demote
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> record_table_online_issuance_lift_or_demote
+```
+
+Required:
+
+1. Map `Schema_n`, `Cand_n`, `Compat_n`, `Append_n`, `Witness_n`, and `Trace_n` into
+   `OnlineIssuance^LC`.
+2. Compare that mapping against E091's formal residue.
+3. Decide whether record-table vocabulary adds any formal surplus.
+4. If no surplus remains, archive record-table TI as TaF/log/database/OnlineIssuance interface
+   vocabulary and do not route physics-facing adapter work through it.
+
+## Record-Table Bigger-Swing Campaign Created - Immediate Direct Route
+
+RUN-0094 creates a three-goal campaign that attacks the absorber that won in E104.
+
+Primary artifact:
+
+```text
+explorations/E105-record-table-bigger-swing-campaign-2026-06-30.md
+```
+
+Campaign:
+
+```text
+Goal A: record_table_no_fixed_schema_witness_or_demote
+Goal B: record_table_online_issuance_lift
+Goal C: record_table_physical_adapter_preflight
+```
+
+Verdict:
+
+```yaml
+campaign_created: true
+goal_count: 3
+constitutional_change: false
+claim_status_change: none
+immediate_next_goal: record_table_no_fixed_schema_witness_or_demote
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: record_table_no_fixed_schema_witness_or_demote
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> record_table_no_fixed_schema_witness_or_demote
+```
+
+Required:
+
+1. Promote admissibility-formation events into explicit trace records:
+   `form_schema`, `form_candidate`, `form_compat`, and `form_witness`.
+2. Compare against fixed universal schema, fixed proof registry, fixed latent completed table,
+   and fixed richer source plus changing access.
+3. Require absorber maps to preserve TaF trace, row records, formation records,
+   admissibility witness dependencies, and prefix availability.
+4. If absorbed, demote record-table TI to TaF/log/database vocabulary.
+5. If not absorbed, route to `record_table_online_issuance_lift`.
+
+## Record-Table Admissibility vs TaF Fixture Complete - Immediate Direct Route
+
+RUN-0093 executed the E103 fixture.
+
+Verdict:
+
+```yaml
+fixture_executed: true
+tests_passing: 5
+taF_absorbs_temporal_order: true
+admissibility_provenance_difference: true
+fixed_completed_table_absorbs_external_behavior: true
+source_side_residue_found: false
+claim_status_change: none
+immediate_next_goal: record_table_no_fixed_schema_witness_or_demote
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: record_table_no_fixed_schema_witness_or_demote
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> record_table_no_fixed_schema_witness_or_demote
+```
+
+Required:
+
+1. Treat admissibility-formation events as explicit trace records.
+2. Compare against fixed universal schema, fixed proof registry, fixed latent table, and
+   fixed-access disclosure.
+3. Decide whether formation records are genuine source/process evidence or just metadata a
+   larger fixed table can precontain.
+4. If absorbed, demote record-table TI to TaF/log/database vocabulary.
+
+## RecordTableSystem^TI Defined With TaF Boundary - Immediate Direct Route
+
+RUN-0092 executes E102 Goal 1 with the anti-duplication correction:
+
+```text
+TaF owns finality reconstruction.
+TI owns row admissibility / append / schema-change pressure.
+```
+
+Primary artifact:
+
+```text
+explorations/E103-record-table-taf-boundary-v0-1-definition-2026-06-30.md
+```
+
+Verdict:
+
+```yaml
+record_table_system_ti_v0_1_defined: true
+taf_boundary_explicit: true
+constitutional_change: false
+claim_status_change: none
+immediate_next_goal: record_table_no_fixed_schema_witness_or_demote
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: record_table_no_fixed_schema_witness_or_demote
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> record_table_no_fixed_schema_witness_or_demote
+```
+
+Required:
+
+1. Build two record-table models with the same downstream TaF-reconstructable trace.
+2. Model A: fixed schema / fixed table / fixed access.
+3. Model B: prefix-formed `Compat_n` or `Cand_n` with a witnessed append not available in the
+   prior prefix.
+4. Map both traces into TaF-style finality reconstruction.
+5. If TaF sees the same order but only B has nonfixed admissibility, preserve the TI-owned
+   distinction for absorber pressure.
+6. If A reproduces B entirely, collapse record-table TI to TaF/log/database reconstruction.
+
+## Record-Table Five-Goal Sequence Created - Immediate Direct Route
+
+RUN-0091 turns the E101 hypothesis package into a gated five-goal research sequence:
+
+```text
+define -> execute -> absorb -> relativistic render -> quantum/GU boundary
+```
+
+Primary artifact:
+
+```text
+explorations/E102-record-table-five-goal-sequence-2026-06-30.md
+```
+
+Verdict:
+
+```yaml
+goal_sequence_created: true
+goal_count: 5
+constitutional_change: false
+claim_status_change: none
+immediate_next_goal: record_table_admissibility_vs_taf_reconstruction_fixture
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: record_table_admissibility_vs_taf_reconstruction_fixture
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> record_table_admissibility_vs_taf_reconstruction_fixture
+```
+
+Five-goal sequence:
+
+1. `record_table_system_v0_1_definition`
+2. `record_table_admissibility_vs_taf_reconstruction_fixture`
+3. `record_table_absorber_gauntlet`
+4. `record_table_relativistic_render_consistency_fixture`
+5. `record_table_quantum_gu_boundary_adapter_assessment`
+
+Gate:
+
+```text
+Do not run the relativity, quantum, or GU boundary goals as evidence until the definition,
+fixture, and absorber gauntlet either leave residue or produce a reusable reconstruction object.
+```
+
+## Record-Table Hypothesis Set Placed - Optional Direct Route
+
+RUN-0090 placed Joe's hypothesis set from the E100 persona pass into the repo as a bounded
+working package:
+
+```text
+Dimensions are columns.
+Time is row append / order / finality.
+Time is not one of the columns.
+```
+
+Primary artifact:
+
+```text
+explorations/E101-record-table-hypothesis-set-2026-06-30.md
+```
+
+Verdict:
+
+```yaml
+hypothesis_set_placed: true
+constitutional_change: false
+claim_status_change: none
+recommended_next_object: RecordTableSystem_v0_1
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: record_table_hypothesis_formal_object_and_absorber_gate
+```
+
+Optional direct trigger:
+
+```text
+W000 -> record_table_hypothesis_formal_object_and_absorber_gate
+```
+
+Required:
+
+1. Define `RecordTableSystem v0.1` with `Col`, `Row`, `Compat`, `Append`, `Order`,
+   `Render_i`, `Finality_mu`, `MatterCrit`, optional `Leak_i`, and optional `Adapter_B`.
+2. Keep primitive time out of `Col`.
+3. Build a tiny executable fixture with no `time` column but recoverable temporal queries.
+4. State fixed-completed-table, database/log, fixed-source-access, fixed-H, and
+   Minkowski/GR-first absorbers.
+5. Decide whether any residue remains beyond ordinary append-log semantics.
+
+## Record-Table Time Persona Pass Complete - Optional Direct Route
+
+RUN-0089 / E100 used all 63 available numbered personas on Joe's row/column formulation:
+
+```text
+Dimensions are columns.
+Time is row append.
+Time is not one of the columns.
+```
+
+Verdict:
+
+```yaml
+persona_pass_complete: true
+persona_count: 63
+recommended_next_object: RecordTableSystem_v0_1
+claim_status_change: none
+official_next_trigger_preserved: GU_dual_record_section_retrieval_witness
+optional_direct_trigger: record_table_hypothesis_formal_object_and_absorber_gate
+```
+
+Optional direct trigger:
+
+```text
+W000 -> record_table_hypothesis_formal_object_and_absorber_gate
+```
+
+Required:
+
+1. Define `Col`, `Row`, `Compat`, `Append`, `Order`, `Render_i`, `Finality_mu`, and
+   `MatterCrit`.
+2. Keep time out of `Col`.
+3. Show how observer renderings may introduce coordinate time from append order.
+4. State fixed-completed-table, block-universe, and ordinary log/database absorbers.
+5. Build a tiny executable fixture with no time column but recoverable temporal queries.
 
 ## Rendered 4D Interface Triple Steelman Complete - Optional Direct Route
 

@@ -218,6 +218,340 @@ local constructive productive witness: survives class-relatively
 This is not a physical bridge, not a new category-theoretic primitive, and not a proof that
 reality issues. It is the current narrow formal target for `TI-C019`.
 
+RUN-0097 small-calculus machine check:
+
+The E090 local constructive witness schema has executable support in a small symbolic calculus.
+
+Checked schema:
+
+```text
+Gamma_n forms Code_n, Cand_n, Adm_n, and Enum_n.
+Diag(Enum_n) is formed against Enum_n.
+w_diag : Adm_n(Diag(Enum_n)) is formed.
+Iss_n(Gamma_n, Diag(Enum_n), w_diag) = Gamma_{n+1}.
+tau_diag records the source trace.
+Omega_future is rejected as an internal source object.
+```
+
+Result:
+
+```yaml
+schema_machine_checked: true
+proof_assistant_used: false
+full_theorem_prover_verification: false
+local_constructive_witness_passes: true
+internal_future_oracle_rejected: true
+external_platonist_absorber_still_available: true
+physical_source_issuance_established: false
+```
+
+Effect typing:
+
+```yaml
+Issue[S]^LC: true
+Issue[S]^physical: false
+```
+
+This strengthens the class-relative formal residue. It does not promote a physical claim and
+does not defeat external Platonist completion outside the local constructive source class.
+
+RUN-0099 physical adapter contract:
+
+A physical candidate can only interface with `OnlineIssuance^LC` through:
+
+```text
+Adapter_P:
+  physical candidate trace ->
+    Gamma_n, Adm_n, e_n, w_n, Gamma_{n+1}, tau_n
+```
+
+Acceptance rule:
+
+```text
+all adapter fields map
++ at least one of W1/W2/W3 source-growth core
++ W4/W5/W6 absorber controls
++ fixed-source absorber defeat
++ no hidden completed oracle
++ source-generated new class
+```
+
+Result:
+
+```yaml
+adapter_contract_exists: true
+negative_fixed_h_control_rejected: true
+schematic_positive_shape_admitted: true
+schematic_positive_is_real_candidate: false
+Issue[S]^physical: false
+TI_C020_reopened: false
+```
+
+`Adapter_P` is a gate, not evidence. TI-C020 remains parked until a real candidate passes it.
+
+RUN-0102 Assembly source adapter fixture:
+
+Assembly Theory can instantiate a formal/local subtype of the `Adapter_P` witness:
+
+```text
+AssemblySourceTrace =
+(
+  Gamma_n,          source assembly prefix
+  AI_src,n(x),      source assembly index at prefix n
+  e_n,              source-generated constructor
+  w_n,              proof/computation that AI_src,n(x) is undefined and AI_src,n+1(x) is defined
+  Gamma_{n+1},      successor source assembly prefix
+  tau_n             constructor provenance and index-computation record
+)
+```
+
+Executable result:
+
+```yaml
+AI_src,n(ABC): undefined
+AI_src,n+1(ABC): 2
+source_generated_constructor: bind_c(AB, C) -> ABC
+projection_access_negative_rejected: true
+fixed_complete_assembly_space_negative_rejected: true
+experimenter_added_schema_negative_rejected: true
+fixed_search_process_negative_rejected: true
+Issue[S]^assembly_local: true
+Issue[S]^physical: false
+```
+
+This adds a formal/local W2/W3 witness shape. It does not pass full `Adapter_P` because W1
+non-isomorphic algebra growth and W4 physical perturbation non-factorization remain absent.
+
+RUN-0103 Assembly W4-W6 physical protocol fixture:
+
+The physical-lift attempt for Assembly is currently absorbed:
+
+```yaml
+real_physical_attempts:
+  - chemical_reaction_network_trace
+  - high_throughput_search_trace
+  - evolutionary_biosynthesis_trace
+  - instrument_schema_update_trace
+all_real_physical_attempts_absorbed: true
+w1_real_physical_candidate_found: false
+w4_real_physical_protocol_found: false
+w5_record_preservation_available_for_real_attempts: true
+w6_real_physical_absorber_defeat_found: false
+Issue[S]^assembly_local: true
+Issue[S]^physical: false
+```
+
+Formal status:
+
+```text
+AssemblySourceTrace remains a formal/local W2/W3 subtype.
+It is not a current physical Adapter_P witness.
+```
+
+The next formal object work should harden `OnlineIssuance^LC`, not keep using Assembly as a
+physical bridge without new W1/W4 evidence.
+
+RUN-0090 RecordTableSystem candidate:
+
+`RecordTableSystem` is a working reconstruction/readout candidate from E100/E101. It does not
+replace `OnlineIssuance^LC` and does not promote a physical-source claim.
+
+```text
+RecordTableSystem =
+(
+  Col,          record fields / dimensions / observables; excludes primitive time
+  Row,          compatible assignments over available fields
+  Compat,       admissibility predicate for row compatibility
+  Append,       operation/relation by which compatible rows enter history
+  Order,        induced dependency/finality order over appended rows
+  Render_i,     observer i's rendering of selected fields and row order
+  Finality_mu,  reversal/deletion cost over appended rows
+  MatterCrit,   persistence/action-constraint criterion over rendered rows
+  Leak_i,       optional non-4D access/leakage visible to observer i
+  Adapter_B?    optional boundary/adapter candidate for GU/external-record links
+)
+```
+
+Guard:
+
+```text
+time notin Col
+```
+
+First discriminator:
+
+```text
+Can temporal queries, past/future distinction, and observer-local coordinate-time renderings be
+recovered from Append/Order/Finality without adding a time column?
+```
+
+The object is absorbed if ordinary append-log/database semantics, fixed completed table,
+fixed richer source plus changing access, fixed-H readout, or Minkowski/GR-first import
+reproduces all named behavior.
+
+RUN-0092 TaF-boundary correction:
+
+`RecordTableSystem` is narrowed to `RecordTableSystem^TI`: a schema/admissibility and append
+object with explicit downstream handoff to Time as Finality. Temporal order reconstruction from
+finalized records is not the TI novelty target; TaF T48/T49 already own that baseline.
+
+```text
+RecordTableSystem^TI =
+(
+  Schema_n,      finite/currently formed column schema at prefix n
+  Col_n,         columns available in Schema_n; primitive time excluded
+  Row_n,         rows already admitted under Schema_n
+  Cand_n,        candidate row/extensions formable from the current prefix
+  Compat_n,      compatibility/admissibility predicate formed at prefix n
+  Append_n,      witnessed transition Row_n -> Row_{n+1}
+  Witness_n,     evidence that candidate row c satisfies Compat_n(c)
+  Trace_n,       record emitted for downstream finality/reconstruction
+  Project_i,n,   observer i access/render map into record/finality layer
+  TaF_i,n,       downstream TaF reconstruction/finality process
+  Absorb         fixed-table/fixed-access/fixed-H/database/TaF null maps
+)
+```
+
+Guard:
+
+```text
+time notin Col_n for all n
+```
+
+Handoff:
+
+```text
+Trace_n -> TaF_i,n
+```
+
+TI surplus can only appear before or at `Append_n`: in `Schema_n`, `Cand_n`, `Compat_n`,
+`Witness_n`, or failure of a fixed absorber map. If all temporal behavior appears only after
+`Trace_n -> TaF_i,n`, the result is TaF reconstruction, not TI source-side evidence.
+
+RUN-0093 fixture result:
+
+The first executable `RecordTableSystem^TI` fixture compared:
+
+```text
+A_fixed_schema:
+  fixed columns, candidates, and compatibility from prefix 0
+
+B_prefix_formed:
+  join candidate and join compatibility predicate formed at prefix 2
+```
+
+Both models emit the same TaF-reconstructable trace:
+
+```text
+e_alpha_lock -> e_join_lock
+e_beta_lock  -> e_join_lock
+e_alpha_lock || e_beta_lock
+```
+
+Result:
+
+```yaml
+TaF_absorbs_temporal_order: true
+admissibility_provenance_difference: true
+fixed_completed_table_absorbs_external_behavior: true
+source_side_residue_found: false
+```
+
+So the live object narrows again:
+
+```text
+RecordTableSystem^TI is only interesting if admissibility-formation records cannot be
+precontained by a fixed table/schema/access/oracle absorber.
+```
+
+RUN-0095 no-fixed-schema gauntlet result:
+
+The follow-up fixture made admissibility formation first-class:
+
+```text
+form_schema
+form_candidate
+form_compat
+form_witness
+```
+
+It then tested four fixed-precontainment absorbers:
+
+```text
+fixed universal schema
+fixed proof registry
+fixed latent completed table
+fixed richer source plus changing access
+```
+
+Result:
+
+```yaml
+formation_records_first_class: true
+absorber_count: 4
+absorbing_count: 4
+prefix_availability_preserved_by_absorbers: true
+witness_dependencies_preserved_by_absorbers: true
+source_side_residue_found: false
+demote_record_table_ti_as_independent_source_route: true
+```
+
+Therefore `RecordTableSystem^TI` no longer survives as an independent source-side formal
+object. Its remaining honest role is as vocabulary or an interface for `OnlineIssuance^LC`:
+
+```text
+Schema_n  -> Gamma_n
+Cand_n    -> CandExt(Gamma_n)
+Compat_n  -> Adm_n
+Append_n  -> Iss_n / e_n
+Witness_n -> w_n : Adm_n(e_n)
+Trace_n   -> tau_n
+```
+
+If that mapping adds no formal surplus over E091, record-table TI should be archived as
+TaF/log/database/OnlineIssuance interface vocabulary.
+
+RUN-0096 OnlineIssuance lift-or-demote result:
+
+The mapping succeeds:
+
+```text
+Schema_n             -> Gamma_n
+Cand_n               -> CandExt(Gamma_n)
+Compat_n             -> Adm_n
+Append_n             -> Iss_n / e_n
+Witness_n            -> w_n : Adm_n(e_n)
+Trace_n              -> tau_n
+Project_i,n/TaF_i,n  -> Proj_{o,n} / Glue_n
+```
+
+But it adds no formal surplus:
+
+```yaml
+component_mapping_total: true
+record_table_is_online_issuance_interface: true
+fails_no_hidden_oracle_gate: true
+productive_self_encoding_witness_present: false
+adds_formal_surplus_over_e091: false
+record_table_archive_as_vocabulary: true
+source_side_residue_found: false
+```
+
+So the final formal status is:
+
+```text
+RecordTableSystem^TI is retained as interface vocabulary.
+It is not an independent source-side formal object.
+```
+
+Ownership:
+
+```text
+source-side residue:  OnlineIssuance^LC
+temporal reconstruction: Time as Finality
+record-table language: interface/explanatory layer
+```
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?

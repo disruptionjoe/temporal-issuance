@@ -20,6 +20,73 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E114-oi-lc-assembly-w4-w6-physical-protocol-fixture-2026-07-01.md` tests whether
+  the formal/local Assembly witness can lift to a real physical protocol. Chemical reaction
+  network traces, high-throughput search, evolutionary biosynthesis, and instrument/schema
+  updates are all absorbed. Assembly remains formal/local W2/W3 evidence only; TI-C020 remains
+  parked; next route is `proof_assistant_online_issuance_witness`.
+- `E113-oi-lc-assembly-source-adapter-fixture-2026-07-01.md` builds the Assembly
+  source-index absorber fixture. It rejects projection/access D4, fixed complete assembly
+  space, experimenter/modeler schema, and fixed search/discovery controls. A local
+  source-generated constructor trace survives formally, but full `Adapter_P` still fails
+  because W1 and W4 are missing; TI-C020 remains parked; next route is
+  `oi_lc_assembly_w4_w6_physical_protocol_fixture`.
+- `E112-oi-lc-candidate-scout-w1-w6-table-2026-07-01.md` scores seven candidate
+  families against `Adapter_P`, W1-W6, fixed-source nulls, and stop-rule verdicts. Assembly
+  Theory source assembly index is selected only as the next executable fixture target; four
+  shortcuts are killed, two routes are parked, TI-C020 remains parked, and the next route is
+  `oi_lc_assembly_source_adapter_fixture`.
+- `E111-adapter-p-missing-piece-63-persona-pass-2026-07-01.md` runs the 63-persona
+  missing-piece pass, Hegelian analysis, and meta-synthesis against `Adapter_P`. It finds seven
+  missing layers: invariant, witness/proof, null-model, record/provenance,
+  intervention/perturbation, gauge/access/language, and stop-rule. The next candidate scout must
+  be a structured Adapter_P scoring table; no claim movement.
+- `E110-online-issuance-lc-physical-adapter-contract-2026-07-01.md` defines executable
+  `Adapter_P` from physical candidate traces into `OnlineIssuance^LC`. The checker rejects a
+  fixed-H/readout negative control and admits only a schematic non-real positive shape. TI-C020
+  remains parked; next route is `oi_lc_candidate_scout_w1_w6_table`; no claim movement.
+- `E109-online-issuance-big-swing-campaign-2026-07-01.md` runs W010 after the RUN-0097
+  machine check and creates a five-goal campaign: physical adapter contract, W1-W6 candidate
+  scout, best-candidate absorber fixture, proof-assistant hardening, and publishable verdict
+  bundle. The primary next route is `online_issuance_lc_physical_adapter_contract`; no claim
+  movement.
+- `E108-online-issuance-witness-machine-check-2026-07-01.md` encodes the E090
+  local-constructive witness schema in a small symbolic calculus. The checker validates present
+  enumeration, diagonal candidate formation, admissibility witness formation, source trace
+  recording, and internal future-oracle rejection. It strengthens `OnlineIssuance^LC`
+  class-relatively but does not establish physical issuance; no claim movement.
+- `E107-record-table-online-issuance-lift-or-demote-2026-07-01.md` maps
+  `RecordTableSystem^TI` into `OnlineIssuance^LC`. The mapping succeeds as interface vocabulary
+  but adds no no-hidden-oracle discipline, no productive/self-encoding witness, and no formal
+  surplus over E091. Record-table TI is archived as vocabulary; no claim movement.
+- `E106-record-table-no-fixed-schema-witness-or-demote-2026-06-30.md` executes Goal A from
+  E105. It makes `form_schema`, `form_candidate`, `form_compat`, and `form_witness` explicit,
+  but all four fixed-precontainment absorbers preserve formation records, witness dependencies,
+  and prefix availability. Record-table TI is demoted as an independent source-side route; next
+  optional route is `record_table_online_issuance_lift_or_demote`; no claim movement.
+- `E105-record-table-bigger-swing-campaign-2026-06-30.md` creates a three-goal campaign after
+  E104: attack fixed schema/table/oracle absorption with explicit formation records, try an
+  `OnlineIssuance^LC` lift if residue remains, and only then preflight physics-facing adapter
+  work; no claim movement.
+- `E104-record-table-admissibility-vs-taf-fixture-2026-06-30.md` executes the first
+  `RecordTableSystem^TI` fixture. TaF absorbs downstream temporal reconstruction; prefix-formed
+  admissibility provenance differs, but fixed completed table absorbs all external behavior.
+  Next route is `record_table_no_fixed_schema_witness_or_demote`; no claim movement.
+- `E103-record-table-taf-boundary-v0-1-definition-2026-06-30.md` executes the first
+  record-table goal with the anti-duplication correction: TaF owns finality reconstruction,
+  while TI owns schema/admissibility/append pressure. It defines `RecordTableSystem^TI v0.1`
+  and routes the next fixture to admissibility-vs-TaF reconstruction; no claim movement.
+- `E102-record-table-five-goal-sequence-2026-06-30.md` orchestrates the E101 hypothesis set
+  into five gated goals: define `RecordTableSystem v0.1`, build a no-time-column temporal-query
+  fixture, run absorbers, then only conditionally test relativistic rendering and quantum/GU
+  boundary adapter claims; no claim movement.
+- `E101-record-table-hypothesis-set-2026-06-30.md` preserves the current record-table
+  hypothesis set as a non-constitutional working package: dimensions are columns; time is
+  append/order/finality, not a column; observers render local 4D interfaces. It routes the
+  next pass to `record_table_hypothesis_formal_object_and_absorber_gate`; no claim movement.
+- `E100-record-table-time-63-persona-steelman-2026-06-30.md` runs all 63 personas on Joe's
+  clearest formulation: dimensions are columns, time is row append, not a column. It includes
+  steelman, Hegelian analysis, meta-synthesis, and a final missing-piece pass; no claim movement.
 - `E099-rendered-4d-interface-63-persona-triple-steelman-2026-06-30.md` runs all 63 available
   personas through novel/profound/publishable steelmans of the corrected rendered-interface
   idea. It recommends defining `RenderedInterfaceSystem v0.1`; no claim movement.
