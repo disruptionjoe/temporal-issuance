@@ -1,0 +1,82 @@
+{
+  "base_fixture": "online_issuance_witness_checker_v0_1",
+  "checker_kind": "typed_proof_obligation_checker",
+  "fixture": "proof_assistant_online_issuance_witness_v0_1",
+  "full_theorem_prover_verification": false,
+  "limits": {
+    "external_platonist_completion_not_defeated": true,
+    "no_physical_source_issuance_established": true,
+    "not_lean_coq_agda": true,
+    "result_is_class_relative": "OnlineIssuance^LC"
+  },
+  "obligations": [
+    {
+      "description": "Source and successor contexts obey prefix typing.",
+      "obligation_id": "PA-O1-prefix-typing",
+      "passed": true,
+      "reason": "Gamma_n advances exactly one prefix step and all symbols are formed no later than their context."
+    },
+    {
+      "description": "Enumerator is formed in the present prefix and ranges only over present candidates.",
+      "obligation_id": "PA-O2-present-enumerator",
+      "passed": true,
+      "reason": "Enum_n and every enumerated candidate are source-context symbols formed at the current prefix."
+    },
+    {
+      "description": "Diagonal candidate depends only on present enumerator plus the diagonal-productivity rule.",
+      "obligation_id": "PA-O3-diagonal-dependency",
+      "passed": true,
+      "reason": "The diagonal object is formed at n and is outside Enum_n's present range."
+    },
+    {
+      "description": "Separation proof covers the present enumerator and records the symbolic all-k basis.",
+      "obligation_id": "PA-O4-diagonal-separation",
+      "passed": true,
+      "reason": "All present enumerator values are checked distinct from Diag(Enum_n), with symbolic basis recorded."
+    },
+    {
+      "description": "Admissibility witness depends only on the diagonal, Adm_n, and the admissibility rule.",
+      "obligation_id": "PA-O5-witness-dependency",
+      "passed": true,
+      "reason": "w_diag proves Adm_n(Diag(Enum_n)) without importing future schema."
+    },
+    {
+      "description": "Source trace records the issued candidate and witness in the successor context.",
+      "obligation_id": "PA-O6-source-trace",
+      "passed": true,
+      "reason": "tau_diag links Gamma_n, Enum_n, Diag(Enum_n), w_diag, and Gamma_n_plus_1."
+    },
+    {
+      "description": "Completed future traces are rejected internally while preserved as an external absorber.",
+      "obligation_id": "PA-O7-no-hidden-future-oracle",
+      "passed": true,
+      "reason": "No context symbol has a forbidden future kind; Omega_future is invalid internally but remains an external absorber."
+    },
+    {
+      "description": "Positive result is restricted to the local constructive class.",
+      "obligation_id": "PA-O8-comparator-scope",
+      "passed": true,
+      "reason": "Finite, computable, and internal fixed-oracle comparators do not pass source issuance."
+    },
+    {
+      "description": "Effect typing preserves local/formal scope and blocks physical-source overclaim.",
+      "obligation_id": "PA-O9-effect-typing",
+      "passed": true,
+      "reason": "The proof object yields Issue[S]^LC only; physical issuance and claim movement remain false."
+    }
+  ],
+  "proof_assistant_used": false,
+  "strictly_harder_than_small_symbolic_calculus": true,
+  "summary": {
+    "Issue[S]^LC": true,
+    "Issue[S]^physical": false,
+    "TI_C020_reopened": false,
+    "all_obligations_passed": true,
+    "claim_status_change": "none",
+    "external_platonist_absorber_still_available": true,
+    "next_gate": "online_issuance_core_verdict_bundle",
+    "no_hidden_future_oracle_preserved": true,
+    "obligation_count": 9,
+    "obligations_passed": 9
+  }
+}

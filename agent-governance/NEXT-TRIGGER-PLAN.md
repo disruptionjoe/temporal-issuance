@@ -9,6 +9,47 @@ intake_processed_by_run: RUN-0046
 
 # Next Trigger Plan
 
+## Proof-Assistant-Style OnlineIssuance Witness Hardening Complete - Immediate Direct Route
+
+RUN-0104 hardened the E108 local constructive witness with a typed proof-obligation checker.
+
+Primary artifact:
+
+```text
+explorations/E115-proof-assistant-online-issuance-witness-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+checker_kind: typed_proof_obligation_checker
+proof_assistant_used: false
+full_theorem_prover_verification: false
+obligation_count: 9
+obligations_passed: 9
+all_obligations_passed: true
+no_hidden_future_oracle_preserved: true
+external_platonist_absorber_still_available: true
+Issue[S]^LC: true
+Issue[S]^physical: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> online_issuance_core_verdict_bundle
+```
+
+Required:
+
+1. Synthesize the formal/local `OnlineIssuance^LC` result from E108 and E115.
+2. Include the physical Assembly absorption result from E114.
+3. Preserve external Platonist completion as an explicitly external absorber.
+4. Keep TI-C020 parked unless a new physical candidate independently passes W1 and W4-W6.
+5. State the strongest current verdict without claim promotion unless the claim-status process is explicitly invoked.
+
 ## OI LC Assembly W4-W6 Physical Protocol Fixture Complete - Immediate Direct Route
 
 RUN-0103 evaluated whether the formal/local Assembly source witness could be lifted into a

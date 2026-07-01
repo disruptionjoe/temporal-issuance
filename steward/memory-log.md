@@ -49,3 +49,4 @@ canonical home for hypothesis/claim/run research memory.
 
 - Stewardship fleet pass checked the mailbox and found no proposal messages; logged the D-FORK pivot as the sequencing constraint for future Progress without changing claim state. See `steward/runs/2026-07-01-stewardship-fleet-pass.md`.
 - Discovery fleet pass found the D-FORK pivot should guide next work: focus the expressiveness-threshold/source-side witness burden before widening again. See `steward/runs/2026-07-01-discovery-fleet-pass.md`.
+- Progress fleet pass executed the current direct trigger by adding a typed proof-obligation checker for the OnlineIssuance^LC local constructive witness. The no-hidden-future-oracle boundary and external Platonist absorber were preserved; TI-C020 remains parked. See `steward/runs/2026-07-01-progress-fleet-pass.md` and `explorations/E115-proof-assistant-online-issuance-witness-2026-07-01.md`.

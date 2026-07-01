@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E115-proof-assistant-online-issuance-witness-2026-07-01.md` hardens the E108
+  OnlineIssuance^LC local constructive witness with a typed proof-obligation checker. All
+  nine obligations pass: prefix typing, present enumerator, diagonal dependency/separation,
+  witness dependency, source trace, no hidden future oracle, comparator scope, and effect
+  typing. This strengthens the formal/local witness, does not establish physical source
+  issuance, keeps external Platonist completion as an absorber, and routes next to
+  `online_issuance_core_verdict_bundle`.
 - `E114-oi-lc-assembly-w4-w6-physical-protocol-fixture-2026-07-01.md` tests whether
   the formal/local Assembly witness can lift to a real physical protocol. Chemical reaction
   network traces, high-throughput search, evolutionary biosynthesis, and instrument/schema
