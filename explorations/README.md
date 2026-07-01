@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E116-online-issuance-core-verdict-bundle-2026-07-01.md` synthesizes the current
+  OnlineIssuance^LC verdict after E108, E114, and E115. The narrowed formal/local residue
+  survives as `Issue[S]^LC`; physical source issuance remains unestablished; Assembly Theory is
+  formal/local W2/W3 vocabulary only; external Platonist completion remains an external
+  absorber; TI-C020 stays parked; no claim statuses move. Next route:
+  `online_issuance_lc_hostile_review_packet`.
 - `E115-proof-assistant-online-issuance-witness-2026-07-01.md` hardens the E108
   OnlineIssuance^LC local constructive witness with a typed proof-obligation checker. All
   nine obligations pass: prefix typing, present enumerator, diagonal dependency/separation,

@@ -3,11 +3,51 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0103
+updated_by_run: RUN-0105
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## OnlineIssuance Core Verdict Bundle Complete - Immediate Direct Route
+
+RUN-0105 synthesized the formal/local OnlineIssuance result, physical Assembly absorption, and
+external-completion boundary.
+
+Primary artifact:
+
+```text
+explorations/E116-online-issuance-core-verdict-bundle-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+core_result: narrowed_formal_local_residue_survives
+positive_scope: OnlineIssuance^LC
+Issue[S]^LC: true
+Issue[S]^physical: false
+physical_source_issuance_established: false
+external_platonist_absorber_defeated: false
+current_physical_adapter_found: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> online_issuance_lc_hostile_review_packet
+```
+
+Required:
+
+1. State the `OnlineIssuance^LC` result as a theorem/conjecture pair.
+2. Assign adversarial reviewers to external completion, diagonal/productivity,
+   constructivist, category-theory, and physics-overclaim objections.
+3. Decide whether the current Python proof-obligation checker is enough for repo-grade
+   formalization or whether a Lean/Coq/Agda encoding is the next required hardening step.
+4. Keep TI-C020 parked unless a new physical candidate independently passes W1 and W4-W6.
 
 ## Proof-Assistant-Style OnlineIssuance Witness Hardening Complete - Immediate Direct Route
 
