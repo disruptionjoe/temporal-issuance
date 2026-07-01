@@ -75,7 +75,7 @@ This repo owns the Temporal Issuance hypothesis, claim ledger, formal object, ki
 
 Chronological CapacityOS steward memory lives at `steward/memory-log.md`; repo-local research memory may also exist under `memory/`. Append useful memory after sessions where this README is loaded.
 
-Lightweight upward-learning pointer: method/workflow-module learnings go to `CapacityOS/system/rccm-learnings/`; kernel-primitive learnings go to `CapacityOS/system/kernel-learnings/`.
+Lightweight upward-learning pointer: method/workflow-module learnings go to `CapacityOS/mailboxes/rccm/`; kernel-primitive learnings go to `CapacityOS/mailboxes/kernel/`.
 
 ## Automation Hooks
 
