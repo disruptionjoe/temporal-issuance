@@ -3,11 +3,62 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0106
+updated_by_run: RUN-0107
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## OnlineIssuance LC Theorem-Prover Preflight Complete - Immediate Direct Route
+
+RUN-0107 executed the theorem-prover preflight after the E117 hostile review packet.
+
+Primary artifact:
+
+```text
+explorations/E118-online-issuance-lc-theorem-prover-preflight-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+preflight_complete: true
+selected_target: Lean 4
+target_scope: core Lean encoding first, mathlib optional later
+local_toolchain_available:
+  lake: false
+  lean: false
+  coqc: false
+  coqtop: false
+  agda: false
+verified_theorem_prover_code_added: false
+first_encoding_goal: finite_non_disclosure_and_internal_oracle_exclusion
+computable_comparator_status: second-pass target
+external_platonist_absorber_defeated: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> online_issuance_lc_lean_core_encoding
+```
+
+Required:
+
+1. Provide a Lean 4 toolchain (`lean` / `lake`) in the execution environment.
+2. Add a minimal, validated Lean file for prefix contexts, present enumerators, diagonal
+   successor formation, admissibility witnesses, source traces, and internal future-oracle
+   exclusion.
+3. Prove finite prior-disclosure failure and internal future-oracle exclusion.
+4. Keep diagonal productivity and self-encoding admissibility explicit as assumptions if they
+   are not derived.
+5. Keep the infinite computable grammar comparator as a second-pass target unless a precise
+   computability model is introduced.
+6. Keep TI-C020 parked and return with no claim movement unless the repo-local promotion
+   process is explicitly invoked.
 
 ## OnlineIssuance LC Hostile Review Complete - Immediate Direct Route
 

@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E118-online-issuance-lc-theorem-prover-preflight-2026-07-01.md` chooses Lean 4 as the
+  smallest responsible theorem-prover target for `OnlineIssuance^LC`. No local Lean, Coq, or
+  Agda executable is available, so it adds no unverified theorem-prover source. It separates
+  axioms from derived obligations, makes finite prior-disclosure failure and internal
+  future-oracle exclusion the first proof targets, keeps computable grammar absorption for a
+  second pass, keeps external Platonist completion live, keeps TI-C020 parked, and routes next
+  to `online_issuance_lc_lean_core_encoding`.
 - `E117-online-issuance-lc-hostile-review-packet-2026-07-01.md` pressure-tests the E116
   OnlineIssuance^LC verdict. It separates the executable fixture theorem from the remaining
   mathematical conjecture, keeps external Platonist completion live, finds the Python checker
