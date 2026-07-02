@@ -26,6 +26,7 @@ Executable fixtures:
 - OnlineIssuance Assembly source adapter fixture: `python tests/test_oi_lc_assembly_source_adapter_fixture.py`
 - OnlineIssuance Adapter_P candidate scout W1-W6 table: `python tests/test_oi_lc_candidate_scout_w1_w6_table.py`
 - OnlineIssuance physical adapter contract: `python tests/test_online_issuance_physical_adapter_contract.py`
+- OnlineIssuance proof-obligation checker: `python tests/test_proof_assistant_online_issuance_witness.py`
 - OnlineIssuance witness checker: `python tests/test_online_issuance_witness_checker.py`
 - Record-table admissibility vs TaF reconstruction fixture: `python tests/test_record_table_admissibility_taf_fixture.py`
 - Record-table no-fixed-schema absorber gauntlet: `python tests/test_record_table_no_fixed_schema_gauntlet.py`
