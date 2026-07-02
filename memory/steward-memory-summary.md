@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0111
+last_summarized_run: RUN-0112
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: online_issuance_lc_ce_tier_comparator
+next_required_test: internal_predicate_syntax_for_admissibility
 ```
 
 RUN-0108 through RUN-0110 add: Everett branching, relativistic block-universe
@@ -42,6 +42,12 @@ RUN-0111 adds: W010 selects the strict c.e. / partial-computability comparator
 for `OnlineIssuance^LC` as the highest-value next trigger. The physical branch
 is deferred because E125 leaves only a burden, not a concrete source-formation
 candidate.
+
+RUN-0112 adds: the strict c.e. comparator is now bounded in Lean. A c.e.-style
+stage enumerator model proves finite-prefix freshness but also proves that
+whole-c.e. positive escape fails because any candidate is absorbed by its
+singleton enumerator. This is a no-go / ceiling, not claim movement. The next
+formal pressure target is internal admissibility-predicate syntax.
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
 passes the expressiveness threshold (self-encoding admissibility + diagonal/productive SBP
@@ -928,15 +934,17 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0111 route (current): strict c.e. comparator for `OnlineIssuance^LC`.**
+**RUN-0112 route (current): internal predicate syntax for admissibility.**
 
-Primary: run `online_issuance_lc_ce_tier_comparator`.
+Primary: run `internal_predicate_syntax_for_admissibility`.
 
-Preserve: E121's total Nat-indexed comparator result is model-relative; true
-c.e. / partial-computability generation remains open. The next run should
-either prove the escape/absorption pair in a real c.e. model or record the
-precise obstruction and classical ceiling. No physical source issuance is
-established; `TI-C020` remains parked.
+Preserve: E127 closes the strict c.e. comparator as a bounded no-go in the
+core Lean c.e.-presentation model. Finite-prefix freshness survives, but
+whole-c.e. positive escape is absorbed by singleton enumeration unless a
+future internal code discipline blocks after-the-fact naming. The next run
+should model admissibility predicates as internal objects and either prove a
+self-application/witness result or record the exact obstruction. No physical
+source issuance is established; `TI-C020` remains parked.
 
 **RUN-0081 route (preserved provenance): W010 frontier selection and next-work ranking.**
 

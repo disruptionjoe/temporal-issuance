@@ -1905,6 +1905,30 @@ notes: >
   branch is deferred because no concrete source-formation candidate is in hand.
 ```
 
+```yaml
+run_id: RUN-0112
+workflow_used: W000 -> online_issuance_lc_ce_tier_comparator
+research_vs_governance: formal_research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E127-online-issuance-lc-ce-tier-comparator, CEComparator.lean, RUN-0112-online-issuance-lc-ce-tier-comparator]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  The strict c.e. comparator is bounded as a no-go: finite-prefix freshness
+  survives, but whole-c.e. positive escape is absorbed by singleton
+  enumeration. The next formal route is internal admissibility-predicate
+  syntax.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

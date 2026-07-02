@@ -3,11 +3,66 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0111
+updated_by_run: RUN-0112
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-02: online_issuance_lc_ce_tier_comparator
+
+RUN-0112 executed the strict c.e. / partial-computability comparator selected
+by E126.
+
+Primary artifact:
+
+```text
+explorations/E127-online-issuance-lc-ce-tier-comparator-2026-07-02.md
+```
+
+Formal artifact:
+
+```text
+formal/lean/OnlineIssuance/CEComparator.lean
+```
+
+Verdict:
+
+```yaml
+ce_tier_comparator_complete: true
+finite_prefix_escape_survives: true
+whole_ce_positive_escape: false
+whole_ce_positive_escape_reason: singleton_enumerator_absorption
+partial_recursive_codes_modeled: false
+mathlib_used: false
+strict_ce_tier_status: bounded_no_go_without_internal_code_discipline
+external_platonist_completion_defeated: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Next direct trigger:
+
+```text
+W000 -> internal_predicate_syntax_for_admissibility
+```
+
+Model admissibility predicates as internal objects instead of meta-level Lean
+predicates, then prove a self-application/witness result or record the exact
+obstruction. Preserve E127's c.e. ceiling: finite-prefix freshness survives,
+but whole-c.e. positive escape is absorbed by singleton enumeration unless a
+future internal code discipline blocks after-the-fact naming. No claim
+movement without the repo promotion process; ledger actions pause for Joe.
+
+Secondary bounded trigger:
+
+```text
+W000 -> enumerator_present_pa_o2_fidelity
+```
+
+Use this if the next run should harden Core's `EnumeratorPresent` interface
+against full PA-O2 fidelity before deeper predicate syntax.
 
 ## GATE EXECUTED 2026-07-02: W010 frontier selection after capability gate
 

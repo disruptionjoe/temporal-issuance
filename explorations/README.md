@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E127-online-issuance-lc-ce-tier-comparator-2026-07-02.md` executes the
+  strict c.e. / partial-computability comparator selected by E126. It adds
+  `formal/lean/OnlineIssuance/CEComparator.lean`, proving finite-prefix
+  freshness but also the whole-c.e. ceiling: any proposed candidate is absorbed
+  by its singleton enumerator. No claim movement; next route is
+  `internal_predicate_syntax_for_admissibility`.
 - `E126-frontier-selection-after-capability-gate-2026-07-02.md` executes W010
   after the Everett, block-universe, and capability-typed `Ext_S` gates. It
   ranks the strict c.e. / partial-computability comparator for
