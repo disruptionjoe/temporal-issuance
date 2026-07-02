@@ -21,6 +21,25 @@ Record: `explorations/E120-online-issuance-lc-lean-core-encoding-2026-07-02.md`.
 `claim_status_change: none`. Next gate candidates are listed in E120 (computable comparator
 model; deriving either open assumption; optional mathlib).
 
+## GATE EXECUTED 2026-07-02: online_issuance_lc_derivation_swing (G1/G2/G3)
+
+Executed outside the numbered run system in a Joe-directed session (2026-07-02), attacking
+all three E120 next-gate targets in one swing. G1 diagonal productivity DERIVED
+(`formal/lean/OnlineIssuance/Diagonal.lean`: `diagName_not_mem` hypothesis-free;
+`diagonalFormed_derived` from `EnumeratorPresent` alone). G2 self-encoding admissibility
+DERIVED for the concrete predicate `AdmDef`, with the universal reading obstruction-proved
+(`Admissibility.lean`: composed headline `issue_lc_all_derived` — `IssueLC` from the single
+hypothesis `EnumeratorPresent`). G3 computable comparator DERIVED-MODEL-RELATIVE against
+countable total Nat-indexed families (`Comparator.lean`: T4/T5/T6
+escape-absorption-no-fixed-point; strict c.e. tier remains OPEN). Both hostile lenses
+(kernel+axioms, relocation+faithfulness) labeled all three modules DERIVED; every
+declaration within {propext, Classical.choice, Quot.sound}; no sorry, no axiom
+declarations; Core.lean byte-identical to the E120 commit. External-Platonist completion
+and physical issuance untouched. Record:
+`explorations/E121-online-issuance-lc-derivation-swing-2026-07-02.md`.
+`claim_status_change: none`. Next gate candidates are listed in E121 (strict c.e. tier;
+PA-O2 fidelity for `EnumeratorPresent`; T8 general form; internal predicate syntax).
+
 ## OnlineIssuance LC Theorem-Prover Preflight Complete - Immediate Direct Route
 
 RUN-0107 executed the theorem-prover preflight after the E117 hostile review packet.

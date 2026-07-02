@@ -60,7 +60,7 @@ Derived-vs-assumed split, exactly as E118 required:
 | Obligation | Treatment in pass one |
 | --- | --- |
 | Prefix typing | DERIVED (`Ctx.wellFormed` field; `Ctx.symbol_in_prefix`; successor construction `Ctx.succWith` proves preservation) |
-| Present enumerator | DERIVED (`EnumeratorPresent` predicate, mirrors PA-O2) |
+| Present enumerator | DERIVED (`EnumeratorPresent` predicate; weaker than PA-O2 — see 2026-07-02 addendum below) |
 | Diagonal successor formation | ASSUMED (`DiagonalFormed` hypothesis structure — productivity NOT closed, per E117) |
 | Diagonal not in present enumeration | ASSUMED (carried in `DiagonalFormed.notEnumerated`) |
 | Admissibility witness | ASSUMED (`AdmWitness` hypothesis structure — self-encoding admissibility NOT derived) |
@@ -96,6 +96,32 @@ TI-C020:
   movement: none
   note: physical source issuance remains unestablished and parked.
 ```
+
+## Addendum (2026-07-02, recorded after G1 hostile verification): `EnumeratorPresent` vs PA-O2 fidelity gap
+
+The table above originally described `EnumeratorPresent` as "mirrors PA-O2". That was an
+overstatement, flagged by the G1 hostile verifier and recorded here as required.
+
+- **The gap.** Core's predicate is only `e.formedAt ≤ Γ.prefixStage`. The Python fixture's
+  PA-O2 (`tools/proof_assistant_online_issuance_witness.py`,
+  `check_enumerator_is_present`) additionally requires: the enumerator's name registered in
+  `Γ.symbols` with kind `enumerator`; every enumerated value registered in `Γ.symbols` with
+  kind `candidate`; and the enumerator's totality claim for the present prefix. Core's
+  Lean predicate checks none of these three.
+- **Why the weaker form cannot hide the diagonal assumption.** The G1 escape theorem
+  `diagName_not_mem` (formal/lean/OnlineIssuance/Diagonal.lean) is proved with zero
+  hypotheses over an arbitrary value list — no presence, registration, or totality fact
+  enters the non-enumeration proof at all. `EnumeratorPresent` occurs only on the
+  hypothesis side of the bridge theorem `diagonalFormed_derived` (carried into the
+  `DiagonalFormed` bundle, never consumed by the escape). Replacing it with a stronger,
+  PA-O2-faithful predicate would strengthen the antecedent, and the derivation goes
+  through verbatim. Weakening the presence predicate can therefore only make the bridge
+  easier to invoke; it has no channel through which to smuggle the diagonal escape.
+- **Disposition.** Strengthening `EnumeratorPresent` to full PA-O2 fidelity (symbol
+  registration + kind discipline + totality flag) is deferred to a later pass; Core.lean
+  stays frozen as the documented pass-one interface. The same note is carried in the
+  `OnlineIssuance.Diagonal` module docstring. Documentation-level only; the G1 DERIVED
+  label is unaffected.
 
 ## Next Gate
 
