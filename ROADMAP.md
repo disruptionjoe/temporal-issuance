@@ -18,6 +18,11 @@ the prior realization-order framing (`TI-C001`) is the downstream observer-side 
 layer. The immediate research objective is to make issuance precise. See `HYPOTHESIS.md` and
 `NORTH-STAR.md`.
 
+Tri-repo placement (2026-07-02): this objective is TI's leg of the ratified division of labor —
+TI owns the source question (does anything genuinely cross the interface), with the E119-retyped
+`Ext_S` capability burden as the standing adapter obligation. See
+`TRI-REPO-DIVISION-OF-LABOR.md`.
+
 ## Phase 2B: Issuance Precision
 
 Status: active, OnlineSchemaSys pass complete in RUN-0042.

@@ -13,6 +13,8 @@ Temporal Issuance is a public research-governance repository for testing a specu
 
 The organizing question is "Why does reality remain capable of producing genuinely new structure?" rather than "Why does time flow?" The long-range target is whether issuance can connect non-circularly to energy, cosmological expansion, and structure formation — a target, not an earned result. See [HYPOTHESIS.md](HYPOTHESIS.md) and [NORTH-STAR.md](NORTH-STAR.md) for the full layered statement.
 
+This repo is also the **source-question leg** of the ratified tri-repo division of labor (2026-07-02): TI owns whether anything genuinely crosses a bounded region's interface (issuance vs disclosure); time-as-finality owns the capability measure; gu-formalization owns boundary content. Identity claims across the three remain gated. See [TRI-REPO-DIVISION-OF-LABOR.md](TRI-REPO-DIVISION-OF-LABOR.md).
+
 The prior framing — temporal issuance as the monotone realization of constraint, modeled as a growing measured realization order with observer-indexed record cadences — is retained as the downstream reconstruction layer (claim `TI-C001`).
 
 Current framing note: the "single cadence" intuition should be read as coherent issuance under a shared constraint, not as a universal clock, preferred foliation, or coordinate simultaneity. See [E095: Coherent Issuance, Not A Clock](explorations/E095-coherent-issuance-not-clock-2026-06-30.md), the follow-on fixture [E096: Clock-Free Record-Cadence Fixture](explorations/E096-clock-free-record-cadence-fixture-2026-06-30.md), and the absorber verdict [E097: Clock-Free Cadence Absorber Gauntlet](explorations/E097-clock-free-cadence-absorber-gauntlet-2026-06-30.md).
