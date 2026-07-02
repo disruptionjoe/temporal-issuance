@@ -3,11 +3,52 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0108
+updated_by_run: RUN-0109
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-02: relativistic block-universe absorber gauntlet
+
+E122 Gauntlet A executed in `RUN-0109`.
+
+Primary artifact:
+
+```text
+explorations/E124-relativistic-block-universe-absorber-gauntlet-2026-07-02.md
+```
+
+Verdict:
+
+```yaml
+typed_verdict: narrowed_to_region_indexed_capability_burden
+global_frontier_or_preferred_foliation_survives: false
+objective_passage_reading_survives: false
+block_universe_as_Issue_S: false
+block_universe_as_fixed_source_absorber: true
+observer_region_records_as_Project_O: true
+observer_region_records_as_Finalize_R: true
+lost_global_slice_as_Lose_K: true
+covariant_CSG_renaming_absorbed: true
+region_indexed_Issue_S_survives_only_as_burden: true
+capability_typed_Ext_S_next_gate: true
+E121_no_fixed_point_applies_to_spacetime: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Next direct trigger:
+
+```text
+W000 -> capability_typed_Ext_S_surplus_test
+```
+
+Define a region-indexed task menu and compare the proposed `Ext_S` change
+against fixed block completion, CSG-style covariant growth, fixed-source
+aperture disclosure, and TaF capability-typed readout. No claim movement
+without the repo promotion process; ledger actions pause for Joe.
 
 ## GATE EXECUTED 2026-07-02: Everett fixed-unitary-source absorber gauntlet
 

@@ -20,6 +20,14 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E124-relativistic-block-universe-absorber-gauntlet-2026-07-02.md` executes
+  E122 Gauntlet A. It kills global-frontier, preferred-foliation, and
+  objective-passage readings of issuance; types fixed block completion as an
+  absorber rather than `Issue[S]`; treats observer-local records as
+  `Project[O] + Finalize[R] + Lose[K]`; and keeps CSG-style covariant growth
+  as an undefeated absorber unless `Ext_S` supplies a region-indexed
+  capability surplus. No claim movement; next gate is
+  `capability_typed_Ext_S_surplus_test`.
 - `E123-everett-fixed-unitary-source-absorber-gauntlet-2026-07-02.md` executes
   E122 Gauntlet B. It types Everett's universal wavefunction plus unitary
   dynamics as a fixed-source absorber input, branching as `Project[O]`,
