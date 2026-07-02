@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0113
+last_summarized_run: RUN-0114
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: internal_predicate_syntax_for_admissibility
+next_required_test: W010_frontier_selection_after_pa_o2_fidelity
 ```
 
 RUN-0108 through RUN-0110 add: Everett branching, relativistic block-universe
@@ -55,6 +55,14 @@ formed predicate objects, self-quote acceptance yields an internal witness, and
 universal internal-code acceptance is refuted by a future-stage guard. This is
 formal hardening only; no claim movement. The next formal pressure target is
 PA-O2 fidelity for `EnumeratorPresent`.
+
+RUN-0114 adds: `EnumeratorPresent` is now PA-O2-faithful in Lean. It requires
+registered enumerator symbol, kind `enumerator`, candidate registration for
+enumerated values, and present-prefix totality over candidate symbols. The
+existing `IssueLC` stack still builds, and the diagonal escape proof still does
+not consume the PA-O2 assumptions. This is formal hardening only; no claim
+movement. The next target is W010 frontier selection after the formal hardening
+queue closes.
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
 passes the expressiveness threshold (self-encoding admissibility + diagonal/productive SBP
@@ -941,18 +949,17 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0113 route (current): enumerator present PA-O2 fidelity.**
+**RUN-0114 route (current): W010 frontier selection after PA-O2 fidelity.**
 
-Primary: run `enumerator_present_pa_o2_fidelity`.
+Primary: run `W010_frontier_selection_after_pa_o2_fidelity`.
 
-Preserve: E128 closes the narrow internal-predicate-syntax caveat by modeling
-admissibility predicates as finite internal codes and proving bounded
-self-quote witness formation plus a universal-acceptance obstruction. The next
-interface caveat is that `EnumeratorPresent` is still weaker than the original
-PA-O2 fixture: it does not yet require registered context symbol, kind
-`enumerator`, candidate registration for enumerated values, or present-prefix
-totality. No physical source issuance is established; `TI-C020` remains
-parked.
+Preserve: E129 closes the PA-O2 interface caveat by making
+`EnumeratorPresent` require enumerator-symbol registration, kind
+`enumerator`, candidate registration for enumerated values, and present-prefix
+totality. The strict c.e. ceiling, internal predicate syntax, and PA-O2
+fidelity gates are now all closed at the current finite-prefix Lean tier. No
+physical source issuance is established; external Platonist completion remains
+an absorber boundary; `TI-C020` remains parked.
 
 **RUN-0112 route (preserved provenance): internal predicate syntax for admissibility.**
 

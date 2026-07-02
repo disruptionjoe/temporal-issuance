@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E129-enumerator-present-pa-o2-fidelity-2026-07-02.md` closes the PA-O2
+  fidelity gap in the Lean core interface. `EnumeratorPresent` now requires a
+  registered enumerator symbol, candidate registration for enumerated values,
+  and present-prefix totality over candidate symbols. Existing
+  OnlineIssuance^LC theorems still build; no claim movement; next route is
+  `W010_frontier_selection_after_pa_o2_fidelity`.
 - `E128-internal-predicate-syntax-for-admissibility-2026-07-02.md` executes
   the internal admissibility-predicate syntax trigger left by E127. It adds
   `formal/lean/OnlineIssuance/InternalPredicateSyntax.lean`, modeling finite

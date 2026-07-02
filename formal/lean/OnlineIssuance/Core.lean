@@ -46,6 +46,18 @@ structure Ctx where
   symbols : List Symbol
   wellFormed : ∀ s ∈ symbols, s.formedAt ≤ prefixStage
 
+/-! ## PA-O2-faithful enumerator presence -/
+
+/-- Exact symbol registration in a context. -/
+def Ctx.HasExactSymbol (Γ : Ctx) (name : String) (kind : Kind)
+    (formedAt : Nat) : Prop :=
+  ({ name := name, kind := kind, formedAt := formedAt } : Symbol) ∈ Γ.symbols
+
+/-- Present-prefix symbol registration, allowing the registering symbol's
+formation stage to be recovered from the context. -/
+def Ctx.HasPresentSymbol (Γ : Ctx) (name : String) (kind : Kind) : Prop :=
+  ∃ formedAt, Γ.HasExactSymbol name kind formedAt ∧ formedAt ≤ Γ.prefixStage
+
 /-- An enumerator formed at some stage, enumerating finitely many names. -/
 structure Enumerator where
   name : String
@@ -53,9 +65,51 @@ structure Enumerator where
   values : List String
 deriving Repr, DecidableEq
 
-/-- The enumerator is present in the context's prefix (mirrors PA-O2). -/
-def EnumeratorPresent (Γ : Ctx) (e : Enumerator) : Prop :=
-  e.formedAt ≤ Γ.prefixStage
+/-- The enumerator symbol itself is registered in the context with kind
+`enumerator`. -/
+def EnumeratorRegistered (Γ : Ctx) (e : Enumerator) : Prop :=
+  Γ.HasExactSymbol e.name Kind.enumerator e.formedAt
+
+/-- Every value emitted by the enumerator is registered as a present-prefix
+candidate symbol. This is the PA-O2 "enumerated values are candidate
+registrations" leg. -/
+def EnumeratorValuesRegistered (Γ : Ctx) (e : Enumerator) : Prop :=
+  ∀ v ∈ e.values, Γ.HasPresentSymbol v Kind.candidate
+
+/-- The enumerator claims totality over the present candidate prefix: every
+candidate symbol already present in the context appears in the enumerated
+value list. This is intentionally finite and prefix-local; it does not claim
+anything about future candidates, c.e. completion, or external Platonist
+families. -/
+def EnumeratorTotalForPrefix (Γ : Ctx) (e : Enumerator) : Prop :=
+  ∀ s ∈ Γ.symbols, s.kind = Kind.candidate → s.formedAt ≤ Γ.prefixStage →
+    s.name ∈ e.values
+
+/-- The enumerator is present in the context's prefix in the PA-O2-faithful
+sense: it is a registered context symbol of kind `enumerator`, all enumerated
+values are registered candidate symbols, and the enumerator is total for the
+present candidate prefix. -/
+structure EnumeratorPresent (Γ : Ctx) (e : Enumerator) : Prop where
+  formedInPrefix : e.formedAt ≤ Γ.prefixStage
+  registered : EnumeratorRegistered Γ e
+  valuesRegistered : EnumeratorValuesRegistered Γ e
+  prefixTotal : EnumeratorTotalForPrefix Γ e
+
+theorem EnumeratorPresent.enumerator_symbol {Γ : Ctx} {e : Enumerator}
+    (h : EnumeratorPresent Γ e) :
+    Γ.HasExactSymbol e.name Kind.enumerator e.formedAt :=
+  h.registered
+
+theorem EnumeratorPresent.value_symbol {Γ : Ctx} {e : Enumerator}
+    (h : EnumeratorPresent Γ e) {v : String} (hv : v ∈ e.values) :
+    Γ.HasPresentSymbol v Kind.candidate :=
+  h.valuesRegistered v hv
+
+theorem EnumeratorPresent.total_for_candidate {Γ : Ctx} {e : Enumerator}
+    (h : EnumeratorPresent Γ e) {s : Symbol} (hs : s ∈ Γ.symbols)
+    (hk : s.kind = Kind.candidate) :
+    s.name ∈ e.values :=
+  h.prefixTotal s hs hk (Γ.wellFormed s hs)
 
 /-- A candidate object formed at a definite stage. -/
 structure Candidate where

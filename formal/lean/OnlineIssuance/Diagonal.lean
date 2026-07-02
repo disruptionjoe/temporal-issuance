@@ -40,26 +40,14 @@ Construction notes:
   objection (an enumerator that "discloses" a candidate under a different
   name) is out of scope at this tier and stays with the comparator ladder.
 
-Fidelity gap, recorded per hostile verification (non-blocking):
-- Core's `EnumeratorPresent Γ e` is only `e.formedAt ≤ Γ.prefixStage`. The
-  fixture's PA-O2 is strictly stronger: it also requires the enumerator to be
-  a registered context symbol of kind `enumerator`, every enumerated value to
-  be a registered context symbol of kind `candidate`, and the enumerator's
-  totality claim for the present prefix. Core's docstring "mirrors PA-O2" is
-  therefore an overstatement; the honest reading is "weaker than PA-O2".
-- Why the weaker form CANNOT hide the diagonal assumption: the escape theorem
-  `diagName_not_mem` is proved with ZERO hypotheses over an arbitrary value
-  list — no presence, registration, or totality fact enters the escape at
-  all. `EnumeratorPresent` occurs only on the HYPOTHESIS side of
-  `diagonalFormed_derived` (it is carried into the bundle, never consumed by
-  the non-enumeration proof), so replacing it with any stronger
-  PA-O2-faithful predicate strengthens the antecedent and the derivation goes
-  through verbatim. A weaker presence predicate can only make the bridge
-  theorem EASIER to invoke, never smuggle the diagonal escape.
-- Disposition: strengthening the predicate to full PA-O2 fidelity (symbol
-  registration + kind + totality flag) is deferred to a later pass; Core.lean
-  stays frozen as the pass-one interface. Recorded in the gate writeup
-  (E120 addendum).
+Historical fidelity gap, now superseded by RUN-0114:
+- RUN-0114 strengthens `EnumeratorPresent` in Core so PA-O2 now requires
+  enumerator-symbol registration, candidate registration for enumerated
+  values, and present-prefix totality. The older notes below are retained as
+  provenance for why the gap mattered.
+- `diagName_not_mem` remains proof-independent from PA-O2 registration and
+  totality; the stronger predicate appears only as the explicit antecedent to
+  `diagonalFormed_derived`.
 
 Stage-stamp divergence (fixture vs Core), covered by DUAL bundles:
 - Python fixture (`tools/proof_assistant_online_issuance_witness.py`):

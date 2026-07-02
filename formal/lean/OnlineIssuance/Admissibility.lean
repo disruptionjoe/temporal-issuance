@@ -216,8 +216,27 @@ theorem no_universal_self_encoding :
     ¬ ∀ (A : Ctx → Enumerator → Candidate → Prop) (Γ : Ctx) (e : Enumerator),
         EnumeratorPresent Γ e → A Γ e (diagCandidate Γ e) := by
   intro h
+  let enumSym : Symbol := ⟨"Enum_0", Kind.enumerator, 0⟩
+  let Γ0 : Ctx :=
+    { prefixStage := 0
+      symbols := [enumSym]
+      wellFormed := by
+        intro s hs
+        simp [enumSym] at hs
+        subst s
+        exact Nat.le_refl 0 }
+  let e0 : Enumerator := ⟨"Enum_0", 0, []⟩
+  have hpresent : EnumeratorPresent Γ0 e0 := by
+    refine ⟨Nat.le_refl 0, ?_, ?_, ?_⟩
+    · simp [EnumeratorRegistered, Ctx.HasExactSymbol, Γ0, e0, enumSym]
+    · intro v hv
+      cases hv
+    · intro s hs hk _hstage
+      simp [Γ0, enumSym] at hs
+      subst s
+      cases hk
   have h0 := h (fun _ e c => PriorDisclosure e c)
-    ⟨0, [], fun _ hs => nomatch hs⟩ ⟨"Enum_0", 0, []⟩ (Nat.le_refl 0)
+    Γ0 e0 hpresent
   exact diagonal_inadmissible_for_disclosure _ _ h0
 
 /-! ## PA-O6: double registration in the successor context -/
