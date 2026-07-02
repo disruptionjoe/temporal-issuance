@@ -195,3 +195,20 @@ the 110 conjecture, and (b) the first **observer / multi-holder** leg -- instant
 across distinct holders" and testing whether it is a third axis orthogonal to INFO and COMP. That multi-holder
 experiment is the next highest-value step and is where this stops being "reversal cost on a map" and starts
 being "finality across observers."
+
+## Update (2026-07-02): tri-repo synthesis sharpens the observer leg
+
+The tri-repo synthesis in
+`time-as-finality/audits/2026-07-01-tri-repo-synthesis-hegelian-metasynthesis.md`
+does not move this hypothesis, but it sharpens the next observer-side test.
+TaF T392/T393 provide record-side equality and boundary certificates, and T395
+shows that access can change capability while leaving declared process
+statistics fixed. T397 then absorbs the `k >= 3` class-coarse record signature
+as generic multipath marker algebra. Therefore the next multi-holder / `Ext_S`
+route should be capability-typed from the start: compare distinct-holder
+reversal capability and observer-supported task menus, not merely marginal
+statistics or class-marker visibility.
+
+Local placement:
+`explorations/E119-tri-repo-capability-burden-retyping-2026-07-02.md`.
+No claim status changes.

@@ -136,3 +136,15 @@ If `<=_S` and `Ext_S` factor through causal order, ordinary dependency order, re
 1. Specify `<=_S` and `Ext_S` without causal order, ordinary dependency order, record generation, entropy, information, probability, volume, action, or primitive time.
 2. Test whether any source extension rule changes observer capabilities in a way time-as-finality readout cannot already express.
 3. If not, absorb the remaining object into existing causal/dependency and record-reconstruction machinery.
+
+## 2026-07-02 Distillation From Tri-Repo Synthesis
+
+Item 2 should now be read as a capability-typed burden, not as a statistics-only
+burden. TaF T392/T393/T395 show that declared region statistics may stay fixed
+while access/reversal/postdiction capability changes; T397 further absorbs the
+`k >= 3` class-coarse record signature as generic multipath marker algebra. So
+an `Ext_S` survivor must beat TaF's D1-relative-to-access / bounded-region
+capability readout, not an older marginal-statistics readout.
+
+Local exploration record:
+`explorations/E119-tri-repo-capability-burden-retyping-2026-07-02.md`.

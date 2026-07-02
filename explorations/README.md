@@ -20,6 +20,11 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E119-tri-repo-capability-burden-retyping-2026-07-02.md` distills the
+  TaF/GU/TI synthesis into a TI-local burden update: the `Ext_S` surplus test
+  should compare against capability-typed TaF readout, not statistics-only
+  readout. It names an optional `capability_typed_Ext_S_surplus_test`, preserves
+  the multi-holder third-axis route, and records no claim movement.
 - `E118-online-issuance-lc-theorem-prover-preflight-2026-07-01.md` chooses Lean 4 as the
   smallest responsible theorem-prover target for `OnlineIssuance^LC`. No local Lean, Coq, or
   Agda executable is available, so it adds no unverified theorem-prover source. It separates
