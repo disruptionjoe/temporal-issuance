@@ -9,6 +9,48 @@ intake_processed_by_run: RUN-0046
 
 # Next Trigger Plan
 
+## GATE EXECUTED 2026-07-02: capability-typed Ext_S surplus test
+
+RUN-0110 executed the post-E124 capability gate.
+
+Primary artifact:
+
+```text
+explorations/E125-capability-typed-ext-s-surplus-test-2026-07-02.md
+```
+
+Verdict:
+
+```yaml
+typed_verdict: capability_readout_absorbs_task_menu_difference_without_source_formation
+region_task_menu_defined: true
+capability_change_alone_implies_Issue_S: false
+fixed_block_completion_absorbs_record_access: true
+CSG_fixed_law_growth_absorbs_event_addition_reading: true
+fixed_source_aperture_absorbs_access_widening: true
+TaF_capability_readout_absorbs_task_menu_difference: true
+source_admissibility_or_constructor_witness_supplied: false
+Ext_S_capability_surplus_established: false
+OnlineIssuance_LC_disturbed: false
+Issue_S_physical_established: false
+TI_C020_reopened: false
+tri_repo_identity_claim: false
+claim_status_change: none
+```
+
+Next direct trigger:
+
+```text
+W000 -> W010_frontier_selection_after_capability_gate
+```
+
+Re-rank the live frontier after the Everett, block-universe, and
+capability-typed `Ext_S` gates. Preserve the result: region-indexed capability
+differences are real comparison data, but they are not source issuance unless a
+candidate supplies source-side admissibility, constructor, or witness formation.
+No claim movement without the repo promotion process; ledger actions pause for
+Joe.
+
 ## GATE EXECUTED 2026-07-02: relativistic block-universe absorber gauntlet
 
 E122 Gauntlet A executed in `RUN-0109`.

@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E125-capability-typed-ext-s-surplus-test-2026-07-02.md` executes the
+  post-E124 capability gate. It defines a region-indexed task menu and finds
+  that changed observe/postdict/choose/certify capabilities are absorbed by
+  fixed block completion, CSG-style fixed-law growth, fixed-source aperture
+  disclosure, or TaF capability readout unless a new source admissibility
+  predicate, constructor, or witness relation is formed. No claim movement;
+  next gate is `W010_frontier_selection_after_capability_gate`.
 - `E124-relativistic-block-universe-absorber-gauntlet-2026-07-02.md` executes
   E122 Gauntlet A. It kills global-frontier, preferred-foliation, and
   objective-passage readings of issuance; types fixed block completion as an
