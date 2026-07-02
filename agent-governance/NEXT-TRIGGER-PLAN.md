@@ -9,6 +9,18 @@ intake_processed_by_run: RUN-0046
 
 # Next Trigger Plan
 
+## GATE EXECUTED 2026-07-02: online_issuance_lc_lean_core_encoding
+
+Executed outside the numbered run system in a Joe-directed session (2026-07-02). The E118
+blocker (`lake: false, lean: false`) is removed: elan installed, Lean 4.31.0 / Lake 5.0.0
+verified. The pass-one core encoding exists at `formal/lean/OnlineIssuance/Core.lean`,
+builds clean (`lake build`), and machine-checks T1 (finite non-disclosure), T2 (internal
+future-oracle exclusion, type-level), and T3 (Issue[S]^LC from explicit assumptions), with
+diagonal productivity and self-encoding admissibility kept as visible hypotheses per E117.
+Record: `explorations/E120-online-issuance-lc-lean-core-encoding-2026-07-02.md`.
+`claim_status_change: none`. Next gate candidates are listed in E120 (computable comparator
+model; deriving either open assumption; optional mathlib).
+
 ## OnlineIssuance LC Theorem-Prover Preflight Complete - Immediate Direct Route
 
 RUN-0107 executed the theorem-prover preflight after the E117 hostile review packet.

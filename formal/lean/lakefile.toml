@@ -1,0 +1,5 @@
+name = "OnlineIssuance"
+defaultTargets = ["OnlineIssuance"]
+
+[[lean_lib]]
+name = "OnlineIssuance"
