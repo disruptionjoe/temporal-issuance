@@ -28,7 +28,7 @@ The steward does not run a fixed checklist. It decides what work has highest exp
 Local Codex automation target:
 
 - automation id: `hourly-temporal-issuance-repo-steward`
-- cwd: `C:\Users\joe\JB\Github Repos\temporal-issuance`
+- cwd: `Github Repos\temporal-issuance`
 - entry workflow: `workflows/W000-repo-steward-cycle.md`
 
 The automation prompt should stay thin. It should name the repo, read `AGENTS.md`, and invoke W000. The substantive operating instructions belong in the repository, not in the Codex automation record.
