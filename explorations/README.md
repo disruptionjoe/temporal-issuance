@@ -20,6 +20,11 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E117-online-issuance-lc-hostile-review-packet-2026-07-01.md` pressure-tests the E116
+  OnlineIssuance^LC verdict. It separates the executable fixture theorem from the remaining
+  mathematical conjecture, keeps external Platonist completion live, finds the Python checker
+  sufficient for fixture regression but not theorem-grade formalization, keeps TI-C020 parked,
+  and routes next to `online_issuance_lc_theorem_prover_preflight`.
 - `E116-online-issuance-core-verdict-bundle-2026-07-01.md` synthesizes the current
   OnlineIssuance^LC verdict after E108, E114, and E115. The narrowed formal/local residue
   survives as `Issue[S]^LC`; physical source issuance remains unestablished; Assembly Theory is

@@ -3,11 +3,54 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0105
+updated_by_run: RUN-0106
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## OnlineIssuance LC Hostile Review Complete - Immediate Direct Route
+
+RUN-0106 executed the hostile review packet for the E116 core verdict bundle.
+
+Primary artifact:
+
+```text
+explorations/E117-online-issuance-lc-hostile-review-packet-2026-07-01.md
+```
+
+Verdict:
+
+```yaml
+hostile_review_complete: true
+promotion_gate_passed: false
+python_checker_sufficient_for_fixture_regression: true
+python_checker_sufficient_for_theorem_grade_formalization: false
+theorem_prover_hardening_recommended: true
+external_platonist_absorber_defeated: false
+diagonal_productivity_obligation_closed: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Immediate direct trigger:
+
+```text
+W000 -> online_issuance_lc_theorem_prover_preflight
+```
+
+Required:
+
+1. Choose the smallest viable Lean, Coq, or Agda encoding target for the local constructive
+   source class.
+2. Encode prefix contexts, formed admissibility, diagonal successor formation, witness
+   dependencies, source trace, and internal future-oracle exclusion.
+3. Separate axioms from derived obligations; if productivity or self-encoding is axiomatized,
+   say so.
+4. Attempt the non-disclosure theorem against finite, computable, and internal fixed-oracle
+   comparators.
+5. Return with no claim movement unless the repo-local promotion process is explicitly invoked.
 
 ## OnlineIssuance Core Verdict Bundle Complete - Immediate Direct Route
 
