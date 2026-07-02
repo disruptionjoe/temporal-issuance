@@ -496,14 +496,22 @@ RUN-0081 completed OnlineIssuance Goal 5 and closed the sequence. Final verdict:
 `NARROWED_FORMAL_RESIDUE_SURVIVES`. `FORMAL-OBJECT.md` now records `OnlineIssuance^LC` as the
 narrow class-relative formal target. No claim moved.
 
-Open tasks (latest route refreshed after RUN-0115; older parked items preserved below):
+Open tasks (latest route refreshed after RUN-0116; older parked items preserved below):
 
+- RUN-0116 / E131 T8 `diagName` name-level absorption complete:
+  `formal/lean/OnlineIssuance/NameAbsorption.lean` proves a fixed binary-name
+  stage grammar discloses every `diagName vs` at stage `vs.length + 1`. The
+  broader arbitrary-name-constructor theorem is unnecessary for this citation
+  boundary. The next direct trigger is `external_platonist_boundary_packet`,
+  because the current bounded Lean-tier caveats are now closed while external
+  Platonist completion remains the honest unresolved absorber boundary.
 - RUN-0115 / E130 W010 after PA-O2 fidelity complete: the strict c.e.
   comparator, internal predicate syntax, and PA-O2 fidelity hardening gates are
-  closed at the current finite-prefix Lean tier. The next direct trigger is
+  closed at the current finite-prefix Lean tier. The selected direct trigger was
   `t8_general_name_absorption`, because E121's remaining citation boundary is
-  now the crispest formal caveat: T8 is machine-checked for `freshName`, while
-  `diagName` name-level absorption remains prose/semantic-bound.
+  the crispest formal caveat at that point: T8 was machine-checked for
+  `freshName`, while `diagName` name-level absorption remained prose/semantic-
+  bound before RUN-0116.
 - Optional external Platonist boundary packet: after the T8/name-level caveat,
   separate what `OnlineIssuance^LC` establishes internally from what it cannot
   establish against Platonist completion, without claim movement.

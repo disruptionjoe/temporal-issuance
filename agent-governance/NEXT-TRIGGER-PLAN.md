@@ -3,11 +3,55 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0115
+updated_by_run: RUN-0116
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-02: t8_general_name_absorption
+
+RUN-0116 executed the T8/name-level absorption gate selected by RUN-0115.
+
+Primary artifact:
+
+```text
+explorations/E131-t8-general-name-absorption-2026-07-02.md
+```
+
+Formal artifacts:
+
+```text
+formal/lean/OnlineIssuance/NameAbsorption.lean
+formal/lean/OnlineIssuance.lean
+```
+
+Verdict:
+
+```yaml
+t8_diagname_absorption_closed: true
+bounded_name_level_absorber_built: true
+broader_nat_to_string_surjection_needed_for_diagname: false
+fully_general_arbitrary_name_constructor_theorem_added: false
+strict_ce_positive_escape_reopened: false
+external_platonist_completion_defeated: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Next direct trigger:
+
+```text
+W000 -> external_platonist_boundary_packet
+```
+
+Separate what `OnlineIssuance^LC` establishes internally from what it cannot
+establish against external Platonist completion. Preserve the current result:
+the c.e., internal-predicate, PA-O2, and bounded T8/`diagName` caveats are
+closed at the current Lean tier, but completed-structure ontology and physical
+source issuance remain untouched. No claim movement without the repo promotion
+process; ledger actions pause for Joe.
 
 ## GATE EXECUTED 2026-07-02: W010 frontier selection after PA-O2 fidelity
 

@@ -4,3 +4,4 @@ import OnlineIssuance.Admissibility
 import OnlineIssuance.InternalPredicateSyntax
 import OnlineIssuance.Comparator
 import OnlineIssuance.CEComparator
+import OnlineIssuance.NameAbsorption

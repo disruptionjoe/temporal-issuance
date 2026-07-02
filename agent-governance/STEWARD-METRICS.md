@@ -2001,6 +2001,30 @@ notes: >
   candidate.
 ```
 
+```yaml
+run_id: RUN-0116
+workflow_used: W000 -> t8_general_name_absorption
+research_vs_governance: formal_research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E131-t8-general-name-absorption, NameAbsorption.lean, RUN-0116-t8-general-name-absorption]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  T8 diagName name-level absorption is now machine-checked with a fixed
+  binary-name absorber family. The broader arbitrary-name-constructor theorem
+  is unnecessary for this citation boundary. External Platonist completion and
+  physical source issuance remain untouched.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0115
+last_summarized_run: RUN-0116
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: t8_general_name_absorption
+next_required_test: external_platonist_boundary_packet
 ```
 
 RUN-0108 through RUN-0110 add: Everett branching, relativistic block-universe
@@ -71,6 +71,14 @@ caveat is E121's citation boundary: T8 is machine-checked for the `freshName`
 construction, while `diagName` name-level absorption is still prose/semantic
 bounded. The physical branch remains burden-only without a concrete source-
 formation candidate; no claim movement.
+
+RUN-0116 adds: T8 `diagName` name-level absorption is now machine-checked in
+Lean. `NameAbsorption.lean` builds a fixed binary-name stage grammar that
+discloses every `diagName vs` at stage `vs.length + 1`. The broader arbitrary
+name-constructor theorem is unnecessary for this citation boundary. No strict
+c.e. positive escape, external Platonist defeat, physical source issuance, or
+claim movement is established. The next pressure point is the external
+Platonist boundary packet.
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
 passes the expressiveness threshold (self-encoding admissibility + diagonal/productive SBP
@@ -957,9 +965,20 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0115 route (current): T8 general name-level absorption.**
+**RUN-0116 route (current): external Platonist boundary packet.**
 
-Primary: run `t8_general_name_absorption`.
+Primary: run `external_platonist_boundary_packet`.
+
+Preserve: E131 closes the bounded T8 `diagName` name-level absorption caveat
+by proving a fixed binary-name absorber in Lean. The current Lean tier now has
+the c.e., internal-predicate, PA-O2, and bounded T8/`diagName` caveats closed.
+The next run should separate what `OnlineIssuance^LC` establishes internally
+from what it cannot establish against external Platonist completion. No
+physical source issuance is established; `TI-C020` remains parked.
+
+**RUN-0115 route (preserved provenance): T8 general name-level absorption.**
+
+Primary was `t8_general_name_absorption`.
 
 Preserve: E130 selects this because the strict c.e. ceiling, internal
 predicate syntax, and PA-O2 fidelity gates are closed at the current

@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E131-t8-general-name-absorption-2026-07-02.md` closes the bounded T8
+  `diagName` name-level absorption caveat. It adds
+  `formal/lean/OnlineIssuance/NameAbsorption.lean`, where a fixed binary-name
+  stage grammar discloses every `diagName` output at stage `vs.length + 1`.
+  The broader arbitrary-name-constructor theorem is not needed for this
+  citation boundary. No claim movement; next route is
+  `external_platonist_boundary_packet`.
 - `E130-frontier-selection-after-pa-o2-fidelity-2026-07-02.md` executes W010
   after the strict c.e. comparator, internal predicate syntax, and PA-O2
   fidelity gates closed. It ranks `t8_general_name_absorption` as the next
