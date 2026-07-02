@@ -137,14 +137,28 @@ If `<=_S` and `Ext_S` factor through causal order, ordinary dependency order, re
 2. Test whether any source extension rule changes observer capabilities in a way time-as-finality readout cannot already express.
 3. If not, absorb the remaining object into existing causal/dependency and record-reconstruction machinery.
 
-## 2026-07-02 Distillation From Tri-Repo Synthesis
+## Fixture Availability Note (2026-07-02, cross-repo, candidate-only)
 
-Item 2 should now be read as a capability-typed burden, not as a statistics-only
-burden. TaF T392/T393/T395 show that declared region statistics may stay fixed
-while access/reversal/postdiction capability changes; T397 further absorbs the
-`k >= 3` class-coarse record signature as generic multipath marker algebra. So
-an `Ext_S` survivor must beat TaF's D1-relative-to-access / bounded-region
-capability readout, not an older marginal-statistics readout.
+Recorded during a TaF stewardship pass under Joe's direct authorization. Per
+the one-way rule (`TRI-REPO-DIVISION-OF-LABOR.md`), this note records fixture
+availability as stress-test input — explicitly NOT mutual support — and
+imports no claims in either direction.
 
-Local exploration record:
-`explorations/E119-tri-repo-capability-burden-retyping-2026-07-02.md`.
+- Next Test Candidate 2 above (a source extension rule changing observer
+  capabilities in a way time-as-finality readout cannot already express) now
+  has CANDIDATE executable fixtures on the TaF side: T392 (fixed-SBS-key
+  reversal divergence), T395 (record-order trade-off probe), T407
+  (region-indexed capability no-go; renumbered from T397 on TaF's 2026-07-01
+  collision resolution), T404 (resource-theory absorber audit,
+  `partially_absorbed_residue_located`), and T408 (basis-free capability
+  boundary; renumbered from T404). See `time-as-finality/TESTS.md` and E119
+  for the burden retyping. Whether any of these instantiates an `Ext_S`
+  surplus is undetermined and remains this repo's question to adjudicate;
+  TaF explicitly disclaims having earned it.
+- Custody observation (flag only; no ledger edit now): the `mu` two-source
+  discriminator results live in TaF's tree
+  (`time-as-finality/results/mu-two-source-discriminator-v0.1-results.md`,
+  models `ca_harness` / `mu_experiment` / `mu_strengthen`) with no TaF
+  TESTS.md ledger row, while the run is adjudicated in this repo's
+  `DRIVING-HYPOTHESIS-OBSERVER-ISSUANCE.md`. Two-source custody should be
+  cleaned up in a future pass; flagged for Joe.
