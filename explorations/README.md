@@ -20,6 +20,14 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E123-everett-fixed-unitary-source-absorber-gauntlet-2026-07-02.md` executes
+  E122 Gauntlet B. It types Everett's universal wavefunction plus unitary
+  dynamics as a fixed-source absorber input, branching as `Project[O]`,
+  branch-relative records as `Finalize[R]`, lost interference as `Lose[K]`,
+  and Born self-location as indexical/projection novelty rather than
+  `Issue[S]`. E121's no-fixed-point theorem is explicitly bounded: it does not
+  automatically apply to a single fixed generator. No claim movement; next gate
+  is E122 Gauntlet A.
 - `E119-tri-repo-capability-burden-retyping-2026-07-02.md` distills the
   TaF/GU/TI synthesis into a TI-local burden update: the `Ext_S` surplus test
   should compare against capability-typed TaF readout, not statistics-only

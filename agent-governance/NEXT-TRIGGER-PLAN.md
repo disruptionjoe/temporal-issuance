@@ -3,27 +3,48 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0107
+updated_by_run: RUN-0108
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## NEXT PROGRESS RUN DIRECTIVE (2026-07-02, Joe, chat): run the Everett gauntlet
+## GATE EXECUTED 2026-07-02: Everett fixed-unitary-source absorber gauntlet
 
-The next steward progress run should execute **Gauntlet B of E122** (the Everett /
-fixed-unitary-source absorber), per Joe's direction in chat 2026-07-02.
+E122 Gauntlet B executed in `RUN-0108`.
 
-- Spec: `explorations/E122-block-universe-everett-absorber-intake-2026-07-02.md`, section
-  "Gauntlet B". Run it as specified: type the Everett elements under
-  Issue/Project/Finalize/Lose; attempt the adversarial branch (Born-rule self-location /
-  indexical novelty as Issue[S]); state explicitly that E121's no_fixed_point_of_absorption
-  does NOT automatically apply to a single fixed generator; deliver a typed verdict file
-  either way.
-- Expected polarity is recorded in E122 before the run (branching = disclosure); the run
-  exists to test that expectation, not confirm it.
-- Gauntlet A (relativistic absorber) follows in a later run.
-- No claim movement without the repo promotion process; ledger actions pause for Joe.
+Primary artifact:
+
+```text
+explorations/E123-everett-fixed-unitary-source-absorber-gauntlet-2026-07-02.md
+```
+
+Verdict:
+
+```yaml
+typed_verdict: absorbed_as_fixed_source_disclosure
+Everett_branching_as_Issue_S: false
+Everett_branching_as_Project_O: true
+branch_records_as_Finalize_R: true
+lost_interference_as_Lose_K: true
+born_self_location_as_Issue_S: false
+fixed_source_absorber_strengthened: true
+E121_no_fixed_point_applies_automatically: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Next direct trigger:
+
+```text
+W000 -> relativistic_block_universe_absorber_gauntlet
+```
+
+Run E122 Gauntlet A next. Preserve the E121 model boundary: the Lean
+`no_fixed_point_of_absorption` theorem is not a relativity or spacetime result.
+No claim movement without the repo promotion process; ledger actions pause for
+Joe.
 
 ## GATE EXECUTED 2026-07-02: online_issuance_lc_lean_core_encoding
 
