@@ -9,6 +9,22 @@ intake_processed_by_run: RUN-0046
 
 # Next Trigger Plan
 
+## NEXT PROGRESS RUN DIRECTIVE (2026-07-02, Joe, chat): run the Everett gauntlet
+
+The next steward progress run should execute **Gauntlet B of E122** (the Everett /
+fixed-unitary-source absorber), per Joe's direction in chat 2026-07-02.
+
+- Spec: `explorations/E122-block-universe-everett-absorber-intake-2026-07-02.md`, section
+  "Gauntlet B". Run it as specified: type the Everett elements under
+  Issue/Project/Finalize/Lose; attempt the adversarial branch (Born-rule self-location /
+  indexical novelty as Issue[S]); state explicitly that E121's no_fixed_point_of_absorption
+  does NOT automatically apply to a single fixed generator; deliver a typed verdict file
+  either way.
+- Expected polarity is recorded in E122 before the run (branching = disclosure); the run
+  exists to test that expectation, not confirm it.
+- Gauntlet A (relativistic absorber) follows in a later run.
+- No claim movement without the repo promotion process; ledger actions pause for Joe.
+
 ## GATE EXECUTED 2026-07-02: online_issuance_lc_lean_core_encoding
 
 Executed outside the numbered run system in a Joe-directed session (2026-07-02). The E118
