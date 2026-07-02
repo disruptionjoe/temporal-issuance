@@ -3,11 +3,61 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0112
+updated_by_run: RUN-0113
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-02: internal_predicate_syntax_for_admissibility
+
+RUN-0113 executed the internal admissibility-predicate syntax gate left by
+E127.
+
+Primary artifact:
+
+```text
+explorations/E128-internal-predicate-syntax-for-admissibility-2026-07-02.md
+```
+
+Formal artifact:
+
+```text
+formal/lean/OnlineIssuance/InternalPredicateSyntax.lean
+```
+
+Verdict:
+
+```yaml
+internal_predicate_syntax_complete: true
+predicate_codes_modeled: true
+predicate_objects_formed: true
+self_application_witness: bounded
+universal_acceptance_refuted: true
+full_godel_coding_modeled: false
+external_platonist_completion_defeated: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Next direct trigger:
+
+```text
+W000 -> enumerator_present_pa_o2_fidelity
+```
+
+Strengthen or precisely bound the `EnumeratorPresent` interface against the
+original PA-O2 fixture requirements: registered context symbol, kind
+`enumerator`, candidate registration for enumerated values, and present-prefix
+totality. Preserve the current formal results and do not claim physical source
+issuance.
+
+Secondary bounded trigger:
+
+```text
+W000 -> W010_frontier_selection_after_internal_predicate_syntax
+```
 
 ## GATE EXECUTED 2026-07-02: online_issuance_lc_ce_tier_comparator
 

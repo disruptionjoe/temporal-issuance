@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E128-internal-predicate-syntax-for-admissibility-2026-07-02.md` executes
+  the internal admissibility-predicate syntax trigger left by E127. It adds
+  `formal/lean/OnlineIssuance/InternalPredicateSyntax.lean`, modeling finite
+  predicate codes, formed predicate objects, code quotation, bounded
+  self-application, and an internal guard obstruction to universal acceptance.
+  No claim movement; next route is `enumerator_present_pa_o2_fidelity`.
 - `E127-online-issuance-lc-ce-tier-comparator-2026-07-02.md` executes the
   strict c.e. / partial-computability comparator selected by E126. It adds
   `formal/lean/OnlineIssuance/CEComparator.lean`, proving finite-prefix

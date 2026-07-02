@@ -1929,6 +1929,30 @@ notes: >
   syntax.
 ```
 
+```yaml
+run_id: RUN-0113
+workflow_used: W000 -> internal_predicate_syntax_for_admissibility
+research_vs_governance: formal_research
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E128-internal-predicate-syntax-for-admissibility, InternalPredicateSyntax.lean, RUN-0113-internal-predicate-syntax-for-admissibility]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  Internal admissibility-predicate syntax is now modeled as finite predicate
+  codes and formed predicate objects. A bounded self-quote witness is proved,
+  and universal internal-code acceptance is refuted by a future-stage guard.
+  The next formal route is PA-O2 fidelity for EnumeratorPresent.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.

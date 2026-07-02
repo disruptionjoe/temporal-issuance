@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0112
+last_summarized_run: RUN-0113
 ---
 
 # Steward Memory Summary
@@ -48,6 +48,13 @@ stage enumerator model proves finite-prefix freshness but also proves that
 whole-c.e. positive escape fails because any candidate is absorbed by its
 singleton enumerator. This is a no-go / ceiling, not claim movement. The next
 formal pressure target is internal admissibility-predicate syntax.
+
+RUN-0113 adds: admissibility predicates now have a bounded internal syntax in
+Lean. `PredCode` models finite predicate codes, `InternalPredicate` models
+formed predicate objects, self-quote acceptance yields an internal witness, and
+universal internal-code acceptance is refuted by a future-stage guard. This is
+formal hardening only; no claim movement. The next formal pressure target is
+PA-O2 fidelity for `EnumeratorPresent`.
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
 passes the expressiveness threshold (self-encoding admissibility + diagonal/productive SBP
@@ -934,7 +941,20 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0112 route (current): internal predicate syntax for admissibility.**
+**RUN-0113 route (current): enumerator present PA-O2 fidelity.**
+
+Primary: run `enumerator_present_pa_o2_fidelity`.
+
+Preserve: E128 closes the narrow internal-predicate-syntax caveat by modeling
+admissibility predicates as finite internal codes and proving bounded
+self-quote witness formation plus a universal-acceptance obstruction. The next
+interface caveat is that `EnumeratorPresent` is still weaker than the original
+PA-O2 fixture: it does not yet require registered context symbol, kind
+`enumerator`, candidate registration for enumerated values, or present-prefix
+totality. No physical source issuance is established; `TI-C020` remains
+parked.
+
+**RUN-0112 route (preserved provenance): internal predicate syntax for admissibility.**
 
 Primary: run `internal_predicate_syntax_for_admissibility`.
 
