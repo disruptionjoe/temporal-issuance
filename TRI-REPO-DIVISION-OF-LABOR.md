@@ -71,6 +71,28 @@ The existing main line already IS this leg. No redirection needed:
 - **Incubation role:** `DRIVING-HYPOTHESIS-OBSERVER-ISSUANCE.md` remains the
   incubator of the tri-repo driving hypothesis, with its spin-out trigger.
 
+## Verification tiers (shared cross-repo vocabulary, ratified by Joe 2026-07-02)
+
+Each repo's native grade vocabulary remains authoritative for its own claims
+(here: the claim-ledger statuses and the theorem-of-the-fixture grades).
+This three-tier overlay is for cross-repo communication and public
+writeups, so "internally verified" never masquerades as "established":
+
+1. **recorded** — result exists with runnable artifacts; not yet survived
+   adversarial review.
+2. **internally established** — survived the repo's own hostile review, with
+   numbers independently re-derived from scratch and everything reproducible
+   from the tree. (The E120/E121 kernel-checked Lean suite is the strong
+   sub-case: the proofs are machine-verified by independent software; the
+   modeling faithfulness remains internal.) Maps to the standard
+   reproduced-vs-replicated distinction: reproduced, not yet replicated.
+3. **externally established** — verified outside the process: independent
+   replication, peer review, or named-specialist sign-off.
+
+Single-process ceiling: because internal reviewers are spawned by the same
+process that produced the result, no internal step — however adversarial —
+can promote a result to tier 3.
+
 ## Guards (standing, repo-local)
 
 - No identity claim before at least two adapter contracts prove out.
