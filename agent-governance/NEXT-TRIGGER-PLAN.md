@@ -3,11 +3,47 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0114
+updated_by_run: RUN-0115
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-02: W010 frontier selection after PA-O2 fidelity
+
+RUN-0115 executed W010 after the formal hardening queue closed.
+
+Primary artifact:
+
+```text
+explorations/E130-frontier-selection-after-pa-o2-fidelity-2026-07-02.md
+```
+
+Verdict:
+
+```yaml
+w010_complete: true
+selected_frontier: t8_general_name_absorption
+primary_next_trigger: t8_general_name_absorption
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+formal_branch_status: pa_o2_internal_predicate_and_ce_gates_closed_t8_name_absorption_remaining
+physical_branch_status: burden_only_no_concrete_source_formation_candidate_after_E125_E129
+```
+
+Next direct trigger:
+
+```text
+W000 -> t8_general_name_absorption
+```
+
+Machine-check a bounded name-level absorber for `diagName`, and state whether
+the broader T8/general-name theorem is needed or unnecessary. Preserve the
+E121/Comparator citation contract if the broader theorem is not added: T8 is
+currently a `freshName`-construction statement, while `diagName` absorption is
+semantic/prose-bound at the name tier. No claim movement without the repo
+promotion process; ledger actions pause for Joe.
 
 ## GATE EXECUTED 2026-07-02: enumerator_present_pa_o2_fidelity
 

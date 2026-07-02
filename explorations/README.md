@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E130-frontier-selection-after-pa-o2-fidelity-2026-07-02.md` executes W010
+  after the strict c.e. comparator, internal predicate syntax, and PA-O2
+  fidelity gates closed. It ranks `t8_general_name_absorption` as the next
+  direct trigger because `diagName` name-level absorption remains the crisp
+  Lean-facing caveat, while the physical branch still has only a
+  source-formation burden and no concrete candidate. No claim movement.
 - `E129-enumerator-present-pa-o2-fidelity-2026-07-02.md` closes the PA-O2
   fidelity gap in the Lean core interface. `EnumeratorPresent` now requires a
   registered enumerator symbol, candidate registration for enumerated values,

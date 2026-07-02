@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0114
+last_summarized_run: RUN-0115
 ---
 
 # Steward Memory Summary
@@ -29,7 +29,7 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: W010_frontier_selection_after_pa_o2_fidelity
+next_required_test: t8_general_name_absorption
 ```
 
 RUN-0108 through RUN-0110 add: Everett branching, relativistic block-universe
@@ -63,6 +63,14 @@ existing `IssueLC` stack still builds, and the diagonal escape proof still does
 not consume the PA-O2 assumptions. This is formal hardening only; no claim
 movement. The next target is W010 frontier selection after the formal hardening
 queue closes.
+
+RUN-0115 adds: W010 after PA-O2 fidelity selects `t8_general_name_absorption`
+as the next direct trigger. The c.e., internal-predicate, and PA-O2 gates are
+closed at the current finite-prefix Lean tier. The remaining crisp formal
+caveat is E121's citation boundary: T8 is machine-checked for the `freshName`
+construction, while `diagName` name-level absorption is still prose/semantic
+bounded. The physical branch remains burden-only without a concrete source-
+formation candidate; no claim movement.
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
 passes the expressiveness threshold (self-encoding admissibility + diagonal/productive SBP
@@ -949,17 +957,26 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0114 route (current): W010 frontier selection after PA-O2 fidelity.**
+**RUN-0115 route (current): T8 general name-level absorption.**
 
-Primary: run `W010_frontier_selection_after_pa_o2_fidelity`.
+Primary: run `t8_general_name_absorption`.
+
+Preserve: E130 selects this because the strict c.e. ceiling, internal
+predicate syntax, and PA-O2 fidelity gates are closed at the current
+finite-prefix Lean tier. The next run should machine-check a bounded
+name-level absorber for `diagName` and state whether the broader
+T8/general-name theorem is needed or unnecessary. No physical source issuance
+is established; external Platonist completion remains an absorber boundary;
+`TI-C020` remains parked.
+
+**RUN-0114 route (preserved provenance): W010 frontier selection after PA-O2 fidelity.**
+
+Primary was `W010_frontier_selection_after_pa_o2_fidelity`.
 
 Preserve: E129 closes the PA-O2 interface caveat by making
 `EnumeratorPresent` require enumerator-symbol registration, kind
 `enumerator`, candidate registration for enumerated values, and present-prefix
-totality. The strict c.e. ceiling, internal predicate syntax, and PA-O2
-fidelity gates are now all closed at the current finite-prefix Lean tier. No
-physical source issuance is established; external Platonist completion remains
-an absorber boundary; `TI-C020` remains parked.
+totality.
 
 **RUN-0112 route (preserved provenance): internal predicate syntax for admissibility.**
 

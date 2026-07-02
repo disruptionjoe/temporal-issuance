@@ -496,12 +496,17 @@ RUN-0081 completed OnlineIssuance Goal 5 and closed the sequence. Final verdict:
 `NARROWED_FORMAL_RESIDUE_SURVIVES`. `FORMAL-OBJECT.md` now records `OnlineIssuance^LC` as the
 narrow class-relative formal target. No claim moved.
 
-Open tasks (updated after RUN-0081):
+Open tasks (latest route refreshed after RUN-0115; older parked items preserved below):
 
-- W010 frontier selection after the OnlineIssuance sequence: re-rank machine-checking the
-  OnlineIssuance witness against other live routes.
-- Optional machine-check online-issuance witness: encode the E090 witness in Lean, Coq, Agda,
-  or a small formal calculus.
+- RUN-0115 / E130 W010 after PA-O2 fidelity complete: the strict c.e.
+  comparator, internal predicate syntax, and PA-O2 fidelity hardening gates are
+  closed at the current finite-prefix Lean tier. The next direct trigger is
+  `t8_general_name_absorption`, because E121's remaining citation boundary is
+  now the crispest formal caveat: T8 is machine-checked for `freshName`, while
+  `diagName` name-level absorption remains prose/semantic-bound.
+- Optional external Platonist boundary packet: after the T8/name-level caveat,
+  separate what `OnlineIssuance^LC` establishes internally from what it cannot
+  establish against Platonist completion, without claim movement.
 - W010 frontier selection after Goal 5: re-rank the live frontier after the RSPS ladder closes.
 - Optional dual-record adjacent-possible fixture: compare single-record search, fixed-latent
   dual-record search, and growing-adjacency dual-record search under equal budget.

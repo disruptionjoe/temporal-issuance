@@ -1977,6 +1977,30 @@ notes: >
   route is W010 frontier selection after PA-O2 fidelity.
 ```
 
+```yaml
+run_id: RUN-0115
+workflow_used: W000 -> W010_frontier_selection_after_pa_o2_fidelity
+research_vs_governance: research_routing
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E130-frontier-selection-after-pa-o2-fidelity, RUN-0115-frontier-selection-after-pa-o2-fidelity]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  W010 after PA-O2 fidelity ranks T8/general name-level absorption as the next
+  direct trigger. The c.e., internal-predicate, and PA-O2 gates are closed; the
+  physical branch remains burden-only without a concrete source-formation
+  candidate.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.
