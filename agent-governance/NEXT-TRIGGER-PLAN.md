@@ -3,11 +3,47 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0109
+updated_by_run: RUN-0111
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-02: W010 frontier selection after capability gate
+
+RUN-0111 executed W010 after the Everett, block-universe, and capability-typed
+`Ext_S` gates.
+
+Primary artifact:
+
+```text
+explorations/E126-frontier-selection-after-capability-gate-2026-07-02.md
+```
+
+Verdict:
+
+```yaml
+w010_complete: true
+selected_frontier: strict_c_e_comparator_for_OnlineIssuance_LC
+primary_next_trigger: online_issuance_lc_ce_tier_comparator
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+physical_branch_status: burden_only_no_concrete_candidate_after_E125
+formal_branch_status: strict_c_e_tier_open_specific_and_central
+```
+
+Next direct trigger:
+
+```text
+W000 -> online_issuance_lc_ce_tier_comparator
+```
+
+Adopt a real partial-computability or c.e. generation model for the Lean
+comparator tier and either prove the escape/absorption pair there or record the
+exact obstruction, including the classical ceiling on positive escapes. Preserve
+E121's model-boundary discipline. No claim movement without the repo promotion
+process; ledger actions pause for Joe.
 
 ## GATE EXECUTED 2026-07-02: capability-typed Ext_S surplus test
 

@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E126-frontier-selection-after-capability-gate-2026-07-02.md` executes W010
+  after the Everett, block-universe, and capability-typed `Ext_S` gates. It
+  ranks the strict c.e. / partial-computability comparator for
+  `OnlineIssuance^LC` as the highest-value next trigger, because the physical
+  branch currently has only a source-formation burden and no concrete
+  candidate. No claim movement; next route is
+  `online_issuance_lc_ce_tier_comparator`.
 - `E125-capability-typed-ext-s-surplus-test-2026-07-02.md` executes the
   post-E124 capability gate. It defines a region-indexed task menu and finds
   that changed observe/postdict/choose/certify capabilities are absorbed by

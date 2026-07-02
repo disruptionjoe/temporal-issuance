@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0081
+last_summarized_run: RUN-0111
 ---
 
 # Steward Memory Summary
@@ -29,8 +29,19 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: W010_frontier_selection_and_next_work_ranking
+next_required_test: online_issuance_lc_ce_tier_comparator
 ```
+
+RUN-0108 through RUN-0110 add: Everett branching, relativistic block-universe
+readings, and region-indexed task-menu changes are absorbed as fixed-source,
+projection, finality, loss, or capability-readout vocabulary unless a candidate
+supplies source-side admissibility, constructor, or witness formation. No claim
+movement; `TI-C020` remains parked.
+
+RUN-0111 adds: W010 selects the strict c.e. / partial-computability comparator
+for `OnlineIssuance^LC` as the highest-value next trigger. The physical branch
+is deferred because E125 leaves only a burden, not a concrete source-formation
+candidate.
 
 RUN-0050 adds: formal D-FORK is resolved for the repo's MLTT source candidate. `Compat_G^MLTT`
 passes the expressiveness threshold (self-encoding admissibility + diagonal/productive SBP
@@ -917,7 +928,17 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0081 route (current): W010 frontier selection and next-work ranking.**
+**RUN-0111 route (current): strict c.e. comparator for `OnlineIssuance^LC`.**
+
+Primary: run `online_issuance_lc_ce_tier_comparator`.
+
+Preserve: E121's total Nat-indexed comparator result is model-relative; true
+c.e. / partial-computability generation remains open. The next run should
+either prove the escape/absorption pair in a real c.e. model or record the
+precise obstruction and classical ceiling. No physical source issuance is
+established; `TI-C020` remains parked.
+
+**RUN-0081 route (preserved provenance): W010 frontier selection and next-work ranking.**
 
 Primary: re-rank the live frontier after the OnlineIssuance sequence.
 

@@ -1882,6 +1882,29 @@ notes: >
   HYPOTHESIS-STEELMAN.md now record OnlineIssuance^LC as class-relative formal residue.
 ```
 
+```yaml
+run_id: RUN-0111
+workflow_used: W000 -> W010_frontier_selection_after_capability_gate
+research_vs_governance: research_routing
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+  artifacts: [E126-frontier-selection-after-capability-gate, RUN-0111-frontier-selection-after-capability-gate]
+daily_review_items_added: false
+estimated_token_intensity: medium
+parallel_lanes_used: false
+notes: >
+  W010 after E125 ranks the strict c.e. / partial-computability comparator for
+  OnlineIssuance^LC as the highest-value next run. The physical/capability
+  branch is deferred because no concrete source-formation candidate is in hand.
+```
+
 ## Use Rules
 
 - Metrics observe. They do not command.
