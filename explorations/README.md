@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E133-frontier-selection-after-external-platonist-boundary-2026-07-02.md`
+  executes W010 after the c.e., internal-predicate, PA-O2, T8/name, and
+  external-boundary clarification gates. It ranks
+  `online_issuance_lc_post_hardening_hostile_review_packet` as the next direct
+  trigger: a hostile review of the completed Lean-plus-boundary package before
+  any claim recommendation, formal-object integration, or physical-branch
+  return. No claim movement.
 - `E132-external-platonist-boundary-packet-2026-07-02.md` completes the
   external Platonist boundary packet. It states the current honest boundary:
   `OnlineIssuance^LC` establishes a local constructive source-class result

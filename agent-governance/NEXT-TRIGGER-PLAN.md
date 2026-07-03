@@ -3,11 +3,47 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0117
+updated_by_run: RUN-0118
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-02: W010 frontier selection after external Platonist boundary
+
+RUN-0118 executed W010 after RUN-0117 clarified the external Platonist
+boundary.
+
+Primary artifact:
+
+```text
+explorations/E133-frontier-selection-after-external-platonist-boundary-2026-07-02.md
+```
+
+Verdict:
+
+```yaml
+w010_complete: true
+selected_frontier: online_issuance_lc_post_hardening_hostile_review_packet
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+reason_physical_branch_deferred: no_concrete_source_formation_candidate_after_E125_E132
+reason_review_selected: formal_hardening_queue_closed_and_post_hardening_review_missing
+```
+
+Next direct trigger:
+
+```text
+W000 -> online_issuance_lc_post_hardening_hostile_review_packet
+```
+
+Review the completed Lean-plus-boundary package and state exactly what
+`OnlineIssuance^LC` earns and does not earn. The review should include theorem
+and citation contract, visible assumptions, model boundaries,
+external-completion boundary, physical non-result, and any conservative
+claim-ledger or formal-object recommendation to route to Joe. Do not move claim
+status, public posture, constitutional surfaces, or `TI-C020` inside the run.
 
 ## GATE EXECUTED 2026-07-02: external_platonist_boundary_packet
 

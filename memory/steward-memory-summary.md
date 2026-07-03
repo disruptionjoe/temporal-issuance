@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0117
+last_summarized_run: RUN-0118
 ---
 
 # Steward Memory Summary
@@ -29,8 +29,16 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: W010_frontier_selection_after_external_platonist_boundary
+next_required_test: online_issuance_lc_post_hardening_hostile_review_packet
 ```
+
+RUN-0118 adds: W010 after the external Platonist boundary selects
+`online_issuance_lc_post_hardening_hostile_review_packet` as the next route.
+The formal hardening queue is closed enough that another local caveat patch is
+lower value. The next run should review the completed Lean-plus-boundary
+package, state the theorem/citation contract and model boundaries, preserve
+the external-completion and physical non-result boundaries, and route any
+claim-ledger or formal-object recommendation to Joe without moving claims.
 
 RUN-0117 adds: the external Platonist boundary packet is complete. The current
 honest boundary is that `OnlineIssuance^LC` establishes an internal
@@ -973,7 +981,18 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0117 route (current): W010 frontier selection after external Platonist boundary.**
+**RUN-0118 route (current): post-hardening hostile review.**
+
+Primary: run `online_issuance_lc_post_hardening_hostile_review_packet`.
+
+Preserve: the c.e., internal-predicate, PA-O2, bounded T8/name, and
+external-boundary clarification gates are closed at the current Lean tier. The
+next run should not move claims. It should state exactly what
+`OnlineIssuance^LC` earns, what remains model-relative or class-relative, what
+external Platonist completion still absorbs, and why `TI-C020` remains parked.
+Any claim-ledger or formal-object recommendation should be routed to Joe.
+
+**RUN-0117 route (preserved provenance): W010 frontier selection after external Platonist boundary.**
 
 Primary: run `W010_frontier_selection_after_external_platonist_boundary`.
 

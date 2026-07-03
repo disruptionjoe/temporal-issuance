@@ -672,6 +672,13 @@ Open tasks (updated after RUN-0086):
   external completed-structure ontology, reopen strict c.e. positive escape, or
   establish physical source issuance. No claim movement. Immediate route is now
   `W010_frontier_selection_after_external_platonist_boundary`.
+- RUN-0118 / E133 W010 after external Platonist boundary complete: the formal
+  hardening queue and boundary packet are now closed enough that another local
+  caveat patch is lower value. The immediate route is
+  `online_issuance_lc_post_hardening_hostile_review_packet`: review the
+  completed Lean-plus-boundary package, state its theorem/citation contract and
+  limits, and route any claim-ledger or formal-object recommendation to Joe
+  without moving claims in the run.
 
 ## Phase 0: Launch Coherence
 
