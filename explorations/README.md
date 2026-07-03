@@ -20,6 +20,15 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E136-ti-c022-record-reality-typing-fixture-2026-07-02.md`
+  executes the TI-C022 record-reality typing fixture selected by E135. The
+  executable comparator finds no same-assumption divergence between TI-C022
+  record reality and canonical-chain/finality membership across unforked,
+  temporary-fork, permanent-fork, and quorum-without-finality traces. Apparent
+  divergences require substituting branch-local integrity or an ontology
+  override for canonical carrier membership. RUN-0057's operational absorption
+  is reaffirmed; no claim movement. Next route:
+  `W010_frontier_selection_after_ti_c022_record_reality_fixture`.
 - `E135-frontier-selection-after-post-hardening-review-2026-07-02.md`
   executes W010 after the post-hardening hostile review. It keeps the bounded
   `FORMAL-OBJECT.md` / `CLAIM-LEDGER.md` integration branch Joe-gated, defers

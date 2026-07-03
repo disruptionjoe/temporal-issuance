@@ -1,0 +1,206 @@
+{
+  "case_results": [
+    {
+      "canonical_branches": [
+        "A"
+      ],
+      "case_id": "unforked_progress",
+      "cofinal_branches": [
+        "A"
+      ],
+      "description": "single quorum-legitimate carrier with ordinary finality",
+      "event_verdicts": [
+        {
+          "branch": "A",
+          "branch_local_integrity": true,
+          "canonical_chain_final": true,
+          "event_id": "e1",
+          "same_assumption_divergence": false,
+          "target_state": "s1",
+          "ti_c022_record_real": true
+        },
+        {
+          "branch": "A",
+          "branch_local_integrity": true,
+          "canonical_chain_final": true,
+          "event_id": "e2",
+          "same_assumption_divergence": false,
+          "target_state": "s2",
+          "ti_c022_record_real": true
+        }
+      ],
+      "protocol_assumptions": {
+        "canonical_carrier_selection": true,
+        "finality_rule": true,
+        "finalized_record_membership": true,
+        "quorum_validity": true
+      },
+      "same_assumption_divergence_found": false,
+      "unique_canonical_carrier_exists": true,
+      "unique_cofinal_carrier_exists": true
+    },
+    {
+      "canonical_branches": [
+        "A"
+      ],
+      "case_id": "temporary_fork_canonicalized",
+      "cofinal_branches": [
+        "A"
+      ],
+      "description": "temporary fork with one cofinal canonical branch and one orphaned local record",
+      "event_verdicts": [
+        {
+          "branch": "A",
+          "branch_local_integrity": true,
+          "canonical_chain_final": true,
+          "event_id": "e_a1",
+          "same_assumption_divergence": false,
+          "target_state": "a1",
+          "ti_c022_record_real": true
+        },
+        {
+          "branch": "B",
+          "branch_local_integrity": true,
+          "canonical_chain_final": false,
+          "event_id": "e_b1",
+          "same_assumption_divergence": false,
+          "target_state": "b1",
+          "ti_c022_record_real": false
+        }
+      ],
+      "protocol_assumptions": {
+        "canonical_carrier_selection": true,
+        "finality_rule": true,
+        "finalized_record_membership": true,
+        "quorum_validity": true
+      },
+      "same_assumption_divergence_found": false,
+      "unique_canonical_carrier_exists": true,
+      "unique_cofinal_carrier_exists": true
+    },
+    {
+      "canonical_branches": [],
+      "case_id": "permanent_fork_no_canonical_carrier",
+      "cofinal_branches": [
+        "A",
+        "B"
+      ],
+      "description": "two incompatible cofinal branches with branch-local integrity but no unique shared carrier",
+      "event_verdicts": [
+        {
+          "branch": "A",
+          "branch_local_integrity": true,
+          "canonical_chain_final": false,
+          "event_id": "e_a2",
+          "same_assumption_divergence": false,
+          "target_state": "a2",
+          "ti_c022_record_real": false
+        },
+        {
+          "branch": "B",
+          "branch_local_integrity": true,
+          "canonical_chain_final": false,
+          "event_id": "e_b2",
+          "same_assumption_divergence": false,
+          "target_state": "b2",
+          "ti_c022_record_real": false
+        }
+      ],
+      "protocol_assumptions": {
+        "canonical_carrier_selection": false,
+        "finality_rule": false,
+        "finalized_record_membership": false,
+        "quorum_validity": true
+      },
+      "same_assumption_divergence_found": false,
+      "unique_canonical_carrier_exists": false,
+      "unique_cofinal_carrier_exists": false
+    },
+    {
+      "canonical_branches": [],
+      "case_id": "quorum_without_finality",
+      "cofinal_branches": [],
+      "description": "quorum-certified record before carrier finality is supplied",
+      "event_verdicts": [
+        {
+          "branch": "P",
+          "branch_local_integrity": true,
+          "canonical_chain_final": false,
+          "event_id": "e_p1",
+          "same_assumption_divergence": false,
+          "target_state": "p1",
+          "ti_c022_record_real": false
+        }
+      ],
+      "protocol_assumptions": {
+        "canonical_carrier_selection": false,
+        "finality_rule": false,
+        "finalized_record_membership": false,
+        "quorum_validity": true
+      },
+      "same_assumption_divergence_found": false,
+      "unique_canonical_carrier_exists": false,
+      "unique_cofinal_carrier_exists": false
+    }
+  ],
+  "comparisons": {
+    "apparent_divergences_require_assumption_change": true,
+    "branch_local_integrity_distinguished_from_record_reality": true,
+    "canonical_membership_matches_ti_c022_when_matched_assumptions_hold": true,
+    "cases_checked": 4,
+    "operational_absorption_reaffirmed": true,
+    "same_assumption_divergence_found": false
+  },
+  "fixture": "ti_c022_record_reality_typing_fixture_v0_1",
+  "invalid_divergence_controls": [
+    {
+      "case_id": "temporary_fork_canonicalized",
+      "event_id": "e_b1",
+      "invalid_move": "treat_branch_local_integrity_as_canonical_finality",
+      "reason_invalid": "branch-local BFT/TCB integrity is not the same assumption set as unique canonical-carrier finality",
+      "would_create_apparent_divergence": true
+    },
+    {
+      "case_id": "permanent_fork_no_canonical_carrier",
+      "event_id": "e_a2",
+      "invalid_move": "treat_branch_local_integrity_as_canonical_finality",
+      "reason_invalid": "branch-local BFT/TCB integrity is not the same assumption set as unique canonical-carrier finality",
+      "would_create_apparent_divergence": true
+    },
+    {
+      "case_id": "permanent_fork_no_canonical_carrier",
+      "event_id": "e_b2",
+      "invalid_move": "treat_branch_local_integrity_as_canonical_finality",
+      "reason_invalid": "branch-local BFT/TCB integrity is not the same assumption set as unique canonical-carrier finality",
+      "would_create_apparent_divergence": true
+    },
+    {
+      "case_id": "quorum_without_finality",
+      "event_id": "e_p1",
+      "invalid_move": "treat_branch_local_integrity_as_canonical_finality",
+      "reason_invalid": "branch-local BFT/TCB integrity is not the same assumption set as unique canonical-carrier finality",
+      "would_create_apparent_divergence": true
+    },
+    {
+      "case_id": "temporary_fork_canonicalized",
+      "event_id": "e_b1",
+      "invalid_move": "declare_orphaned_branch_record_ontologically_real_by_override",
+      "reason_invalid": "the override drops the TI-C022 membership requirement in the unique cofinal quorum-legitimate carrier",
+      "would_create_apparent_divergence": true
+    }
+  ],
+  "same_assumption_divergences": [],
+  "source_artifacts": [
+    "explorations/E058-ti-c022-shared-process-continuity-predicate-2026-06-24.md",
+    "explorations/E062-ti-c022-fork-choice-canonical-chain-ontology-absorber-2026-06-24.md",
+    "memory/path-kills.md#run-0057"
+  ],
+  "verdict": {
+    "TI_C022_independent_operational_surplus": false,
+    "best_result": "Across the bounded traces, TI-C022 record reality matches canonical-chain membership whenever the same quorum, carrier-selection, finality, and record-membership assumptions are supplied. Apparent divergence comes only from substituting branch-local integrity or an ontology override for canonical carrier membership.",
+    "claim_status_change": "none",
+    "next_gate": "W010_frontier_selection_after_ti_c022_record_reality_fixture",
+    "remaining_surplus": "ontological_record_reality_typing",
+    "resurrection_trigger_met": false
+  }
+}

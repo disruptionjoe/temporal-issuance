@@ -3,11 +3,70 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0120
+updated_by_run: RUN-0121
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-02: ti_c022_record_reality_typing_fixture
+
+RUN-0121 executed the TI-C022 record-reality typing fixture selected by
+RUN-0120 / E135.
+
+Primary artifact:
+
+```text
+explorations/E136-ti-c022-record-reality-typing-fixture-2026-07-02.md
+```
+
+Executable artifacts:
+
+```text
+tools/ti_c022_record_reality_typing_fixture.py
+tests/test_ti_c022_record_reality_typing_fixture.py
+tests/artifacts/ti_c022_record_reality_typing_fixture_result.json
+```
+
+Verdict:
+
+```yaml
+fixture_complete: true
+same_assumption_divergence_found: false
+operational_absorption_reaffirmed: true
+apparent_divergences_require_assumption_change: true
+TI_C022_independent_operational_surplus: false
+remaining_surplus: ontological_record_reality_typing
+resurrection_trigger_met: false
+claim_status_change: none
+formal_object_or_claim_ledger_edit_authorized: false
+```
+
+Preserve the result: TI-C022 remains speculative and operationally absorbed by
+canonical-chain/finality machinery when quorum validity, carrier selection,
+finality, and finalized record membership are supplied. The remaining surplus
+is the ontological interpretation that canonical-carrier membership is record
+reality.
+
+Joe-review gate remains:
+
+```text
+Authorize or decline a bounded FORMAL-OBJECT / CLAIM-LEDGER integration that
+records the Lean-hardened OnlineIssuance^LC theorem contract without status
+promotion.
+```
+
+Automation-safe next direct trigger absent explicit Joe authorization:
+
+```text
+W000 -> W010_frontier_selection_after_ti_c022_record_reality_fixture
+```
+
+Minimum next-run contract: re-rank the frontier after the TI-C022 operational
+surplus route closed at the current executable tier. Do not reopen TI-C022
+unless a new trace supplies the RUN-0057 resurrection trigger. Do not edit
+`FORMAL-OBJECT.md`, `CLAIM-LEDGER.md`, public posture, or claim status unless
+Joe explicitly authorizes that gated work.
 
 ## GATE EXECUTED 2026-07-02: W010 frontier selection after post-hardening review
 

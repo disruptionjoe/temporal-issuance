@@ -694,6 +694,14 @@ Open tasks (updated after RUN-0086):
   automation-safe route is `ti_c022_record_reality_typing_fixture`: test
   whether TI-C022 record-reality typing has operational content beyond
   fork-choice / canonical-chain finality under the same assumptions.
+- RUN-0121 / E136 TI-C022 record-reality typing fixture complete: the
+  executable comparator found no same-assumption divergence between TI-C022
+  record reality and canonical-chain/finality membership. Apparent divergences
+  require substituting branch-local integrity or an ontology override for
+  canonical-carrier membership. RUN-0057's operational absorption is
+  reaffirmed; TI-C022's remaining surplus is ontological record-reality typing.
+  No claim movement. Immediate route is now
+  `W010_frontier_selection_after_ti_c022_record_reality_fixture`.
 
 ## Phase 0: Launch Coherence
 

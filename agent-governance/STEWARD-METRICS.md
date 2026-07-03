@@ -89,6 +89,23 @@ contributor_signal: workflow_ready_untested
 ## Per-Run Signal Records
 
 ```yaml
+run_id: RUN-0121
+workflow_used: W000 -> ti_c022_record_reality_typing_fixture
+research_vs_governance: research_fixture
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: medium
+```
+
+```yaml
 run_id: RUN-0120
 workflow_used: W000 -> W010_frontier_selection_after_post_hardening_review
 research_vs_governance: research_routing

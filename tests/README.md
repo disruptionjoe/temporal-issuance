@@ -20,6 +20,7 @@ Launch tests:
 Executable fixtures:
 
 - H3 Cech/sheaf fixture: `python tests/test_cech_sheaf_fixture.py`
+- TI-C022 record-reality typing fixture: `python tests/test_ti_c022_record_reality_typing_fixture.py`
 - Clock-free record-cadence fixture: `python tests/test_clock_free_record_cadence_fixture.py`
 - Clock-free cadence absorber gauntlet: `python tests/test_clock_free_cadence_absorber_gauntlet.py`
 - OnlineIssuance Assembly W4-W6 physical protocol fixture: `python tests/test_oi_lc_assembly_w4_w6_physical_protocol_fixture.py`

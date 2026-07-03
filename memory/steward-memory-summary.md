@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0120
+last_summarized_run: RUN-0121
 ---
 
 # Steward Memory Summary
@@ -29,8 +29,18 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: ti_c022_record_reality_typing_fixture
+next_required_test: W010_frontier_selection_after_ti_c022_record_reality_fixture
 ```
+
+RUN-0121 adds: the TI-C022 record-reality typing fixture is complete. The
+executable comparator found no same-assumption divergence between TI-C022
+record reality and canonical-chain/finality membership across unforked,
+temporary-fork, permanent-fork, and quorum-without-finality traces. Apparent
+divergence requires substituting branch-local integrity or an ontology override
+for canonical-carrier membership. RUN-0057's operational absorption remains
+correct; TI-C022's remaining surplus is ontological record-reality typing. No
+claim movement. The next automation-safe route absent Joe authorization is
+`W010_frontier_selection_after_ti_c022_record_reality_fixture`.
 
 RUN-0120 adds: W010 after the post-hardening hostile review is complete. The
 highest-value formal-source branch is bounded `FORMAL-OBJECT.md` /
@@ -1002,7 +1012,22 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0120 route (current): TI-C022 record-reality typing fixture.**
+**RUN-0121 route (current): W010 after TI-C022 record-reality fixture.**
+
+Primary absent Joe authorization: run
+`W010_frontier_selection_after_ti_c022_record_reality_fixture`.
+
+Preserve: RUN-0121 / E136 found no same-assumption divergence between
+TI-C022 record reality and canonical-chain/finality membership. Apparent
+divergence requires changing the assumptions by treating branch-local integrity
+or an ontology override as canonical-carrier membership. TI-C022 remains
+operationally absorbed, with only ontological record-reality typing as surplus.
+No claim movement. The W010 pass should re-rank the frontier, keep the
+`FORMAL-OBJECT.md` / `CLAIM-LEDGER.md` integration Joe-gated unless
+authorized, and avoid reopening TI-C022 absent a trace satisfying RUN-0057's
+resurrection trigger.
+
+**RUN-0120 route (preserved provenance): TI-C022 record-reality typing fixture.**
 
 Primary absent Joe authorization: run
 `ti_c022_record_reality_typing_fixture`.
