@@ -20,6 +20,14 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E134-online-issuance-lc-post-hardening-hostile-review-2026-07-02.md`
+  executes the post-hardening hostile review selected by E133. It finds the
+  Lean-backed `OnlineIssuance^LC` theorem contract ready for bounded repo
+  citation, but not for claim movement: external Platonist completion remains
+  undefeated, strict c.e. positive escape is not reopened, and physical source
+  issuance remains parked. It routes any `FORMAL-OBJECT.md` or
+  `CLAIM-LEDGER.md` integration to Joe and sets the automation-safe fallback
+  route to `W010_frontier_selection_after_post_hardening_review`.
 - `E133-frontier-selection-after-external-platonist-boundary-2026-07-02.md`
   executes W010 after the c.e., internal-predicate, PA-O2, T8/name, and
   external-boundary clarification gates. It ranks

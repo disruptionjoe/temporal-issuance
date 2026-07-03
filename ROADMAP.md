@@ -679,6 +679,14 @@ Open tasks (updated after RUN-0086):
   completed Lean-plus-boundary package, state its theorem/citation contract and
   limits, and route any claim-ledger or formal-object recommendation to Joe
   without moving claims in the run.
+- RUN-0119 / E134 post-hardening hostile review complete: the bounded
+  Lean-backed `OnlineIssuance^LC` theorem contract is now ready for repo
+  citation, with theorem names and limits attached. It does not move claims,
+  defeat external Platonist completion, reopen strict c.e. positive escape, or
+  establish physical source issuance. Any `FORMAL-OBJECT.md` or
+  `CLAIM-LEDGER.md` integration is routed to Joe and should preserve no-status-
+  promotion discipline. Absent Joe authorization, the immediate automation-safe
+  route is `W010_frontier_selection_after_post_hardening_review`.
 
 ## Phase 0: Launch Coherence
 
