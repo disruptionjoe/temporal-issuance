@@ -687,6 +687,13 @@ Open tasks (updated after RUN-0086):
   `CLAIM-LEDGER.md` integration is routed to Joe and should preserve no-status-
   promotion discipline. Absent Joe authorization, the immediate automation-safe
   route is `W010_frontier_selection_after_post_hardening_review`.
+- RUN-0120 / E135 W010 after post-hardening review complete: bounded
+  `FORMAL-OBJECT.md` / `CLAIM-LEDGER.md` integration is ranked highest but
+  remains Joe-gated and was not selected for unattended work. The physical
+  source branch remains central but candidate-starved. The immediate
+  automation-safe route is `ti_c022_record_reality_typing_fixture`: test
+  whether TI-C022 record-reality typing has operational content beyond
+  fork-choice / canonical-chain finality under the same assumptions.
 
 ## Phase 0: Launch Coherence
 

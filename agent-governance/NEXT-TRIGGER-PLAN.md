@@ -3,11 +3,57 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0119
+updated_by_run: RUN-0120
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-02: W010 frontier selection after post-hardening review
+
+RUN-0120 executed W010 after RUN-0119 / E134 completed the post-hardening
+hostile review.
+
+Primary artifact:
+
+```text
+explorations/E135-frontier-selection-after-post-hardening-review-2026-07-02.md
+```
+
+Verdict:
+
+```yaml
+w010_complete: true
+selected_frontier: ti_c022_record_reality_typing_fixture
+blocked_higher_frontier: bounded_FORMAL_OBJECT_CLAIM_LEDGER_integration
+claim_status_change: none
+formal_object_or_claim_ledger_edit_authorized: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+reason_integration_not_selected: joe_review_gate
+reason_physical_branch_deferred: no_concrete_source_formation_candidate_after_E125_E134
+```
+
+Joe-review gate remains:
+
+```text
+Authorize or decline a bounded FORMAL-OBJECT / CLAIM-LEDGER integration that
+records the Lean-hardened OnlineIssuance^LC theorem contract without status
+promotion.
+```
+
+Automation-safe next direct trigger absent explicit Joe authorization:
+
+```text
+W000 -> ti_c022_record_reality_typing_fixture
+```
+
+Minimum next-run contract: test whether TI-C022 record-reality typing has
+operational content beyond fork-choice / canonical-chain finality under the
+same assumptions. If no divergence trace exists, keep TI-C022 operationally
+absorbed and record only an ontological interpretation residue. Do not edit
+`FORMAL-OBJECT.md`, `CLAIM-LEDGER.md`, public posture, or claim status unless
+Joe explicitly authorizes that gated work.
 
 ## GATE EXECUTED 2026-07-02: online_issuance_lc_post_hardening_hostile_review_packet
 

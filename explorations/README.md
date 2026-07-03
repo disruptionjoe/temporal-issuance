@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E135-frontier-selection-after-post-hardening-review-2026-07-02.md`
+  executes W010 after the post-hardening hostile review. It keeps the bounded
+  `FORMAL-OBJECT.md` / `CLAIM-LEDGER.md` integration branch Joe-gated, defers
+  physical source-formation scouting until a concrete nonduplicative candidate
+  exists, and selects `ti_c022_record_reality_typing_fixture` as the next
+  automation-safe route. No claim movement.
 - `E134-online-issuance-lc-post-hardening-hostile-review-2026-07-02.md`
   executes the post-hardening hostile review selected by E133. It finds the
   Lean-backed `OnlineIssuance^LC` theorem contract ready for bounded repo

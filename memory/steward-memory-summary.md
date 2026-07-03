@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0119
+last_summarized_run: RUN-0120
 ---
 
 # Steward Memory Summary
@@ -29,8 +29,17 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: W010_frontier_selection_after_post_hardening_review
+next_required_test: ti_c022_record_reality_typing_fixture
 ```
+
+RUN-0120 adds: W010 after the post-hardening hostile review is complete. The
+highest-value formal-source branch is bounded `FORMAL-OBJECT.md` /
+`CLAIM-LEDGER.md` integration, but that remains Joe-gated and was not selected
+for an unattended run. The physical-source branch remains central but
+candidate-starved after E125/E134. The automation-safe next route is
+`ti_c022_record_reality_typing_fixture`: test whether TI-C022 record-reality
+typing has operational content beyond fork-choice / canonical-chain finality
+under the same assumptions. No claim movement.
 
 RUN-0119 adds: the post-hardening hostile review is complete. The
 Lean-backed `OnlineIssuance^LC` theorem contract is ready for bounded repo
@@ -993,18 +1002,29 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0119 route (current): W010 after post-hardening review.**
+**RUN-0120 route (current): TI-C022 record-reality typing fixture.**
 
 Primary absent Joe authorization: run
-`W010_frontier_selection_after_post_hardening_review`.
+`ti_c022_record_reality_typing_fixture`.
+
+Preserve: RUN-0120 / E135 ranks bounded `FORMAL-OBJECT.md` /
+`CLAIM-LEDGER.md` integration as the highest-value branch but keeps it
+Joe-gated. The next automatable fixture should test whether TI-C022
+record-reality typing diverges from canonical-chain/finality record membership
+under the same assumptions. If no divergence trace exists, keep TI-C022
+operationally absorbed and record only an ontological interpretation residue.
+No claim movement.
+
+**RUN-0119 route (preserved provenance): W010 after post-hardening review.**
+
+Primary was `W010_frontier_selection_after_post_hardening_review`.
 
 Preserve: E134 makes the theorem contract ready for bounded repo citation but
 does not authorize claim-ledger or formal-object edits. External Platonist
 completion remains undefeated, strict c.e. positive escape is not reopened,
 and `TI-C020` remains parked. If Joe explicitly authorizes it, the next work
 can be a bounded `FORMAL-OBJECT.md` / `CLAIM-LEDGER.md` integration with no
-status promotion; otherwise re-rank automatable work without touching gated
-surfaces.
+status promotion.
 
 **RUN-0118 route (preserved provenance): post-hardening hostile review.**
 

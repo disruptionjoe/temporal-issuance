@@ -89,6 +89,23 @@ contributor_signal: workflow_ready_untested
 ## Per-Run Signal Records
 
 ```yaml
+run_id: RUN-0120
+workflow_used: W000 -> W010_frontier_selection_after_post_hardening_review
+research_vs_governance: research_routing
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: medium
+```
+
+```yaml
 run_id: RUN-0119
 workflow_used: W000 -> online_issuance_lc_post_hardening_hostile_review_packet
 research_vs_governance: research_review
