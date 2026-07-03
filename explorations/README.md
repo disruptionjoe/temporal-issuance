@@ -20,6 +20,14 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E137-frontier-selection-after-ti-c022-record-reality-fixture-2026-07-03.md`
+  executes W010 after the TI-C022 record-reality fixture. It keeps bounded
+  `FORMAL-OBJECT.md` / `CLAIM-LEDGER.md` integration Joe-gated, keeps TI-C022
+  closed absent a new RUN-0057 resurrection trace, and declines a generic
+  physical candidate scout because no concrete nonduplicative source-formation
+  candidate is present. No claim movement. Next unattended W000 state:
+  compact `no_worthy_work` until Joe authorization or new candidate material
+  changes the gate.
 - `E136-ti-c022-record-reality-typing-fixture-2026-07-02.md`
   executes the TI-C022 record-reality typing fixture selected by E135. The
   executable comparator finds no same-assumption divergence between TI-C022

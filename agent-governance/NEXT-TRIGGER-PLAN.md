@@ -3,11 +3,65 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0121
+updated_by_run: RUN-0122
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-03: W010 frontier selection after TI-C022 record-reality fixture
+
+RUN-0122 executed W010 after RUN-0121 / E136 completed the TI-C022
+record-reality typing fixture.
+
+Primary artifact:
+
+```text
+explorations/E137-frontier-selection-after-ti-c022-record-reality-fixture-2026-07-03.md
+```
+
+Verdict:
+
+```yaml
+w010_complete: true
+selected_frontier: gate_aware_no_worthy_work_state
+blocked_higher_frontier: bounded_FORMAL_OBJECT_CLAIM_LEDGER_integration
+claim_status_change: none
+formal_object_or_claim_ledger_edit_authorized: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+TI_C022_reopened: false
+reason_integration_not_selected: joe_review_gate
+reason_physical_branch_not_selected: no_concrete_nonduplicative_candidate
+reason_ti_c022_not_reopened: E136_found_no_same_assumption_divergence
+```
+
+Joe-review gate remains:
+
+```text
+Authorize or decline a bounded FORMAL-OBJECT / CLAIM-LEDGER integration that
+records the Lean-hardened OnlineIssuance^LC theorem contract without status
+promotion.
+```
+
+Automation-safe next direct trigger absent explicit Joe authorization or new
+candidate material:
+
+```text
+W000 -> compact_no_worthy_work_until_gate_changes
+```
+
+This is not a new workflow. It means a future unattended run should perform
+normal preflight, check whether a gate-changing event exists, and otherwise
+record a compact `no_worthy_work` result instead of inventing another fixture.
+
+Material work should resume only if one of these activation conditions is met:
+
+- Joe explicitly authorizes bounded `FORMAL-OBJECT.md` / `CLAIM-LEDGER.md`
+  integration without status promotion.
+- A concrete nonduplicative physical source-formation candidate is supplied or
+  selected for Adapter_P / W1-W6 pressure.
+- A new TI-C022 trace satisfies the RUN-0057 resurrection trigger.
 
 ## GATE EXECUTED 2026-07-02: ti_c022_record_reality_typing_fixture
 

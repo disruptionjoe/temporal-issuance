@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0121
+last_summarized_run: RUN-0122
 ---
 
 # Steward Memory Summary
@@ -29,8 +29,19 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: W010_frontier_selection_after_ti_c022_record_reality_fixture
+next_required_test: compact_no_worthy_work_until_gate_changes
 ```
+
+RUN-0122 adds: W010 after the TI-C022 record-reality fixture is complete. The
+highest-value next edit remains bounded `FORMAL-OBJECT.md` /
+`CLAIM-LEDGER.md` integration for the Lean-hardened OnlineIssuance^LC theorem
+contract, but that remains Joe-gated. TI-C022 should stay operationally closed
+unless a new trace satisfies the RUN-0057 resurrection trigger. The physical
+source branch remains central but has no concrete nonduplicative
+source-formation candidate in the repo or temporal-issuance mailbox. Absent
+Joe authorization or new candidate material, unattended W000 runs should return
+a compact `no_worthy_work` result rather than repeat TI-C022 or run a generic
+candidate scout. No claim movement.
 
 RUN-0121 adds: the TI-C022 record-reality typing fixture is complete. The
 executable comparator found no same-assumption divergence between TI-C022
@@ -1012,7 +1023,21 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0121 route (current): W010 after TI-C022 record-reality fixture.**
+**RUN-0122 route (current): gate-aware no-worthy-work state.**
+
+Primary absent Joe authorization or new candidate material: run normal
+preflight and return compact `no_worthy_work`.
+
+Preserve: RUN-0122 / E137 ranks bounded `FORMAL-OBJECT.md` /
+`CLAIM-LEDGER.md` integration as the highest-value branch but Joe-gated.
+TI-C022 is operationally closed after E136 unless a new trace supplies the
+RUN-0057 resurrection trigger. The physical-source branch is central but
+candidate-starved; do not run a generic scout without a concrete
+nonduplicative Adapter_P / W1-W6 candidate. Material work resumes only if Joe
+authorizes integration, a concrete physical source-formation candidate appears,
+or a real TI-C022 resurrection trace appears.
+
+**RUN-0121 route (preserved provenance): W010 after TI-C022 record-reality fixture.**
 
 Primary absent Joe authorization: run
 `W010_frontier_selection_after_ti_c022_record_reality_fixture`.

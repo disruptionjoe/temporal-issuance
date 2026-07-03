@@ -702,6 +702,14 @@ Open tasks (updated after RUN-0086):
   reaffirmed; TI-C022's remaining surplus is ontological record-reality typing.
   No claim movement. Immediate route is now
   `W010_frontier_selection_after_ti_c022_record_reality_fixture`.
+- RUN-0122 / E137 W010 after TI-C022 record-reality fixture complete: bounded
+  `FORMAL-OBJECT.md` / `CLAIM-LEDGER.md` integration remains the highest-value
+  branch but is Joe-gated. TI-C022 stays operationally closed absent a new
+  RUN-0057 resurrection trace. The physical source branch remains central but
+  has no concrete nonduplicative source-formation candidate in the repo or
+  temporal-issuance mailbox. Absent Joe authorization or new candidate
+  material, the correct unattended W000 outcome is a compact `no_worthy_work`
+  result rather than another generic scout or theorem-contract polish pass.
 
 ## Phase 0: Launch Coherence
 
