@@ -666,6 +666,12 @@ Open tasks (updated after RUN-0086):
   it. Keep E095 as reconstruction-layer anti-clock discipline unless a future fixture supplies
   nonfixed admissibility, nonfixed site, or nonfixed observable algebra.
 - Machine-check `OnlineIssuance^LC` remains a parked live route.
+- RUN-0117 / E132 external Platonist boundary packet complete: `OnlineIssuance^LC`
+  establishes an internal local constructive source-class result and rejects a
+  completed future oracle as an internal source object, but it does not defeat
+  external completed-structure ontology, reopen strict c.e. positive escape, or
+  establish physical source issuance. No claim movement. Immediate route is now
+  `W010_frontier_selection_after_external_platonist_boundary`.
 
 ## Phase 0: Launch Coherence
 

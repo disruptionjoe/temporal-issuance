@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E132-external-platonist-boundary-packet-2026-07-02.md` completes the
+  external Platonist boundary packet. It states the current honest boundary:
+  `OnlineIssuance^LC` establishes a local constructive source-class result
+  with internal completed-future-oracle exclusion, but it does not defeat an
+  external completed-structure ontology, reopen strict c.e. positive escape, or
+  establish physical source issuance. No claim movement; next route is
+  `W010_frontier_selection_after_external_platonist_boundary`.
 - `E131-t8-general-name-absorption-2026-07-02.md` closes the bounded T8
   `diagName` name-level absorption caveat. It adds
   `formal/lean/OnlineIssuance/NameAbsorption.lean`, where a fixed binary-name

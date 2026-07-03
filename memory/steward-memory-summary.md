@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0116
+last_summarized_run: RUN-0117
 ---
 
 # Steward Memory Summary
@@ -29,8 +29,16 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
 bare_Ext_S_derives_connection: no
-next_required_test: external_platonist_boundary_packet
+next_required_test: W010_frontier_selection_after_external_platonist_boundary
 ```
+
+RUN-0117 adds: the external Platonist boundary packet is complete. The current
+honest boundary is that `OnlineIssuance^LC` establishes an internal
+class-relative source result and rejects completed future oracles as internal
+source objects, but it does not defeat an external completed-structure
+ontology, reopen strict c.e. positive escape, establish physical source
+issuance, or move claims. The next route is W010 frontier selection after this
+boundary clarification.
 
 RUN-0108 through RUN-0110 add: Everett branching, relativistic block-universe
 readings, and region-indexed task-menu changes are absorbed as fixed-source,
@@ -965,7 +973,17 @@ before the next run lands.
 
 ## Next Run
 
-**RUN-0116 route (current): external Platonist boundary packet.**
+**RUN-0117 route (current): W010 frontier selection after external Platonist boundary.**
+
+Primary: run `W010_frontier_selection_after_external_platonist_boundary`.
+
+Preserve: E132 clarifies the internal/external boundary. `OnlineIssuance^LC`
+has a real local constructive result, but external Platonist completion remains
+undefeated as an external ontology; no physical source issuance is established;
+`TI-C020` remains parked. The next run should re-rank the frontier rather than
+repeat the same boundary packet.
+
+**RUN-0116 route (preserved provenance): external Platonist boundary packet.**
 
 Primary: run `external_platonist_boundary_packet`.
 

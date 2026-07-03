@@ -89,6 +89,23 @@ contributor_signal: workflow_ready_untested
 ## Per-Run Signal Records
 
 ```yaml
+run_id: RUN-0117
+workflow_used: W000 -> external_platonist_boundary_packet
+research_vs_governance: research_boundary
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: true
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: medium
+```
+
+```yaml
 run_id: RUN-0007
 workflow_used: readiness_pass
 research_vs_governance: governance_readiness
