@@ -351,6 +351,51 @@ It is not a current physical Adapter_P witness.
 The next formal object work should harden `OnlineIssuance^LC`, not keep using Assembly as a
 physical bridge without new W1/W4 evidence.
 
+RUN-0123 OnlineIssuance^LC Lean theorem contract (integration, no status promotion):
+
+The `OnlineIssuance^LC` hardening called for above is now done at a bounded Lean tier. This
+integration records the theorem contract established across E120/E121/E127-E132 and hostile-
+reviewed in E134. It is a citation record, not a claim promotion and not a physical result.
+
+Safe headline (the strongest sentence the formal object earns):
+
+```text
+Inside the current PA-O2-faithful finite-prefix Lean model, a present enumerator can be
+diagonalized; the diagonal candidate is not prior-disclosed by that enumerator; concrete and
+bounded-internal admissibility-witness routes exist; the source trace can be typed as IssueLC;
+and a completed future oracle is rejected as an internal source object.
+```
+
+Minimum citation set (Lean surfaces under `formal/lean/OnlineIssuance/`):
+
+| Layer | Primary theorem surface | Safe citation |
+| --- | --- | --- |
+| Core object language | `no_internal_completed_future_oracle`, `finite_non_disclosure`, `issue_lc_from_diagonal_witness` | Pass-one LC object language proves finite non-disclosure from visible assumptions and rejects a completed future oracle as internal source machinery. |
+| PA-O2 presence | `EnumeratorPresent(.enumerator_symbol/.value_symbol/.total_for_candidate)` | Present enumerator carries registration, kind, registered values, and finite present-prefix totality. |
+| Diagonal productivity | `diagName_not_mem`, `diagonalFormed_derived` | Finite diagonal non-enumeration is derived over arbitrary enumerator value lists, not assumed. |
+| Admissibility witness | `AdmDef`, `adm_witness_diagonal_derived`, `issue_lc_all_derived` | `IssueLC` is reachable from `EnumeratorPresent` for the concrete `AdmDef`; universal predicate-free self-encoding is refuted. |
+| Internal predicate syntax | `InternalPredicate`, `selfQuote_internal_witness`, `no_universal_internal_acceptance` | Bounded internal predicate-code witness formation exists; universal internal-code acceptance is false. |
+| Total-family comparator | `stage_diag_escape`, `diag_absorbed_by_extension`, `no_fixed_point_of_absorption` | Total Nat-indexed family diagonalization and absorption / no-fixed-point are machine-checked in the stated total-family model only. |
+| c.e. ceiling | `no_absolute_ce_escape`, `ce_prefix_fresh_escape`, `ce_prefix_escape_absorbed` | Finite-prefix freshness survives, but whole-c.e. positive escape is absorbed by singleton enumeration in the c.e.-presentation model. |
+| Name-level absorption | `diagName_absorbed`, `no_diagName_whole_family_escape` | The concrete `diagName` construction has a fixed binary-name absorber at the bounded name tier. |
+
+Scope limits that travel with every citation (unsafe readings — do NOT cite):
+
+```text
+- OnlineIssuance^LC does NOT prove Platonism false (external completed-structure ontology is
+  outside the internal source-object exclusion; E132).
+- OnlineIssuance^LC does NOT establish physical source issuance; TI-C020 stays parked.
+- The c.e. tier gives NO positive whole-family escape theorem.
+- AdmDef does NOT prove predicate-free or arbitrary admissibility.
+- The name-tier absorber does NOT cover arbitrary name constructors.
+- The Lean model is a bounded finite-prefix fixture, not a full recursive-function,
+  category-theory, physics, or metaphysics formalization.
+```
+
+Earned status: `OnlineIssuance^LC` is a Lean-hardened, class-relative formal source residue —
+the current narrow formal target for `TI-C019`. This integration changes no claim status; see
+the `RUN-0123 Claim Update` block in `CLAIM-LEDGER.md`.
+
 RUN-0090 RecordTableSystem candidate:
 
 `RecordTableSystem` is a working reconstruction/readout candidate from E100/E101. It does not

@@ -1,0 +1,68 @@
+{
+  "adversarial_sizing": {
+    "agent_adversary": {
+      "collapses_to_thermal_when_agent_stripped": true,
+      "free_parameters": [
+        "adversary_budget_j",
+        "security_margin"
+      ],
+      "free_params_are_thermodynamic_constants": false,
+      "physical_surplus_without_agency": false,
+      "requires_imported_agency": true
+    },
+    "layer": "adversarial_sizing",
+    "nonabsorbed_residue": "agent_relational_pricing__reconstruction_layer_not_physical_source",
+    "thermal_adversary": {
+      "absorbed": true,
+      "absorbed_by": "nonequilibrium_maintenance_thermodynamics",
+      "depends_only_on_thermodynamics": true,
+      "per_record_joules": {
+        "r0": 1.435489442539362e-20,
+        "r1": 1.1483915540314896e-20,
+        "r2": 8.612936655236172e-21,
+        "r3": 5.741957770157448e-21,
+        "r4": 2.870978885078724e-21
+      }
+    }
+  },
+  "constants": {
+    "T_bath_K": 300.0,
+    "landauer_bit_joules": 2.870978885078724e-21
+  },
+  "controls": {
+    "fundamental_law_claim_flagged_agent_dependent": true,
+    "new_physical_term_found": false,
+    "pure_landauer_absorbed": true
+  },
+  "fixture": "cost_of_finality_landauer",
+  "flow_cost": {
+    "absorbed": true,
+    "absorbed_by": "single_bit_landauer",
+    "equals_single_bit_landauer": true,
+    "layer": "flow_cost",
+    "surplus_over_landauer": 0.0,
+    "total_joules": 2.2967831080629793e-19
+  },
+  "stock_limit": {
+    "absorbed": true,
+    "absorbed_by": "bekenstein_holographic",
+    "bekenstein_bits": 2.8671970660500898e+26,
+    "issuance_specific_content": false,
+    "layer": "stock_limit"
+  },
+  "verdict": {
+    "TI_C009_reopened_as_physics": false,
+    "TI_C010_reopened_as_physics": false,
+    "adversarial_agent_requires_imported_agency": true,
+    "adversarial_thermal_absorbed_by_maintenance_thermo": true,
+    "claim_status_change": "none",
+    "energy_bridge_route_closed_on_tested_routes": true,
+    "energy_coupling_exists_but_trivial_thermodynamic": true,
+    "flow_absorbed_by_single_bit_landauer": true,
+    "kind": "toy_accounting_structural_fixture_not_physics_proof",
+    "new_nonabsorbed_physical_energy_bridge": false,
+    "route": "cost_of_finality_landauer",
+    "stock_absorbed_by_bekenstein": true,
+    "surviving_residue_location": "reconstruction_layer_finality_is_priced_TI_C019_Idea3"
+  }
+}

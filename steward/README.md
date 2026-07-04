@@ -44,7 +44,7 @@ This repo owns the Temporal Issuance hypothesis, claim ledger, formal object, ki
 
 - Read `README.md`, `HYPOTHESIS.md`, `KILL-CRITERIA.md`, `CLAIM-LEDGER.md`, and `ROADMAP.md` for repo truth.
 - Core hypothesis changes and older `agent-governance/REPO-STEWARD.md` posture changes are constitutional and pause for Joe.
-- Promotion, external/public consequence, constitutional changes, and capture-risk decisions pause for Joe.
+- Claim promotion is agent-owned once the `agent-governance/PROMOTION-GATES.md` path is met; promotion to `promoted` requires an evidence-trail awareness note in `CapacityOS/mailboxes/joeops/` (template `agent-governance/templates/hard-promotion-joeops-notice.md`), which is awareness-only, not approval. External/public consequence, relicensing, constitutional changes, and capture-risk decisions still pause for Joe. Cross-repo actions are proposed via the target surface's mailbox, not executed directly.
 - Apply transcribe-then-retire before closing records.
 
 ## Routing
@@ -63,7 +63,7 @@ This repo owns the Temporal Issuance hypothesis, claim ledger, formal object, ki
 
 - This repo is public.
 - Portable governance-package material lives centrally in CapacityOS; the former local seed was archived.
-- The real pause boundary is promotion or external consequence, not internal drafting.
+- The real pause boundary is external consequence (publishing/relicensing) and constitutional change, not promotion or internal drafting; a hard promotion to `promoted` proceeds under agent ownership but files a JoeOps evidence-trail notice.
 
 ## Principles
 

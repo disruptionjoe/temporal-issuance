@@ -20,6 +20,8 @@ Claim statuses:
 
 Do not promote directly from `speculative`. Promotion requires hostile review.
 
+Promotion is agent-owned once `agent-governance/PROMOTION-GATES.md` is satisfied — it does not pause for Joe. Moving a claim to `promoted` requires an evidence-trail awareness note in `CapacityOS/mailboxes/joeops/` (template `agent-governance/templates/hard-promotion-joeops-notice.md`); the note is awareness, not approval. Lower status moves and demotions need no note.
+
 `TI-C019` is the clarified central North Star claim (shared process + issuance) installed by
 RUN-0038. `TI-C001` and its descendants are now treated as the downstream observer-side
 reconstruction layer beneath it. See `HYPOTHESIS.md` (vNext) and `NORTH-STAR.md`.
@@ -1250,6 +1252,159 @@ TI-C003:
     prefix constructive context, formed admissibility, witness-bearing extension category,
     source step, projection/gluing downstream, and recordable trace. The object is explicitly
     class-relative and not a physical bridge or new category primitive.
+
+## RUN-0123 Claim Update (bounded integration, no status promotion)
+
+Agent-owned integration of the Lean-hardened `OnlineIssuance^LC` theorem contract (E134
+hostile-review packet) into the formal object and this ledger. Decision and reasoning:
+`explorations/E138-online-issuance-lc-theorem-contract-integration-2026-07-03.md`. This is an
+evidence record only. No status moves; no promotion; external completion and physical issuance
+remain undefeated and parked.
+
+```yaml
+TI-C003:
+  status: weakened          # unchanged
+  effect: lean_theorem_contract_recorded
+  movement: none
+  addendum: >
+    FORMAL-OBJECT.md now carries the bounded Lean theorem contract for `OnlineIssuance^LC`
+    (RUN-0123 section): minimum citation set, Lean surface names, and the scope limits that
+    travel with every citation. The formal object moved from "Python fixture plus conjectural
+    theorem target" to a machine-checked finite-prefix contract, but `IssuanceSystem` /
+    `Ext_S` status is unchanged and no physical or categorical primitive is claimed.
+  evidence_refs_added:
+    - explorations/E134-online-issuance-lc-post-hardening-hostile-review-2026-07-02.md
+    - explorations/E138-online-issuance-lc-theorem-contract-integration-2026-07-03.md
+    - formal/lean/OnlineIssuance/
+    - FORMAL-OBJECT.md
+  next_action: >
+    None required. Cite the contract via the FORMAL-OBJECT.md RUN-0123 table with its scope
+    limits attached. Do not read the contract as promotion.
+
+TI-C019:
+  status: formalizing       # unchanged
+  effect: formal_residue_lean_hardened
+  movement: none
+  addendum: >
+    The class-relative formal source residue that carries `TI-C019` is now Lean-hardened at
+    the bounded finite-prefix tier. This strengthens the formal leg only. The deepest fork
+    (source-side issuance vs bounded projection disclosure; PP-3 / D-FORK) is untouched, and
+    the issuance-energy-cosmology bridge remains unearned. No promotion.
+  evidence_refs_added:
+    - explorations/E134-online-issuance-lc-post-hardening-hostile-review-2026-07-02.md
+    - explorations/E138-online-issuance-lc-theorem-contract-integration-2026-07-03.md
+  next_action: >
+    Physical leg (TI-C020) is the live frontier; see RUN-0124 big-swing exploration.
+
+integration_authorization:
+  decided_by: repo_steward (agent-owned, per AGENTS.md + PROMOTION-GATES.md 2026-07-03)
+  decision: authorized
+  status_promotion: false
+  external_consequence: false
+  reason: >
+    Under the corrected governance (GCH-0014), a no-status-promotion formal-object /
+    claim-ledger integration is agent-owned. E134 found the contract "ready for repo citation";
+    recording it faithfully with scope limits attached carries no external consequence and no
+    claim movement, so it does not pause for Joe. A JoeOps awareness note is filed for the
+    trail, not for approval.
+  joeops_awareness_note: CapacityOS/mailboxes/joeops/20260703-oi-lc-theorem-contract-integration-to-joeops.md
+```
+
+## RUN-0124 Claim Update (physical-frontier big swing, no status movement)
+
+Ran a concrete non-duplicative physical source-formation candidate — de Sitter comoving-horizon
+mode crossing — through the full `Adapter_P` gate with an executable fixture. Record:
+`explorations/E139-desitter-horizon-mode-issuance-adapter-p-2026-07-03.md`.
+
+```yaml
+TI-C020:
+  status: speculative       # unchanged
+  effect: cosmological_candidate_absorbed_reduced_to_D_FORK
+  movement: none
+  addendum: >
+    Cosmological horizon-mode crossing is absorbed as fixed-source disclosure in the standard
+    fixed-background regime (growing accessible subalgebra of a fixed Bunch-Davies algebra on a
+    fixed comoving lattice + fixed decoherence law; W1/W2/W3/W4/W6 fail, only W5 holds; every
+    relevant fixed-source null absorbs). In the self-generating-lattice regime it only
+    re-instantiates the `OnlineIssuance^LC` class-relative residue and inherits the E127 c.e.
+    ceiling. Net: the cosmological route adds no independent physical handle and REDUCES the
+    physical question to D-FORK (self-generating vs fixed-finite source). A cosmological
+    resurrection trigger is now attached in E139.
+  evidence_refs_added:
+    - explorations/E139-desitter-horizon-mode-issuance-adapter-p-2026-07-03.md
+    - tools/desitter_horizon_mode_issuance_fixture.py
+    - tests/test_desitter_horizon_mode_issuance_fixture.py
+    - agent-runs/RUN-0124-desitter-horizon-mode-issuance-big-swing.md
+  next_action: >
+    Either attack the E139 resurrection trigger with a dynamical-background / generated-UV
+    model, or route to the D-FORK expressiveness-threshold fixture (E042 §6.2), which the
+    physical frontier now provably reduces to.
+
+TI-C019:
+  status: formalizing       # unchanged
+  effect: physical_bridge_reduces_to_core_fork
+  movement: none
+  addendum: >
+    E139 strengthens the case that TI-C019's deepest fork (self-generating vs fixed-finite
+    source) is load-bearing even for the physics bridge: the most North-Star-central physical
+    candidate does not bypass D-FORK.
+```
+
+## RUN-0125 Claim Update (cost-of-finality energy bridge tested; archives annotated, no un-archiving)
+
+Fired the last untested issuance->energy route (E023 Idea 2 / crypto-economic-security Absorber
+4). Record: `explorations/E140-cost-of-finality-landauer-energy-bridge-2026-07-03.md`.
+
+```yaml
+TI-C009:
+  status: archived          # unchanged
+  effect: cost_of_finality_route_tested_and_absorbed
+  movement: none
+  addendum: >
+    The energy-bridge archive previously covered the ordering-layer route only (BDO/ICO). The
+    cost-of-finality route is now TESTED (RUN-0125) and absorbed: flow cost by single-bit
+    Landauer, stock limit by Bekenstein, and thermal finality by nonequilibrium
+    maintenance-of-irreversibility thermodynamics. The adversarial-sizing surplus
+    (issuance proportional to attack cost) requires importing an optimizing agent with an energy
+    budget and collapses to the thermal model when the agent is stripped; it is economic, not a
+    physical source bridge. Both named issuance->energy routes are now closed at the control-case
+    level. Not un-archived.
+  evidence_refs_added:
+    - explorations/E140-cost-of-finality-landauer-energy-bridge-2026-07-03.md
+    - tools/cost_of_finality_landauer_fixture.py
+    - tests/test_cost_of_finality_landauer_fixture.py
+    - agent-runs/RUN-0125-cost-of-finality-landauer-energy-bridge.md
+
+TI-C010:
+  status: archived          # unchanged
+  effect: finality_cost_route_annotation
+  movement: none
+  addendum: >
+    Same annotation as TI-C009: the conditional Lorentzian realization archive is unaffected, and
+    the alternative (order-independent) cost-of-finality antecedent is now tested and absorbed.
+    Resurrection trigger (E140): a finality-maintenance cost with no free agent parameter,
+    provably not reducible to Landauer / Bekenstein / maintenance thermodynamics.
+
+TI-C019:
+  status: formalizing       # unchanged
+  effect: finality_is_priced_reconstruction_layer_sharpened
+  movement: none
+  addendum: >
+    The one non-absorbed idea from the route — finality = priced (reversal costs more than the
+    benefit, per observer) — is an economic reading of the observer-side reconstruction layer
+    (E023 Idea 3), not a physical source bridge. It sharpens TI-C019's reconstruction layer (cite
+    Nakamoto finality; crypto-economic-security Absorber 1) and stays reconstruction-side. With
+    both energy routes closed, the open program weight returns to D-FORK.
+
+TI-C021:
+  status: speculative       # unchanged
+  effect: consistency_note
+  movement: none
+  addendum: >
+    Cost accounting is additive per bit (Landauer), consistent with E043 regime-pinning: mu is
+    thermodynamic/additive on the disclosure side and size-subadditive only in the Goedelian
+    regime. No movement.
+```
 
 TI-C020:
   status: speculative

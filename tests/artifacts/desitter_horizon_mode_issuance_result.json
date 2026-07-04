@@ -1,0 +1,56 @@
+{
+  "fixed_background": {
+    "W_gate": {
+      "W1_non_isomorphic_algebra_growth": false,
+      "W2_prefix_formed_admissibility": false,
+      "W3_construction_provenance": false,
+      "W4_perturbation_non_factorization": false,
+      "W5_record_preservation": true,
+      "W6_gauge_access_language_non_absorption": false
+    },
+    "all_frozen_sets_subset_of_fixed_lattice": true,
+    "fixed_source_nulls_absorb": {
+      "bounded_access_to_Mu_infty": true,
+      "experimenter_added_schema": false,
+      "fixed_A_infty": true,
+      "fixed_H_infty": true,
+      "fixed_boundary_or_holographic_completion": true,
+      "fixed_stochastic_or_collapse_law": true
+    },
+    "perturbation_factors_through_fixed": true,
+    "regime": "fixed_background",
+    "verdict": "absorbed_as_fixed_source_disclosure"
+  },
+  "fixture": "desitter_comoving_horizon_mode_issuance",
+  "generated_lattice": {
+    "W_gate": {
+      "W1_non_isomorphic_algebra_growth": "class_relative",
+      "W2_prefix_formed_admissibility": true,
+      "W3_construction_provenance": true,
+      "W4_perturbation_non_factorization": "inherits_ceiling",
+      "W5_record_preservation": true,
+      "W6_gauge_access_language_non_absorption": "partial"
+    },
+    "finite_prefix_freshness_survives": true,
+    "fixed_source_nulls": {
+      "bounded_access_to_Mu_infty_fixed_finite": false,
+      "fixed_H_infty_finite_prefix": false,
+      "fixed_H_infty_whole_family_singleton": true
+    },
+    "no_fixed_finite_precontainment": true,
+    "regime": "generated_lattice",
+    "verdict": "reduces_to_OnlineIssuance_LC_class_relative_residue",
+    "whole_family_absorbed_by_singleton": true
+  },
+  "kind": "toy_adapter_p_discriminator_not_physics_simulation",
+  "stages": 8,
+  "summary": {
+    "Issue[S]^physical": false,
+    "TI_C020_reopened": false,
+    "claim_status_change": "none",
+    "fixed_background_regime": "absorbed_as_fixed_source_disclosure",
+    "generated_lattice_regime": "reduces_to_OnlineIssuance_LC_class_relative_residue",
+    "new_physical_surplus_over_formal_residue": false,
+    "physical_question_separable_from_D_FORK": false
+  }
+}

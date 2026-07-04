@@ -254,3 +254,38 @@ rollback_or_revisit_trigger: >
   Only allow a batch commit when Joe explicitly overrides the per-run rule for the current
   burst and the run notes record the override.
 ```
+
+```yaml
+change_id: GCH-0014
+timestamp: 2026-07-03
+run_id: RUN-0123
+changed_surface:
+  - AGENTS.md
+  - agent-governance/REPO-STEWARD-AUTHORITY.md
+  - agent-governance/STEWARDSHIP-RULES.md
+  - agent-governance/PROMOTION-GATES.md
+change_type: review_is_judgment_input_not_work_stop
+reason: >
+  Joe flagged that the operating layer had leaked a hard stop: the W010 frontier logic and
+  NEXT-TRIGGER-PLAN kept turning "needs Joe / hostile review" into a global
+  "no_worthy_work_until_gate_changes" halt (E133, E135, E137). This contradicts the already
+  stated posture (uncertainty-driven review, prefer learning velocity, external publication is
+  the real gate). Corrected the rule explicitly: needing a hostile/outside reviewer is a
+  judgment input that shapes path selection, never a reason to stop all work; when a path
+  warrants outside review, drop a JoeOps mailbox note and keep working. Authorizing or
+  declining an internal formal-object / claim-ledger integration (no status promotion, no
+  external consequence) is agent-owned — decide and record reasoning, do not park for Joe.
+expected_learning_value: >
+  Restores learning velocity. Unattended runs stop parking the highest-value branch and stop
+  inventing no_worthy_work receipts when the only blocker is a review the steward can request
+  without halting.
+risk: >
+  Agents could now integrate internal drafts too eagerly. Mitigated because external
+  publication and constitutional change remain hard stops, hard promotion still files a JoeOps
+  awareness note, and bad internal calls are corrected reactively.
+review_needed: false
+rollback_or_revisit_trigger: >
+  If agents start making low-quality internal integrations or skip warranted review entirely,
+  re-tighten by requiring a JoeOps note before (not after) an internal integration that touches
+  FORMAL-OBJECT.md or CLAIM-LEDGER.md.
+```

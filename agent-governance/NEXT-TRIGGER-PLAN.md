@@ -3,11 +3,116 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0122
+updated_by_run: RUN-0125
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-03: cost-of-finality energy-bridge big swing (RUN-0125)
+
+Fired the last untested issuance->energy route (posture-panel mailbox item 1; E023 Idea 2;
+staged trigger `cost_of_finality_landauer_fixture`).
+
+```yaml
+big_swing_executed: true
+route: cost_of_finality_landauer
+flow_absorbed_by_single_bit_landauer: true
+stock_absorbed_by_bekenstein: true
+adversarial_thermal_absorbed_by_maintenance_thermodynamics: true
+adversarial_agent_requires_imported_agency: true
+new_nonabsorbed_physical_energy_bridge: false
+both_energy_routes_now_closed_at_control_case_level: true
+surviving_residue: finality_is_priced__reconstruction_layer_TI_C019
+claim_status_change: none
+fixture_tests: 6 passed
+full_suite: 76 passed
+```
+
+Primary artifact: `explorations/E140-cost-of-finality-landauer-energy-bridge-2026-07-03.md`.
+
+Key result: the cost-of-finality energy bridge is absorbed (Landauer + Bekenstein +
+nonequilibrium maintenance thermodynamics); the adversarial-sizing surplus needs imported agency
+and is economic, not physics. TI-C009/C010 archives annotated (both energy routes now tested and
+closed); no un-archiving. Posture-panel mailbox proposal processed and archived.
+
+Active next trigger (unfired posture-panel candidates; none pause for Joe):
+
+```text
+W000 -> celext_celestial_boundary_fixture_steps_1_3      # posture-panel item 2 (HIGH)
+W000 -> cech_h3_functor_obl_001_negative_half            # posture-panel item 3 (HIGH/MEDIUM)
+W000 -> d_fork_expressiveness_threshold_fixture (E042)   # both energy routes now closed; core fork
+```
+
+## GATE EXECUTED 2026-07-03: physical-frontier big swing (RUN-0124)
+
+Ran the de Sitter comoving-horizon mode-crossing candidate through the full `Adapter_P` gate
+with an executable fixture.
+
+```yaml
+big_swing_executed: true
+candidate: desitter_comoving_horizon_mode_issuance
+fixed_background_regime: absorbed_as_fixed_source_disclosure
+generated_lattice_regime: reduces_to_OnlineIssuance_LC_class_relative_residue
+new_physical_surplus_over_formal_residue: false
+physical_frontier_reduced_to_D_FORK: true
+Issue[S]^physical: false
+TI_C020_reopened: false
+claim_status_change: none
+fixture_tests: 4 passed
+full_suite: 70 passed
+```
+
+Primary artifact:
+`explorations/E139-desitter-horizon-mode-issuance-adapter-p-2026-07-03.md`.
+
+Key result: the most North-Star-central physical candidate does not give an independent handle
+on issuance. It is absorbed in the standard fixed-background regime and reduces to the open
+D-FORK bit in the self-generating regime. A cosmological resurrection trigger for TI-C020 is
+recorded in E139.
+
+Active next trigger (choose one):
+
+```text
+W000 -> desitter_dynamical_background_generated_uv_resurrection   # attack the E139 trigger
+W000 -> d_fork_expressiveness_threshold_fixture (E042 §6.2)        # the frontier now reduces here
+```
+
+Neither pauses for Joe; both are ungated internal research. Under GCH-0014, unattended runs pick
+the higher-learning branch and proceed.
+
+## GATE EXECUTED 2026-07-03: governance repair + F1 integration (RUN-0123)
+
+Joe-directed session. Two moves:
+
+```yaml
+governance_repair: GCH-0014
+  effect: >
+    "Needs Joe / hostile review" is no longer a work-stop. Seeking review is a judgment input
+    to path selection; when a path warrants outside review, drop a JoeOps note and keep
+    working. Internal formal-object / claim-ledger integration (no status promotion, no
+    external consequence) is agent-owned. The compact `no_worthy_work_until_gate_changes`
+    posture from E137 is RETIRED as a default: unattended runs no longer halt merely because
+    the highest-value branch would touch an ungated internal surface.
+f1_integration: executed_agent_owned
+  artifact: explorations/E138-online-issuance-lc-theorem-contract-integration-2026-07-03.md
+  effect: >
+    FORMAL-OBJECT.md and CLAIM-LEDGER.md now record the Lean-hardened OnlineIssuance^LC
+    theorem contract. claim_status_change: none. TI-C020 still parked.
+```
+
+Superseded gate: E137's `compact_no_worthy_work_until_gate_changes` primary trigger is no
+longer in force. The F1 branch it parked is now done.
+
+Active next trigger:
+
+```text
+W000 -> RUN-0124 physical-frontier big swing (F2 / TI-C020)
+```
+
+Supply a concrete nonduplicative physical source-formation candidate and run it through
+`Adapter_P` (W1-W6 + fixed-source nulls). Honest verdict only; keep TI-C020 honest. See the
+RUN-0124 section below once executed.
 
 ## GATE EXECUTED 2026-07-03: W010 frontier selection after TI-C022 record-reality fixture
 

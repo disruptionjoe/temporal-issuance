@@ -20,6 +20,27 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E140-cost-of-finality-landauer-energy-bridge-2026-07-03.md`
+  fires the last untested issuance->energy route (posture-panel mailbox item
+  1; E023 Idea 2). Verdict: absorbed — flow cost by single-bit Landauer, stock
+  by Bekenstein, thermal finality by nonequilibrium maintenance thermodynamics;
+  the adversarial-sizing surplus (issuance ∝ attack cost) needs an imported
+  optimizing agent and is economic, not a physical source bridge. Both
+  issuance->energy routes (ordering via BDO/ICO; finality-cost here) are now
+  closed at the control-case level. Surviving idea "finality = priced" routes to
+  the TI-C019 reconstruction layer. No claim un-archiving.
+- `E139-desitter-horizon-mode-issuance-adapter-p-2026-07-03.md`
+  big swing on the physical frontier (F2 / TI-C020): runs a de Sitter
+  comoving-horizon mode-crossing candidate through `Adapter_P` (W1-W6 +
+  fixed-source nulls) with an executable fixture. Honest verdict recorded; see
+  the file for what survives vs is absorbed. No claim promotion.
+- `E138-online-issuance-lc-theorem-contract-integration-2026-07-03.md`
+  executes the F1 branch E137 had parked as Joe-gated. Under the corrected
+  governance (GCH-0014), the steward authorizes the bounded integration
+  agent-owned: `FORMAL-OBJECT.md` and `CLAIM-LEDGER.md` now record the
+  Lean-hardened `OnlineIssuance^LC` theorem contract with scope limits
+  attached. No status promotion; TI-C020 still parked. A JoeOps awareness note
+  is filed for the trail.
 - `E137-frontier-selection-after-ti-c022-record-reality-fixture-2026-07-03.md`
   executes W010 after the TI-C022 record-reality fixture. It keeps bounded
   `FORMAL-OBJECT.md` / `CLAIM-LEDGER.md` integration Joe-gated, keeps TI-C022

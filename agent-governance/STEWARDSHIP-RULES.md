@@ -15,6 +15,6 @@ constitutional: false
 6. Do not treat absorption as automatically terminal.
 7. Test category and layer errors.
 8. Record killed paths with resurrection triggers.
-9. Keep human review uncertainty-driven.
+9. Keep human review uncertainty-driven, and never let a review need halt work — flag it via the JoeOps mailbox and continue.
 10. Build the strongest surviving version before attempting destruction.
 
