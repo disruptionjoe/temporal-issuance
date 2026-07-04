@@ -34,6 +34,15 @@ morphism, and additive composition pass with controls; BMS functoriality,
 source-side `Q_f`, ICO' pressure, and the celestial S-matrix relabeling
 absorber remain for the next run. No claim movement.
 
+RUN-0127 update (2026-07-04): the CelExt celestial-boundary fixture steps 4-6
+are now executed. A supertranslation-like action is functorial over the toy
+boundary fragment, `Q_f` is computed from boundary sector deltas relative to
+the added CelExt category, and celestial S-matrix / precomputed-charge controls
+are rejected. This completes the E013 fixture suite only as a conditional
+internal boundary fixture; current TI primitives still do not derive BMS,
+boundary current/action structure, celestial holography, or physics. No claim
+movement.
+
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
 remained speculative after that pass.

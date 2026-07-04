@@ -5,7 +5,7 @@
     "nonadditive_composition_rejected": true,
     "target_charge_mismatch_rejected": true
   },
-  "fixture": "celext_celestial_boundary_fixture_steps_1_3",
+  "fixture": "celext_celestial_boundary_fixture_steps_1_6",
   "kind": "toy_category_fragment_not_physics_derivation",
   "positive_fragment": {
     "composition": {
@@ -116,19 +116,177 @@
       }
     ]
   },
+  "steps_4_6_fragment": {
+    "absorber": {
+      "absorbed_by_celestial_s_matrix_relabeling": false,
+      "celestial_s_matrix_relabeling_rejected": true,
+      "positive_Q_f": {
+        "action_id": "T_f",
+        "boundary_sector_delta": 3,
+        "forbidden_inputs_used": [],
+        "formula": "Q_f(e) = f_weight * (q_target - q_source)",
+        "morphism_id": "I_soft_plus_2_after_I_soft_plus_1",
+        "q_from_declared_shift": 21,
+        "q_value": 21,
+        "reason": "The toy Q_f value is determined from boundary sector labels and the supertranslation generator weight, without importing a bulk Hamiltonian, bulk S-matrix, or precomputed BMS charge.",
+        "source_side_Q_f": true,
+        "source_side_relative_to_celext": true,
+        "source_side_relative_to_current_TI_primitives": false,
+        "uses_bulk_hamiltonian": false,
+        "uses_bulk_s_matrix": false,
+        "uses_precomputed_bms_charge": false
+      },
+      "positive_fragment_not_s_matrix_relabeling": true,
+      "precomputed_bms_charge_rejected": true,
+      "precomputed_charge_control_Q_f": {
+        "action_id": "T_f",
+        "boundary_sector_delta": 1,
+        "forbidden_inputs_used": [
+          "precomputed_bms_charge"
+        ],
+        "formula": "Q_f(e) = f_weight * (q_target - q_source)",
+        "morphism_id": "precomputed_bms_charge_control",
+        "q_from_declared_shift": 7,
+        "q_value": 7,
+        "reason": "Q_f is not source-side under this fixture because it depends on forbidden or mismatched data.",
+        "source_side_Q_f": false,
+        "source_side_relative_to_celext": false,
+        "source_side_relative_to_current_TI_primitives": false,
+        "uses_bulk_hamiltonian": false,
+        "uses_bulk_s_matrix": false,
+        "uses_precomputed_bms_charge": true
+      },
+      "reason": "The positive toy fragment computes Q_f from boundary sector data, while S-matrix relabeling and precomputed-charge controls fail the source-side test.",
+      "s_matrix_relabeling_control_Q_f": {
+        "action_id": "T_f",
+        "boundary_sector_delta": 1,
+        "forbidden_inputs_used": [
+          "bulk_s_matrix",
+          "celestial_s_matrix"
+        ],
+        "formula": "Q_f(e) = f_weight * (q_target - q_source)",
+        "morphism_id": "celestial_s_matrix_relabeling_control",
+        "q_from_declared_shift": 7,
+        "q_value": 7,
+        "reason": "Q_f is not source-side under this fixture because it depends on forbidden or mismatched data.",
+        "source_side_Q_f": false,
+        "source_side_relative_to_celext": false,
+        "source_side_relative_to_current_TI_primitives": false,
+        "uses_bulk_hamiltonian": false,
+        "uses_bulk_s_matrix": true,
+        "uses_precomputed_bms_charge": false
+      }
+    },
+    "ico_prime": {
+      "ICO_prime_tested": true,
+      "bookkeeping_rejected_in_positive_fragment": true,
+      "insufficient_source_data_unresolved_for_current_TI": true,
+      "reason": "ICO' is avoided only relative to the explicitly added toy CelExt boundary category. Current Temporal Issuance primitives still do not derive the boundary current/action structure.",
+      "target_import_avoided_conditionally": true,
+      "verdict": "conditional_celext_internal_boundary_charge_not_ti_derivation"
+    },
+    "source_side_soft_charge": {
+      "action_id": "T_f",
+      "boundary_sector_delta": 3,
+      "forbidden_inputs_used": [],
+      "formula": "Q_f(e) = f_weight * (q_target - q_source)",
+      "morphism_id": "I_soft_plus_2_after_I_soft_plus_1",
+      "q_from_declared_shift": 21,
+      "q_value": 21,
+      "reason": "The toy Q_f value is determined from boundary sector labels and the supertranslation generator weight, without importing a bulk Hamiltonian, bulk S-matrix, or precomputed BMS charge.",
+      "source_side_Q_f": true,
+      "source_side_relative_to_celext": true,
+      "source_side_relative_to_current_TI_primitives": false,
+      "uses_bulk_hamiltonian": false,
+      "uses_bulk_s_matrix": false,
+      "uses_precomputed_bms_charge": false
+    },
+    "supertranslation_action": {
+      "BMS_functoriality": true,
+      "action_id": "T_f",
+      "admissibility_preserved": true,
+      "charge_offset": 5,
+      "composition_preserved": true,
+      "forbidden_inputs_used": [],
+      "identity_preserved": true,
+      "mode_label": "supertranslation_f_l1m0",
+      "q_weight": 7,
+      "reason": "The supertranslation-like action shifts every boundary sector by a constant offset, leaves morphism soft shifts invariant, preserves identity arrows, and commutes with additive composition.",
+      "transformed_composite_direct": {
+        "actual_target_charge": 8,
+        "admissible_boundary_morphism": true,
+        "expected_target_charge": 8,
+        "forbidden_inputs_used": [],
+        "morphism_id": "T_f(I_soft_plus_2_after_I_soft_plus_1)",
+        "reason": "Morphism is source-side admissible: it maps between typed boundary sectors, changes the soft-charge label by its declared shift, and preserves the Ward/admissibility label without importing bulk data.",
+        "soft_shift": 3,
+        "source": "T_f(B_q0)",
+        "target": "T_f(B_q3)",
+        "target_charge_matches": true,
+        "ward_identity_preserved": true
+      },
+      "transformed_composite_via_parts": {
+        "actual_target_charge": 8,
+        "admissible_boundary_morphism": true,
+        "expected_target_charge": 8,
+        "forbidden_inputs_used": [],
+        "morphism_id": "T_f(I_soft_plus_2)_after_T_f(I_soft_plus_1)",
+        "reason": "Morphism is source-side admissible: it maps between typed boundary sectors, changes the soft-charge label by its declared shift, and preserves the Ward/admissibility label without importing bulk data.",
+        "soft_shift": 3,
+        "source": "T_f(B_q0)",
+        "target": "T_f(B_q3)",
+        "target_charge_matches": true,
+        "ward_identity_preserved": true
+      },
+      "transformed_first": {
+        "actual_target_charge": 6,
+        "admissible_boundary_morphism": true,
+        "expected_target_charge": 6,
+        "forbidden_inputs_used": [],
+        "morphism_id": "T_f(I_soft_plus_1)",
+        "reason": "Morphism is source-side admissible: it maps between typed boundary sectors, changes the soft-charge label by its declared shift, and preserves the Ward/admissibility label without importing bulk data.",
+        "soft_shift": 1,
+        "source": "T_f(B_q0)",
+        "target": "T_f(B_q1)",
+        "target_charge_matches": true,
+        "ward_identity_preserved": true
+      },
+      "transformed_second": {
+        "actual_target_charge": 8,
+        "admissible_boundary_morphism": true,
+        "expected_target_charge": 8,
+        "forbidden_inputs_used": [],
+        "morphism_id": "T_f(I_soft_plus_2)",
+        "reason": "Morphism is source-side admissible: it maps between typed boundary sectors, changes the soft-charge label by its declared shift, and preserves the Ward/admissibility label without importing bulk data.",
+        "soft_shift": 2,
+        "source": "T_f(B_q1)",
+        "target": "T_f(B_q3)",
+        "target_charge_matches": true,
+        "ward_identity_preserved": true
+      }
+    }
+  },
   "summary": {
-    "BMS_functoriality_tested": false,
-    "ICO_prime_tested": false,
-    "absorber_tested": false,
+    "BMS_functoriality_tested": true,
+    "ICO_prime_tested": true,
+    "ICO_prime_verdict": "conditional_celext_internal_boundary_charge_not_ti_derivation",
+    "absorber_status": "positive_toy_fragment_not_s_matrix_relabeling__current_TI_still_not_derivation",
+    "absorber_tested": true,
     "bulk_import_control_rejected": true,
     "claim_status_change": "none",
-    "next_required": "steps_4_6: BMS functoriality, source-side Q_f / ICO prime, and absorber check against celestial S-matrix relabeling",
+    "next_required": "cech_h3_functor_obl_001_negative_half or D-fork pressure; do not treat CelExt as TI-derived physics",
     "physics_derived_from_TI": false,
-    "source_side_Q_f_tested": false,
+    "source_side_Q_f_tested": true,
     "step_1_typed_boundary_object": true,
     "step_2_admissible_boundary_morphism": true,
     "step_3_additive_composition": true,
+    "step_4_supertranslation_functoriality": true,
+    "step_5_source_side_Q_f_relative_to_CelExt": true,
+    "step_5_source_side_Q_f_relative_to_current_TI": false,
+    "step_6_s_matrix_relabeling_absorber_rejected": true,
     "steps_1_3_complete": true,
-    "verdict": "celext_steps_1_3_pass_as_internal_toy_category_fragment"
+    "steps_1_6_complete": true,
+    "steps_4_6_complete": true,
+    "verdict": "celext_steps_1_6_pass_as_conditional_internal_boundary_fixture"
   }
 }

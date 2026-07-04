@@ -3,11 +3,45 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0126
+updated_by_run: RUN-0127
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-04: CelExt celestial-boundary fixture steps 4-6 (RUN-0127)
+
+Fired the second half of the E013 fixture suite:
+`celext_celestial_boundary_fixture_steps_4_6`.
+
+```yaml
+steps_4_6_complete: true
+step_4_supertranslation_functoriality: true
+step_5_source_side_Q_f_relative_to_CelExt: true
+step_5_source_side_Q_f_relative_to_current_TI: false
+step_6_s_matrix_relabeling_absorber_rejected: true
+steps_1_6_complete: true
+ICO_prime_verdict: conditional_celext_internal_boundary_charge_not_ti_derivation
+physics_derived_from_TI: false
+claim_status_change: none
+fixture_tests: 8 passed
+full_suite: 84 passed
+```
+
+Primary artifact:
+`explorations/E142-celext-celestial-boundary-fixture-steps-4-6-2026-07-04.md`.
+
+Key result: CelExt steps 1-6 pass as a conditional internal boundary fixture.
+The result is source-side only relative to the added toy CelExt category. It is
+not source-side relative to current TI primitives, does not derive physics, and
+does not move claim status.
+
+Active next trigger (unfired posture-panel candidates; none pause for Joe):
+
+```text
+W000 -> cech_h3_functor_obl_001_negative_half            # posture-panel item 3 (HIGH/MEDIUM)
+W000 -> d_fork_expressiveness_threshold_fixture (E042)   # both energy routes closed; core fork
+```
 
 ## GATE EXECUTED 2026-07-04: CelExt celestial-boundary fixture steps 1-3 (RUN-0126)
 

@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E142-celext-celestial-boundary-fixture-steps-4-6-2026-07-04.md`
+  finishes the E013 CelExt fixture suite. A supertranslation-like action
+  preserves identity, admissibility, and additive composition; a toy `Q_f`
+  is computed from boundary sector deltas; celestial S-matrix relabeling and
+  precomputed-charge controls are rejected. Verdict: steps 1-6 pass only as a
+  conditional internal boundary fixture, not as TI-derived physics. No claim
+  movement.
 - `E141-celext-celestial-boundary-fixture-steps-1-3-2026-07-04.md`
   executes the first half of E013's CelExt fixture suite. A toy internal
   category fragment passes typed boundary object, admissible boundary morphism,
