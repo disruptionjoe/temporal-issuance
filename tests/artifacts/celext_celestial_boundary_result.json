@@ -1,0 +1,134 @@
+{
+  "contract_source": "explorations/E013-celestial-boundary-physics-bridge.md",
+  "controls": {
+    "bulk_import_rejected": true,
+    "nonadditive_composition_rejected": true,
+    "target_charge_mismatch_rejected": true
+  },
+  "fixture": "celext_celestial_boundary_fixture_steps_1_3",
+  "kind": "toy_category_fragment_not_physics_derivation",
+  "positive_fragment": {
+    "composition": {
+      "additive_composition": true,
+      "composable": true,
+      "composite": {
+        "actual_target_charge": 3,
+        "admissible_boundary_morphism": true,
+        "expected_target_charge": 3,
+        "forbidden_inputs_used": [],
+        "morphism_id": "I_soft_plus_2_after_I_soft_plus_1",
+        "reason": "Morphism is source-side admissible: it maps between typed boundary sectors, changes the soft-charge label by its declared shift, and preserves the Ward/admissibility label without importing bulk data.",
+        "soft_shift": 3,
+        "source": "B_q0",
+        "target": "B_q3",
+        "target_charge_matches": true,
+        "ward_identity_preserved": true
+      },
+      "composition_trace": [
+        "I_soft_plus_1",
+        "I_soft_plus_2"
+      ],
+      "first": {
+        "actual_target_charge": 1,
+        "admissible_boundary_morphism": true,
+        "expected_target_charge": 1,
+        "forbidden_inputs_used": [],
+        "morphism_id": "I_soft_plus_1",
+        "reason": "Morphism is source-side admissible: it maps between typed boundary sectors, changes the soft-charge label by its declared shift, and preserves the Ward/admissibility label without importing bulk data.",
+        "soft_shift": 1,
+        "source": "B_q0",
+        "target": "B_q1",
+        "target_charge_matches": true,
+        "ward_identity_preserved": true
+      },
+      "second": {
+        "actual_target_charge": 3,
+        "admissible_boundary_morphism": true,
+        "expected_target_charge": 3,
+        "forbidden_inputs_used": [],
+        "morphism_id": "I_soft_plus_2",
+        "reason": "Morphism is source-side admissible: it maps between typed boundary sectors, changes the soft-charge label by its declared shift, and preserves the Ward/admissibility label without importing bulk data.",
+        "soft_shift": 2,
+        "source": "B_q1",
+        "target": "B_q3",
+        "target_charge_matches": true,
+        "ward_identity_preserved": true
+      }
+    },
+    "morphism": {
+      "actual_target_charge": 1,
+      "admissible_boundary_morphism": true,
+      "expected_target_charge": 1,
+      "forbidden_inputs_used": [],
+      "morphism_id": "I_soft_plus_1",
+      "reason": "Morphism is source-side admissible: it maps between typed boundary sectors, changes the soft-charge label by its declared shift, and preserves the Ward/admissibility label without importing bulk data.",
+      "soft_shift": 1,
+      "source": "B_q0",
+      "target": "B_q1",
+      "target_charge_matches": true,
+      "ward_identity_preserved": true
+    },
+    "objects": [
+      {
+        "constraints": [
+          "celestial_sphere_S2",
+          "soft_charge_sector:int",
+          "ward_identity_label"
+        ],
+        "forbidden_inputs_used": [],
+        "hard_sector": "finite_hard_sector_label",
+        "object_id": "B_q0",
+        "reason": "Object is an S2 boundary sector with an integer soft-charge label and explicit Ward/admissibility labels.",
+        "required_constraints_present": true,
+        "soft_charge": 0,
+        "sphere": "S2",
+        "typed_boundary_object": true
+      },
+      {
+        "constraints": [
+          "celestial_sphere_S2",
+          "soft_charge_sector:int",
+          "ward_identity_label"
+        ],
+        "forbidden_inputs_used": [],
+        "hard_sector": "finite_hard_sector_label",
+        "object_id": "B_q1",
+        "reason": "Object is an S2 boundary sector with an integer soft-charge label and explicit Ward/admissibility labels.",
+        "required_constraints_present": true,
+        "soft_charge": 1,
+        "sphere": "S2",
+        "typed_boundary_object": true
+      },
+      {
+        "constraints": [
+          "celestial_sphere_S2",
+          "soft_charge_sector:int",
+          "ward_identity_label"
+        ],
+        "forbidden_inputs_used": [],
+        "hard_sector": "finite_hard_sector_label",
+        "object_id": "B_q3",
+        "reason": "Object is an S2 boundary sector with an integer soft-charge label and explicit Ward/admissibility labels.",
+        "required_constraints_present": true,
+        "soft_charge": 3,
+        "sphere": "S2",
+        "typed_boundary_object": true
+      }
+    ]
+  },
+  "summary": {
+    "BMS_functoriality_tested": false,
+    "ICO_prime_tested": false,
+    "absorber_tested": false,
+    "bulk_import_control_rejected": true,
+    "claim_status_change": "none",
+    "next_required": "steps_4_6: BMS functoriality, source-side Q_f / ICO prime, and absorber check against celestial S-matrix relabeling",
+    "physics_derived_from_TI": false,
+    "source_side_Q_f_tested": false,
+    "step_1_typed_boundary_object": true,
+    "step_2_admissible_boundary_morphism": true,
+    "step_3_additive_composition": true,
+    "steps_1_3_complete": true,
+    "verdict": "celext_steps_1_3_pass_as_internal_toy_category_fragment"
+  }
+}

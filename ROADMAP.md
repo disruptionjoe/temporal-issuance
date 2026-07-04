@@ -27,6 +27,13 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 Status: active, OnlineSchemaSys pass complete in RUN-0042.
 
+RUN-0126 update (2026-07-04): the CelExt celestial-boundary fixture steps 1-3
+are now executable as an internal toy category fragment. This is a narrow
+positive construction result only: typed boundary object, admissible boundary
+morphism, and additive composition pass with controls; BMS functoriality,
+source-side `Q_f`, ICO' pressure, and the celestial S-matrix relabeling
+absorber remain for the next run. No claim movement.
+
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
 remained speculative after that pass.

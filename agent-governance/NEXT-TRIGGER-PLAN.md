@@ -3,11 +3,49 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0125
+updated_by_run: RUN-0126
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-04: CelExt celestial-boundary fixture steps 1-3 (RUN-0126)
+
+Fired the second unfired posture-panel candidate (item 2; E013 fixture suite):
+`celext_celestial_boundary_fixture_steps_1_3`.
+
+```yaml
+steps_1_3_complete: true
+step_1_typed_boundary_object: true
+step_2_admissible_boundary_morphism: true
+step_3_additive_composition: true
+bulk_import_control_rejected: true
+BMS_functoriality_tested: false
+source_side_Q_f_tested: false
+ICO_prime_tested: false
+absorber_tested: false
+physics_derived_from_TI: false
+claim_status_change: none
+fixture_tests: 5 passed
+full_suite: 81 passed
+```
+
+Primary artifact:
+`explorations/E141-celext-celestial-boundary-fixture-steps-1-3-2026-07-04.md`.
+
+Key result: CelExt can be represented internally enough to carry typed boundary
+sectors, admissible insertions, and additive composition without immediately
+importing bulk data. This earns the right to run steps 4-6; it does not derive
+BMS, define source-side `Q_f`, test ICO', or clear the celestial S-matrix
+relabeling absorber.
+
+Active next trigger (unfired posture-panel candidates; none pause for Joe):
+
+```text
+W000 -> celext_celestial_boundary_fixture_steps_4_6      # finish BMS/Q_f/absorber pressure (HIGH)
+W000 -> cech_h3_functor_obl_001_negative_half            # posture-panel item 3 (HIGH/MEDIUM)
+W000 -> d_fork_expressiveness_threshold_fixture (E042)   # both energy routes closed; core fork
+```
 
 ## GATE EXECUTED 2026-07-03: cost-of-finality energy-bridge big swing (RUN-0125)
 

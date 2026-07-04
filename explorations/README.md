@@ -20,6 +20,14 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E141-celext-celestial-boundary-fixture-steps-1-3-2026-07-04.md`
+  executes the first half of E013's CelExt fixture suite. A toy internal
+  category fragment passes typed boundary object, admissible boundary morphism,
+  and additive composition checks, while rejecting charge mismatch, bulk
+  S-matrix import, and nonadditive composition controls. This earns the right
+  to run steps 4-6, but does not test BMS functoriality, source-side `Q_f`,
+  ICO' pressure, or the celestial S-matrix relabeling absorber. No claim
+  movement.
 - `E140-cost-of-finality-landauer-energy-bridge-2026-07-03.md`
   fires the last untested issuance->energy route (posture-panel mailbox item
   1; E023 Idea 2). Verdict: absorbed — flow cost by single-bit Landauer, stock
