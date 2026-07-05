@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E144-frontier-selection-after-posture-panel-candidates-2026-07-05.md`
+  executes W010 after Landauer, CelExt steps 1-6, and Cech H3 negative-half
+  have fired. It ranks D-FORK as the convergent pressure point and selects
+  `d_fork_generated_uv_resurrection_fixture` as the next nonduplicative route:
+  a generated-UV / dynamical-background stress test of E139's resurrection
+  trigger, not a replay of RUN-0050. No claim movement.
 - `E143-cech-h3-functor-negative-half-2026-07-04.md`
   executes the remaining posture-panel Cech/H3 negative-half route. The finite
   SBP parity Cech witness is preserved as formal residue, but the executable

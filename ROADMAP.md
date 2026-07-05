@@ -51,6 +51,13 @@ rule, no GU/H3 bridge follows without an extra comparison theorem, and no C3
 spacelike/correspondence geometry is derived. Preselected comparison, imported
 geometry, and hidden global transition tables are absorbed. No claim movement.
 
+RUN-0129 update (2026-07-05): W010 reranked the frontier after the
+posture-panel candidates fired. The energy, CelExt, and Cech/H3 branches now
+converge back on D-FORK. The selected next trigger is
+`d_fork_generated_uv_resurrection_fixture`: a nonduplicative physical /
+dynamical-background stress test of E139's resurrection trigger, not a replay
+of RUN-0050's formal source-threshold fixture. No claim movement.
+
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
 remained speculative after that pass.

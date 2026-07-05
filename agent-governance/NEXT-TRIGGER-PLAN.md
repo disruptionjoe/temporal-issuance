@@ -3,11 +3,50 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0128
+updated_by_run: RUN-0129
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-05: W010 frontier selection after posture-panel candidates (RUN-0129)
+
+Reran W010 after Landauer, CelExt steps 1-6, and Cech H3 negative-half all fired.
+
+Primary artifact:
+`explorations/E144-frontier-selection-after-posture-panel-candidates-2026-07-05.md`.
+
+Verdict:
+
+```yaml
+w010_complete: true
+selected_frontier: generated_uv_dynamical_background_D_FORK_fixture
+primary_next_trigger: d_fork_generated_uv_resurrection_fixture
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Reason: the posture-panel branches now converge on D-FORK. The next useful
+move is not a replay of RUN-0050's formal expressiveness-threshold fixture and
+not generic physical scouting. It is the specific E139 resurrection trigger:
+test a toy generated-UV / dynamical-background model under fixed completed
+algebra, access-schedule, decoherence, and E127 singleton-enumerator pressure.
+
+Active next trigger:
+
+```text
+W000 -> d_fork_generated_uv_resurrection_fixture
+```
+
+Minimum contract:
+
+1. State a toy generated-UV or dynamical-background candidate with staged degree-of-freedom formation.
+2. Build the fixed completed algebra / access / decoherence null.
+3. Test whether a new mode or degree of freedom is genuinely not formable at stage n.
+4. Test whether the result factors through fixed completion plus access schedule.
+5. Test whether the whole-family singleton enumerator absorbs the result after the fact.
+6. Preserve no-claim-movement discipline.
 
 ## GATE EXECUTED 2026-07-04: Cech H3 functor negative half (RUN-0128)
 
