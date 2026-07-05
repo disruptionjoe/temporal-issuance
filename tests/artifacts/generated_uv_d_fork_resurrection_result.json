@@ -1,0 +1,54 @@
+{
+  "Issue[S]^physical": false,
+  "TI_C020_reopened": false,
+  "candidate_results": [
+    {
+      "candidate_id": "fixed_uv_cutoff_disclosure",
+      "description": "A fixed UV algebra is progressively disclosed by a changing access window and fixed decoherence law.",
+      "factors_through_fixed_completion_access_decoherence": true,
+      "fixed_decoherence_law": true,
+      "hidden_global_mode_table": false,
+      "imported_law_change": false,
+      "new_mode_not_formable_at_stage_n": false,
+      "reason": "Every recorded mode is already in the fixed completed UV algebra; growth is aperture disclosure, not source-side issuance.",
+      "singleton_enumerator_absorbs_whole_family": true,
+      "verdict": "ABSORBED_FIXED_COMPLETION_ACCESS"
+    },
+    {
+      "candidate_id": "dynamical_diagonal_uv_modes",
+      "description": "Each stage forms a UV mode label by diagonalizing the present stage context, modeling staged degree-of-freedom formation.",
+      "factors_through_fixed_completion_access_decoherence": false,
+      "fixed_decoherence_law": true,
+      "hidden_global_mode_table": false,
+      "imported_law_change": false,
+      "new_mode_not_formable_at_stage_n": true,
+      "reason": "The diagonal mode is fresh relative to each finite prefix context, but the realized whole family is absorbed by an after-the-fact singleton enumerator. This matches OnlineIssuance^LC, not a new physical surplus.",
+      "singleton_enumerator_absorbs_whole_family": true,
+      "verdict": "CLASS_RELATIVE_ONLY_SINGLETON_ABSORBED"
+    },
+    {
+      "candidate_id": "imported_dynamical_law_change",
+      "description": "A modeler supplies a new stage law or hidden global table that declares future UV modes available.",
+      "factors_through_fixed_completion_access_decoherence": true,
+      "fixed_decoherence_law": false,
+      "hidden_global_mode_table": true,
+      "imported_law_change": true,
+      "new_mode_not_formable_at_stage_n": false,
+      "reason": "The new mode table or law is supplied from outside the stage-local source. It is an absorber/control, not a generated source witness.",
+      "singleton_enumerator_absorbs_whole_family": true,
+      "verdict": "REJECTED_AS_IMPORTED_STRUCTURE"
+    }
+  ],
+  "claim_status_change": "none",
+  "finite_fixed_completion_absorbs_dynamical_candidate": false,
+  "finite_prefix_generated_uv_freshness_survives": true,
+  "fixed_completed_algebra_access_decoherence_null_built": true,
+  "fixture_id": "d_fork_generated_uv_resurrection_fixture",
+  "kind": "toy_discriminator_not_physics_simulation",
+  "new_physical_surplus_over_formal_residue": false,
+  "next_trigger": "compact_no_worthy_work_until_gate_changes",
+  "physical_frontier_status": "still_reduces_to_D_FORK_class_relative_residue",
+  "stages": 6,
+  "unexpected_positive_candidates": [],
+  "whole_family_singleton_absorbs_dynamical_candidate": true
+}

@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E145-generated-uv-d-fork-resurrection-fixture-2026-07-05.md`
+  executes the D-FORK generated-UV / dynamical-background resurrection trigger
+  selected by E144. A fixed UV cutoff is absorbed as access disclosure; a
+  staged diagonal UV candidate survives finite-prefix freshness but is absorbed
+  whole-family by the after-the-fact singleton enumerator; imported law/table
+  controls are rejected. No `TI-C020` reopen and no claim movement.
 - `E144-frontier-selection-after-posture-panel-candidates-2026-07-05.md`
   executes W010 after Landauer, CelExt steps 1-6, and Cech H3 negative-half
   have fired. It ranks D-FORK as the convergent pressure point and selects

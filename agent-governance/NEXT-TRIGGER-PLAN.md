@@ -3,11 +3,59 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0129
+updated_by_run: RUN-0130
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-05: generated-UV D-FORK resurrection fixture (RUN-0130)
+
+Fired the selected D-FORK physical/dynamical-background route from RUN-0129:
+`d_fork_generated_uv_resurrection_fixture`.
+
+Primary artifact:
+`explorations/E145-generated-uv-d-fork-resurrection-fixture-2026-07-05.md`.
+
+Executable artifacts:
+
+```text
+tools/generated_uv_d_fork_resurrection_fixture.py
+tests/test_generated_uv_d_fork_resurrection_fixture.py
+tests/artifacts/generated_uv_d_fork_resurrection_result.json
+```
+
+Verdict:
+
+```yaml
+fixture_complete: true
+finite_prefix_generated_uv_freshness_survives: true
+finite_fixed_completion_absorbs_dynamical_candidate: false
+whole_family_singleton_absorbs_dynamical_candidate: true
+new_physical_surplus_over_formal_residue: false
+physical_frontier_status: still_reduces_to_D_FORK_class_relative_residue
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Key result: the generated-UV diagonal candidate survives finite-prefix freshness
+but is absorbed whole-family by the after-the-fact singleton enumerator. A fixed
+UV cutoff is ordinary access disclosure, and imported law/table controls are
+external structure. The physical bridge remains parked; no claim movement.
+
+Active next trigger:
+
+```text
+W000 -> compact_no_worthy_work_until_gate_changes
+```
+
+Material work should resume only if one of these activation conditions appears:
+
+1. an internally specified physical model that blocks singleton after-naming without importing a hidden global table;
+2. a non-agent physical finality-cost model not reducible to Landauer, Bekenstein, or maintenance thermodynamics;
+3. new CelExt/Cech/GU bridge input that supplies missing source-derived structure;
+4. a new TI-C022 protocol trace under the same-assumption divergence trigger.
 
 ## GATE EXECUTED 2026-07-05: W010 frontier selection after posture-panel candidates (RUN-0129)
 

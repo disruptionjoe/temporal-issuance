@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- Generated-UV D-FORK resurrection fixture: `python tests/test_generated_uv_d_fork_resurrection_fixture.py`
 - CelExt celestial-boundary fixture, steps 1-6: `python tests/test_celext_celestial_boundary_fixture.py`
 - Cech H3 functor negative-half fixture: `python tests/test_cech_h3_functor_negative_half.py`
 - H3 Cech/sheaf fixture: `python tests/test_cech_sheaf_fixture.py`
