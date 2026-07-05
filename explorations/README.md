@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E143-cech-h3-functor-negative-half-2026-07-04.md`
+  executes the remaining posture-panel Cech/H3 negative-half route. The finite
+  SBP parity Cech witness is preserved as formal residue, but the executable
+  fixture reaffirms that it does not supply a total `Compat_G^MLTT -> FiltSh(C)`
+  functor, a GU/H3 comparison theorem, or C3 spacelike/correspondence geometry.
+  Preselected comparison, imported geometry, and hidden global transition
+  tables are absorbed as external data. No claim movement.
 - `E142-celext-celestial-boundary-fixture-steps-4-6-2026-07-04.md`
   finishes the E013 CelExt fixture suite. A supertranslation-like action
   preserves identity, admissibility, and additive composition; a toy `Q_f`

@@ -20,6 +20,7 @@ Launch tests:
 Executable fixtures:
 
 - CelExt celestial-boundary fixture, steps 1-6: `python tests/test_celext_celestial_boundary_fixture.py`
+- Cech H3 functor negative-half fixture: `python tests/test_cech_h3_functor_negative_half.py`
 - H3 Cech/sheaf fixture: `python tests/test_cech_sheaf_fixture.py`
 - TI-C022 record-reality typing fixture: `python tests/test_ti_c022_record_reality_typing_fixture.py`
 - Clock-free record-cadence fixture: `python tests/test_clock_free_record_cadence_fixture.py`

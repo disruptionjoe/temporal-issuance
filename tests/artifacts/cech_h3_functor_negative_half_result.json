@@ -1,0 +1,130 @@
+{
+  "attempts": [
+    {
+      "attempt_id": "finite_sbp_parity_subcategory",
+      "description": "RUN-0055 style Phi_par: finite cover, localization, and SBP parity functional preserve the E054 flat Z/2 witness.",
+      "external_stipulations": [],
+      "facts": {
+        "c3_geometry_model": false,
+        "cover_localization_rule": true,
+        "h3_comparison_theorem": false,
+        "non_parity_extension_rule": false,
+        "parity_functional": true
+      },
+      "hidden_global_table": false,
+      "missing_full_bridge_requirements": [
+        "non_parity_extension_rule",
+        "h3_comparison_theorem",
+        "c3_geometry_model"
+      ],
+      "missing_total_functor_requirements": [
+        "non_parity_extension_rule"
+      ],
+      "passes_negative_half": true,
+      "reason": "The attempt lacks data needed to extend Phi_par beyond the finite SBP-parity subcategory.",
+      "verdict": "NO_CANONICAL_TOTAL_FUNCTOR"
+    },
+    {
+      "attempt_id": "all_compat_without_non_parity_rule",
+      "description": "Attempt to extend Compat_G^MLTT to all morphisms while only carrying the finite parity rule.",
+      "external_stipulations": [],
+      "facts": {
+        "c3_geometry_model": false,
+        "cover_localization_rule": true,
+        "h3_comparison_theorem": false,
+        "non_parity_extension_rule": false,
+        "parity_functional": true
+      },
+      "hidden_global_table": false,
+      "missing_full_bridge_requirements": [
+        "non_parity_extension_rule",
+        "h3_comparison_theorem",
+        "c3_geometry_model"
+      ],
+      "missing_total_functor_requirements": [
+        "non_parity_extension_rule"
+      ],
+      "passes_negative_half": true,
+      "reason": "The attempt lacks data needed to extend Phi_par beyond the finite SBP-parity subcategory.",
+      "verdict": "NO_CANONICAL_TOTAL_FUNCTOR"
+    },
+    {
+      "attempt_id": "preselected_h3_comparison",
+      "description": "Attach a comparison from the finite Z/2 class to the intended GU/H3 object as input rather than as a source-derived theorem.",
+      "external_stipulations": [
+        "preselected_h3_comparison_theorem"
+      ],
+      "facts": {
+        "c3_geometry_model": false,
+        "cover_localization_rule": true,
+        "h3_comparison_theorem": true,
+        "non_parity_extension_rule": false,
+        "parity_functional": true
+      },
+      "hidden_global_table": false,
+      "missing_full_bridge_requirements": [
+        "non_parity_extension_rule",
+        "c3_geometry_model"
+      ],
+      "missing_total_functor_requirements": [
+        "non_parity_extension_rule"
+      ],
+      "passes_negative_half": true,
+      "reason": "The bridge exists only by imported comparison, geometry, or hidden global table data, so it cannot count as source-derived from the finite parity witness.",
+      "verdict": "STIPULATED_OR_HIDDEN_BRIDGE"
+    },
+    {
+      "attempt_id": "imported_c3_geometry",
+      "description": "Supply spacelike/correspondence geometry independently of the finite Cech witness.",
+      "external_stipulations": [
+        "independent_spacelike_geometry_model"
+      ],
+      "facts": {
+        "c3_geometry_model": true,
+        "cover_localization_rule": true,
+        "h3_comparison_theorem": false,
+        "non_parity_extension_rule": false,
+        "parity_functional": true
+      },
+      "hidden_global_table": false,
+      "missing_full_bridge_requirements": [
+        "non_parity_extension_rule",
+        "h3_comparison_theorem"
+      ],
+      "missing_total_functor_requirements": [
+        "non_parity_extension_rule"
+      ],
+      "passes_negative_half": true,
+      "reason": "The bridge exists only by imported comparison, geometry, or hidden global table data, so it cannot count as source-derived from the finite parity witness.",
+      "verdict": "STIPULATED_OR_HIDDEN_BRIDGE"
+    },
+    {
+      "attempt_id": "hidden_global_transition_table",
+      "description": "Use a completed future table of transitions to force totality over future schema states.",
+      "external_stipulations": [],
+      "facts": {
+        "c3_geometry_model": true,
+        "cover_localization_rule": true,
+        "h3_comparison_theorem": true,
+        "non_parity_extension_rule": true,
+        "parity_functional": true
+      },
+      "hidden_global_table": true,
+      "missing_full_bridge_requirements": [],
+      "missing_total_functor_requirements": [],
+      "passes_negative_half": true,
+      "reason": "The bridge exists only by imported comparison, geometry, or hidden global table data, so it cannot count as source-derived from the finite parity witness.",
+      "verdict": "STIPULATED_OR_HIDDEN_BRIDGE"
+    }
+  ],
+  "c3_geometry_derived": false,
+  "claim_status_change": "none",
+  "finite_cech_parity_residue_preserved": true,
+  "fixture_id": "cech_h3_functor_obl_001_negative_half",
+  "gu_h3_bridge_discharged": false,
+  "negative_half_passed": true,
+  "next_pressure_route": "d_fork_expressiveness_threshold_fixture_or_w010_rerank",
+  "path_kill_reaffirmed": "finite_filtered_Z2_local_system_as_sufficient_full_GU_H3_or_C3_geometry_bridge",
+  "total_compat_g_mltt_functor_constructed": false,
+  "unexpected_positive_attempts": []
+}

@@ -43,6 +43,14 @@ internal boundary fixture; current TI primitives still do not derive BMS,
 boundary current/action structure, celestial holography, or physics. No claim
 movement.
 
+RUN-0128 update (2026-07-04): the Cech H3 / FUNCTOR-OBL negative-half route is
+now executable. The finite SBP parity Cech witness remains formal residue, but
+the fixture reaffirms the larger bridge failure: no total
+`Compat_G^MLTT -> FiltSh(C)` functor follows without a non-parity extension
+rule, no GU/H3 bridge follows without an extra comparison theorem, and no C3
+spacelike/correspondence geometry is derived. Preselected comparison, imported
+geometry, and hidden global transition tables are absorbed. No claim movement.
+
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
 remained speculative after that pass.
