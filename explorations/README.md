@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E146-mannheim-conformal-gravity-exterior-sourcing-intake-2026-07-06.md`
+  light external intake from Mannheim's conformal-gravity TOE episode: fourth-order
+  interiors are underdetermined by local matter and the deficit is filled by
+  exterior/cosmological data — a disclosure-flavored, mainstream-adjacent instance
+  of the tri-repo boundary residue. Stress-test/calibration grade only; no claim
+  movement. Sibling intakes in gu-formalization and time-as-finality.
 - `E145-generated-uv-d-fork-resurrection-fixture-2026-07-05.md`
   executes the D-FORK generated-UV / dynamical-background resurrection trigger
   selected by E144. A fixed UV cutoff is absorbed as access disclosure; a
