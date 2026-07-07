@@ -20,6 +20,24 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E149-physical-candidates-state-space-growth-intake-2026-07-07.md`
+  external deep-research survey scouting current physical systems against the
+  physical gate (`Adapter_P` / W1–W6 + the E145 after-naming ceiling). Verdict:
+  negative — nothing currently passes. Best empirical near-miss is native CRISPR
+  spacer acquisition; sharpest negative control is dynamic/Floquet quantum codes;
+  crossed-product gravitational algebras are the closest "algebra growth" language
+  but read as bookkeeping under the hostile question. Supplies no candidate meeting
+  the NEXT-TRIGGER-PLAN reactivation condition, so the physical frontier stays
+  parked. TI-C020 unchanged; no claim movement. Raw report under
+  `external-reports/`; recommendations treated as evidence, not directives.
+- `E148-adversarial-review-onlineissuance-lc-intake-2026-07-07.md`
+  external hostile-referee review of the Lean `OnlineIssuance^LC` artifact.
+  Verdict: "correct but a repackaging of known results" — a sound, narrow,
+  class-relative finite-prefix theorem that does not defeat external Platonist
+  completion, reopen strict c.e. escape, or earn a physical claim. Converges with
+  the internal E134 review and confirms the E132/E138 scope limits from an outside
+  eye; sharpens prior art (Post/Myhill productivity, not Kleene). No claim movement.
+  Raw report under `external-reports/`.
 - `E147-governance-of-issuance-infinite-game-2026-07-07.md`
   records Joe's governance-of-issuance / infinite-game ladder as pointer-grade
   cross-repo intake. It keeps each rung home-governed, names the
