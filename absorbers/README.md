@@ -23,6 +23,10 @@ See `absorbers/gap-map.md` for the current minimum absorber gaps that matter bef
 
 See `absorbers/primary-source-readiness.md` for source anchors and source gaps before claim upgrades or component kills.
 
+See `absorbers/active-inference-free-energy.md` for the active-inference /
+variational-free-energy absorber candidate against issuance as novelty. It is
+pointer-grade intake and a kill test, not support.
+
 See `absorbers/bayesian-nonparametrics.md` for the PP-3 absorber where new observed latent
 types arise from a fixed hyperprior or process class.
 

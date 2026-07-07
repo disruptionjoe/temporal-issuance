@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E147-governance-of-issuance-infinite-game-2026-07-07.md`
+  records Joe's governance-of-issuance / infinite-game ladder as pointer-grade
+  cross-repo intake. It keeps each rung home-governed, names the
+  active-inference/free-energy absorber as the first kill test, and preserves
+  the cosmological issuance / legitimacy composition as hypothesis-grade only.
+  No claim movement.
 - `E146-mannheim-conformal-gravity-exterior-sourcing-intake-2026-07-06.md`
   light external intake from Mannheim's conformal-gravity TOE episode: fourth-order
   interiors are underdetermined by local matter and the deficit is filled by
