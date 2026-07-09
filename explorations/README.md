@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E151-boundary-polarity-adapter-intake-2026-07-09.md`
+  processes the boundary-polarity and persona-panel mailbox proposals as
+  D-FORK adapter intake. It does not reopen `TI-C020` or add a physical
+  candidate; it sharpens the selected `scoped_d_fork_adapter_no_go_preflight`
+  route by requiring any cross-repo boundary adapter to distinguish source
+  crossing from fixed-source disclosure, hidden completion, and
+  observer-readout/finality effects. No claim movement.
 - `E150-d-fork-adapter-no-go-synthesis-2026-07-09.md`
   processes the 2026-07-09 profound-cracks mailbox synthesis as evidence, not
   instruction. It finds no new physical candidate and no `TI-C020` reopen, but
