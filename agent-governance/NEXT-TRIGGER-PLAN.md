@@ -3,11 +3,50 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0130
+updated_by_run: RUN-0131
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE ASSESSED 2026-07-09: D-FORK adapter no-go synthesis (RUN-0131)
+
+Processed the 2026-07-09 profound-cracks synthesis as evidence, not instruction.
+Primary artifact:
+`explorations/E150-d-fork-adapter-no-go-synthesis-2026-07-09.md`.
+
+Verdict:
+
+```yaml
+synthesis_complete: true
+new_physical_candidate_found: false
+TI_C020_reopened: false
+claim_status_change: none
+active_trigger_changed: true
+```
+
+The synthesis does not satisfy a physical resurrection trigger. It does make
+one nonduplicative internal route worthy: preflight whether the convergent
+Adapter_P pattern can be stated as a scoped no-go theorem rather than another
+candidate scout.
+
+Active next trigger:
+
+```text
+W000 -> scoped_d_fork_adapter_no_go_preflight
+```
+
+Minimum contract:
+
+1. Define the narrow candidate class, such as fixed-completion-plus-access
+   Adapter_P traces.
+2. State the three terminal classes: fixed-source disclosure, class-relative
+   formal residue, and imported-structure rejection.
+3. Decide whether the next artifact should be prose/formal, executable
+   classifier, Lean, or a small Python model.
+4. Preserve no claim movement and no physical-source reopen.
+5. If the class cannot be stated without overclaiming, restore
+   `compact_no_worthy_work_until_gate_changes`.
 
 ## GATE EXECUTED 2026-07-05: generated-UV D-FORK resurrection fixture (RUN-0130)
 

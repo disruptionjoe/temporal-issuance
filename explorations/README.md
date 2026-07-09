@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E150-d-fork-adapter-no-go-synthesis-2026-07-09.md`
+  processes the 2026-07-09 profound-cracks mailbox synthesis as evidence, not
+  instruction. It finds no new physical candidate and no `TI-C020` reopen, but
+  identifies a worthy nonduplicative route: preflight a scoped Adapter_P no-go
+  theorem over fixed-completion-plus-access traces. No claim movement; active
+  trigger changes to `scoped_d_fork_adapter_no_go_preflight`.
 - `E149-physical-candidates-state-space-growth-intake-2026-07-07.md`
   external deep-research survey scouting current physical systems against the
   physical gate (`Adapter_P` / W1–W6 + the E145 after-naming ceiling). Verdict:

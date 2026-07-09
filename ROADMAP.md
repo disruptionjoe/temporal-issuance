@@ -67,6 +67,13 @@ Imported law/table controls are rejected as external structure. No claim
 movement. Current automation-safe next state is compact no-worthy-work until a
 gate-changing model or trace appears.
 
+RUN-0131 update (2026-07-09): the profound-cracks synthesis was processed as
+evidence, not instruction. It supplied no new physical candidate and did not
+reopen `TI-C020`, but it made a scoped internal route worthy: preflight whether
+the convergent `Adapter_P` pattern can be stated as a bounded D-FORK no-go
+schema over fixed-completion-plus-access traces. No claim movement. Current
+next trigger is `scoped_d_fork_adapter_no_go_preflight`.
+
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
 remained speculative after that pass.
