@@ -1,0 +1,66 @@
+{
+  "TI_C020_reopened": false,
+  "activation_condition": "Resume material work only if a concrete Adapter_P trace fills the potential-counterexample shape with an internal anti-after-naming principle, or if a sharper theorem target is supplied.",
+  "all_terminal_classes_exercised": true,
+  "boundary_polarity_separated": true,
+  "candidate_class": "record-preserving Adapter_P traces with fixed-completion/access, finite-prefix freshness, singleton after-naming, and imported structure explicitly represented",
+  "claim_status_change": "none",
+  "classifications": [
+    {
+      "candidate_id": "fixed_completion_access_trace",
+      "reason": "The record can be modeled as fixed completed source plus access, readout, finality, schedule, or withholding. No W1-W3 source growth witness is doing work.",
+      "terminal": true,
+      "terminal_class": "FIXED_SOURCE_DISCLOSURE"
+    },
+    {
+      "candidate_id": "generated_uv_singleton_absorbed",
+      "reason": "Finite-prefix freshness survives, but the realized whole family is absorbed by after-the-fact singleton enumeration.",
+      "terminal": true,
+      "terminal_class": "CLASS_RELATIVE_FORMAL_RESIDUE"
+    },
+    {
+      "candidate_id": "imported_boundary_category",
+      "reason": "The candidate wins by importing a global table, external law, boundary category, or neighbor-repo datum without a TI-side source-crossing preservation map.",
+      "terminal": true,
+      "terminal_class": "IMPORTED_STRUCTURE_REJECTION"
+    },
+    {
+      "candidate_id": "taf_denied_readout_only",
+      "reason": "The record can be modeled as fixed completed source plus access, readout, finality, schedule, or withholding. No W1-W3 source growth witness is doing work.",
+      "terminal": true,
+      "terminal_class": "FIXED_SOURCE_DISCLOSURE"
+    },
+    {
+      "candidate_id": "gu_boundary_supply_without_ti_map",
+      "reason": "The candidate wins by importing a global table, external law, boundary category, or neighbor-repo datum without a TI-side source-crossing preservation map.",
+      "terminal": true,
+      "terminal_class": "IMPORTED_STRUCTURE_REJECTION"
+    },
+    {
+      "candidate_id": "anti_after_naming_positive_shape",
+      "reason": "This shape is not absorbed by the scoped terminal classes. A real physical instance would need a dedicated fixture before any claim or frontier movement.",
+      "terminal": false,
+      "terminal_class": "POTENTIAL_COUNTEREXAMPLE_REQUIRES_FULL_FIXTURE"
+    }
+  ],
+  "fixture_id": "adapter_p_no_go_preflight",
+  "kind": "scoped_classifier_not_physics_theorem",
+  "lean_target_ready": false,
+  "next_trigger": "compact_no_worthy_work_until_gate_changes",
+  "nonterminal_cases": [
+    "anti_after_naming_positive_shape"
+  ],
+  "real_counterexample_found": false,
+  "selected_proof_target": "small_python_classifier_then_counterexample_fixture",
+  "terminal_classes": [
+    "CLASS_RELATIVE_FORMAL_RESIDUE",
+    "FIXED_SOURCE_DISCLOSURE",
+    "IMPORTED_STRUCTURE_REJECTION"
+  ],
+  "terminal_classes_seen": [
+    "CLASS_RELATIVE_FORMAL_RESIDUE",
+    "FIXED_SOURCE_DISCLOSURE",
+    "IMPORTED_STRUCTURE_REJECTION"
+  ],
+  "theorem_ready": false
+}

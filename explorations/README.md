@@ -20,6 +20,15 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E152-adapter-p-no-go-preflight-2026-07-09.md`
+  executes the selected `scoped_d_fork_adapter_no_go_preflight` route. It defines
+  a narrow record-preserving Adapter_P trace class, adds a small executable
+  classifier, exercises fixed-source disclosure / class-relative formal residue /
+  imported-structure rejection, and separates TaF denied-readout language from GU
+  boundary-supply language and a true TI source-crossing positive shape. No real
+  counterexample is supplied, Lean theorem work is premature, `TI-C020` stays
+  parked, and the active trigger returns to compact no-worthy-work until a
+  concrete anti-after-naming Adapter_P trace or sharper theorem target appears.
 - `E151-boundary-polarity-adapter-intake-2026-07-09.md`
   processes the boundary-polarity and persona-panel mailbox proposals as
   D-FORK adapter intake. It does not reopen `TI-C020` or add a physical

@@ -74,6 +74,16 @@ the convergent `Adapter_P` pattern can be stated as a bounded D-FORK no-go
 schema over fixed-completion-plus-access traces. No claim movement. Current
 next trigger is `scoped_d_fork_adapter_no_go_preflight`.
 
+RUN-0132 update (2026-07-09): the scoped D-FORK Adapter_P no-go preflight is
+now executable. The preflight defines a narrow record-preserving Adapter_P
+trace class, exercises the three terminal classes (fixed-source disclosure,
+class-relative formal residue, imported-structure rejection), and cleanly
+separates TaF denied-readout language, GU boundary-supply language, and a true
+TI source-crossing positive shape. No real counterexample is supplied, Lean
+theorem work is premature, `TI-C020` remains parked, and the active next state
+returns to compact no-worthy-work until a concrete anti-after-naming Adapter_P
+trace or sharper theorem target appears. No claim movement.
+
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
 remained speculative after that pass.

@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- Adapter_P no-go preflight classifier: `python tests/test_adapter_p_no_go_preflight.py`
 - Generated-UV D-FORK resurrection fixture: `python tests/test_generated_uv_d_fork_resurrection_fixture.py`
 - CelExt celestial-boundary fixture, steps 1-6: `python tests/test_celext_celestial_boundary_fixture.py`
 - Cech H3 functor negative-half fixture: `python tests/test_cech_h3_functor_negative_half.py`

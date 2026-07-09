@@ -3,11 +3,62 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0131
+updated_by_run: RUN-0132
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-09: Scoped D-FORK Adapter no-go preflight (RUN-0132)
+
+Executed the active trigger:
+
+```text
+W000 -> scoped_d_fork_adapter_no_go_preflight
+```
+
+Primary artifact:
+`explorations/E152-adapter-p-no-go-preflight-2026-07-09.md`.
+
+Executable artifacts:
+
+```text
+tools/adapter_p_no_go_preflight.py
+tests/test_adapter_p_no_go_preflight.py
+tests/artifacts/adapter_p_no_go_preflight_result.json
+```
+
+Verdict:
+
+```yaml
+preflight_complete: true
+candidate_class_stateable: true
+terminal_classes_exercised: true
+boundary_polarity_separated: true
+real_counterexample_found: false
+theorem_ready: false
+selected_proof_target: small_python_classifier_then_counterexample_fixture
+lean_target_ready: false
+TI_C020_reopened: false
+claim_status_change: none
+```
+
+Key result: the current Adapter_P convergence pattern is precise enough for a small executable
+classifier, not yet for a broad prose/Lean no-go theorem. Denied readout/finality alone
+classifies as fixed-source disclosure; GU boundary supply without a TI preservation map
+classifies as imported-structure rejection; only a source-growth trace with an internal
+anti-after-naming principle escapes the scoped terminal classes, and no real instance was
+supplied.
+
+Active next trigger:
+
+```text
+W000 -> compact_no_worthy_work_until_gate_changes
+```
+
+Material work should resume only if a concrete Adapter_P trace fills the
+potential-counterexample shape with an internal anti-after-naming principle, or if a sharper
+theorem target is supplied.
 
 ## GATE ASSESSED 2026-07-09: D-FORK adapter no-go synthesis (RUN-0131)
 
