@@ -97,4 +97,3 @@ opportunity use as source-side evidence. A successful rebound explanation should
 narrow the candidate to observer-side access, resource accounting, or finality
 bookkeeping. It should not move claim status, public posture, or the core
 hypothesis.
-
