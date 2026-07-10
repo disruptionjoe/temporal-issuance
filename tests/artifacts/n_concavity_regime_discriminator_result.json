@@ -1,0 +1,85 @@
+{
+  "claim_status_change": "none",
+  "curvature_separates_regimes": true,
+  "fixture_id": "n_concavity_regime_discriminator",
+  "fts_regime": {
+    "all_concave": true,
+    "declines": true,
+    "second_differences": [
+      -0.001831501831501825,
+      -0.002331002331002363,
+      -0.00303030303030305,
+      -0.004040404040404066,
+      -0.005555555555555536,
+      -0.007936507936507908,
+      -0.011904761904761973,
+      -0.01904761904761898,
+      -0.033333333333333326,
+      -0.06666666666666676
+    ],
+    "series": [
+      0.8571428571428571,
+      0.8461538461538461,
+      0.8333333333333334,
+      0.8181818181818182,
+      0.8,
+      0.7777777777777778,
+      0.75,
+      0.7142857142857143,
+      0.6666666666666666,
+      0.6,
+      0.5,
+      0.3333333333333333
+    ],
+    "sustained": false
+  },
+  "fts_shows_concave_depleting_signature": true,
+  "godelian_regime": {
+    "all_concave": true,
+    "declines": false,
+    "second_differences": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "series": [
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.8571428571428571
+    ],
+    "sustained": true
+  },
+  "godelian_shows_sustained_non_depleting_signature": true,
+  "honest_scope": "Finite-window curvature is a legitimate regime SIGNATURE, not an oracle. E042 proved the true FTS/Godelian bit is non-computable in general; this fixture only shows N's curvature matches theory within each declared regime.",
+  "interior_optimum": {
+    "fts": "exists (concave N -> 0, recovers E041 Theorem 2)",
+    "godelian": "not forced (sustained N, recovers E041 Prop 2)"
+  },
+  "kind": "finite_window_curvature_diagnostic_not_a_decision_procedure",
+  "obligation": "E031 II.1 conditional: N concavity vs Godelian sustained novelty",
+  "obligation_discharged": true,
+  "resolution": "curvature_is_a_regime_signature_consistent_with_E041_E042",
+  "ties_to": [
+    "TI-C019",
+    "TI-C021",
+    "D-FORK (E042)",
+    "E041 interior optimum"
+  ],
+  "verdict": "N's curvature cleanly separates the two D-FORK regimes: concave and depleting in FTS (interior optimum exists), sustained and non-depleting in the Godelian regime (no forced optimum). This ties the abandoned N-functor work (E031) to the live central fork (E042 D-FORK) with an executable diagnostic, without claiming to decide the non-computable structural bit."
+}

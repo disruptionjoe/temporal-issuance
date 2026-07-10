@@ -19,6 +19,10 @@ Launch tests:
 
 Executable fixtures:
 
+- FUNCTOR-OBL-001 N-naturality fixture: `python tests/test_functor_obl_001_n_naturality.py`
+- Q-OBL-001 quorum-validity grounding fixture: `python tests/test_q_obl_001_quorum_validity_grounding.py`
+- Compat-Comm extension-confluence fixture: `python tests/test_compat_comm_extension_confluence.py`
+- N-concavity regime-signature fixture: `python tests/test_n_concavity_regime_discriminator.py`
 - Adapter_P no-go preflight classifier: `python tests/test_adapter_p_no_go_preflight.py`
 - Generated-UV D-FORK resurrection fixture: `python tests/test_generated_uv_d_fork_resurrection_fixture.py`
 - CelExt celestial-boundary fixture, steps 1-6: `python tests/test_celext_celestial_boundary_fixture.py`

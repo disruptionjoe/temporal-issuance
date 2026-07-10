@@ -1,0 +1,49 @@
+{
+  "N_samples": {
+    "S": {
+      "N": 0.75,
+      "d4_hom_count": 6,
+      "hom_count": 8,
+      "present_types": [
+        "alpha"
+      ],
+      "state": "S"
+    },
+    "S_prime": {
+      "N": 0.42857142857142855,
+      "d4_hom_count": 3,
+      "hom_count": 7,
+      "present_types": [
+        "alpha",
+        "beta"
+      ],
+      "state": "S+beta0"
+    }
+  },
+  "claim_status_change": "none",
+  "fixture_id": "functor_obl_001_n_naturality",
+  "gauge_naturality": {
+    "N_at_S": 0.75,
+    "N_at_relabeled_S": 0.75,
+    "holds": true
+  },
+  "kind": "combinatorial_categorical_fixture_not_physics_theorem",
+  "obligation": "FUNCTOR-OBL-001 (N naturality, E031 Part V item 2)",
+  "obligation_discharged": true,
+  "resolution": "negative_for_strict_naturality_positive_for_gauge_naturality",
+  "strict_naturality": {
+    "N_after_e_alpha": 0.8571428571428571,
+    "N_after_e_beta": 0.42857142857142855,
+    "beta_move_is_d4_at_S": true,
+    "beta_move_is_d4_at_S_prime": false,
+    "d4_predicate_preserved_along_morphism": false,
+    "holds": false,
+    "transport_law_well_defined": false
+  },
+  "ties_to": [
+    "TI-C019",
+    "D-FORK (E042)",
+    "GAUGE-COV-OBL-001 (E049)"
+  ],
+  "verdict": "N is NOT a strict natural transformation over Ext_S. The obstruction is state-relative type-novelty: the D4 predicate defining N's numerator is not preserved along extension morphisms (a type novel at S is non-novel at S'). N IS gauge-natural (invariant under type-name relabeling, E049). The non-naturality is the categorical signature of issuance vs disclosure: a strictly natural novelty rate would make novelty a fixed global invariant, i.e. the fixed-source picture."
+}

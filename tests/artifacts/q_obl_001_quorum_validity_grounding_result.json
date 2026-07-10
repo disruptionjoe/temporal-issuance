@@ -1,0 +1,84 @@
+{
+  "claim_status_change": "none",
+  "fixture_id": "q_obl_001_quorum_validity_grounding",
+  "godelian_residue": {
+    "global_option_map_computable": false,
+    "note": "Q per realized morphism is a finite vote ratio and is fully grounded. Only the global option-space map is non-computable in the Godelian regime (E042), which is non-constructiveness, not circularity.",
+    "per_realized_morphism_Q_finite": true
+  },
+  "kind": "multi_observer_stratified_fixture_not_physics_theorem",
+  "non_circularity": {
+    "A_Sn_references_Q": false,
+    "Q_reads_only_history_fixed_A": true,
+    "dependency_is_dag_over_stages": true,
+    "holds": true,
+    "recompute_matches": true
+  },
+  "obligation": "Q-OBL-001 (Q grounding circularity avoidance, E031 Part V item 5)",
+  "obligation_discharged": true,
+  "resolution": "grounded_by_stratification_residue_is_non_constructiveness_not_circularity",
+  "stages": [
+    {
+      "A_Sn": [],
+      "Q": -0.0,
+      "Q_recomputed_from_frozen_A": -0.0,
+      "acceptance_ratio": 1.0,
+      "accepted": true,
+      "morphism": [
+        "alpha",
+        0
+      ],
+      "stage": 0
+    },
+    {
+      "A_Sn": [
+        [
+          "alpha",
+          0
+        ]
+      ],
+      "Q": -0.0,
+      "Q_recomputed_from_frozen_A": -0.0,
+      "acceptance_ratio": 1.0,
+      "accepted": true,
+      "morphism": [
+        "beta",
+        0
+      ],
+      "stage": 1
+    },
+    {
+      "A_Sn": [
+        [
+          "alpha",
+          0
+        ],
+        [
+          "beta",
+          0
+        ]
+      ],
+      "Q": 0.2231435513142097,
+      "Q_recomputed_from_frozen_A": 0.2231435513142097,
+      "acceptance_ratio": 0.8,
+      "accepted": true,
+      "morphism": [
+        "gamma",
+        0
+      ],
+      "stage": 2
+    }
+  ],
+  "ties_to": [
+    "TI-C019",
+    "Ostrom witness (E040)",
+    "D-FORK productivity (E042)"
+  ],
+  "valuation": {
+    "additive_under_independence": true,
+    "codomain": "[0, inf], additive",
+    "correlation_correction": 0.13613217432458002,
+    "sub_additive_under_correlation": true
+  },
+  "verdict": "Q-OBL-001 DISCHARGED. Q is grounded non-circularly by stage stratification: A_{S_n} is history-fixed and never references Q, so Q(e) is a well-founded function of A_{S_n} and the observers' acceptance rule. Q is a valid morphism invariant into ([0, inf], +), additive under independent acceptance with an exhibited sub-additive correction under correlation. The only residue is that the global option map is non-computable in the Godelian regime, not circular."
+}

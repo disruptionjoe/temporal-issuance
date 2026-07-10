@@ -84,6 +84,21 @@ theorem work is premature, `TI-C020` remains parked, and the active next state
 returns to compact no-worthy-work until a concrete anti-after-naming Adapter_P
 trace or sharper theorem target appears. No claim movement.
 
+RUN-0133..0137 update (2026-07-09): with the physical branch legitimately parked,
+executed the source-formal obligations E058 carried forward as
+`FUNCTOR_OBL_001_Q_OBL_001_filtered_source_functor` and never fired. FUNCTOR-OBL-001
+(E153): N is not a strict natural transformation (state-relative type-novelty is the
+obstruction and the issuance-vs-disclosure signature); N is gauge-natural. Q-OBL-001
+(E154): Q grounded non-circularly by stage stratification; residue is
+non-constructiveness over the productive option set. Compat-Comm (E155): holds off the
+fork locus, fails exactly on the SBP fork set (Ext_S associative always, commutative off
+SBP(S)). N-concavity conditional (E156): curvature separates FTS/Godelian as a signature,
+not a decision procedure. Synthesis (E157): the source-formal layer is now
+obligation-complete; the sole remaining fork is the parked operative-source (Godelian vs
+FTS) question, which E042 proves decides TI-C019 and proves non-computable. Four
+executable fixtures + tests added (suite 122 passing). No claim movement, no promotion,
+physical branch untouched and still parked.
+
 RUN-0039 completed the first issuance-precision pass. The kill condition was not triggered:
 a surviving discriminator (D4) separates issuance from all four named competitors. TI-C019
 remained speculative after that pass.

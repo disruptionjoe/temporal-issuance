@@ -3,11 +3,59 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0132
+updated_by_run: RUN-0137
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## GATE EXECUTED 2026-07-09: Source-formal obligation closure (RUN-0133..0137)
+
+With the physical `Adapter_P` branch legitimately parked
+(`compact_no_worthy_work_until_gate_changes`, RUN-0132), executed the source-formal obligations
+E058 carried forward as `FUNCTOR_OBL_001_Q_OBL_001_filtered_source_functor` and never fired.
+These do not depend on the parked physical gate.
+
+Primary artifacts:
+`explorations/E153..E157-*.md`.
+
+Executable artifacts (four fixtures + tests + JSON, full suite 122 passing):
+
+```text
+tools/functor_obl_001_n_naturality.py
+tools/q_obl_001_quorum_validity_grounding.py
+tools/compat_comm_extension_confluence.py
+tools/n_concavity_regime_discriminator.py
+```
+
+Verdict:
+
+```yaml
+FUNCTOR_OBL_001: discharged   # N not strictly natural (state-relative novelty); gauge-natural
+Q_OBL_001: discharged         # grounded by stage stratification; residue non-constructive
+Compat_Comm: resolved         # holds off fork locus; non-commutativity = SBP fork set
+N_concavity_conditional: resolved_as_regime_signature   # not a decision procedure
+source_formal_layer: obligation_complete_at_this_time
+claim_status_change: none
+promotion: none
+sole_open_fork: operative_source_godelian_vs_fts (parked physical question)
+```
+
+Key result: the source-formal architecture cleanly separates issuance from disclosure and its
+obligations are now discharged, but this does not promote TI-C019. The deciding bit
+(operative-source Godelian vs FTS) is proved non-computable (E042) and can only be pinned at the
+parked source/physical layer.
+
+Active next trigger:
+
+```text
+W000 -> compact_no_worthy_work_until_gate_changes
+```
+
+Resume material work only if: (a) a concrete operative-source model pins the Godelian/FTS bit
+without a hidden global table; (b) a concrete Adapter_P trace fills the E152
+potential-counterexample shape; or (c) a NEW source-formal obligation not on the now-closed list
+appears.
 
 ## GATE EXECUTED 2026-07-09: Scoped D-FORK Adapter no-go preflight (RUN-0132)
 

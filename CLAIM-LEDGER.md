@@ -1413,3 +1413,43 @@ TI-C020:
     The OnlineIssuance sequence is formal only. It supplies no H-growing/A-growing physical
     witness and does not move the physical-source claim.
 ```
+
+## RUN-0133..0137 Source-Formal Obligation Discharge (2026-07-09)
+
+Obligation-tracking note only. No status move, no promotion. These are the source-formal
+obligations E058 carried forward as `FUNCTOR_OBL_001_Q_OBL_001_filtered_source_functor` and left
+unexecuted when the program pivoted to the now-parked physical branch. All are agent-owned
+internal integrations (AGENTS.md): recording discharge status and evidence with no external
+consequence.
+
+```yaml
+FUNCTOR-OBL-001:
+  status: DISCHARGED (E153/RUN-0133)
+  verdict: N is NOT a strict natural transformation over Ext_S (state-relative type-novelty is
+    the obstruction); N IS gauge-natural (E049). The non-naturality is the categorical signature
+    of issuance vs disclosure, not a defect.
+Q-OBL-001:
+  status: DISCHARGED (E154/RUN-0134)
+  verdict: Q is grounded non-circularly by stage stratification (A_{S_n} never references Q);
+    additive under independence, sub-additive under correlation. Residue: Q's global option map
+    is non-computable in the Godelian regime (non-constructive, not circular) — this strengthens
+    the PP-3 witness.
+Compat-Comm:
+  status: RESOLVED (E155/RUN-0135)
+  verdict: holds off the fork locus, fails exactly on the SBP fork set. Ext_S is associative
+    always and commutative off SBP(S); non-commutativity marks candidate source-side issuance.
+E031-II.1-N-concavity-conditional:
+  status: RESOLVED as regime signature (E156/RUN-0136)
+  verdict: N curvature separates FTS (concave, interior optimum) from Godelian (sustained, no
+    forced optimum). Executable regime SIGNATURE, explicitly NOT a decision procedure for the
+    non-computable D-FORK bit.
+TI-C019:
+  status: formalizing   # UNCHANGED
+  effect: source-formal-layer obligations now discharged; the sole remaining fork is the parked
+    operative-source question (Godelian vs FTS), which E042 proves decides TI-C019 and proves
+    non-computable in general. Formal work cannot answer it; the physical layer stays parked.
+TI-C021:
+  status: speculative   # UNCHANGED
+  effect: regime-pinned reading corroborated from the N-curvature side (E156), consistent with
+    E043. No movement.
+```

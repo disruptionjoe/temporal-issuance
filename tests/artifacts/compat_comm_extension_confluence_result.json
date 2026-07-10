@@ -1,0 +1,209 @@
+{
+  "claim_status_change": "none",
+  "confluent_on_jointly_admissible_pairs": true,
+  "fixture_id": "compat_comm_extension_confluence",
+  "forking_pairs_have_no_common_successor": true,
+  "kind": "confluence_diamond_fixture_not_physics_theorem",
+  "obligation": "Compat-Comm (E031 I.3, named distinct from closed ASSOC-OBL-001)",
+  "obligation_discharged": true,
+  "reccost_size_family_never_forks": true,
+  "resolution": "compat_comm_holds_off_fork_locus_fork_locus_equals_SBP_set",
+  "results": {
+    "godelian": {
+      "compatible_pair": {
+        "c1": [
+          "beta",
+          0,
+          1
+        ],
+        "c1_admissible_from_s": true,
+        "c1_after_c2": true,
+        "c2": [
+          "gamma",
+          0,
+          1
+        ],
+        "c2_admissible_from_s": true,
+        "c2_after_c1": true,
+        "common_successor": [
+          [
+            "alpha",
+            0,
+            1
+          ],
+          [
+            "beta",
+            0,
+            1
+          ],
+          [
+            "gamma",
+            0,
+            1
+          ]
+        ],
+        "compat_comm": true,
+        "confluent": true,
+        "forks": false
+      },
+      "forking_pair": {
+        "c1": [
+          "beta",
+          7,
+          1
+        ],
+        "c1_admissible_from_s": true,
+        "c1_after_c2": false,
+        "c2": [
+          "beta",
+          7,
+          0
+        ],
+        "c2_admissible_from_s": true,
+        "c2_after_c1": false,
+        "common_successor": null,
+        "compat_comm": true,
+        "confluent": false,
+        "forks": true
+      }
+    },
+    "reccost": {
+      "compatible_pair": {
+        "c1": [
+          "beta",
+          0,
+          1
+        ],
+        "c1_admissible_from_s": true,
+        "c1_after_c2": true,
+        "c2": [
+          "gamma",
+          0,
+          1
+        ],
+        "c2_admissible_from_s": true,
+        "c2_after_c1": true,
+        "common_successor": [
+          [
+            "alpha",
+            0,
+            1
+          ],
+          [
+            "beta",
+            0,
+            1
+          ],
+          [
+            "gamma",
+            0,
+            1
+          ]
+        ],
+        "compat_comm": true,
+        "confluent": true,
+        "forks": false
+      },
+      "forking_pair": {
+        "c1": [
+          "beta",
+          7,
+          1
+        ],
+        "c1_admissible_from_s": true,
+        "c1_after_c2": true,
+        "c2": [
+          "beta",
+          7,
+          0
+        ],
+        "c2_admissible_from_s": true,
+        "c2_after_c1": true,
+        "common_successor": [
+          [
+            "alpha",
+            0,
+            1
+          ],
+          [
+            "beta",
+            7,
+            0
+          ],
+          [
+            "beta",
+            7,
+            1
+          ]
+        ],
+        "compat_comm": true,
+        "confluent": true,
+        "forks": false
+      }
+    },
+    "sbp_forking": {
+      "compatible_pair": {
+        "c1": [
+          "beta",
+          0,
+          1
+        ],
+        "c1_admissible_from_s": true,
+        "c1_after_c2": true,
+        "c2": [
+          "gamma",
+          0,
+          1
+        ],
+        "c2_admissible_from_s": true,
+        "c2_after_c1": true,
+        "common_successor": [
+          [
+            "alpha",
+            0,
+            1
+          ],
+          [
+            "beta",
+            0,
+            1
+          ],
+          [
+            "gamma",
+            0,
+            1
+          ]
+        ],
+        "compat_comm": true,
+        "confluent": true,
+        "forks": false
+      },
+      "forking_pair": {
+        "c1": [
+          "beta",
+          7,
+          1
+        ],
+        "c1_admissible_from_s": true,
+        "c1_after_c2": false,
+        "c2": [
+          "beta",
+          7,
+          0
+        ],
+        "c2_admissible_from_s": true,
+        "c2_after_c1": false,
+        "common_successor": null,
+        "compat_comm": true,
+        "confluent": false,
+        "forks": true
+      }
+    }
+  },
+  "ties_to": [
+    "TI-C019",
+    "SBP / WITNESS-OBL-001 (E040/E042)",
+    "ASSOC-OBL-001 (E038)"
+  ],
+  "verdict": "Compat-Comm HOLDS exactly on jointly-admissible pairs (all three families are confluent there) and FAILS exactly on forking pairs (the Godelian / SBP phi-vs-not-phi site). The non-confluence locus is coextensive with the SBP fork set: extension non-commutativity is the formal content of issuance forking the schema, not a defect. Ext_S is confluent off the fork locus; the fork locus is the source-side witness set SBP(S). Pure-size families (RecCost) never fork, consistent with their absorbability."
+}

@@ -20,6 +20,35 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E157-source-formal-obligation-closure-synthesis-2026-07-09.md`
+  integrates E153-E156. The source-formal layer of `Ext_S` is now
+  obligation-complete (ASSOC/Compat-Comm/FUNCTOR-OBL/Q-OBL/WITNESS/GAUGE-COV all
+  closed or discharged), all four results converge on the FTS/Godelian seam, and
+  the sole remaining fork is the parked operative-source (Godelian vs FTS)
+  question that E042 proves decides TI-C019 and proves non-computable. No claim
+  movement, no promotion.
+- `E156-n-concavity-regime-discriminator-2026-07-09.md`
+  turns the E031 II.1 concavity conditional into an executable regime signature:
+  N is concave and depleting in the FTS regime (interior optimum exists) and
+  sustained in the Godelian regime (no forced optimum). Honest scope: a
+  finite-window signature, explicitly not a decision procedure for the
+  non-computable D-FORK bit. No claim movement.
+- `E155-compat-comm-extension-confluence-2026-07-09.md`
+  resolves Compat-Comm (E031 I.3): admissible extensions commute off the fork
+  locus and fail to commute exactly on the SBP fork set. Ext_S is associative
+  always and commutative off SBP(S); non-commutativity marks candidate
+  source-side issuance morphisms. No claim movement.
+- `E154-q-obl-001-quorum-validity-grounding-2026-07-09.md`
+  discharges Q-OBL-001: the quorum-validity weight Q is grounded non-circularly
+  by stage stratification (A_{S_n} never references Q), additive under
+  independence with a sub-additive correlation correction. Residue: Q's global
+  option map is non-computable in the Godelian regime — non-constructive, not
+  circular. No claim movement.
+- `E153-functor-obl-001-n-naturality-2026-07-09.md`
+  discharges FUNCTOR-OBL-001: the novelty rate N is not a strict natural
+  transformation over Ext_S because type-novelty is state-relative, and that
+  non-naturality is the categorical signature of issuance vs disclosure; N is
+  gauge-natural (E049). No claim movement.
 - `E152-adapter-p-no-go-preflight-2026-07-09.md`
   executes the selected `scoped_d_fork_adapter_no_go_preflight` route. It defines
   a narrow record-preserving Adapter_P trace class, adds a small executable
