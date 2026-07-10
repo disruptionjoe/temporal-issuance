@@ -89,6 +89,23 @@ contributor_signal: workflow_ready_untested
 ## Per-Run Signal Records
 
 ```yaml
+run_id: RUN-0138
+workflow_used: W000 -> FRQ-0005_run_record_schema_audit
+research_vs_governance: stewardship_maintenance
+claim_status_changed: false
+path_killed: false
+path_resurrected: false
+workflow_created: false
+workflow_retired: false
+memory_updated: true
+next_trigger_updated: false
+governance_change_made: false
+hard_output_created: true
+daily_review_items_added: false
+estimated_token_intensity: low
+```
+
+```yaml
 run_id: RUN-0122
 workflow_used: W000 -> W010_frontier_selection_after_ti_c022_record_reality_fixture
 research_vs_governance: research_routing
