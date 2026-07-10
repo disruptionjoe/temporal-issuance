@@ -23,6 +23,36 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
+## Live frontier candidate (registered 2026-07-10, for W010 re-rank / hourly pickup)
+
+**Trigger name:** `holonomy_transport_functor_derivation_fixture`
+**Source:** class-no-go council audit 2026-07-10 (Form-A / homonymy finding on TI-C018 / E015; see
+`explorations/E159-class-no-go-council-update-2026-07-10.md`).
+
+**The bounded question.** The holonomy route was WEAKENED because a closed loop word in the extension
+category is NOT a `G`-valued holonomy: "holonomy" there is a homonym for a loop word unless a genuine
+**transport functor `A: ExtCat -> BG`** is supplied (E015 fixture: `bare_ext_s_derives_nontrivial_holonomy = FALSE`).
+The constructive question -- and the missing object the council named -- is:
+
+> Does the C-typed admissibility structure (the E119-retyped `Ext_S` capability burden) DERIVE a
+> transport functor `A: ExtCat -> BG`, or is a transport functor extra data that TI primitives cannot
+> produce?
+
+**Why it ranks well.** Unlike diagnostic-artifact or SG4-gated walls, this is a CONSTRUCTIVE lead with
+a positive object as its target: if C-typed admissibility yields `A: ExtCat -> BG`, the holonomy route
+re-opens with a real (not homonymous) holonomy; if it provably cannot, that is a clean sharpened wall
+naming exactly what external datum a holonomy would require. Either outcome advances the source
+question (does anything genuinely cross the interface). Directly on the North Star.
+
+**First fixture (what the loop should build).** A finite toy `ExtCat` with C-typed admissibility;
+attempt to construct `A: ExtCat -> BG` FROM the admissibility data alone (functoriality on composition,
+non-triviality on a closed loop); controls that reject an imported/hand-supplied transport. Verdict:
+DERIVED (holonomy route re-opens, non-homonymous) / NOT-DERIVABLE (transport is irreducibly external,
+sharpened wall) / BLOCKED. No claim movement without the fixture landing green.
+
+**Routing:** available for W010 frontier selection; not urgent -- teed up for hourly progress to work
+in or reach eventually. Not yet selected as the active trigger.
+
 ## Phase 2B: Issuance Precision
 
 Status: active, OnlineSchemaSys pass complete in RUN-0042.
