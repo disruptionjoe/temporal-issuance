@@ -1239,3 +1239,12 @@ computation or holds for all prefix-indexed systems.
 Quaternary: AC-8 formal model — concrete `OnlineSchemaSys` with two observers in interactive
 schema negotiation, including an adversarial case (incompatible schema proposals + fork-choice
 analog) and authority/legitimacy condition (from T61 framework).
+
+## RUN-20260710-303 Mailbox Processing: Jevons Rebound Absorber
+
+Mailbox processing converted Joe's Jevons paradox seed into
+`absorbers/jevons-rebound-issuance.md`. Treat it as an observer-side
+demand-response absorber: cheaper search, finalization, access, or record
+production can increase aggregate realized novelty without source-side
+possibility growth. It is a gate for TI-C019/TI-C021 interpretation only; no
+claim status, core hypothesis, public posture, or TI-C020 movement.

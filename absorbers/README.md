@@ -30,4 +30,8 @@ pointer-grade intake and a kill test, not support.
 See `absorbers/bayesian-nonparametrics.md` for the PP-3 absorber where new observed latent
 types arise from a fixed hyperprior or process class.
 
+See `absorbers/jevons-rebound-issuance.md` for the observer-side demand-response absorber:
+cheaper search, finalization, or record production can increase aggregate realized novelty
+without source-side possibility growth.
+
 See `agent-governance/CROSS-REPO-CONTEXT-PROTOCOL.md` for how to use time-as-finality and GU formalization as prior-thinking context without merging claims.
