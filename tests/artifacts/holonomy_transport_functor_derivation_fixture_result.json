@@ -1,0 +1,65 @@
+{
+  "active_trigger_change": "none",
+  "bare_loop_derives_transport": false,
+  "cases": [
+    {
+      "case_id": "bare_loop_word",
+      "derived_transport": false,
+      "imported_transport_used": false,
+      "loop_holonomy_z2": null,
+      "nontrivial_loop_holonomy": false,
+      "reason": "A bare admissible loop supplies a loop word, but no canonical group value or transport functor.",
+      "verdict": "NOT_DERIVABLE_BARE_LOOP"
+    },
+    {
+      "case_id": "identity_forced_consistency",
+      "derived_transport": true,
+      "imported_transport_used": false,
+      "loop_holonomy_z2": 0,
+      "nontrivial_loop_holonomy": false,
+      "reason": "A transport functor is derived, but the only loop value is the identity. This does not reopen the holonomy route.",
+      "verdict": "TRIVIAL_TRANSPORT_ONLY"
+    },
+    {
+      "case_id": "c_typed_parity_rule",
+      "derived_transport": true,
+      "imported_transport_used": false,
+      "loop_holonomy_z2": 1,
+      "nontrivial_loop_holonomy": true,
+      "reason": "The toy C-typed admissibility labels are additive under composition and derive a nontrivial Z/2 loop value.",
+      "verdict": "DERIVED_NONTRIVIAL_TRANSPORT"
+    },
+    {
+      "case_id": "imported_transport_table",
+      "derived_transport": false,
+      "imported_transport_used": true,
+      "loop_holonomy_z2": 1,
+      "nontrivial_loop_holonomy": true,
+      "reason": "A functor exists only because a transport table is supplied as extra data, so this does not derive A from C-typed admissibility.",
+      "verdict": "IMPORTED_TRANSPORT_REJECTION"
+    },
+    {
+      "case_id": "inconsistent_c_typed_labels",
+      "derived_transport": false,
+      "imported_transport_used": false,
+      "loop_holonomy_z2": null,
+      "nontrivial_loop_holonomy": false,
+      "reason": "ab+ba->aa expects 0, got 1",
+      "verdict": "BLOCKED_INCONSISTENT_TRANSPORT"
+    }
+  ],
+  "central_question": "Does C-typed admissibility derive A: ExtCat -> B Z/2, or is transport extra data?",
+  "claim_status_change": "none",
+  "fixture_id": "holonomy_transport_functor_derivation_fixture",
+  "honest_current_result": "Bare loop data still does not derive holonomy. The toy positive shape requires an explicit admissibility-carried additive label rule; without that rule, transport is either trivial, imported, or inconsistent.",
+  "imported_table_counts_as_derivation": false,
+  "kind": "bounded_toy_fixture_not_claim_movement",
+  "source_rule_positive_shape_found": true,
+  "verdicts_seen": [
+    "BLOCKED_INCONSISTENT_TRANSPORT",
+    "DERIVED_NONTRIVIAL_TRANSPORT",
+    "IMPORTED_TRANSPORT_REJECTION",
+    "NOT_DERIVABLE_BARE_LOOP",
+    "TRIVIAL_TRANSPORT_ONLY"
+  ]
+}
