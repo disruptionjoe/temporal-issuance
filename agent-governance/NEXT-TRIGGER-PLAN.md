@@ -3,11 +3,55 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0137
+updated_by_run: RUN-0140
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-10: Capability-transport source-action fixture (RUN-0140)
+
+Fired the post-E160 connection Joe selected as the next bigger TI swing:
+`capability_transport_source_action_fixture`.
+
+Primary artifact:
+`explorations/E161-capability-transport-source-action-fixture-2026-07-10.md`.
+
+Executable artifacts:
+
+```text
+tools/capability_transport_source_action_fixture.py
+tests/test_capability_transport_source_action_fixture.py
+tests/artifacts/capability_transport_source_action_fixture_result.json
+```
+
+Verdict:
+
+```yaml
+fixture_complete: true
+e160_transport_has_capability_delta: true
+e160_transport_becomes_source_action: false
+e160_transport_verdict: TAF_EXPRESSIBLE_READOUT
+positive_source_action_shape_stateable: true
+real_source_action_found: false
+claim_status_change: none
+active_trigger_change: none
+```
+
+Key result: the E160 C-derived transport value creates a task-menu handle, but
+the concrete handle is still capability/readout. A future TI source-action trace
+must add source growth, no TaF readout expression, no fixed-completion/access
+factorization, and an internal anti-after-naming principle.
+
+Active next trigger:
+
+```text
+W000 -> compact_no_worthy_work_until_gate_changes
+```
+
+Resume material work only if a concrete trace fills the RUN-0140 positive
+anti-after-naming source-action shape, or if a sharper theorem target appears.
+Do not repeat the E160/E161 toy fixtures.
 
 ## GATE EXECUTED 2026-07-09: Source-formal obligation closure (RUN-0133..0137)
 

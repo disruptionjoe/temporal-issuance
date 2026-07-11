@@ -1453,3 +1453,31 @@ TI-C021:
   effect: regime-pinned reading corroborated from the N-curvature side (E156), consistent with
     E043. No movement.
 ```
+
+## RUN-0140 Capability-Transport Source-Action Fixture (2026-07-10)
+
+No status move, no promotion. RUN-0140 follows E160's C-derived toy transport
+through the E119 capability burden. Record:
+`explorations/E161-capability-transport-source-action-fixture-2026-07-10.md`.
+
+```yaml
+TI-C012:
+  status: formalizing   # UNCHANGED
+  effect: >
+    E160's source-derived toy transport has now been pushed through a capability
+    action gate. The first concrete task delta is TaF-expressible readout, so
+    holonomy remains formal residue unless a stronger task delta survives.
+
+TI-C018:
+  status: weakened      # UNCHANGED
+  effect: >
+    Bare Ext_S remains insufficient; C-derived transport is a necessary but
+    insufficient condition. A future transport witness must also change a
+    capability menu beyond readout/disclosure.
+
+TI-C019:
+  status: formalizing   # UNCHANGED
+  effect: >
+    The source-formal/capability bridge is sharpened, not advanced. The
+    remaining useful target is a concrete anti-after-naming source-action trace.
+```

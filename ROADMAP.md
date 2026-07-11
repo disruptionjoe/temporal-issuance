@@ -23,7 +23,24 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
-## Live frontier candidate (registered 2026-07-10, for W010 re-rank / hourly pickup)
+## Current frontier update (2026-07-10)
+
+RUN-0139 executed the holonomy transport-functor derivation fixture proposed by
+E159/ROADMAP. Bare loops still do not derive transport, but a toy C-typed
+admissibility rule can derive a nontrivial `Z/2` transport value. No claim
+movement.
+
+RUN-0140 then pushed that result through the E119 capability burden. The E160
+C-derived parity transport does create a task-menu handle
+(`distinguish_loop_sector`), but the concrete handle is still expressible as
+capability/readout. The positive source-action shape is now stateable, not
+found: nontrivial C-derived transport plus supported task-menu change, source
+growth, no TaF readout expression, no fixed-completion/access factorization,
+and an internal anti-after-naming principle. No claim movement. Active next
+state remains compact no-worthy-work until a concrete anti-after-naming
+source-action trace or sharper theorem target appears.
+
+## Recent frontier candidate (registered 2026-07-10, executed RUN-0139/RUN-0140)
 
 **Trigger name:** `holonomy_transport_functor_derivation_fixture`
 **Source:** class-no-go council audit 2026-07-10 (Form-A / homonymy finding on TI-C018 / E015; see
@@ -50,8 +67,10 @@ non-triviality on a closed loop); controls that reject an imported/hand-supplied
 DERIVED (holonomy route re-opens, non-homonymous) / NOT-DERIVABLE (transport is irreducibly external,
 sharpened wall) / BLOCKED. No claim movement without the fixture landing green.
 
-**Routing:** available for W010 frontier selection; not urgent -- teed up for hourly progress to work
-in or reach eventually. Not yet selected as the active trigger.
+**Routing:** executed in RUN-0139 and followed up in RUN-0140. Do not repeat the
+same bounded toy fixtures. Future work should only proceed if a concrete trace
+fills the RUN-0140 positive source-action shape or if a sharper theorem target
+appears.
 
 ## Phase 2B: Issuance Precision
 

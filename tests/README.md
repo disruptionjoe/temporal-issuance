@@ -20,6 +20,7 @@ Launch tests:
 Executable fixtures:
 
 - Run-record schema audit: `python tests/test_run_record_schema_audit.py`
+- Capability-transport source-action fixture: `python tests/test_capability_transport_source_action_fixture.py`
 - Holonomy transport-functor derivation fixture: `python tests/test_holonomy_transport_functor_derivation_fixture.py`
 - FUNCTOR-OBL-001 N-naturality fixture: `python tests/test_functor_obl_001_n_naturality.py`
 - Q-OBL-001 quorum-validity grounding fixture: `python tests/test_q_obl_001_quorum_validity_grounding.py`

@@ -1,0 +1,118 @@
+{
+  "active_trigger_change": "none",
+  "cases": [
+    {
+      "capability_delta": [],
+      "case_id": "bare_loop_no_transport",
+      "derived_from_c": false,
+      "nontrivial_transport": false,
+      "reason": "The case supplies no nontrivial C-derived transport that changes the region-indexed task menu.",
+      "source_action_candidate": false,
+      "terminal": true,
+      "verdict": "NO_CAPABILITY_DELTA"
+    },
+    {
+      "capability_delta": [],
+      "case_id": "identity_transport_trivial_capability",
+      "derived_from_c": true,
+      "nontrivial_transport": false,
+      "reason": "The case supplies no nontrivial C-derived transport that changes the region-indexed task menu.",
+      "source_action_candidate": false,
+      "terminal": true,
+      "verdict": "NO_CAPABILITY_DELTA"
+    },
+    {
+      "capability_delta": [
+        "distinguish_loop_sector"
+      ],
+      "case_id": "c_typed_parity_sector_readout",
+      "derived_from_c": true,
+      "nontrivial_transport": true,
+      "reason": "The nontrivial C-derived transport creates a task-menu handle, but the handle is expressible as a capability/readout fact rather than a TI source-crossing action.",
+      "source_action_candidate": false,
+      "terminal": true,
+      "verdict": "TAF_EXPRESSIBLE_READOUT"
+    },
+    {
+      "capability_delta": [
+        "distinguish_loop_sector"
+      ],
+      "case_id": "fixed_access_reveals_sector",
+      "derived_from_c": false,
+      "nontrivial_transport": true,
+      "reason": "The task delta is modeled as fixed completed source plus a changed access/readout aperture.",
+      "source_action_candidate": false,
+      "terminal": true,
+      "verdict": "FIXED_SOURCE_DISCLOSURE"
+    },
+    {
+      "capability_delta": [
+        "distinguish_loop_sector"
+      ],
+      "case_id": "imported_transport_sector_task",
+      "derived_from_c": false,
+      "nontrivial_transport": true,
+      "reason": "The task delta depends on a transport table, boundary datum, or law supplied outside C-typed admissibility.",
+      "source_action_candidate": false,
+      "terminal": true,
+      "verdict": "IMPORTED_STRUCTURE_REJECTION"
+    },
+    {
+      "capability_delta": [
+        "select_sector_conditioned_continuation"
+      ],
+      "case_id": "c_typed_prefix_family_singleton_absorbed",
+      "derived_from_c": true,
+      "nontrivial_transport": true,
+      "reason": "Finite-prefix nontriviality survives, but the realized family is absorbed by after-the-fact singleton naming.",
+      "source_action_candidate": false,
+      "terminal": true,
+      "verdict": "CLASS_RELATIVE_FORMAL_RESIDUE"
+    },
+    {
+      "capability_delta": [
+        "certify_not_after_named",
+        "select_unprecontained_continuation"
+      ],
+      "case_id": "anti_after_naming_source_action_shape",
+      "derived_from_c": true,
+      "nontrivial_transport": true,
+      "reason": "This is the positive shape: a nontrivial C-derived transport changes a supported task menu while carrying an internal anti-after-naming principle. It still needs a full Adapter_P trace before any claim movement.",
+      "source_action_candidate": true,
+      "terminal": false,
+      "verdict": "SOURCE_ACTION_CANDIDATE_REQUIRES_FULL_ADAPTER_P"
+    },
+    {
+      "capability_delta": [
+        "distinguish_loop_sector"
+      ],
+      "case_id": "inconsistent_c_transport_labels",
+      "derived_from_c": true,
+      "nontrivial_transport": true,
+      "reason": "The transport labels do not respect extension composition, so there is no functorial action to test.",
+      "source_action_candidate": false,
+      "terminal": true,
+      "verdict": "BLOCKED_INCONSISTENT_TRANSPORT"
+    }
+  ],
+  "central_question": "Does E160-style C-derived transport become an E119-style capability-changing source action?",
+  "claim_status_change": "none",
+  "e160_transport_becomes_source_action": false,
+  "e160_transport_has_capability_delta": true,
+  "e160_transport_verdict": "TAF_EXPRESSIBLE_READOUT",
+  "fixture_id": "capability_transport_source_action_fixture",
+  "honest_current_result": "The E160 C-derived parity transport creates a task-menu handle, but the concrete handle is still expressible as capability/readout. A real TI source-action trace would additionally need source growth and an internal anti-after-naming principle.",
+  "kind": "bounded_toy_fixture_not_claim_movement",
+  "next_action": "Do not promote holonomy or TI-C019. Future work should only proceed if a concrete trace fills the positive anti-after-naming source-action shape, or if the schematic shape is turned into a full Adapter_P fixture.",
+  "positive_source_action_shape_stateable": true,
+  "real_source_action_found": false,
+  "verdicts_seen": [
+    "BLOCKED_INCONSISTENT_TRANSPORT",
+    "CLASS_RELATIVE_FORMAL_RESIDUE",
+    "FIXED_SOURCE_DISCLOSURE",
+    "IMPORTED_STRUCTURE_REJECTION",
+    "NO_CAPABILITY_DELTA",
+    "SOURCE_ACTION_CANDIDATE_REQUIRES_FULL_ADAPTER_P",
+    "TAF_EXPRESSIBLE_READOUT"
+  ]
+}
