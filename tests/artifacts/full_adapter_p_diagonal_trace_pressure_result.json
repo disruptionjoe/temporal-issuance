@@ -1,0 +1,250 @@
+{
+  "TI_C020_reopened": false,
+  "active_trigger_change": "return_to_gate_change_wait_state",
+  "adapter_fields": [
+    "Gamma_n",
+    "Adm_n",
+    "e_n",
+    "w_n",
+    "Gamma_n_plus_1",
+    "tau_n"
+  ],
+  "cases": [
+    {
+      "adapter_fields": {
+        "Adm_n": true,
+        "Gamma_n": true,
+        "Gamma_n_plus_1": true,
+        "e_n": true,
+        "tau_n": true,
+        "w_n": true
+      },
+      "case_id": "stage_stratified_diagonal_trace_full_pressure",
+      "description": "The E162 formal/local trace maps Adapter_P fields and defeats local readout, fixed-access, imported-structure, and singleton after-naming controls, but it is not a real physical candidate and does not defeat whole-family completion.",
+      "source_trace_id": "stage_stratified_diagonal_trace",
+      "w_gates": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": true,
+        "W3_construction_space_growth": true,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": false,
+        "W6_gauge_absorption_pass": true
+      }
+    },
+    {
+      "adapter_fields": {
+        "Adm_n": true,
+        "Gamma_n": true,
+        "Gamma_n_plus_1": true,
+        "e_n": true,
+        "tau_n": true,
+        "w_n": true
+      },
+      "case_id": "taf_readout_control",
+      "description": "A task delta expressible as capability/readout.",
+      "source_trace_id": "e161_readout_sector",
+      "w_gates": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": false,
+        "W3_construction_space_growth": false,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": true,
+        "W6_gauge_absorption_pass": false
+      }
+    },
+    {
+      "adapter_fields": {
+        "Adm_n": true,
+        "Gamma_n": true,
+        "Gamma_n_plus_1": true,
+        "e_n": true,
+        "tau_n": true,
+        "w_n": true
+      },
+      "case_id": "fixed_source_access_control",
+      "description": "A continuation disclosed from fixed completion plus access.",
+      "source_trace_id": "fixed_source_access_trace",
+      "w_gates": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": false,
+        "W3_construction_space_growth": false,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": true,
+        "W6_gauge_absorption_pass": false
+      }
+    },
+    {
+      "adapter_fields": {
+        "Adm_n": true,
+        "Gamma_n": true,
+        "Gamma_n_plus_1": true,
+        "e_n": true,
+        "tau_n": true,
+        "w_n": true
+      },
+      "case_id": "imported_oracle_control",
+      "description": "A novel-looking continuation supplied by an external oracle/table.",
+      "source_trace_id": "imported_oracle_novel_name",
+      "w_gates": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": true,
+        "W3_construction_space_growth": false,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": false,
+        "W6_gauge_absorption_pass": false
+      }
+    },
+    {
+      "adapter_fields": {
+        "Adm_n": true,
+        "Gamma_n": true,
+        "Gamma_n_plus_1": true,
+        "e_n": true,
+        "tau_n": true,
+        "w_n": true
+      },
+      "case_id": "unguarded_after_fact_singleton_control",
+      "description": "A diagonal-looking name without the stage-stratified guard.",
+      "source_trace_id": "unguarded_diagonal_singleton_absorbed",
+      "w_gates": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": true,
+        "W3_construction_space_growth": true,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": false,
+        "W6_gauge_absorption_pass": false
+      }
+    },
+    {
+      "adapter_fields": {
+        "Adm_n": true,
+        "Gamma_n": true,
+        "Gamma_n_plus_1": true,
+        "e_n": true,
+        "tau_n": true,
+        "w_n": true
+      },
+      "case_id": "whole_family_completion_control",
+      "description": "The trace is fresh at the stage but the completed realized family can include the diagonal after the fact.",
+      "source_trace_id": "stage_stratified_diagonal_trace",
+      "w_gates": {
+        "W1_non_isomorphic_algebra": false,
+        "W2_new_admissibility_predicate": true,
+        "W3_construction_space_growth": true,
+        "W4_perturbation_non_factorization": false,
+        "W5_record_preservation": false,
+        "W6_gauge_absorption_pass": true
+      }
+    }
+  ],
+  "claim_status_change": "none",
+  "fixture_id": "full_adapter_p_diagonal_trace_pressure",
+  "formal_local_adapter_shape_survives": true,
+  "honest_current_result": "Full Adapter_P pressure preserves the E162 trace as a formal/local shape only. It does not pass physical Adapter_P because it lacks a real physical W1/W4/W5 path and does not defeat whole-family completion.",
+  "kind": "formal_local_adapter_pressure_not_physical_claim",
+  "next_trigger_recommendation": "compact_no_worthy_work_until_real_physical_candidate_or_sharper_theorem_target",
+  "physical_source_issuance_established": false,
+  "results": [
+    {
+      "absorber_controls_supplied": false,
+      "all_adapter_fields_mapped": true,
+      "case_id": "stage_stratified_diagonal_trace_full_pressure",
+      "local_controls_defeated": true,
+      "physical_adapter_p_passed": false,
+      "physical_source_issuance_established": false,
+      "reason": "The trace survives as a formal/local Adapter_P shape, but it lacks a real physical W1/W4/W5 path and whole-family completion defeat.",
+      "source_growth_core_supplied": true,
+      "terminal": true,
+      "verdict": "FORMAL_LOCAL_ADAPTER_SHAPE_SURVIVES",
+      "whole_family_completion_defeated": false
+    },
+    {
+      "absorber_controls_supplied": false,
+      "all_adapter_fields_mapped": true,
+      "case_id": "taf_readout_control",
+      "local_controls_defeated": false,
+      "physical_adapter_p_passed": false,
+      "physical_source_issuance_established": false,
+      "reason": "The task delta is expressible as downstream capability/readout.",
+      "source_growth_core_supplied": false,
+      "terminal": true,
+      "verdict": "TAF_EXPRESSIBLE_READOUT",
+      "whole_family_completion_defeated": false
+    },
+    {
+      "absorber_controls_supplied": false,
+      "all_adapter_fields_mapped": true,
+      "case_id": "fixed_source_access_control",
+      "local_controls_defeated": false,
+      "physical_adapter_p_passed": false,
+      "physical_source_issuance_established": false,
+      "reason": "The trace factors through fixed completion plus access.",
+      "source_growth_core_supplied": false,
+      "terminal": true,
+      "verdict": "FIXED_SOURCE_DISCLOSURE",
+      "whole_family_completion_defeated": false
+    },
+    {
+      "absorber_controls_supplied": false,
+      "all_adapter_fields_mapped": true,
+      "case_id": "imported_oracle_control",
+      "local_controls_defeated": false,
+      "physical_adapter_p_passed": false,
+      "physical_source_issuance_established": false,
+      "reason": "The apparent source action depends on an imported oracle or table.",
+      "source_growth_core_supplied": true,
+      "terminal": true,
+      "verdict": "IMPORTED_STRUCTURE_REJECTION",
+      "whole_family_completion_defeated": false
+    },
+    {
+      "absorber_controls_supplied": false,
+      "all_adapter_fields_mapped": true,
+      "case_id": "unguarded_after_fact_singleton_control",
+      "local_controls_defeated": false,
+      "physical_adapter_p_passed": false,
+      "physical_source_issuance_established": false,
+      "reason": "After-fact singleton naming absorbs the selected continuation.",
+      "source_growth_core_supplied": true,
+      "terminal": true,
+      "verdict": "SINGLETON_AFTER_NAMING_ABSORBED",
+      "whole_family_completion_defeated": false
+    },
+    {
+      "absorber_controls_supplied": false,
+      "all_adapter_fields_mapped": true,
+      "case_id": "whole_family_completion_control",
+      "local_controls_defeated": true,
+      "physical_adapter_p_passed": false,
+      "physical_source_issuance_established": false,
+      "reason": "The finite-stage trace remains vulnerable to completed-family absorption, so it fails physical Adapter_P.",
+      "source_growth_core_supplied": true,
+      "terminal": true,
+      "verdict": "WHOLE_FAMILY_COMPLETION_ABSORPTION",
+      "whole_family_completion_defeated": false
+    }
+  ],
+  "source_trace": "E162 stage_stratified_diagonal_trace",
+  "stage_trace_defeats_local_controls": true,
+  "stage_trace_defeats_whole_family_completion": false,
+  "stage_trace_maps_all_adapter_fields": true,
+  "stage_trace_supplies_formal_source_growth": true,
+  "stage_trace_supplies_physical_absorber_controls": false,
+  "verdicts_seen": [
+    "FIXED_SOURCE_DISCLOSURE",
+    "FORMAL_LOCAL_ADAPTER_SHAPE_SURVIVES",
+    "IMPORTED_STRUCTURE_REJECTION",
+    "SINGLETON_AFTER_NAMING_ABSORBED",
+    "TAF_EXPRESSIBLE_READOUT",
+    "WHOLE_FAMILY_COMPLETION_ABSORPTION"
+  ],
+  "w_gates": [
+    "W1_non_isomorphic_algebra",
+    "W2_new_admissibility_predicate",
+    "W3_construction_space_growth",
+    "W4_perturbation_non_factorization",
+    "W5_record_preservation",
+    "W6_gauge_absorption_pass"
+  ],
+  "whole_family_completion_control_absorbs": true
+}

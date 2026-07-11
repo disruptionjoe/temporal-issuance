@@ -25,6 +25,14 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-10)
 
+RUN-0142 ran the full Adapter_P pressure pass on the RUN-0141 / E162
+stage-stratified diagonal trace. The trace maps Adapter_P fields and survives as
+a formal/local shape, but it does not pass physical Adapter_P: no real physical
+candidate is supplied, W1/W4/W5 are missing, and whole-family completion remains
+undefeated. No claim movement. The active unattended next state returns to
+compact no-worthy-work until a real physical candidate or sharper theorem target
+changes the gate.
+
 RUN-0141 instantiated RUN-0140's positive anti-after-naming shape as a
 formal/local trace. The stage-stratified diagonal successor
 `diag__alpha__beta` is not available in the stage-present name set

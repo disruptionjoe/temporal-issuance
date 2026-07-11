@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E163-full-adapter-p-diagonal-trace-pressure-2026-07-10.md`
+  executes the full Adapter_P pressure pass on the E162 stage-stratified
+  diagonal trace. The trace maps Adapter_P fields and survives as a formal/local
+  shape, but it does not pass physical Adapter_P: no real physical candidate,
+  no W1/W4/W5 path, and no whole-family completion defeat. No claim movement;
+  `TI-C020` remains parked and the active trigger returns to a gate-change wait
+  state.
 - `E157-source-formal-obligation-closure-synthesis-2026-07-09.md`
   integrates E153-E156. The source-formal layer of `Ext_S` is now
   obligation-complete (ASSOC/Compat-Comm/FUNCTOR-OBL/Q-OBL/WITNESS/GAUGE-COV all

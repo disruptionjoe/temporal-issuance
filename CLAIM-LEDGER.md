@@ -1509,3 +1509,35 @@ TI-C019:
     It does not establish physical or operative source issuance; next pressure
     is full Adapter_P.
 ```
+
+## RUN-0142 Full Adapter_P Diagonal Trace Pressure (2026-07-10)
+
+No status move, no promotion. RUN-0142 runs the E162 stage-stratified diagonal
+trace through full Adapter_P pressure. Record:
+`explorations/E163-full-adapter-p-diagonal-trace-pressure-2026-07-10.md`.
+
+```yaml
+TI-C012:
+  status: formalizing   # UNCHANGED
+  effect: >
+    The C-derived transport route remains formal/local. It now has a tested
+    Adapter_P shape, but not a physical or promotable holonomy result.
+
+TI-C018:
+  status: weakened      # UNCHANGED
+  effect: >
+    The C-derived transport route is narrowed again: even with anti-after-naming,
+    it does not defeat whole-family completion or physical Adapter_P pressure.
+
+TI-C019:
+  status: formalizing   # UNCHANGED
+  effect: >
+    The source-formal/capability bridge survives as formal/local vocabulary only.
+    It supplies no operative-source or physical-source verdict movement.
+
+TI-C020:
+  status: parked        # UNCHANGED
+  effect: >
+    No real physical candidate passed Adapter_P; the physical bridge remains
+    parked.
+```

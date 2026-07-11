@@ -3,11 +3,58 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0141
+updated_by_run: RUN-0142
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-10: Full Adapter_P diagonal trace pressure (RUN-0142)
+
+Fired the RUN-0141 next trigger:
+`full_adapter_p_pressure_on_stage_stratified_diagonal_trace`.
+
+Primary artifact:
+`explorations/E163-full-adapter-p-diagonal-trace-pressure-2026-07-10.md`.
+
+Executable artifacts:
+
+```text
+tools/full_adapter_p_diagonal_trace_pressure.py
+tests/test_full_adapter_p_diagonal_trace_pressure.py
+tests/artifacts/full_adapter_p_diagonal_trace_pressure_result.json
+```
+
+Verdict:
+
+```yaml
+fixture_complete: true
+formal_local_adapter_shape_survives: true
+stage_trace_maps_all_adapter_fields: true
+stage_trace_supplies_formal_source_growth: true
+stage_trace_supplies_physical_absorber_controls: false
+stage_trace_defeats_local_controls: true
+stage_trace_defeats_whole_family_completion: false
+physical_source_issuance_established: false
+TI_C020_reopened: false
+claim_status_change: none
+active_trigger_change: return_to_gate_change_wait_state
+next_trigger_recommendation: compact_no_worthy_work_until_real_physical_candidate_or_sharper_theorem_target
+```
+
+Key result: the E162 stage-stratified diagonal trace survives as a formal/local
+Adapter_P shape only. It does not pass physical Adapter_P because it lacks a real
+physical W1/W4/W5 path and does not defeat whole-family completion.
+
+Active next trigger:
+
+```text
+W000 -> compact_no_worthy_work_until_real_physical_candidate_or_sharper_theorem_target
+```
+
+Resume material work only if a real physical candidate supplies W1/W4/W5 plus a
+whole-family completion defeat, or if a sharper theorem target appears. Do not
+repeat the E162/E163 formal/local diagonal pressure lane.
 
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-10: Anti-after-naming source-action trace fixture (RUN-0141)
 
