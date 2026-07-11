@@ -20,6 +20,7 @@ Launch tests:
 Executable fixtures:
 
 - Run-record schema audit: `python tests/test_run_record_schema_audit.py`
+- Anti-after-naming source-action trace fixture: `python tests/test_anti_after_naming_source_action_trace_fixture.py`
 - Capability-transport source-action fixture: `python tests/test_capability_transport_source_action_fixture.py`
 - Holonomy transport-functor derivation fixture: `python tests/test_holonomy_transport_functor_derivation_fixture.py`
 - FUNCTOR-OBL-001 N-naturality fixture: `python tests/test_functor_obl_001_n_naturality.py`

@@ -1481,3 +1481,31 @@ TI-C019:
     The source-formal/capability bridge is sharpened, not advanced. The
     remaining useful target is a concrete anti-after-naming source-action trace.
 ```
+
+## RUN-0141 Anti-After-Naming Source-Action Trace Fixture (2026-07-10)
+
+No status move, no promotion. RUN-0141 instantiates RUN-0140's positive
+anti-after-naming shape as a formal/local trace. Record:
+`explorations/E162-anti-after-naming-source-action-trace-fixture-2026-07-10.md`.
+
+```yaml
+TI-C012:
+  status: formalizing   # UNCHANGED
+  effect: >
+    Source-derived transport now has a formal/local source-action trace target,
+    but holonomy remains unpromoted and nonphysical until full Adapter_P pressure
+    is run.
+
+TI-C018:
+  status: weakened      # UNCHANGED
+  effect: >
+    The prior weakness is narrowed: bare Ext_S still fails, but the C-derived
+    transport route now has a concrete local anti-after-naming candidate.
+
+TI-C019:
+  status: formalizing   # UNCHANGED
+  effect: >
+    The source-formal/capability bridge now has a formal/local candidate trace.
+    It does not establish physical or operative source issuance; next pressure
+    is full Adapter_P.
+```

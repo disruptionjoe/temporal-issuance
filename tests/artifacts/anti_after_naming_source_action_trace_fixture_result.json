@@ -1,0 +1,120 @@
+{
+  "active_trigger_change": "recommend_full_adapter_p_pressure",
+  "central_question": "Can the E161 positive anti-after-naming source-action shape be instantiated as a concrete formal/local trace?",
+  "claim_status_change": "none",
+  "concrete_formal_source_action_trace_found": true,
+  "e161_positive_shape_instantiated": true,
+  "fixture_id": "anti_after_naming_source_action_trace_fixture",
+  "honest_current_result": "A stage-stratified diagonal trace instantiates the E161 positive shape at the formal/local level and escapes the local readout, fixed-access, imported-structure, and singleton-after-naming controls. It is not physical evidence and still needs full Adapter_P pressure.",
+  "kind": "formal_local_trace_fixture_not_claim_movement",
+  "next_trigger_recommendation": "full_adapter_p_pressure_on_stage_stratified_diagonal_trace",
+  "physical_source_action_found": false,
+  "traces": [
+    {
+      "after_fact_singleton_absorbs": true,
+      "capability_delta": [
+        "distinguish_loop_sector"
+      ],
+      "internal_diagonal_witness": false,
+      "prior_name_absorbs": false,
+      "reason": "The task delta is readout/capability expressible.",
+      "selected_continuation": "sector_1",
+      "source_action_trace_candidate": false,
+      "terminal": true,
+      "trace_id": "e161_readout_sector",
+      "verdict": "TAF_EXPRESSIBLE_READOUT"
+    },
+    {
+      "after_fact_singleton_absorbs": true,
+      "capability_delta": [
+        "select_disclosed_continuation"
+      ],
+      "internal_diagonal_witness": false,
+      "prior_name_absorbs": false,
+      "reason": "The task change factors through fixed completion plus access.",
+      "selected_continuation": "gamma",
+      "source_action_trace_candidate": false,
+      "terminal": true,
+      "trace_id": "fixed_source_access_trace",
+      "verdict": "FIXED_SOURCE_DISCLOSURE"
+    },
+    {
+      "after_fact_singleton_absorbs": false,
+      "capability_delta": [
+        "select_unprecontained_continuation"
+      ],
+      "internal_diagonal_witness": false,
+      "prior_name_absorbs": false,
+      "reason": "The continuation or transport is supplied by an external oracle/table.",
+      "selected_continuation": "oracle_delta",
+      "source_action_trace_candidate": false,
+      "terminal": true,
+      "trace_id": "imported_oracle_novel_name",
+      "verdict": "IMPORTED_STRUCTURE_REJECTION"
+    },
+    {
+      "after_fact_singleton_absorbs": true,
+      "capability_delta": [
+        "select_unprecontained_continuation"
+      ],
+      "internal_diagonal_witness": true,
+      "prior_name_absorbs": false,
+      "reason": "The continuation is available to the stage-present names or is absorbed by after-fact singleton naming without an internal stage-stratification guard.",
+      "selected_continuation": "diag__alpha__beta",
+      "source_action_trace_candidate": false,
+      "terminal": true,
+      "trace_id": "unguarded_diagonal_singleton_absorbed",
+      "verdict": "SINGLETON_AFTER_NAMING_ABSORBED"
+    },
+    {
+      "after_fact_singleton_absorbs": false,
+      "capability_delta": [
+        "certify_stage_prior_unavailability",
+        "select_unprecontained_continuation"
+      ],
+      "internal_diagonal_witness": true,
+      "prior_name_absorbs": false,
+      "reason": "The trace uses a stage-present-name diagonal successor, a nontrivial C-derived transport value, and a stage-stratified anti-after-naming guard. It escapes the E161 local controls, but remains formal/local and requires full Adapter_P pressure.",
+      "selected_continuation": "diag__alpha__beta",
+      "source_action_trace_candidate": true,
+      "terminal": false,
+      "trace_id": "stage_stratified_diagonal_trace",
+      "verdict": "CONCRETE_FORMAL_TRACE_ESCAPES_E161_LOCAL_CONTROLS"
+    },
+    {
+      "after_fact_singleton_absorbs": false,
+      "capability_delta": [],
+      "internal_diagonal_witness": false,
+      "prior_name_absorbs": false,
+      "reason": "The positive shape is named but not instantiated as a trace.",
+      "selected_continuation": null,
+      "source_action_trace_candidate": false,
+      "terminal": true,
+      "trace_id": "verbal_guard_no_trace",
+      "verdict": "SCHEMATIC_ONLY_NOT_INSTANTIATED"
+    },
+    {
+      "after_fact_singleton_absorbs": false,
+      "capability_delta": [
+        "select_unprecontained_continuation"
+      ],
+      "internal_diagonal_witness": false,
+      "prior_name_absorbs": false,
+      "reason": "Transport labels fail functorial composition.",
+      "selected_continuation": "bad_delta",
+      "source_action_trace_candidate": false,
+      "terminal": true,
+      "trace_id": "inconsistent_transport_trace",
+      "verdict": "BLOCKED_INCONSISTENT_TRANSPORT"
+    }
+  ],
+  "verdicts_seen": [
+    "BLOCKED_INCONSISTENT_TRANSPORT",
+    "CONCRETE_FORMAL_TRACE_ESCAPES_E161_LOCAL_CONTROLS",
+    "FIXED_SOURCE_DISCLOSURE",
+    "IMPORTED_STRUCTURE_REJECTION",
+    "SCHEMATIC_ONLY_NOT_INSTANTIATED",
+    "SINGLETON_AFTER_NAMING_ABSORBED",
+    "TAF_EXPRESSIBLE_READOUT"
+  ]
+}

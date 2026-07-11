@@ -25,6 +25,14 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-10)
 
+RUN-0141 instantiated RUN-0140's positive anti-after-naming shape as a
+formal/local trace. The stage-stratified diagonal successor
+`diag__alpha__beta` is not available in the stage-present name set
+`{alpha, beta}`; after-fact naming is blocked by stage stratification, so the
+trace escapes the E161 local controls. This is not physical evidence and does
+not move claims. The selected next trigger is now
+`full_adapter_p_pressure_on_stage_stratified_diagonal_trace`.
+
 RUN-0139 executed the holonomy transport-functor derivation fixture proposed by
 E159/ROADMAP. Bare loops still do not derive transport, but a toy C-typed
 admissibility rule can derive a nontrivial `Z/2` transport value. No claim
@@ -37,8 +45,9 @@ capability/readout. The positive source-action shape is now stateable, not
 found: nontrivial C-derived transport plus supported task-menu change, source
 growth, no TaF readout expression, no fixed-completion/access factorization,
 and an internal anti-after-naming principle. No claim movement. Active next
-state remains compact no-worthy-work until a concrete anti-after-naming
-source-action trace or sharper theorem target appears.
+state is no longer generic compact no-worthy-work; the concrete formal/local
+trace should be pressured through the full `Adapter_P` gate before any broader
+claim movement is considered.
 
 ## Recent frontier candidate (registered 2026-07-10, executed RUN-0139/RUN-0140)
 

@@ -3,11 +3,58 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0140
+updated_by_run: RUN-0141
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-10: Anti-after-naming source-action trace fixture (RUN-0141)
+
+Fired the Science Council's selected next move:
+`anti_after_naming_source_action_trace_fixture`.
+
+Primary artifact:
+`explorations/E162-anti-after-naming-source-action-trace-fixture-2026-07-10.md`.
+
+Executable artifacts:
+
+```text
+tools/anti_after_naming_source_action_trace_fixture.py
+tests/test_anti_after_naming_source_action_trace_fixture.py
+tests/artifacts/anti_after_naming_source_action_trace_fixture_result.json
+```
+
+Verdict:
+
+```yaml
+fixture_complete: true
+e161_positive_shape_instantiated: true
+concrete_formal_source_action_trace_found: true
+physical_source_action_found: false
+claim_status_change: none
+active_trigger_change: recommend_full_adapter_p_pressure
+next_trigger_recommendation: full_adapter_p_pressure_on_stage_stratified_diagonal_trace
+```
+
+Key result: the stage-stratified diagonal trace instantiates the E161 positive
+shape at the formal/local level and escapes the local readout, fixed-access,
+imported-structure, and singleton-after-naming controls. It is not physical
+evidence and still needs full `Adapter_P` pressure.
+
+Active next trigger:
+
+```text
+W000 -> full_adapter_p_pressure_on_stage_stratified_diagonal_trace
+```
+
+Minimum contract:
+
+1. Treat the E162 trace as formal/local only.
+2. Run it through full `Adapter_P` fields and W1-W6-style source-growth pressure.
+3. Include TaF readout, fixed-source/access, imported-structure, after-fact
+   singleton, and whole-family completion controls.
+4. Preserve no claim movement unless the full gate genuinely passes.
 
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-10: Capability-transport source-action fixture (RUN-0140)
 
