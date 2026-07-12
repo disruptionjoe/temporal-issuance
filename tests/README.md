@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- Completion-aware Adapter_P admission contract: `python tests/test_completion_aware_adapter_p_admission_contract.py`
 - OSAG pre-action family noncompletion constructor: `python tests/test_osag_preaction_family_noncompletion.py`
 - Whole-family completion barrier classifier: `python tests/test_whole_family_completion_barrier_classifier.py`
 - Research steering Wave 0 starter: `python tests/test_research_steering_wave0_starter.py`

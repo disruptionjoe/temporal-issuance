@@ -20,6 +20,14 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E167-completion-aware-adapter-p-admission-contract-2026-07-12.md`
+  executes H7 from the research-steering plan. It consumes H1/H2 as
+  preservation requirements and admits only formal/local OSAG support that
+  preserves `tau_n`, `Preserve_n`, the represented family index, candidate
+  provenance, H1 completion channels, and H2 family checks. Imported
+  completion, readout-only, missing-preservation, unsupported-provenance, and
+  posture-moving packets are rejected. No claim movement, no physical-source
+  claim, and no `TI-C020` reopen.
 - `E166-osag-preaction-family-noncompletion-2026-07-12.md`
   executes Wave 2 from the research-steering plan. H2 constructs a bounded
   formal/local OSAG shape with a pre-action family noncompletion rule over a

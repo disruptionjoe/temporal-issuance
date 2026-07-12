@@ -25,6 +25,16 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 Progress fan-out executed H7 in
+`explorations/E167-completion-aware-adapter-p-admission-contract-2026-07-12.md`.
+H7 turns H1 completion channels and H2 OSAG family checks into an admission
+contract for boundary, neighbor, or cross-repo candidate packets. It admits
+only formal/local OSAG support preserving `tau_n`, `Preserve_n`, represented
+family index, and provenance; imported completion, readout-only, and
+posture-moving packets are rejected. No claim movement, no physical-source
+claim, and no `TI-C020` reopen. H9/H5/H6 follow-on work should use this H7
+admission gate rather than treating branch finishability as priority.
+
 2026-07-12 Progress fan-out executed H2 in
 `explorations/E166-osag-preaction-family-noncompletion-2026-07-12.md`.
 H2 constructs a bounded formal/local `OSAG` shape over a finite represented

@@ -1,0 +1,113 @@
+{
+  "TI_C020_reopened": false,
+  "admitted_packet_ids": [
+    "boundary_osag_support"
+  ],
+  "claim_status_change": "none",
+  "decisions": [
+    {
+      "admitted": true,
+      "missing_requirements": [],
+      "packet_id": "boundary_osag_support",
+      "reason": "The packet admits only formal/local OSAG support while preserving H1/H2 fields.",
+      "source_kind": "boundary",
+      "terminal": false,
+      "verdict": "ADMITTED_FORMAL_LOCAL_OSAG_SUPPORT"
+    },
+    {
+      "admitted": false,
+      "missing_requirements": [
+        "represented_family_index",
+        "h2_family_checks",
+        "no_hidden_completion_oracle"
+      ],
+      "packet_id": "neighbor_completion_table",
+      "reason": "The packet imports a completion table, law, schema, or physical-source shortcut.",
+      "source_kind": "neighbor",
+      "terminal": true,
+      "verdict": "IMPORTED_COMPLETION_REJECTION"
+    },
+    {
+      "admitted": false,
+      "missing_requirements": [
+        "no_readout_only_language"
+      ],
+      "packet_id": "cross_repo_readout_language",
+      "reason": "The packet is finality/readout language rather than OSAG support.",
+      "source_kind": "cross_repo",
+      "terminal": true,
+      "verdict": "READOUT_ONLY_REJECTION"
+    },
+    {
+      "admitted": false,
+      "missing_requirements": [
+        "Preserve_n"
+      ],
+      "packet_id": "boundary_missing_preserve_n",
+      "reason": "The packet does not preserve the required H1/H2 Adapter_P fields.",
+      "source_kind": "boundary",
+      "terminal": false,
+      "verdict": "MISSING_PRESERVATION_REJECTION"
+    },
+    {
+      "admitted": false,
+      "missing_requirements": [
+        "candidate_provenance",
+        "no_imported_law_or_schema",
+        "formal_local_only",
+        "no_physical_source_claim",
+        "no_claim_status_movement"
+      ],
+      "packet_id": "physical_source_claim_shortcut",
+      "reason": "The packet imports a completion table, law, schema, or physical-source shortcut.",
+      "source_kind": "cross_repo",
+      "terminal": true,
+      "verdict": "IMPORTED_COMPLETION_REJECTION"
+    }
+  ],
+  "fixture_id": "completion_aware_adapter_p_admission_contract",
+  "h1_h2_floor": {
+    "h1_claim_status_change": "none",
+    "h1_completion_absorption_classes_seen": [
+      "CAPABILITY_COMPLETION_ABSORPTION",
+      "NAME_COMPLETION_ABSORPTION",
+      "PROVENANCE_ACTION_COMPLETION_ABSORPTION",
+      "VALUE_COMPLETION_ABSORPTION"
+    ],
+    "h1_physical_source_issuance_established": false,
+    "h1_required_flags": {
+      "all_completion_channels_exercised": true,
+      "preaction_family_noncompletion_required_for_escape": true
+    },
+    "h1_result": "narrowed_to_executable_classifier_and_preaction_family_noncompletion_target",
+    "h2_claim_status_change": "none",
+    "h2_osag_tuple": [
+      "Gamma_n",
+      "Adm_n",
+      "Cand_n",
+      "Gen_n",
+      "a_n",
+      "w_n",
+      "Gamma_n_plus_1",
+      "DeltaCap_n",
+      "tau_n",
+      "Preserve_n",
+      "AAN_family"
+    ],
+    "h2_physical_source_issuance_established": false,
+    "h2_required_flags": {
+      "after_fact_singleton_rejected": true,
+      "bounded_osag_constructed": true,
+      "fixed_completion_absorbed": true,
+      "imported_oracle_rejected": true,
+      "preaction_family_noncompletion_rule_generated_internal": true
+    },
+    "h2_result": "bounded_osag_shape_constructed_formal_local"
+  },
+  "h1_h2_floor_satisfied": true,
+  "h7_result": "completion_aware_formal_local_admission_contract_built",
+  "honest_current_result": "H7 admits only formal/local OSAG support that preserves tau_n, Preserve_n, the represented family index, candidate provenance, H1 completion channels, and H2 family checks. Imported completion, readout-only, and posture-moving packets are rejected.",
+  "kind": "h7_completion_aware_adapter_p_admission_contract",
+  "next_track_1_recommendation": "H9 physical calibration batch or H5/H6 separator only after a concrete candidate packet satisfies this H7 admission contract.",
+  "physical_source_issuance_established": false
+}

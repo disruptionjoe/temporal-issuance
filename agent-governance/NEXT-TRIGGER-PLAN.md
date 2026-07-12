@@ -9,6 +9,59 @@ intake_processed_by_run: RUN-0046
 
 # Next Trigger Plan
 
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: Research Steering Wave 3
+
+CapacityOS Progress fan-out executed H7 as the completion-aware `Adapter_P`
+admission contract.
+
+Primary artifact:
+
+```text
+explorations/E167-completion-aware-adapter-p-admission-contract-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/completion_aware_adapter_p_admission_contract.py
+tests/test_completion_aware_adapter_p_admission_contract.py
+tests/artifacts/completion_aware_adapter_p_admission_contract_result.json
+```
+
+Wave 3 result:
+
+```yaml
+h7_result: completion_aware_formal_local_admission_contract_built
+h1_h2_floor_satisfied: true
+admitted_packet_ids:
+  - boundary_osag_support
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> h9_h5_h6_follow_on_only_through_h7_admission_contract
+```
+
+Minimum contract:
+
+1. Use H7 as an admission gate for any H9 physical calibration, H5
+   multi-holder, or H6 completion-boundary packet.
+2. Do not admit imported completion, readout-only language, missing
+   preservation fields, unsupported provenance, or posture-moving packets.
+3. Preserve no claim movement unless a later durable artifact earns it.
+
+Priority firewall:
+
+```yaml
+current_track_1: H9/H5/H6 follow-on through H7 admission
+priority_rule: a branch can run only if it supplies a concrete candidate packet
+  that satisfies the H7 admission contract
+```
+
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: Research Steering Wave 2
 
 CapacityOS Progress fan-out executed H2 as the bounded OSAG pre-action family
