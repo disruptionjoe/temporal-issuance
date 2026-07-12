@@ -25,6 +25,15 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 Progress fan-out executed H8 in
+`explorations/E171-h8-d-fork-regime-signature-bundle-2026-07-12.md`.
+H8 packages three usable signatures for future D-FORK work: FTS depleting
+concave novelty, Godelian sustained novelty, and H6 bounded formal/local OSAG
+support. This is a signature bundle, not a decision procedure for the
+non-computable D-FORK bit. No claim movement, no physical-source claim, and no
+`TI-C020` reopen. Material progress now needs a new concrete H7-admitted
+packet, a sharper theorem target, or an intentionally selected follow-on gate.
+
 2026-07-12 Progress fan-out executed H6 in
 `explorations/E170-h6-completion-boundary-audit-2026-07-12.md`.
 Formal/local OSAG support is not merely external completion language, but it

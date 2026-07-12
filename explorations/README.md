@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E171-h8-d-fork-regime-signature-bundle-2026-07-12.md`
+  packages the current D-FORK boundary after H6. It reports FTS depleting
+  curvature, Godelian sustained curvature, and bounded formal/local OSAG
+  support as usable signatures while preserving the non-computable D-FORK
+  boundary. It does not decide the fork, establish physical source issuance,
+  reopen `TI-C020`, or move claims.
 - `E170-h6-completion-boundary-audit-2026-07-12.md`
   executes H6 after H9. Formal/local OSAG support is not merely external
   completion language, but it is only a bounded conditional form internal to

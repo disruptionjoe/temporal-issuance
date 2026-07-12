@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- H8 D-FORK regime signature bundle: `python tests/test_h8_d_fork_regime_signature_bundle.py`
 - H6 completion boundary audit: `python tests/test_h6_completion_boundary_audit.py`
 - H9 physical calibration batch: `python tests/test_h9_physical_calibration_batch.py`
 - H5 multi-holder H7 separator: `python tests/test_h5_multi_holder_h7_separator.py`

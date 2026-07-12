@@ -1,0 +1,112 @@
+{
+  "TI_C020_reopened": false,
+  "claim_status_change": "none",
+  "completion_boundary_set": true,
+  "curvature_separates_declared_regimes": true,
+  "d_fork_boundary_reportable": true,
+  "fixed_inputs": {
+    "d_fork_status": "non_computable_structural_bit_not_decided",
+    "h6_result": "formal_local_osag_support_bounded_conditional",
+    "n_curvature_result": "curvature_is_a_regime_signature_consistent_with_E041_E042"
+  },
+  "fixture_id": "h8_d_fork_regime_signature_bundle",
+  "formal_local_support_boundary": "bounded_conditional_form",
+  "honest_current_result": "H8 packages three usable signatures: FTS depleting curvature, Godelian sustained curvature, and bounded formal/local OSAG support. The bundle reports the D-FORK boundary and terminal controls; it does not decide the non-computable fork, establish physical source issuance, reopen TI-C020, or move claims.",
+  "kind": "d_fork_regime_signature_bundle_not_decision_procedure",
+  "next_track_1_recommendation": "Use H8 as a citation bundle for future D-FORK work; material progress now requires either a new concrete H7-admitted packet, a sharper theorem target, or an intentionally selected follow-on gate. Do not treat H8 as a D-FORK decision procedure.",
+  "physical_source_issuance_established": false,
+  "signature_rows": [
+    {
+      "claim_movement_allowed": false,
+      "physical_source_allowed": false,
+      "reason": "FTS shows the depleting concave N signature and an interior optimum; this is a declared-regime signature, not an oracle.",
+      "row_id": "fts_depleting_curvature",
+      "signature": "FTS_DEPLETING_CONCAVE_SIGNATURE",
+      "source": "E156/N-curvature",
+      "supports_track_1": true,
+      "terminal": false
+    },
+    {
+      "claim_movement_allowed": false,
+      "physical_source_allowed": false,
+      "reason": "The Godelian toy regime sustains novelty and has no forced interior optimum; this corroborates the D-FORK distinction without deciding it.",
+      "row_id": "godelian_sustained_curvature",
+      "signature": "GODELIAN_SUSTAINED_SIGNATURE",
+      "source": "E156/N-curvature",
+      "supports_track_1": true,
+      "terminal": false
+    },
+    {
+      "claim_movement_allowed": false,
+      "physical_source_allowed": false,
+      "reason": "H6 classifies formal/local OSAG support as bounded conditional form, not full source structure (bounded_conditional_form).",
+      "row_id": "h6_formal_local_osag_boundary",
+      "signature": "BOUNDED_FORMAL_LOCAL_OSAG_SIGNATURE",
+      "source": "H6/H7/H9",
+      "supports_track_1": true,
+      "terminal": false
+    },
+    {
+      "claim_movement_allowed": false,
+      "physical_source_allowed": false,
+      "reason": "The packet is observer-side readout, holder finality, or cross-repo language.",
+      "row_id": "terminal_split_holder_reversal_cost",
+      "signature": "COMPLETION_OR_READOUT_STOP",
+      "source": "H5",
+      "supports_track_1": false,
+      "terminal": true
+    },
+    {
+      "claim_movement_allowed": false,
+      "physical_source_allowed": false,
+      "reason": "The physical near-miss is absorbed by fixed sequence space or fixed platform/schedule.",
+      "row_id": "terminal_crispr_spacer_acquisition_near_miss",
+      "signature": "PHYSICAL_SOURCE_STOP",
+      "source": "H9",
+      "supports_track_1": false,
+      "terminal": true
+    },
+    {
+      "claim_movement_allowed": false,
+      "physical_source_allowed": false,
+      "reason": "The physical near-miss is absorbed by fixed sequence space or fixed platform/schedule.",
+      "row_id": "terminal_dynamic_floquet_code_negative_control",
+      "signature": "PHYSICAL_SOURCE_STOP",
+      "source": "H9",
+      "supports_track_1": false,
+      "terminal": true
+    },
+    {
+      "claim_movement_allowed": false,
+      "physical_source_allowed": false,
+      "reason": "The packet imports a completion table, law, oracle, or schema.",
+      "row_id": "terminal_neighbor_completion_table",
+      "signature": "COMPLETION_OR_READOUT_STOP",
+      "source": "H7",
+      "supports_track_1": false,
+      "terminal": true
+    },
+    {
+      "claim_movement_allowed": false,
+      "physical_source_allowed": false,
+      "reason": "The packet is observer-side readout, holder finality, or cross-repo language.",
+      "row_id": "terminal_cross_repo_readout_language",
+      "signature": "COMPLETION_OR_READOUT_STOP",
+      "source": "H7",
+      "supports_track_1": false,
+      "terminal": true
+    }
+  ],
+  "terminal_stop_row_ids": [
+    "terminal_split_holder_reversal_cost",
+    "terminal_crispr_spacer_acquisition_near_miss",
+    "terminal_dynamic_floquet_code_negative_control",
+    "terminal_neighbor_completion_table",
+    "terminal_cross_repo_readout_language"
+  ],
+  "track_1_signature_row_ids": [
+    "fts_depleting_curvature",
+    "godelian_sustained_curvature",
+    "h6_formal_local_osag_boundary"
+  ]
+}

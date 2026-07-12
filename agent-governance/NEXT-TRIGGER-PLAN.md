@@ -9,6 +9,60 @@ intake_processed_by_run: RUN-0046
 
 # Next Trigger Plan
 
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: H8 D-FORK Regime Signature Bundle
+
+CapacityOS Progress fan-out executed H8 after H6.
+
+Primary artifact:
+
+```text
+explorations/E171-h8-d-fork-regime-signature-bundle-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/h8_d_fork_regime_signature_bundle.py
+tests/test_h8_d_fork_regime_signature_bundle.py
+tests/artifacts/h8_d_fork_regime_signature_bundle_result.json
+```
+
+H8 result:
+
+```yaml
+h8_result: d_fork_regime_signature_bundle_not_decision_procedure
+d_fork_boundary_reportable: true
+curvature_separates_declared_regimes: true
+completion_boundary_set: true
+formal_local_support_boundary: bounded_conditional_form
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> gate_change_wait_after_h8_signature_bundle
+```
+
+Minimum contract:
+
+1. Use H8 as a citation bundle, not a D-FORK decision procedure.
+2. Resume material work only with a new concrete H7-admitted packet, a sharper
+   theorem target, or an intentionally selected follow-on gate.
+3. Preserve `TI-C020` parked unless a later durable artifact actually earns
+   reopening.
+4. Do not rerun H8 unless one of its fixed inputs changes.
+
+Priority firewall:
+
+```yaml
+current_track_1: gate-change wait after H8 signature bundle
+priority_rule: H8 reports usable signatures; it does not decide the
+  non-computable FTS/Godelian fork or upgrade H6 into physical source issuance.
+```
+
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: H6 Completion Boundary Audit
 
 CapacityOS Progress fan-out executed H6 after H9.
