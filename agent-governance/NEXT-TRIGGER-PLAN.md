@@ -3,11 +3,67 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0148
+updated_by_run: RUN-0149
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: H6 Completion Boundary Audit
+
+CapacityOS Progress fan-out executed H6 after H9.
+
+Primary artifact:
+
+```text
+explorations/E170-h6-completion-boundary-audit-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/h6_completion_boundary_audit.py
+tests/test_h6_completion_boundary_audit.py
+tests/artifacts/h6_completion_boundary_audit_result.json
+```
+
+H6 result:
+
+```yaml
+h6_result: formal_local_osag_support_bounded_conditional
+completion_boundary_set: true
+formal_local_support_boundary: bounded_conditional_form
+formal_local_support_is_external_completion_language: false
+formal_local_support_is_full_internal_source_structure: false
+physical_adapter_p_passed_case_ids: []
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> h8_d_fork_regime_signature_bundle
+```
+
+Minimum contract:
+
+1. Use H6 as fixed input: formal/local OSAG support is bounded conditional
+   form, not external completion language and not full source/physical proof.
+2. Package FTS/Godelian, completion-boundary, and formal/local OSAG signatures
+   without claim movement.
+3. Preserve `TI-C020` parked unless a later durable artifact actually earns
+   reopening.
+4. Do not rerun H6 unless a new concrete H7-admitted packet appears.
+
+Priority firewall:
+
+```yaml
+current_track_1: H8 D-FORK regime signature bundle
+priority_rule: H8 reports the boundary; it does not upgrade the H6 conditional
+  form into physical source issuance.
+```
 
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: H9 Physical Calibration Wave
 

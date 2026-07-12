@@ -1,0 +1,92 @@
+{
+  "TI_C020_reopened": false,
+  "bounded_internal_support_conditional": true,
+  "claim_status_change": "none",
+  "completion_boundary_set": true,
+  "decisions": [
+    {
+      "boundary_class": "bounded_conditional_form",
+      "boundary_verdict": "BOUNDED_INTERNAL_OSAG_CONDITIONAL",
+      "case_id": "formal_local_osag_support",
+      "h7_admitted": true,
+      "input_verdict": "H7_ADMITTED_FORMAL_LOCAL_OSAG_SUPPORT",
+      "physical_adapter_p_passed": false,
+      "reason": "The packet is internal to the bounded formal/local OSAG construction, but only under the H1/H2/H7 conditions and without physical Adapter_P passage.",
+      "source": "H7/H5/H9",
+      "terminal": false
+    },
+    {
+      "boundary_class": "observer_readout_or_finality",
+      "boundary_verdict": "READOUT_FINALITY_COMPLETION",
+      "case_id": "split_holder_reversal_cost",
+      "h7_admitted": true,
+      "input_verdict": "TAF_EXPRESSIBLE_READOUT",
+      "physical_adapter_p_passed": false,
+      "reason": "The packet is observer-side readout, holder finality, or cross-repo language.",
+      "source": "H5",
+      "terminal": true
+    },
+    {
+      "boundary_class": "fixed_source_physical_near_miss",
+      "boundary_verdict": "PHYSICAL_NEAR_MISS_ABSORBED",
+      "case_id": "crispr_spacer_acquisition_near_miss",
+      "h7_admitted": false,
+      "input_verdict": "CRISPR_FIXED_SEQUENCE_SPACE_ABSORBED",
+      "physical_adapter_p_passed": false,
+      "reason": "The physical near-miss is absorbed by fixed sequence space or fixed platform/schedule.",
+      "source": "H9",
+      "terminal": true
+    },
+    {
+      "boundary_class": "fixed_source_physical_near_miss",
+      "boundary_verdict": "PHYSICAL_NEAR_MISS_ABSORBED",
+      "case_id": "dynamic_floquet_code_negative_control",
+      "h7_admitted": false,
+      "input_verdict": "FLOQUET_FIXED_PLATFORM_SCHEDULE_ABSORBED",
+      "physical_adapter_p_passed": false,
+      "reason": "The physical near-miss is absorbed by fixed sequence space or fixed platform/schedule.",
+      "source": "H9",
+      "terminal": true
+    },
+    {
+      "boundary_class": "external_completion_or_import",
+      "boundary_verdict": "EXTERNAL_COMPLETION_LANGUAGE",
+      "case_id": "neighbor_completion_table",
+      "h7_admitted": false,
+      "input_verdict": "IMPORTED_COMPLETION_REJECTION",
+      "physical_adapter_p_passed": false,
+      "reason": "The packet imports a completion table, law, oracle, or schema.",
+      "source": "H7",
+      "terminal": true
+    },
+    {
+      "boundary_class": "observer_readout_or_finality",
+      "boundary_verdict": "READOUT_FINALITY_COMPLETION",
+      "case_id": "cross_repo_readout_language",
+      "h7_admitted": false,
+      "input_verdict": "READOUT_ONLY_REJECTION",
+      "physical_adapter_p_passed": false,
+      "reason": "The packet is observer-side readout, holder finality, or cross-repo language.",
+      "source": "H7",
+      "terminal": true
+    }
+  ],
+  "external_completion_controls_terminal": true,
+  "fixed_inputs": {
+    "h1": "whole-family completion channels are exercised",
+    "h2": "bounded formal/local OSAG shape is constructed",
+    "h5": "multi-holder cost is separated from source crossing",
+    "h7": "only formal/local OSAG support is admitted",
+    "h9": "current physical near-misses are absorbed"
+  },
+  "fixture_id": "h6_completion_boundary_audit",
+  "formal_local_support_boundary": "bounded_conditional_form",
+  "formal_local_support_is_external_completion_language": false,
+  "formal_local_support_is_full_internal_source_structure": false,
+  "h6_result": "formal_local_osag_support_bounded_conditional",
+  "honest_current_result": "Formal/local OSAG support is not merely external completion language, but H6 only licenses it as a bounded conditional form internal to the H1/H2/H7 construction. It is not full internal source structure, not physical Adapter_P passage, and not a claim-status movement.",
+  "kind": "h6_internal_external_completion_boundary_audit",
+  "next_track_1_recommendation": "Run H8 D-FORK regime signature bundle using the H6 boundary; do not rerun H6 unless a new concrete H7-admitted packet appears.",
+  "physical_adapter_p_passed_case_ids": [],
+  "physical_source_issuance_established": false
+}

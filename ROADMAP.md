@@ -25,6 +25,15 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 Progress fan-out executed H6 in
+`explorations/E170-h6-completion-boundary-audit-2026-07-12.md`.
+Formal/local OSAG support is not merely external completion language, but it
+is only a bounded conditional form internal to the H1/H2/H7 construction. It
+is not full internal source structure, not physical `Adapter_P` passage, and
+not claim movement. External completion, readout/finality, split-holder cost,
+CRISPR, and Dynamic/Floquet controls terminate without source movement. The
+next Track 1 route is H8: D-FORK regime signature bundle.
+
 2026-07-12 user-directed AI-epistemology-style wave executed H9 in
 `explorations/E169-h9-physical-calibration-wave-2026-07-12.md`.
 The wave used COI, two-route verification, generative re-rank, and

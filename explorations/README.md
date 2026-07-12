@@ -20,6 +20,14 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E170-h6-completion-boundary-audit-2026-07-12.md`
+  executes H6 after H9. Formal/local OSAG support is not merely external
+  completion language, but it is only a bounded conditional form internal to
+  the H1/H2/H7 construction. It is not full internal source structure, not
+  physical `Adapter_P` passage, and not claim movement. Imported completion,
+  readout/finality, split-holder cost, CRISPR, and Dynamic/Floquet controls
+  terminate without source movement. Next route: H8 D-FORK regime signature
+  bundle.
 - `E169-h9-physical-calibration-wave-2026-07-12.md`
   runs an AI-epistemology-style wave on H9 using COI, two-route verification,
   generative re-rank, and execution-mode selection. CRISPR spacer acquisition
