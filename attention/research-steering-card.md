@@ -21,12 +21,8 @@ Seeded from the 2026-07-12 inline council assessment:
 
 Current ranked list from `attention/priority_condorcet.py`:
 
-1. **H2: Pre-action family noncompletion source-action generator** - Builds the OSAG rule the H1 classifier identified as the only non-absorbed escape shape.
-2. **H7: Completion-aware Adapter_P admission contract** - Turns H1 completion channels into required preservation maps before any neighbor datum counts.
-3. **H9: H1 physical calibration batch** - Runs CRISPR near-miss and Dynamic/Floquet negative control through H1 plus Adapter_P.
-4. **H5: Multi-holder completion-channel separator** - Tests holder reversal cost against H1 capability-completion and TaF-readout absorbers.
-5. **H6: Internal versus external completion boundary theorem** - Clarifies where pre-action family noncompletion is internal rather than external completion language.
-6. **H8: D-FORK regime signature bundle** - Packages regime signatures after H2/H7 decide the operative source and admission contracts.
+1. **H6: Internal versus external completion boundary audit** - Decides whether the formal/local OSAG support is internal source structure or external completion language.
+2. **H8: D-FORK regime signature bundle** - Packages regime signatures after H6 sets the internal/external completion boundary.
 
 Re-rank by editing `ITEMS` and `BALLOTS` in `attention/priority_condorcet.py`, then re-run the script and paste the new ranked list here.
 
@@ -118,26 +114,32 @@ Discipline:
 | Item | State | Next admissible swing |
 | --- | --- | --- |
 | H1 Whole-family completion barrier theorem | Resolved as executable classifier in E165 | Preserve as dependency; do not rerun unless a concrete candidate breaks the classifier or a proof target becomes materially sharper. |
-| H2 Pre-action family noncompletion source-action generator | Live, highest ranked Track 1 | Construct or kill an internal pre-action family noncompletion rule that blocks value, name, provenance/action, and capability completion. |
-| H7 Completion-aware Adapter_P admission contract | Live adapter hardening | Require any GU, TaF, boundary, or external datum to preserve H1 completion-channel status before it counts. |
-| H9 H1 physical calibration batch | Live branch | Run CRISPR near-miss and Dynamic/Floquet negative control through H1 plus Adapter_P as calibration, not source evidence. |
-| H5 Multi-holder completion-channel separator | Live observer-leg test | Test whether holder reversal cost is source crossing or capability/readout completion under H1. |
-| H6 Internal versus external completion boundary theorem | Live clarifier | State when pre-action noncompletion is internal source structure rather than external completion language. |
-| H8 D-FORK regime signature bundle | Live synthesis, lower urgency | Bundle existing regime signatures after H2/H7 decide what source and admission contracts matter. |
+| H2 Pre-action family noncompletion source-action generator | Resolved as bounded formal/local OSAG in E166 | Preserve as dependency; do not promote to physical source action. |
+| H7 Completion-aware Adapter_P admission contract | Resolved as admission gate in E167 | Require any boundary, neighbor, or physical packet to pass this gate before use. |
+| H5 Multi-holder completion-channel separator | Resolved in E168 | Treat split-holder reversal/fork cost as TaF/readout unless additional H7-admitted source structure is supplied. |
+| H9 H1 physical calibration batch | Resolved in E169 | Current CRISPR and Dynamic/Floquet near-misses are absorbed; no physical Adapter_P pass. |
+| H6 Internal versus external completion boundary audit | Live, highest ranked Track 1 | Decide whether formal/local OSAG support is internal source structure, external completion language, or a bounded conditional form. |
+| H8 D-FORK regime signature bundle | Live synthesis, lower urgency | Bundle existing regime signatures after H6 sets the internal/external completion boundary. |
 
 Current swing status:
 
 ```yaml
-latest_material_result: E165 whole-family completion barrier classifier
-current_gate_state: h1_classifier_available_routes_to_preaction_family_noncompletion
-steering_override: H2 is now the Track 1 North Star after H1 narrowed the target
+latest_material_result: E169 H9 physical calibration wave
+current_gate_state: physical_near_misses_absorbed_formal_local_osag_support_only
+steering_override: H6 is now the Track 1 boundary audit after H2/H7/H5/H9 resolved
 wave0_started: true
 wave0_packet: explorations/E164-research-steering-wave0-starter-2026-07-12.md
 wave1_complete: true
 wave1_packet: explorations/E165-whole-family-completion-barrier-classifier-2026-07-12.md
-active_dependency_boundary: H2 pre-action family noncompletion source-action generator
-north_star_track: H2 construct or kill the OSAG rule required by H1
-branch_track: H7/H9/H5 report up to H2 and do not outrank it by finishability
+wave2_complete: true
+wave2_packet: explorations/E166-osag-preaction-family-noncompletion-2026-07-12.md
+wave3_complete: true
+wave3_packet: explorations/E167-completion-aware-adapter-p-admission-contract-2026-07-12.md
+wave4_complete: true
+wave4_packet: explorations/E169-h9-physical-calibration-wave-2026-07-12.md
+active_dependency_boundary: H6 internal versus external completion boundary audit
+north_star_track: H6 decide the status of formal/local OSAG support
+branch_track: H8 synthesis waits on H6
 claim_status_change: none
 physical_source_issuance_established: false
 ```
@@ -155,7 +157,7 @@ Then hand him the top few items in order with one-line whys.
 Default research route:
 
 ```text
-Wave 2: H2 pre-action family noncompletion source-action generator.
+Wave 5: H6 internal versus external completion boundary audit.
 ```
 
-Reason: Wave 1 resolved H1 as an executable classifier. The only non-absorbed H1 shape requires a pre-action family noncompletion rule, so H2 is now Track 1. H7, H9, and H5 are valuable branches, but their finishability does not move them above H2.
+Reason: H2 constructed only a bounded formal/local OSAG shape, H7 admitted only formal/local support, H5 absorbed multi-holder cost as readout, and H9 absorbed the current physical near-misses. The remaining live question is whether formal/local OSAG support is internal source structure, external completion language, or a bounded conditional form.

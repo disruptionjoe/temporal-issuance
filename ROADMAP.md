@@ -25,6 +25,16 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 user-directed AI-epistemology-style wave executed H9 in
+`explorations/E169-h9-physical-calibration-wave-2026-07-12.md`.
+The wave used COI, two-route verification, generative re-rank, and
+execution-mode selection from the AI epistemology method observations. CRISPR
+spacer acquisition is absorbed by fixed sequence space, Dynamic/Floquet code
+behavior is absorbed by fixed platform/schedule, and the only H7-admitted packet
+remains formal/local OSAG support. No physical Adapter_P case passes, no claim
+movement occurs, and `TI-C020` remains parked. The next Track 1 route is H6:
+internal versus external completion boundary audit.
+
 2026-07-12 Progress fan-out executed H5 in
 `explorations/E168-h5-multi-holder-h7-separator-2026-07-12.md`.
 With physical copy count and overwrite count matched, split-holder

@@ -3,11 +3,69 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0147
+updated_by_run: RUN-0148
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: H9 Physical Calibration Wave
+
+Joe asked to learn the AI epistemology repo's wave method and run one here.
+The wave used COI, differential verification, generative re-rank, and
+execution-mode selection from the AI epistemology method observations.
+
+Primary artifact:
+
+```text
+explorations/E169-h9-physical-calibration-wave-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/h9_physical_calibration_batch.py
+tests/test_h9_physical_calibration_batch.py
+tests/artifacts/h9_physical_calibration_batch_result.json
+```
+
+H9 result:
+
+```yaml
+h9_result: physical_calibration_near_misses_absorbed
+h7_floor_satisfied: true
+physical_near_misses_absorbed: true
+differential_routes_agree: true
+physical_adapter_p_passed_case_ids: []
+h7_admitted_case_ids:
+  - h7_boundary_osag_support_control
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> h6_internal_external_completion_boundary_audit
+```
+
+Minimum contract:
+
+1. Use H1, H2, H7, H5, and H9 results as fixed inputs.
+2. Decide whether formal/local OSAG support is internal source structure,
+   external completion language, or a bounded conditional form.
+3. Preserve no claim movement unless a later durable artifact actually earns it.
+4. Return a deterministic artifact that exits 0.
+
+Priority firewall:
+
+```yaml
+current_track_1: H6 internal versus external completion boundary audit
+current_track_2:
+  - H8 D-FORK regime signature bundle
+priority_rule: H8 waits until H6 sets the boundary
+```
 
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: H5 Multi-Holder H7 Separator
 

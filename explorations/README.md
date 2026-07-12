@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E169-h9-physical-calibration-wave-2026-07-12.md`
+  runs an AI-epistemology-style wave on H9 using COI, two-route verification,
+  generative re-rank, and execution-mode selection. CRISPR spacer acquisition
+  is absorbed by fixed sequence space, Dynamic/Floquet code behavior is
+  absorbed by fixed platform/schedule, and the only H7-admitted packet remains
+  formal/local OSAG support. No claim movement, no physical-source claim, and
+  no `TI-C020` reopen. Next route: H6.
 - `E168-h5-multi-holder-h7-separator-2026-07-12.md`
   executes H5 as a post-H7 separator. With physical copy count and overwrite
   count matched, split-holder reversal/fork cost is classified as

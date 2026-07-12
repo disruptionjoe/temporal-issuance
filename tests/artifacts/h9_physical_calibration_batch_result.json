@@ -1,0 +1,66 @@
+{
+  "TI_C020_reopened": false,
+  "ai_epistemology_wave_method": {
+    "M1_COI": "H9 candidates must satisfy H1 completion channels, H2 OSAG checks, H7 admission, and physical W-gates at once.",
+    "M3_differential_verification": "Each case is classified by a physical W-gate route and an H7 admission route.",
+    "M6_execution_mode": "H9 is a high-cascade shared-context gate, so it runs as one batched local pass rather than broad fan-out."
+  },
+  "claim_status_change": "none",
+  "differential_routes_agree": true,
+  "fixture_id": "h9_physical_calibration_batch",
+  "h7_admitted_case_ids": [
+    "h7_boundary_osag_support_control"
+  ],
+  "h7_admitted_packet_ids": [
+    "boundary_osag_support"
+  ],
+  "h7_floor_satisfied": true,
+  "h9_result": "physical_calibration_near_misses_absorbed",
+  "honest_current_result": "CRISPR spacer acquisition and dynamic/Floquet code behavior are useful calibrators, but both are absorbed by fixed sequence space or fixed platform/schedule before a source-crossing claim. The only H7-admitted packet remains formal/local OSAG support.",
+  "kind": "h9_physical_calibration_through_h1_h2_h7",
+  "next_track_1_recommendation": "H6 internal versus external completion boundary, or pause until a new concrete H7-admitted physical packet exists.",
+  "physical_adapter_p_passed_case_ids": [],
+  "physical_near_misses_absorbed": true,
+  "physical_source_issuance_established": false,
+  "results": [
+    {
+      "absorber_controls_supplied": false,
+      "case_id": "crispr_spacer_acquisition_near_miss",
+      "final_verdict": "CRISPR_FIXED_SEQUENCE_SPACE_ABSORBED",
+      "h7_admitted": false,
+      "h7_route_verdict": "MISSING_PRESERVATION_REJECTION",
+      "physical_adapter_p_passed": false,
+      "physical_route_verdict": "CRISPR_FIXED_SEQUENCE_SPACE_ABSORBED",
+      "reason": "The physical route reaches a terminal absorber before any source claim.",
+      "source_growth_core_witness": false,
+      "system_kind": "crispr",
+      "terminal": true
+    },
+    {
+      "absorber_controls_supplied": false,
+      "case_id": "dynamic_floquet_code_negative_control",
+      "final_verdict": "FLOQUET_FIXED_PLATFORM_SCHEDULE_ABSORBED",
+      "h7_admitted": false,
+      "h7_route_verdict": "MISSING_PRESERVATION_REJECTION",
+      "physical_adapter_p_passed": false,
+      "physical_route_verdict": "FLOQUET_FIXED_PLATFORM_SCHEDULE_ABSORBED",
+      "reason": "The physical route reaches a terminal absorber before any source claim.",
+      "source_growth_core_witness": false,
+      "system_kind": "dynamic_floquet_code",
+      "terminal": true
+    },
+    {
+      "absorber_controls_supplied": false,
+      "case_id": "h7_boundary_osag_support_control",
+      "final_verdict": "H7_ADMITTED_FORMAL_LOCAL_OSAG_SUPPORT",
+      "h7_admitted": true,
+      "h7_route_verdict": "ADMITTED_FORMAL_LOCAL_OSAG_SUPPORT",
+      "physical_adapter_p_passed": false,
+      "physical_route_verdict": "H7_ADMITTED_FORMAL_LOCAL_OSAG_SUPPORT",
+      "reason": "The packet is admitted only as formal/local OSAG support.",
+      "source_growth_core_witness": true,
+      "system_kind": "boundary",
+      "terminal": false
+    }
+  ]
+}

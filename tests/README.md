@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- H9 physical calibration batch: `python tests/test_h9_physical_calibration_batch.py`
 - H5 multi-holder H7 separator: `python tests/test_h5_multi_holder_h7_separator.py`
 - Completion-aware Adapter_P admission contract: `python tests/test_completion_aware_adapter_p_admission_contract.py`
 - OSAG pre-action family noncompletion constructor: `python tests/test_osag_preaction_family_noncompletion.py`

@@ -25,46 +25,30 @@ from itertools import combinations
 
 
 ITEMS = {
-    "H2": {
-        "title": "Pre-action family noncompletion source-action generator",
-        "why": "Builds the OSAG rule the H1 classifier identified as the only non-absorbed escape shape.",
-    },
-    "H5": {
-        "title": "Multi-holder completion-channel separator",
-        "why": "Tests holder reversal cost against H1 capability-completion and TaF-readout absorbers.",
-    },
     "H6": {
-        "title": "Internal versus external completion boundary theorem",
-        "why": "Clarifies where pre-action family noncompletion is internal rather than external completion language.",
-    },
-    "H7": {
-        "title": "Completion-aware Adapter_P admission contract",
-        "why": "Turns H1 completion channels into required preservation maps before any neighbor datum counts.",
+        "title": "Internal versus external completion boundary audit",
+        "why": "Decides whether the formal/local OSAG support is internal source structure or external completion language.",
     },
     "H8": {
         "title": "D-FORK regime signature bundle",
-        "why": "Packages regime signatures after H2/H7 decide the operative source and admission contracts.",
-    },
-    "H9": {
-        "title": "H1 physical calibration batch",
-        "why": "Runs CRISPR near-miss and Dynamic/Floquet negative control through H1 plus Adapter_P.",
+        "why": "Packages regime signatures after H6 sets the internal/external completion boundary.",
     },
 }
 
 
 BALLOTS = {
-    "orthodox_professor": ["H6", "H2", "H7", "H9", "H5", "H8"],
-    "heterodox_rigorous_professor": ["H2", "H7", "H6", "H5", "H9", "H8"],
-    "commercial_scientist": ["H9", "H5", "H7", "H2", "H6", "H8"],
-    "philosopher_of_science": ["H2", "H6", "H7", "H5", "H9", "H8"],
-    "wild_frontier_scientist": ["H2", "H9", "H5", "H7", "H8", "H6"],
-    "computability_proof_theory": ["H2", "H6", "H7", "H8", "H5", "H9"],
-    "category_sheaf_topos": ["H7", "H2", "H6", "H8", "H9", "H5"],
-    "quantum_operator_algebra": ["H9", "H7", "H2", "H5", "H6", "H8"],
-    "thermo_information": ["H5", "H9", "H2", "H7", "H6", "H8"],
-    "cosmology_boundary_physics": ["H7", "H2", "H9", "H6", "H5", "H8"],
-    "distributed_systems_finality": ["H5", "H7", "H2", "H9", "H6", "H8"],
-    "evolution_open_endedness": ["H9", "H2", "H5", "H7", "H6", "H8"],
+    "orthodox_professor": ["H6", "H8"],
+    "heterodox_rigorous_professor": ["H6", "H8"],
+    "commercial_scientist": ["H6", "H8"],
+    "philosopher_of_science": ["H6", "H8"],
+    "wild_frontier_scientist": ["H8", "H6"],
+    "computability_proof_theory": ["H6", "H8"],
+    "category_sheaf_topos": ["H6", "H8"],
+    "quantum_operator_algebra": ["H6", "H8"],
+    "thermo_information": ["H6", "H8"],
+    "cosmology_boundary_physics": ["H8", "H6"],
+    "distributed_systems_finality": ["H6", "H8"],
+    "evolution_open_endedness": ["H8", "H6"],
 }
 
 
