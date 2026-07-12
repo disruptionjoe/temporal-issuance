@@ -3,11 +3,67 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0153
+updated_by_run: RUN-0154
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: T3 T2 Counterexample Gate Validator
+
+Joe asked to run the next wave after T2 had already been executed by progress
+fan-out. Wave 9 executed a nonduplicative T2 contract-testing gate.
+
+Primary artifact:
+
+```text
+explorations/E174-t3-t2-counterexample-gate-validator-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/t3_t2_counterexample_gate_validator.py
+tests/test_t3_t2_counterexample_gate_validator.py
+tests/artifacts/t3_t2_counterexample_gate_validator_result.json
+```
+
+T3 result:
+
+```yaml
+t3_result: t2_counterexample_gate_validated_no_real_packet_found
+counterexample_gate_validated: true
+real_counterexample_packet_found: false
+synthetic_revision_control_id: synthetic_full_counterexample_control
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> gate_change_wait_after_t3_until_real_h7_packet_or_distinct_contract_gate
+```
+
+Minimum contract:
+
+1. Do not repeat T2 or T3 unless fixed inputs change.
+2. A real packet must pass E172/E173 obligations before claim movement.
+3. A deliberate gate must test the T2 contract in a new way and preserve the
+   no-overclaim limits.
+4. Synthetic controls validate falsifiability only; they are not evidence that
+   a real source packet exists.
+5. Preserve no claim movement unless a later durable artifact actually earns it.
+
+Priority firewall:
+
+```yaml
+current_track_1: gate-change wait after T3 validator
+priority_rule: the bounded contract has been packaged and its gate validated.
+  The North Star now needs real packet evidence or a distinct contract stressor,
+  not more theorem-packaging closure.
+```
 
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: T2 Bounded Completion-Barrier Theorem Contract
 

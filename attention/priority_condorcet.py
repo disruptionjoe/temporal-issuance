@@ -25,38 +25,34 @@ from itertools import combinations
 
 
 ITEMS = {
-    "T2": {
-        "title": "Mechanize bounded completion-barrier theorem contract",
-        "why": "Use E172's bounded target to force or kill the current Adapter_P trace class without universalizing it.",
-    },
     "P1": {
-        "title": "New H7-admitted packet intake",
-        "why": "If a concrete candidate appears, test it through E172's counterexample obligations before any claim movement.",
+        "title": "Real H7-admitted packet intake",
+        "why": "Only a real packet through the E172/E173 obligations can revise the bounded contract or move claims.",
     },
-    "G1": {
-        "title": "Intentional follow-on gate selection",
-        "why": "Choose a new gate only if it advances the North Star and does not upgrade H8 into a decision procedure.",
+    "G2": {
+        "title": "Distinct T2 contract stressor gate",
+        "why": "Run only if it tests the T2 contract in a new way without repeating T3 or broadening the claim.",
     },
     "W000": {
-        "title": "Gate-change wait after E172 theorem target",
-        "why": "Use this state when there is no theorem packaging, new packet, or selected follow-on gate.",
+        "title": "Gate-change wait after T3 validator",
+        "why": "Use this state when there is no real packet and no distinct contract-testing gate.",
     },
 }
 
 
 BALLOTS = {
-    "orthodox_professor": ["T2", "P1", "G1", "W000"],
-    "heterodox_rigorous_professor": ["T2", "G1", "P1", "W000"],
-    "commercial_scientist": ["P1", "T2", "G1", "W000"],
-    "philosopher_of_science": ["T2", "G1", "P1", "W000"],
-    "wild_frontier_scientist": ["P1", "T2", "G1", "W000"],
-    "computability_proof_theory": ["T2", "G1", "P1", "W000"],
-    "category_sheaf_topos": ["T2", "P1", "G1", "W000"],
-    "quantum_operator_algebra": ["P1", "T2", "G1", "W000"],
-    "thermo_information": ["T2", "G1", "P1", "W000"],
-    "cosmology_boundary_physics": ["G1", "T2", "P1", "W000"],
-    "distributed_systems_finality": ["P1", "T2", "G1", "W000"],
-    "evolution_open_endedness": ["T2", "P1", "G1", "W000"],
+    "orthodox_professor": ["P1", "G2", "W000"],
+    "heterodox_rigorous_professor": ["G2", "P1", "W000"],
+    "commercial_scientist": ["P1", "G2", "W000"],
+    "philosopher_of_science": ["P1", "G2", "W000"],
+    "wild_frontier_scientist": ["P1", "G2", "W000"],
+    "computability_proof_theory": ["P1", "G2", "W000"],
+    "category_sheaf_topos": ["G2", "P1", "W000"],
+    "quantum_operator_algebra": ["P1", "G2", "W000"],
+    "thermo_information": ["P1", "G2", "W000"],
+    "cosmology_boundary_physics": ["G2", "P1", "W000"],
+    "distributed_systems_finality": ["P1", "G2", "W000"],
+    "evolution_open_endedness": ["P1", "G2", "W000"],
 }
 
 

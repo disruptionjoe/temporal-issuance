@@ -25,6 +25,16 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 user-directed Wave 9 executed T3 in
+`explorations/E174-t3-t2-counterexample-gate-validator-2026-07-12.md`.
+The wave validates E173's counterexample gate with adversarial packet rows.
+Current near-miss classes fail the gate, imported completion/readout/H8
+shortcut controls are rejected, and a synthetic full counterexample control
+would trigger contract revision. No real counterexample packet is found. No
+claim movement, no physical-source claim, and no `TI-C020` reopen. The next
+state is gate-change wait until a real H7-admitted packet or a distinct
+contract-testing gate appears.
+
 2026-07-12 Progress fan-out executed T2 in
 `explorations/E173-t2-bounded-completion-barrier-theorem-contract-2026-07-12.md`.
 The run packages E172's bounded completion-barrier target as

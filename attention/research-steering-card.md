@@ -21,10 +21,9 @@ Seeded from the 2026-07-12 inline council assessment:
 
 Current ranked list from `attention/priority_condorcet.py`:
 
-1. **T2: Mechanize bounded completion-barrier theorem contract** - Use E172's bounded target to force or kill the current Adapter_P trace class without universalizing it.
-2. **P1: New H7-admitted packet intake** - If a concrete candidate appears, test it through E172's counterexample obligations before any claim movement.
-3. **G1: Intentional follow-on gate selection** - Choose a new gate only if it advances the North Star and does not upgrade H8 into a decision procedure.
-4. **W000: Gate-change wait after E172 theorem target** - Use this state when there is no theorem packaging, new packet, or selected follow-on gate.
+1. **P1: Real H7-admitted packet intake** - Only a real packet through the E172/E173 obligations can revise the bounded contract or move claims.
+2. **G2: Distinct T2 contract stressor gate** - Run only if it tests the T2 contract in a new way without repeating T3 or broadening the claim.
+3. **W000: Gate-change wait after T3 validator** - Use this state when there is no real packet and no distinct contract-testing gate.
 
 Re-rank by editing `ITEMS` and `BALLOTS` in `attention/priority_condorcet.py`, then re-run the script and paste the new ranked list here.
 
@@ -134,16 +133,17 @@ Discipline:
 | H6 Internal versus external completion boundary audit | Resolved in E170 | Formal/local OSAG support is bounded conditional form, not external completion language, full internal source structure, or physical Adapter_P passage. |
 | H8 D-FORK regime signature bundle | Resolved in E171 | Use as a citation bundle, not a D-FORK decision procedure. |
 | T1 Sharper completion-barrier theorem target | Resolved in E172 | The bounded Adapter_P completion-barrier theorem target is ready; universal no-go, physical-source, and D-FORK-decision overclaims are blocked. |
-| T2 Mechanize bounded completion-barrier theorem contract | Live Track 1 | Convert E172's bounded theorem target into a proof package or executable theorem contract over the current trace class. |
-| P1 New H7-admitted packet intake | Conditional restart route | If a concrete candidate appears, test it through E172's counterexample obligations before any claim movement. |
-| G1 Intentional follow-on gate selection | Conditional restart route | Select only a gate that advances the North Star and does not treat H8 as deciding D-FORK. |
+| T2 Mechanize bounded completion-barrier theorem contract | Resolved in E173 | Packaged the bounded contract `bounded_adapter_p_completion_barrier_v1`; no universal no-go, physical-source, or D-FORK-decision claim. |
+| T3 T2 counterexample gate validator | Resolved in E174 | Validated the gate with adversarial rows; current near-misses fail, synthetic full control would force revision, and no real packet is found. |
+| P1 Real H7-admitted packet intake | Conditional Track 1 | If a real concrete candidate appears, test it through E172/E173 obligations before any claim movement. |
+| G2 Distinct T2 contract stressor gate | Conditional support | Select only if it tests the T2 contract in a new way without repeating T3 or broadening the claim. |
 
 Current swing status:
 
 ```yaml
-latest_material_result: E172 T1 completion-barrier theorem target
-current_gate_state: bounded_theorem_target_ready
-steering_override: mechanize the bounded theorem target unless a concrete H7-admitted packet appears
+latest_material_result: E174 T3 T2 counterexample gate validator
+current_gate_state: t2_counterexample_gate_validated_no_real_packet_found
+steering_override: wait for a real H7-admitted packet or a distinct T2 contract-testing gate
 wave0_started: true
 wave0_packet: explorations/E164-research-steering-wave0-starter-2026-07-12.md
 wave1_complete: true
@@ -160,12 +160,19 @@ wave6_complete: true
 wave6_packet: explorations/E171-h8-d-fork-regime-signature-bundle-2026-07-12.md
 wave7_complete: true
 wave7_packet: explorations/E172-t1-completion-barrier-theorem-target-2026-07-12.md
-active_dependency_boundary: T2 bounded theorem contract packaging
-north_star_track: force or kill the bounded Adapter_P trace class
-branch_track: P1 only if a new concrete H7-admitted packet appears
+wave8_complete: true
+wave8_packet: explorations/E173-t2-bounded-completion-barrier-theorem-contract-2026-07-12.md
+wave9_complete: true
+wave9_packet: explorations/E174-t3-t2-counterexample-gate-validator-2026-07-12.md
+active_dependency_boundary: real H7-admitted packet or distinct contract-testing gate
+north_star_track: test the bounded contract only with real packet evidence or nonduplicative gate
+branch_track: none
 formal_local_support_boundary: bounded_conditional_form
 d_fork_signature_bundle_reportable: true
 bounded_theorem_target_ready: true
+bounded_theorem_contract_packaged: true
+t2_counterexample_gate_validated: true
+real_counterexample_packet_found: false
 claim_status_change: none
 physical_source_issuance_established: false
 ```
@@ -183,7 +190,7 @@ Then hand him the top few items in order with one-line whys.
 Default research route:
 
 ```text
-Wave 8: T2 mechanize bounded completion-barrier theorem contract.
+Post-T3 gate-change wait.
 ```
 
-Reason: E172 turns the post-H8 wait state into a bounded, killable theorem target over the current `Adapter_P` trace class. The next move is to package or mechanize that target without upgrading it into a universal physics no-go. If a new concrete H7-admitted packet appears first, route it through E172's counterexample obligations.
+Reason: E173 packages the bounded contract and E174 validates the counterexample gate without finding a real packet. Material progress now requires a real concrete H7-admitted packet or a distinct deliberate gate that tests the T2 contract without repeating T3 or broadening the claim.

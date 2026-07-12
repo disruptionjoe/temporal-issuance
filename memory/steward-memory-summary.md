@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0153
+last_summarized_run: RUN-0154
 ---
 
 # Steward Memory Summary
@@ -27,10 +27,19 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: bounded_completion_barrier_theorem_contract_packaged
+strongest_current_fixture_result: t2_counterexample_gate_validated_no_real_packet_found
 bare_Ext_S_derives_connection: no
-next_required_test: wait_for_new_h7_packet_or_deliberate_t2_contract_gate
+next_required_test: wait_for_real_h7_packet_or_distinct_t2_contract_gate
 ```
+
+RUN-0154 adds: Wave 9 executed T3 after detecting that T2 was already present.
+T3 validates the E173 counterexample gate with adversarial packet rows. Current
+near-miss classes fail, imported completion/readout/H8-decision shortcuts are
+rejected, and a synthetic full counterexample control would trigger contract
+revision. No real counterexample packet is found. No claim movement, no
+physical-source claim, and no TI-C020 reopen. The next state is gate-change
+wait unless a real H7-admitted packet appears or an intentional distinct gate
+tests the T2 contract.
 
 RUN-0153 adds: Wave 8 executed T2 by packaging E172's bounded
 completion-barrier target as `bounded_adapter_p_completion_barrier_v1`. The

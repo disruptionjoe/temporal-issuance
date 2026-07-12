@@ -1,0 +1,165 @@
+{
+  "TI_C020_reopened": false,
+  "claim_status_change": "none",
+  "contract_ready": true,
+  "counterexample_gate_validated": true,
+  "counterexample_obligations": [
+    "new_concrete_packet",
+    "h7_admitted",
+    "maps_all_adapter_p_fields",
+    "preserves_tau_n",
+    "preserves_preserve_n",
+    "preserves_represented_family_index",
+    "preserves_candidate_provenance",
+    "no_hidden_completion_oracle",
+    "no_imported_law_or_schema",
+    "not_readout_or_finality_only",
+    "defeats_value_completion",
+    "defeats_name_completion",
+    "defeats_provenance_action_completion",
+    "defeats_capability_completion",
+    "supplies_w1_non_isomorphic_physical_algebra",
+    "supplies_w4_perturbation_non_factorization",
+    "supplies_w5_record_preservation_comparison",
+    "defeats_whole_family_completion",
+    "does_not_treat_h8_as_d_fork_decision"
+  ],
+  "decisions": [
+    {
+      "control_only": false,
+      "missing_obligations": [
+        "new_concrete_packet",
+        "supplies_w1_non_isomorphic_physical_algebra",
+        "supplies_w4_perturbation_non_factorization",
+        "supplies_w5_record_preservation_comparison",
+        "defeats_whole_family_completion"
+      ],
+      "packet_id": "bounded_formal_local_osag_support",
+      "reason": "Bounded formal/local support remains conditional and nonphysical; it lacks the physical W1/W4/W5 and whole-family defeat obligations.",
+      "revision_trigger": false,
+      "terminal": false,
+      "verdict": "BOUNDED_CONDITIONAL_NOT_COUNTEREXAMPLE"
+    },
+    {
+      "control_only": false,
+      "missing_obligations": [
+        "h7_admitted",
+        "supplies_w1_non_isomorphic_physical_algebra",
+        "supplies_w4_perturbation_non_factorization",
+        "supplies_w5_record_preservation_comparison",
+        "defeats_whole_family_completion"
+      ],
+      "packet_id": "crispr_like_fixed_sequence_near_miss",
+      "reason": "The physical-looking row is not H7-admitted and lacks W1/W4/W5 plus whole-family completion defeat.",
+      "revision_trigger": false,
+      "terminal": true,
+      "verdict": "PHYSICAL_NEAR_MISS_NOT_COUNTEREXAMPLE"
+    },
+    {
+      "control_only": false,
+      "missing_obligations": [
+        "no_hidden_completion_oracle"
+      ],
+      "packet_id": "imported_completion_oracle_packet",
+      "reason": "The packet imports completion structure.",
+      "revision_trigger": false,
+      "terminal": true,
+      "verdict": "IMPORTED_STRUCTURE_REJECTED"
+    },
+    {
+      "control_only": false,
+      "missing_obligations": [
+        "not_readout_or_finality_only"
+      ],
+      "packet_id": "readout_finality_packet",
+      "reason": "The packet is readout or finality only.",
+      "revision_trigger": false,
+      "terminal": true,
+      "verdict": "READOUT_FINALITY_REJECTED"
+    },
+    {
+      "control_only": false,
+      "missing_obligations": [
+        "does_not_treat_h8_as_d_fork_decision"
+      ],
+      "packet_id": "h8_decision_shortcut_packet",
+      "reason": "The packet attempts to upgrade H8 into a D-FORK decision.",
+      "revision_trigger": false,
+      "terminal": true,
+      "verdict": "D_FORK_DECISION_SHORTCUT_REJECTED"
+    },
+    {
+      "control_only": false,
+      "missing_obligations": [
+        "supplies_w4_perturbation_non_factorization"
+      ],
+      "packet_id": "partial_physical_packet_missing_w4",
+      "reason": "The packet leaves at least one T2 counterexample obligation unmet.",
+      "revision_trigger": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "control_only": true,
+      "missing_obligations": [],
+      "packet_id": "synthetic_full_counterexample_control",
+      "reason": "The packet satisfies every T2 counterexample obligation. Because this row is a control, it validates gate falsifiability without supplying real source evidence.",
+      "revision_trigger": true,
+      "terminal": false,
+      "verdict": "CONTRACT_REVISION_TRIGGERED"
+    }
+  ],
+  "depends_on_fixture_id": "t2_bounded_completion_barrier_theorem_contract",
+  "fixture_id": "t3_t2_counterexample_gate_validator",
+  "honest_current_result": "T3 validates that the T2 counterexample gate is falsifiable and rejects current near-miss classes. The only revision trigger is a synthetic control row, so no source claim moves.",
+  "kind": "t2_contract_counterexample_gate_validator",
+  "next_track_1_recommendation": "Do not repeat T3. Resume material work only with a real concrete H7-admitted packet or a distinct deliberate gate that tests the T2 contract without broadening it.",
+  "packets": [
+    {
+      "control_only": false,
+      "description": "The known H6 bounded formal/local OSAG support row. It is internal to the bounded construction but not physical.",
+      "packet_id": "bounded_formal_local_osag_support"
+    },
+    {
+      "control_only": false,
+      "description": "A physical-looking near miss absorbed by fixed sequence space and missing H7 plus W1/W4/W5.",
+      "packet_id": "crispr_like_fixed_sequence_near_miss"
+    },
+    {
+      "control_only": false,
+      "description": "A packet with a hidden global completion oracle.",
+      "packet_id": "imported_completion_oracle_packet"
+    },
+    {
+      "control_only": false,
+      "description": "A packet whose surplus is readout or finality only.",
+      "packet_id": "readout_finality_packet"
+    },
+    {
+      "control_only": false,
+      "description": "A packet that treats H8 as a D-FORK decision.",
+      "packet_id": "h8_decision_shortcut_packet"
+    },
+    {
+      "control_only": false,
+      "description": "A mostly physical packet that still lacks W4 perturbation non-factorization.",
+      "packet_id": "partial_physical_packet_missing_w4"
+    },
+    {
+      "control_only": true,
+      "description": "A synthetic control row satisfying every counterexample obligation. It validates that the gate is killable, but is not repo evidence that such a packet exists.",
+      "packet_id": "synthetic_full_counterexample_control"
+    }
+  ],
+  "physical_source_issuance_established": false,
+  "real_counterexample_packet_found": false,
+  "synthetic_revision_control_id": "synthetic_full_counterexample_control",
+  "t3_result": "t2_counterexample_gate_validated_no_real_packet_found",
+  "terminal_control_ids": [
+    "crispr_like_fixed_sequence_near_miss",
+    "imported_completion_oracle_packet",
+    "readout_finality_packet",
+    "h8_decision_shortcut_packet"
+  ],
+  "theorem_contract_id": "bounded_adapter_p_completion_barrier_v1"
+}
