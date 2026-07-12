@@ -25,6 +25,13 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-10)
 
+2026-07-12 user-directed research-steering wave: Wave 0 is started in
+`explorations/E164-research-steering-wave0-starter-2026-07-12.md`. H1 is now
+the active dependency boundary: define the bounded `Adapter_P` trace class and
+turn whole-family completion into a theorem or executable classifier target.
+H2, H3/H4, H5, and H7 have starter contracts only. No claim movement, no
+physical-source claim, and no `TI-C020` reopen.
+
 RUN-0142 ran the full Adapter_P pressure pass on the RUN-0141 / E162
 stage-stratified diagonal trace. The trace maps Adapter_P fields and survives as
 a formal/local shape, but it does not pass physical Adapter_P: no real physical

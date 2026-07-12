@@ -125,6 +125,9 @@ Current swing status:
 latest_material_result: E163 full Adapter_P diagonal trace pressure
 current_gate_state: compact_no_worthy_work_until_real_physical_candidate_or_sharper_theorem_target
 steering_override: sharper theorem target now named as H1
+wave0_started: true
+wave0_packet: explorations/E164-research-steering-wave0-starter-2026-07-12.md
+active_dependency_boundary: H1 whole-family completion barrier theorem
 claim_status_change: none
 physical_source_issuance_established: false
 ```
@@ -139,10 +142,10 @@ python attention/priority_condorcet.py
 
 Then hand him the top few items in order with one-line whys.
 
-Default research route when work begins:
+Default research route:
 
 ```text
-Wave 1: H1 solo
+Wave 1: H1 whole-family completion barrier theorem or executable classifier.
 ```
 
-Reason: H1 decides the target class for H2 and prevents H3/H4 from becoming another candidate-scout loop. If H1 narrows to an executable classifier rather than a proof, H3 and H4 can run as a parallel calibration batch immediately after. If H1 exposes a precise non-completion axiom, H2 becomes the next solo construction target.
+Reason: Wave 0 started H2, H3/H4, H5, and H7 as starter packets only. H1 now decides the target class for H2 and prevents H3/H4 from becoming another candidate-scout loop. If H1 narrows to an executable classifier rather than a proof, H3 and H4 can run as a parallel calibration batch immediately after. If H1 exposes a precise non-completion axiom, H2 becomes the next solo construction target.

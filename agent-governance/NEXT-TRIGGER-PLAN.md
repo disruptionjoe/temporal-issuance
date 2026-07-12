@@ -9,6 +9,55 @@ intake_processed_by_run: RUN-0046
 
 # Next Trigger Plan
 
+## USER-DIRECTED WAVE STARTED 2026-07-12: Research Steering Wave 0
+
+Joe opened the research-steering lane and asked to orchestrate a wave from the
+attention priority list.
+
+Primary artifact:
+
+```text
+explorations/E164-research-steering-wave0-starter-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/research_steering_wave0_starter.py
+tests/test_research_steering_wave0_starter.py
+tests/artifacts/research_steering_wave0_starter_result.json
+```
+
+Wave 0 started:
+
+```yaml
+blocking_lane: H1 whole-family completion barrier theorem
+dependent_starter: H2 operative source-action generator
+sidecar_starters:
+  - H3/H4 physical calibration pair
+  - H5 multi-holder reversal-cost separator
+  - H7 Adapter_P preservation-map contract
+claim_status_change: none
+physical_source_issuance_established: false
+```
+
+Active next trigger:
+
+```text
+W000 -> research_steering_wave1_h1_completion_barrier
+```
+
+Minimum contract:
+
+1. Define the bounded record-preserving `Adapter_P` trace class.
+2. Distinguish value completion, name completion, provenance/action completion,
+   and capability completion.
+3. Prove, refute, or executable-classify when whole-family completion absorbs
+   finite-prefix source traces.
+4. Preserve no claim movement unless a later durable artifact actually earns it.
+5. Do not run H2 construction or H3/H4 execution until H1 names the target class
+   they must escape.
+
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-10: Full Adapter_P diagonal trace pressure (RUN-0142)
 
 Fired the RUN-0141 next trigger:

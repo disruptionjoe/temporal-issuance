@@ -1,0 +1,70 @@
+{
+  "blocking_lane": "H1",
+  "dependent_starter_lanes": [
+    "H2"
+  ],
+  "errors": [],
+  "lanes": {
+    "H1": {
+      "depends_on": [],
+      "mode": "solo_theorem_or_classifier_target",
+      "starter_output": "bounded Adapter_P trace class plus completion-barrier proof target",
+      "title": "Whole-family completion barrier theorem",
+      "wave_role": "blocking_lane",
+      "write_scope": [
+        "explorations/E164",
+        "tools/research_steering_wave0_starter.py"
+      ]
+    },
+    "H2": {
+      "depends_on": [
+        "H1"
+      ],
+      "mode": "brief_only_until_H1_names_target_class",
+      "starter_output": "candidate internal anti-after-naming principles and H1 dependencies",
+      "title": "Operative source-action generator",
+      "wave_role": "dependent_starter",
+      "write_scope": [
+        "explorations/E164"
+      ]
+    },
+    "H3_H4": {
+      "depends_on": [],
+      "mode": "parallel_fixture_contract_prep",
+      "starter_output": "CRISPR and dynamic/Floquet minimal fixture contracts",
+      "title": "Physical near-miss calibration pair",
+      "wave_role": "sidecar_starter",
+      "write_scope": [
+        "explorations/E164"
+      ]
+    },
+    "H5": {
+      "depends_on": [],
+      "mode": "finite_fixture_contract_prep",
+      "starter_output": "finite distinct-holder fixture with TaF and thermodynamic controls",
+      "title": "Multi-holder reversal-cost source/readout separator",
+      "wave_role": "sidecar_starter",
+      "write_scope": [
+        "explorations/E164"
+      ]
+    },
+    "H7": {
+      "depends_on": [],
+      "mode": "checker_schema_prep",
+      "starter_output": "minimal preservation-map checker schema",
+      "title": "Adapter_P preservation-map contract",
+      "wave_role": "sidecar_starter",
+      "write_scope": [
+        "explorations/E164"
+      ]
+    }
+  },
+  "next_dependency_boundary": "H2 construction and H3/H4 execution wait for H1 target-class result.",
+  "sidecar_lanes": [
+    "H3_H4",
+    "H5",
+    "H7"
+  ],
+  "valid": true,
+  "wave_id": "research_steering_wave0_starter"
+}

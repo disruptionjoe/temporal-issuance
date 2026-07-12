@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E164-research-steering-wave0-starter-2026-07-12.md`
+  starts the user-directed research-steering wave. H1 is the blocking lane
+  for a whole-family completion barrier theorem or executable classifier. H2
+  is started only as a dependent source-action-generator brief, while H3/H4,
+  H5, and H7 are prepared as sidecar starter contracts. No claim movement,
+  no physical-source claim, and no `TI-C020` reopen.
 - `E163-full-adapter-p-diagonal-trace-pressure-2026-07-10.md`
   executes the full Adapter_P pressure pass on the E162 stage-stratified
   diagonal trace. The trace maps Adapter_P fields and survives as a formal/local

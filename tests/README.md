@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- Research steering Wave 0 starter: `python tests/test_research_steering_wave0_starter.py`
 - Run-record schema audit: `python tests/test_run_record_schema_audit.py`
 - Full Adapter_P diagonal trace pressure fixture: `python tests/test_full_adapter_p_diagonal_trace_pressure.py`
 - Anti-after-naming source-action trace fixture: `python tests/test_anti_after_naming_source_action_trace_fixture.py`
