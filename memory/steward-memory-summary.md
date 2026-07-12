@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0152
+last_summarized_run: RUN-0153
 ---
 
 # Steward Memory Summary
@@ -27,10 +27,21 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: bounded_completion_barrier_theorem_target_ready
+strongest_current_fixture_result: bounded_completion_barrier_theorem_contract_packaged
 bare_Ext_S_derives_connection: no
-next_required_test: t2_mechanize_bounded_completion_barrier_theorem_contract_unless_new_h7_packet
+next_required_test: wait_for_new_h7_packet_or_deliberate_t2_contract_gate
 ```
+
+RUN-0153 adds: Wave 8 executed T2 by packaging E172's bounded
+completion-barrier target as `bounded_adapter_p_completion_barrier_v1`. The
+contract is bounded to the current post-H8 record-preserving `Adapter_P` trace
+class and states that source issuance is not established without a new concrete
+H7-admitted packet satisfying the E172 counterexample obligations. The package
+keeps universal physical no-go, physical-source theorem, and D-FORK-decision
+overclaims blocked. No claim movement, no physical-source claim, and no
+TI-C020 reopen. The next unattended state is gate-change wait unless a new
+H7-admitted packet appears or an intentional gate is selected to test the T2
+contract.
 
 RUN-0152 adds: Wave 7 executed T1 after H8. The post-H8 wait state is now a
 bounded theorem target, not a universal no-go. The executable

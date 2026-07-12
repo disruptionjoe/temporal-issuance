@@ -3,11 +3,68 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0152
+updated_by_run: RUN-0153
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: T2 Bounded Completion-Barrier Theorem Contract
+
+CapacityOS Progress fan-out executed T2 after E172/T1.
+
+Primary artifact:
+
+```text
+explorations/E173-t2-bounded-completion-barrier-theorem-contract-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/t2_bounded_completion_barrier_theorem_contract.py
+tests/test_t2_bounded_completion_barrier_theorem_contract.py
+tests/artifacts/t2_bounded_completion_barrier_theorem_contract_result.json
+```
+
+T2 result:
+
+```yaml
+t2_result: bounded_completion_barrier_theorem_contract_packaged_with_counterexample_gate
+contract_ready: true
+counterexample_gate_active: true
+blocks_universal_physical_no_go: true
+blocks_physical_source_theorem: true
+blocks_d_fork_decision: true
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> gate_change_wait_after_t2_contract_until_new_h7_packet_or_deliberate_gate
+```
+
+Minimum contract:
+
+1. Treat E173 as a bounded theorem contract package, not a universal theorem.
+2. Do not repeat T2 unless the fixed inputs change.
+3. Resume material work only with a new concrete H7-admitted packet or an
+   intentional gate that tests the T2 contract.
+4. Preserve the blocked overclaims: no universal physical no-go, no physical
+   source theorem, and no D-FORK decision from H8.
+5. Preserve no claim movement unless a later durable artifact actually earns it.
+
+Priority firewall:
+
+```yaml
+current_track_1: gate-change wait after T2 bounded contract
+priority_rule: T2 now packages the bounded barrier. Further work must test the
+  contract or supply a packet; it must not turn theorem packaging into generic
+  closure work.
+```
 
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: T1 Completion-Barrier Theorem Target
 

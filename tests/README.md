@@ -19,6 +19,8 @@ Launch tests:
 
 Executable fixtures:
 
+- T2 bounded completion-barrier theorem contract: `python tests/test_t2_bounded_completion_barrier_theorem_contract.py`
+- T1 completion-barrier theorem target: `python tests/test_t1_completion_barrier_theorem_target.py`
 - H8 D-FORK regime signature bundle: `python tests/test_h8_d_fork_regime_signature_bundle.py`
 - H6 completion boundary audit: `python tests/test_h6_completion_boundary_audit.py`
 - H9 physical calibration batch: `python tests/test_h9_physical_calibration_batch.py`

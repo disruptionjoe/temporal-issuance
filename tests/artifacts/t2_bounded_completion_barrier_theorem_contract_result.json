@@ -1,0 +1,99 @@
+{
+  "TI_C020_reopened": false,
+  "assumption_ids": [
+    "post_h8_record_preserving_adapter_p_trace",
+    "h1_completion_channels_exercised",
+    "h2_h7_preservation_fields_carried",
+    "h6_bounded_conditional_boundary",
+    "h8_signature_bundle_not_decision_procedure",
+    "no_new_concrete_counterexample_packet_supplied"
+  ],
+  "blocks_d_fork_decision": true,
+  "blocks_physical_source_theorem": true,
+  "blocks_universal_physical_no_go": true,
+  "bounded_theorem_statement": "For the current post-H8 record-preserving Adapter_P trace class, source issuance is not established without a new concrete H7-admitted packet satisfying the E172 counterexample obligations.",
+  "claim_status_change": "none",
+  "clauses": [
+    {
+      "clause_id": "bounded_completion_barrier_contract",
+      "statement": "Within the current post-H8 record-preserving Adapter_P trace class, a candidate does not establish source issuance unless it supplies the named counterexample contract defeating all completion channels, H6/H8 stops, and whole-family completion.",
+      "terminal_overclaim": false,
+      "theorem_clause": true,
+      "verdict": "BOUNDED_THEOREM_CONTRACT_PACKAGED"
+    },
+    {
+      "clause_id": "counterexample_activation_gate",
+      "statement": "A new concrete H7-admitted packet can revise or kill the bounded contract only by satisfying every counterexample obligation inherited from E172/T1.",
+      "terminal_overclaim": false,
+      "theorem_clause": false,
+      "verdict": "COUNTEREXAMPLE_GATE_ACTIVE"
+    },
+    {
+      "clause_id": "reject_universal_physical_no_go",
+      "statement": "The contract is bounded to the current trace class and does not state that all physical novelty is impossible.",
+      "terminal_overclaim": true,
+      "theorem_clause": false,
+      "verdict": "UNIVERSAL_PHYSICAL_NO_GO_REJECTED"
+    },
+    {
+      "clause_id": "reject_physical_source_theorem",
+      "statement": "H6 bounded formal/local OSAG support remains conditional and does not establish physical source issuance.",
+      "terminal_overclaim": true,
+      "theorem_clause": false,
+      "verdict": "PHYSICAL_SOURCE_THEOREM_REJECTED"
+    },
+    {
+      "clause_id": "reject_d_fork_decision",
+      "statement": "H8 remains a signature bundle and does not decide the non-computable FTS/Godelian D-FORK bit.",
+      "terminal_overclaim": true,
+      "theorem_clause": false,
+      "verdict": "D_FORK_DECISION_REJECTED"
+    }
+  ],
+  "contract_ready": true,
+  "counterexample_gate_active": true,
+  "counterexample_obligations": [
+    "new_concrete_packet",
+    "h7_admitted",
+    "maps_all_adapter_p_fields",
+    "preserves_tau_n",
+    "preserves_preserve_n",
+    "preserves_represented_family_index",
+    "preserves_candidate_provenance",
+    "no_hidden_completion_oracle",
+    "no_imported_law_or_schema",
+    "not_readout_or_finality_only",
+    "defeats_value_completion",
+    "defeats_name_completion",
+    "defeats_provenance_action_completion",
+    "defeats_capability_completion",
+    "supplies_w1_non_isomorphic_physical_algebra",
+    "supplies_w4_perturbation_non_factorization",
+    "supplies_w5_record_preservation_comparison",
+    "defeats_whole_family_completion",
+    "does_not_treat_h8_as_d_fork_decision"
+  ],
+  "depends_on_fixture_id": "t1_completion_barrier_theorem_target",
+  "fixture_id": "t2_bounded_completion_barrier_theorem_contract",
+  "honest_current_result": "T2 packages the bounded theorem contract as a repo-local proof contract over the current Adapter_P trace class. It creates no claim movement and no physical-source result.",
+  "kind": "bounded_completion_barrier_theorem_contract_package",
+  "next_track_1_recommendation": "Wait for a new concrete H7-admitted packet or run a deliberately selected gate only if it tests the T2 contract. Do not repeat T2 or convert it into universal physical no-go language.",
+  "physical_source_issuance_established": false,
+  "scope_limit_ids": [
+    "bounded_to_current_adapter_p_trace_class",
+    "not_universal_over_all_physics",
+    "not_physical_source_issuance",
+    "not_d_fork_decision",
+    "revisable_by_counterexample_contract"
+  ],
+  "t2_result": "bounded_completion_barrier_theorem_contract_packaged_with_counterexample_gate",
+  "terminal_overclaim_clause_ids": [
+    "reject_universal_physical_no_go",
+    "reject_physical_source_theorem",
+    "reject_d_fork_decision"
+  ],
+  "theorem_clause_ids": [
+    "bounded_completion_barrier_contract"
+  ],
+  "theorem_contract_id": "bounded_adapter_p_completion_barrier_v1"
+}

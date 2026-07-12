@@ -25,6 +25,17 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 Progress fan-out executed T2 in
+`explorations/E173-t2-bounded-completion-barrier-theorem-contract-2026-07-12.md`.
+The run packages E172's bounded completion-barrier target as
+`bounded_adapter_p_completion_barrier_v1`: over the current post-H8
+record-preserving `Adapter_P` trace class, source issuance is not established
+without a new concrete H7-admitted packet satisfying the E172 counterexample
+obligations. The package keeps universal physical no-go, physical-source, and
+D-FORK-decision readings blocked. No claim movement, no physical-source claim,
+and no `TI-C020` reopen. The next unattended state is gate-change wait unless a
+new H7-admitted packet or deliberate contract-testing gate appears.
+
 2026-07-12 user-directed research-steering Wave 7 executed T1 in
 `explorations/E172-t1-completion-barrier-theorem-target-2026-07-12.md`.
 The wave turns the post-H8 wait state into a bounded theorem target over the
