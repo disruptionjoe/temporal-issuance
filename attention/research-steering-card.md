@@ -83,6 +83,17 @@ Waves method:
 - Genuinely dependent probes serialize.
 - Shared-surface merges are steward-owned and serial.
 
+GU-style full wave protocol:
+
+- Use a full blind-branch wave when one target has rival constructions or interpretations that could silently converge too early.
+- Pre-register what each outcome means before deployment.
+- Each branch is one worker, not one persona. The branch worker runs any personas inline and returns a graded verdict, construction used, confidence, load-bearing assumption, one killing obstruction, and a durable artifact.
+- Branches stay mutually blind until they return.
+- The orchestrator synthesizes the map, then cross-tests the no-go or adversarial branch against the constructive branches.
+- Cross-share only after the first synthesis, then design the next wave.
+- If the wave converges to one decisive target, the next pass should be a focused swing, not another broad blind wave.
+- Use focused swings for high-cascade gates or shared-context checks where blind fan-out would reload the same assumptions and invite convention drift.
+
 North Star and branch firewall:
 
 - Classify work by directedness, not by certainty of payoff.

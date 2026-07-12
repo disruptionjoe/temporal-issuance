@@ -167,6 +167,9 @@ Minimum contract:
    external completion language, or a bounded conditional form.
 3. Preserve no claim movement unless a later durable artifact actually earns it.
 4. Return a deterministic artifact that exits 0.
+5. Before execution, classify H6 by the GU wave decision rule: if H6 has rival
+   constructions of "internal source structure," run a full blind-branch wave;
+   if it reduces to one decisive discriminator, run a focused swing.
 
 Priority firewall:
 

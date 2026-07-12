@@ -31,6 +31,14 @@ The AI epistemology method learning used for this wave:
 - M4 generative re-rank: reflect, draft, drop resolved items, then Condorcet-vote.
 - M6 execution-mode selection: do not uniformly fan out. Sequence high-cascade gates, batch shared-context work, and fan out only independent tails.
 
+Follow-up GU check: the active GU wave protocol is stricter for full waves.
+A full GU-style wave uses mutually blind rival-construction branches, each with
+inline personas, then an orchestrator synthesis that cross-tests the adversarial
+or no-go branch against the constructive branches. This H9 run is therefore best
+classified as a focused swing produced by the wave machinery, not as a full
+blind-branch wave. That is appropriate here because H9 had one shared H1/H2/H7
+gate and two calibration cases, not rival constructions of the same object.
+
 Temporal Issuance was already past H2, H7, and H5 when this wave began. The
 active trigger allowed H9 or H6 only through the H7 admission gate. H9 was the
 right next gate because it tests concrete physical calibration packets. H6
@@ -58,7 +66,8 @@ tests/artifacts/h9_physical_calibration_batch_result.json
 
 ## Wave Shape
 
-This wave did not run broad parallel fan-out.
+This wave did not run broad parallel fan-out and did not run mutually blind
+rival-construction branches.
 
 Reason:
 
