@@ -9,6 +9,63 @@ intake_processed_by_run: RUN-0046
 
 # Next Trigger Plan
 
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: H5 Multi-Holder H7 Separator
+
+CapacityOS Progress fan-out executed H5 as a finite multi-holder separator
+through the H7 admission gate.
+
+Primary artifact:
+
+```text
+explorations/E168-h5-multi-holder-h7-separator-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/h5_multi_holder_h7_separator.py
+tests/test_h5_multi_holder_h7_separator.py
+tests/artifacts/h5_multi_holder_h7_separator_result.json
+```
+
+H5 result:
+
+```yaml
+h5_result: multi_holder_cost_separated_from_source_crossing
+h7_floor_satisfied: true
+h7_admitted_packet_ids:
+  - boundary_osag_support
+matched_physical_and_thermodynamic_controls: true
+multi_holder_cost_absorbed_as_taf_readout: true
+formal_local_osag_support_admitted: true
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> h9_or_h6_follow_on_only_with_concrete_h7_admitted_packet
+```
+
+Minimum contract:
+
+1. H9 or H6 must supply a concrete packet that satisfies H7.
+2. Treat split-holder reversal/fork cost alone as TaF/readout over fixed-source
+   holder maps unless a packet adds source-growth structure beyond holder
+   permissions.
+3. Preserve no claim movement unless a later durable artifact earns it.
+
+Priority firewall:
+
+```yaml
+current_track_1: H9 or H6 follow-on through H7 admission
+priority_rule: H5 no longer supplies a source-crossing claim; physical
+  calibration or completion-boundary work must carry concrete H7-admitted
+  packets.
+```
+
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: Research Steering Wave 3
 
 CapacityOS Progress fan-out executed H7 as the completion-aware `Adapter_P`

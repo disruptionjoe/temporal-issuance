@@ -25,6 +25,15 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 Progress fan-out executed H5 in
+`explorations/E168-h5-multi-holder-h7-separator-2026-07-12.md`.
+With physical copy count and overwrite count matched, split-holder
+reversal/fork cost is absorbed as TaF/readout over fixed-source holder maps,
+not source crossing. The only admitted packet is H7 `boundary_osag_support`,
+which remains formal/local OSAG support. No claim movement, no physical-source
+claim, and no `TI-C020` reopen. H9 or H6 should proceed only with concrete
+packets that satisfy H7.
+
 2026-07-12 Progress fan-out executed H7 in
 `explorations/E167-completion-aware-adapter-p-admission-contract-2026-07-12.md`.
 H7 turns H1 completion channels and H2 OSAG family checks into an admission

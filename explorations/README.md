@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E168-h5-multi-holder-h7-separator-2026-07-12.md`
+  executes H5 as a post-H7 separator. With physical copy count and overwrite
+  count matched, split-holder reversal/fork cost is classified as
+  `TAF_EXPRESSIBLE_READOUT` over fixed-source holder maps, not source crossing.
+  The only admitted packet is H7 `boundary_osag_support`, which remains
+  formal/local OSAG support. No claim movement, no physical-source claim, and
+  no `TI-C020` reopen.
 - `E167-completion-aware-adapter-p-admission-contract-2026-07-12.md`
   executes H7 from the research-steering plan. It consumes H1/H2 as
   preservation requirements and admits only formal/local OSAG support that

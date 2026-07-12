@@ -1,0 +1,153 @@
+{
+  "TI_C020_reopened": false,
+  "claim_status_change": "none",
+  "fixture_id": "h5_multi_holder_h7_separator",
+  "formal_local_osag_support_admitted": true,
+  "h5_result": "multi_holder_cost_separated_from_source_crossing",
+  "h7_admitted_packet_ids": [
+    "boundary_osag_support"
+  ],
+  "h7_floor_satisfied": true,
+  "honest_current_result": "H5 separates multi-holder reversal cost from source crossing. With matched physical copies and overwrites, split-holder cost is TaF/readout over fixed-source holder maps unless an H7-admitted formal/local OSAG packet is supplied, and that packet still moves no claims.",
+  "kind": "h5_multi_holder_separator_through_h7",
+  "matched_physical_and_thermodynamic_controls": true,
+  "multi_holder_cost_absorbed_as_taf_readout": true,
+  "next_track_1_recommendation": "Run H9 physical calibration or H6 completion-boundary work only with concrete packets that satisfy H7; H5 alone supplies no source-crossing claim.",
+  "physical_source_issuance_established": false,
+  "results": [
+    {
+      "case_id": "single_holder_bundle",
+      "h7_admitted": true,
+      "h7_packet_id": "boundary_osag_support",
+      "measures": {
+        "CanFork": true,
+        "CanPostdict": true,
+        "CanReverse": true,
+        "distinct_holder_count": 1,
+        "fixed_source_access_model": true,
+        "holder_maps_predeclared": true,
+        "holders": [
+          "A"
+        ],
+        "mu_COMP": 3,
+        "mu_HOLDER": 0,
+        "mu_INFO": 2,
+        "operations_predeclared_in_s_inf": true,
+        "overwrite_count": 3,
+        "physical_copy_count": 3,
+        "quorum": 2,
+        "values": [
+          0,
+          1
+        ]
+      },
+      "preaction_family_noncompletion_rule": false,
+      "reason": "The case is controlled by a fixed capability/access schedule and does not supply multi-holder source crossing.",
+      "source_growth_core_witness": false,
+      "terminal": true,
+      "verdict": "CAPABILITY_COMPLETION_ABSORPTION"
+    },
+    {
+      "case_id": "multi_holder_split_fixed_source",
+      "h7_admitted": true,
+      "h7_packet_id": "boundary_osag_support",
+      "measures": {
+        "CanFork": false,
+        "CanPostdict": true,
+        "CanReverse": false,
+        "distinct_holder_count": 3,
+        "fixed_source_access_model": true,
+        "holder_maps_predeclared": true,
+        "holders": [
+          "A",
+          "B",
+          "C"
+        ],
+        "mu_COMP": 3,
+        "mu_HOLDER": 1,
+        "mu_INFO": 2,
+        "operations_predeclared_in_s_inf": true,
+        "overwrite_count": 3,
+        "physical_copy_count": 3,
+        "quorum": 2,
+        "values": [
+          0,
+          1
+        ]
+      },
+      "preaction_family_noncompletion_rule": false,
+      "reason": "The higher reversal/fork cost is holder-boundary finality or readout over a fixed source with predeclared access operations.",
+      "source_growth_core_witness": false,
+      "terminal": true,
+      "verdict": "TAF_EXPRESSIBLE_READOUT"
+    },
+    {
+      "case_id": "h7_boundary_osag_holder_support",
+      "h7_admitted": true,
+      "h7_packet_id": "boundary_osag_support",
+      "measures": {
+        "CanFork": false,
+        "CanPostdict": true,
+        "CanReverse": false,
+        "distinct_holder_count": 3,
+        "fixed_source_access_model": true,
+        "holder_maps_predeclared": true,
+        "holders": [
+          "A",
+          "B",
+          "C"
+        ],
+        "mu_COMP": 3,
+        "mu_HOLDER": 1,
+        "mu_INFO": 2,
+        "operations_predeclared_in_s_inf": true,
+        "overwrite_count": 3,
+        "physical_copy_count": 3,
+        "quorum": 2,
+        "values": [
+          0,
+          1
+        ]
+      },
+      "preaction_family_noncompletion_rule": true,
+      "reason": "The packet is admitted only as formal/local OSAG support; it does not make holder cost a physical source-crossing claim.",
+      "source_growth_core_witness": true,
+      "terminal": false,
+      "verdict": "H7_ADMITTED_FORMAL_LOCAL_SUPPORT"
+    },
+    {
+      "case_id": "cross_repo_readout_holder_claim",
+      "h7_admitted": false,
+      "h7_packet_id": "cross_repo_readout_language",
+      "measures": {
+        "CanFork": false,
+        "CanPostdict": true,
+        "CanReverse": false,
+        "distinct_holder_count": 3,
+        "fixed_source_access_model": true,
+        "holder_maps_predeclared": true,
+        "holders": [
+          "A",
+          "B",
+          "C"
+        ],
+        "mu_COMP": 3,
+        "mu_HOLDER": 1,
+        "mu_INFO": 2,
+        "operations_predeclared_in_s_inf": true,
+        "overwrite_count": 3,
+        "physical_copy_count": 3,
+        "quorum": 2,
+        "values": [
+          0,
+          1
+        ]
+      },
+      "preaction_family_noncompletion_rule": false,
+      "reason": "H7 rejects the packet before H5 can count it as holder evidence.",
+      "source_growth_core_witness": false,
+      "terminal": true,
+      "verdict": "H7_GATE_REJECTION"
+    }
+  ]
+}
