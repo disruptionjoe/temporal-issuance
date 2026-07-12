@@ -21,14 +21,12 @@ Seeded from the 2026-07-12 inline council assessment:
 
 Current ranked list from `attention/priority_condorcet.py`:
 
-1. **H1: Whole-family completion barrier theorem** - Turns gate waiting into a precise kill or escape theorem for after-naming absorption.
-2. **H2: Operative source-action generator** - Builds the missing internal rule that defeats completion rather than another finite-prefix trace.
-3. **H5: Multi-holder reversal-cost source/readout separator** - Tests whether observer-level finality creates a source crossing or stays TaF and thermodynamics readout.
-4. **H7: Adapter_P preservation-map contract** - Forces boundary or neighbor-repo data to carry a TI-side source-crossing preservation map before it counts.
-5. **H3: CRISPR Adapter_P near-miss fixture** - Tests the best empirical formation-record near-miss against W1/W4/W5 and after-naming controls.
-6. **H4: Dynamic/Floquet code negative-control fixture** - Calibrates effective algebra-growth language against fixed platform and schedule absorption.
-7. **H6: Internal versus external completion boundary theorem** - Clarifies exactly what `OnlineIssuance^LC` defeats internally and what remains external ontology.
-8. **H8: D-FORK regime signature bundle** - Packages the scattered regime signatures so the operative-source fork is legible as one object.
+1. **H2: Pre-action family noncompletion source-action generator** - Builds the OSAG rule the H1 classifier identified as the only non-absorbed escape shape.
+2. **H7: Completion-aware Adapter_P admission contract** - Turns H1 completion channels into required preservation maps before any neighbor datum counts.
+3. **H9: H1 physical calibration batch** - Runs CRISPR near-miss and Dynamic/Floquet negative control through H1 plus Adapter_P.
+4. **H5: Multi-holder completion-channel separator** - Tests holder reversal cost against H1 capability-completion and TaF-readout absorbers.
+5. **H6: Internal versus external completion boundary theorem** - Clarifies where pre-action family noncompletion is internal rather than external completion language.
+6. **H8: D-FORK regime signature bundle** - Packages regime signatures after H2/H7 decide the operative source and admission contracts.
 
 Re-rank by editing `ITEMS` and `BALLOTS` in `attention/priority_condorcet.py`, then re-run the script and paste the new ranked list here.
 
@@ -119,26 +117,27 @@ Discipline:
 
 | Item | State | Next admissible swing |
 | --- | --- | --- |
-| H1 Whole-family completion barrier theorem | Live, highest ranked | Define the bounded Adapter_P trace class and prove, refute, or executable-classify when whole-family completion absorbs every finite-prefix trace. |
-| H2 Operative source-action generator | Live, depends on H1 for clean target class | Construct an internal anti-after-naming rule that blocks singleton completion at family level, not just at local finite-prefix level. |
-| H3 CRISPR Adapter_P near-miss fixture | Live physical near-miss | Run a W1/W4/W5 fixture on native spacer acquisition with fixed-sequence-space, access, and after-naming controls. |
-| H4 Dynamic/Floquet code negative-control fixture | Live negative control | Show exactly how effective algebra growth reduces to fixed Hilbert space, measurement family, and schedule, or record a real anomaly. |
-| H5 Multi-holder reversal-cost separator | Live observer-leg test | Test whether rising reversal cost across distinct holders is source crossing, or only TaF finality plus thermodynamic and computational cost. |
-| H6 Internal versus external completion boundary theorem | Live clarifier | State the internal-source object boundary for `OnlineIssuance^LC` versus external Platonist completion without metaphysical overreach. |
-| H7 Adapter_P preservation-map contract | Live adapter hardening | Require any GU, TaF, boundary, or external datum to preserve TI source-crossing fields before it is admitted as evidence. |
-| H8 D-FORK regime signature bundle | Live synthesis, lower urgency | Bundle existing regime signatures for legibility after H1/H2 decide what target class matters. |
+| H1 Whole-family completion barrier theorem | Resolved as executable classifier in E165 | Preserve as dependency; do not rerun unless a concrete candidate breaks the classifier or a proof target becomes materially sharper. |
+| H2 Pre-action family noncompletion source-action generator | Live, highest ranked Track 1 | Construct or kill an internal pre-action family noncompletion rule that blocks value, name, provenance/action, and capability completion. |
+| H7 Completion-aware Adapter_P admission contract | Live adapter hardening | Require any GU, TaF, boundary, or external datum to preserve H1 completion-channel status before it counts. |
+| H9 H1 physical calibration batch | Live branch | Run CRISPR near-miss and Dynamic/Floquet negative control through H1 plus Adapter_P as calibration, not source evidence. |
+| H5 Multi-holder completion-channel separator | Live observer-leg test | Test whether holder reversal cost is source crossing or capability/readout completion under H1. |
+| H6 Internal versus external completion boundary theorem | Live clarifier | State when pre-action noncompletion is internal source structure rather than external completion language. |
+| H8 D-FORK regime signature bundle | Live synthesis, lower urgency | Bundle existing regime signatures after H2/H7 decide what source and admission contracts matter. |
 
 Current swing status:
 
 ```yaml
-latest_material_result: E163 full Adapter_P diagonal trace pressure
-current_gate_state: compact_no_worthy_work_until_real_physical_candidate_or_sharper_theorem_target
-steering_override: sharper theorem target now named as H1
+latest_material_result: E165 whole-family completion barrier classifier
+current_gate_state: h1_classifier_available_routes_to_preaction_family_noncompletion
+steering_override: H2 is now the Track 1 North Star after H1 narrowed the target
 wave0_started: true
 wave0_packet: explorations/E164-research-steering-wave0-starter-2026-07-12.md
-active_dependency_boundary: H1 whole-family completion barrier theorem
-north_star_track: H1 force or falsify whole-family completion absorption for Adapter_P traces
-branch_track: H2/H3/H4/H5/H7 starter packets report up to H1 and do not outrank it by finishability
+wave1_complete: true
+wave1_packet: explorations/E165-whole-family-completion-barrier-classifier-2026-07-12.md
+active_dependency_boundary: H2 pre-action family noncompletion source-action generator
+north_star_track: H2 construct or kill the OSAG rule required by H1
+branch_track: H7/H9/H5 report up to H2 and do not outrank it by finishability
 claim_status_change: none
 physical_source_issuance_established: false
 ```
@@ -156,7 +155,7 @@ Then hand him the top few items in order with one-line whys.
 Default research route:
 
 ```text
-Wave 1: H1 whole-family completion barrier theorem or executable classifier.
+Wave 2: H2 pre-action family noncompletion source-action generator.
 ```
 
-Reason: Wave 0 started H2, H3/H4, H5, and H7 as starter packets only. H1 is Track 1: force or falsify whole-family completion absorption for `Adapter_P` traces. The other lanes are Track 2 branches until they report a result that feeds H1. Their finishability does not move them above H1. If H1 narrows to an executable classifier rather than a proof, H3 and H4 can run as a parallel calibration batch immediately after. If H1 exposes a precise non-completion axiom, H2 becomes the next solo construction target.
+Reason: Wave 1 resolved H1 as an executable classifier. The only non-absorbed H1 shape requires a pre-action family noncompletion rule, so H2 is now Track 1. H7, H9, and H5 are valuable branches, but their finishability does not move them above H2.

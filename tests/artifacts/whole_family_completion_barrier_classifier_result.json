@@ -1,0 +1,214 @@
+{
+  "TI_C020_reopened": false,
+  "adapter_fields": [
+    "Gamma_n",
+    "Adm_n",
+    "e_n",
+    "w_n",
+    "Gamma_n_plus_1",
+    "tau_n"
+  ],
+  "all_completion_channels_exercised": true,
+  "bounded_candidate_class": "record-preserving Adapter_P traces with value, name, provenance/action, and capability completion channels represented",
+  "cases": [
+    {
+      "candidate_id": "missing_adapter_field",
+      "description": "A partial trace omits w_n while preserving a narrative record."
+    },
+    {
+      "candidate_id": "value_completed_payload_only",
+      "description": "A fixed value space contains the alleged future value."
+    },
+    {
+      "candidate_id": "after_fact_family_name",
+      "description": "Finite-prefix novelty is named by the completed realized family."
+    },
+    {
+      "candidate_id": "preformed_provenance_action",
+      "description": "The selected action, witness, and task delta are already formed before the alleged source action."
+    },
+    {
+      "candidate_id": "precomputed_capability_delta",
+      "description": "The observed task-menu change is already determined by fixed source plus access or schedule."
+    },
+    {
+      "candidate_id": "taf_finality_readout_only",
+      "description": "Finality changes readout or undo without source growth."
+    },
+    {
+      "candidate_id": "imported_law_or_oracle",
+      "description": "A hidden global table supplies the alleged source step."
+    },
+    {
+      "candidate_id": "preaction_family_noncompletion_shape",
+      "description": "A schematic source-growth trace has finite-prefix novelty and an internal pre-action rule excluding all admitted completion families. No concrete physical instance is supplied."
+    }
+  ],
+  "claim_status_change": "none",
+  "completion_absorption_classes": [
+    "VALUE_COMPLETION_ABSORPTION",
+    "NAME_COMPLETION_ABSORPTION",
+    "PROVENANCE_ACTION_COMPLETION_ABSORPTION",
+    "CAPABILITY_COMPLETION_ABSORPTION"
+  ],
+  "completion_absorption_classes_seen": [
+    "CAPABILITY_COMPLETION_ABSORPTION",
+    "NAME_COMPLETION_ABSORPTION",
+    "PROVENANCE_ACTION_COMPLETION_ABSORPTION",
+    "VALUE_COMPLETION_ABSORPTION"
+  ],
+  "fixture_id": "whole_family_completion_barrier_classifier",
+  "h1_result": "narrowed_to_executable_classifier_and_preaction_family_noncompletion_target",
+  "honest_current_result": "Within the bounded Adapter_P trace class, value, name, provenance/action, and capability completion each absorb the candidate unless a pre-action family noncompletion rule is part of the source action. The only non-absorbed shape is schematic and routes to OSAG, not to a physical-source claim.",
+  "kind": "h1_executable_classifier_not_universal_theorem",
+  "next_track_1_recommendation": "H2 operative source-action generator with pre-action family noncompletion rule",
+  "next_trigger": "research_steering_wave2_osag_preaction_family_noncompletion",
+  "physical_source_issuance_established": false,
+  "preaction_family_noncompletion_required_for_escape": true,
+  "results": [
+    {
+      "absorber_controls_supplied": false,
+      "candidate_id": "missing_adapter_field",
+      "completion_channels": {
+        "capability_completion": false,
+        "name_completion": false,
+        "provenance_action_completion": false,
+        "value_completion": false
+      },
+      "concrete_trace_supplied": true,
+      "finite_prefix_non_precontained": false,
+      "preaction_family_noncompletion_rule": false,
+      "real_physical_candidate": false,
+      "reason": "The trace does not map every Adapter_P field while preserving tau_n.",
+      "source_growth_core_witness": false,
+      "terminal": false,
+      "verdict": "OUT_OF_SCOPE_NOT_ADAPTER_P_TRACE"
+    },
+    {
+      "absorber_controls_supplied": false,
+      "candidate_id": "value_completed_payload_only",
+      "completion_channels": {
+        "capability_completion": false,
+        "name_completion": false,
+        "provenance_action_completion": false,
+        "value_completion": true
+      },
+      "concrete_trace_supplied": true,
+      "finite_prefix_non_precontained": false,
+      "preaction_family_noncompletion_rule": false,
+      "real_physical_candidate": false,
+      "reason": "The candidate only discloses a value from a fixed completed value space and supplies no source-growth core witness.",
+      "source_growth_core_witness": false,
+      "terminal": true,
+      "verdict": "VALUE_COMPLETION_ABSORPTION"
+    },
+    {
+      "absorber_controls_supplied": false,
+      "candidate_id": "after_fact_family_name",
+      "completion_channels": {
+        "capability_completion": false,
+        "name_completion": true,
+        "provenance_action_completion": false,
+        "value_completion": false
+      },
+      "concrete_trace_supplied": true,
+      "finite_prefix_non_precontained": true,
+      "preaction_family_noncompletion_rule": false,
+      "real_physical_candidate": false,
+      "reason": "The finite-prefix novelty is absorbed by after-fact whole-family naming without a pre-action family noncompletion rule.",
+      "source_growth_core_witness": true,
+      "terminal": true,
+      "verdict": "NAME_COMPLETION_ABSORPTION"
+    },
+    {
+      "absorber_controls_supplied": false,
+      "candidate_id": "preformed_provenance_action",
+      "completion_channels": {
+        "capability_completion": false,
+        "name_completion": false,
+        "provenance_action_completion": true,
+        "value_completion": false
+      },
+      "concrete_trace_supplied": true,
+      "finite_prefix_non_precontained": true,
+      "preaction_family_noncompletion_rule": false,
+      "real_physical_candidate": false,
+      "reason": "The action, witness, provenance, and task delta are preformed before the alleged source action.",
+      "source_growth_core_witness": true,
+      "terminal": true,
+      "verdict": "PROVENANCE_ACTION_COMPLETION_ABSORPTION"
+    },
+    {
+      "absorber_controls_supplied": false,
+      "candidate_id": "precomputed_capability_delta",
+      "completion_channels": {
+        "capability_completion": true,
+        "name_completion": false,
+        "provenance_action_completion": false,
+        "value_completion": false
+      },
+      "concrete_trace_supplied": true,
+      "finite_prefix_non_precontained": false,
+      "preaction_family_noncompletion_rule": false,
+      "real_physical_candidate": false,
+      "reason": "The capability or task delta is already determined by fixed source plus access, schedule, finality, or readout.",
+      "source_growth_core_witness": false,
+      "terminal": true,
+      "verdict": "CAPABILITY_COMPLETION_ABSORPTION"
+    },
+    {
+      "absorber_controls_supplied": false,
+      "candidate_id": "taf_finality_readout_only",
+      "completion_channels": {
+        "capability_completion": false,
+        "name_completion": false,
+        "provenance_action_completion": false,
+        "value_completion": false
+      },
+      "concrete_trace_supplied": true,
+      "finite_prefix_non_precontained": false,
+      "preaction_family_noncompletion_rule": false,
+      "real_physical_candidate": false,
+      "reason": "The task delta is finality or readout without source growth.",
+      "source_growth_core_witness": false,
+      "terminal": true,
+      "verdict": "TAF_EXPRESSIBLE_READOUT"
+    },
+    {
+      "absorber_controls_supplied": false,
+      "candidate_id": "imported_law_or_oracle",
+      "completion_channels": {
+        "capability_completion": false,
+        "name_completion": false,
+        "provenance_action_completion": false,
+        "value_completion": false
+      },
+      "concrete_trace_supplied": true,
+      "finite_prefix_non_precontained": true,
+      "preaction_family_noncompletion_rule": true,
+      "real_physical_candidate": false,
+      "reason": "The apparent escape depends on an imported law, hidden completed oracle, or modeler-added schema.",
+      "source_growth_core_witness": true,
+      "terminal": true,
+      "verdict": "IMPORTED_STRUCTURE_REJECTION"
+    },
+    {
+      "absorber_controls_supplied": false,
+      "candidate_id": "preaction_family_noncompletion_shape",
+      "completion_channels": {
+        "capability_completion": false,
+        "name_completion": false,
+        "provenance_action_completion": false,
+        "value_completion": false
+      },
+      "concrete_trace_supplied": false,
+      "finite_prefix_non_precontained": true,
+      "preaction_family_noncompletion_rule": true,
+      "real_physical_candidate": false,
+      "reason": "This is the only non-absorbed shape in the bounded classifier: it requires an internal pre-action rule that blocks family completion, then needs OSAG or a full physical fixture.",
+      "source_growth_core_witness": true,
+      "terminal": false,
+      "verdict": "POTENTIAL_ESCAPE_REQUIRES_OSAG"
+    }
+  ]
+}

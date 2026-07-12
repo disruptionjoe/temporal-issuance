@@ -23,7 +23,16 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
-## Current frontier update (2026-07-10)
+## Current frontier update (2026-07-12)
+
+2026-07-12 research-steering Wave 1 executed H1 in
+`explorations/E165-whole-family-completion-barrier-classifier-2026-07-12.md`.
+H1 is resolved as an executable classifier, not a universal theorem. Value,
+name, provenance/action, and capability completion each absorb the bounded
+`Adapter_P` trace class unless the source action includes a pre-action family
+noncompletion rule. The only non-absorbed shape is schematic and routes to H2:
+construct or kill the operative source-action generator. No claim movement, no
+physical-source claim, and no `TI-C020` reopen.
 
 2026-07-12 user-directed research-steering wave: Wave 0 is started in
 `explorations/E164-research-steering-wave0-starter-2026-07-12.md`. H1 is now

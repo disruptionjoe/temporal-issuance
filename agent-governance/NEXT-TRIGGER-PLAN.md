@@ -3,11 +3,66 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0145
+updated_by_run: RUN-0146
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## USER-DIRECTED WAVE EXECUTED 2026-07-12: Research Steering Wave 1
+
+Joe opened the next research-steering wave. H1 was executed as an executable
+classifier rather than a universal theorem.
+
+Primary artifact:
+
+```text
+explorations/E165-whole-family-completion-barrier-classifier-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/whole_family_completion_barrier_classifier.py
+tests/test_whole_family_completion_barrier_classifier.py
+tests/artifacts/whole_family_completion_barrier_classifier_result.json
+```
+
+Wave 1 result:
+
+```yaml
+h1_result: narrowed_to_executable_classifier_and_preaction_family_noncompletion_target
+all_completion_channels_exercised: true
+preaction_family_noncompletion_required_for_escape: true
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> research_steering_wave2_osag_preaction_family_noncompletion
+```
+
+Minimum contract:
+
+1. Define `OSAG = (Gamma_n, Adm_n, Cand_n, Gen_n, a_n, w_n, Gamma_{n+1}, DeltaCap_n, tau_n, Preserve_n, AAN_family)`.
+2. Make `AAN_family` a pre-action family noncompletion rule, not after-fact singleton naming.
+3. Show whether the rule is internally generated or imported.
+4. Preserve `tau_n` and map all six `Adapter_P` fields.
+5. Return a computed artifact that exits 0 and either constructs a bounded OSAG shape or kills it.
+
+Priority firewall:
+
+```yaml
+current_track_1: H2 pre-action family noncompletion source-action generator
+current_track_2:
+  - H7 completion-aware Adapter_P admission contract
+  - H9 H1 physical calibration batch
+  - H5 multi-holder completion-channel separator
+priority_rule: branches report up to H2 and do not outrank it by finishability
+```
 
 ## USER-DIRECTED WAVE STARTED 2026-07-12: Research Steering Wave 0
 

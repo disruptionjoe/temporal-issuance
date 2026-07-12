@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E165-whole-family-completion-barrier-classifier-2026-07-12.md`
+  executes Wave 1 from the research-steering card. H1 is resolved as an
+  executable classifier, not a universal theorem: value, name,
+  provenance/action, and capability completion each absorb the bounded
+  `Adapter_P` trace class unless a pre-action family noncompletion rule is part
+  of the source action. The only non-absorbed shape is schematic and routes to
+  H2. No claim movement, no physical-source claim, and no `TI-C020` reopen.
 - `E164-research-steering-wave0-starter-2026-07-12.md`
   starts the user-directed research-steering wave. H1 is the blocking lane
   for a whole-family completion barrier theorem or executable classifier. H2

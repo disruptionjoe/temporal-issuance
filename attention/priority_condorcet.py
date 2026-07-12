@@ -25,54 +25,46 @@ from itertools import combinations
 
 
 ITEMS = {
-    "H1": {
-        "title": "Whole-family completion barrier theorem",
-        "why": "Turns gate waiting into a precise kill or escape theorem for after-naming absorption.",
-    },
     "H2": {
-        "title": "Operative source-action generator",
-        "why": "Builds the missing internal rule that defeats completion rather than another finite-prefix trace.",
-    },
-    "H3": {
-        "title": "CRISPR Adapter_P near-miss fixture",
-        "why": "Tests the best empirical formation-record near-miss against W1/W4/W5 and after-naming controls.",
-    },
-    "H4": {
-        "title": "Dynamic/Floquet code negative-control fixture",
-        "why": "Calibrates effective algebra-growth language against fixed platform and schedule absorption.",
+        "title": "Pre-action family noncompletion source-action generator",
+        "why": "Builds the OSAG rule the H1 classifier identified as the only non-absorbed escape shape.",
     },
     "H5": {
-        "title": "Multi-holder reversal-cost source/readout separator",
-        "why": "Tests whether observer-level finality creates a source crossing or stays TaF and thermodynamics readout.",
+        "title": "Multi-holder completion-channel separator",
+        "why": "Tests holder reversal cost against H1 capability-completion and TaF-readout absorbers.",
     },
     "H6": {
         "title": "Internal versus external completion boundary theorem",
-        "why": "Clarifies exactly what OnlineIssuance^LC defeats internally and what remains external ontology.",
+        "why": "Clarifies where pre-action family noncompletion is internal rather than external completion language.",
     },
     "H7": {
-        "title": "Adapter_P preservation-map contract",
-        "why": "Forces boundary or neighbor-repo data to carry a TI-side source-crossing preservation map before it counts.",
+        "title": "Completion-aware Adapter_P admission contract",
+        "why": "Turns H1 completion channels into required preservation maps before any neighbor datum counts.",
     },
     "H8": {
         "title": "D-FORK regime signature bundle",
-        "why": "Packages the scattered regime signatures so the operative-source fork is legible as one object.",
+        "why": "Packages regime signatures after H2/H7 decide the operative source and admission contracts.",
+    },
+    "H9": {
+        "title": "H1 physical calibration batch",
+        "why": "Runs CRISPR near-miss and Dynamic/Floquet negative control through H1 plus Adapter_P.",
     },
 }
 
 
 BALLOTS = {
-    "orthodox_professor": ["H1", "H4", "H6", "H3", "H7", "H8", "H5", "H2"],
-    "heterodox_rigorous_professor": ["H2", "H1", "H5", "H7", "H3", "H8", "H6", "H4"],
-    "commercial_scientist": ["H3", "H4", "H1", "H5", "H2", "H7", "H6", "H8"],
-    "philosopher_of_science": ["H1", "H6", "H2", "H5", "H7", "H4", "H3", "H8"],
-    "wild_frontier_scientist": ["H2", "H5", "H3", "H1", "H7", "H8", "H4", "H6"],
-    "computability_proof_theory": ["H1", "H6", "H2", "H8", "H7", "H4", "H3", "H5"],
-    "category_sheaf_topos": ["H7", "H1", "H2", "H8", "H6", "H5", "H4", "H3"],
-    "quantum_operator_algebra": ["H4", "H1", "H7", "H2", "H3", "H6", "H5", "H8"],
-    "thermo_information": ["H5", "H3", "H1", "H4", "H2", "H7", "H6", "H8"],
-    "cosmology_boundary_physics": ["H7", "H2", "H1", "H4", "H3", "H5", "H6", "H8"],
-    "distributed_systems_finality": ["H5", "H1", "H7", "H3", "H2", "H6", "H4", "H8"],
-    "evolution_open_endedness": ["H3", "H2", "H1", "H5", "H4", "H7", "H6", "H8"],
+    "orthodox_professor": ["H6", "H2", "H7", "H9", "H5", "H8"],
+    "heterodox_rigorous_professor": ["H2", "H7", "H6", "H5", "H9", "H8"],
+    "commercial_scientist": ["H9", "H5", "H7", "H2", "H6", "H8"],
+    "philosopher_of_science": ["H2", "H6", "H7", "H5", "H9", "H8"],
+    "wild_frontier_scientist": ["H2", "H9", "H5", "H7", "H8", "H6"],
+    "computability_proof_theory": ["H2", "H6", "H7", "H8", "H5", "H9"],
+    "category_sheaf_topos": ["H7", "H2", "H6", "H8", "H9", "H5"],
+    "quantum_operator_algebra": ["H9", "H7", "H2", "H5", "H6", "H8"],
+    "thermo_information": ["H5", "H9", "H2", "H7", "H6", "H8"],
+    "cosmology_boundary_physics": ["H7", "H2", "H9", "H6", "H5", "H8"],
+    "distributed_systems_finality": ["H5", "H7", "H2", "H9", "H6", "H8"],
+    "evolution_open_endedness": ["H9", "H2", "H5", "H7", "H6", "H8"],
 }
 
 
