@@ -25,30 +25,38 @@ from itertools import combinations
 
 
 ITEMS = {
-    "H6": {
-        "title": "Internal versus external completion boundary audit",
-        "why": "Decides whether the formal/local OSAG support is internal source structure or external completion language.",
+    "T1": {
+        "title": "Sharper completion-barrier theorem target",
+        "why": "Best restart without a new packet: convert repeated completion absorption into a killable theorem target.",
     },
-    "H8": {
-        "title": "D-FORK regime signature bundle",
-        "why": "Packages regime signatures after H6 sets the internal/external completion boundary.",
+    "P1": {
+        "title": "New H7-admitted packet intake",
+        "why": "If a concrete candidate appears, test it through H7, H6, and H8 before any claim movement.",
+    },
+    "G1": {
+        "title": "Intentional follow-on gate selection",
+        "why": "Choose a new gate only if it advances the North Star and does not upgrade H8 into a decision procedure.",
+    },
+    "W000": {
+        "title": "Gate-change wait after H8 signature bundle",
+        "why": "Use this state when there is no new packet, sharper theorem target, or selected follow-on gate.",
     },
 }
 
 
 BALLOTS = {
-    "orthodox_professor": ["H6", "H8"],
-    "heterodox_rigorous_professor": ["H6", "H8"],
-    "commercial_scientist": ["H6", "H8"],
-    "philosopher_of_science": ["H6", "H8"],
-    "wild_frontier_scientist": ["H8", "H6"],
-    "computability_proof_theory": ["H6", "H8"],
-    "category_sheaf_topos": ["H6", "H8"],
-    "quantum_operator_algebra": ["H6", "H8"],
-    "thermo_information": ["H6", "H8"],
-    "cosmology_boundary_physics": ["H8", "H6"],
-    "distributed_systems_finality": ["H6", "H8"],
-    "evolution_open_endedness": ["H8", "H6"],
+    "orthodox_professor": ["T1", "P1", "G1", "W000"],
+    "heterodox_rigorous_professor": ["G1", "T1", "P1", "W000"],
+    "commercial_scientist": ["P1", "T1", "G1", "W000"],
+    "philosopher_of_science": ["T1", "G1", "P1", "W000"],
+    "wild_frontier_scientist": ["P1", "G1", "T1", "W000"],
+    "computability_proof_theory": ["T1", "G1", "P1", "W000"],
+    "category_sheaf_topos": ["T1", "P1", "G1", "W000"],
+    "quantum_operator_algebra": ["P1", "T1", "G1", "W000"],
+    "thermo_information": ["G1", "T1", "P1", "W000"],
+    "cosmology_boundary_physics": ["G1", "P1", "T1", "W000"],
+    "distributed_systems_finality": ["P1", "G1", "T1", "W000"],
+    "evolution_open_endedness": ["T1", "P1", "G1", "W000"],
 }
 
 

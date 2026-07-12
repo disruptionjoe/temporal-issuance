@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0149
+updated_by_run: RUN-0151
 intake_processed_by_run: RUN-0046
 ---
 

@@ -21,8 +21,10 @@ Seeded from the 2026-07-12 inline council assessment:
 
 Current ranked list from `attention/priority_condorcet.py`:
 
-1. **H6: Internal versus external completion boundary audit** - Decides whether the formal/local OSAG support is internal source structure or external completion language.
-2. **H8: D-FORK regime signature bundle** - Packages regime signatures after H6 sets the internal/external completion boundary.
+1. **T1: Sharper completion-barrier theorem target** - Best restart without a new packet: convert repeated completion absorption into a killable theorem target.
+2. **P1: New H7-admitted packet intake** - If a concrete candidate appears, test it through H7, H6, and H8 before any claim movement.
+3. **G1: Intentional follow-on gate selection** - Choose a new gate only if it advances the North Star and does not upgrade H8 into a decision procedure.
+4. **W000: Gate-change wait after H8 signature bundle** - Use this state when there is no new packet, sharper theorem target, or selected follow-on gate.
 
 Re-rank by editing `ITEMS` and `BALLOTS` in `attention/priority_condorcet.py`, then re-run the script and paste the new ranked list here.
 
@@ -129,15 +131,18 @@ Discipline:
 | H7 Completion-aware Adapter_P admission contract | Resolved as admission gate in E167 | Require any boundary, neighbor, or physical packet to pass this gate before use. |
 | H5 Multi-holder completion-channel separator | Resolved in E168 | Treat split-holder reversal/fork cost as TaF/readout unless additional H7-admitted source structure is supplied. |
 | H9 H1 physical calibration batch | Resolved in E169 | Current CRISPR and Dynamic/Floquet near-misses are absorbed; no physical Adapter_P pass. |
-| H6 Internal versus external completion boundary audit | Live, highest ranked Track 1 | Decide whether formal/local OSAG support is internal source structure, external completion language, or a bounded conditional form. |
-| H8 D-FORK regime signature bundle | Live synthesis, lower urgency | Bundle existing regime signatures after H6 sets the internal/external completion boundary. |
+| H6 Internal versus external completion boundary audit | Resolved in E170 | Formal/local OSAG support is bounded conditional form, not external completion language, full internal source structure, or physical Adapter_P passage. |
+| H8 D-FORK regime signature bundle | Resolved in E171 | Use as a citation bundle, not a D-FORK decision procedure. |
+| T1 Sharper completion-barrier theorem target | Live restart route | If no new concrete packet appears, sharpen the completion barrier into a theorem target that can kill or force the larger model. |
+| P1 New H7-admitted packet intake | Conditional restart route | If a concrete candidate appears, test it through H7, H6, and H8 before any claim movement. |
+| G1 Intentional follow-on gate selection | Conditional restart route | Select only a gate that advances the North Star and does not treat H8 as deciding D-FORK. |
 
 Current swing status:
 
 ```yaml
-latest_material_result: E169 H9 physical calibration wave
-current_gate_state: physical_near_misses_absorbed_formal_local_osag_support_only
-steering_override: H6 is now the Track 1 boundary audit after H2/H7/H5/H9 resolved
+latest_material_result: E171 H8 D-FORK regime signature bundle
+current_gate_state: gate_change_wait_after_h8_signature_bundle
+steering_override: no material swing is active without a new H7-admitted packet, sharper theorem target, or intentional follow-on gate
 wave0_started: true
 wave0_packet: explorations/E164-research-steering-wave0-starter-2026-07-12.md
 wave1_complete: true
@@ -148,9 +153,15 @@ wave3_complete: true
 wave3_packet: explorations/E167-completion-aware-adapter-p-admission-contract-2026-07-12.md
 wave4_complete: true
 wave4_packet: explorations/E169-h9-physical-calibration-wave-2026-07-12.md
-active_dependency_boundary: H6 internal versus external completion boundary audit
-north_star_track: H6 decide the status of formal/local OSAG support
-branch_track: H8 synthesis waits on H6
+wave5_complete: true
+wave5_packet: explorations/E170-h6-completion-boundary-audit-2026-07-12.md
+wave6_complete: true
+wave6_packet: explorations/E171-h8-d-fork-regime-signature-bundle-2026-07-12.md
+active_dependency_boundary: none
+north_star_track: post-H8 restart route selection
+branch_track: none
+formal_local_support_boundary: bounded_conditional_form
+d_fork_signature_bundle_reportable: true
 claim_status_change: none
 physical_source_issuance_established: false
 ```
@@ -168,7 +179,7 @@ Then hand him the top few items in order with one-line whys.
 Default research route:
 
 ```text
-Wave 5: H6 internal versus external completion boundary audit.
+Post-H8 gate-change wait.
 ```
 
-Reason: H2 constructed only a bounded formal/local OSAG shape, H7 admitted only formal/local support, H5 absorbed multi-holder cost as readout, and H9 absorbed the current physical near-misses. The remaining live question is whether formal/local OSAG support is internal source structure, external completion language, or a bounded conditional form.
+Reason: H6 classified formal/local OSAG support as bounded conditional form, and H8 packaged the current D-FORK signatures without deciding the non-computable fork. Material progress now requires a new concrete H7-admitted packet, a sharper theorem target, or an intentionally selected follow-on gate. Without a new packet or selected gate, route to T1.
