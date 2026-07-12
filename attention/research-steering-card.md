@@ -89,6 +89,15 @@ Waves method:
 - Genuinely dependent probes serialize.
 - Shared-surface merges are steward-owned and serial.
 
+North Star and branch firewall:
+
+- Classify work by directedness, not by certainty of payoff.
+- Track 1 is the North Star pursuit: force or falsify the highest-value repo objective. It may be far, uncertain, and open-ended, but it is still exploit because it is controlled by the objective.
+- Track 2 is one branch: formalize a byproduct only under explicitly declared postulates, in the form "X given S" without asserting S.
+- Track 2 reports up into Track 1. It may supply forced numbers, fixtures, counterexamples, or conditional lemmas, but its finishability never reprioritizes it above Track 1.
+- The only legitimate demotion of Track 1 is actual falsification or a computed/argued result that proves it has collapsed into another sharper Track 1 target. Difficulty is not a demotion condition.
+- Every wave names its Track 1 objective before naming any Track 2 branch.
+
 Generative re-ranking loop after each wave or parallel batch:
 
 1. The council first reflects inline on what the wave taught: what is missing, what is newly important, and what should be demoted.
@@ -128,6 +137,8 @@ steering_override: sharper theorem target now named as H1
 wave0_started: true
 wave0_packet: explorations/E164-research-steering-wave0-starter-2026-07-12.md
 active_dependency_boundary: H1 whole-family completion barrier theorem
+north_star_track: H1 force or falsify whole-family completion absorption for Adapter_P traces
+branch_track: H2/H3/H4/H5/H7 starter packets report up to H1 and do not outrank it by finishability
 claim_status_change: none
 physical_source_issuance_established: false
 ```
@@ -148,4 +159,4 @@ Default research route:
 Wave 1: H1 whole-family completion barrier theorem or executable classifier.
 ```
 
-Reason: Wave 0 started H2, H3/H4, H5, and H7 as starter packets only. H1 now decides the target class for H2 and prevents H3/H4 from becoming another candidate-scout loop. If H1 narrows to an executable classifier rather than a proof, H3 and H4 can run as a parallel calibration batch immediately after. If H1 exposes a precise non-completion axiom, H2 becomes the next solo construction target.
+Reason: Wave 0 started H2, H3/H4, H5, and H7 as starter packets only. H1 is Track 1: force or falsify whole-family completion absorption for `Adapter_P` traces. The other lanes are Track 2 branches until they report a result that feeds H1. Their finishability does not move them above H1. If H1 narrows to an executable classifier rather than a proof, H3 and H4 can run as a parallel calibration batch immediately after. If H1 exposes a precise non-completion axiom, H2 becomes the next solo construction target.

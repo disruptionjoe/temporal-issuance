@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0142
+updated_by_run: RUN-0145
 intake_processed_by_run: RUN-0046
 ---
 
@@ -40,6 +40,25 @@ sidecar_starters:
 claim_status_change: none
 physical_source_issuance_established: false
 ```
+
+Operating priority firewall:
+
+```yaml
+classification_rule: classify by directedness, not certainty of payoff
+track_1_north_star: force or falsify the highest-value TI objective
+track_2_branch: formalize one byproduct only under declared postulates
+branch_contract: X given S never asserts S
+priority_rule: North Star outranks branch payoff unless actually falsified
+current_track_1: H1 whole-family completion barrier theorem
+current_track_2:
+  - H2 operative source-action generator starter
+  - H3/H4 physical calibration starter
+  - H5 multi-holder separator starter
+  - H7 preservation-map contract starter
+```
+
+Use Track 2 results as tests or forced inputs for Track 1. Do not let a clean
+conditional theorem or near-certain fixture replace H1 while H1 is merely hard.
 
 Active next trigger:
 
