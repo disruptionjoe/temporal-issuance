@@ -25,6 +25,16 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 user-directed research-steering Wave 7 executed T1 in
+`explorations/E172-t1-completion-barrier-theorem-target-2026-07-12.md`.
+The wave turns the post-H8 wait state into a bounded theorem target over the
+current `Adapter_P` trace class. The executable marks the bounded target ready,
+blocks universal physical no-go, physical-source, and D-FORK-decision
+overclaims, and records the exact counterexample obligations for any new
+concrete H7-admitted packet. No claim movement, no physical-source claim, and
+no `TI-C020` reopen. The next Track 1 route is T2: mechanize or package the
+bounded completion-barrier theorem contract unless a new packet arrives first.
+
 2026-07-12 Progress fan-out executed H8 in
 `explorations/E171-h8-d-fork-regime-signature-bundle-2026-07-12.md`.
 H8 packages three usable signatures for future D-FORK work: FTS depleting

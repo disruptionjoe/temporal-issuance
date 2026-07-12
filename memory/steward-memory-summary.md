@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0122
+last_summarized_run: RUN-0152
 ---
 
 # Steward Memory Summary
@@ -27,10 +27,20 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: Compat_G_MLTT_passes_expressiveness_threshold_for_formal_source
+strongest_current_fixture_result: bounded_completion_barrier_theorem_target_ready
 bare_Ext_S_derives_connection: no
-next_required_test: compact_no_worthy_work_until_gate_changes
+next_required_test: t2_mechanize_bounded_completion_barrier_theorem_contract_unless_new_h7_packet
 ```
+
+RUN-0152 adds: Wave 7 executed T1 after H8. The post-H8 wait state is now a
+bounded theorem target, not a universal no-go. The executable
+`tools/t1_completion_barrier_theorem_target.py` marks the bounded Adapter_P
+completion-barrier target ready, blocks universal physical no-go,
+physical-source, and D-FORK-decision overclaims, and records the exact
+counterexample obligations for a future concrete H7-admitted packet. No claim
+movement, no physical-source claim, and no TI-C020 reopen. The next route is
+T2: mechanize or package the bounded theorem contract unless a new packet
+arrives first.
 
 RUN-0122 adds: W010 after the TI-C022 record-reality fixture is complete. The
 highest-value next edit remains bounded `FORMAL-OBJECT.md` /

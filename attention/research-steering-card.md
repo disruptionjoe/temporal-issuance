@@ -21,10 +21,10 @@ Seeded from the 2026-07-12 inline council assessment:
 
 Current ranked list from `attention/priority_condorcet.py`:
 
-1. **T1: Sharper completion-barrier theorem target** - Best restart without a new packet: convert repeated completion absorption into a killable theorem target.
-2. **P1: New H7-admitted packet intake** - If a concrete candidate appears, test it through H7, H6, and H8 before any claim movement.
+1. **T2: Mechanize bounded completion-barrier theorem contract** - Use E172's bounded target to force or kill the current Adapter_P trace class without universalizing it.
+2. **P1: New H7-admitted packet intake** - If a concrete candidate appears, test it through E172's counterexample obligations before any claim movement.
 3. **G1: Intentional follow-on gate selection** - Choose a new gate only if it advances the North Star and does not upgrade H8 into a decision procedure.
-4. **W000: Gate-change wait after H8 signature bundle** - Use this state when there is no new packet, sharper theorem target, or selected follow-on gate.
+4. **W000: Gate-change wait after E172 theorem target** - Use this state when there is no theorem packaging, new packet, or selected follow-on gate.
 
 Re-rank by editing `ITEMS` and `BALLOTS` in `attention/priority_condorcet.py`, then re-run the script and paste the new ranked list here.
 
@@ -133,16 +133,17 @@ Discipline:
 | H9 H1 physical calibration batch | Resolved in E169 | Current CRISPR and Dynamic/Floquet near-misses are absorbed; no physical Adapter_P pass. |
 | H6 Internal versus external completion boundary audit | Resolved in E170 | Formal/local OSAG support is bounded conditional form, not external completion language, full internal source structure, or physical Adapter_P passage. |
 | H8 D-FORK regime signature bundle | Resolved in E171 | Use as a citation bundle, not a D-FORK decision procedure. |
-| T1 Sharper completion-barrier theorem target | Live restart route | If no new concrete packet appears, sharpen the completion barrier into a theorem target that can kill or force the larger model. |
-| P1 New H7-admitted packet intake | Conditional restart route | If a concrete candidate appears, test it through H7, H6, and H8 before any claim movement. |
+| T1 Sharper completion-barrier theorem target | Resolved in E172 | The bounded Adapter_P completion-barrier theorem target is ready; universal no-go, physical-source, and D-FORK-decision overclaims are blocked. |
+| T2 Mechanize bounded completion-barrier theorem contract | Live Track 1 | Convert E172's bounded theorem target into a proof package or executable theorem contract over the current trace class. |
+| P1 New H7-admitted packet intake | Conditional restart route | If a concrete candidate appears, test it through E172's counterexample obligations before any claim movement. |
 | G1 Intentional follow-on gate selection | Conditional restart route | Select only a gate that advances the North Star and does not treat H8 as deciding D-FORK. |
 
 Current swing status:
 
 ```yaml
-latest_material_result: E171 H8 D-FORK regime signature bundle
-current_gate_state: gate_change_wait_after_h8_signature_bundle
-steering_override: no material swing is active without a new H7-admitted packet, sharper theorem target, or intentional follow-on gate
+latest_material_result: E172 T1 completion-barrier theorem target
+current_gate_state: bounded_theorem_target_ready
+steering_override: mechanize the bounded theorem target unless a concrete H7-admitted packet appears
 wave0_started: true
 wave0_packet: explorations/E164-research-steering-wave0-starter-2026-07-12.md
 wave1_complete: true
@@ -157,11 +158,14 @@ wave5_complete: true
 wave5_packet: explorations/E170-h6-completion-boundary-audit-2026-07-12.md
 wave6_complete: true
 wave6_packet: explorations/E171-h8-d-fork-regime-signature-bundle-2026-07-12.md
-active_dependency_boundary: none
-north_star_track: post-H8 restart route selection
-branch_track: none
+wave7_complete: true
+wave7_packet: explorations/E172-t1-completion-barrier-theorem-target-2026-07-12.md
+active_dependency_boundary: T2 bounded theorem contract packaging
+north_star_track: force or kill the bounded Adapter_P trace class
+branch_track: P1 only if a new concrete H7-admitted packet appears
 formal_local_support_boundary: bounded_conditional_form
 d_fork_signature_bundle_reportable: true
+bounded_theorem_target_ready: true
 claim_status_change: none
 physical_source_issuance_established: false
 ```
@@ -179,7 +183,7 @@ Then hand him the top few items in order with one-line whys.
 Default research route:
 
 ```text
-Post-H8 gate-change wait.
+Wave 8: T2 mechanize bounded completion-barrier theorem contract.
 ```
 
-Reason: H6 classified formal/local OSAG support as bounded conditional form, and H8 packaged the current D-FORK signatures without deciding the non-computable fork. Material progress now requires a new concrete H7-admitted packet, a sharper theorem target, or an intentionally selected follow-on gate. Without a new packet or selected gate, route to T1.
+Reason: E172 turns the post-H8 wait state into a bounded, killable theorem target over the current `Adapter_P` trace class. The next move is to package or mechanize that target without upgrading it into a universal physics no-go. If a new concrete H7-admitted packet appears first, route it through E172's counterexample obligations.

@@ -3,11 +3,68 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0151
+updated_by_run: RUN-0152
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: T1 Completion-Barrier Theorem Target
+
+Joe opened the lane for another wave. Wave 7 executed T1 after H8.
+
+Primary artifact:
+
+```text
+explorations/E172-t1-completion-barrier-theorem-target-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/t1_completion_barrier_theorem_target.py
+tests/test_t1_completion_barrier_theorem_target.py
+tests/artifacts/t1_completion_barrier_theorem_target_result.json
+```
+
+T1 result:
+
+```yaml
+t1_result: bounded_completion_barrier_theorem_target_sharpened_not_universal_theorem
+theorem_contract_ready: true
+counterexample_contract_ready: true
+universal_physical_no_go_not_ready: true
+physical_source_theorem_blocked: true
+d_fork_decision_theorem_blocked: true
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> t2_mechanize_bounded_completion_barrier_theorem_contract
+```
+
+Minimum contract:
+
+1. Use E172 as the theorem target, not as a theorem already proved.
+2. Preserve the bounded scope: post-H8 `Adapter_P` traces with H1/H2/H6/H7/H8
+   fields and stops represented.
+3. Do not universalize to all physical novelty.
+4. Do not treat H8 as deciding D-FORK.
+5. If a new concrete H7-admitted packet appears first, route it through E172's
+   counterexample obligations before claim movement.
+
+Priority firewall:
+
+```yaml
+current_track_1: T2 bounded completion-barrier theorem contract
+priority_rule: formal theorem packaging is North Star work only while it
+  forces or kills the bounded Adapter_P trace class; it must not become a
+  generic clean byproduct detached from the counterexample contract.
+```
 
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: H8 D-FORK Regime Signature Bundle
 
