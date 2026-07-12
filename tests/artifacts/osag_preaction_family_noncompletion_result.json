@@ -1,0 +1,290 @@
+{
+  "TI_C020_reopened": false,
+  "adapter_fields": [
+    "Gamma_n",
+    "Adm_n",
+    "Cand_n",
+    "Gen_n",
+    "a_n",
+    "w_n",
+    "Gamma_n_plus_1",
+    "DeltaCap_n",
+    "tau_n",
+    "Preserve_n",
+    "AAN_family"
+  ],
+  "adapter_preservation_checked": true,
+  "after_fact_singleton_rejected": true,
+  "bounded_osag_constructed": true,
+  "cases": [
+    {
+      "case_id": "bounded_internal_osag",
+      "completion_families": [
+        {
+          "channel": "value",
+          "covers_candidate_after_action": false,
+          "covers_candidate_preaction": false,
+          "family_id": "value_family_checked",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        },
+        {
+          "channel": "name",
+          "covers_candidate_after_action": true,
+          "covers_candidate_preaction": false,
+          "family_id": "name_family_checked",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        },
+        {
+          "channel": "provenance_action",
+          "covers_candidate_after_action": false,
+          "covers_candidate_preaction": false,
+          "family_id": "provenance_action_family_checked",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        },
+        {
+          "channel": "capability",
+          "covers_candidate_after_action": false,
+          "covers_candidate_preaction": false,
+          "family_id": "capability_family_checked",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        }
+      ],
+      "description": "A finite represented family index is checked before action, and the candidate is generated from present rules with no pre-action family coverage."
+    },
+    {
+      "case_id": "fixed_value_precompletion",
+      "completion_families": [
+        {
+          "channel": "value",
+          "covers_candidate_after_action": true,
+          "covers_candidate_preaction": true,
+          "family_id": "fixed_value_completion",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        }
+      ],
+      "description": "A fixed value family already contains the candidate."
+    },
+    {
+      "case_id": "preformed_action_completion",
+      "completion_families": [
+        {
+          "channel": "provenance_action",
+          "covers_candidate_after_action": true,
+          "covers_candidate_preaction": true,
+          "family_id": "preformed_action_completion",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        }
+      ],
+      "description": "The action and witness are already preformed."
+    },
+    {
+      "case_id": "capability_schedule_completion",
+      "completion_families": [
+        {
+          "channel": "capability",
+          "covers_candidate_after_action": true,
+          "covers_candidate_preaction": true,
+          "family_id": "capability_schedule_completion",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        }
+      ],
+      "description": "The capability delta is already scheduled by fixed source plus access."
+    },
+    {
+      "case_id": "after_fact_singleton_name",
+      "completion_families": [
+        {
+          "channel": "name",
+          "covers_candidate_after_action": true,
+          "covers_candidate_preaction": false,
+          "family_id": "after_fact_name_completion",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        }
+      ],
+      "description": "The apparent exclusion is created after the action by naming the result."
+    },
+    {
+      "case_id": "hidden_completion_oracle",
+      "completion_families": [
+        {
+          "channel": "imported",
+          "covers_candidate_after_action": true,
+          "covers_candidate_preaction": false,
+          "family_id": "hidden_global_completion_oracle",
+          "imported_oracle": true,
+          "represented_at_stage": true
+        }
+      ],
+      "description": "A hidden global oracle supplies the family table."
+    },
+    {
+      "case_id": "missing_preserve_field",
+      "completion_families": [
+        {
+          "channel": "value",
+          "covers_candidate_after_action": false,
+          "covers_candidate_preaction": false,
+          "family_id": "value_family_checked",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        },
+        {
+          "channel": "name",
+          "covers_candidate_after_action": true,
+          "covers_candidate_preaction": false,
+          "family_id": "name_family_checked",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        },
+        {
+          "channel": "provenance_action",
+          "covers_candidate_after_action": false,
+          "covers_candidate_preaction": false,
+          "family_id": "provenance_action_family_checked",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        },
+        {
+          "channel": "capability",
+          "covers_candidate_after_action": false,
+          "covers_candidate_preaction": false,
+          "family_id": "capability_family_checked",
+          "imported_oracle": false,
+          "represented_at_stage": true
+        }
+      ],
+      "description": "The candidate omits Preserve_n and cannot be evaluated as OSAG."
+    }
+  ],
+  "claim_status_change": "none",
+  "fixed_completion_absorbed": true,
+  "fixture_id": "osag_preaction_family_noncompletion",
+  "h2_result": "bounded_osag_shape_constructed_formal_local",
+  "honest_current_result": "A bounded formal/local OSAG shape can be constructed over a finite represented completion-family index. The result only shows how H1's pre-action family noncompletion target can be represented without after-fact singleton naming or hidden global completion. It does not establish a physical source action.",
+  "imported_oracle_rejected": true,
+  "kind": "h2_bounded_formal_local_osag_constructor",
+  "next_track_1_recommendation": "H7 completion-aware Adapter_P admission contract, then H9/H5 calibration against concrete physical and multi-holder cases",
+  "osag_tuple": [
+    "Gamma_n",
+    "Adm_n",
+    "Cand_n",
+    "Gen_n",
+    "a_n",
+    "w_n",
+    "Gamma_n_plus_1",
+    "DeltaCap_n",
+    "tau_n",
+    "Preserve_n",
+    "AAN_family"
+  ],
+  "physical_source_issuance_established": false,
+  "preaction_family_noncompletion_rule_generated_internal": true,
+  "results": [
+    {
+      "adapter_fields_mapped": true,
+      "case_id": "bounded_internal_osag",
+      "family_noncompletion_holds": true,
+      "finite_prefix_non_precontained": true,
+      "internally_generated": true,
+      "preaction_family_rule": true,
+      "real_physical_candidate": false,
+      "reason": "The bounded formal/local OSAG shape constructs the candidate from present rules while excluding all represented pre-action completion families. This is not a physical-source claim.",
+      "source_growth_witness": true,
+      "tau_n_preserved": true,
+      "terminal": false,
+      "verdict": "BOUNDED_OSAG_CONSTRUCTED"
+    },
+    {
+      "adapter_fields_mapped": true,
+      "case_id": "fixed_value_precompletion",
+      "family_noncompletion_holds": false,
+      "finite_prefix_non_precontained": true,
+      "internally_generated": true,
+      "preaction_family_rule": true,
+      "real_physical_candidate": false,
+      "reason": "At least one represented completion family already covers the candidate before the alleged source action.",
+      "source_growth_witness": true,
+      "tau_n_preserved": true,
+      "terminal": true,
+      "verdict": "FAMILY_COMPLETION_ABSORPTION"
+    },
+    {
+      "adapter_fields_mapped": true,
+      "case_id": "preformed_action_completion",
+      "family_noncompletion_holds": false,
+      "finite_prefix_non_precontained": true,
+      "internally_generated": true,
+      "preaction_family_rule": true,
+      "real_physical_candidate": false,
+      "reason": "At least one represented completion family already covers the candidate before the alleged source action.",
+      "source_growth_witness": true,
+      "tau_n_preserved": true,
+      "terminal": true,
+      "verdict": "FAMILY_COMPLETION_ABSORPTION"
+    },
+    {
+      "adapter_fields_mapped": true,
+      "case_id": "capability_schedule_completion",
+      "family_noncompletion_holds": false,
+      "finite_prefix_non_precontained": true,
+      "internally_generated": true,
+      "preaction_family_rule": true,
+      "real_physical_candidate": false,
+      "reason": "At least one represented completion family already covers the candidate before the alleged source action.",
+      "source_growth_witness": true,
+      "tau_n_preserved": true,
+      "terminal": true,
+      "verdict": "FAMILY_COMPLETION_ABSORPTION"
+    },
+    {
+      "adapter_fields_mapped": true,
+      "case_id": "after_fact_singleton_name",
+      "family_noncompletion_holds": false,
+      "finite_prefix_non_precontained": true,
+      "internally_generated": true,
+      "preaction_family_rule": true,
+      "real_physical_candidate": false,
+      "reason": "The family exclusion is created after the action by singleton naming, so it is not a pre-action family noncompletion rule.",
+      "source_growth_witness": true,
+      "tau_n_preserved": true,
+      "terminal": true,
+      "verdict": "AFTER_FACT_SINGLETON_REJECTION"
+    },
+    {
+      "adapter_fields_mapped": true,
+      "case_id": "hidden_completion_oracle",
+      "family_noncompletion_holds": false,
+      "finite_prefix_non_precontained": true,
+      "internally_generated": false,
+      "preaction_family_rule": true,
+      "real_physical_candidate": false,
+      "reason": "The apparent AAN_family rule is imported from a hidden completion oracle, external law, or externally supplied family table.",
+      "source_growth_witness": true,
+      "tau_n_preserved": true,
+      "terminal": true,
+      "verdict": "IMPORTED_STRUCTURE_REJECTION"
+    },
+    {
+      "adapter_fields_mapped": false,
+      "case_id": "missing_preserve_field",
+      "family_noncompletion_holds": true,
+      "finite_prefix_non_precontained": true,
+      "internally_generated": true,
+      "preaction_family_rule": true,
+      "real_physical_candidate": false,
+      "reason": "The candidate does not preserve tau_n and map all OSAG/Adapter_P fields.",
+      "source_growth_witness": true,
+      "tau_n_preserved": true,
+      "terminal": false,
+      "verdict": "OUT_OF_SCOPE_NOT_ADAPTER_P_TRACE"
+    }
+  ]
+}

@@ -25,6 +25,16 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 Progress fan-out executed H2 in
+`explorations/E166-osag-preaction-family-noncompletion-2026-07-12.md`.
+H2 constructs a bounded formal/local `OSAG` shape over a finite represented
+completion-family index. Fixed completion, after-fact singleton naming, and
+hidden completion oracles remain rejected. No claim movement, no physical-source
+claim, and no `TI-C020` reopen. The next Track 1 route is H7: a
+completion-aware `Adapter_P` admission contract that preserves the H1 completion
+channels and H2 OSAG family checks when admitting boundary, neighbor, or
+cross-repo candidate data.
+
 2026-07-12 research-steering Wave 1 executed H1 in
 `explorations/E165-whole-family-completion-barrier-classifier-2026-07-12.md`.
 H1 is resolved as an executable classifier, not a universal theorem. Value,

@@ -20,6 +20,14 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E166-osag-preaction-family-noncompletion-2026-07-12.md`
+  executes Wave 2 from the research-steering plan. H2 constructs a bounded
+  formal/local OSAG shape with a pre-action family noncompletion rule over a
+  finite represented completion-family index. Fixed completion, after-fact
+  singleton naming, imported hidden oracles, and missing preservation fields
+  remain rejected. No claim movement, no physical-source claim, and no
+  `TI-C020` reopen. Next route: H7 completion-aware Adapter_P admission
+  contract.
 - `E165-whole-family-completion-barrier-classifier-2026-07-12.md`
   executes Wave 1 from the research-steering card. H1 is resolved as an
   executable classifier, not a universal theorem: value, name,

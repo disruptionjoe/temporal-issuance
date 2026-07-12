@@ -3,11 +3,73 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0146
+updated_by_run: RUN-0147
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: Research Steering Wave 2
+
+CapacityOS Progress fan-out executed H2 as the bounded OSAG pre-action family
+noncompletion constructor.
+
+Primary artifact:
+
+```text
+explorations/E166-osag-preaction-family-noncompletion-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/osag_preaction_family_noncompletion.py
+tests/test_osag_preaction_family_noncompletion.py
+tests/artifacts/osag_preaction_family_noncompletion_result.json
+```
+
+Wave 2 result:
+
+```yaml
+h2_result: bounded_osag_shape_constructed_formal_local
+bounded_osag_constructed: true
+preaction_family_noncompletion_rule_generated_internal: true
+fixed_completion_absorbed: true
+after_fact_singleton_rejected: true
+imported_oracle_rejected: true
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> research_steering_wave3_h7_completion_aware_adapter_p_admission_contract
+```
+
+Minimum contract:
+
+1. Treat H1 completion channels and H2 OSAG family checks as preservation
+   fields, not prose context.
+2. Define admission for boundary, neighbor, or cross-repo candidate data without
+   importing a hidden completion oracle.
+3. Preserve `tau_n`, `Preserve_n`, represented family index, and candidate
+   provenance.
+4. Return a computed artifact that exits 0 and distinguishes admitted
+   formal/local OSAG support from imported completion or readout language.
+5. Preserve no claim movement unless a later durable artifact earns it.
+
+Priority firewall:
+
+```yaml
+current_track_1: H7 completion-aware Adapter_P admission contract
+current_track_2:
+  - H9 H1 physical calibration batch
+  - H5 multi-holder completion-channel separator
+  - H6 internal versus external completion boundary theorem
+priority_rule: branches report up to H7 and do not outrank it by finishability
+```
 
 ## USER-DIRECTED WAVE EXECUTED 2026-07-12: Research Steering Wave 1
 

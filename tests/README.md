@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- OSAG pre-action family noncompletion constructor: `python tests/test_osag_preaction_family_noncompletion.py`
 - Whole-family completion barrier classifier: `python tests/test_whole_family_completion_barrier_classifier.py`
 - Research steering Wave 0 starter: `python tests/test_research_steering_wave0_starter.py`
 - Run-record schema audit: `python tests/test_run_record_schema_audit.py`
