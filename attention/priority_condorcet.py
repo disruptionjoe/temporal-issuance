@@ -29,30 +29,26 @@ ITEMS = {
         "title": "Real H7-admitted packet intake",
         "why": "Only a real packet through the E172/E173 obligations can revise the bounded contract or move claims.",
     },
-    "G2": {
-        "title": "Distinct T2 contract stressor gate",
-        "why": "Run only if it tests the T2 contract in a new way without repeating T3 or broadening the claim.",
-    },
     "W000": {
-        "title": "Gate-change wait after T3 validator",
-        "why": "Use this state when there is no real packet and no distinct contract-testing gate.",
+        "title": "Gate-change wait after G2 minimality stressor",
+        "why": "Use this state when there is no real H7-admitted packet or fixed-input change.",
     },
 }
 
 
 BALLOTS = {
-    "orthodox_professor": ["P1", "G2", "W000"],
-    "heterodox_rigorous_professor": ["G2", "P1", "W000"],
-    "commercial_scientist": ["P1", "G2", "W000"],
-    "philosopher_of_science": ["P1", "G2", "W000"],
-    "wild_frontier_scientist": ["P1", "G2", "W000"],
-    "computability_proof_theory": ["P1", "G2", "W000"],
-    "category_sheaf_topos": ["G2", "P1", "W000"],
-    "quantum_operator_algebra": ["P1", "G2", "W000"],
-    "thermo_information": ["P1", "G2", "W000"],
-    "cosmology_boundary_physics": ["G2", "P1", "W000"],
-    "distributed_systems_finality": ["P1", "G2", "W000"],
-    "evolution_open_endedness": ["P1", "G2", "W000"],
+    "orthodox_professor": ["P1", "W000"],
+    "heterodox_rigorous_professor": ["P1", "W000"],
+    "commercial_scientist": ["P1", "W000"],
+    "philosopher_of_science": ["P1", "W000"],
+    "wild_frontier_scientist": ["P1", "W000"],
+    "computability_proof_theory": ["P1", "W000"],
+    "category_sheaf_topos": ["P1", "W000"],
+    "quantum_operator_algebra": ["P1", "W000"],
+    "thermo_information": ["P1", "W000"],
+    "cosmology_boundary_physics": ["P1", "W000"],
+    "distributed_systems_finality": ["P1", "W000"],
+    "evolution_open_endedness": ["P1", "W000"],
 }
 
 

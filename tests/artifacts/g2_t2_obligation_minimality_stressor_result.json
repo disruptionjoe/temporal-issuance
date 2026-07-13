@@ -1,0 +1,199 @@
+{
+  "TI_C020_reopened": false,
+  "all_obligations_load_bearing": true,
+  "claim_status_change": "none",
+  "counterexample_gate_validated": true,
+  "depends_on_fixture_id": "t3_t2_counterexample_gate_validator",
+  "fixture_id": "g2_t2_obligation_minimality_stressor",
+  "g2_result": "all_t2_counterexample_obligations_load_bearing_no_redundant_clause_detected",
+  "honest_current_result": "Every current counterexample obligation is load-bearing under the single-omission stressor. No redundant or over-strong obligation is detected, and no real packet is found.",
+  "kind": "t2_counterexample_obligation_minimality_stressor",
+  "load_bearing_obligation_ids": [
+    "new_concrete_packet",
+    "h7_admitted",
+    "maps_all_adapter_p_fields",
+    "preserves_tau_n",
+    "preserves_preserve_n",
+    "preserves_represented_family_index",
+    "preserves_candidate_provenance",
+    "no_hidden_completion_oracle",
+    "no_imported_law_or_schema",
+    "not_readout_or_finality_only",
+    "defeats_value_completion",
+    "defeats_name_completion",
+    "defeats_provenance_action_completion",
+    "defeats_capability_completion",
+    "supplies_w1_non_isomorphic_physical_algebra",
+    "supplies_w4_perturbation_non_factorization",
+    "supplies_w5_record_preservation_comparison",
+    "defeats_whole_family_completion",
+    "does_not_treat_h8_as_d_fork_decision"
+  ],
+  "next_track_1_recommendation": "Do not repeat G2. The current contract is minimal under this single-omission stressor. Resume material work only with a real H7-admitted packet or fixed inputs that change the obligation set.",
+  "obligation_count": 19,
+  "omission_results": [
+    {
+      "obligation_id": "new_concrete_packet",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "h7_admitted",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "maps_all_adapter_p_fields",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "preserves_tau_n",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "preserves_preserve_n",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "preserves_represented_family_index",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "preserves_candidate_provenance",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "no_hidden_completion_oracle",
+      "omission_class": "OBLIGATION_TERMINAL_SAFETY_STOP",
+      "reason": "Removing this obligation activates a terminal safety stop rather than a contract revision.",
+      "revision_still_triggers": false,
+      "terminal": true,
+      "verdict": "IMPORTED_STRUCTURE_REJECTED"
+    },
+    {
+      "obligation_id": "no_imported_law_or_schema",
+      "omission_class": "OBLIGATION_TERMINAL_SAFETY_STOP",
+      "reason": "Removing this obligation activates a terminal safety stop rather than a contract revision.",
+      "revision_still_triggers": false,
+      "terminal": true,
+      "verdict": "IMPORTED_STRUCTURE_REJECTED"
+    },
+    {
+      "obligation_id": "not_readout_or_finality_only",
+      "omission_class": "OBLIGATION_TERMINAL_SAFETY_STOP",
+      "reason": "Removing this obligation activates a terminal safety stop rather than a contract revision.",
+      "revision_still_triggers": false,
+      "terminal": true,
+      "verdict": "READOUT_FINALITY_REJECTED"
+    },
+    {
+      "obligation_id": "defeats_value_completion",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "defeats_name_completion",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "defeats_provenance_action_completion",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "defeats_capability_completion",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "supplies_w1_non_isomorphic_physical_algebra",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "supplies_w4_perturbation_non_factorization",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "supplies_w5_record_preservation_comparison",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "defeats_whole_family_completion",
+      "omission_class": "OBLIGATION_LOAD_BEARING",
+      "reason": "Removing this obligation prevents contract revision, so it is load-bearing under the current gate.",
+      "revision_still_triggers": false,
+      "terminal": false,
+      "verdict": "COUNTEREXAMPLE_OBLIGATIONS_INCOMPLETE"
+    },
+    {
+      "obligation_id": "does_not_treat_h8_as_d_fork_decision",
+      "omission_class": "OBLIGATION_TERMINAL_SAFETY_STOP",
+      "reason": "Removing this obligation activates a terminal safety stop rather than a contract revision.",
+      "revision_still_triggers": false,
+      "terminal": true,
+      "verdict": "D_FORK_DECISION_SHORTCUT_REJECTED"
+    }
+  ],
+  "overstrong_obligation_ids": [],
+  "physical_source_issuance_established": false,
+  "real_counterexample_packet_found": false,
+  "redundant_obligation_ids": [],
+  "terminal_safety_obligation_ids": [
+    "no_hidden_completion_oracle",
+    "no_imported_law_or_schema",
+    "not_readout_or_finality_only",
+    "does_not_treat_h8_as_d_fork_decision"
+  ],
+  "theorem_contract_id": "bounded_adapter_p_completion_barrier_v1"
+}

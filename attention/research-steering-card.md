@@ -22,8 +22,7 @@ Seeded from the 2026-07-12 inline council assessment:
 Current ranked list from `attention/priority_condorcet.py`:
 
 1. **P1: Real H7-admitted packet intake** - Only a real packet through the E172/E173 obligations can revise the bounded contract or move claims.
-2. **G2: Distinct T2 contract stressor gate** - Run only if it tests the T2 contract in a new way without repeating T3 or broadening the claim.
-3. **W000: Gate-change wait after T3 validator** - Use this state when there is no real packet and no distinct contract-testing gate.
+2. **W000: Gate-change wait after G2 minimality stressor** - Use this state when there is no real H7-admitted packet or fixed-input change.
 
 Re-rank by editing `ITEMS` and `BALLOTS` in `attention/priority_condorcet.py`, then re-run the script and paste the new ranked list here.
 
@@ -135,15 +134,15 @@ Discipline:
 | T1 Sharper completion-barrier theorem target | Resolved in E172 | The bounded Adapter_P completion-barrier theorem target is ready; universal no-go, physical-source, and D-FORK-decision overclaims are blocked. |
 | T2 Mechanize bounded completion-barrier theorem contract | Resolved in E173 | Packaged the bounded contract `bounded_adapter_p_completion_barrier_v1`; no universal no-go, physical-source, or D-FORK-decision claim. |
 | T3 T2 counterexample gate validator | Resolved in E174 | Validated the gate with adversarial rows; current near-misses fail, synthetic full control would force revision, and no real packet is found. |
+| G2 T2 obligation-minimality stressor | Resolved in E175 | Every E172/E173 counterexample obligation is load-bearing under single-omission testing; no redundant or over-strong obligation was detected. |
 | P1 Real H7-admitted packet intake | Conditional Track 1 | If a real concrete candidate appears, test it through E172/E173 obligations before any claim movement. |
-| G2 Distinct T2 contract stressor gate | Conditional support | Select only if it tests the T2 contract in a new way without repeating T3 or broadening the claim. |
 
 Current swing status:
 
 ```yaml
-latest_material_result: E174 T3 T2 counterexample gate validator
-current_gate_state: t2_counterexample_gate_validated_no_real_packet_found
-steering_override: wait for a real H7-admitted packet or a distinct T2 contract-testing gate
+latest_material_result: E175 G2 T2 obligation-minimality stressor
+current_gate_state: all_t2_counterexample_obligations_load_bearing
+steering_override: wait for a real H7-admitted packet or fixed-input change
 wave0_started: true
 wave0_packet: explorations/E164-research-steering-wave0-starter-2026-07-12.md
 wave1_complete: true
@@ -164,14 +163,17 @@ wave8_complete: true
 wave8_packet: explorations/E173-t2-bounded-completion-barrier-theorem-contract-2026-07-12.md
 wave9_complete: true
 wave9_packet: explorations/E174-t3-t2-counterexample-gate-validator-2026-07-12.md
-active_dependency_boundary: real H7-admitted packet or distinct contract-testing gate
-north_star_track: test the bounded contract only with real packet evidence or nonduplicative gate
+wave10_complete: true
+wave10_packet: explorations/E175-g2-t2-obligation-minimality-stressor-2026-07-12.md
+active_dependency_boundary: real H7-admitted packet or fixed-input change
+north_star_track: real packet evidence through E172/E173 obligations
 branch_track: none
 formal_local_support_boundary: bounded_conditional_form
 d_fork_signature_bundle_reportable: true
 bounded_theorem_target_ready: true
 bounded_theorem_contract_packaged: true
 t2_counterexample_gate_validated: true
+all_t2_counterexample_obligations_load_bearing: true
 real_counterexample_packet_found: false
 claim_status_change: none
 physical_source_issuance_established: false
@@ -190,7 +192,7 @@ Then hand him the top few items in order with one-line whys.
 Default research route:
 
 ```text
-Post-T3 gate-change wait.
+Post-G2 gate-change wait.
 ```
 
-Reason: E173 packages the bounded contract and E174 validates the counterexample gate without finding a real packet. Material progress now requires a real concrete H7-admitted packet or a distinct deliberate gate that tests the T2 contract without repeating T3 or broadening the claim.
+Reason: E173 packages the bounded contract, E174 validates the counterexample gate, and E175 finds no redundant obligation under single-omission stress. Material progress now requires a real concrete H7-admitted packet or fixed inputs that change the obligation set.

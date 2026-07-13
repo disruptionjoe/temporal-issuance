@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0154
+last_summarized_run: RUN-0155
 ---
 
 # Steward Memory Summary
@@ -27,10 +27,17 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: t2_counterexample_gate_validated_no_real_packet_found
+strongest_current_fixture_result: all_t2_counterexample_obligations_load_bearing
 bare_Ext_S_derives_connection: no
-next_required_test: wait_for_real_h7_packet_or_distinct_t2_contract_gate
+next_required_test: wait_for_real_h7_packet_or_fixed_input_change
 ```
+
+RUN-0155 adds: G2 stress-tested the E172/E173 counterexample obligations by
+omitting each one from a synthetic full-control packet. Every obligation is
+load-bearing under the single-omission stressor; no redundant or over-strong
+obligation is detected, and no real counterexample packet is found. No claim
+movement, no physical-source claim, and no TI-C020 reopen. The next state is
+gate-change wait until a real H7-admitted packet or fixed-input change appears.
 
 RUN-0154 adds: Wave 9 executed T3 after detecting that T2 was already present.
 T3 validates the E173 counterexample gate with adversarial packet rows. Current

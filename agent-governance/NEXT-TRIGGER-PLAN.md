@@ -3,11 +3,67 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0154
+updated_by_run: RUN-0155
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: G2 T2 Obligation-Minimality Stressor
+
+Joe approved the recommended G2 focused swing after T3. Wave 10 tested whether
+any E172/E173 counterexample obligation is redundant under the current gate.
+
+Primary artifact:
+
+```text
+explorations/E175-g2-t2-obligation-minimality-stressor-2026-07-12.md
+```
+
+Executable artifact:
+
+```text
+tools/g2_t2_obligation_minimality_stressor.py
+tests/test_g2_t2_obligation_minimality_stressor.py
+tests/artifacts/g2_t2_obligation_minimality_stressor_result.json
+```
+
+G2 result:
+
+```yaml
+g2_result: all_t2_counterexample_obligations_load_bearing_no_redundant_clause_detected
+obligation_count: 19
+all_obligations_load_bearing: true
+redundant_obligation_ids: []
+overstrong_obligation_ids: []
+real_counterexample_packet_found: false
+claim_status_change: none
+physical_source_issuance_established: false
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+W000 -> gate_change_wait_after_g2_until_real_h7_packet_or_fixed_input_change
+```
+
+Minimum contract:
+
+1. Do not repeat T2, T3, or G2 unless fixed inputs change.
+2. A real packet must pass E172/E173 obligations before claim movement.
+3. The current obligation set is minimal under single-omission stress, not a
+   universal theorem about every possible formalization.
+4. Preserve no claim movement unless a later durable artifact actually earns it.
+
+Priority firewall:
+
+```yaml
+current_track_1: gate-change wait after G2 minimality stressor
+priority_rule: the contract, gate, and obligation-minimality checks are done.
+  The North Star now needs real packet evidence or changed fixed inputs, not
+  more synthetic contract closure.
+```
 
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-12: T3 T2 Counterexample Gate Validator
 

@@ -25,6 +25,15 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-12)
 
+2026-07-12 user-directed G2 focused swing executed in
+`explorations/E175-g2-t2-obligation-minimality-stressor-2026-07-12.md`.
+The swing stress-tested the E172/E173 counterexample obligations by omitting
+each one from a synthetic full-control packet. Every obligation is
+load-bearing under this single-omission test; no redundant or over-strong
+obligation is detected, and no real counterexample packet is found. No claim
+movement, no physical-source claim, and no `TI-C020` reopen. The next state is
+gate-change wait until a real H7-admitted packet or fixed-input change appears.
+
 2026-07-12 user-directed Wave 9 executed T3 in
 `explorations/E174-t3-t2-counterexample-gate-validator-2026-07-12.md`.
 The wave validates E173's counterexample gate with adversarial packet rows.
