@@ -26,9 +26,9 @@ steering card with the already-executed H6 and H8 runs.
 ## Source Checked
 
 ```text
-C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization\explorations\H59-path2-loop-positivity-blockbuster-wave-design-2026-07-11.md
-C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization\explorations\path2-wave1-synthesis-and-wave2-design-2026-07-11.md
-C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization\attention\gu_priority_condorcet.py
+repos/public/gu-formalization/explorations/H59-path2-loop-positivity-blockbuster-wave-design-2026-07-11.md
+repos/public/gu-formalization/explorations/path2-wave1-synthesis-and-wave2-design-2026-07-11.md
+repos/public/gu-formalization/attention/gu_priority_condorcet.py
 ```
 
 ## Result
