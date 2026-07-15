@@ -1,0 +1,183 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "all_completion_families_represented": true,
+  "blocking_missing_fields": [
+    "typed_source_state",
+    "typed_transition_object",
+    "native_source_law",
+    "adapter_p",
+    "provenance",
+    "w1_w4_w5",
+    "whole_family_noncompletion_certificates",
+    "verifier_backed_nonfactorization",
+    "composition_closure"
+  ],
+  "claim_status_change": "none",
+  "completion_class_verdict": "INCOMPLETE_NULL_CLASS",
+  "completion_class_version": "completion_class_v1",
+  "completion_family_assessments": [
+    {
+      "family_id": "hidden_state",
+      "finding": "A latent fixed state could still determine the throughput trace.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "initial_condition",
+      "finding": "Admitted initial data could still determine the candidate.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "boundary_condition",
+      "finding": "Boundary data could still explain anti-collapse maintenance.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "fixed_source",
+      "finding": "A fixed law, algebra, source family, or instrument family remains open.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "stochastic_seed",
+      "finding": "A fixed stochastic law plus seed remains open.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "name_provenance",
+      "finding": "The throughput label may still be representational packaging.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "resource_capability",
+      "finding": "Maintenance throughput may be ordinary resource or capability activation.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "whole_family",
+      "finding": "A closed family could still contain the joint signature.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "completed_history",
+      "finding": "A completed-history description could still extensionally contain it.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "observer_information_access",
+      "finding": "The residual can be observer-counting or aperture disclosure.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    },
+    {
+      "family_id": "relabel_gauge",
+      "finding": "The sign and residual may vanish under the declared quotient.",
+      "represented": true,
+      "status": "unresolved_no_verified_nonfactorization"
+    }
+  ],
+  "completion_family_count": 11,
+  "composition_closure_declared": false,
+  "cross_repo_implication": false,
+  "fixture_id": "anti_collapse_throughput_packet_candidate_v0",
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "typed_action_2_packet_or_native_source_law_with_verifier_backed_nonfactorization",
+  "packet_admitted": false,
+  "packet_status": "PACKETIZED_FAIL_CLOSED_NOT_ADMITTED",
+  "physical_source_issuance_established": false,
+  "required_source_fields": [
+    {
+      "blocks_admission": true,
+      "field_id": "typed_source_state",
+      "finding": "No typed source state is supplied beyond the open-system metaphor.",
+      "supplied": false
+    },
+    {
+      "blocks_admission": true,
+      "field_id": "typed_transition_object",
+      "finding": "No Action-2 transition object is supplied.",
+      "supplied": false
+    },
+    {
+      "blocks_admission": true,
+      "field_id": "native_source_law",
+      "finding": "No native source law distinguishes issuance from dissipative or access dynamics.",
+      "supplied": false
+    },
+    {
+      "blocks_admission": true,
+      "field_id": "adapter_p",
+      "finding": "No Adapter_P fields state what crosses the interface.",
+      "supplied": false
+    },
+    {
+      "blocks_admission": true,
+      "field_id": "provenance",
+      "finding": "No machine-verifiable candidate provenance or preservation trace is supplied.",
+      "supplied": false
+    },
+    {
+      "blocks_admission": true,
+      "field_id": "w1_w4_w5",
+      "finding": "W1, W4, and W5 witness fields remain absent.",
+      "supplied": false
+    },
+    {
+      "blocks_admission": true,
+      "field_id": "whole_family_noncompletion_certificates",
+      "finding": "No whole-family noncompletion certificates are verified.",
+      "supplied": false
+    },
+    {
+      "blocks_admission": true,
+      "field_id": "verifier_backed_nonfactorization",
+      "finding": "CompletionClass v1 nonfactorization is asserted by none of the eleven families.",
+      "supplied": false
+    },
+    {
+      "blocks_admission": true,
+      "field_id": "composition_closure",
+      "finding": "Declared product and sequential composition closure is missing.",
+      "supplied": false
+    }
+  ],
+  "residual_assessment": {
+    "candidate_shape": "1/sqrt(N)",
+    "observer_counting_artifact_established": true,
+    "projection_residual_established": false,
+    "reason": "N is introduced only as a counting or aggregation index. Without a native source law and Adapter_P trace, the residual is not a source-side nonfactorization result.",
+    "residual_location": "observer_counting_artifact",
+    "source_residual_established": false
+  },
+  "sign_correction": {
+    "finding": "The killed out-of-band sign reading is preserved as unavailable; the sign clause supplies no packet admission evidence.",
+    "gu_krein_sign_reading": "forced_internal",
+    "out_of_band_sign_reading_allowed": false,
+    "used_as_external_observer_evidence": false,
+    "used_as_undecidability_evidence": false
+  },
+  "source_artifact": "explorations/E179-anti-collapse-throughput-packet-preflight-2026-07-15.md",
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "hidden_state",
+    "initial_condition",
+    "name_provenance",
+    "observer_information_access",
+    "relabel_gauge",
+    "resource_capability",
+    "stochastic_seed",
+    "whole_family"
+  ]
+}

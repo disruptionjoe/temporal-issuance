@@ -25,24 +25,24 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-15)
 
-2026-07-15 Progress fan-out RUN-0158 registers the active anti-collapse
+2026-07-15 Progress fan-out RUN-0159 packetizes the E179 anti-collapse
 throughput proposal as
-`explorations/E179-anti-collapse-throughput-packet-preflight-2026-07-15.md`.
-E179 preserves the intuition that issuance may be source-side throughput that
-keeps an open system from collapsing, with a possible `1/sqrt(N)` counting
-residual, while explicitly correcting the sign clause: GU's kinematic Krein
-sign trends forced-internal and must not be used as out-of-band or undecidable
-evidence. The proposal is useful candidate material, not an admitted packet.
-It lacks a native source-law object, `Adapter_P`, provenance, W1/W4/W5,
-whole-family noncompletion certificates, declared CompletionClass v1 coverage,
-verifier-backed nonfactorization, and source/projection separation for the
-residual.
+`explorations/E180-anti-collapse-throughput-packet-candidate-v0-2026-07-15.md`
+and fails it closed under CompletionClass v1. The executable
+`tools/anti_collapse_throughput_packet_candidate_v0.py` represents all eleven
+primitive completion families, but none has verifier-backed nonfactorization
+and declared composition closure is missing. The `1/sqrt(N)` residual is
+classified as an observer-counting artifact, not source evidence, because `N`
+is only supplied as a counting or aggregation index. The GU sign correction is
+preserved: the killed out-of-band sign reading remains unavailable as evidence.
 
-The active state is now packetization of
-`anti_collapse_throughput_packet_candidate_v0` if no stronger typed Action-2 /
-native source-law packet appears first. Packetization must evaluate the
-candidate against CompletionClass v1 before any E177 successor, claim movement,
-`TI-C020` reopen, or cross-repo implication is considered.
+E179 remains useful candidate material, but E180 is not an admitted packet:
+there is no typed Action-2 transition object, native source law, `Adapter_P`,
+provenance, W1/W4/W5, whole-family noncompletion certificate, or source-side
+residual. No claim movement, no `TI-C020` reopen, no E177 mutation, and no
+cross-repo implication occurred. The active unattended state returns to waiting
+for a stronger typed Action-2 / native source-law packet with verifier-backed
+CompletionClass v1 nonfactorization.
 
 ## Prior frontier update (2026-07-14)
 

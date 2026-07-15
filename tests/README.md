@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- Anti-collapse throughput packet candidate v0: `python tests/test_anti_collapse_throughput_packet_candidate_v0.py`
 - CompletionClass v1 bounded null-class contract: `python tests/test_completion_class_v1.py`
 - G2 T2 obligation-minimality stressor: `python tests/test_g2_t2_obligation_minimality_stressor.py`
 - T3 T2 counterexample gate validator: `python tests/test_t3_t2_counterexample_gate_validator.py`

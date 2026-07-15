@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0158
+last_summarized_run: RUN-0159
 ---
 
 # Steward Memory Summary
@@ -27,10 +27,23 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: completion_class_v1_bounded_contract_with_e177_controls
+strongest_current_fixture_result: anti_collapse_throughput_packet_candidate_v0_fail_closed
 bare_Ext_S_derives_connection: no
-next_required_test: anti_collapse_throughput_packet_candidate_v0_or_stronger_native_source_law
+next_required_test: typed_action_2_packet_or_native_source_law_with_verifier_backed_nonfactorization
 ```
+
+RUN-0159 packetizes the E179 anti-collapse throughput proposal as E180 and
+fails it closed under CompletionClass v1. All eleven primitive families are
+represented, but none has verifier-backed nonfactorization and composition
+closure is missing, so the executable verdict is `INCOMPLETE_NULL_CLASS`. The
+`1/sqrt(N)` residual is classified as an observer-counting artifact, not source
+evidence, because `N` is only supplied as a counting or aggregation index. The
+GU sign correction is preserved: the killed out-of-band sign reading supplies
+no undecidability, external-observer, or packet-admission evidence. No claim
+movement, no `TI-C020` reopen, no E177 mutation, no physical source result, and
+no cross-repo implication. Do not repeat E179/E180 unless a new source-law
+object, `Adapter_P`, provenance, W1/W4/W5, composition closure, and
+verifier-backed CompletionClass v1 nonfactorization are supplied.
 
 RUN-0158 registers the anti-collapse throughput proposal as E179, an intake
 preflight rather than an admitted packet. The live candidate says issuance may
