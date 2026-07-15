@@ -1,0 +1,629 @@
+{
+  "TI_C020_reopened": false,
+  "claim_status_change": "none",
+  "counterexample_obligation_ids": [
+    "new_concrete_packet",
+    "h7_admitted",
+    "maps_all_adapter_p_fields",
+    "preserves_tau_n",
+    "preserves_preserve_n",
+    "preserves_represented_family_index",
+    "preserves_candidate_provenance",
+    "no_hidden_completion_oracle",
+    "no_imported_law_or_schema",
+    "not_readout_or_finality_only",
+    "defeats_value_completion",
+    "defeats_name_completion",
+    "defeats_provenance_action_completion",
+    "defeats_capability_completion",
+    "supplies_w1_non_isomorphic_physical_algebra",
+    "supplies_w4_perturbation_non_factorization",
+    "supplies_w5_record_preservation_comparison",
+    "defeats_whole_family_completion",
+    "does_not_treat_h8_as_d_fork_decision"
+  ],
+  "cross_repo_implication_allowed": false,
+  "decisions": [
+    {
+      "W5_TAF_same_shadow_capability": "NOT_EVALUATED",
+      "W5_TI_record_preservation": false,
+      "admission_gate_verdict": "IMPORTED_STRUCTURE_REJECTED",
+      "boundary_access_readout_schedule": [
+        "hidden_before_boundary",
+        "reveal_at_step_1",
+        "readout_after_boundary"
+      ],
+      "capability_C_R_taf": "NOT_EVALUATED",
+      "completion_channels": {
+        "capability_completion": "ABSORBED",
+        "name_completion": "ABSORBED",
+        "provenance_action_completion": "ABSORBED",
+        "value_completion": "ABSORBED"
+      },
+      "control_only": true,
+      "counterexample_obligation_values": {
+        "defeats_capability_completion": false,
+        "defeats_name_completion": false,
+        "defeats_provenance_action_completion": false,
+        "defeats_value_completion": false,
+        "defeats_whole_family_completion": false,
+        "does_not_treat_h8_as_d_fork_decision": true,
+        "h7_admitted": false,
+        "maps_all_adapter_p_fields": true,
+        "new_concrete_packet": false,
+        "no_hidden_completion_oracle": false,
+        "no_imported_law_or_schema": false,
+        "not_readout_or_finality_only": true,
+        "preserves_candidate_provenance": true,
+        "preserves_preserve_n": true,
+        "preserves_represented_family_index": true,
+        "preserves_tau_n": true,
+        "supplies_w1_non_isomorphic_physical_algebra": false,
+        "supplies_w4_perturbation_non_factorization": false,
+        "supplies_w5_record_preservation_comparison": false
+      },
+      "cross_repo_implication_allowed": false,
+      "declared_world_kind": "fixed_hidden_revealed_source",
+      "delta_cap_ti": [
+        "access_value_4"
+      ],
+      "desired_boolean_inputs_ignored": false,
+      "generation_mode": "reveal_preexisting",
+      "h7_admitted": false,
+      "identity_between_them": false,
+      "missing_obligations": [
+        "new_concrete_packet",
+        "h7_admitted",
+        "no_hidden_completion_oracle",
+        "no_imported_law_or_schema",
+        "defeats_value_completion",
+        "defeats_name_completion",
+        "defeats_provenance_action_completion",
+        "defeats_capability_completion",
+        "supplies_w1_non_isomorphic_physical_algebra",
+        "supplies_w4_perturbation_non_factorization",
+        "supplies_w5_record_preservation_comparison",
+        "defeats_whole_family_completion"
+      ],
+      "missing_required_fields": [],
+      "perturbation_results": [
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_a_fixed_family_value_4"
+          ],
+          "perturbation_id": "P0_IDENTITY",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_a_fixed_family_value_4"
+          ],
+          "perturbation_id": "P1_INITIAL_STATE",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_a_fixed_family_value_4"
+          ],
+          "perturbation_id": "P2_GENERATOR_PARAMETER",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_a_fixed_family_value_4"
+          ],
+          "perturbation_id": "P3_ACCESS_SCHEDULE",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_a_fixed_family_value_4"
+          ],
+          "perturbation_id": "P4_OUTPUT_CHANNEL",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_a_fixed_family_value_4"
+          ],
+          "perturbation_id": "P5_NAME_PROVENANCE",
+          "predicted_before_readout": true
+        }
+      ],
+      "physically_forced_boundary_established": false,
+      "positive_allowed": false,
+      "record_comparison": {
+        "absorber_family_complete": true,
+        "candidate_growth_error": 0,
+        "fixed_source_errors": [
+          [
+            "world_a_fixed_source",
+            0
+          ]
+        ],
+        "holdouts_predicted_before_readout": true,
+        "preserve_n_verified": true,
+        "same_pre_boundary_records": true,
+        "tau_n_verified": true
+      },
+      "region_minus": "observer_without_hidden_value_access",
+      "region_plus": "observer_with_revealed_value_access",
+      "resource_ledgers": {
+        "boundary_forcing": "NOT_EVALUATED",
+        "causal_path": "NOT_EVALUATED",
+        "control": "NOT_EVALUATED",
+        "external_resource": "NOT_EVALUATED",
+        "memory": "NOT_EVALUATED",
+        "storage": "NOT_EVALUATED",
+        "transport": "NOT_EVALUATED",
+        "work": "NOT_EVALUATED"
+      },
+      "revision_trigger": false,
+      "source_minus": "fixed_source_before_reveal",
+      "source_plus": "same_fixed_source_after_reveal",
+      "taf_interface": {
+        "M_R": "NOT_EVALUATED",
+        "M_ext": "NOT_EVALUATED",
+        "absorber_statuses": {
+          "causal_domain": "NOT_EVALUATED",
+          "description": "NOT_EVALUATED",
+          "finality_state": "NOT_EVALUATED",
+          "fixed_source": "NOT_EVALUATED",
+          "joint_record": "NOT_EVALUATED",
+          "law_sector": "NOT_EVALUATED",
+          "readout_state": "NOT_EVALUATED",
+          "resource": "NOT_EVALUATED",
+          "transition_menu": "NOT_EVALUATED"
+        },
+        "access_complete_equality_certificate": "FAIL_HIDDEN_REVEALED_ACCESS_CHANGED",
+        "access_complete_shadow_fields": "FAIL_HIDDEN_REVEALED_ACCESS_CHANGED",
+        "all_intervention_equality_certificate": "NOT_EVALUATED",
+        "boundary_mode": "NOT_EVALUATED",
+        "capability_C_R_taf": "NOT_EVALUATED",
+        "causal_domain": "NOT_EVALUATED",
+        "detector_cadence": "NOT_EVALUATED",
+        "external_record_holdings": "NOT_EVALUATED",
+        "horizon": "NOT_EVALUATED",
+        "observer_id": "world_a_observer",
+        "region_id": "world_a_observer_region",
+        "resource_budgets": "NOT_EVALUATED",
+        "structural_equality_certificate": "NOT_EVALUATED",
+        "taf_interface_verdict": "NOT_EVALUATED",
+        "task_records": "NOT_EVALUATED"
+      },
+      "taf_interface_verdict": "NOT_EVALUATED",
+      "task_interface": {
+        "after_result": "same_fixed_source_after_reveal",
+        "allowed_operations": [
+          "fixed_hidden_table_reveal"
+        ],
+        "before_result": "fixed_source_before_reveal",
+        "cost": "dimensionless_fixture_step_1",
+        "inputs": [
+          "U=Z/5Z",
+          "hidden_table=(1,4,2)",
+          "visible_prefix=(1)"
+        ],
+        "provenance": [
+          "modeler_fixed_hidden_table",
+          "reveal_index_1"
+        ],
+        "success_predicate": "hidden_table[1]=4",
+        "target_transformation": "reveal_hidden_table_index_1"
+      },
+      "verdict": "FIXED_SOURCE_DISCLOSURE",
+      "w1_non_isomorphic_physical_algebra": false,
+      "w4_perturbation_non_factorization": false,
+      "whole_family_factorization_witness": "world_a_fixed_family_value_4",
+      "whole_family_result": "FACTORS_THROUGH_FIXED_FAMILY",
+      "world_id": "world_a"
+    },
+    {
+      "W5_TAF_same_shadow_capability": "NOT_EVALUATED",
+      "W5_TI_record_preservation": false,
+      "admission_gate_verdict": "ADMITTED_FOR_BOUNDED_TEST",
+      "boundary_access_readout_schedule": [
+        "state_before_dynamic_step",
+        "apply_Gen_n",
+        "readout_after_dynamic_step"
+      ],
+      "capability_C_R_taf": "NOT_EVALUATED",
+      "completion_channels": {
+        "capability_completion": "ABSORBED",
+        "name_completion": "ABSORBED",
+        "provenance_action_completion": "ABSORBED",
+        "value_completion": "ABSORBED"
+      },
+      "control_only": true,
+      "counterexample_obligation_values": {
+        "defeats_capability_completion": false,
+        "defeats_name_completion": false,
+        "defeats_provenance_action_completion": false,
+        "defeats_value_completion": false,
+        "defeats_whole_family_completion": false,
+        "does_not_treat_h8_as_d_fork_decision": true,
+        "h7_admitted": true,
+        "maps_all_adapter_p_fields": true,
+        "new_concrete_packet": false,
+        "no_hidden_completion_oracle": true,
+        "no_imported_law_or_schema": true,
+        "not_readout_or_finality_only": true,
+        "preserves_candidate_provenance": true,
+        "preserves_preserve_n": true,
+        "preserves_represented_family_index": true,
+        "preserves_tau_n": true,
+        "supplies_w1_non_isomorphic_physical_algebra": false,
+        "supplies_w4_perturbation_non_factorization": false,
+        "supplies_w5_record_preservation_comparison": false
+      },
+      "cross_repo_implication_allowed": false,
+      "declared_world_kind": "internal_dynamics_fixed_completed_family",
+      "delta_cap_ti": [
+        "access_generated_value_2"
+      ],
+      "desired_boolean_inputs_ignored": false,
+      "generation_mode": "fixed_family_dynamics",
+      "h7_admitted": true,
+      "identity_between_them": false,
+      "missing_obligations": [
+        "new_concrete_packet",
+        "defeats_value_completion",
+        "defeats_name_completion",
+        "defeats_provenance_action_completion",
+        "defeats_capability_completion",
+        "supplies_w1_non_isomorphic_physical_algebra",
+        "supplies_w4_perturbation_non_factorization",
+        "supplies_w5_record_preservation_comparison",
+        "defeats_whole_family_completion"
+      ],
+      "missing_required_fields": [],
+      "perturbation_results": [
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_b_fixed_family_value_2"
+          ],
+          "perturbation_id": "P0_IDENTITY",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_b_fixed_family_value_2"
+          ],
+          "perturbation_id": "P1_INITIAL_STATE",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_b_fixed_family_value_2"
+          ],
+          "perturbation_id": "P2_GENERATOR_PARAMETER",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_b_fixed_family_value_2"
+          ],
+          "perturbation_id": "P3_ACCESS_SCHEDULE",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_b_fixed_family_value_2"
+          ],
+          "perturbation_id": "P4_OUTPUT_CHANNEL",
+          "predicted_before_readout": true
+        },
+        {
+          "absorber_family_complete": true,
+          "exact_match_absorber_ids": [
+            "world_b_fixed_family_value_2"
+          ],
+          "perturbation_id": "P5_NAME_PROVENANCE",
+          "predicted_before_readout": true
+        }
+      ],
+      "physically_forced_boundary_established": false,
+      "positive_allowed": false,
+      "record_comparison": {
+        "absorber_family_complete": true,
+        "candidate_growth_error": 0,
+        "fixed_source_errors": [
+          [
+            "world_b_fixed_dynamics",
+            0
+          ]
+        ],
+        "holdouts_predicted_before_readout": true,
+        "preserve_n_verified": true,
+        "same_pre_boundary_records": true,
+        "tau_n_verified": true
+      },
+      "region_minus": "observer_before_dynamic_step",
+      "region_plus": "observer_after_dynamic_step",
+      "resource_ledgers": {
+        "boundary_forcing": "NOT_EVALUATED",
+        "causal_path": "NOT_EVALUATED",
+        "control": "NOT_EVALUATED",
+        "external_resource": "NOT_EVALUATED",
+        "memory": "NOT_EVALUATED",
+        "storage": "NOT_EVALUATED",
+        "transport": "NOT_EVALUATED",
+        "work": "NOT_EVALUATED"
+      },
+      "revision_trigger": false,
+      "source_minus": "fixed_dynamic_source_at_x=1",
+      "source_plus": "same_fixed_dynamic_source_at_x=2",
+      "taf_interface": {
+        "M_R": "NOT_EVALUATED",
+        "M_ext": "NOT_EVALUATED",
+        "absorber_statuses": {
+          "causal_domain": "NOT_EVALUATED",
+          "description": "NOT_EVALUATED",
+          "finality_state": "NOT_EVALUATED",
+          "fixed_source": "NOT_EVALUATED",
+          "joint_record": "NOT_EVALUATED",
+          "law_sector": "NOT_EVALUATED",
+          "readout_state": "NOT_EVALUATED",
+          "resource": "NOT_EVALUATED",
+          "transition_menu": "NOT_EVALUATED"
+        },
+        "access_complete_equality_certificate": "NOT_EVALUATED",
+        "access_complete_shadow_fields": "NOT_EVALUATED",
+        "all_intervention_equality_certificate": "NOT_EVALUATED",
+        "boundary_mode": "NOT_EVALUATED",
+        "capability_C_R_taf": "NOT_EVALUATED",
+        "causal_domain": "NOT_EVALUATED",
+        "detector_cadence": "NOT_EVALUATED",
+        "external_record_holdings": "NOT_EVALUATED",
+        "horizon": "NOT_EVALUATED",
+        "observer_id": "NOT_EVALUATED",
+        "region_id": "NOT_EVALUATED",
+        "resource_budgets": "NOT_EVALUATED",
+        "structural_equality_certificate": "NOT_EVALUATED",
+        "taf_interface_verdict": "NOT_EVALUATED",
+        "task_records": "NOT_EVALUATED"
+      },
+      "taf_interface_verdict": "NOT_EVALUATED",
+      "task_interface": {
+        "after_result": "same_fixed_dynamic_source_at_x=2",
+        "allowed_operations": [
+          "(x^2+1)_mod_5"
+        ],
+        "before_result": "fixed_dynamic_source_at_x=1",
+        "cost": "dimensionless_fixture_step_1",
+        "inputs": [
+          "U=Z/5Z",
+          "x_n=1",
+          "Gen_n(x)=(x^2+1)_mod_5"
+        ],
+        "provenance": [
+          "internal_rule_Gen_n",
+          "input_1",
+          "output_2"
+        ],
+        "success_predicate": "Gen_n(1)=(1^2+1)_mod_5=2",
+        "target_transformation": "apply_Gen_n_to_1"
+      },
+      "verdict": "DYNAMIC_SELECTION_WHOLE_FAMILY_COMPLETABLE",
+      "w1_non_isomorphic_physical_algebra": false,
+      "w4_perturbation_non_factorization": false,
+      "whole_family_factorization_witness": "world_b_fixed_family_value_2",
+      "whole_family_result": "FACTORS_THROUGH_FIXED_FAMILY",
+      "world_id": "world_b"
+    },
+    {
+      "W5_TAF_same_shadow_capability": "NOT_EVALUATED",
+      "W5_TI_record_preservation": "W5_INCOMPLETE",
+      "admission_gate_verdict": "OBLIGATIONS_INCOMPLETE",
+      "boundary_access_readout_schedule": "ABSENT",
+      "capability_C_R_taf": "NOT_EVALUATED",
+      "completion_channels": {
+        "capability_completion": "UNRESOLVED",
+        "name_completion": "UNRESOLVED",
+        "provenance_action_completion": "UNRESOLVED",
+        "value_completion": "UNRESOLVED"
+      },
+      "control_only": false,
+      "counterexample_obligation_values": {
+        "defeats_capability_completion": false,
+        "defeats_name_completion": false,
+        "defeats_provenance_action_completion": false,
+        "defeats_value_completion": false,
+        "defeats_whole_family_completion": false,
+        "does_not_treat_h8_as_d_fork_decision": true,
+        "h7_admitted": false,
+        "maps_all_adapter_p_fields": false,
+        "new_concrete_packet": false,
+        "no_hidden_completion_oracle": false,
+        "no_imported_law_or_schema": false,
+        "not_readout_or_finality_only": false,
+        "preserves_candidate_provenance": false,
+        "preserves_preserve_n": false,
+        "preserves_represented_family_index": false,
+        "preserves_tau_n": false,
+        "supplies_w1_non_isomorphic_physical_algebra": false,
+        "supplies_w4_perturbation_non_factorization": false,
+        "supplies_w5_record_preservation_comparison": false
+      },
+      "cross_repo_implication_allowed": false,
+      "declared_world_kind": "source_extension_candidate_interface",
+      "delta_cap_ti": "ABSENT",
+      "desired_boolean_inputs_ignored": true,
+      "generation_mode": "source_extension_candidate",
+      "h7_admitted": false,
+      "identity_between_them": false,
+      "missing_obligations": [
+        "new_concrete_packet",
+        "h7_admitted",
+        "maps_all_adapter_p_fields",
+        "preserves_tau_n",
+        "preserves_preserve_n",
+        "preserves_represented_family_index",
+        "preserves_candidate_provenance",
+        "no_hidden_completion_oracle",
+        "no_imported_law_or_schema",
+        "not_readout_or_finality_only",
+        "defeats_value_completion",
+        "defeats_name_completion",
+        "defeats_provenance_action_completion",
+        "defeats_capability_completion",
+        "supplies_w1_non_isomorphic_physical_algebra",
+        "supplies_w4_perturbation_non_factorization",
+        "supplies_w5_record_preservation_comparison",
+        "defeats_whole_family_completion"
+      ],
+      "missing_required_fields": [
+        "candidate_provenance",
+        "verified_adapter_p_trace",
+        "verified_noncompletion_certificates",
+        "w1_non_isomorphic_algebra_certificate",
+        "w4_non_factorization_result",
+        "w5_record_preservation_comparison",
+        "whole_family_nonfactorization_certificate"
+      ],
+      "perturbation_results": [],
+      "physically_forced_boundary_established": false,
+      "positive_allowed": false,
+      "record_comparison": "ABSENT",
+      "region_minus": "ABSENT",
+      "region_plus": "ABSENT",
+      "resource_ledgers": {
+        "boundary_forcing": "NOT_EVALUATED",
+        "causal_path": "NOT_EVALUATED",
+        "control": "NOT_EVALUATED",
+        "external_resource": "NOT_EVALUATED",
+        "memory": "NOT_EVALUATED",
+        "storage": "NOT_EVALUATED",
+        "transport": "NOT_EVALUATED",
+        "work": "NOT_EVALUATED"
+      },
+      "revision_trigger": false,
+      "source_minus": "ABSENT",
+      "source_plus": "ABSENT",
+      "taf_interface": {
+        "M_R": "NOT_EVALUATED",
+        "M_ext": "NOT_EVALUATED",
+        "absorber_statuses": {
+          "causal_domain": "NOT_EVALUATED",
+          "description": "NOT_EVALUATED",
+          "finality_state": "NOT_EVALUATED",
+          "fixed_source": "NOT_EVALUATED",
+          "joint_record": "NOT_EVALUATED",
+          "law_sector": "NOT_EVALUATED",
+          "readout_state": "NOT_EVALUATED",
+          "resource": "NOT_EVALUATED",
+          "transition_menu": "NOT_EVALUATED"
+        },
+        "access_complete_equality_certificate": "NOT_EVALUATED",
+        "access_complete_shadow_fields": "NOT_EVALUATED",
+        "all_intervention_equality_certificate": "NOT_EVALUATED",
+        "boundary_mode": "NOT_EVALUATED",
+        "capability_C_R_taf": "NOT_EVALUATED",
+        "causal_domain": "NOT_EVALUATED",
+        "detector_cadence": "NOT_EVALUATED",
+        "external_record_holdings": "NOT_EVALUATED",
+        "horizon": "NOT_EVALUATED",
+        "observer_id": "NOT_EVALUATED",
+        "region_id": "NOT_EVALUATED",
+        "resource_budgets": "NOT_EVALUATED",
+        "structural_equality_certificate": "NOT_EVALUATED",
+        "taf_interface_verdict": "NOT_EVALUATED",
+        "task_records": "NOT_EVALUATED"
+      },
+      "taf_interface_verdict": "NOT_EVALUATED",
+      "task_interface": {
+        "after_result": "ABSENT",
+        "allowed_operations": "ABSENT",
+        "before_result": "ABSENT",
+        "cost": "ABSENT",
+        "inputs": "ABSENT",
+        "provenance": "ABSENT",
+        "success_predicate": "ABSENT",
+        "target_transformation": "ABSENT"
+      },
+      "verdict": "CANDIDATE_C_INCOMPLETE",
+      "w1_non_isomorphic_physical_algebra": false,
+      "w4_perturbation_non_factorization": "W4_INCOMPLETE",
+      "whole_family_factorization_witness": null,
+      "whole_family_result": "WHOLE_FAMILY_UNRESOLVED",
+      "world_id": "world_c"
+    }
+  ],
+  "depends_on_fixture_id": "t2_bounded_completion_barrier_theorem_contract",
+  "e177_result": "world_a_disclosure_world_b_completed_dynamics_world_c_fail_closed_incomplete",
+  "fixture_id": "three_world_issuance_disclosure_discriminator",
+  "holdout_perturbation_ids": [
+    "P3_ACCESS_SCHEDULE",
+    "P4_OUTPUT_CHANNEL",
+    "P5_NAME_PROVENANCE"
+  ],
+  "honest_current_result": "The implemented finite discriminator classifies the frozen A/B controls and refuses a positive World C verdict without verified evidence for every live T2 obligation. It does not establish physical source issuance or evaluate TaF capability.",
+  "kind": "e177_fail_closed_three_world_discriminator",
+  "perturbation_ids": [
+    "P0_IDENTITY",
+    "P1_INITIAL_STATE",
+    "P2_GENERATOR_PARAMETER",
+    "P3_ACCESS_SCHEDULE",
+    "P4_OUTPUT_CHANNEL",
+    "P5_NAME_PROVENANCE"
+  ],
+  "physical_source_issuance_established": false,
+  "physically_forced_boundary_established": false,
+  "protocol_digest": "c098b51fcacd7c191319f573a0d0891eb28cdbbd6698c042a626aab131119042",
+  "protocol_version": "three_world_issuance_disclosure_discriminator_v1",
+  "real_revision_trigger_found": false,
+  "schema_fields": [
+    "world_id",
+    "generation_mode",
+    "Gamma_n",
+    "Adm_n",
+    "e_n",
+    "w_n",
+    "Gamma_n_plus_1",
+    "tau_n",
+    "Cand_n",
+    "Gen_n",
+    "a_n",
+    "DeltaCap_n",
+    "Preserve_n",
+    "represented_family_index",
+    "candidate_provenance",
+    "boundary_access_readout_schedule",
+    "completion_family_index",
+    "perturbation_evidence",
+    "record_comparison",
+    "noncompletion_certificates",
+    "h8_shortcut_detection",
+    "source_minus",
+    "source_plus",
+    "region_minus",
+    "region_plus",
+    "taf_interface"
+  ],
+  "taf_capability_evaluated": false,
+  "theorem_contract_id": "bounded_adapter_p_completion_barrier_v1",
+  "verdict_precedence": [
+    "SCHEMA_INVALID_OR_OUT_OF_SCOPE",
+    "TERMINAL_SAFETY_REJECTION",
+    "FIXED_SOURCE_DISCLOSURE",
+    "DYNAMIC_SELECTION_WHOLE_FAMILY_COMPLETABLE",
+    "COMPLETION_ABSORBED_NEAR_MISS",
+    "CANDIDATE_C_INCOMPLETE",
+    "CANDIDATE_SURVIVES_BOUNDED_DISCRIMINATOR"
+  ],
+  "world_a": "FIXED_SOURCE_DISCLOSURE",
+  "world_b": "DYNAMIC_SELECTION_WHOLE_FAMILY_COMPLETABLE",
+  "world_c": "CANDIDATE_C_INCOMPLETE",
+  "world_c_positive_allowed": false
+}
