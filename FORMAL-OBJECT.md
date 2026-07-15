@@ -597,6 +597,51 @@ temporal reconstruction: Time as Finality
 record-table language: interface/explanatory layer
 ```
 
+## RUN-0157 CompletionClass v1 contract
+
+The current completion barrier is now explicitly bounded by
+`COMPLETION-CLASS.md`:
+
+```text
+CompletionClass_v1(Pi) = closure under declared product, sequential
+composition, and representation equivalence of:
+
+  hidden state
+  initial condition
+  boundary condition
+  fixed source
+  stochastic seed
+  name/provenance
+  resource/capability
+  whole family
+  completed history
+  observer information/access
+  relabeling/gauge
+```
+
+`Pi` is the frozen comparison contract over source law, action, records,
+interventions, access, resources, costs, boundaries, task success, holdouts,
+and quotient data.
+
+The four possible absorption conclusions are distinct:
+
+```text
+PHYSICAL_PREDICTIVE_ABSORPTION
+OPERATIONAL_CONTEXT_ABSORPTION
+REPRESENTATIONAL_SURPLUS_ABSORPTION
+GLOBAL_ONTOLOGICAL_ABSORPTION
+```
+
+An omitted or unresolved primitive returns `INCOMPLETE_NULL_CLASS`. A packet
+with verified nonfactorization for every represented primitive and declared
+composition closure may return `SURVIVES_BOUNDED_COMPLETION_CLASS`. That is a
+bounded contract-review trigger, not physical source issuance.
+
+This integration does not convert the E172/E173 proof contract into a universal
+theorem. It does not prove physical exhaustiveness of the eleven families,
+validate domain-specific certificate content, reopen `TI-C020`, move claims,
+or modify E177 v1.
+
 ## Component Pressures
 
 `R`: What is realized? Events, constraints, records, facts, boundary conditions, or equivalence classes?

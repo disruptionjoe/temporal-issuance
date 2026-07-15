@@ -3,11 +3,74 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0155
+updated_by_run: RUN-0157
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## CORRECTED SEQUENCE IMPLEMENTED 2026-07-14: CompletionClass v1
+
+RUN-0157 and E178 replace the narrow four-channel reading of the completion
+barrier with a bounded null inventory covering eleven primitive completion
+families and declared compositions.
+
+Primary artifacts:
+
+```text
+COMPLETION-CLASS.md
+explorations/E178-completion-class-v1-audit-2026-07-14.md
+```
+
+Executable artifacts:
+
+```text
+tools/completion_class_v1.py
+tests/test_completion_class_v1.py
+tests/artifacts/completion_class_v1_result.json
+```
+
+Verified result:
+
+```yaml
+primitive_family_count: 11
+conclusion_strength_count: 4
+all_omission_mutants_fail_closed: true
+world_c: INCOMPLETE_NULL_CLASS
+bounded_survival_is_physical_issuance: false
+claim_status_change: none
+TI_C020_reopened: false
+E177_modified: false
+focused_completion_class_tests: 11_of_11_passed
+e177_regression_tests: 11_of_11_passed
+```
+
+Active next trigger:
+
+```text
+W000 -> wait_for_typed_action_2_packet_or_native_source_law
+```
+
+Minimum contract:
+
+1. Treat RUN-0157 as closed and do not repeat it unless the declared inventory,
+   composition rules, or certificate semantics change.
+2. Do not treat a representational or completed-history absorber as an ordinary
+   causal physical explanation.
+3. A future packet must cover all eleven primitives, declared compositions,
+   verifier-backed nonfactorization, provenance, `Adapter_P`, W1, W4, and W5.
+4. `SURVIVES_BOUNDED_COMPLETION_CLASS` triggers review only. It does not
+   establish physical source issuance or reopen `TI-C020`.
+5. Do not modify E177 in place. A changed discriminator must receive a new
+   version and digest.
+
+Priority firewall:
+
+```yaml
+current_track_1: wait for typed Action-2 / native source law
+priority_rule: the bounded null-class contract sharpens the packet burden but
+  does not substitute for the missing physical packet
+```
 
 ## FRONTIER FOLLOW-UP EXECUTED 2026-07-14: W192 Intake And Action-3 Discriminator
 

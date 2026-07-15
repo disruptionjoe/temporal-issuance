@@ -25,6 +25,25 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-14)
 
+2026-07-14 corrected-sequence RUN-0157 defines `CompletionClass v1` in
+`COMPLETION-CLASS.md` and
+`explorations/E178-completion-class-v1-audit-2026-07-14.md`. The contract
+replaces any broad reading of E165's four exercised channels with an explicit
+bounded inventory of eleven primitive null families and declared
+compositions. It distinguishes physical/predictive, operational/context,
+representational, and global/ontological absorptions. One absorber and one
+omission mutant are supplied per primitive family, and World C remains
+fail-closed. The strongest non-absorbed verdict is
+`SURVIVES_BOUNDED_COMPLETION_CLASS`, not physical source issuance. Serialized
+verification passed: 11/11 focused CompletionClass tests, 11/11 E177 regression
+tests, run-record schema checks, the E177 immutable-surface diff guard, and
+`git diff --check` all exited 0. No claim movement, no `TI-C020` reopen, and no
+E177 mutation occurred.
+
+The active state remains wait for a typed Action-2 / native source-law packet.
+A new packet must be evaluated against CompletionClass v1 before a versioned
+successor to E177 is considered.
+
 2026-07-14 direct W192 reciprocal-gate work and the follow-on E177 fixture
 closed the first concrete post-G2 packet path. W192 was a concrete frozen GU
 spinor-proxy packet, but it failed H7 admission: the physical formation rule,

@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- CompletionClass v1 bounded null-class contract: `python tests/test_completion_class_v1.py`
 - G2 T2 obligation-minimality stressor: `python tests/test_g2_t2_obligation_minimality_stressor.py`
 - T3 T2 counterexample gate validator: `python tests/test_t3_t2_counterexample_gate_validator.py`
 - T2 bounded completion-barrier theorem contract: `python tests/test_t2_bounded_completion_barrier_theorem_contract.py`

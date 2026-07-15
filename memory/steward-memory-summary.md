@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0155
+last_summarized_run: RUN-0157
 ---
 
 # Steward Memory Summary
@@ -27,10 +27,25 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: w192_negative_control_and_three_world_discriminator
+strongest_current_fixture_result: completion_class_v1_bounded_contract_with_e177_controls
 bare_Ext_S_derives_connection: no
 next_required_test: wait_for_typed_action_2_packet_or_native_source_law
 ```
+
+RUN-0157 adds CompletionClass v1 as a bounded null-class contract. It covers
+eleven declared primitive completion families and declared compositions, with
+four noninterchangeable conclusion strengths: physical/predictive,
+operational/context, representational, and global/ontological absorption. One
+absorber and one omission mutant are represented for each primitive. A hybrid
+seed-plus-access completion is explicit; unverified certificates, post hoc
+predictive models, missing composition closure, and World C fail closed. The
+strongest non-absorbed return is `SURVIVES_BOUNDED_COMPLETION_CLASS`, never
+physical source issuance. Serialized verification passed 11/11 focused
+CompletionClass tests, 11/11 E177 regression tests, the run-record schema
+checks, the immutable E177 diff guard, and `git diff --check`. No claim
+movement, no TI-C020 reopen, and no E177 mutation are earned. The next state is
+wait for a typed Action-2 / native source-law packet; do not repeat RUN-0157
+unless its fixed class or certificate semantics change.
 
 Direct W192 / E177 adds: the frozen GU W192 spinor-proxy packet was concrete but
 failed H7 admission and classified as fixed-source disclosure / state-indexed

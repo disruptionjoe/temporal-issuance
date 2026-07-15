@@ -1541,3 +1541,30 @@ TI-C020:
     No real physical candidate passed Adapter_P; the physical bridge remains
     parked.
 ```
+
+## RUN-0157 CompletionClass v1 Scope Correction (2026-07-14)
+
+No status move and no promotion.
+
+```yaml
+TI-C019:
+  status: formalizing   # UNCHANGED
+  effect: >
+    CompletionClass v1 makes the current null inventory explicit and bounded.
+    Older statements that source issuance is true iff the operative source is
+    Godelian are construction-relative conditional statements about the E042
+    fixture, not a repo-level physical verdict and not a decision procedure for
+    the operative source. E171 remains controlling: the FTS/Godelian signature
+    bundle does not decide that structural bit.
+  strongest_current_completion_result: >
+    A finite packet may at most survive the eleven declared completion
+    families and declared compositions. Such survival triggers bounded-contract
+    review and does not establish physical source issuance.
+
+TI-C020:
+  status: speculative   # UNCHANGED
+  effect: >
+    No real physical packet passes CompletionClass v1. The physical bridge
+    remains parked pending a typed native source-law packet with verifier-backed
+    nonfactorization, Adapter_P, W1, W4, and W5 evidence.
+```
