@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0157
+last_summarized_run: RUN-0158
 ---
 
 # Steward Memory Summary
@@ -29,8 +29,23 @@ current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
 strongest_current_fixture_result: completion_class_v1_bounded_contract_with_e177_controls
 bare_Ext_S_derives_connection: no
-next_required_test: wait_for_typed_action_2_packet_or_native_source_law
+next_required_test: anti_collapse_throughput_packet_candidate_v0_or_stronger_native_source_law
 ```
+
+RUN-0158 registers the anti-collapse throughput proposal as E179, an intake
+preflight rather than an admitted packet. The live candidate says issuance may
+be source-side throughput that prevents open-system collapse and may carry a
+`1/sqrt(N)` counting residual. E179 preserves the required correction that the
+GU kinematic Krein sign trends forced-internal; the killed out-of-band sign
+reading is not admissible evidence. Current verdict:
+`INTAKE_REGISTERED_PACKET_NOT_ADMITTED`. Missing fields include native
+source-law structure, `Adapter_P`, provenance, W1/W4/W5, whole-family
+noncompletion certificates, declared CompletionClass v1 coverage,
+verifier-backed nonfactorization, and source/projection separation for the
+residual. No claim movement, no `TI-C020` reopen, no physical source result,
+and no cross-repo write. Next useful work is
+`anti_collapse_throughput_packet_candidate_v0` unless a stronger typed Action-2
+/ native source-law packet appears first.
 
 RUN-0157 adds CompletionClass v1 as a bounded null-class contract. It covers
 eleven declared primitive completion families and declared compositions, with

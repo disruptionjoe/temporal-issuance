@@ -3,11 +3,64 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0157
+updated_by_run: RUN-0158
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## INTAKE PREFLIGHT REGISTERED 2026-07-15: Anti-Collapse Throughput
+
+RUN-0158 and E179 registered the active anti-collapse throughput proposal as a
+Temporal Issuance intake preflight.
+
+Primary artifact:
+
+```text
+explorations/E179-anti-collapse-throughput-packet-preflight-2026-07-15.md
+```
+
+Preflight result:
+
+```yaml
+packet_status: INTAKE_REGISTERED_PACKET_NOT_ADMITTED
+typed_action_2_packet: false
+native_source_law_supplied: false
+completion_class_v1_evaluated: preflight_only
+physical_source_issuance_established: false
+claim_status_change: none
+TI_C020_reopened: false
+cross_repo_write: false
+```
+
+Active next trigger:
+
+```text
+W000 -> anti_collapse_throughput_packet_candidate_v0
+```
+
+Minimum contract:
+
+1. Treat E179 as candidate material, not a result.
+2. Build a typed source-throughput object or fail closed.
+3. Locate the `1/sqrt(N)` residual as source residual, projection residual, or
+   observer-counting artifact.
+4. Preserve the sign correction: do not use the killed out-of-band sign reading
+   as evidence.
+5. Evaluate all eleven CompletionClass v1 primitive families and declared
+   compositions before any stronger verdict.
+6. Do not move claims, reopen `TI-C020`, mutate E177, or create cross-repo
+   implications unless a later durable artifact earns it.
+
+Priority firewall:
+
+```yaml
+current_track_1: packetize anti-collapse throughput candidate if no stronger
+  typed Action-2 / native source-law packet appears first
+priority_rule: a live source-throughput candidate may replace generic waiting,
+  but it remains below any concrete native source-law packet and below all
+  CompletionClass v1 admission gates
+```
 
 ## CORRECTED SEQUENCE IMPLEMENTED 2026-07-14: CompletionClass v1
 

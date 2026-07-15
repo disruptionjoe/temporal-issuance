@@ -23,7 +23,28 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
-## Current frontier update (2026-07-14)
+## Current frontier update (2026-07-15)
+
+2026-07-15 Progress fan-out RUN-0158 registers the active anti-collapse
+throughput proposal as
+`explorations/E179-anti-collapse-throughput-packet-preflight-2026-07-15.md`.
+E179 preserves the intuition that issuance may be source-side throughput that
+keeps an open system from collapsing, with a possible `1/sqrt(N)` counting
+residual, while explicitly correcting the sign clause: GU's kinematic Krein
+sign trends forced-internal and must not be used as out-of-band or undecidable
+evidence. The proposal is useful candidate material, not an admitted packet.
+It lacks a native source-law object, `Adapter_P`, provenance, W1/W4/W5,
+whole-family noncompletion certificates, declared CompletionClass v1 coverage,
+verifier-backed nonfactorization, and source/projection separation for the
+residual.
+
+The active state is now packetization of
+`anti_collapse_throughput_packet_candidate_v0` if no stronger typed Action-2 /
+native source-law packet appears first. Packetization must evaluate the
+candidate against CompletionClass v1 before any E177 successor, claim movement,
+`TI-C020` reopen, or cross-repo implication is considered.
+
+## Prior frontier update (2026-07-14)
 
 2026-07-14 corrected-sequence RUN-0157 defines `CompletionClass v1` in
 `COMPLETION-CLASS.md` and
