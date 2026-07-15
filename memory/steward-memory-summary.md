@@ -27,10 +27,22 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: all_t2_counterexample_obligations_load_bearing
+strongest_current_fixture_result: w192_negative_control_and_three_world_discriminator
 bare_Ext_S_derives_connection: no
-next_required_test: wait_for_real_h7_packet_or_fixed_input_change
+next_required_test: wait_for_typed_action_2_packet_or_native_source_law
 ```
+
+Direct W192 / E177 adds: the frozen GU W192 spinor-proxy packet was concrete but
+failed H7 admission and classified as fixed-source disclosure / state-indexed
+selection, not source issuance. E177 implemented the preregistered three-world
+discriminator: World A remains fixed-source disclosure, World B remains dynamic
+selection inside a whole-family-completable fixed family, and World C remains
+fail-closed until a native source law supplies provenance, `Adapter_P`,
+noncompletion, W1, W4, W5, and whole-family certificates. Focused tests passed
+11/11. No claim movement, no physical-source claim, no TI-C020 reopen, no TaF
+capability verdict, and no cross-repo implication. The next state is wait for a
+typed Action-2 / native source-law packet; do not repeat W192, G2 synthetic
+omission stress, or E177 unless fixed inputs change.
 
 RUN-0155 adds: G2 stress-tested the E172/E173 counterexample obligations by
 omitting each one from a synthetic full-control packet. Every obligation is

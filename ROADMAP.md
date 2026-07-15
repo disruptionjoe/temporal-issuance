@@ -23,7 +23,29 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
-## Current frontier update (2026-07-12)
+## Current frontier update (2026-07-14)
+
+2026-07-14 direct W192 reciprocal-gate work and the follow-on E177 fixture
+closed the first concrete post-G2 packet path. W192 was a concrete frozen GU
+spinor-proxy packet, but it failed H7 admission: the physical formation rule,
+candidate provenance, preservation fields, and whole-family noncompletion
+defeats were absent. The packet classifies as fixed-source disclosure /
+state-indexed selection, not source issuance.
+
+`explorations/E177-three-world-issuance-disclosure-discriminator-preregistration-2026-07-14.md`
+then implemented and verified the Action-3 discriminator promised by E176.
+World A remains fixed-source disclosure, World B remains dynamic selection
+inside a whole-family-completable fixed family, and World C remains
+fail-closed until a native source law supplies the missing certificates. The
+focused test suite passed 11/11. No claim movement, no physical-source claim,
+no `TI-C020` reopen, no TaF capability verdict, and no cross-repo implication
+were produced.
+
+The active unattended next state is now wait for a typed Action-2 / native
+source-law packet. Do not repeat W192 intake, G2 synthetic omission stress, or
+E177 synthetic discriminator work unless fixed inputs change.
+
+## Prior frontier update (2026-07-12)
 
 2026-07-12 user-directed G2 focused swing executed in
 `explorations/E175-g2-t2-obligation-minimality-stressor-2026-07-12.md`.
