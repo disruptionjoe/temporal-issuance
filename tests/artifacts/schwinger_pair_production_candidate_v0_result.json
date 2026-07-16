@@ -1,0 +1,143 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "hidden_state",
+    "initial_condition",
+    "name_provenance",
+    "observer_information_access",
+    "relabel_gauge",
+    "resource_capability",
+    "stochastic_seed",
+    "whole_family"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The physical context is real, but the candidate's field algebra, couplings, external field, and vacuum preparation are frozen before the claimed pair-production event.",
+      "supplied": true,
+      "value": "fixed QFT Lagrangian, charged field content, background electric-field profile, boundary conditions, vacuum state, and renormalization scheme"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The admissibility predicate is supplied by the fixed field equations, spectrum, boundary, and external-field profile rather than generated as a new source-side law.",
+      "supplied": false,
+      "value": "admissible pair modes induced by the fixed QFT and background field"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete physical formation signal and is a useful negative control for vacuum-production language.",
+      "supplied": true,
+      "value": "nonzero pair-production amplitude or occupation-number transition under a supercritical external field"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "detector counts, mode occupation record, field-strength trace, energy budget, and retarded response"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is a populated state in the fixed theory, not a source-owned new field algebra or admissibility law.",
+      "supplied": false,
+      "value": "same fixed QFT sector after mode occupation, detector access, or completed field-history naming"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "time-ordered background-field, occupation, and detector history"
+    }
+  ],
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "schwinger_vacuum_pair_production",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_QFT_BACKGROUND",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "An internal anti-after-naming principle plus W4 perturbation non-factorization under the same preserved detector, occupation, field-strength, energy, and retarded-response records.",
+    "missing_object_id": "source_owned_field_algebra_expansion_law",
+    "required": "A native physical source law in which the pair-production event creates a new field algebra, charged sector, admissibility predicate, or transition grammar not representable as fixed QFT Lagrangian, fixed background field profile, fixed boundary condition, fixed vacuum state, stochastic amplitude, observer access, or completed field history."
+  },
+  "fixed_source_rival": {
+    "completed_field_history_available": true,
+    "fixed_background_field_profile": true,
+    "fixed_boundary_conditions": true,
+    "fixed_charged_field_content": true,
+    "fixed_couplings_and_renormalization": true,
+    "fixed_lagrangian": true,
+    "fixed_vacuum_state": true,
+    "reason": "The pair-production trace is reproduced by a fixed QFT Lagrangian, charged field content, external field profile, boundary conditions, vacuum preparation, coupling and renormalization choices, detector access, and completed field history.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_qft_background_field",
+    "source_owned_new_field_law": false,
+    "stochastic_vacuum_amplitude_or_mode_tape": true
+  },
+  "fixture_id": "schwinger_pair_production_candidate_v0",
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target only after the tested candidate families justify a scoped class statement",
+  "packet_admitted": false,
+  "pair_production_signal_present": true,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "agent-runs/RUN-0170-autocatalytic-reaction-network-candidate-v0.md"
+  ],
+  "source_growth_core_passed": false,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_qft_background_completion"
+  ],
+  "witness_gates": [
+    {
+      "finding": "Particle number changes, but the field algebra and charged sector remain the fixed QFT source specified in advance.",
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "pair_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "Pair modes are admissible because the fixed equations and background profile already define the allowed transitions.",
+      "gate_id": "W2_new_admissibility_predicate",
+      "pair_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "Occupation grows from the vacuum, but the construction space is fixed by the Lagrangian, field content, boundary, and external field.",
+      "gate_id": "W3_construction_space_growth",
+      "pair_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "Perturbations factor through field strength, pulse shape, boundary conditions, vacuum preparation, coupling constants, renormalization scheme, measurement access, or completed field history.",
+      "gate_id": "W4_perturbation_non_factorization",
+      "pair_signal": false,
+      "source_passed": false
+    },
+    {
+      "finding": "Detector counts, occupation records, field profile, and energy accounting can be preserved under the fixed rival.",
+      "gate_id": "W5_record_preservation",
+      "pair_signal": true,
+      "source_passed": true
+    },
+    {
+      "finding": "Fixed-source, hidden-state, initial/boundary condition, stochastic vacuum amplitude, name/provenance, access, relabeling, whole-family, and completed-history absorbers are not defeated from inside the candidate.",
+      "gate_id": "W6_fixed_family_after_naming_absorption",
+      "pair_signal": false,
+      "source_passed": false
+    }
+  ]
+}

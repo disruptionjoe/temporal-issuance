@@ -59,16 +59,18 @@ and unpredictability, randomness, chaos, irreversibility, computational cost,
 or observer ignorance remain insufficient.
 
 Additional same-day swings now extend the killed physical-candidate set through
-RUN-0170 / E188. Autocatalytic reaction-network emergence preserves a real
-self-sustaining closure signal, abundance/flux records, and perturbation trace,
-but fixed species alphabet, reaction graph, catalyst inventory, rate laws,
-feedstock/boundary flux, initial concentrations, stochastic reaction history,
-observer naming, and completed history reproduce the candidate. The active next
-trigger remains `TI-PHYSICAL-WITNESS-GENERATION`, excluding effective
+RUN-0171 / E189. Schwinger vacuum pair production preserves a real
+pair-production signal, detector/occupation records, field-strength trace,
+energy budget, and retarded response, but fixed QFT Lagrangian, charged field
+content, external field profile, boundary conditions, vacuum state,
+couplings/renormalization, detector access, stochastic vacuum amplitude, and
+completed field history reproduce the candidate. The active next trigger
+remains `TI-PHYSICAL-WITNESS-GENERATION`, excluding effective
 gauge/topological-sector, monitored dynamics, gravitational observer-algebra,
 CRISPR/adaptive immune sequence acquisition, dynamic/Floquet scheduled-code,
-prion-like conformational-templating, and autocatalytic reaction-network repeats
-unless their missing source-owned transition objects appear.
+prion-like conformational-templating, autocatalytic reaction-network, and
+Schwinger/vacuum pair-production repeats unless their missing source-owned
+transition objects appear.
 
 ## Prior frontier update (2026-07-15)
 
