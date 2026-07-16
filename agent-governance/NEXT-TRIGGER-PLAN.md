@@ -39,6 +39,57 @@ remain as historical receipts for their completed inputs. They no longer
 define the unattended operational posture. A valid packet or native source law
 is an activation and reranking signal, not the only way hourly work may move.
 
+## PHYSICAL CANDIDATE KILLED 2026-07-16: Dynamic/Floquet Quantum Code v0
+
+RUN-0167 / E186 executed the fifth material candidate swing in the physical
+witness campaign.
+
+Primary artifact:
+
+```text
+explorations/E186-dynamic-floquet-code-candidate-v0-2026-07-16.md
+```
+
+Executable artifacts:
+
+```text
+tools/dynamic_floquet_code_candidate_v0.py
+tests/test_dynamic_floquet_code_candidate_v0.py
+tests/artifacts/dynamic_floquet_code_candidate_v0_result.json
+```
+
+Result:
+
+```yaml
+candidate_status: CANDIDATE_KILLED_FIXED_CODE_SCHEDULE
+completion_class_verdict: PHYSICAL_PREDICTIVE_ABSORPTION
+logical_sector_signal_present: true
+source_growth_core_passed: false
+physical_source_issuance_established: false
+claim_status_change: none
+TI_C020_reopened: false
+```
+
+Active next trigger remains:
+
+```text
+W000 -> TI-PHYSICAL-WITNESS-GENERATION
+```
+
+Minimum contract:
+
+1. Do not repeat dynamic/Floquet quantum-code, scheduled stabilizer/gauge-code,
+   or logical-qubit-generation candidates unless fixed inputs change.
+2. The exact resurrection object is a source-owned code-space generation law
+   plus an internal anti-after-naming principle and W4 perturbation
+   non-factorization under the same preserved syndrome, logical-support,
+   boundary, and decoder records.
+3. Continue with a non-overlapping physically serious candidate, or state a
+   bounded theorem target only if it can be expressed without universalizing
+   beyond tested candidate classes.
+4. Preserve no claim movement, no `TI-C020` reopen, and no E177 mutation unless
+   a later durable artifact earns it.
+
 ## PHYSICAL CANDIDATE KILLED 2026-07-16: CRISPR Spacer Acquisition v0
 
 RUN-0164 / E185 executed the fourth material candidate swing in the physical

@@ -1,0 +1,140 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "observer_information_access",
+    "relabel_gauge",
+    "resource_capability",
+    "stochastic_seed",
+    "whole_family"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The physical context is real, but the code family and schedule are already present before the claimed logical appearance.",
+      "supplied": true,
+      "value": "fixed physical qubit Hilbert space, stabilizer/gauge checks, noise model, boundary conditions, and time-periodic measurement schedule"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The admissibility predicate is supplied by the fixed schedule, gauge/stabilizer constraints, and decoder rather than generated as a new source-side law.",
+      "supplied": false,
+      "value": "logical-sector admissibility induced by the predeclared schedule and decoder"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete code-dynamics signal and a useful negative-control shape.",
+      "supplied": true,
+      "value": "time-scheduled appearance of a logical qubit or protected subsystem"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "syndrome history, logical operator support, decoder transcript, and record trace"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is a scheduled member of the fixed code family, not a source-owned new construction grammar.",
+      "supplied": false,
+      "value": "same fixed code family after one period or after decoder-visible access changes"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "period-by-period syndrome and logical-support record"
+    }
+  ],
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "dynamic_floquet_quantum_code_logical_qubit_generation",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_CODE_SCHEDULE",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "An internal anti-after-naming principle plus W4 perturbation non-factorization under the same preserved syndrome, logical-support, boundary, and decoder records.",
+    "missing_object_id": "source_owned_code_space_generation_law",
+    "required": "A native physical source law in which the code source creates a new admissibility predicate, logical algebra, or construction grammar not representable as fixed Hilbert space, fixed stabilizer/gauge family, fixed time-periodic schedule, boundary data, decoder/readout access, noise or syndrome random tape, or completed syndrome history."
+  },
+  "fixed_source_rival": {
+    "completed_syndrome_history_available": true,
+    "fixed_boundary_and_initialization_data": true,
+    "fixed_decoder_and_logical_readout_rule": true,
+    "fixed_physical_hilbert_space": true,
+    "fixed_stabilizer_or_gauge_family": true,
+    "fixed_time_periodic_measurement_schedule": true,
+    "noise_or_syndrome_random_tape": true,
+    "reason": "The logical-sector appearance is reproduced by one fixed physical Hilbert space and stabilizer/gauge family under a fixed time-periodic schedule, boundary data, decoder/readout rule, noise or syndrome tape, and completed syndrome history.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_floquet_code_schedule",
+    "source_owned_new_code_law": false
+  },
+  "fixture_id": "dynamic_floquet_code_candidate_v0",
+  "logical_sector_signal_present": true,
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target for scheduled-code logical-sector candidates under fixed Hilbert-space completion",
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "explorations/E149-physical-candidates-state-space-growth-intake-2026-07-07.md",
+    "explorations/E185-crispr-spacer-acquisition-candidate-v0-2026-07-16.md"
+  ],
+  "source_growth_core_passed": false,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_floquet_code_schedule_completion"
+  ],
+  "witness_gates": [
+    {
+      "finding": "A logical algebra appears relative to a time slice or decoder, but it is represented by the fixed physical algebra plus the predeclared stabilizer/gauge schedule.",
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "logical_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "Logical admissibility is defined by the schedule, boundary, syndrome constraints, and decoder, all of which are fixed in the rival.",
+      "gate_id": "W2_new_admissibility_predicate",
+      "logical_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "The protected subsystem may be absent in an instantaneous static description and present over a period, but the construction space is the fixed circuit and measurement family.",
+      "gate_id": "W3_construction_space_growth",
+      "logical_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "Perturbations factor through schedule phase, boundary choice, decoder access, noise seed, gauge fixing, or completed syndrome history.",
+      "gate_id": "W4_perturbation_non_factorization",
+      "logical_signal": false,
+      "source_passed": false
+    },
+    {
+      "finding": "Syndrome histories, logical support, and decoder transcripts can be preserved under the frozen comparison contract.",
+      "gate_id": "W5_record_preservation",
+      "logical_signal": true,
+      "source_passed": true
+    },
+    {
+      "finding": "Fixed-family, schedule, resource/access, relabeling/gauge, and completed-history absorbers are not defeated from inside the code.",
+      "gate_id": "W6_fixed_family_after_naming_absorption",
+      "logical_signal": false,
+      "source_passed": false
+    }
+  ]
+}
