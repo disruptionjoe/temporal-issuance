@@ -1,0 +1,142 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "initial_condition",
+    "name_provenance",
+    "observer_information_access",
+    "relabel_gauge",
+    "resource_capability",
+    "stochastic_seed",
+    "whole_family"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The physical context is real, but the sequence, environment, and folding landscape are fixed before the claimed strain branch.",
+      "supplied": true,
+      "value": "fixed amino-acid sequence, solvent and temperature conditions, chaperone/proteostasis context, and conformational energy landscape"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The admissibility predicate is supplied by the fixed folding landscape, seed conformer, boundary conditions, and assay labels rather than generated as a new source-side law.",
+      "supplied": false,
+      "value": "admissible conformers and strain labels induced by the fixed landscape"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete physical formation signal and is a useful negative control for phenotype-level novelty.",
+      "supplied": true,
+      "value": "seeded templating event that propagates a stable conformational strain"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "folding trajectory, strain assay, aggregate morphology, and lineage record"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is a realized basin or branch of the fixed landscape, not a source-owned new construction grammar.",
+      "supplied": false,
+      "value": "same fixed sequence and conformational landscape after seeded templating or observer-visible strain selection"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "time-ordered propagation and phenotype trace"
+    }
+  ],
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "prion_like_conformational_templating_and_strain_branching",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_CONFORMATIONAL_LANDSCAPE",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "conformation_signal_present": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "An internal anti-after-naming principle plus W4 perturbation non-factorization under the same preserved strain, morphology, lineage, and phenotype records.",
+    "missing_object_id": "source_owned_conformational_grammar_expansion_law",
+    "required": "A native physical source law in which seeded propagation creates a new admissibility predicate, conformational grammar, or molecular state algebra not representable as fixed sequence, fixed conformational landscape, fixed environment/chaperone context, seed initial condition, stochastic folding tape, assay label, or completed folding history."
+  },
+  "fixed_source_rival": {
+    "assay_and_strain_labeling_rule": true,
+    "completed_folding_history_available": true,
+    "fixed_amino_acid_sequence": true,
+    "fixed_conformational_energy_landscape": true,
+    "fixed_solvent_temperature_and_chaperone_context": true,
+    "reason": "The strain-branch trace is reproduced by one fixed protein sequence and conformational landscape under fixed environment/chaperone conditions, a seed conformer, stochastic folding history, assay labeling, and completed lineage records.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_conformational_landscape",
+    "seed_conformer_as_initial_condition": true,
+    "source_owned_new_conformation_law": false,
+    "stochastic_collision_or_folding_tape": true
+  },
+  "fixture_id": "prion_conformation_candidate_v0",
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target only after the tested candidate families justify a scoped class statement",
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "explorations/E149-physical-candidates-state-space-growth-intake-2026-07-07.md",
+    "explorations/E186-dynamic-floquet-code-candidate-v0-2026-07-16.md"
+  ],
+  "source_growth_core_passed": false,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_conformational_landscape_completion"
+  ],
+  "witness_gates": [
+    {
+      "conformation_signal": true,
+      "finding": "A strain algebra appears relative to seeded propagation and assay labels, but it is represented by the fixed molecular state space plus conformational landscape.",
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "source_passed": false
+    },
+    {
+      "conformation_signal": true,
+      "finding": "Admissible conformers are defined by the sequence, environment, seed, chaperone context, and assay convention already present in the rival.",
+      "gate_id": "W2_new_admissibility_predicate",
+      "source_passed": false
+    },
+    {
+      "conformation_signal": true,
+      "finding": "The phenotype or strain branch may be absent before seeding and present after propagation, but the construction space is the fixed conformational landscape and stochastic folding path.",
+      "gate_id": "W3_construction_space_growth",
+      "source_passed": false
+    },
+    {
+      "conformation_signal": false,
+      "finding": "Perturbations factor through seed choice, solvent, temperature, chaperone access, stochastic collision history, assay readout, or completed folding lineage.",
+      "gate_id": "W4_perturbation_non_factorization",
+      "source_passed": false
+    },
+    {
+      "conformation_signal": true,
+      "finding": "Propagation records, strain assays, morphology, and lineage traces can be preserved under the frozen comparison contract.",
+      "gate_id": "W5_record_preservation",
+      "source_passed": true
+    },
+    {
+      "conformation_signal": false,
+      "finding": "Fixed-landscape, initial-condition, boundary, stochastic, name/provenance, access, relabeling, whole-family, and completed-history absorbers are not defeated from inside the candidate.",
+      "gate_id": "W6_fixed_family_after_naming_absorption",
+      "source_passed": false
+    }
+  ]
+}
