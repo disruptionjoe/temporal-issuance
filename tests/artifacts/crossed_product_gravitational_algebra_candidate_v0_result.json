@@ -1,0 +1,135 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "observer_information_access",
+    "relabel_gauge"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The source context is real but already contains the fixed theory and comparison frame.",
+      "supplied": true,
+      "value": "fixed gravitational QFT, observer algebra, dressing, and boundary context"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The predicate is supplied by the observer frame, modular-flow choice, dressing, constraint handling, regulator, or algebraic completion, not generated as a new source-side law.",
+      "supplied": false,
+      "value": "trace/type/admissibility predicate over a chosen crossed-product or observer algebra"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete before/after algebraic signal.",
+      "supplied": true,
+      "value": "algebra-type, trace, or observer-subalgebra transition signal"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "preserved entropy, charge, correlation, modular, or boundary diagnostic"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is a represented or completed view of the fixed theory rather than a source-owned algebra transition.",
+      "supplied": false,
+      "value": "same fixed theory viewed through crossed-product, observer, or boundary completion"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "preserved algebra-comparison record and observer-frame trace"
+    }
+  ],
+  "algebra_signal_present": true,
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "crossed_product_gravitational_observer_algebra",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_GRAVITATIONAL_BOOKKEEPING",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "A W4 perturbation non-factorization certificate under the same preserved observer, boundary, charge, entropy, and correlation records.",
+    "missing_object_id": "source_owned_gravitational_algebra_transition_law",
+    "required": "A native physical source law in which gravitational dynamics forms a new observable, instrument, or admissibility algebra that is not representable by a fixed global theory, observer algebra, crossed-product or modular-flow construction, boundary condition, gauge/dressing convention, regulator, or completed history."
+  },
+  "fixed_source_rival": {
+    "completed_history_available": true,
+    "fixed_boundary_or_constraint_data": true,
+    "fixed_crossed_product_or_modular_flow_recipe": true,
+    "fixed_global_theory_or_hamiltonian": true,
+    "fixed_observer_frame_or_dressing": true,
+    "fixed_state_or_path_integral_family": true,
+    "reason": "The algebraic change is reproduced by a fixed gravitational or QFT source plus observer frame, dressing, crossed-product or modular-flow construction, boundary/constraint data, and preserved comparison records.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_gravitational_theory_with_observer_algebra_completion",
+    "source_owned_new_algebra_law": false
+  },
+  "fixture_id": "crossed_product_gravitational_algebra_candidate_v0",
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target for observer-algebra bookkeeping candidates that avoids universal physical overclaim",
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "explorations/E149-physical-candidates-state-space-growth-intake-2026-07-07.md",
+    "explorations/E139-desitter-horizon-mode-issuance-adapter-p-2026-07-03.md",
+    "COMPLETION-CLASS.md"
+  ],
+  "source_growth_core_passed": false,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_gravitational_algebra_bookkeeping_completion"
+  ],
+  "witness_gates": [
+    {
+      "algebra_signal": true,
+      "finding": "A changed algebraic presentation or trace can appear, but it is not shown to create a non-isomorphic source algebra rather than a crossed-product, observer, modular, or boundary representation of the fixed theory.",
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "source_passed": false
+    },
+    {
+      "algebra_signal": false,
+      "finding": "The admissibility predicate is chosen by the observer algebra, constraint implementation, dressing, regulator, or comparison construction.",
+      "gate_id": "W2_new_admissibility_predicate",
+      "source_passed": false
+    },
+    {
+      "algebra_signal": false,
+      "finding": "The construction space is the fixed theory plus an algebraic completion recipe, not a source-generated construction grammar.",
+      "gate_id": "W3_construction_space_growth",
+      "source_passed": false
+    },
+    {
+      "algebra_signal": false,
+      "finding": "Perturbations still factor through reference-frame choice, boundary data, gauge/dressing convention, modular flow, regulator, or completed-history description.",
+      "gate_id": "W4_perturbation_non_factorization",
+      "source_passed": false
+    },
+    {
+      "algebra_signal": true,
+      "finding": "Entropy, charge, algebraic, and boundary records can be preserved.",
+      "gate_id": "W5_record_preservation",
+      "source_passed": true
+    },
+    {
+      "algebra_signal": false,
+      "finding": "Observer-access, gauge/relabeling, crossed-product, and completed-history absorbers are not defeated.",
+      "gate_id": "W6_observer_algebra_bookkeeping_absorption",
+      "source_passed": false
+    }
+  ]
+}

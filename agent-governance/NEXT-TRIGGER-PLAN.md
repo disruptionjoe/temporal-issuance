@@ -39,6 +39,57 @@ remain as historical receipts for their completed inputs. They no longer
 define the unattended operational posture. A valid packet or native source law
 is an activation and reranking signal, not the only way hourly work may move.
 
+## PHYSICAL CANDIDATE KILLED 2026-07-16: Crossed-Product Gravitational Algebra v0
+
+RUN-0163 / E184 executed the third material candidate swing in the physical
+witness campaign.
+
+Primary artifact:
+
+```text
+explorations/E184-crossed-product-gravitational-algebra-candidate-v0-2026-07-16.md
+```
+
+Executable artifacts:
+
+```text
+tools/crossed_product_gravitational_algebra_candidate_v0.py
+tests/test_crossed_product_gravitational_algebra_candidate_v0.py
+tests/artifacts/crossed_product_gravitational_algebra_candidate_v0_result.json
+```
+
+Result:
+
+```yaml
+candidate_status: CANDIDATE_KILLED_FIXED_GRAVITATIONAL_BOOKKEEPING
+completion_class_verdict: PHYSICAL_PREDICTIVE_ABSORPTION
+algebra_signal_present: true
+source_growth_core_passed: false
+physical_source_issuance_established: false
+claim_status_change: none
+TI_C020_reopened: false
+```
+
+Active next trigger remains:
+
+```text
+W000 -> TI-PHYSICAL-WITNESS-GENERATION
+```
+
+Minimum contract:
+
+1. Do not repeat gravitational crossed-product, observer-algebra,
+   modular-flow, dressing, or reference-frame algebra claims unless fixed
+   inputs change.
+2. The exact resurrection object is a source-owned gravitational algebra
+   transition law plus W4 perturbation non-factorization under the same
+   preserved observer, boundary, charge, entropy, and correlation records.
+3. Continue with a non-overlapping physically serious candidate, or state a
+   bounded theorem target only if it can be expressed without universalizing
+   beyond tested candidate classes.
+4. Preserve no claim movement, no `TI-C020` reopen, and no E177 mutation unless
+   a later durable artifact earns it.
+
 ## PHYSICAL CANDIDATE KILLED 2026-07-16: Measurement-Induced Phase Transition v0
 
 RUN-0162 / E183 executed the second material candidate swing in the physical
