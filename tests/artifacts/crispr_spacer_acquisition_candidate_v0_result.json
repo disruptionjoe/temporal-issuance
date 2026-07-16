@@ -1,0 +1,140 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "initial_condition",
+    "name_provenance",
+    "observer_information_access",
+    "stochastic_seed",
+    "whole_family"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The physical context is real but already contains the adaptation machinery.",
+      "supplied": true,
+      "value": "host lineage genome, CRISPR array, Cas adaptation machinery, nucleotide chemistry, and phage/plasmid exposure context"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The admissibility predicate is supplied by fixed Cas machinery, sequence chemistry, and environmental encounter conditions rather than generated as a new source-side law.",
+      "supplied": false,
+      "value": "protospacer, PAM, processing, integration, and survival predicate"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete before/after genomic formation trace.",
+      "supplied": true,
+      "value": "new spacer insertion into the CRISPR array"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "sequenced spacer record, integration locus, and immunity phenotype"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is an occupied member of a fixed sequence and recombination family, not a source-owned new construction grammar.",
+      "supplied": false,
+      "value": "same biochemical source with one additional nucleotide record"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "lineage before/after sequence trace and exposure record"
+    }
+  ],
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "native_crispr_spacer_acquisition",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_BIOCHEMICAL_SEQUENCE_SPACE",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "An internal anti-after-naming principle plus W4 perturbation non-factorization under the same preserved sequence, exposure, lineage, and immunity records.",
+    "missing_object_id": "source_owned_biochemical_admissibility_expansion_law",
+    "required": "A native physical source law in which the biological source creates a new admissibility predicate or construction grammar not representable as fixed nucleotide sequence space, fixed Cas adaptation machinery, environmental boundary input, stochastic encounter, selection, or completed lineage history."
+  },
+  "fixed_source_rival": {
+    "completed_lineage_history_available": true,
+    "environmental_boundary_sequence_input": true,
+    "fixed_cas_adaptation_machinery": true,
+    "fixed_nucleotide_sequence_space": true,
+    "fixed_recombination_and_repair_chemistry": true,
+    "reason": "The acquired spacer is reproduced by fixed biochemical law and Cas machinery over a fixed nucleotide sequence space, with environmental boundary input, stochastic encounter/integration, selection, and a completed lineage trace.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_crispr_biochemical_sequence_space",
+    "selection_or_survival_filter": true,
+    "source_owned_new_transition_law": false,
+    "stochastic_encounter_or_integration_seed": true
+  },
+  "fixture_id": "crispr_spacer_acquisition_candidate_v0",
+  "formation_record_signal_present": true,
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target for biological sequence acquisition candidates under fixed sequence-space completion",
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "explorations/E149-physical-candidates-state-space-growth-intake-2026-07-07.md",
+    "explorations/E184-crossed-product-gravitational-algebra-candidate-v0-2026-07-16.md"
+  ],
+  "source_growth_core_passed": false,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_biochemical_sequence_space_completion"
+  ],
+  "witness_gates": [
+    {
+      "finding": "A new spacer record appears, but the source algebra remains fixed nucleotide chemistry plus fixed CRISPR/Cas adaptation operations.",
+      "formation_signal": true,
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "source_passed": false
+    },
+    {
+      "finding": "Spacer admissibility is governed by pre-existing protospacer, PAM, processing, integration, and selection predicates.",
+      "formation_signal": true,
+      "gate_id": "W2_new_admissibility_predicate",
+      "source_passed": false
+    },
+    {
+      "finding": "The occupied sequence is new to the lineage record, but the larger nucleotide sequence and insertion family is fixed in advance.",
+      "formation_signal": true,
+      "gate_id": "W3_construction_space_growth",
+      "source_passed": false
+    },
+    {
+      "finding": "Perturbations factor through protospacer availability, Cas expression, integration bias, repair chemistry, selection, and stochastic encounter.",
+      "formation_signal": false,
+      "gate_id": "W4_perturbation_non_factorization",
+      "source_passed": false
+    },
+    {
+      "finding": "The spacer insertion and downstream immunity record can be preserved.",
+      "formation_signal": true,
+      "gate_id": "W5_record_preservation",
+      "source_passed": true
+    },
+    {
+      "finding": "Fixed sequence-space, whole-family, boundary-input, and after-naming absorbers are not defeated from inside the biology.",
+      "formation_signal": false,
+      "gate_id": "W6_fixed_sequence_space_after_naming_absorption",
+      "source_passed": false
+    }
+  ]
+}
