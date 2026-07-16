@@ -59,16 +59,16 @@ and unpredictability, randomness, chaos, irreversibility, computational cost,
 or observer ignorance remain insufficient.
 
 Additional same-day swings now extend the killed physical-candidate set through
-RUN-0168 / E187. Prion-like conformational templating preserves a real
-strain-propagation and phenotype trace, but fixed sequence, fixed
-conformational energy landscape, environment/chaperone context, seed initial
-condition, stochastic folding history, assay/readout labels, and completed
-lineage reproduce the candidate. The active next trigger remains
-`TI-PHYSICAL-WITNESS-GENERATION`, excluding effective gauge/topological-sector,
-monitored dynamics, gravitational observer-algebra, CRISPR/adaptive immune
-sequence acquisition, dynamic/Floquet scheduled-code, and prion-like
-conformational-templating repeats unless their missing source-owned transition
-objects appear.
+RUN-0170 / E188. Autocatalytic reaction-network emergence preserves a real
+self-sustaining closure signal, abundance/flux records, and perturbation trace,
+but fixed species alphabet, reaction graph, catalyst inventory, rate laws,
+feedstock/boundary flux, initial concentrations, stochastic reaction history,
+observer naming, and completed history reproduce the candidate. The active next
+trigger remains `TI-PHYSICAL-WITNESS-GENERATION`, excluding effective
+gauge/topological-sector, monitored dynamics, gravitational observer-algebra,
+CRISPR/adaptive immune sequence acquisition, dynamic/Floquet scheduled-code,
+prion-like conformational-templating, and autocatalytic reaction-network repeats
+unless their missing source-owned transition objects appear.
 
 ## Prior frontier update (2026-07-15)
 

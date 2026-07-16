@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: DIRECT-JOE-20260716-HOURLY-HOMES
+updated_by_run: RUN-0170
 intake_processed_by_run: RUN-0046
 ---
 
@@ -38,6 +38,58 @@ The older `wait_for_typed_action_2_packet_or_native_source_law` sections below
 remain as historical receipts for their completed inputs. They no longer
 define the unattended operational posture. A valid packet or native source law
 is an activation and reranking signal, not the only way hourly work may move.
+
+## PHYSICAL CANDIDATE KILLED 2026-07-16: Autocatalytic Reaction Network v0
+
+RUN-0170 / E188 executed the seventh material candidate swing in the physical
+witness campaign.
+
+Primary artifact:
+
+```text
+explorations/E188-autocatalytic-reaction-network-candidate-v0-2026-07-16.md
+```
+
+Executable artifacts:
+
+```text
+tools/autocatalytic_reaction_network_candidate_v0.py
+tests/test_autocatalytic_reaction_network_candidate_v0.py
+tests/artifacts/autocatalytic_reaction_network_candidate_v0_result.json
+```
+
+Result:
+
+```yaml
+candidate_status: CANDIDATE_KILLED_FIXED_REACTION_NETWORK
+completion_class_verdict: PHYSICAL_PREDICTIVE_ABSORPTION
+autocatalytic_signal_present: true
+source_growth_core_passed: false
+physical_source_issuance_established: false
+claim_status_change: none
+TI_C020_reopened: false
+```
+
+Active next trigger remains:
+
+```text
+W000 -> TI-PHYSICAL-WITNESS-GENERATION
+```
+
+Minimum contract:
+
+1. Do not repeat autocatalytic-set, chemical adjacent-possible,
+   origin-of-life reaction-closure, or generic reaction-network emergence
+   candidates unless fixed inputs change.
+2. The exact resurrection object is a source-owned reaction grammar expansion
+   law plus an internal anti-after-naming principle and W4 perturbation
+   non-factorization under the same preserved abundance, flux, closure, and
+   perturbation records.
+3. Continue with a non-overlapping physically serious candidate, or state a
+   bounded theorem target only if it can be expressed without universalizing
+   beyond tested candidate classes.
+4. Preserve no claim movement, no `TI-C020` reopen, and no E177 mutation unless
+   a later durable artifact earns it.
 
 ## PHYSICAL CANDIDATE KILLED 2026-07-16: Prion Conformation v0
 

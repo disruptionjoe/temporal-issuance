@@ -1,0 +1,144 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "hidden_state",
+    "initial_condition",
+    "name_provenance",
+    "observer_information_access",
+    "relabel_gauge",
+    "resource_capability",
+    "stochastic_seed",
+    "whole_family"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The chemical context is real, but the candidate's species, reaction rules, catalysis map, rates, and boundary are fixed before the claimed autocatalytic closure.",
+      "supplied": true,
+      "value": "fixed molecular species alphabet, reaction graph, catalyst inventory, rate laws, feedstock reservoir, and reactor boundary"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The admissibility predicate is supplied by the predeclared reaction grammar, catalysts, feedstock, and kinetic law rather than generated as a new source-side chemical law.",
+      "supplied": false,
+      "value": "admissible reactions induced by the fixed graph and rate-law table"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete formation signal and is a useful negative control for adjacent-possible or origin-of-life language.",
+      "supplied": true,
+      "value": "threshold crossing where a catalyst-supported subset becomes self-sustaining under the fixed feedstock and rate laws"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "species abundance trace, reaction events, catalytic closure certificate, flux record, and perturbation response"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is a realized attractor or subset of the fixed reaction system, not a source-owned new reaction grammar.",
+      "supplied": false,
+      "value": "same fixed reaction network after concentration threshold, path selection, or observer-visible catalytic closure"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "time-ordered reaction and abundance history"
+    }
+  ],
+  "autocatalytic_signal_present": true,
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "autocatalytic_chemical_reaction_network_emergence",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_REACTION_NETWORK",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "An internal anti-after-naming principle plus W4 perturbation non-factorization under the same preserved abundance, flux, closure, and perturbation records.",
+    "missing_object_id": "source_owned_reaction_grammar_expansion_law",
+    "required": "A native physical source law in which the chemistry creates a new admissibility predicate, species algebra, reaction rule, or catalysis grammar not representable as fixed species alphabet, fixed reaction graph, fixed rate law, feedstock or boundary input, seed concentration, stochastic collision tape, observer naming, or completed reaction history."
+  },
+  "fixed_source_rival": {
+    "completed_reaction_history_available": true,
+    "fixed_catalyst_inventory": true,
+    "fixed_feedstock_and_boundary_flux": true,
+    "fixed_rate_law_table": true,
+    "fixed_reaction_graph": true,
+    "fixed_species_alphabet": true,
+    "reason": "The autocatalytic closure trace is reproduced by one fixed molecular alphabet, reaction graph, catalyst inventory, rate-law table, feedstock and boundary flux, initial concentrations, stochastic collision tape, and completed reaction history.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_reaction_network",
+    "seed_concentrations_as_initial_condition": true,
+    "source_owned_new_reaction_law": false,
+    "stochastic_collision_or_reaction_tape": true
+  },
+  "fixture_id": "autocatalytic_reaction_network_candidate_v0",
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target only after the tested candidate families justify a scoped class statement",
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "explorations/E149-physical-candidates-state-space-growth-intake-2026-07-07.md",
+    "agent-runs/RUN-0169-p2cw1-whole-family-adjudication.md"
+  ],
+  "source_growth_core_passed": false,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_reaction_network_completion"
+  ],
+  "witness_gates": [
+    {
+      "finding": "A self-sustaining catalytic subset appears, but it is a subgraph or attractor of the fixed species and reaction algebra.",
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "network_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "Reaction admissibility is defined by the frozen molecular alphabet, catalyst map, rate-law table, feedstock, and boundary.",
+      "gate_id": "W2_new_admissibility_predicate",
+      "network_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "The autocatalytic set may be absent below threshold and present above it, but the construction space is the fixed reaction graph plus concentrations and stochastic collision history.",
+      "gate_id": "W3_construction_space_growth",
+      "network_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "Perturbations factor through feedstock, boundary flux, rate constants, catalyst seeding, random collision tape, or completed reaction history.",
+      "gate_id": "W4_perturbation_non_factorization",
+      "network_signal": false,
+      "source_passed": false
+    },
+    {
+      "finding": "Abundance traces, flux records, closure certificates, and perturbation responses can be preserved under the frozen comparison contract.",
+      "gate_id": "W5_record_preservation",
+      "network_signal": true,
+      "source_passed": true
+    },
+    {
+      "finding": "Fixed-network, initial-condition, boundary, stochastic, name/provenance, access, relabeling, whole-family, and completed-history absorbers are not defeated from inside the candidate.",
+      "gate_id": "W6_fixed_family_after_naming_absorption",
+      "network_signal": false,
+      "source_passed": false
+    }
+  ]
+}

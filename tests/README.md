@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- Autocatalytic reaction-network candidate v0: `python tests/test_autocatalytic_reaction_network_candidate_v0.py`
 - Prion conformation candidate v0: `python tests/test_prion_conformation_candidate_v0.py`
 - Emergent gauge sector candidate v0: `python tests/test_emergent_gauge_sector_candidate_v0.py`
 - Anti-collapse throughput packet candidate v0: `python tests/test_anti_collapse_throughput_packet_candidate_v0.py`
