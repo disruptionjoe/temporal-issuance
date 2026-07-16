@@ -59,18 +59,19 @@ and unpredictability, randomness, chaos, irreversibility, computational cost,
 or observer ignorance remain insufficient.
 
 Additional same-day swings now extend the killed physical-candidate set through
-RUN-0171 / E189. Schwinger vacuum pair production preserves a real
-pair-production signal, detector/occupation records, field-strength trace,
-energy budget, and retarded response, but fixed QFT Lagrangian, charged field
-content, external field profile, boundary conditions, vacuum state,
-couplings/renormalization, detector access, stochastic vacuum amplitude, and
-completed field history reproduce the candidate. The active next trigger
+RUN-0172 / E190. Bose-Einstein condensation preserves a real macroscopic
+occupation/coherence signal, density and interference records, condensate
+fraction, temperature, and cooling trace, but fixed many-body Hamiltonian,
+bosonic field algebra, Fock-space completion, trap geometry, interaction
+strength, cooling path, reservoir, seed fluctuations, measurement access, and
+completed condensation history reproduce the candidate. The active next trigger
 remains `TI-PHYSICAL-WITNESS-GENERATION`, excluding effective
 gauge/topological-sector, monitored dynamics, gravitational observer-algebra,
 CRISPR/adaptive immune sequence acquisition, dynamic/Floquet scheduled-code,
-prion-like conformational-templating, autocatalytic reaction-network, and
-Schwinger/vacuum pair-production repeats unless their missing source-owned
-transition objects appear.
+prion-like conformational-templating, autocatalytic reaction-network,
+Schwinger/vacuum pair-production, and Bose-Einstein-condensation/macroscopic
+phase-coherence repeats unless their missing source-owned transition objects
+appear.
 
 ## Prior frontier update (2026-07-15)
 

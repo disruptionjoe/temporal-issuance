@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- Bose-Einstein condensation candidate v0: `python tests/test_bose_einstein_condensation_candidate_v0.py`
 - Autocatalytic reaction-network candidate v0: `python tests/test_autocatalytic_reaction_network_candidate_v0.py`
 - Schwinger pair-production candidate v0: `python tests/test_schwinger_pair_production_candidate_v0.py`
 - Prion conformation candidate v0: `python tests/test_prion_conformation_candidate_v0.py`

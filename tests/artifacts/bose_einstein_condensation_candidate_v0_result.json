@@ -1,0 +1,143 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "hidden_state",
+    "initial_condition",
+    "name_provenance",
+    "observer_information_access",
+    "relabel_gauge",
+    "resource_capability",
+    "stochastic_seed",
+    "whole_family"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The physical context is real, but the candidate's field algebra, Fock-space completion, interactions, reservoir, and cooling schedule are frozen before the claimed condensation event.",
+      "supplied": true,
+      "value": "fixed many-body Hamiltonian, bosonic field algebra, particle species, trap geometry, interaction strength, cooling trajectory, reservoir, boundary conditions, and symmetry-breaking seed"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The admissibility predicate is supplied by the fixed many-body model, thermodynamic ensemble, particle-number sector, and cooling path rather than generated as a new source-side law.",
+      "supplied": false,
+      "value": "allowed condensate occupation, coherence, and order-parameter states induced by the fixed Hamiltonian and ensemble"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete physical formation signal and is a useful negative control for macroscopic-order language.",
+      "supplied": true,
+      "value": "macroscopic ground-state occupation, phase coherence, or off-diagonal long-range-order transition below critical temperature"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "density profile, time-of-flight interference, condensate fraction, coherence function, temperature, and cooling trace"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is a populated or phase-coherent state inside the fixed many-body theory, not a source-owned new mode algebra or admissibility law.",
+      "supplied": false,
+      "value": "same fixed bosonic field algebra and Fock-space completion after occupation, order-parameter selection, or measurement access"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "time-ordered cooling, occupation, coherence, and measurement history"
+    }
+  ],
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "bose_einstein_condensation",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_MANY_BODY_HAMILTONIAN",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "condensation_signal_present": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "An internal anti-after-naming principle plus W4 perturbation non-factorization under the same preserved density, interference, coherence, condensate-fraction, temperature, and cooling records.",
+    "missing_object_id": "source_owned_condensate_mode_generation_law",
+    "required": "A native physical source law in which condensation creates a new mode algebra, admissibility predicate, transition grammar, or construction space not representable as fixed many-body Hamiltonian, fixed Fock-space completion, fixed trap geometry, fixed interaction strength, fixed reservoir/cooling path, stochastic fluctuation, observer access, or completed history."
+  },
+  "fixed_source_rival": {
+    "completed_condensation_history_available": true,
+    "fixed_bosonic_field_algebra": true,
+    "fixed_cooling_trajectory_and_reservoir": true,
+    "fixed_interaction_strength": true,
+    "fixed_many_body_hamiltonian": true,
+    "fixed_particle_species_and_fock_space": true,
+    "fixed_trap_geometry": true,
+    "reason": "The condensate trace is reproduced by a fixed many-body Hamiltonian, bosonic field algebra, Fock-space completion, trap geometry, interaction strength, cooling trajectory, reservoir, boundary conditions, seed fluctuations, measurement access, and completed condensation history.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_many_body_bec_model",
+    "source_owned_condensate_law": false,
+    "stochastic_seed_or_thermal_fluctuation_tape": true
+  },
+  "fixture_id": "bose_einstein_condensation_candidate_v0",
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target only after the tested candidate families justify a scoped class statement",
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "agent-runs/RUN-0171-schwinger-pair-production-candidate-v0.md"
+  ],
+  "source_growth_core_passed": false,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_many_body_condensate_completion"
+  ],
+  "witness_gates": [
+    {
+      "condensation_signal": true,
+      "finding": "Macroscopic occupation appears, but the bosonic field algebra, Fock space, particle species, and mode basis remain the fixed source specified in advance.",
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "source_passed": false
+    },
+    {
+      "condensation_signal": true,
+      "finding": "Condensate admissibility is defined by the fixed Hamiltonian, ensemble, trap, interaction strength, and cooling protocol.",
+      "gate_id": "W2_new_admissibility_predicate",
+      "source_passed": false
+    },
+    {
+      "condensation_signal": true,
+      "finding": "Condensate occupation and coherence grow, but the construction space is already present in the Fock-space or grand-canonical completion.",
+      "gate_id": "W3_construction_space_growth",
+      "source_passed": false
+    },
+    {
+      "condensation_signal": false,
+      "finding": "Perturbations factor through trap geometry, scattering length, particle number or reservoir, cooling trajectory, finite-size effects, initial seed, measurement access, stochastic fluctuation tape, or completed condensation history.",
+      "gate_id": "W4_perturbation_non_factorization",
+      "source_passed": false
+    },
+    {
+      "condensation_signal": true,
+      "finding": "Density, interference, coherence, condensate-fraction, temperature, and cooling records can be preserved under the fixed rival.",
+      "gate_id": "W5_record_preservation",
+      "source_passed": true
+    },
+    {
+      "condensation_signal": false,
+      "finding": "Fixed-source, hidden-state, initial/boundary condition, stochastic fluctuation, name/provenance, access, relabeling, whole-family, and completed-history absorbers are not defeated from inside the candidate.",
+      "gate_id": "W6_fixed_family_after_naming_absorption",
+      "source_passed": false
+    }
+  ]
+}
