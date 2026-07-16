@@ -1,0 +1,144 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "hidden_state",
+    "initial_condition",
+    "name_provenance",
+    "observer_information_access",
+    "relabel_gauge",
+    "resource_capability",
+    "stochastic_seed",
+    "whole_family"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The physical context is real, but the candidate's species graph, rates, astrophysical trajectory, and resource budget are fixed before the claimed heavy-element formation event.",
+      "supplied": true,
+      "value": "fixed nuclear species graph, nuclear mass table, neutron-capture cross sections, beta-decay rates, fission channels, seed abundance, neutron flux, entropy, electron fraction, expansion trajectory, and ejecta context"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The admissibility predicate is supplied by the fixed nuclear network and thermodynamic trajectory rather than generated as a new source-side law.",
+      "supplied": false,
+      "value": "allowed isotope occupations, abundance-flow paths, waiting points, freeze-out states, and fission recycling products"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete physical formation signal and is a useful negative control for new-material language.",
+      "supplied": true,
+      "value": "rapid neutron-capture flow, beta-decay laddering, heavy-element abundance peaks, actinide production, or kilonova spectral signatures"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "abundance pattern, isotope ratios, decay-chain records, kilonova light curve, spectral lines, ejecta temperature, neutron density, and expansion records"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is an occupied region of a predeclared nuclear species graph, not a source-owned expansion of the nuclear admissibility law.",
+      "supplied": false,
+      "value": "same fixed nuclear reaction network after abundance flow, freeze-out, decay, measurement, or retrospective access"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "time-ordered neutron capture, beta decay, fission recycling, freeze-out, decay-chain, and measurement history"
+    }
+  ],
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "r_process_nucleosynthesis",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_NUCLEAR_REACTION_NETWORK",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "An internal anti-after-naming principle plus W4 perturbation non-factorization under the same preserved abundance, isotope-ratio, decay-chain, spectral, light-curve, temperature, neutron-density, and expansion records.",
+    "missing_object_id": "source_owned_nuclear_species_generation_law",
+    "required": "A native physical source law in which nucleosynthesis creates a new nuclear species graph, admissibility predicate, reaction grammar, or construction space not representable as fixed nuclear mass and rate tables, fixed seed abundance, fixed neutron flux, fixed electron fraction, fixed expansion trajectory, fixed ejecta context, fission recycling, stochastic variation, observer access, or completed history."
+  },
+  "fixed_source_rival": {
+    "completed_abundance_history_available": true,
+    "fixed_astrophysical_ejecta_context": true,
+    "fixed_fission_recycling_channels": true,
+    "fixed_neutron_flux_and_electron_fraction": true,
+    "fixed_nuclear_mass_and_rate_tables": true,
+    "fixed_nuclear_species_graph": true,
+    "fixed_seed_abundance": true,
+    "fixed_thermodynamic_expansion_trajectory": true,
+    "reason": "The r-process trace is reproduced by a fixed nuclear species graph, nuclear mass and rate tables, seed abundance, neutron flux, electron fraction, thermodynamic expansion trajectory, astrophysical ejecta context, fission recycling channels, measurement access, and completed abundance history.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_r_process_network_model",
+    "source_owned_species_law": false,
+    "stochastic_ejecta_or_rate_uncertainty_tape": true
+  },
+  "fixture_id": "r_process_nucleosynthesis_candidate_v0",
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target only after the tested candidate families justify a scoped class statement",
+  "nucleosynthesis_signal_present": true,
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "agent-runs/RUN-0172-bose-einstein-condensation-candidate-v0.md"
+  ],
+  "source_growth_core_passed": false,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_nuclear_r_process_completion"
+  ],
+  "witness_gates": [
+    {
+      "finding": "Heavy nuclei appear, but the isotope graph, conserved quantum numbers, nuclear mass table, and reaction channels remain the fixed source specified in advance.",
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "nucleosynthesis_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "Nuclear admissibility is defined by the fixed mass table, reaction rates, seed distribution, neutron flux, entropy, electron fraction, and expansion trajectory.",
+      "gate_id": "W2_new_admissibility_predicate",
+      "nucleosynthesis_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "The realized abundance pattern grows, but the construction space is already present in the fixed reaction network and its whole-family completion.",
+      "gate_id": "W3_construction_space_growth",
+      "nucleosynthesis_signal": true,
+      "source_passed": false
+    },
+    {
+      "finding": "Perturbations factor through seed abundances, neutron density, electron fraction, entropy, expansion time, mass model, rate table, fission recycling, stochastic ejecta variation, measurement access, or completed abundance history.",
+      "gate_id": "W4_perturbation_non_factorization",
+      "nucleosynthesis_signal": false,
+      "source_passed": false
+    },
+    {
+      "finding": "Abundance, isotope-ratio, decay-chain, spectral, light-curve, temperature, neutron-density, and expansion records can be preserved under the fixed rival.",
+      "gate_id": "W5_record_preservation",
+      "nucleosynthesis_signal": true,
+      "source_passed": true
+    },
+    {
+      "finding": "Fixed-source, hidden-state, initial/boundary condition, stochastic ejecta, name/provenance, access, relabeling, whole-family, and completed-history absorbers are not defeated from inside the candidate.",
+      "gate_id": "W6_fixed_family_after_naming_absorption",
+      "nucleosynthesis_signal": false,
+      "source_passed": false
+    }
+  ]
+}

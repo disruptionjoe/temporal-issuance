@@ -59,19 +59,20 @@ and unpredictability, randomness, chaos, irreversibility, computational cost,
 or observer ignorance remain insufficient.
 
 Additional same-day swings now extend the killed physical-candidate set through
-RUN-0172 / E190. Bose-Einstein condensation preserves a real macroscopic
-occupation/coherence signal, density and interference records, condensate
-fraction, temperature, and cooling trace, but fixed many-body Hamiltonian,
-bosonic field algebra, Fock-space completion, trap geometry, interaction
-strength, cooling path, reservoir, seed fluctuations, measurement access, and
-completed condensation history reproduce the candidate. The active next trigger
-remains `TI-PHYSICAL-WITNESS-GENERATION`, excluding effective
+RUN-0173 / E191. R-process nucleosynthesis preserves a real heavy-element
+formation signal, abundance patterns, isotope ratios, decay-chain records,
+kilonova light curves, spectral lines, temperature records, neutron-density
+records, and expansion records, but fixed nuclear species graph, mass and rate
+tables, seed abundance, neutron flux, electron fraction, thermodynamic
+expansion trajectory, ejecta context, fission recycling, measurement access,
+and completed abundance history reproduce the candidate. The active next
+trigger remains `TI-PHYSICAL-WITNESS-GENERATION`, excluding effective
 gauge/topological-sector, monitored dynamics, gravitational observer-algebra,
 CRISPR/adaptive immune sequence acquisition, dynamic/Floquet scheduled-code,
 prion-like conformational-templating, autocatalytic reaction-network,
-Schwinger/vacuum pair-production, and Bose-Einstein-condensation/macroscopic
-phase-coherence repeats unless their missing source-owned transition objects
-appear.
+Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic
+phase-coherence, and r-process/nucleosynthesis/heavy-element abundance-flow
+repeats unless their missing source-owned transition objects appear.
 
 ## Prior frontier update (2026-07-15)
 

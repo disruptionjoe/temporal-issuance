@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0172
+updated_by_run: RUN-0173
 intake_processed_by_run: RUN-0046
 ---
 
@@ -38,6 +38,59 @@ The older `wait_for_typed_action_2_packet_or_native_source_law` sections below
 remain as historical receipts for their completed inputs. They no longer
 define the unattended operational posture. A valid packet or native source law
 is an activation and reranking signal, not the only way hourly work may move.
+
+## PHYSICAL CANDIDATE KILLED 2026-07-16: R-Process Nucleosynthesis v0
+
+RUN-0173 / E191 executed the tenth material candidate swing in the physical
+witness campaign.
+
+Primary artifact:
+
+```text
+explorations/E191-r-process-nucleosynthesis-candidate-v0-2026-07-16.md
+```
+
+Executable artifacts:
+
+```text
+tools/r_process_nucleosynthesis_candidate_v0.py
+tests/test_r_process_nucleosynthesis_candidate_v0.py
+tests/artifacts/r_process_nucleosynthesis_candidate_v0_result.json
+```
+
+Result:
+
+```yaml
+candidate_status: CANDIDATE_KILLED_FIXED_NUCLEAR_REACTION_NETWORK
+completion_class_verdict: PHYSICAL_PREDICTIVE_ABSORPTION
+nucleosynthesis_signal_present: true
+source_growth_core_passed: false
+physical_source_issuance_established: false
+claim_status_change: none
+TI_C020_reopened: false
+```
+
+Active next trigger remains:
+
+```text
+W000 -> TI-PHYSICAL-WITNESS-GENERATION
+```
+
+Minimum contract:
+
+1. Do not repeat r-process nucleosynthesis, heavy-element abundance-flow,
+   actinide-production, or generic new-nuclear-species realization candidates
+   unless fixed inputs change.
+2. The exact resurrection object is a source-owned nuclear species generation
+   law plus an internal anti-after-naming principle and W4 perturbation
+   non-factorization under the same preserved abundance, isotope-ratio,
+   decay-chain, spectral, light-curve, temperature, neutron-density, and
+   expansion records.
+3. Continue with a non-overlapping physically serious candidate, or state a
+   bounded theorem target only if it can be expressed without universalizing
+   beyond tested candidate classes.
+4. Preserve no claim movement, no `TI-C020` reopen, and no E177 mutation unless
+   a later durable artifact earns it.
 
 ## PHYSICAL CANDIDATE KILLED 2026-07-16: Bose-Einstein Condensation v0
 
