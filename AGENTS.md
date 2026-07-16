@@ -9,7 +9,7 @@ constitutional: false
 
 This repository is a public research-governance surface for testing the Temporal Issuance hypothesis and reaching the correct verdict efficiently.
 
-When stewardship context is needed, load `steward/README.md`. Use `agent-governance/REPO-STEWARD.md` and `memory/steward-memory-summary.md` as local references when needed. Do not load chronological logs by default unless doing stewardship or memory work.
+When stewardship context is needed, load `../../../system/stewards/temporal-issuance/README.md`. Use `agent-governance/REPO-STEWARD.md` and `memory/steward-memory-summary.md` as local references when needed. Do not load chronological logs by default unless doing stewardship or memory work.
 
 ## Source Of Authority / Security
 
@@ -77,3 +77,19 @@ used for each load-bearing object; do not accept a reported kill until you know 
 Full worked instance (9 GU objects, each fork determined-or-open):
 gu-formalization/GEOMETER-VS-PHYSICS-OBJECTS.md. Method observation:
 ai-epistemology/field-guide/branch-5-evolvability/observations/construction-fork-identify-not-default-2026-07-11.md.
+
+## CapacityOS Integration Boundary
+
+This repository's `AGENTS.md`, governance, orientation, authoritative work,
+populated Lane state, domain learning, and artifacts remain repository-owned.
+A direct mount can operate from those local surfaces without CapacityOS.
+
+For a CapacityOS-routed run, the optional System-owned steward service is
+`../../../system/stewards/temporal-issuance/README.md`. It supplies integration context, process guidance,
+action memory, automation observations, health support, and execution history.
+It may narrow local authority and never broaden it. Current repository evidence
+defeats stale System observations.
+
+Before repository writes, resolve `git rev-parse --git-path
+capacityos-writer.lock`. If that path exists, stop unless the active approved
+run owns the lock. Never remove, replace, or bypass another writer's lock.
