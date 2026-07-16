@@ -16,6 +16,32 @@ Change rule: do not change this North Star without very explicit conversation wi
 - Move the hypothesis toward a verdict rather than document volume.
 - Maintain roadmap, claim ledger, kill criteria, absorbers, tests, and steward memory as repo-owned truth.
 
+## Current Hourly Research Portfolio
+
+The machine-readable owner is `steward/research-portfolio.json`. Every Repo
+Progress run must load it, select the highest-ranked unblocked internal work
+item, execute a material research swing, and re-rank the remaining items in
+its Next-Work Handoff. Repo Stewardship may revise the ranking when a real
+falsifier, survivor, dependency change, native source law, or frozen packet
+changes the frontier.
+
+The active lane is `PHYSICAL-ISSUANCE-WITNESS`. The unattended posture is no
+longer a generic wait for an external packet. When no packet exists, Progress
+must generate or kill a physically serious source-native candidate, close the
+whole-family completion attack on that candidate, or derive the observable
+separation from its strongest fixed-family rival. It must not repeat closed
+synthetic controls or count a wait note as progress.
+
+The active sequence is:
+
+1. physical witness generation;
+2. whole-family completion tournament with declared compositions;
+3. observable separation; and
+4. sovereign adjudication of a frozen p2c witness when one arrives.
+
+Difficulty alone cannot park this lane. A failed candidate is material
+progress when the exact completion or missing source object is preserved.
+
 ## Measures And Countermeasures
 
 Measures:
@@ -81,6 +107,12 @@ Lightweight upward-learning pointer: method/workflow-module learnings go to `Cap
 
 Supports CapacityOS-orchestrated and direct repo-mounted runs; local trigger plans remain repo-owned references. Automations are thin triggers; RCCM workflow plus this steward context supply the repo-local operation.
 
+Repo Progress loads `steward/research-portfolio.json` and
+`agent-governance/NEXT-TRIGGER-PLAN.md` before selecting work. Repo Stewardship
+keeps them aligned with ROADMAP, completed run handoffs, physical candidates,
+and frozen cross-repo returns. A gated item automatically re-enters ranking
+when its activation condition becomes true.
+
 ## Local Source References
 
 - `README.md`
@@ -91,3 +123,4 @@ Supports CapacityOS-orchestrated and direct repo-mounted runs; local trigger pla
 - `agent-governance/REPO-STEWARD.md`
 - `memory/steward-memory-summary.md`
 - `agent-governance/NEXT-TRIGGER-PLAN.md`
+- `steward/research-portfolio.json`

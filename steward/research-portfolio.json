@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "updated": "2026-07-16",
+  "authority": "repo-local stewardship",
+  "north_star_lane": "PHYSICAL-ISSUANCE-WITNESS",
+  "selection_contract": {
+    "progress_must_load_this_file": true,
+    "select_highest_ranked_unblocked_item": true,
+    "one_active_technical_item_per_run": true,
+    "continue_to_linked_checkpoint_when_first_closes_quickly": true,
+    "rerank_after_every_material_run": true,
+    "difficulty_is_not_a_demotion_signal": true,
+    "blocked_is_not_complete": true,
+    "no_wait_only_state": "If no external packet exists, actively generate or kill a source-native candidate or strengthen its completion attack. Do not repeat closed synthetic controls.",
+    "minimum_material_output": "A typed physical candidate, native source-law derivation attempt, whole-family completion attack, proof or counterexample, executable discriminator, or observable-separation result. A wait note, packet wrapper, or narrative alone is insufficient.",
+    "ranking_formula": "2*impact + 2*information_gain + readiness + distinctiveness - effort - wall_risk - duplication_risk"
+  },
+  "lanes": [
+    {
+      "id": "PHYSICAL-ISSUANCE-WITNESS",
+      "state": "ACTIVE",
+      "hourly_eligible": true,
+      "owner": "temporal-issuance",
+      "purpose": "Construct or kill a positive physical source-side issuance witness by generating candidates, attacking every admitted whole-family completion, and requiring an observable distinction from fixed-family dynamics.",
+      "priority_score": 25,
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 3,
+        "distinctiveness": 5,
+        "effort": 5,
+        "wall_risk": 5,
+        "duplication_risk": 0
+      },
+      "current_authority": "CompletionClass v1 and the E177 three-world discriminator are bounded instruments. They do not establish physical issuance. The anti-collapse throughput candidate failed closed, and waiting for an unsolicited packet is no longer the unattended work posture.",
+      "kill_condition": "If every physically legitimate candidate is reproducible by an admitted fixed-source, whole-family, history, boundary, stochastic, resource, access, relabeling, or gauge completion, preserve the scoped absorption and narrow TI rather than moving the completion goalposts.",
+      "forbidden_shortcut": "Do not promote unpredictability, randomness, chaos, computation cost, irreversibility, observer ignorance, quantum indeterminacy, or a changing description into source issuance.",
+      "internal_work_items": [
+        {
+          "id": "TI-PHYSICAL-WITNESS-GENERATION",
+          "state": "READY",
+          "priority_score": 28,
+          "hourly_eligible": true,
+          "next_swing": "Select one physically serious domain and build the strongest source-native candidate satisfying as many of the W1-W6, typed Action-2, Adapter_P, provenance, and native source-law burdens as possible. Freeze the fixed-source rival before evaluating the candidate and stop at the first missing physical object.",
+          "success_condition": "A typed candidate supplies a native transition and source law, matched physical context, boundary response, and a residual not already encoded in the preregistered fixed family.",
+          "kill_condition": "The candidate is only observer-side projection, access change, record readout, fixed-family selection, or a restatement of a previously absorbed class."
+        },
+        {
+          "id": "TI-WHOLE-FAMILY-COMPLETION-TOURNAMENT",
+          "state": "READY",
+          "priority_score": 27,
+          "hourly_eligible": true,
+          "next_swing": "Close declared composition rules for CompletionClass v1 and apply the strongest composed completion panel to the current highest-ranked physical candidate. Add an omission mutant only when it represents a genuinely new legitimate completion, not to protect the hypothesis.",
+          "success_condition": "The candidate either receives a verifier-backed bounded nonfactorization certificate under declared compositions or is absorbed with the exact completion named.",
+          "kill_condition": "A legitimate completion reproduces the full candidate packet or composition closure makes the claimed residual disappear."
+        },
+        {
+          "id": "TI-OBSERVABLE-SEPARATION",
+          "state": "READY_AFTER_CANDIDATE",
+          "priority_score": 26,
+          "hourly_eligible": false,
+          "activation": "One physical candidate survives the bounded completion tournament with a source-owned transition object.",
+          "next_swing": "Derive an observable statistic or retarded response that differs between the candidate issuance model and its strongest admitted fixed-family rival. Freeze the discriminator and kill thresholds before inspecting holdout data.",
+          "success_condition": "The two models imply distinguishable observables under a shared intervention and resource budget.",
+          "kill_condition": "Every observable distribution is reproduced by the admitted fixed-family rival or differs only by fitted hidden state."
+        },
+        {
+          "id": "TI-P2C-WITNESS-ADJUDICATION",
+          "state": "GATED_FROZEN_PACKET",
+          "priority_score": 25,
+          "hourly_eligible": false,
+          "activation": "A provenance-valid p2c witness packet fixes one construction, source law, transition, boundary, physical context, and rival family without asserting issuance.",
+          "next_swing": "Run H7, CompletionClass v1 with declared compositions, and the best surviving source-versus-projection discriminator. Return a sovereign TI result without importing TaF capability or GU native-versus-forced judgments.",
+          "success_condition": "The frozen candidate survives the declared completion class and supplies the physical source-side objects TI requires.",
+          "kill_condition": "The candidate fails admission, factors through an admitted completion, or supplies only record, access, capability, or finality evidence."
+        }
+      ],
+      "handoffs": {
+        "from_possibility_to_capability": "A mailbox proposal is only an activation candidate until packet provenance and source-law fields validate.",
+        "to_possibility_to_capability": "Return a frozen issuance-versus-completion adjudication without asserting capability change or joint success.",
+        "to_time_as_finality": "A source-side survivor may be offered as a case, but it does not supply TaF's capability verdict.",
+        "return_activation": "A material frozen return, new physical source law, or completion-class counterexample triggers stewardship reranking."
+      }
+    },
+    {
+      "id": "FORMAL-ISSUANCE-BYPRODUCTS",
+      "state": "RESERVE",
+      "hourly_eligible": true,
+      "priority_score": 13,
+      "purpose": "Formal local issuance, Lean fixtures, and conditional theorems that directly support the physical witness campaign.",
+      "activation": "Select only when it closes a named active-lane blocker or no active physical candidate work is executable.",
+      "forbidden_shortcut": "Do not let another clean formal/local witness replace the unresolved physical source question."
+    }
+  ]
+}

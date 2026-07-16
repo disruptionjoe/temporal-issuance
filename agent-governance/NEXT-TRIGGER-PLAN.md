@@ -3,11 +3,41 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0160
+updated_by_run: DIRECT-JOE-20260716-HOURLY-HOMES
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## ACTIVE 2026-07-16: Physical Issuance Witness Campaign
+
+Joe directly requested that the non-paper blockbuster research have an
+executable hourly home. This changes the operational trigger, not the core
+hypothesis or any claim status.
+
+Active next trigger:
+
+```text
+W000 -> TI-PHYSICAL-WITNESS-GENERATION
+```
+
+Selection contract:
+
+1. Load `steward/research-portfolio.json`.
+2. Select the highest-ranked unblocked item in
+   `PHYSICAL-ISSUANCE-WITNESS`.
+3. If no external packet exists, actively generate or kill a source-native
+   physical candidate or strengthen its composed completion attack.
+4. Require a typed transition, native source law, physical context, strongest
+   fixed-family rival, and explicit success and kill conditions.
+5. Re-rank after every material swing. Difficulty is not a demotion signal.
+6. A wait note, packet wrapper, generic narrative, or repeated synthetic
+   control is not a material Progress result.
+
+The older `wait_for_typed_action_2_packet_or_native_source_law` sections below
+remain as historical receipts for their completed inputs. They no longer
+define the unattended operational posture. A valid packet or native source law
+is an activation and reranking signal, not the only way hourly work may move.
 
 ## INTERFACE AWARENESS ASSESSED 2026-07-15: GU Good-Stable
 

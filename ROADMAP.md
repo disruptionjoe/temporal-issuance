@@ -23,7 +23,31 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
-## Current frontier update (2026-07-15)
+## Current frontier update (2026-07-16)
+
+The active hourly portfolio is `steward/research-portfolio.json`. The protected
+technical lane is now `PHYSICAL-ISSUANCE-WITNESS`.
+
+The prior unattended state waited for a typed Action-2 packet or native source
+law after the available candidates failed closed. Waiting remains an honest
+gate disposition for those specific candidates, but it is no longer the whole
+work program. Hourly Progress now actively generates or kills a physically
+serious source-native candidate, runs CompletionClass v1 with declared
+compositions against that candidate, and derives an observable separation if
+a candidate survives.
+
+The immediate order is:
+
+1. `TI-PHYSICAL-WITNESS-GENERATION`;
+2. `TI-WHOLE-FAMILY-COMPLETION-TOURNAMENT`;
+3. `TI-OBSERVABLE-SEPARATION`; and
+4. `TI-P2C-WITNESS-ADJUDICATION` when a valid frozen packet arrives.
+
+No claim is promoted by this routing change. `TI-C020` remains speculative,
+and unpredictability, randomness, chaos, irreversibility, computational cost,
+or observer ignorance remain insufficient.
+
+## Prior frontier update (2026-07-15)
 
 2026-07-15 Progress fan-out RUN-0159 packetizes the E179 anti-collapse
 throughput proposal as
