@@ -18,6 +18,16 @@ They should still preserve:
 - what would make the exploration worth promoting
 - what would kill it
 
+## Recent Physical Witness Campaign
+
+- `E182-emergent-gauge-sector-candidate-v0-2026-07-16.md`
+  tests emergent gauge/topological-sector quantum-matter language as the first
+  material physical-witness campaign candidate. It preserves the effective
+  algebra signal but kills the candidate as fixed microscopic platform plus
+  effective/low-energy/gauge projection. CompletionClass v1 returns
+  `PHYSICAL_PREDICTIVE_ABSORPTION`; no physical source issuance, claim
+  movement, `TI-C020` reopen, or cross-repo implication.
+
 ## Recent Cross-Repo Intake
 
 - `E181-gu-good-stable-interface-awareness-preflight-2026-07-15.md`

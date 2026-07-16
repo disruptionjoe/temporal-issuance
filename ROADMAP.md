@@ -43,6 +43,17 @@ The immediate order is:
 3. `TI-OBSERVABLE-SEPARATION`; and
 4. `TI-P2C-WITNESS-ADJUDICATION` when a valid frozen packet arrives.
 
+First material swing after activation: RUN-0161 / E182 tests emergent
+gauge/topological-sector quantum-matter language as a physical source witness.
+The candidate has a real effective-algebra signal, but the fixed-source rival
+reproduces the trace as fixed microscopic platform plus control/measurement
+schedule, low-energy or effective projection, boundary/context data, preserved
+records, and gauge/access/relabeling language. CompletionClass v1 returns
+`PHYSICAL_PREDICTIVE_ABSORPTION`, not survivor status. The exact missing source
+object is a source-owned non-isomorphic gauge/observable/instrument algebra
+with an internal anti-after-naming principle and W4 perturbation
+non-factorization under the same records.
+
 No claim is promoted by this routing change. `TI-C020` remains speculative,
 and unpredictability, randomness, chaos, irreversibility, computational cost,
 or observer ignorance remain insufficient.
