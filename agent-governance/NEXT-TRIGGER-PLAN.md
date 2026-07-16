@@ -39,6 +39,57 @@ remain as historical receipts for their completed inputs. They no longer
 define the unattended operational posture. A valid packet or native source law
 is an activation and reranking signal, not the only way hourly work may move.
 
+## PHYSICAL CANDIDATE KILLED 2026-07-16: Measurement-Induced Phase Transition v0
+
+RUN-0162 / E183 executed the second material candidate swing in the physical
+witness campaign.
+
+Primary artifact:
+
+```text
+explorations/E183-measurement-induced-phase-transition-candidate-v0-2026-07-16.md
+```
+
+Executable artifacts:
+
+```text
+tools/measurement_induced_phase_transition_candidate_v0.py
+tests/test_measurement_induced_phase_transition_candidate_v0.py
+tests/artifacts/measurement_induced_phase_transition_candidate_v0_result.json
+```
+
+Result:
+
+```yaml
+candidate_status: CANDIDATE_KILLED_FIXED_MONITORED_DYNAMICS
+completion_class_verdict: PHYSICAL_PREDICTIVE_ABSORPTION
+transition_signal_present: true
+source_growth_core_passed: false
+physical_source_issuance_established: false
+claim_status_change: none
+TI_C020_reopened: false
+```
+
+Active next trigger remains:
+
+```text
+W000 -> TI-PHYSICAL-WITNESS-GENERATION
+```
+
+Minimum contract:
+
+1. Do not repeat monitored quantum dynamics, measurement-induced phase
+   transition, trajectory-conditioned phase, or postselection/access claims
+   unless fixed inputs change.
+2. The exact resurrection object is a source-owned monitoring transition law
+   plus W4 perturbation non-factorization under the same preserved measurement
+   records and intervention budget.
+3. Continue with a non-overlapping physically serious candidate, or state a
+   bounded theorem target only if it can be expressed without universalizing
+   beyond tested candidate classes.
+4. Preserve no claim movement, no `TI-C020` reopen, and no E177 mutation unless
+   a later durable artifact earns it.
+
 ## PHYSICAL CANDIDATE KILLED 2026-07-16: Emergent Gauge Sector v0
 
 RUN-0161 / E182 executed the first material candidate swing after hourly

@@ -1,0 +1,134 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "completed_history",
+    "fixed_source",
+    "observer_information_access",
+    "resource_capability",
+    "stochastic_seed"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The physical context is real but already contains the dynamics family.",
+      "supplied": true,
+      "value": "fixed monitored quantum circuit, Hamiltonian, or tensor-network family"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The predicate is supplied by ensemble analysis, access to measurement records, or a parameterized protocol, not generated as a new source-side admissibility law.",
+      "supplied": false,
+      "value": "entanglement or purification phase predicate over trajectories"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete before/after transition signal.",
+      "supplied": true,
+      "value": "measurement-induced phase transition or trajectory-class event"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "measurement record, entropy diagnostic, or trajectory ensemble statistic"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is a selected or conditioned member of a fixed monitored dynamics family, not a new source law.",
+      "supplied": false,
+      "value": "same monitored source family under a different measurement/access regime"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "preserved trajectory log and fixed-protocol comparison record"
+    }
+  ],
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "measurement_induced_phase_transition_monitored_quantum_dynamics",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_MONITORED_DYNAMICS",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "A W4 perturbation non-factorization certificate under the same preserved measurement records and intervention budget.",
+    "missing_object_id": "source_owned_monitoring_transition_law",
+    "required": "A native physical source law in which monitoring creates a new observable, instrument, or admissibility algebra that is not representable by the fixed dynamics family, random tape, measurement schedule, postselection/access channel, finite-size scaling, or completed trajectory history."
+  },
+  "fixed_source_rival": {
+    "completed_trajectory_history_available": true,
+    "fixed_dynamics_family": true,
+    "fixed_measurement_or_control_schedule": true,
+    "postselection_or_observer_access_channel": true,
+    "reason": "The phase signal is reproduced by a fixed monitored dynamics family plus measurement schedule, stochastic trajectory, access/postselection, and completed-history description.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_monitored_dynamics_with_random_tape",
+    "source_owned_transition_law": false,
+    "stochastic_trajectory_or_born_random_tape": true
+  },
+  "fixture_id": "measurement_induced_phase_transition_candidate_v0",
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a theorem target showing monitored-dynamics candidates cannot supply the missing source-owned transition law",
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "explorations/E182-emergent-gauge-sector-candidate-v0-2026-07-16.md"
+  ],
+  "source_growth_core_passed": false,
+  "transition_signal_present": true,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_monitored_dynamics_completion"
+  ],
+  "witness_gates": [
+    {
+      "finding": "The transition signal is real, but it is not shown to create a non-isomorphic source law rather than select among phases of a fixed monitored dynamics family.",
+      "gate_id": "W1_non_isomorphic_source_law",
+      "source_passed": false,
+      "transition_signal": true
+    },
+    {
+      "finding": "The admissibility predicate comes from the measurement protocol, trajectory conditioning, entropy diagnostic, or modeler's phase classification.",
+      "gate_id": "W2_new_admissibility_predicate",
+      "source_passed": false,
+      "transition_signal": false
+    },
+    {
+      "finding": "The construction space is the fixed circuit or Hamiltonian plus a predeclared measurement/control schedule.",
+      "gate_id": "W3_construction_space_growth",
+      "source_passed": false,
+      "transition_signal": false
+    },
+    {
+      "finding": "Perturbations factor through measurement rate, random trajectory, postselection, finite-size scaling, or the fixed dynamics family.",
+      "gate_id": "W4_perturbation_non_factorization",
+      "source_passed": false,
+      "transition_signal": false
+    },
+    {
+      "finding": "Measurement outcomes and entropy/phase diagnostics can be preserved.",
+      "gate_id": "W5_record_preservation",
+      "source_passed": true,
+      "transition_signal": true
+    },
+    {
+      "finding": "Changed access to records, stochastic branches, and completed trajectory history absorbs the claimed novelty.",
+      "gate_id": "W6_access_history_absorption",
+      "source_passed": false,
+      "transition_signal": false
+    }
+  ]
+}
