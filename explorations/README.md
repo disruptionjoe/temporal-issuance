@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Cross-Repo Intake
 
+- `E181-gu-good-stable-interface-awareness-preflight-2026-07-15.md`
+  assesses the 2026-07-15 GU good-stable interface awareness mailbox item as
+  context only. It records that the note supplies no packet, no GU/TI identity
+  claim, no native source law, no `Adapter_P`, and no CompletionClass v1
+  nonfactorization evidence. No claim movement, no `TI-C020` reopen, and no
+  active-trigger change.
 - `E171-h8-d-fork-regime-signature-bundle-2026-07-12.md`
   packages the current D-FORK boundary after H6. It reports FTS depleting
   curvature, Godelian sustained curvature, and bounded formal/local OSAG
