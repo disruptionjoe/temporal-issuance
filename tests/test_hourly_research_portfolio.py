@@ -15,8 +15,12 @@ class HourlyResearchPortfolioTests(unittest.TestCase):
         cls.data = json.loads(PORTFOLIO.read_text(encoding="utf-8"))
 
     def test_active_lane_and_ready_work_exist(self) -> None:
-        active = [lane for lane in self.data["lanes"] if lane["state"] == "ACTIVE"]
-        self.assertEqual([lane["id"] for lane in active], [self.data["north_star_lane"]])
+        active = [
+            group
+            for group in self.data["work_groups"]
+            if group["state"] == "ACTIVE" and group["hourly_eligible"]
+        ]
+        self.assertEqual([group["id"] for group in active], [self.data["lane_1_work_group"]])
         ready = [
             item
             for item in active[0]["internal_work_items"]
@@ -31,8 +35,8 @@ class HourlyResearchPortfolioTests(unittest.TestCase):
         self.assertIn("actively generate or kill", contract["no_wait_only_state"])
         self.assertTrue(contract["select_highest_ranked_unblocked_item"])
         self.assertTrue(contract["rerank_after_every_material_run"])
-        for lane in self.data["lanes"]:
-            for item in lane.get("internal_work_items", []):
+        for group in self.data["work_groups"]:
+            for item in group.get("internal_work_items", []):
                 if not item["hourly_eligible"]:
                     self.assertTrue(item.get("activation"))
 
@@ -40,10 +44,11 @@ class HourlyResearchPortfolioTests(unittest.TestCase):
         trigger = (ROOT / "agent-governance" / "NEXT-TRIGGER-PLAN.md").read_text(
             encoding="utf-8"
         )
-        context = (ROOT / "steward" / "README.md").read_text(encoding="utf-8")
+        context = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
         self.assertIn("TI-PHYSICAL-WITNESS-GENERATION", trigger)
-        self.assertIn("generic wait for an external packet", context)
-        self.assertIn(self.data["north_star_lane"], context)
+        self.assertIn(self.data["lane_1_work_group"], trigger)
+        self.assertIn("actively generate or kill", trigger)
+        self.assertIn("LANES.yaml", context)
 
 
 if __name__ == "__main__":

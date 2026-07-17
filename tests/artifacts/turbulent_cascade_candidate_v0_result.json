@@ -1,0 +1,144 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "hidden_state",
+    "initial_condition",
+    "name_provenance",
+    "observer_information_access",
+    "relabel_gauge",
+    "resource_capability",
+    "stochastic_seed",
+    "whole_family"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The physical context is real, but the equations, parameters, driving, and admissible state space are fixed before the claimed turbulent cascade event.",
+      "supplied": true,
+      "value": "fixed Navier-Stokes or Euler equations, fluid density, viscosity, domain geometry, boundary conditions, initial velocity and vorticity field, forcing schedule, Reynolds number regime, injection scale, dissipation scale, closure family, and measurement protocol"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The admissibility predicate is supplied by the fixed fluid law, forcing, boundary data, and closure assumptions rather than generated as a new source-side rule.",
+      "supplied": false,
+      "value": "allowed eddy modes, triad interactions, inertial-range transfer paths, coherent vortices, intermittency structures, and dissipation channels"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete physical formation signal and is a useful negative control for emergent-structure language.",
+      "supplied": true,
+      "value": "vortex stretching, energy cascade, inertial-range spectrum, coherent structures, intermittency bursts, and dissipation anomaly"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "velocity field snapshots, vorticity records, pressure records, energy spectrum, structure functions, dissipation rate, forcing record, and boundary measurements"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is an evolved state of the same predeclared fluid law, not a source-owned expansion of the admissible dynamics.",
+      "supplied": false,
+      "value": "same fixed fluid phase space after nonlinear cascade, coherent-structure identification, measurement, or retrospective access"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "time-ordered velocity, vorticity, pressure, forcing, energy-transfer, and dissipation records"
+    }
+  ],
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "turbulent_cascade",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_NAVIER_STOKES_CASCADE",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "An internal anti-after-naming principle plus W4 perturbation non-factorization under the same preserved velocity, vorticity, pressure, spectrum, structure-function, dissipation, forcing, and boundary records.",
+    "missing_object_id": "source_owned_cascade_rule_generation_law",
+    "required": "A native physical source law in which turbulence creates a new eddy-mode algebra, admissibility predicate, transfer operator, or construction space not representable as fixed fluid equations, fixed fluid parameters, fixed forcing, fixed boundary and initial conditions, fixed Reynolds regime, fixed closure family, stochastic perturbation, observer access, or completed history."
+  },
+  "fixed_source_rival": {
+    "completed_flow_history_available": true,
+    "fixed_domain_and_boundary_conditions": true,
+    "fixed_fluid_parameters": true,
+    "fixed_forcing_and_energy_injection": true,
+    "fixed_governing_equations": true,
+    "fixed_initial_conditions": true,
+    "fixed_reynolds_regime_and_scale_window": true,
+    "fixed_subgrid_or_closure_family": true,
+    "reason": "The turbulent cascade trace is reproduced by fixed fluid equations, fluid parameters, domain and boundary conditions, initial state, forcing and energy injection, Reynolds regime, scale window, closure family, measurement access, stochastic perturbations, and completed flow history.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_fluid_dynamics_cascade_model",
+    "source_owned_cascade_law": false,
+    "stochastic_perturbation_tape": true
+  },
+  "fixture_id": "turbulent_cascade_candidate_v0",
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target only after the tested candidate families justify a scoped class statement",
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "agent-runs/RUN-0173-r-process-nucleosynthesis-candidate-v0.md"
+  ],
+  "source_growth_core_passed": false,
+  "turbulence_signal_present": true,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_fluid_cascade_completion"
+  ],
+  "witness_gates": [
+    {
+      "finding": "A turbulent field develops new visible structures, but the phase space, variables, symmetries, and governing operators remain the fixed fluid source specified in advance.",
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "source_passed": false,
+      "turbulence_signal": true
+    },
+    {
+      "finding": "Admissible eddy interactions and cascade paths are determined by fixed equations, forcing, boundary data, viscosity, Reynolds regime, and closure assumptions.",
+      "gate_id": "W2_new_admissibility_predicate",
+      "source_passed": false,
+      "turbulence_signal": true
+    },
+    {
+      "finding": "The realized multiscale structure grows, but the construction space is already present in the fixed nonlinear state space and its whole-family completion.",
+      "gate_id": "W3_construction_space_growth",
+      "source_passed": false,
+      "turbulence_signal": true
+    },
+    {
+      "finding": "Perturbations factor through initial and boundary conditions, forcing, viscosity, Reynolds number, closure choice, stochastic fluctuations, measurement access, or completed flow history.",
+      "gate_id": "W4_perturbation_non_factorization",
+      "source_passed": false,
+      "turbulence_signal": false
+    },
+    {
+      "finding": "Velocity, vorticity, pressure, spectrum, structure-function, dissipation, forcing, and boundary records can be preserved under the fixed rival.",
+      "gate_id": "W5_record_preservation",
+      "source_passed": true,
+      "turbulence_signal": true
+    },
+    {
+      "finding": "Fixed-source, hidden-state, initial/boundary condition, stochastic perturbation, name/provenance, access, relabeling, whole-family, and completed-history absorbers are not defeated from inside the candidate.",
+      "gate_id": "W6_fixed_family_after_naming_absorption",
+      "source_passed": false,
+      "turbulence_signal": false
+    }
+  ]
+}
