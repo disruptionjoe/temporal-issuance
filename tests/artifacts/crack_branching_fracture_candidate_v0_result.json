@@ -1,0 +1,144 @@
+{
+  "E177_modified": false,
+  "TI_C020_reopened": false,
+  "absorbed_family_ids": [
+    "boundary_condition",
+    "completed_history",
+    "fixed_source",
+    "hidden_state",
+    "initial_condition",
+    "name_provenance",
+    "observer_information_access",
+    "relabel_gauge",
+    "resource_capability",
+    "stochastic_seed",
+    "whole_family"
+  ],
+  "absorber_controls_passed": false,
+  "adapter_fields": [
+    {
+      "field_id": "Gamma_n",
+      "finding": "The physical context is real, but the law, material, flaws, loading, and admissible damage state space are fixed before the claimed crack-branching event.",
+      "supplied": true,
+      "value": "fixed elastodynamic or phase-field fracture law, material microstructure, flaw distribution, specimen geometry, loading history, boundary conditions, initial crack, toughness and energy-release parameters, process-zone model, dissipation law, and measurement protocol"
+    },
+    {
+      "field_id": "Adm_n",
+      "finding": "The admissibility predicate is supplied by fixed fracture mechanics, material disorder, geometry, loading, and boundary data rather than generated as a new source-side rule.",
+      "supplied": false,
+      "value": "allowed crack paths, branch angles, microcrack coalescence, process-zone states, fracture-surface morphologies, and acoustic-emission events"
+    },
+    {
+      "field_id": "e_n",
+      "finding": "The candidate has a concrete physical formation signal and is a useful negative control for new-interface language.",
+      "supplied": true,
+      "value": "dynamic crack branching, new free-surface formation, branching network topology, acoustic emission burst, and rough fracture morphology"
+    },
+    {
+      "field_id": "w_n",
+      "finding": "The witness can be preserved without granting source issuance.",
+      "supplied": true,
+      "value": "crack-tip trajectory, branch map, fracture surface, stress and strain fields, load-displacement trace, acoustic emissions, high-speed images, and boundary/load records"
+    },
+    {
+      "field_id": "Gamma_n_plus_1",
+      "finding": "The successor context is an evolved damage state under the same predeclared fracture law, not a source-owned expansion of admissible mechanics.",
+      "supplied": false,
+      "value": "same fixed fracture phase space after branch formation, damage evolution, surface exposure, measurement, or retrospective access"
+    },
+    {
+      "field_id": "tau_n",
+      "finding": "Record preservation is available and is not the blocking field.",
+      "supplied": true,
+      "value": "time-ordered stress-intensity, energy-release, crack-velocity, branching, acoustic-emission, fracture-surface, and loading records"
+    }
+  ],
+  "blocking_adapter_fields": [
+    "Adm_n",
+    "Gamma_n_plus_1"
+  ],
+  "candidate_domain": "crack_branching_fracture",
+  "candidate_status": "CANDIDATE_KILLED_FIXED_FRACTURE_MECHANICS",
+  "claim_status_change": "none",
+  "completion_class_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+  "completion_class_version": "completion_class_v1",
+  "composition_closure_declared": true,
+  "cross_repo_implication": false,
+  "exact_missing_source_object": {
+    "also_required": "An internal anti-after-naming principle plus W4 perturbation non-factorization under the same preserved crack-tip, branch, fracture-surface, stress, strain, load, acoustic-emission, image, and boundary records.",
+    "missing_object_id": "source_owned_fracture_interface_generation_law",
+    "required": "A native physical source law in which fracture creates a new interface algebra, admissibility predicate, branch-selection operator, or construction space not representable as fixed elastodynamics, fixed material microstructure, fixed flaws, fixed geometry, fixed loading, fixed boundary conditions, fixed fracture criterion, stochastic disorder, observer access, or completed history."
+  },
+  "fixed_source_rival": {
+    "completed_fracture_history_available": true,
+    "fixed_elastodynamic_or_phase_field_law": true,
+    "fixed_initial_flaw_distribution": true,
+    "fixed_loading_history_and_rate": true,
+    "fixed_material_microstructure": true,
+    "fixed_process_zone_and_dissipation_model": true,
+    "fixed_specimen_geometry_and_boundaries": true,
+    "fixed_toughness_and_energy_release_criterion": true,
+    "reason": "The crack-branching trace is reproduced by fixed elastodynamics or phase-field fracture mechanics, material microstructure, flaw distribution, geometry, boundary conditions, loading history, fracture criterion, toughness, process-zone and dissipation model, stochastic disorder, measurement access, and completed fracture history.",
+    "record_trace_preserved": true,
+    "reproduces_candidate_shape": true,
+    "rival_id": "fixed_fracture_mechanics_branching_model",
+    "source_owned_fracture_law": false,
+    "stochastic_disorder_tape": true
+  },
+  "fixture_id": "crack_branching_fracture_candidate_v0",
+  "fracture_signal_present": true,
+  "missing_family_ids": [],
+  "native_source_law_supplied": false,
+  "next_required_test": "another non-overlapping physical candidate with a source-owned transition law, or a bounded no-go target only after the tested candidate families justify a scoped class statement",
+  "packet_admitted": false,
+  "physical_source_issuance_established": false,
+  "source_artifacts": [
+    "COMPLETION-CLASS.md",
+    "steward/research-portfolio.json",
+    "agent-runs/RUN-0174-turbulent-cascade-candidate-v0.md"
+  ],
+  "source_growth_core_passed": false,
+  "typed_action_2_packet": false,
+  "unresolved_family_ids": [],
+  "valid_completion_witness_ids": [
+    "fixed_fracture_mechanics_completion"
+  ],
+  "witness_gates": [
+    {
+      "finding": "New crack surfaces and branches appear, but the state space, damage variables, material model, and governing operators remain the fixed fracture source specified in advance.",
+      "fracture_signal": true,
+      "gate_id": "W1_non_isomorphic_source_algebra",
+      "source_passed": false
+    },
+    {
+      "finding": "Admissible branch paths are determined by fixed material microstructure, flaws, fracture criterion, loading, boundary conditions, process-zone model, and disorder.",
+      "fracture_signal": true,
+      "gate_id": "W2_new_admissibility_predicate",
+      "source_passed": false
+    },
+    {
+      "finding": "The realized crack network grows, but its construction space is already present in the fixed damage/fracture model and its whole-family completion.",
+      "fracture_signal": true,
+      "gate_id": "W3_construction_space_growth",
+      "source_passed": false
+    },
+    {
+      "finding": "Perturbations factor through initial defects, material heterogeneity, loading rate, boundary conditions, toughness, process-zone parameters, stochastic disorder, measurement access, or completed fracture history.",
+      "fracture_signal": false,
+      "gate_id": "W4_perturbation_non_factorization",
+      "source_passed": false
+    },
+    {
+      "finding": "Crack-tip, branch, fracture-surface, stress, strain, load, acoustic-emission, image, and boundary records can be preserved under the fixed rival.",
+      "fracture_signal": true,
+      "gate_id": "W5_record_preservation",
+      "source_passed": true
+    },
+    {
+      "finding": "Fixed-source, hidden-state, initial/boundary condition, stochastic disorder, name/provenance, access, relabeling, whole-family, and completed-history absorbers are not defeated from inside the candidate.",
+      "fracture_signal": false,
+      "gate_id": "W6_fixed_family_after_naming_absorption",
+      "source_passed": false
+    }
+  ]
+}

@@ -23,7 +23,7 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
-## Current frontier update (2026-07-16)
+## Current frontier update (2026-07-17)
 
 The active hourly portfolio is `steward/research-portfolio.json`. The protected
 technical lane is now `PHYSICAL-ISSUANCE-WITNESS`.
@@ -59,21 +59,22 @@ and unpredictability, randomness, chaos, irreversibility, computational cost,
 or observer ignorance remain insufficient.
 
 Additional swings now extend the killed physical-candidate set through
-RUN-0174 / E192. Turbulent cascade preserves a real multiscale physical signal:
-vortex stretching, inertial-range energy transfer, coherent structures,
-intermittency, velocity and vorticity records, spectra, structure functions,
-dissipation, forcing, and boundary records. Fixed fluid equations, fluid
-parameters, domain and boundary data, initial state, forcing, Reynolds regime,
-closure family, stochastic perturbations, measurement access, and completed
-flow history reproduce the candidate. The active next trigger remains
-`TI-PHYSICAL-WITNESS-GENERATION`, excluding effective gauge/topological-sector,
-monitored dynamics, gravitational observer-algebra, CRISPR/adaptive immune
-sequence acquisition, dynamic/Floquet scheduled-code, prion-like
-conformational-templating, autocatalytic reaction-network, Schwinger/vacuum
-pair-production, Bose-Einstein-condensation/macroscopic phase-coherence,
-r-process/nucleosynthesis/heavy-element abundance-flow, and
-turbulent-cascade/inertial-range-structure repeats unless their missing
-source-owned transition objects appear.
+RUN-0175 / E193. Crack branching fracture preserves a real interface-formation
+signal: crack-tip trajectories, branch maps, fracture surfaces, stress and
+strain fields, load-displacement traces, acoustic emissions, high-speed
+images, and boundary/load records. Fixed elastodynamics or phase-field
+fracture mechanics, material microstructure, initial flaws, specimen geometry,
+boundary conditions, loading history, fracture criterion, toughness,
+process-zone and dissipation model, stochastic disorder, measurement access,
+and completed fracture history reproduce the candidate. The active next
+trigger remains `TI-PHYSICAL-WITNESS-GENERATION`, excluding effective
+gauge/topological-sector, monitored dynamics, gravitational observer-algebra,
+CRISPR/adaptive immune sequence acquisition, dynamic/Floquet scheduled-code,
+prion-like conformational-templating, autocatalytic reaction-network,
+Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic
+phase-coherence, r-process/nucleosynthesis/heavy-element abundance-flow,
+turbulent-cascade/inertial-range-structure, and crack-branching/fracture-
+interface repeats unless their missing source-owned transition objects appear.
 
 ## Prior frontier update (2026-07-15)
 

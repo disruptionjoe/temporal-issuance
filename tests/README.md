@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- Crack branching fracture candidate v0: `python tests/test_crack_branching_fracture_candidate_v0.py`
 - Turbulent cascade candidate v0: `python tests/test_turbulent_cascade_candidate_v0.py`
 - R-process nucleosynthesis candidate v0: `python tests/test_r_process_nucleosynthesis_candidate_v0.py`
 - Bose-Einstein condensation candidate v0: `python tests/test_bose_einstein_condensation_candidate_v0.py`
