@@ -2,7 +2,6 @@
   "version": 1,
   "updated": "2026-07-16",
   "authority": "repo-local stewardship",
-  "north_star_lane": "PHYSICAL-ISSUANCE-WITNESS",
   "selection_contract": {
     "progress_must_load_this_file": true,
     "select_highest_ranked_unblocked_item": true,
@@ -15,7 +14,9 @@
     "minimum_material_output": "A typed physical candidate, native source-law derivation attempt, whole-family completion attack, proof or counterexample, executable discriminator, or observable-separation result. A wait note, packet wrapper, or narrative alone is insufficient.",
     "ranking_formula": "2*impact + 2*information_gain + readiness + distinctiveness - effort - wall_risk - duplication_risk"
   },
-  "lanes": [
+  "lane_manifest_ref": "LANES.yaml",
+  "artifact_role": "Repository-owned work and ranking portfolio. Durable Lane definitions and control state exist only in root LANES.yaml.",
+  "work_groups": [
     {
       "id": "PHYSICAL-ISSUANCE-WITNESS",
       "state": "ACTIVE",
@@ -87,7 +88,8 @@
         "to_possibility_to_capability": "Return a frozen issuance-versus-completion adjudication without asserting capability change or joint success.",
         "to_time_as_finality": "A source-side survivor may be offered as a case, but it does not supply TaF's capability verdict.",
         "return_activation": "A material frozen return, new physical source law, or completion-class counterexample triggers stewardship reranking."
-      }
+      },
+      "parent_lane_id": "1"
     },
     {
       "id": "FORMAL-ISSUANCE-BYPRODUCTS",
@@ -96,7 +98,9 @@
       "priority_score": 13,
       "purpose": "Formal local issuance, Lean fixtures, and conditional theorems that directly support the physical witness campaign.",
       "activation": "Select only when it closes a named active-lane blocker or no active physical candidate work is executable.",
-      "forbidden_shortcut": "Do not let another clean formal/local witness replace the unresolved physical source question."
+      "forbidden_shortcut": "Do not let another clean formal/local witness replace the unresolved physical source question.",
+      "parent_lane_id": "1"
     }
-  ]
+  ],
+  "lane_1_work_group": "PHYSICAL-ISSUANCE-WITNESS"
 }
