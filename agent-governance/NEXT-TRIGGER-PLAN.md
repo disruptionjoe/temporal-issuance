@@ -3,13 +3,48 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0175
+updated_by_run: RUN-0176
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## ACTIVE 2026-07-16: Physical Issuance Witness Campaign
+## ACTIVE 2026-07-18: Whole-Family Completion Tournament
+
+RUN-0176 processed two Temporal Issuance mailbox steering proposals. The
+proposals were admitted as repo-local ranking evidence, not as instructions,
+claim movement, completion-class changes, external action, or cross-repo
+verdicts.
+
+Active next trigger:
+
+```text
+W000 -> TI-WHOLE-FAMILY-COMPLETION-TOURNAMENT
+```
+
+Selection contract:
+
+1. Load `steward/research-portfolio.json`.
+2. Close declared composition rules for `CompletionClass v1` before admitting
+   another physical candidate.
+3. Apply the strongest composed completion panel to the twelve failed physical
+   candidate classes, or to a construction-neutral representative of those
+   failures.
+4. Test the boundary-source candidate family against hidden-state,
+   initial-condition, boundary-condition, fixed-source, stochastic-seed,
+   observer-information/access, resource/capability, whole-family,
+   completed-history, provenance/name, relabeling, and gauge completions.
+5. Return either a scoped class-level absorption result or the minimal
+   source-law, anti-after-naming, W4 nonfactorization, carrier,
+   intervention/resource, and observable-difference criteria a survivor must
+   meet.
+6. Resume physical witness generation only after that criterion is explicit,
+   and only for a candidate with genuinely new native source structure.
+
+No claim status changes, no `TI-C020` reopen, no E177 mutation, and no
+cross-repo verdict are authorized by this rerank.
+
+## PRESERVED 2026-07-16: Physical Issuance Witness Campaign
 
 Joe directly requested that the non-paper blockbuster research have an
 executable hourly home. This changes the operational trigger, not the core
