@@ -2,7 +2,7 @@ lane_state_version: '1.0'
 owner_id: temporal-issuance
 manifest_ref: LANES.yaml
 manifest_revision: 1
-evaluated_at: '2026-07-18T10:44:00-05:00'
+evaluated_at: '2026-07-18T10:39:00-05:00'
 run_ref: agent-runs/RUN-0176-completion-tournament-rerank.md
 lanes:
 - lane_id: '1'
@@ -10,12 +10,12 @@ lanes:
   reason_code: active_next_trigger
   evidence_ref: steward/research-portfolio.json
   summary: Completion tournament is active next before more candidate enumeration.
-  evaluated_at: '2026-07-18T10:44:00-05:00'
+  evaluated_at: '2026-07-18T10:39:00-05:00'
   run_ref: agent-runs/RUN-0176-completion-tournament-rerank.md
 - lane_id: A
   light: green
   reason_code: mailbox_disposition_recorded
   evidence_ref: agent-runs/RUN-0176-completion-tournament-rerank.md
   summary: Mailbox steering was dispositioned into repo-local ranking.
-  evaluated_at: '2026-07-18T10:44:00-05:00'
+  evaluated_at: '2026-07-18T10:39:00-05:00'
   run_ref: agent-runs/RUN-0176-completion-tournament-rerank.md
