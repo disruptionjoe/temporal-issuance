@@ -1,33 +1,93 @@
-lane_state_version: '1.0'
+schema_version: "2.0"
 owner_id: temporal-issuance
-manifest_ref: LANES.yaml
-manifest_revision: 1
-evaluated_at: '2026-07-19T07:05:00-05:00'
-run_ref: agent-runs/RUN-0178-completed-run-status-repair.md
+group: church-of-ai
+updated_at: "2026-07-19T17:45:31-05:00"
+run_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
+bottom_line: "Lane A state refresh is current; Lane 1 remains gated on a structurally new physical source-law candidate."
+decision_default: "Keep Lane 1 gated; return no_worthy_work unless a six-criteria candidate appears."
+needs_joe: false
 lanes:
-- lane_id: '1'
-  work_status: no_action
-  last_movement: RUN-0177 remains the latest material movement; no new survivor-gate evidence found.
-  movement_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
-  steering_attention: post_tournament_candidate_gate
-  steering_prompt: Generate only structurally new physical candidates meeting the six survivor criteria.
-  steering_ref: agent-governance/NEXT-TRIGGER-PLAN.md
-  light: green
-  reason_code: no_new_post_tournament_candidate
-  evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
-  summary: No new survivor candidate; RUN-0177 gate remains active.
-  evaluated_at: '2026-07-19T07:05:00-05:00'
-  run_ref: agent-runs/RUN-0178-completed-run-status-repair.md
-- lane_id: A
-  work_status: progressed
-  last_movement: Corrected completed run records that still advertised active status.
-  movement_ref: agent-runs/RUN-0178-completed-run-status-repair.md
-  steering_attention: open_run_signal_hygiene
-  steering_prompt: Keep completed run metadata aligned with receipts to avoid false collision signals.
-  steering_ref: agent-runs/RUN-0178-completed-run-status-repair.md
-  light: green
-  reason_code: stale_completed_run_metadata_repaired
-  evidence_ref: agent-runs/RUN-0153-t2-bounded-completion-barrier-theorem-contract.md; agent-runs/RUN-0159-anti-collapse-throughput-packet-candidate-v0.md
-  summary: Completed-run metadata repaired; open-run scans are cleaner.
-  evaluated_at: '2026-07-19T07:05:00-05:00'
-  run_ref: agent-runs/RUN-0178-completed-run-status-repair.md
+  - lane_id: "1"
+    work_status: thin
+    last_movement: "RUN-0177 absorbed the 12 physical-campaign classes under CompletionClass v1."
+    movement_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
+    steering_attention: watch
+    steering_prompt: "Generate only structurally new physical candidates meeting the six survivor criteria."
+    steering_ref: agent-governance/NEXT-TRIGGER-PLAN.md
+    light: yellow
+    reason_code: post_tournament_candidate_gate
+    evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
+    summary: "No new survivor candidate; post-tournament gate controls progress."
+    evaluated_at: "2026-07-19T17:45:31-05:00"
+    run_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
+    objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
+    progress_delta: "Since RUN-0177: 12 classes absorbed; no new six-criteria physical candidate found this child."
+    scope_position: "12 physical classes absorbed; candidate 13 not admitted."
+    trend_24h: up
+    confidence: high
+    recommendation: "Hold the post-tournament gate."
+    findings:
+      - "CompletionClass v1 tournament remains the latest material movement."
+      - "Active trigger requires all six survivor criteria for candidate 13."
+      - "No mailbox packet or repo evidence supplied a qualifying candidate."
+    options:
+      - letter: A
+        label: "Hold gate"
+        recommended: true
+        summary: "Return no_worthy_work until a six-criteria candidate appears."
+      - letter: B
+        label: "Candidate scout"
+        recommended: false
+        summary: "Use only if a concrete source-law object is supplied."
+      - letter: C
+        label: "Formal reserve"
+        recommended: false
+        summary: "Run only if it closes a named physical-lane blocker."
+    decision_default: "Hold the post-tournament gate."
+    needs_joe: false
+  - lane_id: A
+    work_status: moving
+    last_movement: "LANE-STATE upgraded to schema 2.0 for Lane Summary reads."
+    movement_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
+    steering_attention: none
+    steering_prompt: none
+    steering_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
+    light: green
+    reason_code: lane_state_schema_refreshed
+    evidence_ref: LANE-STATE.yaml
+    summary: "Schema-2.0 Lane Summary supply is now current."
+    evaluated_at: "2026-07-19T17:45:31-05:00"
+    run_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
+    objective: "Keep Temporal Issuance viable and trustworthy through stewardship, audit, and escalation."
+    progress_delta: "Since RUN-0178: state ledger upgraded to schema 2.0; no mailbox payload or open-run collision found."
+    scope_position: "Mailbox clear; open-run scan clear; one integrity repair made."
+    trend_24h: up
+    confidence: high
+    recommendation: "Keep stewardship quiet."
+    findings:
+      - "Schema-1.0 state was the only local stewardship drift found."
+      - "Mailbox has no unarchived proposal beyond README/archive."
+      - "No writer lock, dirty tree, emergency revocation, or active run collision found."
+    options:
+      - letter: A
+        label: "Keep quiet"
+        recommended: true
+        summary: "Let future children use this state and avoid churn."
+      - letter: B
+        label: "Deep audit"
+        recommended: false
+        summary: "Use only if a later signal names concrete drift."
+      - letter: C
+        label: "Escalate"
+        recommended: false
+        summary: "Not needed; no Joe-facing blocker is present."
+    decision_default: "Keep stewardship quiet."
+    needs_joe: false
+    drift_verdict: clean
+    action_counts:
+      mail: 0
+      reconciled: 0
+      integrity_repairs: 1
+      seeds_routed: 0
+      escalations: 0
+    attention_pointer: "nothing needs you; progress needs a genuinely new physical source-law candidate"
