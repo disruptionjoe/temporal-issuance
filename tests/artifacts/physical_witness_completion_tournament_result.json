@@ -1,0 +1,396 @@
+{
+  "TI_C020_reopened": false,
+  "all_candidates_absorbed_by_composed_panel": true,
+  "all_v1_families_absorbed_somewhere": true,
+  "campaign_scope": "twelve material physical witness campaign classes from RUN-0161 through RUN-0175",
+  "candidate_completion_verdicts": {
+    "autocatalytic_reaction_network": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "bose_einstein_condensation": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "crack_branching_fracture": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "crispr_spacer_acquisition": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "crossed_product_gravitational_algebra": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "dynamic_floquet_code": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "emergent_gauge_sector": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "measurement_induced_phase_transition": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "prion_conformation": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "r_process_nucleosynthesis": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "schwinger_pair_production": "PHYSICAL_PREDICTIVE_ABSORPTION",
+    "turbulent_cascade": "PHYSICAL_PREDICTIVE_ABSORPTION"
+  },
+  "candidate_count": 12,
+  "candidate_ids": [
+    "emergent_gauge_sector",
+    "measurement_induced_phase_transition",
+    "crossed_product_gravitational_algebra",
+    "crispr_spacer_acquisition",
+    "dynamic_floquet_code",
+    "prion_conformation",
+    "autocatalytic_reaction_network",
+    "schwinger_pair_production",
+    "bose_einstein_condensation",
+    "r_process_nucleosynthesis",
+    "turbulent_cascade",
+    "crack_branching_fracture"
+  ],
+  "candidate_results": [
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "emergent_gauge_sector",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned non-isomorphic gauge, observable, or instrument algebra",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed microscopic platform plus control schedule, measurement schedule, low-energy projection, boundary context, and gauge quotient",
+      "valid_witness_ids": [
+        "emergent_gauge_sector_global_cap_panel",
+        "emergent_gauge_sector_operational_panel",
+        "emergent_gauge_sector_physical_panel",
+        "emergent_gauge_sector_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "measurement_induced_phase_transition",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned monitored-dynamics transition law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed monitored quantum circuit, fixed measurement schedule, fixed stochastic outcomes, and access/readout maps",
+      "valid_witness_ids": [
+        "measurement_induced_phase_transition_global_cap_panel",
+        "measurement_induced_phase_transition_operational_panel",
+        "measurement_induced_phase_transition_physical_panel",
+        "measurement_induced_phase_transition_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "crossed_product_gravitational_algebra",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned gravitational algebra transition law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed gravitational bookkeeping algebra plus observer, boundary, charge, entropy, and correlation records",
+      "valid_witness_ids": [
+        "crossed_product_gravitational_algebra_global_cap_panel",
+        "crossed_product_gravitational_algebra_operational_panel",
+        "crossed_product_gravitational_algebra_physical_panel",
+        "crossed_product_gravitational_algebra_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "crispr_spacer_acquisition",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned biochemical admissibility expansion law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed biochemical sequence space plus exposure, lineage, enzyme, sampling, and immunity records",
+      "valid_witness_ids": [
+        "crispr_spacer_acquisition_global_cap_panel",
+        "crispr_spacer_acquisition_operational_panel",
+        "crispr_spacer_acquisition_physical_panel",
+        "crispr_spacer_acquisition_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "dynamic_floquet_code",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned code-space generation law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed platform plus stabilizer or gauge-code schedule, decoder, boundary, and syndrome records",
+      "valid_witness_ids": [
+        "dynamic_floquet_code_global_cap_panel",
+        "dynamic_floquet_code_operational_panel",
+        "dynamic_floquet_code_physical_panel",
+        "dynamic_floquet_code_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "prion_conformation",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned conformational grammar expansion law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed conformational landscape plus templating, lineage, morphology, phenotype, and access records",
+      "valid_witness_ids": [
+        "prion_conformation_global_cap_panel",
+        "prion_conformation_operational_panel",
+        "prion_conformation_physical_panel",
+        "prion_conformation_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "autocatalytic_reaction_network",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned reaction grammar expansion law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed reaction network plus abundance, flux, closure, perturbation, and resource records",
+      "valid_witness_ids": [
+        "autocatalytic_reaction_network_global_cap_panel",
+        "autocatalytic_reaction_network_operational_panel",
+        "autocatalytic_reaction_network_physical_panel",
+        "autocatalytic_reaction_network_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "schwinger_pair_production",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned field-algebra expansion law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed quantum field theory background plus field strength, occupation, detector, energy, and retarded-response records",
+      "valid_witness_ids": [
+        "schwinger_pair_production_global_cap_panel",
+        "schwinger_pair_production_operational_panel",
+        "schwinger_pair_production_physical_panel",
+        "schwinger_pair_production_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "bose_einstein_condensation",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned condensate mode-generation law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed many-body Hamiltonian plus cooling schedule, density, interference, condensate-fraction, and temperature records",
+      "valid_witness_ids": [
+        "bose_einstein_condensation_global_cap_panel",
+        "bose_einstein_condensation_operational_panel",
+        "bose_einstein_condensation_physical_panel",
+        "bose_einstein_condensation_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "r_process_nucleosynthesis",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned nuclear species generation law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed nuclear reaction network plus isotope, decay, spectrum, light-curve, temperature, neutron-density, and expansion records",
+      "valid_witness_ids": [
+        "r_process_nucleosynthesis_global_cap_panel",
+        "r_process_nucleosynthesis_operational_panel",
+        "r_process_nucleosynthesis_physical_panel",
+        "r_process_nucleosynthesis_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "turbulent_cascade",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned cascade rule generation law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed Navier-Stokes or closure model plus forcing, boundary, velocity, vorticity, pressure, spectrum, and dissipation records",
+      "valid_witness_ids": [
+        "turbulent_cascade_global_cap_panel",
+        "turbulent_cascade_operational_panel",
+        "turbulent_cascade_physical_panel",
+        "turbulent_cascade_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    },
+    {
+      "absorbed_family_ids": [
+        "boundary_condition",
+        "completed_history",
+        "fixed_source",
+        "hidden_state",
+        "initial_condition",
+        "name_provenance",
+        "observer_information_access",
+        "relabel_gauge",
+        "resource_capability",
+        "stochastic_seed",
+        "whole_family"
+      ],
+      "candidate_id": "crack_branching_fracture",
+      "completion_verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+      "missing_source_object": "source-owned fracture-interface generation law",
+      "next_allowed_candidate_condition": "Resume physical witness generation only for a candidate that supplies source_owned_transition_law, internal_anti_after_naming_rule, w4_perturbation_nonfactorization, native_carrier_or_algebra_growth, matched_intervention_and_resource_budget, observable_difference_from_strongest_fixed_rival.",
+      "strongest_fixed_rival": "fixed elastodynamics or phase-field fracture mechanics plus microstructure, flaw, geometry, boundary, load, toughness, process-zone, stochastic disorder, and measurement records",
+      "valid_witness_ids": [
+        "crack_branching_fracture_global_cap_panel",
+        "crack_branching_fracture_operational_panel",
+        "crack_branching_fracture_physical_panel",
+        "crack_branching_fracture_representational_panel"
+      ],
+      "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION"
+    }
+  ],
+  "claim_status_change": "none",
+  "completion_panel_family_ids": [
+    "hidden_state",
+    "initial_condition",
+    "boundary_condition",
+    "fixed_source",
+    "stochastic_seed",
+    "name_provenance",
+    "resource_capability",
+    "whole_family",
+    "completed_history",
+    "observer_information_access",
+    "relabel_gauge"
+  ],
+  "composition_rules_declared": [
+    "product: independent completion witnesses may be combined when they preserve the same frozen records",
+    "sequential: a completion may combine pre-event source state, intervention schedule, and post-event access",
+    "quotient: representation and gauge quotients are applied after physical and operational witnesses",
+    "cap: whole-family and completed-history witnesses cap global novelty without upgrading to physical causation"
+  ],
+  "e177_modified": false,
+  "excluded_prior_material": "anti-collapse throughput remains pre-campaign/incomplete-null-class material and is not counted among the twelve physical-campaign classes",
+  "fixture_id": "physical_witness_completion_tournament",
+  "honest_current_result": "The twelve tested physical-campaign classes are absorbed by a declared composed CompletionClass v1 panel. This is a scoped class-level absorption over tested classes, not a universal physical no-go. Future candidates must supply a source-owned law, internal anti-after-naming, W4 nonfactorization, native carrier growth, matched resources, and an observable difference from the strongest fixed rival.",
+  "next_trigger": "TI-PHYSICAL-WITNESS-GENERATION_READY_AFTER_TOURNAMENT",
+  "physical_source_issuance_established": false,
+  "scoped_class_verdict": "SCOPED_CLASS_LEVEL_ABSORPTION",
+  "survivor_criteria": [
+    "source_owned_transition_law",
+    "internal_anti_after_naming_rule",
+    "w4_perturbation_nonfactorization",
+    "native_carrier_or_algebra_growth",
+    "matched_intervention_and_resource_budget",
+    "observable_difference_from_strongest_fixed_rival"
+  ]
+}

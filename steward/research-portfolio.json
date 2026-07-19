@@ -33,34 +33,36 @@
         "wall_risk": 5,
         "duplication_risk": 0
       },
-      "current_authority": "CompletionClass v1 and the E177 three-world discriminator are bounded instruments. They do not establish physical issuance. The anti-collapse throughput, effective-gauge/topological-sector, monitored-dynamics, gravitational observer-algebra, CRISPR sequence-acquisition, dynamic/Floquet scheduled-code, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, and crack-branching/fracture-interface candidates failed closed. The 2026-07-18 mailbox rerank makes the whole-family completion tournament the next active swing before further candidate enumeration.",
+      "current_authority": "CompletionClass v1 and the E177 three-world discriminator are bounded instruments. They do not establish physical issuance. The anti-collapse throughput, effective-gauge/topological-sector, monitored-dynamics, gravitational observer-algebra, CRISPR sequence-acquisition, dynamic/Floquet scheduled-code, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, and crack-branching/fracture-interface candidates failed closed. RUN-0177 closed the whole-family completion tournament as scoped class-level absorption across the twelve material physical-campaign classes. Physical witness generation may resume only for a structurally new candidate with source-owned law, internal anti-after-naming, W4 nonfactorization, native carrier or algebra growth, matched resources, and observable difference from the strongest fixed rival.",
       "latest_material_swing": {
-        "run_id": "RUN-0175",
-        "artifact": "explorations/E193-crack-branching-fracture-candidate-v0-2026-07-17.md",
-        "candidate": "crack_branching_fracture",
-        "verdict": "CANDIDATE_KILLED_FIXED_FRACTURE_MECHANICS",
-        "next_handoff": "Continue physical witness generation with a non-overlapping candidate; do not repeat effective-gauge/topological-sector, monitored-dynamics phase-transition, gravitational observer-algebra bookkeeping, CRISPR/adaptive immune sequence-acquisition, dynamic/Floquet scheduled-code logical-sector, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process/nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, or crack-branching/fracture-interface claims unless their missing source-owned transition objects appear."
+        "run_id": "RUN-0177",
+        "artifact": "explorations/E194-physical-witness-completion-tournament-2026-07-18.md",
+        "candidate": "physical_witness_completion_tournament",
+        "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION",
+        "next_handoff": "Resume physical witness generation only for a structurally new non-overlapping candidate with source-owned transition law, internal anti-after-naming, W4 perturbation nonfactorization, native carrier or algebra growth, matched intervention/resource budget, and observable difference from the strongest fixed rival."
       },
       "kill_condition": "If every physically legitimate candidate is reproducible by an admitted fixed-source, whole-family, history, boundary, stochastic, resource, access, relabeling, or gauge completion, preserve the scoped absorption and narrow TI rather than moving the completion goalposts.",
       "forbidden_shortcut": "Do not promote unpredictability, randomness, chaos, computation cost, irreversibility, observer ignorance, quantum indeterminacy, or a changing description into source issuance.",
       "internal_work_items": [
         {
           "id": "TI-PHYSICAL-WITNESS-GENERATION",
-          "state": "READY_AFTER_TOURNAMENT",
+          "state": "READY",
           "priority_score": 24,
           "hourly_eligible": true,
-          "next_swing": "After the completion tournament closes or returns a survivor criterion, select one physically serious non-overlapping domain only if it supplies genuinely new native source structure relative to the learned criterion. Do not repeat anti-collapse throughput, emergent effective-gauge/topological-sector, monitored-dynamics phase-transition, gravitational observer-algebra bookkeeping, CRISPR/adaptive immune sequence-space occupancy, dynamic/Floquet scheduled-code logical-sector, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process/nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, or crack-branching/fracture-interface claims unless their missing source-law objects appear.",
-          "success_condition": "A typed candidate supplies a native transition and source law, matched physical context, boundary response, and a residual not already encoded in the preregistered fixed family.",
+          "next_swing": "Select one physically serious non-overlapping candidate only if it supplies source-owned transition law, internal anti-after-naming, W4 perturbation nonfactorization, native carrier or algebra growth, matched intervention/resource budget, and observable difference from the strongest fixed rival. Do not repeat anti-collapse throughput, emergent effective-gauge/topological-sector, monitored-dynamics phase-transition, gravitational observer-algebra bookkeeping, CRISPR/adaptive immune sequence-space occupancy, dynamic/Floquet scheduled-code logical-sector, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process/nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, or crack-branching/fracture-interface claims unless their missing source-law objects appear.",
+          "success_condition": "A typed candidate supplies a native transition and source law, matched physical context, boundary response, W4 nonfactorization, and a residual not already encoded in the preregistered fixed family.",
           "kill_condition": "The candidate is only observer-side projection, access change, record readout, fixed-family selection, effective low-energy/gauge description, or a restatement of a previously absorbed class."
         },
         {
           "id": "TI-WHOLE-FAMILY-COMPLETION-TOURNAMENT",
-          "state": "ACTIVE_NEXT",
+          "state": "COMPLETED",
           "priority_score": 30,
-          "hourly_eligible": true,
+          "hourly_eligible": false,
+          "activation": "Reopen only if a new material physical-campaign class changes the tested family boundary or supplies a verifier-backed nonfactorization counterexample to the composed panel.",
           "next_swing": "Close declared composition rules for CompletionClass v1 and apply the strongest composed completion panel to the twelve failed physical candidate classes, or to a construction-neutral representative of those failures. Explicitly test boundary-source hypotheses against hidden-state, initial-condition, boundary-condition, fixed-source, stochastic-seed, observer-information/access, resource/capability, whole-family, completed-history, provenance/name, relabeling, and gauge completions. Return either a scoped class-level absorption result or the minimal source-law, anti-after-naming, W4 nonfactorization, carrier, intervention/resource, and observable-difference criteria a survivor must meet. Add an omission mutant only when it represents a genuinely new legitimate completion, not to protect the hypothesis.",
           "success_condition": "The candidate either receives a verifier-backed bounded nonfactorization certificate under declared compositions or is absorbed with the exact completion named.",
-          "kill_condition": "A legitimate completion reproduces the full candidate packet or composition closure makes the claimed residual disappear."
+          "kill_condition": "A legitimate completion reproduces the full candidate packet or composition closure makes the claimed residual disappear.",
+                    "latest_result": "RUN-0177 returned SCOPED_CLASS_LEVEL_ABSORPTION across the twelve material physical-campaign classes and restored TI-PHYSICAL-WITNESS-GENERATION as READY under the post-tournament gate."
         },
         {
           "id": "TI-OBSERVABLE-SEPARATION",

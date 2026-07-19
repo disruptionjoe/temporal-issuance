@@ -2,20 +2,32 @@ lane_state_version: '1.0'
 owner_id: temporal-issuance
 manifest_ref: LANES.yaml
 manifest_revision: 1
-evaluated_at: '2026-07-18T10:39:00-05:00'
-run_ref: agent-runs/RUN-0176-completion-tournament-rerank.md
+evaluated_at: '2026-07-18T22:39:39-05:00'
+run_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
 lanes:
 - lane_id: '1'
+  work_status: progressed
+  last_movement: Whole-family completion tournament closed as scoped class-level absorption.
+  movement_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
+  steering_attention: post_tournament_candidate_gate
+  steering_prompt: Generate only structurally new physical candidates meeting the six survivor criteria.
+  steering_ref: agent-governance/NEXT-TRIGGER-PLAN.md
   light: green
-  reason_code: active_next_trigger
-  evidence_ref: steward/research-portfolio.json
-  summary: Completion tournament is active next before more candidate enumeration.
-  evaluated_at: '2026-07-18T10:39:00-05:00'
-  run_ref: agent-runs/RUN-0176-completion-tournament-rerank.md
+  reason_code: tournament_closed_resume_candidate_generation
+  evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
+  summary: Tournament closed; resume only source-law candidates passing the survivor gate.
+  evaluated_at: '2026-07-18T22:39:39-05:00'
+  run_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
 - lane_id: A
+  work_status: no_action
+  last_movement: Mailbox presence checked; no unarchived proposal files were present.
+  movement_ref: system/mailboxes/temporal-issuance
+  steering_attention: none
+  steering_prompt: Continue normal mailbox-first checks on future cycles.
+  steering_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
   light: green
-  reason_code: mailbox_disposition_recorded
-  evidence_ref: agent-runs/RUN-0176-completion-tournament-rerank.md
-  summary: Mailbox steering was dispositioned into repo-local ranking.
-  evaluated_at: '2026-07-18T10:39:00-05:00'
-  run_ref: agent-runs/RUN-0176-completion-tournament-rerank.md
+  reason_code: mailbox_empty
+  evidence_ref: system/mailboxes/temporal-issuance
+  summary: Mailbox empty; no stewardship write selected.
+  evaluated_at: '2026-07-18T22:39:39-05:00'
+  run_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md

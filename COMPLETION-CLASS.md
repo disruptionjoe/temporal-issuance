@@ -61,6 +61,23 @@ The class is closed under declared product and sequential composition. Defeating
 each primitive separately is insufficient if a hybrid completion, such as a
 fixed stochastic seed plus an access schedule, reproduces the trace.
 
+## Declared composition rules
+
+RUN-0177 makes the current tournament composition closure explicit:
+
+1. Product: independent completion witnesses may be combined when they
+   preserve the same frozen records.
+2. Sequential: a completion may combine pre-event source state, intervention
+   schedule, and post-event access.
+3. Quotient: representation and gauge quotients are applied after physical and
+   operational witnesses.
+4. Cap: whole-family and completed-history witnesses cap global novelty
+   without upgrading to physical causation.
+
+The cap rule preserves the four conclusion-strength distinction below. A
+global/ontological witness can block absolute novelty without becoming a
+physical or operational explanation.
+
 ## Four conclusion strengths
 
 ### `PHYSICAL_PREDICTIVE_ABSORPTION`

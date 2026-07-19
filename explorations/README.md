@@ -20,6 +20,15 @@ They should still preserve:
 
 ## Recent Physical Witness Campaign
 
+- `E194-physical-witness-completion-tournament-2026-07-18.md`
+  closes the post-RUN-0176 whole-family completion tournament across the twelve
+  material physical witness campaign classes. The composed CompletionClass v1
+  panel absorbs all twelve with `PHYSICAL_PREDICTIVE_ABSORPTION`, producing a
+  scoped class-level absorption, not a universal physical no-go. Physical
+  witness generation resumes only for candidates with source-owned law,
+  internal anti-after-naming, W4 nonfactorization, native carrier growth,
+  matched resources, and observable difference from the fixed rival. No claim
+  movement, no `TI-C020` reopen, and no E177 mutation.
 - `E182-emergent-gauge-sector-candidate-v0-2026-07-16.md`
   tests emergent gauge/topological-sector quantum-matter language as the first
   material physical-witness campaign candidate. It preserves the effective

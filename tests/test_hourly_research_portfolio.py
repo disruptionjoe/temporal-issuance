@@ -26,9 +26,15 @@ class HourlyResearchPortfolioTests(unittest.TestCase):
             for item in active[0]["internal_work_items"]
             if item["state"] == "READY" and item["hourly_eligible"]
         ]
-        self.assertGreaterEqual(len(ready), 2)
+        self.assertGreaterEqual(len(ready), 1)
         selected = max(ready, key=lambda item: item["priority_score"])
         self.assertEqual(selected["id"], "TI-PHYSICAL-WITNESS-GENERATION")
+        tournament = next(
+            item
+            for item in active[0]["internal_work_items"]
+            if item["id"] == "TI-WHOLE-FAMILY-COMPLETION-TOURNAMENT"
+        )
+        self.assertEqual(tournament["state"], "COMPLETED")
 
     def test_no_wait_only_state_and_gated_activation(self) -> None:
         contract = self.data["selection_contract"]
@@ -48,6 +54,7 @@ class HourlyResearchPortfolioTests(unittest.TestCase):
         self.assertIn("TI-PHYSICAL-WITNESS-GENERATION", trigger)
         self.assertIn(self.data["lane_1_work_group"], trigger)
         self.assertIn("actively generate or kill", trigger)
+        self.assertIn("READY_AFTER_TOURNAMENT", trigger)
         self.assertIn("LANES.yaml", context)
 
 

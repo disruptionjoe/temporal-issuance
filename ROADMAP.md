@@ -23,7 +23,7 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
-## Current frontier update (2026-07-17)
+## Current frontier update (2026-07-18)
 
 The active hourly portfolio is `steward/research-portfolio.json`. The protected
 technical lane is now `PHYSICAL-ISSUANCE-WITNESS`.
@@ -36,12 +36,11 @@ serious source-native candidate, runs CompletionClass v1 with declared
 compositions against that candidate, and derives an observable separation if
 a candidate survives.
 
-The immediate order is:
+After RUN-0177, the immediate order is:
 
-1. `TI-PHYSICAL-WITNESS-GENERATION`;
-2. `TI-WHOLE-FAMILY-COMPLETION-TOURNAMENT`;
-3. `TI-OBSERVABLE-SEPARATION`; and
-4. `TI-P2C-WITNESS-ADJUDICATION` when a valid frozen packet arrives.
+1. `TI-PHYSICAL-WITNESS-GENERATION` under the post-tournament survivor gate;
+2. `TI-OBSERVABLE-SEPARATION` after one physical candidate survives; and
+3. `TI-P2C-WITNESS-ADJUDICATION` when a valid frozen packet arrives.
 
 First material swing after activation: RUN-0161 / E182 tests emergent
 gauge/topological-sector quantum-matter language as a physical source witness.
@@ -66,15 +65,25 @@ images, and boundary/load records. Fixed elastodynamics or phase-field
 fracture mechanics, material microstructure, initial flaws, specimen geometry,
 boundary conditions, loading history, fracture criterion, toughness,
 process-zone and dissipation model, stochastic disorder, measurement access,
-and completed fracture history reproduce the candidate. The active next
-trigger remains `TI-PHYSICAL-WITNESS-GENERATION`, excluding effective
-gauge/topological-sector, monitored dynamics, gravitational observer-algebra,
-CRISPR/adaptive immune sequence acquisition, dynamic/Floquet scheduled-code,
-prion-like conformational-templating, autocatalytic reaction-network,
-Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic
-phase-coherence, r-process/nucleosynthesis/heavy-element abundance-flow,
-turbulent-cascade/inertial-range-structure, and crack-branching/fracture-
-interface repeats unless their missing source-owned transition objects appear.
+and completed fracture history reproduce the candidate.
+
+RUN-0177 / E194 then closes the whole-family completion tournament selected by
+RUN-0176. The composed CompletionClass v1 panel absorbs all twelve material
+physical-campaign classes with `PHYSICAL_PREDICTIVE_ABSORPTION`, producing
+`SCOPED_CLASS_LEVEL_ABSORPTION`. This is not a universal physical no-go, but it
+does set the class boundary for further work. The active next trigger returns
+to `TI-PHYSICAL-WITNESS-GENERATION` only for a structurally new candidate with
+source-owned transition law, internal anti-after-naming, W4 perturbation
+nonfactorization, native carrier or algebra growth, matched intervention and
+resource budget, and observable difference from the strongest fixed rival.
+Do not repeat effective gauge/topological-sector, monitored dynamics,
+gravitational observer-algebra, CRISPR/adaptive immune sequence acquisition,
+dynamic/Floquet scheduled-code, prion-like conformational-templating,
+autocatalytic reaction-network, Schwinger/vacuum pair-production,
+Bose-Einstein-condensation/macroscopic phase-coherence, r-process/
+nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-
+range-structure, or crack-branching/fracture-interface repeats unless their
+missing source-owned transition objects appear.
 
 ## Prior frontier update (2026-07-15)
 

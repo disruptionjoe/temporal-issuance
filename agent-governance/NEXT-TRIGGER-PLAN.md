@@ -3,20 +3,56 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0176
+updated_by_run: RUN-0177
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## ACTIVE 2026-07-18: Whole-Family Completion Tournament
+## ACTIVE 2026-07-18: Physical Witness Generation After Tournament
+
+RUN-0177 closed the whole-family completion tournament selected by RUN-0176.
+The composed CompletionClass v1 panel absorbed all twelve material physical
+campaign classes with a scoped class-level result, not a universal physical
+no-go.
+
+Active next trigger:
+
+```text
+W000 -> TI-PHYSICAL-WITNESS-GENERATION
+```
+
+Selection contract:
+
+1. Load `steward/research-portfolio.json`.
+2. Select `TI-PHYSICAL-WITNESS-GENERATION` only for a non-overlapping
+   physically serious candidate with genuinely new native source structure.
+3. Require all post-tournament survivor criteria before treating candidate 13
+   as material: source-owned transition law, internal anti-after-naming, W4
+   perturbation nonfactorization, native carrier or algebra growth, matched
+   intervention/resource budget, and observable difference from the strongest
+   fixed rival.
+4. Do not repeat anti-collapse throughput, emergent effective-gauge or
+   topological-sector, monitored-dynamics phase-transition, gravitational
+   observer-algebra, CRISPR sequence-space occupancy, dynamic/Floquet
+   scheduled-code, prion conformational-templating, autocatalytic
+   reaction-network, Schwinger pair-production, Bose-Einstein condensation,
+   r-process nucleosynthesis, turbulent cascade, or crack branching fracture
+   unless their missing source-law objects appear.
+5. If no such candidate is available, return compact `no_worthy_work` rather
+   than a generic domain scout or another completion-tournament wrapper.
+
+No claim status changes, no `TI-C020` reopen, no E177 mutation, and no
+cross-repo verdict are authorized by this trigger.
+
+## COMPLETED 2026-07-18: Whole-Family Completion Tournament
 
 RUN-0176 processed two Temporal Issuance mailbox steering proposals. The
 proposals were admitted as repo-local ranking evidence, not as instructions,
 claim movement, completion-class changes, external action, or cross-repo
 verdicts.
 
-Active next trigger:
+Selected trigger:
 
 ```text
 W000 -> TI-WHOLE-FAMILY-COMPLETION-TOURNAMENT
@@ -44,13 +80,24 @@ Selection contract:
 No claim status changes, no `TI-C020` reopen, no E177 mutation, and no
 cross-repo verdict are authorized by this rerank.
 
+RUN-0177 executed the selected trigger:
+
+```yaml
+result: SCOPED_CLASS_LEVEL_ABSORPTION
+candidate_count: 12
+all_candidates_absorbed_by_composed_panel: true
+physical_source_issuance_established: false
+TI_C020_reopened: false
+next_trigger: TI-PHYSICAL-WITNESS-GENERATION_READY_AFTER_TOURNAMENT
+```
+
 ## PRESERVED 2026-07-16: Physical Issuance Witness Campaign
 
 Joe directly requested that the non-paper blockbuster research have an
 executable hourly home. This changes the operational trigger, not the core
 hypothesis or any claim status.
 
-Active next trigger:
+Campaign trigger:
 
 ```text
 W000 -> TI-PHYSICAL-WITNESS-GENERATION
