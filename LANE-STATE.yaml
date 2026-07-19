@@ -2,32 +2,32 @@ lane_state_version: '1.0'
 owner_id: temporal-issuance
 manifest_ref: LANES.yaml
 manifest_revision: 1
-evaluated_at: '2026-07-18T22:39:39-05:00'
-run_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
+evaluated_at: '2026-07-19T07:05:00-05:00'
+run_ref: agent-runs/RUN-0178-completed-run-status-repair.md
 lanes:
 - lane_id: '1'
-  work_status: progressed
-  last_movement: Whole-family completion tournament closed as scoped class-level absorption.
+  work_status: no_action
+  last_movement: RUN-0177 remains the latest material movement; no new survivor-gate evidence found.
   movement_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
   steering_attention: post_tournament_candidate_gate
   steering_prompt: Generate only structurally new physical candidates meeting the six survivor criteria.
   steering_ref: agent-governance/NEXT-TRIGGER-PLAN.md
   light: green
-  reason_code: tournament_closed_resume_candidate_generation
+  reason_code: no_new_post_tournament_candidate
   evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
-  summary: Tournament closed; resume only source-law candidates passing the survivor gate.
-  evaluated_at: '2026-07-18T22:39:39-05:00'
-  run_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
+  summary: No new survivor candidate; RUN-0177 gate remains active.
+  evaluated_at: '2026-07-19T07:05:00-05:00'
+  run_ref: agent-runs/RUN-0178-completed-run-status-repair.md
 - lane_id: A
-  work_status: no_action
-  last_movement: Mailbox presence checked; no unarchived proposal files were present.
-  movement_ref: system/mailboxes/temporal-issuance
-  steering_attention: none
-  steering_prompt: Continue normal mailbox-first checks on future cycles.
-  steering_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
+  work_status: progressed
+  last_movement: Corrected completed run records that still advertised active status.
+  movement_ref: agent-runs/RUN-0178-completed-run-status-repair.md
+  steering_attention: open_run_signal_hygiene
+  steering_prompt: Keep completed run metadata aligned with receipts to avoid false collision signals.
+  steering_ref: agent-runs/RUN-0178-completed-run-status-repair.md
   light: green
-  reason_code: mailbox_empty
-  evidence_ref: system/mailboxes/temporal-issuance
-  summary: Mailbox empty; no stewardship write selected.
-  evaluated_at: '2026-07-18T22:39:39-05:00'
-  run_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
+  reason_code: stale_completed_run_metadata_repaired
+  evidence_ref: agent-runs/RUN-0153-t2-bounded-completion-barrier-theorem-contract.md; agent-runs/RUN-0159-anti-collapse-throughput-packet-candidate-v0.md
+  summary: Completed-run metadata repaired; open-run scans are cleaner.
+  evaluated_at: '2026-07-19T07:05:00-05:00'
+  run_ref: agent-runs/RUN-0178-completed-run-status-repair.md

@@ -1,6 +1,6 @@
 ---
 artifact_type: agent_run
-status: active
+status: completed
 governance_role: progress_run
 run_id: RUN-0159
 run_family: repo_progress

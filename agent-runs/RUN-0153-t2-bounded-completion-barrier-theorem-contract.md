@@ -1,6 +1,6 @@
 ---
 artifact_type: run_record
-status: active
+status: completed
 governance_role: progress_run
 run_id: RUN-0153
 created: 2026-07-12
