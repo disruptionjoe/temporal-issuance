@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-19",
+  "updated": "2026-07-20",
   "authority": "repo-local stewardship",
   "selection_contract": {
     "progress_must_load_this_file": true,
@@ -86,7 +86,7 @@
         }
       ],
       "handoffs": {
-        "from_gu_formalization": "RUN-0180 recorded system/mailboxes/temporal-issuance/20260719-krein-sign-coflip-and-readout-note.md as conditional Krein/orientation readout evidence only. The toy-grade w0+1 global-readout hint is type-consistent with forced-internal posture but does not admit a Temporal Issuance physical candidate without the six post-tournament survivor criteria.",
+        "from_gu_formalization": "RUN-0184 reconciled system/mailboxes/temporal-issuance/20260720-coflip-holonomy-grade-notice.md as a grade update to the prior conditional Krein/orientation handoff. GU reports a matrix-verified Z/2 holonomy habitat on its Cl(9,5) representation, improving the geometric evidence floor beyond the earlier toy-grade note. It still does not admit a Temporal Issuance physical candidate: no source-owned transition law, internal anti-after-naming rule, W4 nonfactorization, native carrier or algebra growth, matched intervention/resource budget, or physical observable separation was supplied.",
         "from_possibility_to_capability": "A mailbox proposal is only an activation candidate until packet provenance and source-law fields validate.",
         "to_possibility_to_capability": "Return a frozen issuance-versus-completion adjudication without asserting capability change or joint success.",
         "to_time_as_finality": "A source-side survivor may be offered as a case, but it does not supply TaF's capability verdict.",
