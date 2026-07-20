@@ -1,9 +1,9 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-19T17:45:31-05:00"
-run_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
-bottom_line: "Lane A state refresh is current; Lane 1 remains gated on a structurally new physical source-law candidate."
+updated_at: "2026-07-19T19:42:35-05:00"
+run_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
+bottom_line: "Lane A recorded the GU Krein/readout note; Lane 1 remains gated on a six-criteria physical source-law candidate."
 decision_default: "Keep Lane 1 gated; return no_worthy_work unless a six-criteria candidate appears."
 needs_joe: false
 lanes:
@@ -18,10 +18,10 @@ lanes:
     reason_code: post_tournament_candidate_gate
     evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
     summary: "No new survivor candidate; post-tournament gate controls progress."
-    evaluated_at: "2026-07-19T17:45:31-05:00"
-    run_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
+    evaluated_at: "2026-07-19T19:42:35-05:00"
+    run_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "Since RUN-0177: 12 classes absorbed; no new six-criteria physical candidate found this child."
+    progress_delta: "Since RUN-0179: GU Krein/readout note recorded as conditional evidence; no six-criteria candidate admitted."
     scope_position: "12 physical classes absorbed; candidate 13 not admitted."
     trend_24h: up
     confidence: high
@@ -29,7 +29,7 @@ lanes:
     findings:
       - "CompletionClass v1 tournament remains the latest material movement."
       - "Active trigger requires all six survivor criteria for candidate 13."
-      - "No mailbox packet or repo evidence supplied a qualifying candidate."
+      - "GU Krein/readout note is toy-grade evidence, not a qualifying candidate."
     options:
       - letter: A
         label: "Hold gate"
@@ -47,26 +47,26 @@ lanes:
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "LANE-STATE upgraded to schema 2.0 for Lane Summary reads."
-    movement_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
+    last_movement: "RUN-0180 recorded GU Krein/readout mailbox as non-admitting evidence."
+    movement_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
     steering_attention: none
     steering_prompt: none
-    steering_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
+    steering_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
     light: green
-    reason_code: lane_state_schema_refreshed
-    evidence_ref: LANE-STATE.yaml
-    summary: "Schema-2.0 Lane Summary supply is now current."
-    evaluated_at: "2026-07-19T17:45:31-05:00"
-    run_ref: agent-runs/RUN-0179-lane-state-schema-2-refresh.md
+    reason_code: mailbox_disposition_recorded
+    evidence_ref: steward/research-portfolio.json
+    summary: "Mailbox disposition recorded; no central archive or claim movement."
+    evaluated_at: "2026-07-19T19:42:35-05:00"
+    run_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
     objective: "Keep Temporal Issuance viable and trustworthy through stewardship, audit, and escalation."
-    progress_delta: "Since RUN-0178: state ledger upgraded to schema 2.0; no mailbox payload or open-run collision found."
-    scope_position: "Mailbox clear; open-run scan clear; one integrity repair made."
+    progress_delta: "Since RUN-0179: one GU mailbox proposal disposed locally; no drift or escalation."
+    scope_position: "One mailbox payload recorded; open-run scan clear; no integrity repair needed."
     trend_24h: up
     confidence: high
     recommendation: "Keep stewardship quiet."
     findings:
-      - "Schema-1.0 state was the only local stewardship drift found."
-      - "Mailbox has no unarchived proposal beyond README/archive."
+      - "Mailbox payload processed as untrusted evidence only."
+      - "Central mailbox file left unedited and unarchived."
       - "No writer lock, dirty tree, emergency revocation, or active run collision found."
     options:
       - letter: A
@@ -85,9 +85,9 @@ lanes:
     needs_joe: false
     drift_verdict: clean
     action_counts:
-      mail: 0
+      mail: 1
       reconciled: 0
-      integrity_repairs: 1
+      integrity_repairs: 0
       seeds_routed: 0
       escalations: 0
-    attention_pointer: "nothing needs you; progress needs a genuinely new physical source-law candidate"
+    attention_pointer: "nothing needs you; GU readout note is tracked but not a source-law candidate"
