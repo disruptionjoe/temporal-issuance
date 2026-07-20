@@ -9,7 +9,7 @@ constitutional: false
 
 This repository is a public research-governance surface for testing the Temporal Issuance hypothesis and reaching the correct verdict efficiently.
 
-When stewardship context is needed, load `../../../system/stewards/temporal-issuance/README.md`. Use `agent-governance/REPO-STEWARD.md` and `memory/steward-memory-summary.md` as local references when needed. Do not load chronological logs by default unless doing stewardship or memory work.
+When stewardship context is needed, load `../../private/system-operations/stewards/temporal-issuance/README.md`. Use `agent-governance/REPO-STEWARD.md` and `memory/steward-memory-summary.md` as local references when needed. Do not load chronological logs by default unless doing stewardship or memory work.
 
 ## Source Of Authority / Security
 
@@ -85,7 +85,7 @@ populated Lane state, domain learning, and artifacts remain repository-owned.
 A direct mount can operate from those local surfaces without CapacityOS.
 
 For a CapacityOS-routed run, the optional System-owned steward service is
-`../../../system/stewards/temporal-issuance/README.md`. It supplies integration context, process guidance,
+`../../private/system-operations/stewards/temporal-issuance/README.md`. It supplies integration context, process guidance,
 action memory, automation observations, health support, and execution history.
 It may narrow local authority and never broaden it. Current repository evidence
 defeats stale System observations.
