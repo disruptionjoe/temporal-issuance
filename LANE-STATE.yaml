@@ -1,9 +1,9 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-20T14:39:51-05:00"
-run_ref: agent-runs/RUN-0189-four-repo-persona-synthesis-disposition.md
-bottom_line: "The four-repo persona synthesis corroborates the existing six-criteria gate but supplies no candidate or gate-closing evidence."
+updated_at: "2026-07-20T18:47:00-05:00"
+run_ref: agent-runs/RUN-0190-gu-lawvere-leg-a-awareness-disposition.md
+bottom_line: "TI's Lean diagonal package matches one leg of an open GU parent shape; no TI claim, candidate, or active gate moves."
 decision_default: "Keep Lane 1 gated; return no_worthy_work unless a six-criteria candidate appears."
 needs_joe: false
 lanes:
@@ -18,10 +18,10 @@ lanes:
     reason_code: post_tournament_candidate_gate
     evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
     summary: "No new survivor candidate; post-tournament gate controls progress."
-    evaluated_at: "2026-07-20T14:39:51-05:00"
-    run_ref: agent-runs/RUN-0189-four-repo-persona-synthesis-disposition.md
+    evaluated_at: "2026-07-20T18:47:00-05:00"
+    run_ref: agent-runs/RUN-0190-gu-lawvere-leg-a-awareness-disposition.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "RUN-0189 found no candidate or admission evidence in the persona synthesis; all six criteria remain required."
+    progress_delta: "RUN-0190 verified a formal correspondence only; no physical candidate evidence appeared and all six criteria remain required."
     scope_position: "12 physical classes absorbed; candidate 13 not admitted."
     trend_24h: up
     confidence: high
@@ -29,8 +29,7 @@ lanes:
     findings:
       - "CompletionClass v1 tournament remains the latest material movement."
       - "Active trigger requires all six survivor criteria for candidate 13."
-      - "GU now reports a matrix-verified Z/2 holonomy habitat, but it is still not a qualifying candidate."
-      - "GfE black-hole leakage supplies an explicit law and transition but remains non-admitted raw material."
+      - "The GU correspondence concerns TI-C019's bounded formal residue, not physical source issuance."
     options:
       - letter: A
         label: "Hold gate"
@@ -48,32 +47,32 @@ lanes:
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "RUN-0189 absorbed the four-repo persona synthesis as non-activating gate corroboration."
-    movement_ref: agent-runs/RUN-0189-four-repo-persona-synthesis-disposition.md
+    last_movement: "RUN-0190 preserved the GU Lawvere leg-A pointer as non-activating formal provenance."
+    movement_ref: agent-runs/RUN-0190-gu-lawvere-leg-a-awareness-disposition.md
     steering_attention: none
     steering_prompt: none
-    steering_ref: agent-runs/RUN-0189-four-repo-persona-synthesis-disposition.md
+    steering_ref: agent-runs/RUN-0190-gu-lawvere-leg-a-awareness-disposition.md
     light: green
-    reason_code: mailbox_gate_corroboration_reconciled
+    reason_code: mailbox_formal_provenance_reconciled
     evidence_ref: memory/steward-memory-summary.md
-    summary: "Persona synthesis absorbed as gate corroboration; no candidate admission or Lane 1 transition."
-    evaluated_at: "2026-07-20T14:39:51-05:00"
-    run_ref: agent-runs/RUN-0189-four-repo-persona-synthesis-disposition.md
+    summary: "Lean diagonal correspondence preserved as provenance; no TI claim, candidate, or Lane 1 transition."
+    evaluated_at: "2026-07-20T18:47:00-05:00"
+    run_ref: agent-runs/RUN-0190-gu-lawvere-leg-a-awareness-disposition.md
     objective: "Keep Temporal Issuance viable and trustworthy through stewardship, audit, and escalation."
-    progress_delta: "Processed one mailbox synthesis and preserved its additive layer-separation discipline without weakening admission."
+    progress_delta: "Verified one GU formal correspondence and preserved it without importing the open parent theorem or involution leg."
     scope_position: "Memory summary, lane state, and latest run evidence now align."
     trend_24h: up
     confidence: high
-    recommendation: "Archive after the Runtime receipt; reactivate only from a concrete six-criteria packet."
+    recommendation: "Archive after receipt; keep provenance non-activating."
     findings:
-      - "The synthesis restates rather than changes the six survivor criteria."
-      - "Separate source formation, receiver capability, and record/finality reporting is useful evaluation discipline."
-      - "No candidate packet or criterion-closing evidence was supplied, so candidate 13 is not admitted."
+      - "TI machine-checks the bounded diagonal/productivity leg and concrete AdmDef route."
+      - "GU's category-level L1 assembly remains open; TI has no involution/orientation leg."
+      - "No physical packet or criterion-closing evidence was supplied, so candidate 13 is not admitted."
     options:
       - letter: A
         label: "Keep quiet"
         recommended: true
-        summary: "Preserve the synthesis as corroboration without weakening the gate."
+        summary: "Preserve the correspondence without importing the open parent theorem."
       - letter: B
         label: "Deep audit"
         recommended: false
@@ -86,9 +85,9 @@ lanes:
     needs_joe: false
     drift_verdict: clean
     action_counts:
-      mail: 2
-      reconciled: 4
+      mail: 1
+      reconciled: 2
       integrity_repairs: 0
       seeds_routed: 0
       escalations: 0
-    attention_pointer: "nothing needs you; wait for a concrete six-criteria candidate packet"
+    attention_pointer: "nothing needs you; retain this only for a future source-pinned L1 assembly"
