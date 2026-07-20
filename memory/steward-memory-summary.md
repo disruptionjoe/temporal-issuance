@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0161
+last_summarized_run: RUN-0180
 ---
 
 # Steward Memory Summary
@@ -27,10 +27,36 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: anti_collapse_throughput_packet_candidate_v0_fail_closed
+strongest_current_fixture_result: physical_witness_completion_tournament_scoped_absorption
 bare_Ext_S_derives_connection: no
-next_required_test: typed_action_2_packet_or_native_source_law_with_verifier_backed_nonfactorization
+next_required_test: structurally_new_physical_source_law_candidate_with_six_survivor_criteria
 ```
+
+RUN-0180 records the GU Krein/orientation coflip and possible `w0+1` global
+readout as conditional comparison evidence only. It is type-consistent with the
+forced-internal posture, but it does not admit a Temporal Issuance physical
+candidate because it lacks the post-tournament survivor criteria: source-owned
+transition law, internal anti-after-naming, W4 nonfactorization, native carrier
+or algebra growth, matched intervention/resource budget, and observable
+difference from the strongest fixed rival. No claim movement, no `TI-C020`
+reopen, no central mailbox archive, and no source-truth import.
+
+RUN-0177 / E194 closes the whole-family completion tournament selected by
+RUN-0176. CompletionClass v1 absorbs all twelve material physical-campaign
+classes as `SCOPED_CLASS_LEVEL_ABSORPTION`. This is not a universal physical
+no-go, but it is the active class boundary: physical witness generation resumes
+only for a structurally new, non-overlapping candidate satisfying all six
+survivor criteria. A generic scout, repeated synthetic control, or another
+completion wrapper is not material progress.
+
+RUN-0162 through RUN-0175 extend the killed physical-candidate inventory:
+monitored-dynamics phase transition, gravitational observer algebra, CRISPR
+sequence acquisition, dynamic/Floquet scheduled code, prion conformational
+templating, autocatalytic reaction network, Schwinger pair production,
+Bose-Einstein condensation, r-process nucleosynthesis, turbulent cascade, and
+crack branching fracture all failed closed under fixed-source or CompletionClass
+v1 absorbers. Do not repeat those classes unless their missing source-owned
+transition objects appear.
 
 RUN-0161 / E182 starts the 2026-07-16 physical witness campaign with an
 emergent gauge/topological-sector quantum-matter candidate. The candidate has

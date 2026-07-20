@@ -1,9 +1,9 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-19T19:42:35-05:00"
-run_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
-bottom_line: "Lane A recorded the GU Krein/readout note; Lane 1 remains gated on a six-criteria physical source-law candidate."
+updated_at: "2026-07-19T22:48:19-05:00"
+run_ref: agent-runs/RUN-0181-lane-a-memory-summary-refresh.md
+bottom_line: "Lane A refreshed stale memory; Lane 1 remains gated on a six-criteria physical source-law candidate."
 decision_default: "Keep Lane 1 gated; return no_worthy_work unless a six-criteria candidate appears."
 needs_joe: false
 lanes:
@@ -18,10 +18,10 @@ lanes:
     reason_code: post_tournament_candidate_gate
     evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
     summary: "No new survivor candidate; post-tournament gate controls progress."
-    evaluated_at: "2026-07-19T19:42:35-05:00"
-    run_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
+    evaluated_at: "2026-07-19T22:48:19-05:00"
+    run_ref: agent-runs/RUN-0181-lane-a-memory-summary-refresh.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "Since RUN-0179: GU Krein/readout note recorded as conditional evidence; no six-criteria candidate admitted."
+    progress_delta: "Since RUN-0180: steward memory refreshed; no six-criteria candidate admitted."
     scope_position: "12 physical classes absorbed; candidate 13 not admitted."
     trend_24h: up
     confidence: high
@@ -47,32 +47,32 @@ lanes:
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "RUN-0180 recorded GU Krein/readout mailbox as non-admitting evidence."
-    movement_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
+    last_movement: "RUN-0181 refreshed compressed steward memory through RUN-0180."
+    movement_ref: agent-runs/RUN-0181-lane-a-memory-summary-refresh.md
     steering_attention: none
     steering_prompt: none
-    steering_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
+    steering_ref: agent-runs/RUN-0181-lane-a-memory-summary-refresh.md
     light: green
-    reason_code: mailbox_disposition_recorded
-    evidence_ref: steward/research-portfolio.json
-    summary: "Mailbox disposition recorded; no central archive or claim movement."
-    evaluated_at: "2026-07-19T19:42:35-05:00"
-    run_ref: agent-runs/RUN-0180-krein-sign-coflip-mailbox-disposition.md
+    reason_code: memory_summary_refreshed
+    evidence_ref: memory/steward-memory-summary.md
+    summary: "Memory summary refreshed; no claim or gate movement."
+    evaluated_at: "2026-07-19T22:48:19-05:00"
+    run_ref: agent-runs/RUN-0181-lane-a-memory-summary-refresh.md
     objective: "Keep Temporal Issuance viable and trustworthy through stewardship, audit, and escalation."
-    progress_delta: "Since RUN-0179: one GU mailbox proposal disposed locally; no drift or escalation."
-    scope_position: "One mailbox payload recorded; open-run scan clear; no integrity repair needed."
+    progress_delta: "Since RUN-0180: compressed memory advanced from RUN-0161 to RUN-0180."
+    scope_position: "Memory summary, lane state, and latest run evidence now align."
     trend_24h: up
     confidence: high
     recommendation: "Keep stewardship quiet."
     findings:
-      - "Mailbox payload processed as untrusted evidence only."
-      - "Central mailbox file left unedited and unarchived."
+      - "Compressed steward memory now includes RUN-0177 and RUN-0180."
+      - "Lane 1 gate stayed unchanged after the memory refresh."
       - "No writer lock, dirty tree, emergency revocation, or active run collision found."
     options:
       - letter: A
         label: "Keep quiet"
         recommended: true
-        summary: "Let future children use this state and avoid churn."
+        summary: "Let future children use the refreshed memory."
       - letter: B
         label: "Deep audit"
         recommended: false
@@ -85,9 +85,9 @@ lanes:
     needs_joe: false
     drift_verdict: clean
     action_counts:
-      mail: 1
-      reconciled: 0
+      mail: 0
+      reconciled: 1
       integrity_repairs: 0
       seeds_routed: 0
       escalations: 0
-    attention_pointer: "nothing needs you; GU readout note is tracked but not a source-law candidate"
+    attention_pointer: "nothing needs you; memory now reflects the post-tournament gate"
