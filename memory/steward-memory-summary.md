@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0188
+last_summarized_run: RUN-0189
 ---
 
 # Steward Memory Summary
@@ -50,6 +50,14 @@ emitted content, a matched intervention/resource budget, and a frozen
 observable difference from the strongest fixed rival. Preserve it as raw
 material and recheck only from a provenance-valid packet closing those fields.
 No claim movement, `TI-C020` reopen, or six-criteria gate change.
+
+RUN-0189 reconciles the four-repo persona synthesis as non-activating gate
+corroboration. It restates the existing six survivor criteria and usefully
+requires separate reporting of source formation, receiver capability, and
+record/finality consequences. It supplies no candidate, source packet,
+perturbation result, carrier/algebra-growth witness, matched budget, or frozen
+observable comparison. Candidate 13 remains unadmitted; no claim, priority, or
+six-criteria gate movement is earned.
 
 RUN-0177 / E194 closes the whole-family completion tournament selected by
 RUN-0176. CompletionClass v1 absorbs all twelve material physical-campaign
