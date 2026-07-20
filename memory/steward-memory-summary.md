@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0184
+last_summarized_run: RUN-0188
 ---
 
 # Steward Memory Summary
@@ -40,6 +40,16 @@ not imported source truth or a Temporal Issuance candidate: it supplies no
 source-owned transition law, internal anti-after-naming, W4 nonfactorization,
 native carrier or algebra growth, matched intervention/resource budget, or
 physical observable separation. No claim movement or `TI-C020` reopen.
+
+RUN-0188 records GfE black-hole leakage as the first post-tournament raw lead
+to arrive with an explicit modified-vacuum field law and mass-loss transition.
+It is distinct and physically serious, but it is not candidate 13 under the
+active admission contract. The supplied evidence lacks internal anti-after-
+naming, W4 nonfactorization, native carrier/algebra growth beyond fixed-law
+emitted content, a matched intervention/resource budget, and a frozen
+observable difference from the strongest fixed rival. Preserve it as raw
+material and recheck only from a provenance-valid packet closing those fields.
+No claim movement, `TI-C020` reopen, or six-criteria gate change.
 
 RUN-0177 / E194 closes the whole-family completion tournament selected by
 RUN-0176. CompletionClass v1 absorbs all twelve material physical-campaign
