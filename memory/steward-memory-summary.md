@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0190
+last_summarized_run: RUN-0191
 ---
 
 # Steward Memory Summary
@@ -67,6 +67,18 @@ GU's category-level L1 assembly, and TI supplies no involution/orientation leg.
 The c.e. tier still has no positive whole-family escape theorem, external
 Platonist completion remains undefeated, and no claim, priority, physical
 candidate, or six-criteria gate movement is earned.
+
+RUN-0191 accepts the TaF Wave-2 notice as a formal typing correction, not a
+physical-candidate or theorem result. TaF commit `e99f8c5` characterizes its
+causal-past operator as an idempotent, oriented, non-invertible retraction;
+it is not the fixpoint-free involution used by TI's boundary-parent fixture,
+except on the degenerate single-Z/2-witness fiber. The provisional
+`H_taf : True` assembly placeholder must therefore be replaced eventually by
+a retraction-typed leg that remains distinct from the GU/TI involution and is
+related only at the conclusion level. This child added a comment-level drift
+guard but did not change a theorem body or run the host-serialized Lean build.
+No physical survivor criterion, CompletionClass boundary, claim, candidate,
+or Lane 1 control moved.
 
 RUN-0177 / E194 closes the whole-family completion tournament selected by
 RUN-0176. CompletionClass v1 absorbs all twelve material physical-campaign

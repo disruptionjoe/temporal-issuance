@@ -182,7 +182,13 @@ Hypotheses (each a named missing piece):
                     (`diagName_not_mem`) with the point-surjectivity failure of
                     `T`. (Cross-repo identification; NOT Lean-verified here.)
   * `H_taf`       — TaF composite: the first/third-person finality gap is the
-                    joint conclusion (a) ∧ (b). (Separate gated wave; NOT Lean.)
+                    joint conclusion-level analogue of (a) ∧ (b). The TaF
+                    mechanism is now known to be a causal-past retraction
+                    (`pi ∘ pi = pi`, oriented, non-invertible), not this
+                    file's fixpoint-free involution. `H_taf : True` remains
+                    only an inert placeholder; a later typed assembly must
+                    keep the retraction and involution legs distinct.
+                    (Separate gated wave; NOT Lean.)
 Conclusion: the unified boundary law, (a) ∧ (b), over the assembled data. -/
 theorem cross_repo_boundary_law_TARGET
     {Read B : Type _}
