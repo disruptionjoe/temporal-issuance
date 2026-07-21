@@ -1,9 +1,9 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-20T23:39:00-05:00"
-run_ref: agent-runs/RUN-0191-taf-retraction-typing-disposition.md
-bottom_line: "TaF's time-face is a causal-past retraction, not TI's boundary-parent involution; the physical six-criteria gate remains unchanged."
+updated_at: "2026-07-21T08:37:52-05:00"
+run_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
+bottom_line: "GU's fixpoint-free sign orbit supplies a bounded externality-instance handoff; typed Lean instantiation and build remain open."
 decision_default: "Keep Lane 1 gated; return no_worthy_work unless a six-criteria candidate appears."
 needs_joe: false
 lanes:
@@ -18,10 +18,10 @@ lanes:
     reason_code: post_tournament_candidate_gate
     evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
     summary: "No new survivor candidate; post-tournament gate controls progress."
-    evaluated_at: "2026-07-20T23:39:00-05:00"
-    run_ref: agent-runs/RUN-0191-taf-retraction-typing-disposition.md
+    evaluated_at: "2026-07-21T08:37:52-05:00"
+    run_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "RUN-0191 supplied a formal assembly typing correction only; no physical candidate evidence appeared and all six criteria remain required."
+    progress_delta: "RUN-0192 supplied a formal externality-instance handoff only; no physical candidate evidence appeared and all six criteria remain required."
     scope_position: "12 physical classes absorbed; candidate 13 not admitted."
     trend_24h: up
     confidence: high
@@ -29,7 +29,7 @@ lanes:
     findings:
       - "CompletionClass v1 tournament remains the latest material movement."
       - "Active trigger requires all six survivor criteria for candidate 13."
-      - "The TaF retraction correction concerns a provisional formal assembly target, not physical source issuance."
+      - "The GU externality handoff concerns a provisional formal assembly target, not physical source issuance."
     options:
       - letter: A
         label: "Hold gate"
@@ -47,26 +47,26 @@ lanes:
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "RUN-0191 preserved the TaF retraction result as a non-activating assembly typing correction."
-    movement_ref: agent-runs/RUN-0191-taf-retraction-typing-disposition.md
+    last_movement: "RUN-0192 accepted GU's fixpoint-free sign orbit as a bounded formal-instance handoff."
+    movement_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
     steering_attention: none
     steering_prompt: none
-    steering_ref: agent-runs/RUN-0191-taf-retraction-typing-disposition.md
+    steering_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
     light: green
-    reason_code: mailbox_formal_typing_correction_reconciled
+    reason_code: mailbox_externality_instance_handoff_reconciled
     evidence_ref: memory/steward-memory-summary.md
-    summary: "TaF retraction typing preserved with a drift guard; no TI claim, candidate, or Lane 1 transition."
-    evaluated_at: "2026-07-20T23:39:00-05:00"
-    run_ref: agent-runs/RUN-0191-taf-retraction-typing-disposition.md
+    summary: "GU externality evidence was preserved without overstating a typed or compiled cross-repo assembly."
+    evaluated_at: "2026-07-21T08:37:52-05:00"
+    run_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
     objective: "Keep Temporal Issuance viable and trustworthy through stewardship, audit, and escalation."
-    progress_delta: "Verified TaF's retraction result and marked the provisional assembly target against involution mis-typing without changing theorem code."
-    scope_position: "The retraction and involution remain distinct operators related only at the conclusion level."
+    progress_delta: "Verified GU commit 84d5b28, accepted the externality-engine correspondence, and preserved the typed-instance/build gate without changing theorem code."
+    scope_position: "The abstract externality theorem is proved; the concrete GU instance and compiled cross-repo assembly remain open."
     trend_24h: up
     confidence: high
-    recommendation: "Archive after receipt; later type the TaF leg as a retraction only under serialized Lean verification."
+    recommendation: "Archive after receipt; use a later serialized Lean run to build and encode the concrete GU instance."
     findings:
-      - "TaF's causal-past operator is idempotent, oriented, and non-invertible; it is not the boundary-parent involution."
-      - "The current H_taf : True marker remains an inert placeholder, not a proved or typed assembly leg."
+      - "GU's K_S sign orbit supplies operator-grade fixpoint-free evidence for TI's externality engine."
+      - "No concrete GU Lean instance or compiled cross-repo assembly exists yet."
       - "No physical packet or criterion-closing evidence was supplied, so candidate 13 is not admitted."
     options:
       - letter: A
@@ -90,4 +90,4 @@ lanes:
       integrity_repairs: 0
       seeds_routed: 0
       escalations: 0
-    attention_pointer: "future serialized Lean work should type H_taf as a distinct causal-past retraction before any assembly claim"
+    attention_pointer: "future serialized Lean work should build the modules, encode the GU two-sign instance, and keep self-closure plus the TaF retraction obligations open"

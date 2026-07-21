@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0191
+last_summarized_run: RUN-0192
 ---
 
 # Steward Memory Summary
@@ -79,6 +79,17 @@ related only at the conclusion level. This child added a comment-level drift
 guard but did not change a theorem body or run the host-serialized Lean build.
 No physical survivor criterion, CompletionClass boundary, claim, candidate,
 or Lane 1 control moved.
+
+RUN-0192 accepts GU commit `84d5b28` as a bounded formal-instance handoff.
+The revision supplies operator-grade evidence that the `K_S` sign flip is a
+fixpoint-free involution on a two-sign orbit, so TI's already-proved
+`no_invariant_valuation` theorem is the correct engine for the externality
+conclusion. It does not yet supply a typed Lean instance connecting GU's
+concrete orbit to TI's abstract label object, and the stronger cross-repo
+self-closure claim remains open on product-uniformity plus the distinct typed
+TaF retraction leg. A later serialized Lean run should build the current
+modules, encode the concrete GU instance, and discharge only that externality
+instance. No physical survivor criterion, claim, or Lane 1 control moved.
 
 RUN-0177 / E194 closes the whole-family completion tournament selected by
 RUN-0176. CompletionClass v1 absorbs all twelve material physical-campaign
