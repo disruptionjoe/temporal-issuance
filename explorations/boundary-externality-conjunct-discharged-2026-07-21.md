@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: complete
+status: corrected
 governance_role: cross_repo_lean_externality_conjunct_discharge
 workflow: repository-work-cycle
 claim_movement: false
@@ -13,6 +13,8 @@ claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
 external_action: none
+corrected_by: RUN-0193
+correction_source: "committed GU a0a140186d856d92990e4b3eaa515e902d7d874f"
 depends_on:
   - formal/lean/OnlineIssuance/BoundaryInvolution.lean
   - formal/lean/OnlineIssuance/BoundaryParent.lean
@@ -27,11 +29,28 @@ runnable:
 
 # Boundary externality conjunct discharged: the TARGET's `sorry` split
 
+## Correction after hostile verification
+
+GU commit `a0a1401` materially narrows this result. The Lean proof term remains
+valid, but `InvariantValuation alpha v` applies `alpha` only to the codomain and
+requires every output to be alpha-fixed. It does not define a domain action and
+does not exclude an alpha-equivariant sigma-reader. Therefore this artifact's
+original phrases "concrete GU instance," "observer forces externality," and
+"cannot supply the value" were over-attributed.
+
+Corrected reading: `2a76c69` proves the TARGET's codomain fixed-output conjunct
+as written. The Bool theorems show only that the abstract hypothesis package is
+inhabited. A substantive GU-internal unreadability result additionally requires
+the open bridge that every internal sigma-supplier lies in the domain-alpha-even
+observable class. Eigenspace completeness does not establish that bridge. The
+theorem bodies are unchanged; RUN-0193 corrects their documentation and status.
+
 ## Result first
 
-**Outcome: L-DONE.** The `sorry` in
+**Outcome: L-DONE for the literal codomain conjunct; physical interpretation
+corrected.** The `sorry` in
 `cross_repo_boundary_law_TARGET` (`BoundaryParent.lean`) is now **split**. The
-EXTERNALITY conjunct — `¬ ∃ v : Read → B, InvariantValuation alpha v`
+CODOMAIN FIXED-OUTPUT conjunct — `¬ ∃ v : Read → B, InvariantValuation alpha v`
 (conclusion b) — is **PROVED with no `sorry`**, discharged directly from the
 already-proved `no_invariant_valuation H_fpf point` (a fixpoint-free involution on
 an inhabited domain admits no invariant valuation). **Only** the self-closure
@@ -41,9 +60,10 @@ GU-side product-uniform norm-resolvent boundary-value theorem (open theorem O-b)
 an analysis deliverable, plus the cross-repo instantiation of `T` — it was NOT
 weakened or deleted.
 
-The two conjuncts genuinely factor: the TARGET conclusion is an `And`, its second
+The two formal conjuncts genuinely factor: the TARGET conclusion is an `And`, its second
 component depends only on `H_fpf` and `point` (never on `T`, the product carrier,
-or L1), so the split is honest, not forced.
+or L1), so the proof split is honest. That factorization is also why it cannot
+carry the missing domain-side physical-reader bridge.
 
 ## What changed
 
@@ -59,29 +79,26 @@ already present. Mathlib-free; no new imports.
    Doc comment updated with the SPLIT STATUS (what is proved vs. what stays open,
    and why).
 
-2. **Concrete GU-instance witness `k_s_flip_externality`** (new theorem, no
-   `sorry`). The K_S-sign flip `alpha = Ad(U_h)` on the two-element
-   Krein-orientation label `{+K_S, -K_S}` is realized in core Lean by `Bool` with
-   `alpha = Bool.not` (`not_involution`, `not_fixpointfree`, kernel-decided). Over
-   any inhabited reading space there is no `not`-invariant valuation — the
-   externality theorem thus has a concrete, non-vacuous model. Doc comment traces
-   it to GU's `U_h K_S U_h⁻¹ = -K_S` (deck-oddness, defect ~1e-12, machine-exact
-   GU-side — explicitly NOT a Lean obligation).
+2. **Historical API theorem `k_s_flip_externality`** (new theorem, no
+   `sorry`). `Bool.not` is a generic two-label codomain swap. It shows that the
+   abstract codomain hypotheses are inhabited, but it has no domain action and
+   is not a typed GU reader model.
 
 3. **`k_s_flip_hypotheses_inhabited`** (new theorem, no `sorry`). Witnesses that
    the TARGET's involution hypotheses (`H_involution`, `H_fpf`) have a genuine
-   model: `Bool.not` satisfies both `Involution` and `FixpointFree`, paired with
-   the externality conclusion it forces. Makes the non-vacuity explicit.
+   abstract model: `Bool.not` satisfies both `Involution` and `FixpointFree`.
+   It does not supply the open internal-observable/alpha-even bridge.
 
 4. Module header docstring (point 3) updated to describe the split.
 
 ## What is now proved (no `sorry`) vs. what `sorry` remains
 
 **Proved, no `sorry`:**
-- `cross_repo_boundary_law_TARGET`, conjunct (b) — externality — via
+- `cross_repo_boundary_law_TARGET`, literal conjunct (b) — no codomain-fixed
+  output — via
   `no_invariant_valuation H_fpf point`.
-- `k_s_flip_externality` — concrete GU instance of the externality conjunct.
-- `k_s_flip_hypotheses_inhabited` — non-vacuity of the involution hypotheses.
+- `k_s_flip_externality` — generic Bool codomain instance of the literal conjunct.
+- `k_s_flip_hypotheses_inhabited` — abstract inhabitation of the involution hypotheses.
 - (unchanged, still no `sorry`) `no_invariant_valuation`,
   `cross_repo_boundary_law_skeleton`, `lawvere_fixed_point`, `no_self_closure`,
   `twistedDiagonal_unrepresented`, `boundary_parent_law`, `bool_boundary_parent_law`.
@@ -127,11 +144,12 @@ target) to confirm; expect success with exactly one `sorry` warning
 
 `tools/boundary_externality_conjunct_split_probe.py` — foreground, **exit 0**,
 deterministic (double-run byte-identical), pure-Python, seeded 20260721, no
-network. Models B = {+K_S, -K_S} as {+1, -1} with `alpha` = the K_S-sign flip
-(negation). Confirms by exhaustive finite enumeration: (b) discharges
-non-vacuously (0 invariant valuations at |Read| = 1,2,3; the flip is a
+network. Models a generic two-label codomain as {+1, -1} with `alpha` =
+negation. Confirms by exhaustive finite enumeration: (b) discharges literally
+(0 invariant valuations at |Read| = 1,2,3; the flip is a
 fixpoint-free involution); teeth hold (alpha = id reopens: invariant valuations
-reappear); (a) is recorded as declared-open, not attempted.
+reappear); (a) is recorded as declared-open, not attempted. It does not test a
+domain action, equivariant reader, or the open GU bridge.
 HEADLINE: `4 [E] + 1 [F] = 5 (declared-open/setup [T] = 3) ALL PASS`.
 
 ## Boundary

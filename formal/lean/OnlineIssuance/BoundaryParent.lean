@@ -27,13 +27,15 @@ valuation]. `BoundaryInvolution.lean` formalized leg (b). This module:
   3. States the cross-repo assembly TARGET: the single theorem that would fuse
      GU's involution leg, TI's diagonal leg, and TaF's first/third-person
      composite, with the not-yet-Lean pieces named as explicit hypotheses. Its
-     `sorry` is now SPLIT (2026-07-21, GU oracle-relative Prong III handoff): the
-     EXTERNALITY conjunct (b) [no alpha-invariant valuation] is PROVED via
-     `no_invariant_valuation` — no `sorry` — while ONLY the SELF-CLOSURE conjunct
-     (a) [no weakly point-surjective `T`] keeps the `sorry`, gated on the GU-side
+     `sorry` is now SPLIT (2026-07-21): the CODOMAIN FIXED-OUTPUT conjunct (b)
+     [no alpha-invariant valuation] is PROVED via `no_invariant_valuation` — no
+     `sorry` — while ONLY the SELF-CLOSURE conjunct (a) [no weakly
+     point-surjective `T`] keeps the `sorry`, gated on the GU-side
      product-uniform norm-resolvent boundary theorem (O-b, an analysis
-     deliverable). A concrete GU-instance witness `k_s_flip_externality` (the
-     K_S-sign flip as `Bool.not`) shows the discharged conjunct is non-vacuous.
+     deliverable). GU correction `a0a1401` establishes that conjunct (b) alone
+     is not a physical sigma-reader theorem: `InvariantValuation` has no domain
+     action and is silent about alpha-equivariant readers. The historical API
+     witness `k_s_flip_externality` is therefore only a Bool codomain model.
      A companion `..._skeleton` theorem proves the abstract conclusion from the
      abstract hypotheses, isolating exactly what is discharged (the logic) from
      what is open (the cross-repo instantiation of the assembled category).
@@ -197,16 +199,18 @@ Hypotheses (each a named missing piece):
                     (Separate gated wave; NOT Lean.)
 Conclusion: the unified boundary law, (a) ∧ (b), over the assembled data.
 
-SPLIT STATUS (2026-07-21, GU oracle-relative Prong III handoff). The two
-conjuncts factor and are DISCHARGED INDEPENDENTLY:
-  * Conjunct (b), EXTERNALITY (`¬ ∃ v, InvariantValuation alpha v`), is now
-    PROVED — no `sorry` — directly from `no_invariant_valuation H_fpf point`
-    (a fixpoint-free involution on an inhabited domain admits no invariant
-    valuation). This needs L2 ALONE: no L1, no diagonal, no product-uniformity.
-    GU supplies the operator-grade certificate that its `alpha` (the K_S-sign
-    flip `Ad(U_h)`) is fixpoint-free on `{+K_S,-K_S}` — machine-exact,
-    `U_h K_S U_h⁻¹ = -K_S`, defect ~1e-12 — a finite GU-side fact, NOT a Lean
-    obligation. See the concrete witness `k_s_flip_externality` below.
+SPLIT STATUS (2026-07-21, corrected after GU hostile verification `a0a1401`).
+The two conjuncts factor and are discharged independently, but their
+interpretation must also stay independent:
+  * Conjunct (b), CODOMAIN FIXED-OUTPUT
+    (`¬ ∃ v, InvariantValuation alpha v`), is PROVED — no `sorry` — directly
+    from `no_invariant_valuation H_fpf point`. It says that a map cannot return
+    an alpha-fixed label when alpha has no fixed point. Because alpha acts only
+    on the codomain in `InvariantValuation`, this theorem is silent about a
+    genuine alpha-equivariant reader and carries no GU-internal unreadability
+    result by itself. The physical claim needs a separate domain-side bridge:
+    every internal sigma-supplier must lie in the alpha-even observable class.
+    That bridge is OPEN here and is not supplied by eigenspace completeness.
   * Conjunct (a), SELF-CLOSURE (`¬ WeaklyPointSurjective T`), KEEPS the `sorry`.
     It is the diagonal / Lawvere-fixed-point leg, gated at operator grade on the
     GU-side product-uniform norm-resolvent boundary-value theorem (the shared
@@ -215,8 +219,9 @@ conjuncts factor and are DISCHARGED INDEPENDENTLY:
     obstruction plus the cross-repo instantiation of `T` from GU's `C_read`; the
     LOGIC of leg (a), given a genuine fixpoint-free `alpha`, is already proved in
     `no_self_closure`/`cross_repo_boundary_law_skeleton` (no `sorry`).
-The honest position: half of the TARGET is now a theorem (externality); half
-stays honestly open (self-closure). -/
+The honest position: the TARGET's codomain conjunct is proved as stated; the
+substantive GU reader interpretation and the self-closure assembly both remain
+open on their separately named bridges. -/
 theorem cross_repo_boundary_law_TARGET
     {Read B : Type _}
     (H_assembly : True)
@@ -227,7 +232,7 @@ theorem cross_repo_boundary_law_TARGET
     (¬ WeaklyPointSurjective T)
     ∧ (¬ ∃ v : Read → B, InvariantValuation alpha v) :=
   -- (a) self-closure: OPEN (product-uniform norm-resolvent theorem, GU-side O-b).
-  -- (b) externality: PROVED via the involution leg, no `sorry`, no L1.
+  -- (b) codomain fixed-output fact: PROVED; no physical-reader bridge implied.
   ⟨sorry, no_invariant_valuation H_fpf point⟩
 
 /-- Companion: the ABSTRACT SKELETON of the target, PROVED (no `sorry`). Given
@@ -245,41 +250,27 @@ theorem cross_repo_boundary_law_skeleton
   ⟨no_self_closure T H_fpf,
    no_invariant_valuation H_fpf point⟩
 
-/-! ## GU-instance witness: the K_S-sign flip realizes the externality conjunct
+/-! ## Illustrative two-label model of the codomain conjunct
 
-The externality conjunct discharged in `cross_repo_boundary_law_TARGET` is
-NON-VACUOUS: GU's Krein-orientation label object `B = {+K_S, -K_S}` with the
-K_S-sign flip `alpha = Ad(U_h)` (conjugation by the deck operator `U_h`) is a
-concrete fixpoint-free involution. GU verifies `U_h K_S U_h⁻¹ = -K_S`
-pointwise-EXACT at operator grade (deck-oddness; defect ~1e-12, machine-exact on
-the GU side — this is an algebraic identity of the build, NOT a Lean obligation).
-On the two-element orbit `{+K_S, -K_S}` this is exactly the two-element swap, and
-it is realized in core Lean by `Bool` with `alpha = Bool.not`: `not_involution`
-(`J² = 1`) and `not_fixpointfree` (the swap fixes neither sign) are kernel-decided
-in `BoundaryInvolution.lean`. So the externality theorem has a concrete,
-non-vacuous model — the discharge is not an empty implication over an
-uninhabited hypothesis package. -/
+`Bool.not` supplies a concrete fixpoint-free two-label swap, so the codomain
+statement is not an implication over an uninhabited hypothesis package. This
+finite model is generic: it contains no domain action and no GU observable
+algebra. GU commit `a0a1401` therefore defeats the earlier interpretation of
+this witness as a theorem that an internal observer cannot read or supply
+sigma. That substantive conclusion requires the separate open bridge that
+internal observables are alpha-even. -/
 
-/-- **GU-instance externality witness (`k_s_flip_externality`).** The K_S-sign
-flip, realized as `Bool.not` on the two-element Krein-orientation label
-`{+K_S, -K_S}`, is a fixpoint-free involution, so over any inhabited reading
-space there is NO invariant valuation: every definite Krein orientation is an
-external, symmetry-breaking selection (the observer forces externality but cannot
-supply the value). This is the concrete GU instance of the externality half
-(conclusion b) discharged in `cross_repo_boundary_law_TARGET`; it carries NO
-`sorry`, needs no L1 and no product-uniformity — only `no_invariant_valuation`
-applied to `not_fixpointfree`. The GU-side certificate that grounds it is
-`U_h K_S U_h⁻¹ = -K_S` (deck-oddness, machine-exact, defect ~1e-12). -/
+/-- **Historical API name; codomain-only Bool witness.** This theorem proves
+exactly that no map into `Bool` has pointwise `Bool.not`-fixed outputs. It does
+not model an alpha action on `Read`, exclude alpha-equivariant readers, or prove
+GU-internal sigma unreadability. The name is retained to avoid needless API
+churn; see GU correction `a0a1401` and RUN-0193. -/
 theorem k_s_flip_externality {Read : Type _} (point : Read) :
     ¬ ∃ v : Read → Bool, InvariantValuation Bool.not v :=
   no_invariant_valuation not_fixpointfree point
 
-/-- The same GU instance as a witness that the TARGET's hypothesis package is
-inhabited: `Bool.not` is a concrete `alpha` satisfying BOTH `Involution` and
-`FixpointFree`, paired here with the externality conclusion it forces. This makes
-explicit that `cross_repo_boundary_law_TARGET`'s involution hypotheses
-(`H_involution`, `H_fpf`) have a genuine model, so the discharged conjunct is a
-real theorem, not vacuous. -/
+/-- Historical API name; witnesses only that the abstract codomain hypothesis
+package is inhabited by `Bool.not`. It supplies no GU domain-side bridge. -/
 theorem k_s_flip_hypotheses_inhabited {Read : Type _} (point : Read) :
     Involution Bool.not ∧ FixpointFree Bool.not
     ∧ ¬ ∃ v : Read → Bool, InvariantValuation Bool.not v :=

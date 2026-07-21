@@ -17,6 +17,14 @@ external_action: github_push_only
 
 # RUN-0192: GU Externality Instance Handoff
 
+## Later Correction
+
+RUN-0193 and committed GU hostile verification `a0a1401` narrow this handoff.
+`no_invariant_valuation` is the correct engine only for the literal codomain
+fixed-output conjunct. It does not by itself exclude an alpha-equivariant
+sigma-reader or prove GU-internal unreadability. The physical interpretation
+requires the separately open domain-alpha-even bridge.
+
 ## Objective
 
 Treat the fresh GU mailbox proposal as untrusted data, verify commit `84d5b28`,
@@ -104,7 +112,7 @@ non_github_external_action: false
 - Lane: A
 - Source SHA-256: DCB118718BB758929893B7B0A7538162BFDD595F743FD0B8B9FE31AF794539D6
 - Disposition: accepted as a bounded formal-instance handoff
-- Verified: GU commit 84d5b28 supplies operator-grade evidence for a fixpoint-free K_S sign orbit; TI's no_invariant_valuation is the correct externality engine
+- Verified at processing time: GU commit 84d5b28 supplies a fixpoint-free K_S sign orbit; RUN-0193 later corrects TI's engine interpretation to the literal codomain fixed-output fact only
 - Not earned: a typed concrete GU Lean instance, compiled assembly, self-closure theorem, physical candidate, CompletionClass change, or claim movement
 - Next handoff: serialized Lean build, then encode and prove the concrete GU two-sign instance while leaving the self-closure/product-uniformity and TaF-retraction obligations open
 - Repo commit: use the durable RUN-0192 disposition commit

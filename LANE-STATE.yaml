@@ -1,9 +1,9 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-21T08:37:52-05:00"
-run_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
-bottom_line: "GU's fixpoint-free sign orbit supplies a bounded externality-instance handoff; typed Lean instantiation and build remain open."
+updated_at: "2026-07-21T10:39:16-05:00"
+run_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
+bottom_line: "TI's codomain theorem is valid, but GU-internal unreadability remains conditional on an open domain-alpha-even bridge."
 decision_default: "Keep Lane 1 gated; return no_worthy_work unless a six-criteria candidate appears."
 needs_joe: false
 lanes:
@@ -18,10 +18,10 @@ lanes:
     reason_code: post_tournament_candidate_gate
     evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
     summary: "No new survivor candidate; post-tournament gate controls progress."
-    evaluated_at: "2026-07-21T08:37:52-05:00"
-    run_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
+    evaluated_at: "2026-07-21T10:39:16-05:00"
+    run_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "RUN-0192 supplied a formal externality-instance handoff only; no physical candidate evidence appeared and all six criteria remain required."
+    progress_delta: "RUN-0193 corrected a formal interpretation only; no physical candidate evidence appeared and all six criteria remain required."
     scope_position: "12 physical classes absorbed; candidate 13 not admitted."
     trend_24h: up
     confidence: high
@@ -29,7 +29,7 @@ lanes:
     findings:
       - "CompletionClass v1 tournament remains the latest material movement."
       - "Active trigger requires all six survivor criteria for candidate 13."
-      - "The GU externality handoff concerns a provisional formal assembly target, not physical source issuance."
+      - "The corrected GU/TI codomain result concerns a provisional formal assembly target, not physical source issuance."
     options:
       - letter: A
         label: "Hold gate"
@@ -47,26 +47,26 @@ lanes:
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "RUN-0192 accepted GU's fixpoint-free sign orbit as a bounded formal-instance handoff."
-    movement_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
+    last_movement: "RUN-0193 corrected the over-attributed GU interpretation of TI's valid codomain theorem."
+    movement_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
     steering_attention: none
     steering_prompt: none
-    steering_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
+    steering_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
     light: green
-    reason_code: mailbox_externality_instance_handoff_reconciled
+    reason_code: gu_externality_bridge_gap_corrected
     evidence_ref: memory/steward-memory-summary.md
-    summary: "GU externality evidence was preserved without overstating a typed or compiled cross-repo assembly."
-    evaluated_at: "2026-07-21T08:37:52-05:00"
-    run_ref: agent-runs/RUN-0192-gu-externality-instance-handoff.md
+    summary: "The literal codomain proof remains valid; the GU reader interpretation is explicitly conditional on the open domain-alpha-even bridge."
+    evaluated_at: "2026-07-21T10:39:16-05:00"
+    run_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
     objective: "Keep Temporal Issuance viable and trustworthy through stewardship, audit, and escalation."
-    progress_delta: "Verified GU commit 84d5b28, accepted the externality-engine correspondence, and preserved the typed-instance/build gate without changing theorem code."
-    scope_position: "The abstract externality theorem is proved; the concrete GU instance and compiled cross-repo assembly remain open."
+    progress_delta: "Verified GU correction a0a1401 and corrected documentation/status without changing theorem bodies."
+    scope_position: "The codomain fixed-output fact is proved; the GU domain bridge and compiled cross-repo assembly remain open."
     trend_24h: up
     confidence: high
-    recommendation: "Archive after receipt; use a later serialized Lean run to build and encode the concrete GU instance."
+    recommendation: "Preserve the correction; do not interpret the Bool witness as a GU reader theorem."
     findings:
-      - "GU's K_S sign orbit supplies operator-grade fixpoint-free evidence for TI's externality engine."
-      - "No concrete GU Lean instance or compiled cross-repo assembly exists yet."
+      - "TI's theorem excludes codomain-fixed outputs but does not exclude alpha-equivariant readers."
+      - "The internal-observable equals domain-alpha-even bridge remains open and is not supplied by eigenspace completeness."
       - "No physical packet or criterion-closing evidence was supplied, so candidate 13 is not admitted."
     options:
       - letter: A
@@ -90,4 +90,4 @@ lanes:
       integrity_repairs: 0
       seeds_routed: 0
       escalations: 0
-    attention_pointer: "future serialized Lean work should build the modules, encode the GU two-sign instance, and keep self-closure plus the TaF retraction obligations open"
+    attention_pointer: "future work must prove the domain-alpha-even bridge before any GU-internal unreadability claim; serialized Lean build remains separate"
