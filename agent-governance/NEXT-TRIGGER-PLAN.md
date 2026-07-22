@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0197
+updated_by_run: RUN-0198
 intake_processed_by_run: RUN-0046
 ---
 
@@ -27,11 +27,11 @@ Selection contract:
 1. Load `steward/research-portfolio.json`.
 2. Select `TI-PHYSICAL-WITNESS-GENERATION` only for a non-overlapping
    physically serious candidate with genuinely new native source structure.
-3. Require all post-tournament survivor criteria before treating candidate 13
-   as material: source-owned transition law, internal anti-after-naming, W4
-   perturbation nonfactorization, native carrier or algebra growth, matched
-   intervention/resource budget, and observable difference from the strongest
-   fixed rival.
+3. Run `tools/physical_candidate_survivor_intake.py` before treating candidate
+   13 as material. It requires evidence and falsifiers for all six survivor
+   criteria plus physical-record preservation, with a named construction and
+   strongest fixed rival. `ADMIT_FOR_ADJUDICATION_ONLY` is not an issuance
+   verdict.
 4. Do not repeat anti-collapse throughput, emergent effective-gauge or
    topological-sector, monitored-dynamics phase-transition, gravitational
    observer-algebra, CRISPR sequence-space occupancy, dynamic/Floquet
