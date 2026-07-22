@@ -1,10 +1,10 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-21T16:53:42-05:00"
-run_ref: agent-runs/RUN-0196-gu-three-h1-awareness-disposition.md
-bottom_line: "TI's codomain theorem is valid, but GU-internal unreadability remains conditional on an open domain-alpha-even bridge."
-decision_default: "Keep Lane 1 gated; return no_worthy_work unless a six-criteria candidate appears."
+updated_at: "2026-07-22T00:38:00-05:00"
+run_ref: agent-runs/RUN-0197-formal-reserve-gate-scope-audit.md
+bottom_line: "The six-criteria gate applies to physical candidates, not all TI work; blocker-closing formal reserve work remains hourly-eligible and subordinate."
+decision_default: "Seek a six-criteria physical candidate first, then rerank the formal reserve for a named blocker-closing action before returning no_worthy_work."
 needs_joe: false
 lanes:
   - lane_id: "1"
@@ -12,54 +12,55 @@ lanes:
     last_movement: "RUN-0177 absorbed the 12 physical-campaign classes under CompletionClass v1."
     movement_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
     steering_attention: watch
-    steering_prompt: "Generate only structurally new physical candidates meeting the six survivor criteria."
+    steering_prompt: "Prioritize structurally new physical candidates meeting the six survivor criteria; if none exists, rerank only blocker-closing formal reserve work."
     steering_ref: agent-governance/NEXT-TRIGGER-PLAN.md
     light: yellow
     reason_code: post_tournament_candidate_gate
     evidence_ref: tests/artifacts/physical_witness_completion_tournament_result.json
-    summary: "No new survivor candidate; post-tournament gate controls progress."
-    evaluated_at: "2026-07-21T10:39:16-05:00"
-    run_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
+    summary: "No new survivor candidate; the physical gate remains intact while the subordinate formal reserve remains eligible under its own activation test."
+    evaluated_at: "2026-07-22T00:38:00-05:00"
+    run_ref: agent-runs/RUN-0197-formal-reserve-gate-scope-audit.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "RUN-0193 corrected a formal interpretation only; no physical candidate evidence appeared and all six criteria remain required."
-    scope_position: "12 physical classes absorbed; candidate 13 not admitted."
+    progress_delta: "Corrected a scope leak that had turned candidate-specific survivor criteria into a repo-wide no-work default."
+    scope_position: "12 physical classes absorbed; candidate 13 not admitted; blocker-closing formal reserve work remains subordinate and eligible."
     trend_24h: up
     confidence: high
-    recommendation: "Hold the post-tournament gate."
+    recommendation: "Hold the physical-candidate gate and rerank the formal reserve only against a named active-lane blocker."
     findings:
       - "CompletionClass v1 tournament remains the latest material movement."
       - "Active trigger requires all six survivor criteria for candidate 13."
+      - "The portfolio separately marks FORMAL-ISSUANCE-BYPRODUCTS hourly-eligible when it closes a named blocker or no active physical candidate work is executable."
       - "The corrected GU/TI codomain result concerns a provisional formal assembly target, not physical source issuance."
     options:
       - letter: A
         label: "Hold gate"
         recommended: true
-        summary: "Return no_worthy_work until a six-criteria candidate appears."
+        summary: "Keep the six criteria intact for physical-candidate admission."
       - letter: B
         label: "Candidate scout"
         recommended: false
         summary: "Use only if a concrete source-law object is supplied."
       - letter: C
         label: "Formal reserve"
-        recommended: false
-        summary: "Run only if it closes a named physical-lane blocker."
-    decision_default: "Hold the post-tournament gate."
+        recommended: true
+        summary: "When no physical candidate is executable, select only work that closes a named physical-lane blocker."
+    decision_default: "Prioritize the physical gate, then apply the formal-reserve activation test before no_worthy_work."
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "RUN-0193 corrected the over-attributed GU interpretation of TI's valid codomain theorem."
-    movement_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
+    last_movement: "RUN-0197 corrected the candidate-gate scope leak without weakening physical admission."
+    movement_ref: agent-runs/RUN-0197-formal-reserve-gate-scope-audit.md
     steering_attention: none
     steering_prompt: none
     steering_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
     light: green
-    reason_code: gu_externality_bridge_gap_corrected
-    evidence_ref: memory/steward-memory-summary.md
-    summary: "The literal codomain proof remains valid; the GU reader interpretation is explicitly conditional on the open domain-alpha-even bridge."
-    evaluated_at: "2026-07-21T10:39:16-05:00"
-    run_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
+    reason_code: physical_candidate_gate_scope_corrected
+    evidence_ref: agent-governance/NEXT-TRIGGER-PLAN.md; steward/research-portfolio.json
+    summary: "Candidate 13 still needs all six criteria; unrelated TI work is no longer suppressed by that candidate-specific gate."
+    evaluated_at: "2026-07-22T00:38:00-05:00"
+    run_ref: agent-runs/RUN-0197-formal-reserve-gate-scope-audit.md
     objective: "Keep Temporal Issuance viable and trustworthy through stewardship, audit, and escalation."
-    progress_delta: "Verified GU correction a0a1401 and corrected documentation/status without changing theorem bodies."
+    progress_delta: "Reconciled the active trigger with the portfolio's subordinate formal-reserve activation rule."
     scope_position: "The codomain fixed-output fact is proved; the GU domain bridge and compiled cross-repo assembly remain open."
     trend_24h: up
     confidence: high

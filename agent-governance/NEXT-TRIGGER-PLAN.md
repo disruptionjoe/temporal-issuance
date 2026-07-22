@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0177
+updated_by_run: RUN-0197
 intake_processed_by_run: RUN-0046
 ---
 
@@ -39,8 +39,15 @@ Selection contract:
    reaction-network, Schwinger pair-production, Bose-Einstein condensation,
    r-process nucleosynthesis, turbulent cascade, or crack branching fracture
    unless their missing source-law objects appear.
-5. If no such candidate is available, return compact `no_worthy_work` rather
-   than a generic domain scout or another completion-tournament wrapper.
+5. If no such candidate is available, rerank the hourly-eligible
+   `FORMAL-ISSUANCE-BYPRODUCTS` reserve. Select it only for a bounded action
+   that closes a named active-lane blocker or otherwise directly supports the
+   physical witness campaign; never let its finishability outrank a live
+   physical candidate.
+6. Return compact `no_worthy_work` only when neither a six-criteria physical
+   candidate nor a blocker-closing formal-reserve action is executable. Do not
+   substitute a generic domain scout, completion-tournament wrapper, or
+   unrelated clean theorem.
 
 No claim status changes, no `TI-C020` reopen, no E177 mutation, and no
 cross-repo verdict are authorized by this trigger.
