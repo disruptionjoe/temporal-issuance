@@ -23,7 +23,24 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
-## Current frontier update (2026-07-18)
+## Current frontier update (2026-07-22)
+
+E195 adds a fail-closed, executable intake gate before candidate 13 can enter
+substantive adjudication. A candidate must now supply a named physical
+construction and strongest fixed rival, plus status, evidence reference, and
+falsifier for each of the six post-tournament survivor criteria and for
+physical-record preservation. Run
+`tools/physical_candidate_survivor_intake.py` before source adjudication or a
+CompletionClass comparison. Even a shape-complete packet receives only
+`ADMIT_FOR_ADJUDICATION_ONLY`; intake does not establish issuance, survival, or
+claim movement. The targeted contract is registered in `tests/README.md`.
+
+This gate is candidate-specific. If no physical candidate clears it, rerank
+the subordinate formal reserve for an independent action that closes a named
+active-lane blocker before returning `no_worthy_work`. Do not use the physical
+candidate gate as a repo-wide stop condition.
+
+## Prior frontier update (2026-07-18)
 
 The active hourly portfolio is `steward/research-portfolio.json`. The protected
 technical lane is now `PHYSICAL-ISSUANCE-WITNESS`.

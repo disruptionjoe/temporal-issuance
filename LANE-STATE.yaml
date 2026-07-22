@@ -1,10 +1,10 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-22T00:38:00-05:00"
-run_ref: agent-runs/RUN-0197-formal-reserve-gate-scope-audit.md
-bottom_line: "The six-criteria gate applies to physical candidates, not all TI work; blocker-closing formal reserve work remains hourly-eligible and subordinate."
-decision_default: "Seek a six-criteria physical candidate first, then rerank the formal reserve for a named blocker-closing action before returning no_worthy_work."
+updated_at: "2026-07-22T04:43:00-05:00"
+run_ref: agent-runs/RUN-0198-active-trigger-physical-intake-reconciliation.md
+bottom_line: "E195 now enforces the six physical survivor criteria plus physical-record preservation at intake; the gate remains candidate-specific."
+decision_default: "Run the E195 intake contract before candidate adjudication, then rerank the formal reserve for a named blocker-closing action before returning no_worthy_work."
 needs_joe: false
 lanes:
   - lane_id: "1"
@@ -12,7 +12,7 @@ lanes:
     last_movement: "RUN-0177 absorbed the 12 physical-campaign classes under CompletionClass v1."
     movement_ref: agent-runs/RUN-0177-physical-witness-completion-tournament.md
     steering_attention: watch
-    steering_prompt: "Prioritize structurally new physical candidates meeting the six survivor criteria; if none exists, rerank only blocker-closing formal reserve work."
+    steering_prompt: "Prioritize structurally new physical candidates meeting the six survivor criteria plus physical-record preservation through the E195 intake contract; if none exists, rerank only blocker-closing formal reserve work."
     steering_ref: agent-governance/NEXT-TRIGGER-PLAN.md
     light: yellow
     reason_code: post_tournament_candidate_gate
@@ -28,7 +28,7 @@ lanes:
     recommendation: "Hold the physical-candidate gate and rerank the formal reserve only against a named active-lane blocker."
     findings:
       - "CompletionClass v1 tournament remains the latest material movement."
-      - "Active trigger requires all six survivor criteria for candidate 13."
+      - "Active trigger requires all six survivor criteria plus physical-record preservation through the E195 intake contract for candidate 13."
       - "The portfolio separately marks FORMAL-ISSUANCE-BYPRODUCTS hourly-eligible when it closes a named blocker or no active physical candidate work is executable."
       - "The corrected GU/TI codomain result concerns a provisional formal assembly target, not physical source issuance."
     options:
