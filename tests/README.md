@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- Post-tournament physical-candidate survivor intake: `python -m unittest tests.test_physical_candidate_survivor_intake`
 - Physical witness completion tournament: `python tests/test_physical_witness_completion_tournament.py`
 - Crack branching fracture candidate v0: `python tests/test_crack_branching_fracture_candidate_v0.py`
 - Turbulent cascade candidate v0: `python tests/test_turbulent_cascade_candidate_v0.py`
