@@ -1,10 +1,10 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-22T15:20:00-05:00"
-run_ref: agent-runs/RUN-0201-d-fork-disclosure-adversary-hardening.md
-bottom_line: "RUN-0201/E196 delivered the Wave-1 TI-2 D-FORK disclosure-adversary hardening as a formal-reserve TI-1 input: the kill-cond-2 residual is now bounded by a conditional theorem (oracle-BOUNDED adversaries defeated under a Gödelian source) with the oracle-boundedness assumption located as an L5 posit, NOT proved. The physical gate is unchanged; TI-1 is best-armed next."
-decision_default: "North Star is unchanged (PHYSICAL-ISSUANCE-WITNESS / TI-1 finite-stage-operativity swing on already-undecidable physics). Run the E195 intake contract before any candidate adjudication; the FORMAL-ISSUANCE-BYPRODUCTS reserve's named D-FORK adversary blocker is now closed to a located-posit, so prefer TI-1 over further formal-reserve restatement unless a new blocker appears."
+updated_at: "2026-07-22T16:23:59-05:00"
+run_ref: agent-runs/RUN-0202-strategic-reprioritization-steward-rerank.md
+bottom_line: "The post-reprioritization steward re-rank confirms TI's source question and North Star are unchanged while its operating method sharpens: TI-1 is the two-sided finite-stage c.e.-operativity versus productive-self-reference swing; E196 is both a TI-1 input and a first-class publishable byproduct; Dynamic Unity integrates while TI remains the sovereign supplier of its independently tested leg."
+decision_default: "Prioritize a non-narrative TI-1 theorem/counterexample packet on the spectral-gap/Wang-tile finite-stage question. Treat c.e. finite-stage operativity as clean N1 falsification and productive self-reference as the positive construction. Do not resume undirected domain scanning, repeat the D-FORK audit, or infer the physical oracle-boundedness posit."
 needs_joe: false
 lanes:
   - lane_id: "1"
@@ -49,27 +49,28 @@ lanes:
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "RUN-0197 corrected the candidate-gate scope leak without weakening physical admission."
-    movement_ref: agent-runs/RUN-0197-formal-reserve-gate-scope-audit.md
+    last_movement: "RUN-0202 reconciled the strategic reprioritization across Lane, trigger, portfolio, claim, supplier, and hard-cut boundaries."
+    movement_ref: agent-runs/RUN-0202-strategic-reprioritization-steward-rerank.md
     steering_attention: none
     steering_prompt: none
     steering_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
     light: green
-    reason_code: physical_candidate_gate_scope_corrected
-    evidence_ref: agent-governance/NEXT-TRIGGER-PLAN.md; steward/research-portfolio.json
-    summary: "Candidate 13 still needs all six criteria; unrelated TI work is no longer suppressed by that candidate-specific gate."
-    evaluated_at: "2026-07-22T00:38:00-05:00"
-    run_ref: agent-runs/RUN-0197-formal-reserve-gate-scope-audit.md
+    reason_code: strategic_reprioritization_reconciled
+    evidence_ref: LANES.yaml; agent-governance/NEXT-TRIGGER-PLAN.md; explorations/E196-d-fork-disclosure-adversary-hardening-2026-07-22.md
+    summary: "The source question is unchanged; the exhausted domain-scanning method is demoted, TI-1 is the decidable North-Star swing, E196 is a first-class native byproduct, and TI supplies rather than integrates the shared object."
+    evaluated_at: "2026-07-22T16:23:59-05:00"
+    run_ref: agent-runs/RUN-0202-strategic-reprioritization-steward-rerank.md
     objective: "Keep Temporal Issuance viable and trustworthy through stewardship, audit, and escalation."
-    progress_delta: "Reconciled the active trigger with the portfolio's subordinate formal-reserve activation rule."
-    scope_position: "The codomain fixed-output fact is proved; the GU domain bridge and compiled cross-repo assembly remain open."
+    progress_delta: "Reconciled the 2026-07-22 strategic reprioritization without changing the North Star, claim status, or constitutional posture."
+    scope_position: "TI-1 owns the independently testable issuance/computability leg; Dynamic Unity alone combines sibling legs; TI-3 remains orthogonal to D-FORK."
     trend_24h: up
     confidence: high
-    recommendation: "Preserve the correction; do not interpret the Bool witness as a GU reader theorem."
+    recommendation: "Preserve the TI/DU supplier-integrator boundary and aim the next material Progress at the two-sided TI-1 finite-stage operativity swing."
     findings:
-      - "TI's theorem excludes codomain-fixed outputs but does not exclude alpha-equivariant readers."
-      - "The internal-observable equals domain-alpha-even bridge remains open and is not supplied by eigenspace completeness."
-      - "No physical packet or criterion-closing evidence was supplied, so candidate 13 is not admitted."
+      - "The strategic reprioritization changes within-Lane method and output ranking, not TI's Purpose, North Star, claims, or constitutional governance."
+      - "E196 closes its named reserve blocker only to a conditional theorem plus a located L5 posit; physical oracle-boundedness remains unproved."
+      - "The twelve physical class absorptions remain scoped with explicit resurrection objects; demoting open-ended domain scanning does not kill the source question."
+      - "NBL-REL-004 supplies context only; TI remains sovereign and Dynamic Unity is the integrator."
     options:
       - letter: A
         label: "Keep quiet"
@@ -83,13 +84,13 @@ lanes:
         label: "Escalate"
         recommended: false
         summary: "Not needed; no Joe-facing blocker is present."
-    decision_default: "Keep stewardship quiet."
+    decision_default: "Keep stewardship quiet after this reconciliation unless a new authority, identity, claim-boundary, or supplier-integrator conflict appears."
     needs_joe: false
     drift_verdict: clean
     action_counts:
       mail: 1
-      reconciled: 2
+      reconciled: 3
       integrity_repairs: 0
       seeds_routed: 0
       escalations: 0
-    attention_pointer: "future work must prove the domain-alpha-even bridge before any GU-internal unreadability claim; serialized Lean build remains separate. Wave-1 triple-diamond steering has landed (explorations/2026-07-22-wave1-triple-diamond-prep-steering.md); TI-2/E196 delivered, TI-1 is the armed North Star swing, TI-3 is the sigma axis with no D-FORK bearing."
+    attention_pointer: "TI-1 is the armed two-sided swing: finite-stage c.e. operativity is a clean N1 falsification; productive self-reference is the positive construction. E196 is a first-class byproduct and input, not physical proof. TI supplies its leg to Dynamic Unity and does not integrate the assembly."
