@@ -18,6 +18,21 @@ They should still preserve:
 - what would make the exploration worth promoting
 - what would kill it
 
+## Recent Formal Reserve (D-FORK)
+
+- `E196-d-fork-disclosure-adversary-hardening-2026-07-22.md`
+  discharges the Wave-1 TI-2 item (steering label "E180"; reassigned E196 to
+  avoid clobbering the occupied E180). It grades the E041/E042/E045
+  theorem inventory with a dependency graph, parameterises the disclosure
+  adversary by oracle strength (`SSC[d]`), and states the kill-condition-2
+  verdict as a conditional theorem: under a Gödelian source, every
+  oracle-BOUNDED adversary is defeated when the source's provability degree
+  exceeds the discloser's oracle degree, with an exact degree-characterization
+  of the escape. It locates oracle-boundedness of physical disclosers as an
+  **L5 posit, NOT proved**, and frames the whole result as a TI-1 input, not a
+  claim promotion. `TI-C019` stays formalizing; no `TI-C020` reopen, no E177
+  mutation, no cross-repo verdict.
+
 ## Recent Physical Witness Campaign
 
 - `E194-physical-witness-completion-tournament-2026-07-18.md`

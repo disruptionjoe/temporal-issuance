@@ -370,6 +370,35 @@ TI-C019:
     analog). No promotion for TI-C019 yet; FUNCTOR-OBL-001 and Q-OBL-001 remain open.
 ```
 
+## E196 D-FORK Disclosure-Adversary Hardening Addendum (2026-07-22, no status change)
+
+```yaml
+TI-C019:
+  status: formalizing        # UNCHANGED. No promotion.
+  effect: disclosure_adversary_residual_bounded_and_located
+  addendum: >
+    E196 (RUN-0201, Wave-1 TI-2) hardens the E042 §7 / E045 §5 kill-condition 2 residual (the
+    non-computable-fixed-oracle disclosure adversary). It parameterises the SSC disclosure
+    adversary by oracle strength (SSC[d]) and proves a CONDITIONAL THEOREM: under a Gödelian
+    source, every ORACLE-BOUNDED adversary (oracle fixed at stage 0, not re-indexed by the
+    realized history) is defeated when the source's provability degree along the realized,
+    quorum-chosen trajectory is not <= the discloser's oracle degree. It gives the exact
+    degree-characterization of the escape: the SSC survives only by going oracle-UNBOUNDED
+    (history-indexed), which violates NAA-Q for any stage-0-fixed oracle. The one unproved
+    assumption — that physical disclosers are oracle-bounded — is located as an L5 posit (E057
+    axis stack), NOT proved. This is a TI-1 INPUT, not a claim promotion: it tells the physical
+    source-question fixture (TI-1) exactly what a physical source must posit to be genuinely
+    Gödelian (issuance) rather than disclosure.
+  evidence_refs_added:
+    - explorations/E196-d-fork-disclosure-adversary-hardening-2026-07-22.md
+    - agent-runs/RUN-0201-d-fork-disclosure-adversary-hardening.md
+    - explorations/2026-07-22-wave1-triple-diamond-prep-steering.md
+  next_action_unchanged: >
+    Physical face (TI-1): determine whether the operative physical source is
+    computable-at-finite-stage (N1 falsification = SUCCESS) or productive/Gödelian, and argue the
+    L5 oracle-boundedness posit at the physical layer. E196 arms this swing; it does not decide it.
+```
+
 ---
 
 ## E048 Claim Addenda (Weinstein UCSD 2025 Cross-Repo Check, 2026-06-22)

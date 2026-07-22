@@ -54,3 +54,19 @@ Export candidates:
 - Parallelize separable research lanes while centralizing shared-state edits.
 - Cross-repo context as local-minimum escape, not claim authority.
 - Definition repair should quickly become toy tests.
+
+## RUN-0201 Research Export Candidates (E196)
+
+- **Oracle-parameterised disclosure adversary (SSC[d]).** Grading a "static source + disclosure
+  schedule" adversary by the Turing degree its schedule may use turns a diffuse
+  issuance-vs-disclosure question into a degree comparison. Reusable wherever a "genuine
+  generation vs. replay-from-a-fixed-oracle" distinction is contested.
+- **Kill-cond-2 conditional theorem + degree-characterization.** Under a Gödelian source, every
+  oracle-BOUNDED adversary is defeated when the source's realized-trajectory provability degree
+  exceeds the discloser's oracle degree; the escape requires an oracle-UNBOUNDED (history-indexed)
+  adversary, which violates NAA-Q for any stage-0-fixed oracle. A clean bankable conditional
+  result; the paper pass should split deg_src into enumeration vs. selection components.
+- **Located-posit discipline (L5).** Method pattern: when a defense bottoms out on an assumption
+  that mathematics does not force, name the assumption, place it on the physical/realizability
+  (L5) layer, and hand it to the physical-question track rather than smuggling it into a theorem.
+  Keeps theorem language honest and makes the residual testable instead of hidden.

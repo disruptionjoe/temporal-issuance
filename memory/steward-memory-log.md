@@ -1883,3 +1883,32 @@ against other routes.
 Recommended next run: W000 -> W010_frontier_selection_and_next_work_ranking; optional direct
 route W000 -> machine_check_online_issuance_witness.
 Files changed: `explorations/E091-online-issuance-verdict-and-formal-object-rewrite-2026-06-25.md`, `agent-runs/RUN-0081-online-issuance-verdict-and-rewrite.md`, `FORMAL-OBJECT.md`, `HYPOTHESIS-STEELMAN.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `ROADMAP.md`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-summary.md`, `memory/steward-memory-log.md`, `agent-governance/STEWARD-METRICS.md`.
+
+> Note: detailed narrative logging paused after RUN-0081; RUN-0082..RUN-0200 carry durable memory
+> in their run receipts and in `steward-memory-summary.md`. Detailed logging resumes below for the
+> directed Wave-1 run.
+
+## RUN-0201
+
+Timestamp: 2026-07-22
+Trigger: directed_wake (Wave-1 triple-diamond prep, TI-2)
+Workflow: repo-progress-run (execute) -> FORMAL-ISSUANCE-BYPRODUCTS reserve, Lane 1
+Agent / subagents used: Repo Steward (direct mount).
+Current strongest version: Under a Gödelian source, the D-FORK source-side witness survives
+every ORACLE-BOUNDED disclosure adversary (SSC[d], oracle fixed at stage 0) when the source's
+provability degree along the realized trajectory exceeds the discloser's oracle degree — a
+conditional theorem with an exact degree-characterization of the escape.
+Current strongest objection: The theorem is conditional on oracle-boundedness of physical
+disclosers, which is an L5 posit (physical-realizability layer), NOT proved. An oracle-UNBOUNDED
+(history-indexed) discloser is not excluded by mathematics alone.
+What collapsed: The naive reading that a 0'-oracle disclosure re-opens the SSC — it does for a
+frozen Ax(S) but fails the NAA-Q path obligation for the realized quorum-chosen trajectory.
+What survived: The kill-cond-2 residual, now bounded and located rather than open-sketch; the
+D-FORK theorem inventory (E041/E042/E045) graded with a dependency graph.
+What was absorbed: Nothing new; no claim moved.
+What was promoted: None. TI-C019 stays formalizing.
+New blockers: None new. The L5 oracle-boundedness posit is handed to TI-1 as its physical
+argument; the deg_src-vs-discloser-oracle comparison is TI-1's open physical question.
+Recommended next run: W000 -> TI-PHYSICAL-WITNESS-GENERATION (TI-1 finite-stage-operativity swing
+on already-undecidable physics), now best-armed by E196.
+Files changed: `explorations/E196-d-fork-disclosure-adversary-hardening-2026-07-22.md`, `agent-runs/RUN-0201-d-fork-disclosure-adversary-hardening.md`, `explorations/README.md`, `CLAIM-LEDGER.md`, `LANE-STATE.yaml`, `agent-governance/NEXT-TRIGGER-PLAN.md`, `memory/steward-memory-log.md`, `memory/export-queue.md`.

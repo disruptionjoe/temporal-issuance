@@ -3,11 +3,91 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0198
+updated_by_run: RUN-0201
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
+
+## ACTIVE 2026-07-22: TI-1 Physical Swing, Armed by TI-2/E196 (Wave-1 re-rank)
+
+RUN-0201 executed the Wave-1 triple-diamond prep **TI-2** item as a
+`FORMAL-ISSUANCE-BYPRODUCTS` reserve action (its activation test was met: it
+closes a named active-lane blocker and directly arms TI-1).
+
+Primary artifact:
+
+```text
+explorations/E196-d-fork-disclosure-adversary-hardening-2026-07-22.md
+```
+
+(Steering labelled it "E180"; that id was occupied by
+`E180-anti-collapse-throughput-packet-candidate-v0` and the series had reached
+E195, so it was reassigned E196. Same artifact.)
+
+E196 result:
+
+```yaml
+result: FORMAL_RESERVE_AUDIT_DELIVERED_AS_TI1_INPUT
+theorem_inventory_graded: true          # E041/E042/E045 with dependency graph
+disclosure_adversary_parameterised: SSC[d]_by_oracle_strength
+kill_cond_2_verdict: >
+  conditional theorem — under a Gödelian source, every ORACLE-BOUNDED disclosure
+  adversary is defeated when deg_src is not <= discloser oracle degree, with an
+  exact degree-characterization (escape requires an oracle-UNBOUNDED /
+  history-indexed adversary, which violates NAA-Q for any stage-0-fixed oracle).
+oracle_boundedness: L5_POSIT_NOT_PROVED
+framed_as: TI-1_INPUT_not_claim_promotion
+claim_status_change: none
+TI_C020_reopened: false
+E177_modified: false
+cross_repo_write: false
+```
+
+Re-rank (post-landing of the Wave-1 steering):
+
+```text
+North Star (Track 1, unchanged): TI-1 — the finite-stage-operativity swing on
+already-undecidable physics (Cubitt-Perez-Garcia-Wolf spectral-gap / Wang-tile
+admissibility). Decide c.e.-at-finite-stage (-> N1 falsification = SUCCESS) vs
+productive-via-self-reference (-> Gödelian source construction). TI-1 is now
+BEST-ARMED: E196 supplies its input contract.
+```
+
+Active next trigger:
+
+```text
+W000 -> TI-PHYSICAL-WITNESS-GENERATION   (TI-1 finite-stage face)
+```
+
+Selection contract:
+
+1. Load `steward/research-portfolio.json`. North Star is unchanged
+   (`PHYSICAL-ISSUANCE-WITNESS`). Difficulty is not a demotion signal.
+2. Prefer the TI-1 finite-stage swing. E196 tells TI-1 exactly what a physical
+   source must posit to be Gödelian rather than a disclosure: the source's
+   provability degree must strictly exceed any admissible physical discloser's
+   oracle degree **along the realized history**, AND the discloser must be
+   oracle-bounded. The "exceeds" half is the c.e.-at-finite-stage test; the
+   "oracle-bounded" half is the **L5 posit** E196 located — argue it at the
+   physical layer, do not assume it.
+3. Run `tools/physical_candidate_survivor_intake.py` before treating any
+   candidate 13 as material (E195 gate; all six survivor criteria plus
+   physical-record preservation; `ADMIT_FOR_ADJUDICATION_ONLY` is not issuance).
+4. Do **not** re-run the D-FORK disclosure-adversary audit: its named blocker
+   (kill-cond-2 non-computable-fixed-oracle adversary) is now bounded to a
+   located L5 posit. Reopen only if a new theorem/counterexample touches the
+   oracle-bounded/unbounded boundary or NAA-Q.
+5. TI-3 (σ/orientation axis) has **no bearing** on the D-FORK; do not let
+   σ-progress read as source-progress, and do not touch O-b, D-FORK, or any
+   TI-C claim from TI-3 work.
+6. Return compact `no_worthy_work` only when neither a six-criteria physical
+   candidate nor a distinct named-blocker-closing formal-reserve action is
+   executable.
+
+No claim status changes, no `TI-C020` reopen, no `E177` mutation, and no
+cross-repo verdict are authorized by this trigger. E196 promotes nothing;
+`TI-C019` remains formalizing.
 
 ## ACTIVE 2026-07-18: Physical Witness Generation After Tournament
 
