@@ -1,37 +1,37 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-22T16:23:59-05:00"
-run_ref: agent-runs/RUN-0202-strategic-reprioritization-steward-rerank.md
-bottom_line: "The post-reprioritization steward re-rank confirms TI's source question and North Star are unchanged while its operating method sharpens: TI-1 is the two-sided finite-stage c.e.-operativity versus productive-self-reference swing; E196 is both a TI-1 input and a first-class publishable byproduct; Dynamic Unity integrates while TI remains the sovereign supplier of its independently tested leg."
-decision_default: "Prioritize a non-narrative TI-1 theorem/counterexample packet on the spectral-gap/Wang-tile finite-stage question. Treat c.e. finite-stage operativity as clean N1 falsification and productive self-reference as the positive construction. Do not resume undirected domain scanning, repeat the D-FORK audit, or infer the physical oracle-boundedness posit."
+updated_at: "2026-07-22T20:56:00-05:00"
+run_ref: agent-runs/RUN-0204-ti1-spectral-gap-finite-stage-operativity.md
+bottom_line: "E197 resolves the spectral-gap/Wang-tiling TI-1 candidate on the negative side: each finite realized stage is computably generated while only the infinite-family verdict is undecidable. This is clean candidate-level N1 falsification, not TI-C019 movement."
+decision_default: "Do not treat undecidable limit predicates or uncomputably delayed crossovers as issuance. Reopen this route only for non-c.e. finite-stage admissibility, productive rule change, or an E196 source-degree separation."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "RUN-0201/E196 delivered the Wave-1 TI-2 D-FORK disclosure-adversary hardening as a formal-reserve TI-1 input; kill-cond-2 residual now bounded by a conditional theorem with the oracle-boundedness assumption located as an L5 posit."
-    movement_ref: agent-runs/RUN-0201-d-fork-disclosure-adversary-hardening.md
+    last_movement: "RUN-0204/E197 classified the spectral-gap/Wang-tiling finite-stage face as computable/c.e.; undecidability sits in the thermodynamic-limit classifier, so this candidate banks the N1 falsification branch."
+    movement_ref: agent-runs/RUN-0204-ti1-spectral-gap-finite-stage-operativity.md
     steering_attention: watch
     steering_prompt: "North Star = TI-1 finite-stage-operativity swing on already-undecidable physics (Cubitt-Perez-Garcia-Wolf spectral-gap / Wang-tile). It is best-armed now that TI-2/E196 supplies the input contract. Prioritize structurally new physical candidates meeting the six survivor criteria plus physical-record preservation through the E195 intake contract; the named D-FORK adversary blocker is now closed to a located L5 posit, so do not re-run formal-reserve restatement unless a new blocker appears."
     steering_ref: explorations/2026-07-22-wave1-triple-diamond-prep-steering.md
     light: green
-    reason_code: formal_reserve_blocker_closed_ti1_armed
-    evidence_ref: explorations/E196-d-fork-disclosure-adversary-hardening-2026-07-22.md
-    summary: "No new physical survivor candidate; the physical gate remains intact. The subordinate formal reserve closed its named D-FORK disclosure-adversary blocker to a bounded conditional theorem plus a located L5 posit, and TI-1 now has a precise input contract."
-    evaluated_at: "2026-07-22T15:20:00-05:00"
-    run_ref: agent-runs/RUN-0201-d-fork-disclosure-adversary-hardening.md
+    reason_code: spectral_gap_finite_stage_ce_absorption
+    evidence_ref: explorations/E197-ti1-spectral-gap-finite-stage-operativity-2026-07-22.md
+    summary: "The fixed Hamiltonian/tile rule computably generates every finite object; undecidability and uncomputable crossover concern the all-sizes verdict, not productive finite-stage source growth."
+    evaluated_at: "2026-07-22T20:56:00-05:00"
+    run_ref: agent-runs/RUN-0204-ti1-spectral-gap-finite-stage-operativity.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "Bounded the kill-cond-2 non-computable-fixed-oracle disclosure adversary: a conditional theorem defeats every oracle-BOUNDED adversary under a Gödelian source (with degree-characterization), and oracle-boundedness of physical disclosers is located as an L5 posit, NOT proved. This arms TI-1 with the exact physical dichotomy to force."
-    scope_position: "12 physical classes absorbed; candidate 13 not admitted; the D-FORK disclosure-adversary formal blocker is now located/bounded rather than open-sketch; North Star (TI-1 physical swing) unchanged and best-armed."
+    progress_delta: "Separated computable finite-stage generation from undecidable thermodynamic-limit classification and issued a candidate-level PHYSICAL_PREDICTIVE_ABSORPTION verdict with explicit resurrection conditions."
+    scope_position: "The spectral-gap/Wang-tiling route joins the absorbed physical candidates; TI-C019, E196, and the wider source question remain unchanged."
     trend_24h: up
     confidence: high
-    recommendation: "Hold the physical-candidate gate; prefer the TI-1 finite-stage swing over further formal-reserve restatement now that its named blocker is closed to a located posit."
+    recommendation: "Preserve the finite-stage/global-verdict split and require a genuinely non-c.e. finite-stage source before reopening this candidate."
     findings:
-      - "RUN-0201/E196 is the latest material movement: theorem-inventory grades + dependency graph (E041/E042/E045), oracle-strength-parameterised SSC[d] adversary, and the kill-cond-2 conditional theorem."
-      - "Kill-cond-2 verdict: under a Gödelian source, every oracle-BOUNDED adversary is defeated when deg_src is not below the discloser oracle degree; the SSC survives only by going oracle-UNBOUNDED, which violates NAA-Q for any stage-0-fixed oracle."
-      - "Oracle-boundedness of physical disclosers is an L5 posit, NOT proved. TI-1 must argue it at the physical layer; E196 does not grant it."
-      - "Active trigger still requires all six survivor criteria plus physical-record preservation through the E195 intake contract for candidate 13."
-      - "TI-3 (sigma/orientation axis) has no bearing on the D-FORK and was not touched."
+      - "RUN-0204/E197 is the latest material movement: every fixed finite Hamiltonian/tiling object is computably generated, while undecidability attaches to the all-sizes verdict."
+      - "An uncomputably large crossover defeats bounded inference but remains encoded in the fixed construction; delayed disclosure is not productive rule change."
+      - "E196's source-degree separation is not established because the finite-stage source is low-degree; physical oracle-boundedness remains a separate unproved posit."
+      - "The candidate-level N1 falsification is a successful negative result and changes no TI claim status."
+      - "TI-3 remains orthogonal and untouched."
     options:
       - letter: A
         label: "Hold gate"
