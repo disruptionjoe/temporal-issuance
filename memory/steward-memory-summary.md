@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0193
+last_summarized_run: RUN-0205
 ---
 
 # Steward Memory Summary
@@ -87,9 +87,21 @@ fact: `InvariantValuation` has no domain action and is silent about equivariant
 sigma-readers. The Bool witness is generic, not a typed GU reader instance.
 The substantive GU-internal unreadability claim remains conditional on the open
 bridge that internal sigma-suppliers are domain-alpha-even; eigenspace
-completeness does not supply that bridge. Self-closure/product-uniformity and
-the distinct typed TaF retraction also remain open. No physical survivor
+completeness does not supply that bridge. The physical self-closure instance
+and the distinct typed TaF retraction also remain open. No physical survivor
 criterion, claim, or Lane 1 control moved.
+
+RUN-0205 / E198 repairs the formal surface after GU's 2026-07-22 operator/domain
+correction. `cross_repo_boundary_law_TARGET` now takes the self-closure result as
+the typed premise `H_leg_a : ¬ WeaklyPointSurjective T` and has no admitted proof
+term. The default Lean library now imports both boundary modules; its first real
+build exposed and repaired two older namespace-resolution defects, then passed
+12/12 jobs. This is a conditional composition theorem, not a constructed GU
+instance. The old product-uniform numerical/surrogate result is insufficient;
+physical instantiation requires the source-owned first-order operator,
+end/density, domain/Green-trace, symmetry, and assembly-map packet. The TaF
+retraction remains separately untyped. No claim, North Star, physical-candidate,
+or Lane-control movement.
 
 RUN-0177 / E194 closes the whole-family completion tournament selected by
 RUN-0176. CompletionClass v1 absorbs all twelve material physical-campaign

@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Externality-conjunct split cross-check probe (TI, 2026-07-21).
+"""Boundary-conjunct cross-check probe (TI, updated 2026-07-22).
 
 Sharpens the SPLIT made in
   formal/lean/OnlineIssuance/BoundaryParent.lean :: cross_repo_boundary_law_TARGET
-where the `sorry` was factored so that:
+where the two conclusions are kept separate so that:
   * conjunct (b) EXTERNALITY  -- (no alpha-invariant valuation) -- is PROVED via
     `no_invariant_valuation` (the involution leg), and
-  * conjunct (a) SELF-CLOSURE -- (no weakly-point-surjective T) -- KEEPS the sorry
-    (the diagonal / product-uniformity leg, GU-side open theorem O-b).
+  * conjunct (a) SELF-CLOSURE -- (no weakly-point-surjective T) -- is a typed
+    premise in the cross-repo target; the abstract Lawvere skeleton is proved.
 
 This probe is the GU-instance sanity check: it models the Krein-orientation label
 object B = {+K_S, -K_S} as {+1, -1} with alpha = the K_S-sign flip (negation),
@@ -23,10 +23,11 @@ enumeration:
       valuations REAPPEAR. So the result detects fixpoint-freeness; it is not
       always-zero.
 
-  (a) STAYS OPEN  -- flagged [T] (declared-open), NOT discharged here. The
-      self-closure conjunct is the diagonal leg; its operator-grade obstruction
-      (product-uniform norm-resolvent boundary theorem) is out of scope for this
-      finite probe and remains the `sorry` in the TARGET.
+  (a) PHYSICAL INSTANCE STAYS OPEN -- flagged [T] (declared-open), NOT
+      discharged here. The formal target now takes the exact proposition as a
+      typed premise. GU's corrected reopener is the source-owned operator,
+      domain, end, symmetry, and assembly-map packet; the old numerical
+      product-uniform surrogate is not sufficient.
 
 Deterministic (double-run byte-identical), pure-Python (exact integer
 enumeration; SEED recorded for convention only), tagged [T]/[E]/[F], prints a
@@ -100,11 +101,12 @@ def run_battery() -> dict:
            "dissolution teeth: K_S-flip gives 0 but alpha=id gives >0 invariant valuations",
            flip_cnt == 0 and id_cnt > 0 and flip_cnt != id_cnt)
 
-    # ---------- [T] conjunct (a) SELF-CLOSURE is DECLARED-OPEN, not discharged ----------
-    # This probe does NOT attempt the diagonal / product-uniformity leg; it stays
-    # the `sorry` in the TARGET (GU-side open theorem O-b). Recorded, not asserted.
+    # ---------- [T] conjunct (a) PHYSICAL INSTANCE is declared-open ----------
+    # This finite probe does not construct the GU operator/domain/end packet or
+    # its map into the abstract assembly. The target carries that exact result as
+    # a typed premise; the local Lawvere skeleton is separately proved.
     record("T", "T3",
-           "self-closure (a) left OPEN here (product-uniformity O-b; TARGET keeps sorry)",
+           "physical self-closure instance left OPEN; TARGET uses typed premise",
            True)
 
     counts = {"T": 0, "E": 0, "F": 0}

@@ -5,3 +5,5 @@ import OnlineIssuance.InternalPredicateSyntax
 import OnlineIssuance.Comparator
 import OnlineIssuance.CEComparator
 import OnlineIssuance.NameAbsorption
+import OnlineIssuance.BoundaryInvolution
+import OnlineIssuance.BoundaryParent

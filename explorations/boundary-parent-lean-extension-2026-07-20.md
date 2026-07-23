@@ -29,6 +29,13 @@ runnable:
 
 # Boundary-parent Lean extension: leg (a) schematized, leg (b) proved
 
+> **2026-07-22 formal-status correction:** E198 / RUN-0205 replaces the target's
+> admitted proof term with the typed premise
+> `H_leg_a : ¬ WeaklyPointSurjective T`, integrates both boundary modules into
+> the default Lean target, and records a clean 12-job build. Historical text
+> below describing an intentionally admitted target is provenance, not current
+> formal status. The physical GU and typed TaF instances remain open.
+
 ## Result first
 
 **Outcome: L-DONE.** GU's diagonal-boundary parent (H62/H63, the Lawvere

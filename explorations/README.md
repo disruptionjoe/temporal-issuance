@@ -20,6 +20,12 @@ They should still preserve:
 
 ## Recent Formal Reserve (D-FORK)
 
+- `E198-cross-repo-boundary-target-premise-typing-2026-07-22.md`
+  removes the final admitted proof term from the boundary-parent target by
+  typing the missing self-closure leg as `¬ WeaklyPointSurjective T`, adds the
+  boundary modules to the default Lean target, and records a clean 12-job build.
+  The physical GU instance still requires a source-owned operator/domain/end
+  packet and assembly map; the old product-uniform surrogate is insufficient.
 - `E196-d-fork-disclosure-adversary-hardening-2026-07-22.md`
   discharges the Wave-1 TI-2 item (steering label "E180"; reassigned E196 to
   avoid clobbering the occupied E180). It grades the E041/E042/E045

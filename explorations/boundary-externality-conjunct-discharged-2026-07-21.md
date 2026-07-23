@@ -29,6 +29,12 @@ runnable:
 
 # Boundary externality conjunct discharged: the TARGET's `sorry` split
 
+> **2026-07-22 formal-status correction:** E198 / RUN-0205 removes the target's
+> remaining admitted proof term by typing leg (a) as
+> `H_leg_a : ¬ WeaklyPointSurjective T`. Historical discussion below of the
+> split admission remains provenance only. GU's physical self-closure instance
+> is still source-gapped, and the TaF retraction remains separately untyped.
+
 ## Correction after hostile verification
 
 GU commit `a0a1401` materially narrows this result. The Lean proof term remains
