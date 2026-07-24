@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-20",
+  "updated": "2026-07-23",
   "authority": "repo-local stewardship",
   "selection_contract": {
     "progress_must_load_this_file": true,
@@ -10,7 +10,7 @@
     "rerank_after_every_material_run": true,
     "difficulty_is_not_a_demotion_signal": true,
     "blocked_is_not_complete": true,
-    "no_wait_only_state": "If no external packet exists, actively generate or kill a source-native candidate or strengthen its completion attack. Do not repeat closed synthetic controls.",
+    "no_wait_only_state": "If no qualifying packet exists, rerank the formal reserve for an exact Lane-1 blocker. If neither is executable, hold the gate through Lane A; do not fabricate a candidate, run a generic scout, or repeat closed controls.",
     "minimum_material_output": "A typed physical candidate, native source-law derivation attempt, whole-family completion attack, proof or counterexample, executable discriminator, or observable-separation result. A wait note, packet wrapper, or narrative alone is insufficient.",
     "ranking_formula": "2*impact + 2*information_gain + readiness + distinctiveness - effort - wall_risk - duplication_risk"
   },
@@ -33,23 +33,23 @@
         "wall_risk": 5,
         "duplication_risk": 0
       },
-      "current_authority": "CompletionClass v1 and the E177 three-world discriminator are bounded instruments. They do not establish physical issuance. The anti-collapse throughput, effective-gauge/topological-sector, monitored-dynamics, gravitational observer-algebra, CRISPR sequence-acquisition, dynamic/Floquet scheduled-code, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, and crack-branching/fracture-interface candidates failed closed. RUN-0177 closed the whole-family completion tournament as scoped class-level absorption across the twelve material physical-campaign classes. Physical witness generation may resume only for a structurally new candidate with source-owned law, internal anti-after-naming, W4 nonfactorization, native carrier or algebra growth, matched resources, and observable difference from the strongest fixed rival.",
+      "current_authority": "CompletionClass v1 and the E177 three-world discriminator are bounded instruments. They do not establish physical issuance. The anti-collapse throughput, effective-gauge/topological-sector, monitored-dynamics, gravitational observer-algebra, CRISPR sequence-acquisition, dynamic/Floquet scheduled-code, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, crack-branching/fracture-interface, and RUN-0204 spectral-gap/Wang-tiling candidates failed closed. RUN-0177 closed the whole-family completion tournament as scoped class-level absorption, and RUN-0204 showed that undecidable infinite-family classification does not make fixed finite stages non-c.e. Physical witness generation may resume only for a structurally new candidate with source-owned law, internal anti-after-naming, W4 nonfactorization, native carrier or algebra growth, matched resources, and observable difference from the strongest fixed rival.",
       "latest_material_swing": {
-        "run_id": "RUN-0177",
-        "artifact": "explorations/E194-physical-witness-completion-tournament-2026-07-18.md",
-        "candidate": "physical_witness_completion_tournament",
-        "verdict": "SCOPED_CLASS_LEVEL_ABSORPTION",
-        "next_handoff": "Resume physical witness generation only for a structurally new non-overlapping candidate with source-owned transition law, internal anti-after-naming, W4 perturbation nonfactorization, native carrier or algebra growth, matched intervention/resource budget, and observable difference from the strongest fixed rival."
+        "run_id": "RUN-0204",
+        "artifact": "explorations/E197-ti1-spectral-gap-finite-stage-operativity-2026-07-22.md",
+        "candidate": "spectral_gap_wang_tiling_finite_stage_operativity",
+        "verdict": "PHYSICAL_PREDICTIVE_ABSORPTION",
+        "next_handoff": "Hold the gate. Reopen only for a structurally new six-criterion physical packet, non-c.e. finite-stage admissibility, productive rule change, proved E196 source-degree separation, or an exact new formal blocker that directly enables one of those tests."
       },
       "kill_condition": "If every physically legitimate candidate is reproducible by an admitted fixed-source, whole-family, history, boundary, stochastic, resource, access, relabeling, or gauge completion, preserve the scoped absorption and narrow TI rather than moving the completion goalposts.",
       "forbidden_shortcut": "Do not promote unpredictability, randomness, chaos, computation cost, irreversibility, observer ignorance, quantum indeterminacy, or a changing description into source issuance.",
       "internal_work_items": [
         {
           "id": "TI-PHYSICAL-WITNESS-GENERATION",
-          "state": "READY",
+          "state": "READY_ON_QUALIFYING_PACKET",
           "priority_score": 24,
           "hourly_eligible": true,
-          "next_swing": "Select one physically serious non-overlapping candidate only if it passes tools/physical_candidate_survivor_intake.py: all six survivor criteria plus physical-record preservation need supplied status, evidence reference, and falsifier, with named construction and strongest fixed rival. Intake admission is for adjudication only. Do not repeat anti-collapse throughput, emergent effective-gauge/topological-sector, monitored-dynamics phase-transition, gravitational observer-algebra bookkeeping, CRISPR/adaptive immune sequence-space occupancy, dynamic/Floquet scheduled-code logical-sector, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process/nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, or crack-branching/fracture-interface claims unless their missing source-law objects appear.",
+          "next_swing": "Select one physically serious non-overlapping candidate only if it passes tools/physical_candidate_survivor_intake.py: all six survivor criteria plus physical-record preservation need supplied status, evidence reference, and falsifier, with named construction and strongest fixed rival. Intake admission is for adjudication only. Do not repeat anti-collapse throughput, emergent effective-gauge/topological-sector, monitored-dynamics phase-transition, gravitational observer-algebra bookkeeping, CRISPR/adaptive immune sequence-space occupancy, dynamic/Floquet scheduled-code logical-sector, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process/nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, crack-branching/fracture-interface, or spectral-gap/Wang-tiling claims unless their missing source-law objects appear.",
           "intake_gate_2026_07_22": "E195 closes the prose-to-intake enforcement blocker. A label-only packet now fails closed; even a shape-complete packet returns ADMIT_FOR_ADJUDICATION_ONLY and establishes no physical source issuance. Run the registered targeted test before substantive source, CompletionClass, and observable-separation adjudication.",
           "success_condition": "A typed candidate supplies a native transition and source law, matched physical context, boundary response, W4 nonfactorization, and a residual not already encoded in the preregistered fixed family.",
           "kill_condition": "The candidate is only observer-side projection, access change, record readout, fixed-family selection, effective low-energy/gauge description, or a restatement of a previously absorbed class."
@@ -108,7 +108,7 @@
       "purpose": "Formal local issuance, Lean fixtures, and conditional theorems that directly support the physical witness campaign.",
       "activation": "Select only when it closes a named active-lane blocker or no active physical candidate work is executable.",
       "forbidden_shortcut": "Do not let another clean formal/local witness replace the unresolved physical source question.",
-      "latest_result": "RUN-0205/E198 typed the cross-repo self-closure premise, removed the formal admission, imported both boundary modules into the default Lean target, repaired two namespace-resolution defects exposed by that integration, and passed all 12 build jobs. Physical GU and TaF instantiation remain open; no claim or Lane movement.",
+      "latest_result": "RUN-0205/E198 typed the cross-repo self-closure premise, removed the formal admission, imported both boundary modules into the default Lean target, repaired two namespace-resolution defects exposed by that integration, and passed all 12 build jobs. Its named blocker is closed; reserve work is not executable again until an exact new Lane-1 blocker appears. Physical GU and TaF instantiation remain open; no claim or Lane movement.",
       "parent_lane_id": "1"
     }
   ],

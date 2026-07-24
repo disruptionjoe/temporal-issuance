@@ -3,13 +3,53 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0201
+updated_by_run: RUN-0207
 intake_processed_by_run: RUN-0046
 ---
 
 # Next Trigger Plan
 
-## ACTIVE 2026-07-22: TI-1 Physical Swing, Armed by TI-2/E196 (Wave-1 re-rank)
+## ACTIVE 2026-07-23: Post-E197 Hold Gate
+
+RUN-0204 executed the spectral-gap / Wang-tiling finite-stage-operativity
+candidate selected below. E197 found that every realized finite object is
+computably generated while undecidability attaches only to the infinite-family
+verdict. The candidate therefore closed as
+`PHYSICAL_PREDICTIVE_ABSORPTION`, a clean candidate-level N1 falsification.
+RUN-0205 then closed the only named formal-reserve blocker, and RUN-0206 found
+no replacement Progress candidate at current revision.
+
+Current disposition:
+
+```yaml
+lane_1: active
+executable_progress_candidate: none
+physical_candidate_gate: waiting_for_structurally_new_six_criterion_packet
+formal_reserve_gate: waiting_for_exact_new_lane_1_blocker
+claim_status_change: none
+TI_C020_reopened: false
+```
+
+Active next trigger:
+
+```text
+none — hold the gate; do not manufacture a candidate or repeat closed reserve work
+```
+
+Reopen Progress only for one of:
+
+1. a structurally new physical candidate that passes all six survivor criteria
+   plus physical-record preservation;
+2. non-c.e. finite-stage admissibility, productive rule change, or a proved
+   E196 source-degree separation;
+3. an exact new formal blocker whose closure directly enables one of those
+   tests; or
+4. a material mailbox, claim, authority, Lane/control, or repository change.
+
+Repository S2-S5 is fresh through `2026-07-30T20:07:32-05:00` absent material
+change. TI-3 remains orthogonal and is not a substitute for source progress.
+
+## RESOLVED 2026-07-22: TI-1 Physical Swing, Armed by TI-2/E196 (Wave-1 re-rank)
 
 RUN-0201 executed the Wave-1 triple-diamond prep **TI-2** item as a
 `FORMAL-ISSUANCE-BYPRODUCTS` reserve action (its activation test was met: it
@@ -89,7 +129,7 @@ No claim status changes, no `TI-C020` reopen, no `E177` mutation, and no
 cross-repo verdict are authorized by this trigger. E196 promotes nothing;
 `TI-C019` remains formalizing.
 
-## ACTIVE 2026-07-18: Physical Witness Generation After Tournament
+## PRESERVED 2026-07-18: Physical Witness Generation After Tournament
 
 RUN-0177 closed the whole-family completion tournament selected by RUN-0176.
 The composed CompletionClass v1 panel absorbed all twelve material physical

@@ -1,31 +1,31 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-22T20:56:00-05:00"
-run_ref: agent-runs/RUN-0204-ti1-spectral-gap-finite-stage-operativity.md
-bottom_line: "E197 resolves the spectral-gap/Wang-tiling TI-1 candidate on the negative side: each finite realized stage is computably generated while only the infinite-family verdict is undecidable. This is clean candidate-level N1 falsification, not TI-C019 movement."
-decision_default: "Do not treat undecidable limit predicates or uncomputably delayed crossovers as issuance. Reopen this route only for non-c.e. finite-stage admissibility, productive rule change, or an E196 source-degree separation."
+updated_at: "2026-07-23T22:26:48-05:00"
+run_ref: agent-runs/RUN-0207-post-e197-steering-reconciliation.md
+bottom_line: "The resolved E197 route is no longer active: Lane 1 has no executable candidate, so hold the six-criterion gate."
+decision_default: "Do not fabricate candidate coverage or repeat the closed formal reserve; reopen only on an exact Progress wake."
 needs_joe: false
 lanes:
   - lane_id: "1"
-    work_status: moving
-    last_movement: "RUN-0204/E197 classified the spectral-gap/Wang-tiling finite-stage face as computable/c.e.; undecidability sits in the thermodynamic-limit classifier, so this candidate banks the N1 falsification branch."
+    work_status: thin
+    last_movement: "RUN-0204/E197 found finite spectral-gap/Wang-tiling stages c.e.; undecidability remains at the family verdict."
     movement_ref: agent-runs/RUN-0204-ti1-spectral-gap-finite-stage-operativity.md
     steering_attention: watch
-    steering_prompt: "North Star = TI-1 finite-stage-operativity swing on already-undecidable physics (Cubitt-Perez-Garcia-Wolf spectral-gap / Wang-tile). It is best-armed now that TI-2/E196 supplies the input contract. Prioritize structurally new physical candidates meeting the six survivor criteria plus physical-record preservation through the E195 intake contract; the named D-FORK adversary blocker is now closed to a located L5 posit, so do not re-run formal-reserve restatement unless a new blocker appears."
+    steering_prompt: "Hold the six-criterion gate; reopen only for a new physical packet or exact formal blocker."
     steering_ref: explorations/2026-07-22-wave1-triple-diamond-prep-steering.md
-    light: green
-    reason_code: spectral_gap_finite_stage_ce_absorption
+    light: yellow
+    reason_code: no_qualifying_candidate_post_e197
     evidence_ref: explorations/E197-ti1-spectral-gap-finite-stage-operativity-2026-07-22.md
-    summary: "The fixed Hamiltonian/tile rule computably generates every finite object; undecidability and uncomputable crossover concern the all-sizes verdict, not productive finite-stage source growth."
+    summary: "Finite objects are c.e.; an undecidable all-sizes verdict is not productive finite-stage source growth."
     evaluated_at: "2026-07-22T20:56:00-05:00"
     run_ref: agent-runs/RUN-0204-ti1-spectral-gap-finite-stage-operativity.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "Separated computable finite-stage generation from undecidable thermodynamic-limit classification and issued a candidate-level PHYSICAL_PREDICTIVE_ABSORPTION verdict with explicit resurrection conditions."
-    scope_position: "The spectral-gap/Wang-tiling route joins the absorbed physical candidates; TI-C019, E196, and the wider source question remain unchanged."
+    progress_delta: "RUN-0204 separated computable finite-stage generation from the global classifier and closed the candidate negatively."
+    scope_position: "Spectral-gap/Wang-tiling is absorbed; TI-C019 and E196 remain unchanged."
     trend_24h: up
     confidence: high
-    recommendation: "Preserve the finite-stage/global-verdict split and require a genuinely non-c.e. finite-stage source before reopening this candidate."
+    recommendation: "Hold the gate until an exact Progress wake appears."
     findings:
       - "RUN-0204/E197 is the latest material movement: every fixed finite Hamiltonian/tiling object is computably generated, while undecidability attaches to the all-sizes verdict."
       - "An uncomputably large crossover defeats bounded inference but remains encoded in the fixed construction; delayed disclosure is not productive rule change."
@@ -45,37 +45,37 @@ lanes:
         label: "Formal reserve"
         recommended: true
         summary: "When no physical candidate is executable, select only work that closes a named physical-lane blocker."
-    decision_default: "Prioritize the physical gate, then apply the formal-reserve activation test before no_worthy_work."
+    decision_default: "Hold the physical gate; use formal reserve only for an exact new blocker."
     needs_joe: false
   - lane_id: A
     work_status: moving
-    last_movement: "RUN-0202 reconciled the strategic reprioritization across Lane, trigger, portfolio, claim, supplier, and hard-cut boundaries."
-    movement_ref: agent-runs/RUN-0202-strategic-reprioritization-steward-rerank.md
+    last_movement: "RUN-0207 removed the resolved E197 route from active steering and aligned the portfolio to the current hold gate."
+    movement_ref: agent-runs/RUN-0207-post-e197-steering-reconciliation.md
     steering_attention: none
     steering_prompt: none
     steering_ref: agent-runs/RUN-0193-gu-externality-bridge-gap-correction.md
     light: green
-    reason_code: strategic_reprioritization_reconciled
-    evidence_ref: LANES.yaml; agent-governance/NEXT-TRIGGER-PLAN.md; explorations/E196-d-fork-disclosure-adversary-hardening-2026-07-22.md
-    summary: "The source question is unchanged; the exhausted domain-scanning method is demoted, TI-1 is the decidable North-Star swing, E196 is a first-class native byproduct, and TI supplies rather than integrates the shared object."
-    evaluated_at: "2026-07-22T16:23:59-05:00"
-    run_ref: agent-runs/RUN-0202-strategic-reprioritization-steward-rerank.md
+    reason_code: post_e197_steering_reconciled
+    evidence_ref: agent-governance/NEXT-TRIGGER-PLAN.md; steward/research-portfolio.json; agent-runs/RUN-0204-ti1-spectral-gap-finite-stage-operativity.md
+    summary: "Active steering now reflects E197's negative endpoint and RUN-0206's no-candidate rerank."
+    evaluated_at: "2026-07-23T22:26:48-05:00"
+    run_ref: agent-runs/RUN-0207-post-e197-steering-reconciliation.md
     objective: "Keep Temporal Issuance viable and trustworthy through stewardship, audit, and escalation."
-    progress_delta: "Reconciled the 2026-07-22 strategic reprioritization without changing the North Star, claim status, or constitutional posture."
-    scope_position: "TI-1 owns the independently testable issuance/computability leg; Dynamic Unity alone combines sibling legs; TI-3 remains orthogonal to D-FORK."
+    progress_delta: "Removed the resolved spectral-gap route from active steering and aligned the portfolio to the exact hold gate."
+    scope_position: "TI owns the source leg; Dynamic Unity integrates; TI-3 remains orthogonal."
     trend_24h: up
     confidence: high
-    recommendation: "Preserve the TI/DU supplier-integrator boundary and aim the next material Progress at the two-sided TI-1 finite-stage operativity swing."
+    recommendation: "Keep steering quiet until an exact Progress wake."
     findings:
-      - "The strategic reprioritization changes within-Lane method and output ranking, not TI's Purpose, North Star, claims, or constitutional governance."
-      - "E196 closes its named reserve blocker only to a conditional theorem plus a located L5 posit; physical oracle-boundedness remains unproved."
-      - "The twelve physical class absorptions remain scoped with explicit resurrection objects; demoting open-ended domain scanning does not kill the source question."
+      - "The prior active trigger still named RUN-0204's already-resolved spectral-gap candidate."
+      - "The portfolio still exposed physical witness generation as immediately ready despite the current no-candidate gate."
+      - "Both surfaces now preserve the exact physical and formal-reserve wakes without changing protected scientific truth."
       - "NBL-REL-004 supplies context only; TI remains sovereign and Dynamic Unity is the integrator."
     options:
       - letter: A
         label: "Keep quiet"
         recommended: true
-        summary: "Preserve the correction without pretending the cross-repo assembly is proved."
+        summary: "Preserve the corrected hold gate until new evidence arrives."
       - letter: B
         label: "Deep audit"
         recommended: false
@@ -84,13 +84,13 @@ lanes:
         label: "Escalate"
         recommended: false
         summary: "Not needed; no Joe-facing blocker is present."
-    decision_default: "Keep stewardship quiet after this reconciliation unless a new authority, identity, claim-boundary, or supplier-integrator conflict appears."
+    decision_default: "Keep stewardship quiet unless an exact Progress or integrity wake appears."
     needs_joe: false
     drift_verdict: clean
     action_counts:
-      mail: 1
-      reconciled: 3
-      integrity_repairs: 0
+      mail: 0
+      reconciled: 2
+      integrity_repairs: 1
       seeds_routed: 0
       escalations: 0
-    attention_pointer: "TI-1 is the armed two-sided swing: finite-stage c.e. operativity is a clean N1 falsification; productive self-reference is the positive construction. E196 is a first-class byproduct and input, not physical proof. TI supplies its leg to Dynamic Unity and does not integrate the assembly."
+    attention_pointer: "Nothing needs Joe; Lane 1 is thin but correctly gated after E197."
