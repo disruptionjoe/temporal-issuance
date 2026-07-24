@@ -1,51 +1,51 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-23T22:26:48-05:00"
-run_ref: agent-runs/RUN-0207-post-e197-steering-reconciliation.md
-bottom_line: "The resolved E197 route is no longer active: Lane 1 has no executable candidate, so hold the six-criterion gate."
-decision_default: "Do not fabricate candidate coverage or repeat the closed formal reserve; reopen only on an exact Progress wake."
+updated_at: "2026-07-24T18:45:08-05:00"
+run_ref: agent-runs/RUN-0211-e196-fixed-oracle-countermodel.md
+bottom_line: "E199 narrows E196: stage-0 fixedness does not bound oracle degree or future correlation; the next physical swing must justify those restrictions construction-by-construction."
+decision_default: "Test the corrected degree/access and future-independence contract in one named physical construction."
 needs_joe: false
 lanes:
   - lane_id: "1"
-    work_status: thin
-    last_movement: "RUN-0204/E197 found finite spectral-gap/Wang-tiling stages c.e.; undecidability remains at the family verdict."
-    movement_ref: agent-runs/RUN-0204-ti1-spectral-gap-finite-stage-operativity.md
+    work_status: moving
+    last_movement: "RUN-0211/E199 constructed one fixed pre-correlated oracle that reproduces the realized trace without oracle reselection, correcting E196's stronger corollary."
+    movement_ref: agent-runs/RUN-0211-e196-fixed-oracle-countermodel.md
     steering_attention: watch
-    steering_prompt: "Hold the six-criterion gate; reopen only for a new physical packet or exact formal blocker."
-    steering_ref: explorations/2026-07-22-wave1-triple-diamond-prep-steering.md
+    steering_prompt: "Justify or falsify the corrected discloser degree/access and future-independence contract in a named physical construction."
+    steering_ref: explorations/E199-e196-fixed-oracle-countermodel-2026-07-24.md
     light: yellow
-    reason_code: no_qualifying_candidate_post_e197
-    evidence_ref: explorations/E197-ti1-spectral-gap-finite-stage-operativity-2026-07-22.md
-    summary: "Finite objects are c.e.; an undecidable all-sizes verdict is not productive finite-stage source growth."
-    evaluated_at: "2026-07-22T20:56:00-05:00"
-    run_ref: agent-runs/RUN-0204-ti1-spectral-gap-finite-stage-operativity.md
+    reason_code: e196_fixed_oracle_boundary_corrected
+    evidence_ref: explorations/E199-e196-fixed-oracle-countermodel-2026-07-24.md
+    summary: "A fixed oracle can encode realized or counterfactual path information; the surviving guard is explicit non-reducibility, not stage-fixedness."
+    evaluated_at: "2026-07-24T18:45:08-05:00"
+    run_ref: agent-runs/RUN-0211-e196-fixed-oracle-countermodel.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "RUN-0204 separated computable finite-stage generation from the global classifier and closed the candidate negatively."
-    scope_position: "Spectral-gap/Wang-tiling is absorbed; TI-C019 and E196 remain unchanged."
+    progress_delta: "RUN-0211 removed an invalid fixed-versus-re-indexed protection and split the physical hinge into degree/access, causal-source-separation, and future-independence assumptions."
+    scope_position: "E196's conditional degree guard survives; its stronger corollary is corrected. TI-C019 remains formalizing and TI-C020 parked."
     trend_24h: up
     confidence: high
-    recommendation: "Hold the gate until an exact Progress wake appears."
+    recommendation: "Pressure the corrected physical discloser contract in one named construction."
     findings:
-      - "RUN-0204/E197 is the latest material movement: every fixed finite Hamiltonian/tiling object is computably generated, while undecidability attaches to the all-sizes verdict."
-      - "An uncomputably large crossover defeats bounded inference but remains encoded in the fixed construction; delayed disclosure is not productive rule change."
-      - "E196's source-degree separation is not established because the finite-stage source is low-degree; physical oracle-boundedness remains a separate unproved posit."
-      - "The candidate-level N1 falsification is a successful negative result and changes no TI claim status."
+      - "A single stage-0-fixed oracle O_H computing the joined option-set and realized-path information supports a static disclosure schedule without oracle reselection."
+      - "A fixed oracle may encode an entire counterfactual branch family, so trace intervention alone does not close the rival."
+      - "Stage-fixed, degree-bounded, and future-independent are distinct properties; NAA-Q does not independently impose the latter two on an external adversary."
+      - "The corrected theorem says J_H not <=_T O defeats an O-computable schedule; physical justification of that antecedent remains open."
       - "TI-3 remains orthogonal and untouched."
     options:
       - letter: A
-        label: "Hold gate"
+        label: "Physical contract"
         recommended: true
-        summary: "Keep the six criteria intact for physical-candidate admission."
+        summary: "Test degree/access and future-independence in a named construction."
       - letter: B
-        label: "Candidate scout"
+        label: "Qualified candidate"
         recommended: false
-        summary: "Use only if a concrete source-law object is supplied."
+        summary: "Adjudicate only a construction that also clears the six-criterion gate."
       - letter: C
-        label: "Formal reserve"
-        recommended: true
-        summary: "When no physical candidate is executable, select only work that closes a named physical-lane blocker."
-    decision_default: "Hold the physical gate; use formal reserve only for an exact new blocker."
+        label: "Further formalism"
+        recommended: false
+        summary: "Use only for a new theorem or counterexample touching the corrected contract."
+    decision_default: "Test the corrected physical discloser contract construction-by-construction."
     needs_joe: false
   - lane_id: A
     work_status: moving

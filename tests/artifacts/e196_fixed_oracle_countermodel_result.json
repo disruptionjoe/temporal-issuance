@@ -1,0 +1,75 @@
+{
+  "claim_status_change": null,
+  "corrected_guard": "Let J be the join of the realized option-set and path-selection information. An O-computable fixed disclosure schedule is defeated only when J is not Turing-reducible to O. Stage-0 fixedness alone does not imply that condition.",
+  "fixed_countermodel_count": 2,
+  "oracle_reselection_required_for_escape": false,
+  "physical_realizability_established": false,
+  "result": "E196_BOUNDARY_NARROWED_BY_FIXED_ORACLE_COUNTERMODEL",
+  "rows": [
+    {
+      "adversary_id": "fixed_realized_history_oracle",
+      "counterfactual_family_covered": false,
+      "missing_requirements": [],
+      "oracle_fixed_at_stage_zero": true,
+      "oracle_reselected_after_stage_zero": false,
+      "physical_realizability_established": false,
+      "reproduces_realized_trace": true,
+      "source_issuance_established": false,
+      "verdict": "FIXED_PRECORRELATED_ORACLE_COUNTERMODEL"
+    },
+    {
+      "adversary_id": "fixed_branch_complete_oracle",
+      "counterfactual_family_covered": true,
+      "missing_requirements": [],
+      "oracle_fixed_at_stage_zero": true,
+      "oracle_reselected_after_stage_zero": false,
+      "physical_realizability_established": false,
+      "reproduces_realized_trace": true,
+      "source_issuance_established": false,
+      "verdict": "FIXED_PRECORRELATED_ORACLE_COUNTERMODEL"
+    },
+    {
+      "adversary_id": "fixed_option_only_oracle",
+      "counterfactual_family_covered": false,
+      "missing_requirements": [
+        "realized_path"
+      ],
+      "oracle_fixed_at_stage_zero": true,
+      "oracle_reselected_after_stage_zero": false,
+      "physical_realizability_established": false,
+      "reproduces_realized_trace": false,
+      "source_issuance_established": false,
+      "verdict": "CORRECTED_DEGREE_GUARD_DEFEATS_DISCLOSER"
+    },
+    {
+      "adversary_id": "fixed_path_only_oracle",
+      "counterfactual_family_covered": false,
+      "missing_requirements": [
+        "option_set_join"
+      ],
+      "oracle_fixed_at_stage_zero": true,
+      "oracle_reselected_after_stage_zero": false,
+      "physical_realizability_established": false,
+      "reproduces_realized_trace": false,
+      "source_issuance_established": false,
+      "verdict": "CORRECTED_DEGREE_GUARD_DEFEATS_DISCLOSER"
+    },
+    {
+      "adversary_id": "adaptive_source_reader",
+      "counterfactual_family_covered": false,
+      "missing_requirements": [
+        "option_set_join",
+        "realized_path",
+        "schedule_oracle_access"
+      ],
+      "oracle_fixed_at_stage_zero": true,
+      "oracle_reselected_after_stage_zero": false,
+      "physical_realizability_established": false,
+      "reproduces_realized_trace": true,
+      "source_issuance_established": false,
+      "verdict": "ADAPTIVE_SOURCE_COPY_NOT_STATIC_DISCLOSURE"
+    }
+  ],
+  "source_issuance_established": false,
+  "stage_zero_fixedness_sufficient_for_defeat": false
+}

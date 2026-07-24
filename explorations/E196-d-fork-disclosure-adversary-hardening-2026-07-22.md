@@ -36,6 +36,16 @@ numbering_note: >
 
 # E196: D-FORK Disclosure-Adversary Hardening (TI-1 Input)
 
+> **Correction (E199 / RUN-0211, 2026-07-24).** The conditional
+> non-reducibility theorem in §3 survives, but the stronger claim that a
+> stage-0-fixed oracle cannot encode the realized path does not. One fixed
+> oracle can contain the option-set join and realized path (or an entire
+> counterfactual branch family) without reselection. "Stage-fixed,"
+> "degree-bounded," and "future-independent" are distinct. The corrected
+> theorem boundary and executable countermodel are in
+> `E199-e196-fixed-oracle-countermodel-2026-07-24.md`. Read E199 before using
+> E196's corollary, §§4–7, or "only escape" language.
+
 ## Purpose and framing (read first)
 
 This exploration discharges the **TI-2** item of the 2026-07-22 Wave-1 triple-diamond prep

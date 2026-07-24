@@ -995,3 +995,29 @@ claim_refs:
   - TI-C020
   - TI-C001
 ```
+
+## RUN-0211
+
+```yaml
+path: stage_zero_fixed_oracle_as_sufficient_discloser_bound
+reason_killed: >
+  E199 constructs one oracle fixed at stage 0 that computes the joined
+  option-set and realized-path information, allowing a static oracle-relative
+  disclosure schedule to reproduce the trace without reselection. A single
+  oracle can also encode a complete counterfactual branch family.
+evidence: >
+  `explorations/E199-e196-fixed-oracle-countermodel-2026-07-24.md`,
+  `tools/e196_fixed_oracle_countermodel.py`, and
+  `tests/artifacts/e196_fixed_oracle_countermodel_result.json`.
+local_minimum_risk: >
+  High if over-read. The countermodel is mathematical; it does not establish
+  that completed history or branch oracles are physically realizable or
+  accessible.
+possible_future_resurrection_trigger: >
+  None for fixedness alone. A physical construction may still defeat static
+  disclosure by independently proving a degree/access bound and
+  future-independence.
+run_ref: RUN-0211
+claim_refs:
+  - TI-C019
+```

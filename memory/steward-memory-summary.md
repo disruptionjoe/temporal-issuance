@@ -3,7 +3,7 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0205
+last_summarized_run: RUN-0211
 ---
 
 # Steward Memory Summary
@@ -35,10 +35,23 @@ record of why direct arrow-of-time/physics derivation was deprioritized.
 ```yaml
 current_TI_derives_physics: no
 conditional_physics_bridge_found: yes
-strongest_current_fixture_result: physical_witness_completion_tournament_scoped_absorption
+strongest_current_fixture_result: e196_fixed_oracle_boundary_corrected
 bare_Ext_S_derives_connection: no
-next_required_test: structurally_new_physical_source_law_candidate_with_six_survivor_criteria
+next_required_test: named_physical_construction_for_degree_access_and_future_independence
 ```
+
+RUN-0211 / E199 corrects E196's stronger claim that escape from its
+oracle-bounded theorem requires history-indexed oracle reselection. A single
+oracle fixed at stage 0 can encode the joined option-set and realized-path
+information, or an entire counterfactual branch family, and support a static
+read-off schedule without reselection. E196's conditional guard survives:
+when required source join `J_H` is not Turing-reducible to oracle `O`, no
+`O`-computable schedule reproduces the trace. But stage-fixedness does not
+imply degree-boundedness or future-independence, and NAA-Q does not independently
+impose either condition on an external adversary. The next physical swing must
+justify or falsify degree/access bounds, causal-source separation, and
+future-independence in one named construction. No physical realizability,
+source issuance, claim movement, `TI-C020` reopen, or cross-repo verdict.
 
 RUN-0184 reconciles GU's follow-up coflip notice as a grade update to the
 RUN-0180 handoff. GU reports that the Z/2 coflip now has a matrix-verified

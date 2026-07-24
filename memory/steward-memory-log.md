@@ -1931,3 +1931,34 @@ Files changed: `agent-governance/NEXT-TRIGGER-PLAN.md`,
 `steward/research-portfolio.json`, `LANE-STATE.yaml`,
 `memory/steward-memory-log.md`, and
 `agent-runs/RUN-0207-post-e197-steering-reconciliation.md`.
+
+## RUN-0211
+
+Timestamp: 2026-07-24
+Trigger: scheduled Repository Work Cycle, purpose-driven Progress
+Workflow: repo-progress-run (execute), Lane 1
+Agent / subagents used: Repo Steward (direct mount).
+Current strongest version: E196's conditional degree guard survives exactly
+when the joined option/path information `J_H` is not Turing-reducible to the
+declared discloser oracle `O`.
+Current strongest objection: A single stage-0-fixed oracle can encode the
+realized history or an entire counterfactual branch family without reselection;
+stage-fixedness therefore supplies neither a degree bound nor
+future-independence.
+What collapsed: E196's stronger "only history-re-indexed oracles escape"
+corollary and its use of NAA-Q to exclude a pre-correlated external adversary.
+What survived: The conditional non-reducibility theorem, the need to distinguish
+static disclosure from adaptive source copying, and the physical source
+question.
+What was absorbed: Stage-fixed oracle language as a sufficient physical
+restriction.
+What was clarified: The positive physical burden has three independent parts:
+degree/access bound, causal-source separation, and future-independence, all
+grounded in a named construction.
+What was promoted: None. TI-C019 remains formalizing; TI-C020 remains parked.
+New blockers: No named physical construction currently justifies the corrected
+discloser contract.
+Recommended next run: Test that contract against one named physical
+construction and its strongest fixed rival.
+Files changed: E199 countermodel/executable/test surfaces, E196 correction,
+current claim/roadmap/portfolio/Lane/trigger truth, memory, and RUN-0211.

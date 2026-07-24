@@ -370,7 +370,40 @@ TI-C019:
     analog). No promotion for TI-C019 yet; FUNCTOR-OBL-001 and Q-OBL-001 remain open.
 ```
 
-## E196 D-FORK Disclosure-Adversary Hardening Addendum (2026-07-22, no status change)
+## E199 Fixed-Oracle Countermodel Correction (2026-07-24, no status change)
+
+```yaml
+TI-C019:
+  status: formalizing        # UNCHANGED. No promotion.
+  effect: e196_fixed_oracle_boundary_corrected
+  correction: >
+    E199 (RUN-0211) supplies a mathematical countermodel to E196's stronger
+    fixed-versus-re-indexed corollary. One oracle O_H fixed at stage 0 can
+    compute the joined stagewise option-set and realized path information and
+    therefore support a fixed O_H-computable disclosure schedule without any
+    oracle reselection. A single fixed oracle may likewise encode an entire
+    counterfactual branch family. The surviving E196 theorem is conditional:
+    if the required join J_H is not Turing-reducible to O, no O-computable
+    schedule reproduces the trace. Stage-fixedness alone does not imply this
+    degree bound, and NAA-Q does not independently exclude a static adversary
+    pre-correlated with the future.
+  physical_burden:
+    - bound admitted discloser degree and physical oracle access below J_H
+    - classify post-stage-0 source reads as adaptive copying, not static disclosure
+    - justify future-independence rather than granting a completed history or branch oracle
+    - name the physical construction supporting those restrictions
+  evidence_refs_added:
+    - explorations/E199-e196-fixed-oracle-countermodel-2026-07-24.md
+    - tools/e196_fixed_oracle_countermodel.py
+    - tests/artifacts/e196_fixed_oracle_countermodel_result.json
+    - agent-runs/RUN-0211-e196-fixed-oracle-countermodel.md
+  next_action: >
+    Justify or falsify the degree/access and future-independence assumptions in
+    one named physical construction. Do not reuse "fixed at stage 0" as a
+    substitute for either assumption.
+```
+
+## E196 D-FORK Disclosure-Adversary Hardening Addendum (2026-07-22, corrected by E199)
 
 ```yaml
 TI-C019:
@@ -381,14 +414,13 @@ TI-C019:
     non-computable-fixed-oracle disclosure adversary). It parameterises the SSC disclosure
     adversary by oracle strength (SSC[d]) and proves a CONDITIONAL THEOREM: under a Gödelian
     source, every ORACLE-BOUNDED adversary (oracle fixed at stage 0, not re-indexed by the
-    realized history) is defeated when the source's provability degree along the realized,
-    quorum-chosen trajectory is not <= the discloser's oracle degree. It gives the exact
-    degree-characterization of the escape: the SSC survives only by going oracle-UNBOUNDED
-    (history-indexed), which violates NAA-Q for any stage-0-fixed oracle. The one unproved
-    assumption — that physical disclosers are oracle-bounded — is located as an L5 posit (E057
-    axis stack), NOT proved. This is a TI-1 INPUT, not a claim promotion: it tells the physical
-    source-question fixture (TI-1) exactly what a physical source must posit to be genuinely
-    Gödelian (issuance) rather than disclosure.
+    realized history) is defeated when the joined option/path information is not <= the
+    discloser's oracle degree. E199 corrects the claimed escape characterization: a single
+    stage-0-fixed oracle can already contain the realized path or a whole branch family, so
+    oracle reselection is not required. The surviving theorem is the conditional
+    non-reducibility guard. The physical assumptions are now split into degree/access,
+    causal-source separation, future-independence, and construction disclosure. This remains a
+    TI-1 INPUT, not a claim promotion.
   evidence_refs_added:
     - explorations/E196-d-fork-disclosure-adversary-hardening-2026-07-22.md
     - agent-runs/RUN-0201-d-fork-disclosure-adversary-hardening.md
@@ -396,7 +428,8 @@ TI-C019:
   next_action_unchanged: >
     Physical face (TI-1): determine whether the operative physical source is
     computable-at-finite-stage (N1 falsification = SUCCESS) or productive/Gödelian, and argue the
-    L5 oracle-boundedness posit at the physical layer. E196 arms this swing; it does not decide it.
+    physical degree/access and future-independence restrictions in a named construction. E196 as
+    corrected by E199 arms this swing; neither decides it.
 ```
 
 ---

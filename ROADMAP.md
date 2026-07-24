@@ -32,6 +32,32 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
+## Current frontier update (2026-07-24)
+
+RUN-0211 / E199 attacks the open E196 physical-oracle hinge and finds a
+countermodel to E196's stronger fixed-versus-re-indexed corollary. One
+stage-0-fixed oracle can encode the joined option-set and realized-path
+information, or an entire counterfactual branch family, and support a static
+disclosure schedule without oracle reselection. Therefore:
+
+```yaml
+e196_conditional_nonreducibility_guard: survives
+stage_zero_fixedness_implies_degree_bound: false
+oracle_reselection_required_for_escape: false
+fixed_precorrelated_oracle_exists_mathematically: true
+physical_realizability_established: false
+claim_status_change: none
+```
+
+The active physical burden is now explicit. A positive source construction
+must justify a degree/access bound on admitted disclosers, causal separation
+from adaptive source copying, and future-independence from completed
+history/branch oracles. Those restrictions must come from the named physical
+construction; NAA-Q or "fixed at stage 0" cannot supply them by definition.
+The next compliant swing should argue or falsify this contract in one physical
+model. Another computability restatement, trace-only intervention check, or
+generic candidate scout is not enough.
+
 ## Current frontier update (2026-07-22)
 
 E195 adds a fail-closed, executable intake gate before candidate 13 can enter

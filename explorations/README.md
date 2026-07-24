@@ -20,6 +20,15 @@ They should still preserve:
 
 ## Recent Formal Reserve (D-FORK)
 
+- `E199-e196-fixed-oracle-countermodel-2026-07-24.md` corrects E196's
+  fixed-versus-re-indexed boundary. A single stage-0-fixed oracle can encode
+  the realized option/path join or a counterfactual branch family without
+  reselection. E196's conditional non-reducibility guard survives, but
+  stage-fixedness does not imply degree-boundedness or future-independence.
+  The result splits the physical burden into degree/access, causal-source
+  separation, future-independence, and construction-disclosure assumptions.
+  No physical realizability or source issuance is established and no claim
+  moves.
 - `E198-cross-repo-boundary-target-premise-typing-2026-07-22.md`
   removes the final admitted proof term from the boundary-parent target by
   typing the missing self-closure leg as `¬ WeaklyPointSurjective T`, adds the
@@ -33,11 +42,10 @@ They should still preserve:
   adversary by oracle strength (`SSC[d]`), and states the kill-condition-2
   verdict as a conditional theorem: under a Gödelian source, every
   oracle-BOUNDED adversary is defeated when the source's provability degree
-  exceeds the discloser's oracle degree, with an exact degree-characterization
-  of the escape. It locates oracle-boundedness of physical disclosers as an
-  **L5 posit, NOT proved**, and frames the whole result as a TI-1 input, not a
-  claim promotion. `TI-C019` stays formalizing; no `TI-C020` reopen, no E177
-  mutation, no cross-repo verdict.
+  exceeds the discloser's oracle degree. E199 later corrects its stronger
+  fixed-versus-re-indexed corollary: one fixed pre-correlated oracle is already
+  a mathematical countermodel. The surviving result is the conditional
+  non-reducibility guard, not stage-fixedness as a physical bound.
 
 ## Recent Physical Witness Campaign
 

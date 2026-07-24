@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0207
+updated_by_run: RUN-0211
 intake_processed_by_run: RUN-0046
 ---
 
@@ -18,6 +18,45 @@ claim or repeating closed work. If no compliant research, falsification,
 blocker-resolution, or capability-hardening route can proceed, close with the
 exact evidenced blocker and attempted route. `no_worthy_work` is not a regular
 cycle result; older references below are historical.
+
+## ACTIVE 2026-07-24: Post-E199 Physical Oracle Contract
+
+RUN-0211 / E199 tested E196's open physical oracle boundary with a fixed
+pre-correlated-oracle countermodel.
+
+```yaml
+result: E196_BOUNDARY_NARROWED_BY_FIXED_ORACLE_COUNTERMODEL
+conditional_degree_guard_survives: true
+stage_zero_fixedness_sufficient_for_defeat: false
+oracle_reselection_required_for_escape: false
+fixed_realized_history_oracle: mathematical_countermodel
+fixed_branch_complete_oracle: mathematical_countermodel
+physical_realizability_established: false
+claim_status_change: none
+```
+
+Active next trigger:
+
+```text
+justify or falsify the corrected physical discloser contract in one named
+physical construction
+```
+
+Selection contract:
+
+1. Preserve the theorem that an `O`-computable schedule fails when the joined
+   option/path information `J_H` is not Turing-reducible to `O`.
+2. Do not infer that non-reducibility from stage-0 fixedness. A fixed oracle
+   may encode the realized history or an entire branch family.
+3. A positive construction must separately justify: (a) a physical
+   degree/access bound below `J_H`; (b) causal-source separation, with
+   post-stage-0 source reads classified as adaptive copying; and (c)
+   future-independence from completed history/branch oracles.
+4. Use a named physical construction and its strongest fixed rival. A
+   computability paraphrase, trace-only intervention, or generic candidate
+   scout does not close the burden.
+5. Preserve `TI-C019` formalizing, `TI-C020` parked, and no cross-repo verdict
+   unless later evidence independently clears the repository gates.
 
 ## ACTIVE 2026-07-23: Post-E197 Hold Gate
 
