@@ -7,6 +7,15 @@ constitutional: false
 
 # Roadmap
 
+## Regular Repository Work Cycle rule (2026-07-24)
+
+A CapacityOS regular cycle must make one concrete ambitious
+purpose-connected attempt. Candidate admission and research-integrity gates
+still control what may be claimed or promoted, but they do not authorize a
+`no_worthy_work` close or a prelaunch hold. If no compliant route can proceed
+after a concrete attempt, record the exact evidenced blocker and attempted
+route. Older no-worthy references below are historical.
+
 ## Current Objective
 
 Reach the fastest correct verdict on the Temporal Issuance hypothesis.
@@ -37,8 +46,8 @@ claim movement. The targeted contract is registered in `tests/README.md`.
 
 This gate is candidate-specific. If no physical candidate clears it, rerank
 the subordinate formal reserve for an independent action that closes a named
-active-lane blocker before returning `no_worthy_work`. Do not use the physical
-candidate gate as a repo-wide stop condition.
+active-lane blocker, then apply the regular-cycle rule above. Do not use the
+physical candidate gate as a repo-wide stop condition.
 
 ## Prior frontier update (2026-07-18)
 

@@ -9,6 +9,16 @@ intake_processed_by_run: RUN-0046
 
 # Next Trigger Plan
 
+## Regular Repository Work Cycle rule (2026-07-24)
+
+The hold gate below constrains candidate admission; it does not cancel a
+regular Repository Work Cycle. Each cycle must make one concrete, bounded,
+nonduplicative attempt toward the repository purpose without manufacturing a
+claim or repeating closed work. If no compliant research, falsification,
+blocker-resolution, or capability-hardening route can proceed, close with the
+exact evidenced blocker and attempted route. `no_worthy_work` is not a regular
+cycle result; older references below are historical.
+
 ## ACTIVE 2026-07-23: Post-E197 Hold Gate
 
 RUN-0204 executed the spectral-gap / Wang-tiling finite-stage-operativity
@@ -33,7 +43,8 @@ TI_C020_reopened: false
 Active next trigger:
 
 ```text
-none — hold the gate; do not manufacture a candidate or repeat closed reserve work
+take the best compliant purpose-connected swing; do not manufacture a
+candidate or repeat closed reserve work
 ```
 
 Reopen Progress only for one of:

@@ -8,6 +8,14 @@ last_summarized_run: RUN-0205
 
 # Steward Memory Summary
 
+## Regular cycle overlay (2026-07-24)
+
+A CapacityOS regular cycle makes one concrete ambitious purpose-connected
+attempt under current research-integrity gates. It does not use historical
+`no_worthy_work` or gate-hold instructions as a terminal result. If no
+compliant route can proceed after an attempt, record the exact evidenced
+blocker and attempted route.
+
 ## North Star (RUN-0038, constitutional vNext, Joe-approved)
 
 The deepest claim is now shared participation plus ongoing issuance (`TI-C019`), not monotone
