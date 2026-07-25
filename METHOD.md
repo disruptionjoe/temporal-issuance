@@ -41,3 +41,13 @@ Absorption claims must include:
 - local-minimum risk
 - resurrection trigger
 
+## Operating path and return
+
+Research objects move through framing, construction, attack, interpretation,
+and harden-or-bank disposition. Formal, model, empirical, collision, and paper
+work are selectable methods whose evidence remains typed.
+
+Lane A reranks the research portfolio and protects the North Star from
+finishability bias. Every result returns to its claim or portfolio object with
+construction choice, evidence grade, uncertainty, and an honest next or
+no-change disposition.

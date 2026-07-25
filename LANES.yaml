@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 1
+manifest_revision: 2
 owner:
   owner_id: temporal-issuance
   display_name: Temporal Issuance
@@ -138,3 +138,11 @@ lanes:
   - policy_identity
   - escalation
 special_rules: []
+extensions:
+  operating_architecture:
+    contract_version: "1.0"
+    operating_contract_refs: ["METHOD.md"]
+    work_state_refs: ["CLAIM-LEDGER.md", "ROADMAP.md", "steward/research-portfolio.json"]
+    channel_contract_refs: []
+    lane_a_portfolio_refs: ["LANE-STATE.yaml"]
+    return_contract_refs: ["METHOD.md"]
