@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-24",
+  "updated": "2026-07-25",
   "authority": "repo-local stewardship",
   "selection_contract": {
     "progress_must_load_this_file": true,
@@ -33,13 +33,13 @@
         "wall_risk": 5,
         "duplication_risk": 0
       },
-      "current_authority": "CompletionClass v1 and the E177 three-world discriminator are bounded instruments. They do not establish physical issuance. The anti-collapse throughput, effective-gauge/topological-sector, monitored-dynamics, gravitational observer-algebra, CRISPR sequence-acquisition, dynamic/Floquet scheduled-code, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, crack-branching/fracture-interface, and RUN-0204 spectral-gap/Wang-tiling candidates failed closed. RUN-0177 closed the whole-family completion tournament as scoped class-level absorption, and RUN-0204 showed that undecidable infinite-family classification does not make fixed finite stages non-c.e. RUN-0211/E199 then corrected E196: one stage-0-fixed pre-correlated oracle can encode the realized history or a full branch family without reselection. RUN-0212/E200 shows that spacelike Bell causal separation does not independently derive measurement independence or finite-data Turing-degree separation. The surviving guard is J_H not Turing-reducible to O. A positive physical construction must separately justify the degree/access bound, causal-source separation, and future-independence.",
+      "current_authority": "CompletionClass v1 and the E177 three-world discriminator are bounded instruments. They do not establish physical issuance. The anti-collapse throughput, effective-gauge/topological-sector, monitored-dynamics, gravitational observer-algebra, CRISPR sequence-acquisition, dynamic/Floquet scheduled-code, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, crack-branching/fracture-interface, and RUN-0204 spectral-gap/Wang-tiling candidates failed closed. RUN-0177 closed the whole-family completion tournament as scoped class-level absorption, and RUN-0204 showed that undecidable infinite-family classification does not make fixed finite stages non-c.e. RUN-0211/E199 then corrected E196: one stage-0-fixed pre-correlated oracle can encode the realized history or a full branch family without reselection. RUN-0212/E200 shows that spacelike Bell causal separation does not derive measurement independence or finite-data Turing-degree separation. RUN-0213/E201 shows that Cosmic Bell's explicit excess-predictability budget constrains its declared corrupt-setting model and strengthens causal lookback, but does not type unrestricted stage-0 side-information degree. The surviving guard is J_H not Turing-reducible to O. A positive physical construction must separately justify the degree/access bound, causal-source separation, and future-independence.",
       "latest_material_swing": {
-        "run_id": "RUN-0212",
-        "artifact": "explorations/E200-bell-measurement-independence-contract-2026-07-24.md",
-        "candidate": "bell_measurement_independence_contract",
-        "verdict": "BELL_CAUSAL_SEPARATION_WITH_MEASUREMENT_INDEPENDENCE_RESIDUE",
-        "next_handoff": "Test one preregistered physical protocol with explicit side-information and quantitative setting/history independence or entropy bounds; determine whether the finite operational bound has any valid route to E199's degree separation."
+        "run_id": "RUN-0213",
+        "artifact": "explorations/E201-cosmic-bell-excess-predictability-bound-2026-07-25.md",
+        "candidate": "cosmic_bell_excess_predictability_bound",
+        "verdict": "QUANTIFIED_CORRUPT_TRIAL_BOUND_WITH_ORACLE_DEGREE_RESIDUE",
+        "next_handoff": "Test a device-independent randomness-amplification protocol whose theorem returns smooth/min-entropy against explicit side information; determine whether that finite operational conclusion has any valid route to E199's degree separation."
       },
       "kill_condition": "If every physically legitimate candidate is reproducible by an admitted fixed-source, whole-family, history, boundary, stochastic, resource, access, relabeling, or gauge completion, preserve the scoped absorption and narrow TI rather than moving the completion goalposts.",
       "forbidden_shortcut": "Do not promote unpredictability, randomness, chaos, computation cost, irreversibility, observer ignorance, quantum indeterminacy, or a changing description into source issuance.",
@@ -49,7 +49,7 @@
           "state": "READY_ON_QUALIFYING_PACKET",
           "priority_score": 24,
           "hourly_eligible": true,
-          "next_swing": "Use one preregistered named physical protocol and strongest correlated fixed rival. Declare initial state, setting source, side information, causal model, and quantitative independence or entropy bound; then test whether that finite operational bound has any legitimate route to J_H not Turing-reducible to O. Bell violation, cosmic distance, device-independent language, finite randomness, a computability paraphrase, or trace-only intervention is insufficient. If proposing a physical candidate, it must also pass tools/physical_candidate_survivor_intake.py.",
+          "next_swing": "Use one device-independent randomness-amplification protocol and its strongest fixed rival. Declare the adversary, side-information model, entropy object, security distance, finite-size condition, and whether the theorem covers all admissible stage-0 information; then test whether smooth/min-entropy has any legitimate route to J_H not Turing-reducible to O. Cosmic distance, finite guessing advantage, asymptotic entropy rate, almost-sure randomness, a computability paraphrase, or trace-only intervention is insufficient. If proposing a physical candidate, it must also pass tools/physical_candidate_survivor_intake.py.",
           "intake_gate_2026_07_22": "E195 closes the prose-to-intake enforcement blocker. A label-only packet now fails closed; even a shape-complete packet returns ADMIT_FOR_ADJUDICATION_ONLY and establishes no physical source issuance. Run the registered targeted test before substantive source, CompletionClass, and observable-separation adjudication.",
           "success_condition": "A typed candidate supplies a native transition and source law, matched physical context, boundary response, W4 nonfactorization, and a residual not already encoded in the preregistered fixed family.",
           "kill_condition": "The candidate is only observer-side projection, access change, record readout, fixed-family selection, effective low-energy/gauge description, or a restatement of a previously absorbed class."
@@ -108,7 +108,7 @@
       "purpose": "Formal local issuance, Lean fixtures, and conditional theorems that directly support the physical witness campaign.",
       "activation": "Select only when it closes a named active-lane blocker or no active physical candidate work is executable.",
       "forbidden_shortcut": "Do not let another clean formal/local witness replace the unresolved physical source question.",
-      "latest_result": "RUN-0212/E200 applies the corrected E199 contract to CHSH Bell physics: causal separation is supported, while measurement independence and finite-data degree separation remain independent assumptions. The next blocker is a quantitative physical independence/entropy bound with a legitimate route to the stronger non-reducibility guard. No claim or Lane control moved.",
+      "latest_result": "RUN-0213/E201 applies E200's quantified follow-up to high-redshift-quasar Cosmic Bell physics: its epsilon budget constrains a declared corrupt-setting family and strengthens causal lookback, while unrestricted initial-state independence and finite-data degree separation remain unproved. The next blocker is whether a composable smooth/min-entropy theorem has any legitimate route to the stronger non-reducibility guard. No claim or Lane control moved.",
       "parent_lane_id": "1"
     }
   ],

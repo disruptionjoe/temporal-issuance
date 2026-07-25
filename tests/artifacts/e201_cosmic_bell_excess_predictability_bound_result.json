@@ -1,0 +1,45 @@
+{
+  "causal_lookback_gain": "under the protocol premises, the common-cause window is pushed back at least about 7.8 Gyr for the strongest quasar pair",
+  "causal_model": "local-realist corrupt-trial model plus explicit no-preview and no-selective-alteration premises",
+  "claim_status_change": null,
+  "construction": "high-redshift-quasar Cosmic Bell setting protocol with excess-predictability budget",
+  "corrupt_trial_family_quantitatively_bounded": true,
+  "finite_bound_proves_turing_nonreducibility": false,
+  "future_independence_established": false,
+  "initial_state": "entangled-pair preparation plus any local-realist hidden state",
+  "physical_source_issuance_established": false,
+  "quantitative_fixture": {
+    "alice_corrupt_fractions": [
+      0.03,
+      0.04
+    ],
+    "bob_corrupt_fractions": [
+      0.04,
+      0.05
+    ],
+    "epsilon": 0.09,
+    "epsilon_below_threshold": true,
+    "fixture_not_experimental_data": true,
+    "local_realist_c_bound": 0.09,
+    "visibility": 0.93,
+    "visibility_threshold": 0.3152186130069785
+  },
+  "reason_no_degree_bridge": "epsilon bounds frequencies in a declared finite probabilistic model; it does not type or upper-bound the Turing degree of all admissible stage-zero side information",
+  "result": "QUANTIFIED_CORRUPT_TRIAL_BOUND_WITH_ORACLE_DEGREE_RESIDUE",
+  "setting_source": "dichroic wavelength classification of high-redshift quasar photons",
+  "side_information": [
+    "skyglow and detector noise",
+    "atmospheric and instrumental corruption",
+    "any selective alteration or preview of quasar wavelengths",
+    "any common cause correlating hidden state with the completed settings"
+  ],
+  "strongest_fixed_rival": {
+    "finite_transcript_encoded": true,
+    "finite_transcript_reproduced": true,
+    "inside_declared_corrupt_trial_model": false,
+    "rival_id": "stage_zero_completed_transcript_common_cause_oracle",
+    "stage_zero_fixed": true,
+    "violated_protocol_premise": "no preview/selective alteration or unrestricted common cause"
+  },
+  "unrestricted_initial_state_independence_established": false
+}

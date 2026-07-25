@@ -1,50 +1,50 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-24T23:38:00-05:00"
-run_ref: agent-runs/RUN-0212-bell-measurement-independence-contract.md
-bottom_line: "E200 finds Bell causal separation real but insufficient: measurement independence and finite-data degree separation remain independent premises."
-decision_default: "Test one preregistered physical independence or entropy bound against E199's stronger non-reducibility burden."
+updated_at: "2026-07-25T03:31:03-05:00"
+run_ref: agent-runs/RUN-0213-cosmic-bell-excess-predictability-bound.md
+bottom_line: "E201 finds Cosmic Bell's quantitative corruption bound real but model-relative; unrestricted oracle degree remains unbounded."
+decision_default: "Test a device-independent smooth/min-entropy theorem against E199's stronger source-degree burden."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "RUN-0212/E200 pressured E199 in a CHSH Bell construction and separated causal isolation from measurement independence and degree separation."
-    movement_ref: agent-runs/RUN-0212-bell-measurement-independence-contract.md
+    last_movement: "RUN-0213/E201 quantified Cosmic Bell setting corruption and separated that finite model bound from unrestricted oracle degree."
+    movement_ref: agent-runs/RUN-0213-cosmic-bell-excess-predictability-bound.md
     steering_attention: watch
-    steering_prompt: "Quantify one physical initial-state/setting independence or entropy bound and test whether it can support E199's degree separation."
-    steering_ref: explorations/E200-bell-measurement-independence-contract-2026-07-24.md
+    steering_prompt: "Test a device-independent smooth/min-entropy theorem and keep finite guessing bounds distinct from source-degree escape."
+    steering_ref: explorations/E201-cosmic-bell-excess-predictability-bound-2026-07-25.md
     light: yellow
-    reason_code: bell_measurement_independence_residue
-    evidence_ref: explorations/E200-bell-measurement-independence-contract-2026-07-24.md
-    summary: "Spacelike separation supports causal isolation, but Bell statistics do not derive future-independence or Turing-degree separation."
-    evaluated_at: "2026-07-24T23:38:00-05:00"
-    run_ref: agent-runs/RUN-0212-bell-measurement-independence-contract.md
+    reason_code: cosmic_bell_oracle_degree_residue
+    evidence_ref: explorations/E201-cosmic-bell-excess-predictability-bound-2026-07-25.md
+    summary: "Cosmic Bell bounds declared corrupt settings and strengthens causal lookback, but does not type unrestricted side-information degree."
+    evaluated_at: "2026-07-25T03:31:03-05:00"
+    run_ref: agent-runs/RUN-0213-cosmic-bell-excess-predictability-bound.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "RUN-0212 closed causal separation for one named model and exposed measurement independence as the unresolved physical premise."
-    scope_position: "E199 has one physical construction pressure; causal separation passes, future-independence and degree separation do not."
+    progress_delta: "RUN-0213 closed the Cosmic Bell epsilon route as a real corrupt-trial bound with no bridge to unrestricted Turing degree."
+    scope_position: "E199 has two Bell-family pressures; causal and corruption bounds improve, future-independence and degree separation remain open."
     trend_24h: up
     confidence: high
-    recommendation: "Test a quantitative independence bound against degree separation."
+    recommendation: "Pressure smooth/min-entropy against source degree."
     findings:
-      - "Spacelike CHSH geometry supports separating static local response from post-setting adaptive communication."
-      - "A stage-0 measurement-dependent local schedule reproduces the finite contract transcript without later communication."
-      - "Bell statistics do not derive measurement independence, and finite data do not prove J_H not <=_T O."
+      - "Cosmic Bell's epsilon budget quantitatively constrains the declared corrupt-setting family."
+      - "Its 7.8-Gyr lookback is conditional on no preview, selective alteration, or unrestricted common cause."
+      - "A finite frequency bound does not type or upper-bound the Turing degree of all stage-0 side information."
       - "TI-C019 remains formalizing; TI-C020 remains parked; TI-3 remains orthogonal."
     options:
       - letter: A
-        label: "Quantified bound"
+        label: "Entropy theorem"
         recommended: true
-        summary: "Test explicit side-information and entropy assumptions."
+        summary: "Test composable smooth/min-entropy against explicit side information."
       - letter: B
         label: "Qualified candidate"
         recommended: false
         summary: "Adjudicate only if it also clears the six-criterion gate."
       - letter: C
-        label: "Further formalism"
+        label: "Degree theorem"
         recommended: false
-        summary: "Use only for a theorem linking operational bounds to degree."
-    decision_default: "Test one quantitative independence bound without promoting finite randomness into issuance."
+        summary: "Use only if a real bridge from entropy to degree is stated."
+    decision_default: "Test one smooth/min-entropy protocol without promoting finite randomness into issuance."
     needs_joe: false
   - lane_id: A
     work_status: moving

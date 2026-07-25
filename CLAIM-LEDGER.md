@@ -1655,3 +1655,26 @@ TI-C020:
     remains parked pending a typed native source-law packet with verifier-backed
     nonfactorization, Adapter_P, W1, W4, and W5 evidence.
 ```
+
+## RUN-0213 Cosmic Bell Excess-Predictability Boundary (2026-07-25)
+
+No status move and no promotion. Record:
+`explorations/E201-cosmic-bell-excess-predictability-bound-2026-07-25.md`.
+
+```yaml
+TI-C019:
+  status: formalizing   # UNCHANGED
+  effect: >
+    The high-redshift-quasar Cosmic Bell protocol supplies an explicit
+    excess-predictability budget for its declared corrupt-setting family and
+    strengthens the ordinary common-cause lookback under named premises. It
+    does not bound the Turing degree of unrestricted stage-0 side information
+    or establish J_H not <=_T O.
+
+TI-C020:
+  status: parked        # UNCHANGED
+  effect: >
+    No physical source issuance or energy/cosmology bridge is established.
+    Finite predictability, visibility, and causal-lookback bounds remain
+    insufficient without a source-degree and future-independence result.
+```

@@ -32,7 +32,38 @@ TI owns the source question (does anything genuinely cross the interface), with 
 `Ext_S` capability burden as the standing adapter obligation. See
 `TRI-REPO-DIVISION-OF-LABOR.md`.
 
-## Current frontier update (2026-07-24)
+## Current frontier update (2026-07-25)
+
+RUN-0213 / E201 executes E200's quantified follow-up in the
+high-redshift-quasar Cosmic Bell protocol. The protocol supplies a real
+operational improvement:
+
+```yaml
+declared_corrupt_trial_family_quantitatively_bounded: true
+bound_type: epsilon_lt_V_sqrt_2_minus_1
+causal_common_cause_lookback_strengthened: true
+unrestricted_initial_state_independence_established: false
+future_independence_established: false
+finite_bound_proves_J_H_not_Turing_reducible_to_O: false
+physical_source_issuance_established: false
+claim_status_change: none
+```
+
+The `epsilon` budget constrains setting corruption inside the declared
+probabilistic model. The 7.8-Gyr lookback constrains ordinary common causes
+under explicit no-preview/no-selective-alteration premises. A stage-0 oracle
+encoding the completed finite settings/outcomes sits outside that declared
+corruption family, so neither a smaller `epsilon` nor a longer causal distance
+types or upper-bounds its computational degree.
+
+The next physical swing should pressure a stronger theorem: a
+device-independent randomness-amplification protocol whose conclusion is
+smooth/min-entropy against an explicit adversary. It must still ask whether a
+finite composable entropy statement has any valid bridge to algorithmic
+noncomputability or `J_H not <=_T O`. Do not convert statistical secrecy,
+unpredictability, or almost-sure randomness into source-degree escape.
+
+## Prior frontier update (2026-07-24)
 
 RUN-0212 / E200 applies E199's physical contract to a
 spacelike-separated CHSH Bell experiment. The named construction separates

@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Formal Reserve (D-FORK)
 
+- `E201-cosmic-bell-excess-predictability-bound-2026-07-25.md` executes
+  E200's quantified-independence follow-up in the high-redshift-quasar Cosmic
+  Bell protocol. Its `epsilon < V sqrt(2)-1` budget constrains the declared
+  corrupt-setting family and its spacetime geometry pushes an admissible
+  common cause much farther into the past, but neither result bounds the
+  Turing degree of unrestricted stage-0 side information. No physical source
+  issuance is established and no claim moves.
 - `E200-bell-measurement-independence-contract-2026-07-24.md` applies E199's
   corrected physical contract to a spacelike-separated CHSH Bell
   construction. Bell geometry supports causal separation from post-setting

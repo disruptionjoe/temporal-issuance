@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0212
+updated_by_run: RUN-0213
 intake_processed_by_run: RUN-0046
 ---
 
@@ -19,17 +19,18 @@ blocker-resolution, or capability-hardening route can proceed, close with the
 exact evidenced blocker and attempted route. `no_worthy_work` is not a regular
 cycle result; older references below are historical.
 
-## ACTIVE 2026-07-24: Post-E200 Quantified Independence Bound
+## ACTIVE 2026-07-25: Post-E201 Entropy-vs-Degree Boundary
 
-RUN-0212 / E200 tested E199's corrected physical discloser contract in a
-spacelike-separated CHSH Bell construction.
+RUN-0213 / E201 tested the high-redshift-quasar Cosmic Bell protocol's
+quantitative excess-predictability budget against E199.
 
 ```yaml
-result: BELL_CAUSAL_SEPARATION_WITH_MEASUREMENT_INDEPENDENCE_RESIDUE
-causal_source_separation_supported: true
-measurement_independence_derived: false
+result: QUANTIFIED_CORRUPT_TRIAL_BOUND_WITH_ORACLE_DEGREE_RESIDUE
+declared_corrupt_trial_family_bounded: true
+causal_lookback_strengthened: true
+unrestricted_initial_state_independence_established: false
 future_independence_established: false
-finite_data_degree_separation_established: false
+finite_bound_degree_separation_established: false
 physical_source_issuance_established: false
 claim_status_change: none
 ```
@@ -37,25 +38,34 @@ claim_status_change: none
 Active next trigger:
 
 ```text
-test whether one preregistered physical protocol supplies a quantitative
-initial-state/setting independence or entropy bound that can legitimately
-support E199's stronger degree/access separation
+test a device-independent randomness-amplification protocol whose theorem
+returns smooth/min-entropy against explicit side information, then determine
+whether that conclusion has any legitimate route to source-degree separation
 ```
 
 Selection contract:
 
-1. Preserve Bell's actual gain: spacelike separation distinguishes static
-   local response from post-setting adaptive communication.
-2. Do not infer measurement independence from Bell violation, cosmic setting
-   distance, device-independent language, or a finite randomness certificate.
-3. Name the initial state, setting source, side information, causal model,
-   quantitative independence/entropy assumption, and strongest correlated
-   fixed rival.
-4. State whether the operational finite bound has any valid route to
-   `J_H not <=_T O`; a finite unpredictability or entropy claim is not
-   automatically a Turing-degree separation.
+1. Preserve E201's gain: an explicit excess-predictability budget constrains a
+   declared corrupt-setting family, and cosmic geometry strengthens the
+   causal lookback under named premises.
+2. Use a theorem with an explicit adversary, side-information model, entropy
+   object, security distance, finite-size condition, and strongest fixed
+   rival.
+3. Separate finite smooth/min-entropy, asymptotic entropy rate,
+   algorithmic randomness of an individual infinite sequence, and
+   Turing-degree non-reducibility.
+4. State whether the theorem actually types all admissible stage-0 side
+   information or merely bounds guessing probability inside its model.
 5. Preserve `TI-C019` formalizing, `TI-C020` parked, and no cross-repo verdict
    absent independent gate-clearing evidence.
+
+## RESOLVED 2026-07-24: Post-E200 Quantified Independence Bound
+
+RUN-0212 / E200 selected a quantitative physical independence/entropy
+protocol. RUN-0213 / E201 executed that route with the Cosmic Bell
+excess-predictability budget and closed it as a model-relative operational
+bound with no source-degree bridge. See
+`explorations/E201-cosmic-bell-excess-predictability-bound-2026-07-25.md`.
 
 ## RESOLVED 2026-07-24: Post-E199 Physical Oracle Contract
 

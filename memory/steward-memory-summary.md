@@ -3,10 +3,25 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0212
+last_summarized_run: RUN-0213
 ---
 
 # Steward Memory Summary
+
+## E201 Cosmic Bell quantitative boundary (RUN-0213, 2026-07-25)
+
+The high-redshift-quasar Cosmic Bell protocol supplies an explicit
+excess-predictability budget: `C <= epsilon` with
+`epsilon = max epsilon_a + max epsilon_b`, admitted only when
+`epsilon < V sqrt(2)-1`. This genuinely bounds the declared corrupt-setting
+family and, under no-preview/no-selective-alteration premises, pushes an
+ordinary common cause at least about 7.8 Gyr into the past. It does not bound
+the Turing degree of unrestricted stage-0 side information. A completed finite
+transcript oracle lies outside the paper's declared corruption family rather
+than exceeding its numerical budget. No claim moved; `TI-C019` remains
+formalizing and `TI-C020` remains parked. Next: test a device-independent
+randomness-amplification theorem with explicit smooth/min-entropy against side
+information, keeping finite entropy distinct from degree escape.
 
 ## E200 Bell contract (RUN-0212, 2026-07-24)
 

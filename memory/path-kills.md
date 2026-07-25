@@ -1050,3 +1050,33 @@ claim_refs:
   - TI-C019
   - TI-C020
 ```
+
+## RUN-0213
+
+```yaml
+path: cosmic_distance_or_excess_predictability_as_source_degree_evidence
+reason_killed: >
+  E201 shows that the high-redshift-quasar Cosmic Bell epsilon budget
+  constrains a declared corrupt-setting probabilistic family and that its
+  spacetime geometry conditionally moves an ordinary common-cause boundary
+  into the distant past. Neither conclusion types or upper-bounds all
+  admissible stage-0 side information. A completed finite transcript oracle
+  lies outside the declared corruption family rather than exceeding epsilon.
+evidence: >
+  `explorations/E201-cosmic-bell-excess-predictability-bound-2026-07-25.md`,
+  `tools/e201_cosmic_bell_excess_predictability_bound.py`, and
+  `tests/artifacts/e201_cosmic_bell_excess_predictability_bound_result.json`.
+local_minimum_risk: >
+  High if over-read. This kill does not erase the protocol's real operational
+  gain against declared corrupt settings or its causal lookback. It blocks
+  only promotion of those finite/model-relative results into unrestricted
+  future-independence or Turing-degree escape.
+possible_future_resurrection_trigger: >
+  A physical theorem that explicitly covers the relevant stage-0 side
+  information and proves a non-reducibility conclusion, not merely a finite
+  guessing-probability, entropy, visibility, or causal-distance bound.
+run_ref: RUN-0213
+claim_refs:
+  - TI-C019
+  - TI-C020
+```

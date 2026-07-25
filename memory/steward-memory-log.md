@@ -1990,3 +1990,33 @@ side-information and entropy/independence bound, then determine whether it has
 any valid route to E199's degree separation.
 Files changed: E200 exploration/executable/test surfaces, current
 claim/roadmap/portfolio/Lane/trigger truth, memory, and RUN-0212.
+
+## RUN-0213
+
+Timestamp: 2026-07-25
+Trigger: scheduled Repository Work Cycle, purpose-driven Progress
+Workflow: repo-progress-run (execute), Lane 1
+Agent / subagents used: Repo Steward (direct mount).
+Current strongest version: The high-redshift-quasar Cosmic Bell protocol
+quantitatively bounds excess setting predictability inside a declared
+corrupt-trial model and conditionally pushes an ordinary common cause at least
+about 7.8 Gyr into the past.
+Current strongest objection: The bound does not type unrestricted stage-0
+side information. A completed finite transcript oracle violates the protocol's
+no-preview/no-selective-alteration or unrestricted-common-cause premise rather
+than its numerical epsilon threshold.
+What collapsed: Smaller finite excess predictability or longer cosmic
+lookback as a sufficient route to E199's Turing-degree guard.
+What survived: A real quantitative operational bound, conditional causal
+lookback, and the sharper requirement to test an entropy theorem against
+explicit side information.
+What was absorbed: Cosmic Bell setting novelty as source-degree evidence.
+What was clarified: Corrupt-trial frequency bounds, causal premises, smooth
+entropy, algorithmic randomness, and Turing-degree separation are distinct
+logical types.
+What was promoted: None. TI-C019 remains formalizing; TI-C020 remains parked.
+Recommended next run: Pressure one device-independent randomness-amplification
+theorem with an explicit smooth/min-entropy conclusion against E199's
+source-degree guard.
+Files changed: E201 exploration/executable/test surfaces, current
+claim/roadmap/portfolio/Lane/trigger truth, memory, and RUN-0213.
