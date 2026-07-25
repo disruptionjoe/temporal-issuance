@@ -1678,3 +1678,25 @@ TI-C020:
     Finite predictability, visibility, and causal-lookback bounds remain
     insufficient without a source-degree and future-independence result.
 ```
+
+## RUN-0214 Device-Independent Entropy Degree Boundary (2026-07-25)
+
+No status move and no promotion. Record:
+`explorations/E202-randomness-amplification-degree-boundary-2026-07-25.md`.
+
+```yaml
+TI-C019:
+  status: formalizing   # UNCHANGED
+  effect: >
+    A named device-independent randomness-amplification theorem supplies
+    composable operational entropy against its explicit quantum adversary
+    model. That conclusion does not quantify over every admitted stage-0
+    oracle and does not prove J_H not <=_T O; it is not source issuance.
+
+TI-C020:
+  status: parked        # UNCHANGED
+  effect: >
+    Neither composable secrecy nor finite smooth/min-entropy establishes a
+    physical source, future-independence, or a degree/access bound on all
+    fixed-history and fixed-branch oracle rivals.
+```

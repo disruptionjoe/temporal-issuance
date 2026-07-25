@@ -7,6 +7,13 @@ constitutional: false
 
 # Explorations
 
+## Current
+
+- `E202-randomness-amplification-degree-boundary-2026-07-25.md` tests a named
+  device-independent composable-entropy theorem against E199 and closes the
+  entropy-to-degree inference as a type error: explicit-model secrecy does not
+  quantify over all fixed stage-0 oracles or prove non-reducibility.
+
 Explorations are allowed to be speculative.
 
 They should still preserve:

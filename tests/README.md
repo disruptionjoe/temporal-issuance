@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- E202 randomness-amplification degree boundary: `python -m unittest tests.test_e202_randomness_amplification_degree_boundary`
 - E201 Cosmic Bell excess-predictability boundary: `python -m unittest tests.test_e201_cosmic_bell_excess_predictability_bound`
 - E200 Bell measurement-independence contract: `python -m unittest tests.test_e200_bell_measurement_independence_contract`
 - E196 fixed-oracle countermodel and corrected degree guard: `python -m unittest tests.test_e196_fixed_oracle_countermodel`

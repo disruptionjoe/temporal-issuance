@@ -1,0 +1,20 @@
+{
+  "result": "COMPOSABLE_ENTROPY_BOUND_WITH_DEGREE_RESIDUE",
+  "primary_source": "Kessler and Arnon-Friedman, arXiv:1705.04148",
+  "theorem_model": {
+    "operational_entropy_conclusion": true,
+    "all_stage_zero_side_information_typed": false,
+    "turing_nonreducibility_proved": false,
+    "e199_degree_guard_established": false,
+    "physical_source_issuance_established": false
+  },
+  "stage_zero_fixed_oracle_rival": {
+    "operational_entropy_conclusion": false,
+    "all_stage_zero_side_information_typed": false,
+    "turing_nonreducibility_proved": false,
+    "e199_degree_guard_established": false,
+    "physical_source_issuance_established": false
+  },
+  "boundary": "A composable smooth/min-entropy conclusion against the stated quantum adversary model is an operational secrecy result; it does not quantify over every stage-0 oracle or imply Turing-degree non-reducibility of the realized history.",
+  "claim_status_change": "none"
+}
