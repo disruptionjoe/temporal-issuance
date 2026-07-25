@@ -1,51 +1,50 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-24T18:45:08-05:00"
-run_ref: agent-runs/RUN-0211-e196-fixed-oracle-countermodel.md
-bottom_line: "E199 narrows E196: stage-0 fixedness does not bound oracle degree or future correlation; the next physical swing must justify those restrictions construction-by-construction."
-decision_default: "Test the corrected degree/access and future-independence contract in one named physical construction."
+updated_at: "2026-07-24T23:38:00-05:00"
+run_ref: agent-runs/RUN-0212-bell-measurement-independence-contract.md
+bottom_line: "E200 finds Bell causal separation real but insufficient: measurement independence and finite-data degree separation remain independent premises."
+decision_default: "Test one preregistered physical independence or entropy bound against E199's stronger non-reducibility burden."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "RUN-0211/E199 constructed one fixed pre-correlated oracle that reproduces the realized trace without oracle reselection, correcting E196's stronger corollary."
-    movement_ref: agent-runs/RUN-0211-e196-fixed-oracle-countermodel.md
+    last_movement: "RUN-0212/E200 pressured E199 in a CHSH Bell construction and separated causal isolation from measurement independence and degree separation."
+    movement_ref: agent-runs/RUN-0212-bell-measurement-independence-contract.md
     steering_attention: watch
-    steering_prompt: "Justify or falsify the corrected discloser degree/access and future-independence contract in a named physical construction."
-    steering_ref: explorations/E199-e196-fixed-oracle-countermodel-2026-07-24.md
+    steering_prompt: "Quantify one physical initial-state/setting independence or entropy bound and test whether it can support E199's degree separation."
+    steering_ref: explorations/E200-bell-measurement-independence-contract-2026-07-24.md
     light: yellow
-    reason_code: e196_fixed_oracle_boundary_corrected
-    evidence_ref: explorations/E199-e196-fixed-oracle-countermodel-2026-07-24.md
-    summary: "A fixed oracle can encode realized or counterfactual path information; the surviving guard is explicit non-reducibility, not stage-fixedness."
-    evaluated_at: "2026-07-24T18:45:08-05:00"
-    run_ref: agent-runs/RUN-0211-e196-fixed-oracle-countermodel.md
+    reason_code: bell_measurement_independence_residue
+    evidence_ref: explorations/E200-bell-measurement-independence-contract-2026-07-24.md
+    summary: "Spacelike separation supports causal isolation, but Bell statistics do not derive future-independence or Turing-degree separation."
+    evaluated_at: "2026-07-24T23:38:00-05:00"
+    run_ref: agent-runs/RUN-0212-bell-measurement-independence-contract.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
-    progress_delta: "RUN-0211 removed an invalid fixed-versus-re-indexed protection and split the physical hinge into degree/access, causal-source-separation, and future-independence assumptions."
-    scope_position: "E196's conditional degree guard survives; its stronger corollary is corrected. TI-C019 remains formalizing and TI-C020 parked."
+    progress_delta: "RUN-0212 closed causal separation for one named model and exposed measurement independence as the unresolved physical premise."
+    scope_position: "E199 has one physical construction pressure; causal separation passes, future-independence and degree separation do not."
     trend_24h: up
     confidence: high
-    recommendation: "Pressure the corrected physical discloser contract in one named construction."
+    recommendation: "Test a quantitative independence bound against degree separation."
     findings:
-      - "A single stage-0-fixed oracle O_H computing the joined option-set and realized-path information supports a static disclosure schedule without oracle reselection."
-      - "A fixed oracle may encode an entire counterfactual branch family, so trace intervention alone does not close the rival."
-      - "Stage-fixed, degree-bounded, and future-independent are distinct properties; NAA-Q does not independently impose the latter two on an external adversary."
-      - "The corrected theorem says J_H not <=_T O defeats an O-computable schedule; physical justification of that antecedent remains open."
-      - "TI-3 remains orthogonal and untouched."
+      - "Spacelike CHSH geometry supports separating static local response from post-setting adaptive communication."
+      - "A stage-0 measurement-dependent local schedule reproduces the finite contract transcript without later communication."
+      - "Bell statistics do not derive measurement independence, and finite data do not prove J_H not <=_T O."
+      - "TI-C019 remains formalizing; TI-C020 remains parked; TI-3 remains orthogonal."
     options:
       - letter: A
-        label: "Physical contract"
+        label: "Quantified bound"
         recommended: true
-        summary: "Test degree/access and future-independence in a named construction."
+        summary: "Test explicit side-information and entropy assumptions."
       - letter: B
         label: "Qualified candidate"
         recommended: false
-        summary: "Adjudicate only a construction that also clears the six-criterion gate."
+        summary: "Adjudicate only if it also clears the six-criterion gate."
       - letter: C
         label: "Further formalism"
         recommended: false
-        summary: "Use only for a new theorem or counterexample touching the corrected contract."
-    decision_default: "Test the corrected physical discloser contract construction-by-construction."
+        summary: "Use only for a theorem linking operational bounds to degree."
+    decision_default: "Test one quantitative independence bound without promoting finite randomness into issuance."
     needs_joe: false
   - lane_id: A
     work_status: moving

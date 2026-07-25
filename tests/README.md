@@ -19,6 +19,7 @@ Launch tests:
 
 Executable fixtures:
 
+- E200 Bell measurement-independence contract: `python -m unittest tests.test_e200_bell_measurement_independence_contract`
 - E196 fixed-oracle countermodel and corrected degree guard: `python -m unittest tests.test_e196_fixed_oracle_countermodel`
 - Post-tournament physical-candidate survivor intake: `python -m unittest tests.test_physical_candidate_survivor_intake`
 - Physical witness completion tournament: `python tests/test_physical_witness_completion_tournament.py`

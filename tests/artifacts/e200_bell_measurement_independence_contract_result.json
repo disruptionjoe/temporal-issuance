@@ -1,0 +1,74 @@
+{
+  "all_target_rows_win": true,
+  "causal_source_separation_supported": true,
+  "claim_status_change": null,
+  "construction": "spacelike-separated CHSH Bell experiment",
+  "degree_access_bound_established": false,
+  "finite_transcript_proves_turing_nonreducibility": false,
+  "future_independence_established": false,
+  "measurement_independence_is_independent_assumption": true,
+  "physical_source_issuance_established": false,
+  "result": "BELL_CAUSAL_SEPARATION_WITH_MEASUREMENT_INDEPENDENCE_RESIDUE",
+  "rows": [
+    {
+      "causal_source_separation_supported": true,
+      "encodes_completed_transcript": true,
+      "finite_transcript_reproduced": true,
+      "future_independence_established": false,
+      "local_response": true,
+      "measurement_independent": false,
+      "post_setting_communication": false,
+      "rival_id": "stage_zero_measurement_dependent_local_schedule",
+      "stage_zero_fixed": true,
+      "turing_nonreducibility_established_from_finite_data": false,
+      "verdict": "FIXED_MEASUREMENT_DEPENDENT_COMPLETION"
+    },
+    {
+      "causal_source_separation_supported": true,
+      "encodes_completed_transcript": false,
+      "finite_transcript_reproduced": false,
+      "future_independence_established": true,
+      "local_response": true,
+      "measurement_independent": true,
+      "post_setting_communication": false,
+      "rival_id": "measurement_independent_local_hidden_variable_family",
+      "stage_zero_fixed": true,
+      "turing_nonreducibility_established_from_finite_data": false,
+      "verdict": "BELL_LOCAL_INDEPENDENT_FAMILY_PRESSURED_BY_CHSH"
+    }
+  ],
+  "transcript": [
+    {
+      "a": 0,
+      "b": 0,
+      "chsh_win": true,
+      "trial": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "chsh_win": true,
+      "trial": 1,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "a": 0,
+      "b": 0,
+      "chsh_win": true,
+      "trial": 2,
+      "x": 1,
+      "y": 0
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "chsh_win": true,
+      "trial": 3,
+      "x": 1,
+      "y": 1
+    }
+  ]
+}

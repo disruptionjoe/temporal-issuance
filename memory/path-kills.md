@@ -1021,3 +1021,32 @@ run_ref: RUN-0211
 claim_refs:
   - TI-C019
 ```
+
+## RUN-0212
+
+```yaml
+path: Bell_violation_or_device_independence_as_sufficient_source_issuance_evidence
+reason_killed: >
+  E200 separates spacelike causal isolation from measurement independence. A
+  stage-0 measurement-dependent local schedule can encode and reproduce the
+  finite setting/outcome transcript without post-setting communication, and
+  finite Bell data do not prove J_H not <=_T O.
+evidence: >
+  `explorations/E200-bell-measurement-independence-contract-2026-07-24.md`,
+  `tools/e200_bell_measurement_independence_contract.py`, and
+  `tests/artifacts/e200_bell_measurement_independence_contract_result.json`.
+local_minimum_risk: >
+  High if over-read. Bell violations remain strong evidence against
+  measurement-independent local hidden-variable models; this kill concerns
+  only their promotion into source issuance or unconditional future
+  independence.
+possible_future_resurrection_trigger: >
+  A preregistered physical protocol with explicit side-information and causal
+  assumptions that proves a quantitative setting/history independence bound
+  and supplies a legitimate bridge from that finite operational bound to
+  E199's source-degree non-reducibility.
+run_ref: RUN-0212
+claim_refs:
+  - TI-C019
+  - TI-C020
+```

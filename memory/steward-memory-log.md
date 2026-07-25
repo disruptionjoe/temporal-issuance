@@ -1962,3 +1962,31 @@ Recommended next run: Test that contract against one named physical
 construction and its strongest fixed rival.
 Files changed: E199 countermodel/executable/test surfaces, E196 correction,
 current claim/roadmap/portfolio/Lane/trigger truth, memory, and RUN-0211.
+
+## RUN-0212
+
+Timestamp: 2026-07-24
+Trigger: scheduled Repository Work Cycle, purpose-driven Progress
+Workflow: repo-progress-run (execute), Lane 1
+Agent / subagents used: Repo Steward (direct mount).
+Current strongest version: In a spacelike-separated CHSH Bell construction,
+causal separation from post-setting communication is physically meaningful,
+but future-independence remains the separate measurement-independence premise.
+Current strongest objection: A stage-0 measurement-dependent local schedule
+can encode and reproduce any finite setting/outcome transcript without later
+communication; finite data do not prove E199's Turing non-reducibility guard.
+What collapsed: Bell violation, cosmic-setting distance, or
+device-independent language as sufficient future-independence or source-degree
+evidence.
+What survived: Bell causal separation and a sharper operational target for
+quantified initial-state/setting independence.
+What was absorbed: Finite Bell-transcript novelty as fixed correlated
+disclosure.
+What was clarified: Locality, measurement independence, and source-degree
+separation are distinct obligations.
+What was promoted: None. TI-C019 remains formalizing; TI-C020 remains parked.
+Recommended next run: Test one preregistered physical protocol with an explicit
+side-information and entropy/independence bound, then determine whether it has
+any valid route to E199's degree separation.
+Files changed: E200 exploration/executable/test surfaces, current
+claim/roadmap/portfolio/Lane/trigger truth, memory, and RUN-0212.

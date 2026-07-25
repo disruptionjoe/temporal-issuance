@@ -34,6 +34,30 @@ TI owns the source question (does anything genuinely cross the interface), with 
 
 ## Current frontier update (2026-07-24)
 
+RUN-0212 / E200 applies E199's physical contract to a
+spacelike-separated CHSH Bell experiment. The named construction separates
+two obligations that are often conflated:
+
+```yaml
+causal_source_separation_supported: true
+measurement_independence_derived_from_Bell_data: false
+future_independence_established: false
+finite_transcript_proves_J_H_not_Turing_reducible_to_O: false
+fixed_measurement_dependent_local_completion: exists_as_finite_control
+physical_source_issuance_established: false
+claim_status_change: none
+```
+
+Spacelike separation rules out ordinary post-setting communication under the
+declared causal model, but the Bell conclusion still requires independence
+between settings and hidden variables. A stage-0 measurement-dependent
+schedule can encode a finite setting/outcome transcript without later
+communication. The next physical swing should quantify a preregistered
+initial-state/setting independence or entropy bound and test whether it can
+legitimately support E199's stronger degree separation. Generic Bell
+nonlocality, device-independent randomness, or “loophole-free” language does
+not by itself close that burden.
+
 RUN-0211 / E199 attacks the open E196 physical-oracle hinge and finds a
 countermodel to E196's stronger fixed-versus-re-indexed corollary. One
 stage-0-fixed oracle can encode the joined option-set and realized-path

@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0211
+updated_by_run: RUN-0212
 intake_processed_by_run: RUN-0046
 ---
 
@@ -19,7 +19,45 @@ blocker-resolution, or capability-hardening route can proceed, close with the
 exact evidenced blocker and attempted route. `no_worthy_work` is not a regular
 cycle result; older references below are historical.
 
-## ACTIVE 2026-07-24: Post-E199 Physical Oracle Contract
+## ACTIVE 2026-07-24: Post-E200 Quantified Independence Bound
+
+RUN-0212 / E200 tested E199's corrected physical discloser contract in a
+spacelike-separated CHSH Bell construction.
+
+```yaml
+result: BELL_CAUSAL_SEPARATION_WITH_MEASUREMENT_INDEPENDENCE_RESIDUE
+causal_source_separation_supported: true
+measurement_independence_derived: false
+future_independence_established: false
+finite_data_degree_separation_established: false
+physical_source_issuance_established: false
+claim_status_change: none
+```
+
+Active next trigger:
+
+```text
+test whether one preregistered physical protocol supplies a quantitative
+initial-state/setting independence or entropy bound that can legitimately
+support E199's stronger degree/access separation
+```
+
+Selection contract:
+
+1. Preserve Bell's actual gain: spacelike separation distinguishes static
+   local response from post-setting adaptive communication.
+2. Do not infer measurement independence from Bell violation, cosmic setting
+   distance, device-independent language, or a finite randomness certificate.
+3. Name the initial state, setting source, side information, causal model,
+   quantitative independence/entropy assumption, and strongest correlated
+   fixed rival.
+4. State whether the operational finite bound has any valid route to
+   `J_H not <=_T O`; a finite unpredictability or entropy claim is not
+   automatically a Turing-degree separation.
+5. Preserve `TI-C019` formalizing, `TI-C020` parked, and no cross-repo verdict
+   absent independent gate-clearing evidence.
+
+## RESOLVED 2026-07-24: Post-E199 Physical Oracle Contract
 
 RUN-0211 / E199 tested E196's open physical oracle boundary with a fixed
 pre-correlated-oracle countermodel.

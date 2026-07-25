@@ -370,6 +370,31 @@ TI-C019:
     analog). No promotion for TI-C019 yet; FUNCTOR-OBL-001 and Q-OBL-001 remain open.
 ```
 
+## E200 Bell Measurement-Independence Contract (2026-07-24, no status change)
+
+```yaml
+TI-C019:
+  status: formalizing
+  effect: named_physical_discloser_contract_pressure
+  movement: none
+  addendum: >
+    E200 applies E199's corrected contract to a spacelike-separated CHSH Bell
+    construction. Spacelike separation supports the causal distinction between
+    static local response and post-setting adaptive communication. It does not
+    derive measurement independence between the initial hidden state and later
+    settings, and a finite transcript cannot prove J_H not <=_T O because one
+    fixed measurement-dependent schedule can encode and reproduce that
+    transcript. Bell nonlocality and device-independent randomness therefore
+    do not establish source issuance without an independent adversarial
+    setting/history-independence bound. TI-C020 remains parked.
+  evidence_refs_added:
+    - explorations/E200-bell-measurement-independence-contract-2026-07-24.md
+    - tools/e200_bell_measurement_independence_contract.py
+    - tests/test_e200_bell_measurement_independence_contract.py
+    - tests/artifacts/e200_bell_measurement_independence_contract_result.json
+    - agent-runs/RUN-0212-bell-measurement-independence-contract.md
+```
+
 ## E199 Fixed-Oracle Countermodel Correction (2026-07-24, no status change)
 
 ```yaml

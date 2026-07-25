@@ -3,10 +3,23 @@ artifact_type: steward_memory_summary
 status: active
 governance_role: compressed_memory
 constitutional: false
-last_summarized_run: RUN-0211
+last_summarized_run: RUN-0212
 ---
 
 # Steward Memory Summary
+
+## E200 Bell contract (RUN-0212, 2026-07-24)
+
+The first named physical pressure after E199 used a spacelike-separated CHSH
+Bell construction. Bell geometry supports causal separation from post-setting
+communication, but the theorem and data do not independently establish
+measurement independence between a fixed hidden state and later settings. A
+stage-0 measurement-dependent local schedule reproduces the finite contract
+fixture without later communication. Finite data also cannot prove E199's
+Turing non-reducibility antecedent. No claim moved; `TI-C019` remains
+formalizing and `TI-C020` remains parked. Next: quantify one preregistered
+initial-state/setting independence or entropy bound and test whether it has a
+legitimate route to degree separation.
 
 ## Regular cycle overlay (2026-07-24)
 

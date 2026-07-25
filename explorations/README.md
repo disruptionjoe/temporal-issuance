@@ -20,6 +20,13 @@ They should still preserve:
 
 ## Recent Formal Reserve (D-FORK)
 
+- `E200-bell-measurement-independence-contract-2026-07-24.md` applies E199's
+  corrected physical contract to a spacelike-separated CHSH Bell
+  construction. Bell geometry supports causal separation from post-setting
+  communication, but Bell statistics do not derive measurement independence
+  or Turing non-reducibility from a stage-0 hidden schedule. A fixed
+  measurement-dependent local completion reproduces the finite contract
+  fixture. No physical source issuance is established and no claim moves.
 - `E199-e196-fixed-oracle-countermodel-2026-07-24.md` corrects E196's
   fixed-versus-re-indexed boundary. A single stage-0-fixed oracle can encode
   the realized option/path join or a counterfactual branch family without
