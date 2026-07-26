@@ -1700,3 +1700,25 @@ TI-C020:
     physical source, future-independence, or a degree/access bound on all
     fixed-history and fixed-branch oracle rivals.
 ```
+
+## RUN-0216 Bekenstein Causal-Diamond Degree Boundary (2026-07-26)
+
+No status move and no promotion. Record:
+`explorations/E204-bekenstein-causal-diamond-degree-boundary-2026-07-26.md`.
+
+```yaml
+TI-C019:
+  status: formalizing   # UNCHANGED
+  effect: >
+    A Bekenstein bound applies to its declared finite-energy bounded system.
+    Without a physical complete-discloser containment theorem and an exclusion
+    of external or adaptive history access, this local capacity result does not
+    establish J_H not <=_T O.
+
+TI-C020:
+  status: parked        # UNCHANGED
+  effect: >
+    No physical source issuance or future-independence result is established.
+    A bounded causal-diamond interface alone is not a global source-degree
+    restriction.
+```

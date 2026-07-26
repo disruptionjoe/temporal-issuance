@@ -9,6 +9,11 @@ constitutional: false
 
 ## Current
 
+- `E204-bekenstein-causal-diamond-degree-boundary-2026-07-26.md` tests the
+  Bekenstein bounded-system entropy limit as E199's needed physical access
+  restriction. It closes the local-capacity shortcut: a bounded causal diamond
+  does not by itself contain the complete discloser or exclude an external or
+  adaptive fixed-history oracle, so it does not establish source degree.
 - `E202-randomness-amplification-degree-boundary-2026-07-25.md` tests a named
   device-independent composable-entropy theorem against E199 and closes the
   entropy-to-degree inference as a type error: explicit-model secrecy does not

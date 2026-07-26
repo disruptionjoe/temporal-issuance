@@ -1,0 +1,22 @@
+{
+  "bekenstein_scope": "finite-energy system in a bounded region; not an asserted global source-degree theorem",
+  "claim_status_change": null,
+  "falsifiable_consequence": "A proposed physical degree guard fails if its declared bounded region permits an external or adaptive oracle reproducing the same accessible transcript.",
+  "local_causal_diamond": {
+    "bounded_system_entropy_bound_applies": true,
+    "complete_static_discloser_contained": false,
+    "e199_degree_guard_established": false,
+    "e199_degree_guard_ready_for_derivation": false,
+    "external_or_adaptive_oracle_admitted": true,
+    "fixed_history_rival_survives": true
+  },
+  "physical_degree_exclusion_established": false,
+  "physical_source_issuance_established": false,
+  "required_positive_packet": [
+    "a physically warranted complete-discloser containment statement",
+    "a static, not adaptive, disclosure model",
+    "an exclusion of external fixed-history or branch-family access",
+    "a derivation connecting that closure to J_H not <=_T O"
+  ],
+  "result": "LOCAL_CAPACITY_BOUND_WITH_GLOBAL_CLOSURE_RESIDUE"
+}
