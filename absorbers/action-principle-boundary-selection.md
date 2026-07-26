@@ -3,7 +3,7 @@ artifact_type: absorber
 status: active
 absorber: action_principle_boundary_selection
 constitutional: false
-last_updated_by: external-paper-council-pass-2026-06-30
+last_updated_by: finster-causal-action-comparator-2026-07-26
 ---
 
 # Action-Principle Boundary Selection
@@ -62,6 +62,50 @@ Category risk: the free-boundary condition is a 4D geometric / physical-model fe
 framed as a pre-physical substrate claim. Comparing them directly can be a layer error (cf. the
 cosmological-expansion absorber's warning). Absorption is clean only if issuance commits to the geometric
 layer -- which costs it its "deeper than physics" ambition.
+
+## Causal-fermion-systems comparator (2026-07-26)
+
+Finster's causal fermion systems sharpen the same boundary in a more general
+variational setting. A supplied Hilbert space, spin dimension, operator
+domain, constraints, sector, and often a regularization define a causal
+action over universal measures. The action can genuinely select a set of
+minimizing measures:
+
+\[
+\operatorname*{arg\,min}_{\rho\in\mathcal A}\mathcal S(\rho).
+\]
+
+That is physical selection inside the declared variational problem, not a
+mere representation. But it still does not show that the action issues:
+
+- its own Hilbert/operator domain;
+- the admissible constraint or regulator family;
+- the observer, instrument, record map, or finality interface; or
+- one unique minimizer in general.
+
+Primary pointers:
+
+- [Causal Variational Principles on Measure Spaces](https://arxiv.org/abs/0811.2666);
+- [Causal Fermion Systems: An Introduction](https://arxiv.org/abs/2411.06450);
+- [Continuum Limit Analysis for Curved Spacetimes](https://arxiv.org/abs/2605.30199); and
+- [A Geometric Derivation of the Einstein Equations](https://arxiv.org/abs/2607.13871).
+
+The TI discriminator becomes:
+
+```text
+Does the proposed issuance create or constrain the candidate space, law, or
+extension rule upstream of the supplied variational problem?
+
+Or does an action merely select one or more configurations from a completed
+admissible class?
+```
+
+If the latter, it is selection without issuance at TI's present typing. If
+the former, the candidate must specify the source-owned rule and show that it
+cannot be absorbed into a larger fixed action/domain/constraint description.
+
+This is a scoped comparator. It does not establish that CFS is complete,
+unique, physically correct, or a Temporal Issuance result.
 
 ## Next test (discriminator)
 

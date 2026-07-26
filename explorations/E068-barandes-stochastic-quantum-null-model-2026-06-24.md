@@ -30,6 +30,34 @@ The strongest contact is the existing fixed-H versus H-growing gate:
 Barandes raises the bar on novelty by showing that broad stochastic dynamics
 may already admit standard quantum representation after dilation.
 
+## 2026-07-26 exact-scope correction
+
+The absorber is real, but its strongest safe domain is narrower than "every
+full stochastic process." In the revised
+[Stochastic-Quantum Theorem](https://arxiv.org/html/2309.03085v2), the proof
+starts from the distinguished initial-time transition family
+\(\Gamma(t\leftarrow0)\), builds a CPTP map and Stinespring dilation, and
+sets the enlarged conditioning-time set to
+\(\widetilde{\mathcal T}_0=\{0\}\). The marginal recovers the base-time
+family; the construction does not by itself preserve every original
+conditioning-time kernel, trajectory distribution, or intervention.
+
+Accordingly, the exact TI absorber is:
+
+```text
+supplied base-time stochastic family
+    -> nonunique Hilbert/Kraus/unitary representation
+    != selected physical stochastic law
+    != complete multi-time process
+    != Issue[S]
+```
+
+This correction does not weaken the issuance verdict. It prevents TI from
+using representational completion as either positive issuance evidence or a
+stronger no-go than the theorem earns. A multi-time issuance candidate must
+first be compared at the level of its full process tensor, quantum comb, or
+consistent joint law.
+
 ## TI Use Rule
 
 For any TI-C020-like physical-source proposal, ask first:
@@ -39,6 +67,11 @@ can the claimed transition already be modeled as a stochastic process whose
 effective behavior is absorbed by CPTP evolution plus unitary dilation on a
 fixed Hilbert space?
 ```
+
+When the target depends on memory, history, continuation, or intervention,
+replace "stochastic process" in this question with an interventionally
+complete multi-time object; matching only \(\Gamma(t\leftarrow0)\) is
+insufficient.
 
 If yes, the proposal has not yet earned H-growing or A-growing status.
 
