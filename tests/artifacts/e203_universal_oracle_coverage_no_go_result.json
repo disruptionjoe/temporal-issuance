@@ -1,0 +1,19 @@
+{
+  "boundary": "If the admitted class includes O = J_H, then J_H <=_T O by identity. A positive route needs a named physical access or degree restriction; entropy alone is not that restriction.",
+  "claim_status_change": null,
+  "physical_realizability_established": false,
+  "physical_source_issuance_established": false,
+  "physically_restricted_class": {
+    "all_stage_zero_oracles_admitted": false,
+    "independent_degree_exclusion_supplied": true,
+    "reflexive_jh_oracle_admitted": false,
+    "universal_jh_nonreducibility_possible": true
+  },
+  "result": "UNRESTRICTED_ORACLE_COVERAGE_REFUTED_AS_E199_ROUTE",
+  "unrestricted_stage_zero_class": {
+    "all_stage_zero_oracles_admitted": true,
+    "independent_degree_exclusion_supplied": false,
+    "reflexive_jh_oracle_admitted": true,
+    "universal_jh_nonreducibility_possible": false
+  }
+}

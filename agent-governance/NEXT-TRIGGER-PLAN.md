@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0213
+updated_by_run: RUN-0215
 intake_processed_by_run: RUN-0046
 ---
 
@@ -19,7 +19,20 @@ blocker-resolution, or capability-hardening route can proceed, close with the
 exact evidenced blocker and attempted route. `no_worthy_work` is not a regular
 cycle result; older references below are historical.
 
-## ACTIVE 2026-07-25: Post-E201 Entropy-vs-Degree Boundary
+## ACTIVE 2026-07-26: Post-E203 Physical Exclusion Burden
+
+RUN-0215/E203 shows that an unrestricted admitted stage-0 oracle class cannot
+support universal `J_H not <=_T O`: it admits the reflexive rival `O = J_H`
+unless a separate physical restriction excludes it. Entropy and secrecy are
+not that restriction.
+
+Active next trigger: test one named physical access, causal, or resource
+restriction with its strongest fixed rival and a falsifiable consequence. The
+restriction must arise from the construction, not from stage-0 fixedness,
+entropy language, or a definition of admissibility. Preserve the separate
+degree/access, causal-source, and future-independence burdens.
+
+## RESOLVED 2026-07-25: Post-E201 Entropy-vs-Degree Boundary
 
 RUN-0213 / E201 tested the high-redshift-quasar Cosmic Bell protocol's
 quantitative excess-predictability budget against E199.

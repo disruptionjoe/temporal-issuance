@@ -2020,3 +2020,17 @@ theorem with an explicit smooth/min-entropy conclusion against E199's
 source-degree guard.
 Files changed: E201 exploration/executable/test surfaces, current
 claim/roadmap/portfolio/Lane/trigger truth, memory, and RUN-0213.
+
+## RUN-0215
+
+Timestamp: 2026-07-26
+Workflow: repo-progress-run (execute), Lane 1
+What collapsed: Unrestricted all-stage-0-oracle coverage as a route to E199's
+degree guard, since the class admits the reflexive rival `O = J_H`.
+What survived: E199's conditional theorem and the need for physical degree/access,
+causal-source, and future-independence grounds.
+What was promoted: None. TI-C019 remains formalizing; TI-C020 remains parked.
+Recommended next run: Test a named physical exclusion of the reflexive oracle
+with its strongest fixed rival and falsifiable consequence.
+Files changed: E203 executable/test/exploration, trigger/Lane state, this
+memory record, and RUN-0215.

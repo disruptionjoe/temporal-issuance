@@ -1,25 +1,25 @@
 schema_version: "2.0"
 owner_id: temporal-issuance
 group: church-of-ai
-updated_at: "2026-07-25T08:15:00-05:00"
-run_ref: agent-runs/RUN-0214-randomness-amplification-degree-boundary.md
-bottom_line: "E202 finds composable device-independent entropy stronger than a corruption budget but still not a source-degree conclusion."
-decision_default: "Do not recast composable entropy as degree escape; seek only a theorem that explicitly covers admitted stage-0 information and non-reducibility."
+updated_at: "2026-07-26T04:08:00-05:00"
+run_ref: agent-runs/RUN-0215-unrestricted-oracle-coverage-no-go.md
+bottom_line: "E203 shows unrestricted stage-0 oracle coverage cannot yield source-degree separation; a positive route needs a physical exclusion."
+decision_default: "Test a named physical access, causal, or resource restriction; do not recast entropy or universal coverage as degree escape."
 needs_joe: false
 lanes:
   - lane_id: "1"
     work_status: moving
-    last_movement: "RUN-0214/E202 separated a named composable device-independent entropy theorem from E199's all-oracle degree burden."
-    movement_ref: agent-runs/RUN-0214-randomness-amplification-degree-boundary.md
+    last_movement: "RUN-0215/E203 refuted unrestricted stage-0 oracle coverage as an E199 degree route."
+    movement_ref: agent-runs/RUN-0215-unrestricted-oracle-coverage-no-go.md
     steering_attention: watch
-    steering_prompt: "Seek only an explicit all-admitted-oracle non-reducibility theorem; composable entropy alone is now a closed category boundary."
-    steering_ref: explorations/E202-randomness-amplification-degree-boundary-2026-07-25.md
+    steering_prompt: "Seek one named physical exclusion of the reflexive fixed oracle; entropy and unrestricted coverage are closed category boundaries."
+    steering_ref: explorations/E203-unrestricted-oracle-coverage-no-go-2026-07-26.md
     light: yellow
-    reason_code: composable_entropy_degree_residue
-    evidence_ref: explorations/E202-randomness-amplification-degree-boundary-2026-07-25.md
-    summary: "Composable entropy handles its explicit adversary model, not every stage-0 oracle or Turing non-reducibility."
-    evaluated_at: "2026-07-25T08:15:00-05:00"
-    run_ref: agent-runs/RUN-0214-randomness-amplification-degree-boundary.md
+    reason_code: unrestricted_oracle_coverage_no_go
+    evidence_ref: explorations/E203-unrestricted-oracle-coverage-no-go-2026-07-26.md
+    summary: "An unrestricted oracle class admits O = J_H, so universal degree separation requires a physical exclusion."
+    evaluated_at: "2026-07-26T04:08:00-05:00"
+    run_ref: agent-runs/RUN-0215-unrestricted-oracle-coverage-no-go.md
     objective: "Construct or kill Temporal Issuance through source-native candidates and completion attacks."
     progress_delta: "RUN-0214 closed the named composable-entropy route as operational secrecy with no bridge to unrestricted Turing degree."
     scope_position: "E199 has two Bell-family pressures; causal and corruption bounds improve, future-independence and degree separation remain open."

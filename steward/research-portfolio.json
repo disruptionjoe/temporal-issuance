@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "authority": "repo-local stewardship",
   "selection_contract": {
     "progress_must_load_this_file": true,
@@ -35,11 +35,11 @@
       },
       "current_authority": "CompletionClass v1 and the E177 three-world discriminator are bounded instruments. They do not establish physical issuance. The anti-collapse throughput, effective-gauge/topological-sector, monitored-dynamics, gravitational observer-algebra, CRISPR sequence-acquisition, dynamic/Floquet scheduled-code, prion-like conformational-templating, autocatalytic reaction-network, Schwinger/vacuum pair-production, Bose-Einstein-condensation/macroscopic phase-coherence, r-process nucleosynthesis/heavy-element abundance-flow, turbulent-cascade/inertial-range-structure, crack-branching/fracture-interface, and RUN-0204 spectral-gap/Wang-tiling candidates failed closed. RUN-0177 closed the whole-family completion tournament as scoped class-level absorption, and RUN-0204 showed that undecidable infinite-family classification does not make fixed finite stages non-c.e. RUN-0211/E199 then corrected E196: one stage-0-fixed pre-correlated oracle can encode the realized history or a full branch family without reselection. RUN-0212/E200 shows that spacelike Bell causal separation does not derive measurement independence or finite-data Turing-degree separation. RUN-0213/E201 shows that Cosmic Bell's explicit excess-predictability budget constrains its declared corrupt-setting model and strengthens causal lookback, but does not type unrestricted stage-0 side-information degree. The surviving guard is J_H not Turing-reducible to O. A positive physical construction must separately justify the degree/access bound, causal-source separation, and future-independence.",
       "latest_material_swing": {
-        "run_id": "RUN-0213",
-        "artifact": "explorations/E201-cosmic-bell-excess-predictability-bound-2026-07-25.md",
-        "candidate": "cosmic_bell_excess_predictability_bound",
-        "verdict": "QUANTIFIED_CORRUPT_TRIAL_BOUND_WITH_ORACLE_DEGREE_RESIDUE",
-        "next_handoff": "Test a device-independent randomness-amplification protocol whose theorem returns smooth/min-entropy against explicit side information; determine whether that finite operational conclusion has any valid route to E199's degree separation."
+        "run_id": "RUN-0215",
+        "artifact": "explorations/E203-unrestricted-oracle-coverage-no-go-2026-07-26.md",
+        "candidate": "unrestricted_oracle_coverage",
+        "verdict": "UNRESTRICTED_ORACLE_COVERAGE_REFUTED_AS_E199_ROUTE",
+        "next_handoff": "Test one named physical access, causal, or resource restriction that excludes the reflexive fixed oracle, with its strongest rival and a falsifiable consequence."
       },
       "kill_condition": "If every physically legitimate candidate is reproducible by an admitted fixed-source, whole-family, history, boundary, stochastic, resource, access, relabeling, or gauge completion, preserve the scoped absorption and narrow TI rather than moving the completion goalposts.",
       "forbidden_shortcut": "Do not promote unpredictability, randomness, chaos, computation cost, irreversibility, observer ignorance, quantum indeterminacy, or a changing description into source issuance.",
