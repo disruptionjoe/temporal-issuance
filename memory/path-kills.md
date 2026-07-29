@@ -35,6 +35,20 @@ run_ref:
 claim_refs:
 ```
 
+## RUN-0218
+
+```yaml
+path: Quantum no-cloning as a sufficient physical exclusion of E199's fixed-history oracle
+reason_killed: The no-cloning theorem constrains universal copying of an unknown quantum state. A stage-0 fixed classical description or schedule can reproduce the accessible transcript without performing that operation, so no-cloning does not establish J_H not <=_T O.
+evidence: explorations/E205-quantum-no-cloning-degree-boundary-2026-07-29.md and tests/test_e205_quantum_no_cloning_degree_boundary.py.
+local_minimum_risk: This closes only the inference from unknown-state copying to global degree exclusion; no-cloning may still constrain a named protocol that separately establishes complete-discloser closure.
+possible_future_resurrection_trigger: A physical packet showing that its strongest fixed classical-history rival necessarily performs the prohibited unknown-state copying operation and independently excludes all alternative fixed disclosers.
+run_ref: RUN-0218
+claim_refs:
+  - TI-C019
+  - TI-C020
+```
+
 ## RUN-0012
 
 ```yaml

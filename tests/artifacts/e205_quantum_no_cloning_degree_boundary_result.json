@@ -1,0 +1,22 @@
+{
+  "claim_status_change": "none",
+  "construction_boundary": "No-cloning excludes a universal copier for an unknown quantum state. E199's rival can instead be a stage-0 fixed classical description or schedule; reproducing its accessible transcript need not copy an unknown state.",
+  "falsifiable_consequence": "A proposed no-cloning degree guard fails unless it identifies the exact unknown-state copying operation required by the rival and independently excludes every fixed classical history description that reproduces the transcript.",
+  "no_cloning_case": {
+    "e199_degree_guard_established": false,
+    "fixed_classical_history_description_admitted": true,
+    "fixed_history_rival_survives": true,
+    "no_cloning_applies": true,
+    "universal_oracle_degree_exclusion": false
+  },
+  "physical_source_issuance_established": false,
+  "primary_source": "W. K. Wootters and W. H. Zurek, 'A single quantum cannot be cloned', Nature 299, 802\u2013803 (1982), doi:10.1038/299802a0",
+  "required_positive_case": {
+    "e199_degree_guard_established": true,
+    "fixed_classical_history_description_admitted": false,
+    "fixed_history_rival_survives": false,
+    "no_cloning_applies": true,
+    "universal_oracle_degree_exclusion": true
+  },
+  "result": "NO_CLONING_WITH_FIXED_HISTORY_DEGREE_RESIDUE"
+}

@@ -9,6 +9,11 @@ constitutional: false
 
 ## Current
 
+- `E205-quantum-no-cloning-degree-boundary-2026-07-29.md` tests quantum
+  no-cloning as E199's needed physical degree restriction. It closes the
+  copying shortcut: no-cloning bars universal copying of an unknown quantum
+  state, not a stage-0 fixed classical history description that reproduces an
+  accessible transcript.
 - `E204-bekenstein-causal-diamond-degree-boundary-2026-07-26.md` tests the
   Bekenstein bounded-system entropy limit as E199's needed physical access
   restriction. It closes the local-capacity shortcut: a bounded causal diamond

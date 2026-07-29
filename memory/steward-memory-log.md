@@ -9,6 +9,22 @@ constitutional: false
 
 Entries are append-only. Newest entries should be appended below unless the steward adopts a prepend-only convention in a later recorded governance change.
 
+## RUN-0218
+
+Timestamp: 2026-07-29
+Trigger: CapacityOS NBL Repository Work Cycle
+Workflow: repo-progress-run
+Current strongest version: E199's conditional degree guard remains the exact physical burden; a positive route needs complete discloser closure and a degree derivation.
+Current strongest objection: A stage-0 fixed classical history description can reproduce an accessible transcript without copying an unknown quantum state.
+What collapsed: The inference that quantum no-cloning alone excludes the E199 fixed-history oracle.
+What survived: No-cloning is a valid scoped restriction on universal copying of an unknown quantum state.
+What was absorbed: No TI claim; the no-cloning shortcut is recorded as a path kill.
+What was clarified: Copying, local capacity, and degree exclusion are distinct construction types.
+What was promoted: None.
+New blockers: A named complete physical-discloser closure has not been derived.
+Recommended next run: Derive that closure or test a typed source-native candidate against it.
+Files changed: E205 exploration, executable boundary fixture and tests, portfolio, trigger plan, path-kill log, and RUN-0218 receipt.
+
 ## RUN-0001
 
 Timestamp: 2026-06-22

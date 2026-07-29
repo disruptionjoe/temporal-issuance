@@ -3,7 +3,7 @@ artifact_type: trigger_plan
 status: active
 governance_role: next_trigger_state
 constitutional: false
-updated_by_run: RUN-0215
+updated_by_run: RUN-0218
 intake_processed_by_run: RUN-0046
 ---
 
@@ -31,6 +31,13 @@ restriction with its strongest fixed rival and a falsifiable consequence. The
 restriction must arise from the construction, not from stage-0 fixedness,
 entropy language, or a definition of admissibility. Preserve the separate
 degree/access, causal-source, and future-independence burdens.
+
+RUN-0216/E204 and RUN-0218/E205 close two non-substitutable shortcuts: a local
+Bekenstein capacity bound does not establish global discloser closure, and
+no-cloning of an unknown quantum state does not exclude a stage-0 fixed
+classical history description. Next selection must therefore either derive a
+named complete physical-discloser closure or introduce a typed source-native
+candidate that can be attacked by that closure contract.
 
 ## RESOLVED 2026-07-25: Post-E201 Entropy-vs-Degree Boundary
 
